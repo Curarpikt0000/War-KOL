@@ -246,11 +246,15 @@ def statements_pane(stmts, period):
     return head + "".join(blocks)
 
 
-# ── KOL 卡片：三层钻取 ──────────────────────────────────────
+# ── KOL 卡片：网格卡片 + 点击弹出钻取层（Chao 2026-09-02 指定卡片形式）──
+#   原实现是竖排 <details> 列表行，一屏只看得到几个人。
+#   改为响应式卡片网格：一屏纵览全部，点卡片弹出遮罩层看三层详情。
+#   言论明细走 JSON payload 由前端渲染，避免 62 张卡片内联 647 条把 HTML 撑爆。
 def kol_cards(roster, by_kol):
     groups = defaultdict(list)
     for k in roster:
         groups[(k.get("theater") or ["未分类"])[0]].append(k)
+    payload = {}
     out = []
     for t in sorted(groups, key=lambda x: -len(groups[x])):
         col = THEATER_COLOR.get(t, MUTED)
@@ -261,66 +265,54 @@ def kol_cards(roster, by_kol):
             stmts = by_kol.get(name, [])
             sr = k.get("rating") or ""
             sn = int(sr[0]) if sr and sr[0].isdigit() else 3
-            warn = ""
-            if k.get("watchlist"):
-                warn = '<div class="warn">监测对象 · 低可信度，需交叉验证</div>'
-            elif k.get("quality_flag"):
-                warn = f'<div class="flag">{esc(k["quality_flag"])}</div>'
-            one = esc((k.get("specialty") or "")[:90]) or "—"
-            detail = (
-                f'<div class="dt"><b>机构</b>{esc(k.get("affiliation") or "unknown")}</div>'
-                f'<div class="dt"><b>角色</b>{esc(k.get("role") or "unknown")}</div>'
-                f'<div class="dt"><b>四维</b>机构根基 {k.get("score_A")} · '
-                f'一手性 {k.get("score_B")} · 命中率 {k.get("score_C")} · '
-                f'透明度 {k.get("score_D")} → 加权 {k.get("weighted_score")}</div>'
-                f'<div class="dt"><b>评级依据</b>{esc(k.get("rating_reason") or "—")}</div>'
-                f'<div class="dt"><b>争议</b>{esc(k.get("controversies") or "none")}</div>')
-            # ── 第二层：带日期的时间列表；第三层：单条详情展开 ──
-            rows = []
-            for s in stmts:
-                dd = s.get("published_on") or "日期未核实"
-                dstat = s.get("date_status", "unverified")
-                dc = DIR_COLOR.get(s.get("direction"), MUTED)
-                summ = esc((s.get("summary") or "")[:600]) or "（该来源摘要为空，请直接看原文）"
-                rows.append(
-                    f'<div class="kd-row">'
-                    f'<div class="kd-hd"><span class="kd-caret">▸</span>'
-                    f'<span class="dirb" style="background:{dc}"></span>'
-                    f'<span class="kd-date{"" if dstat == "verified" else " kd-unv"}">{esc(dd)}</span>'
-                    f'<span class="kd-title">{esc(s.get("title", "")[:88])}</span></div>'
-                    f'<div class="kd-body"><div class="kd-sum">{summ}</div>'
-                    f'<div class="kd-meta">走势判断：<b style="color:{dc}">'
-                    f'{esc(s.get("direction"))}</b>　发表日状态：{esc(dstat)}　'
-                    f'归属校验：{esc(s.get("attribution_reason") or "—")}</div>'
-                    f'<a class="kd-src" href="{esc(s.get("source_url"))}" target="_blank" '
-                    f'rel="noopener">打开原始出处 →</a></div></div>')
-            drill = ("".join(rows) if rows else
-                     '<p class="empty">本轮未抓到可归属于本人的公开言论（如实标注，未编造）</p>')
             dirs = Counter(s.get("direction") for s in stmts)
-            badges = "".join(
-                f'<span class="badge" style="background:{DIR_COLOR[d]}22;'
-                f'color:{DIR_COLOR[d]};border-color:{DIR_COLOR[d]}66">{d} {c}</span>'
-                for d, c in dirs.most_common() if d)
-            cards.append(f'''
-<details class="card" style="border-left-color:{col}">
-  <summary>
-    <span class="star" style="color:{STAR_COLOR.get(sn, MUTED)}">{"★"*sn}{"☆"*(5-sn)}</span>
-    <span class="nm">{esc(name)}</span>
-    <span class="aff">{esc((k.get("affiliation") or "")[:52])}</span>
-    <span class="cnt">{len(stmts)} 条</span>
-  </summary>
-  {warn}
-  <div class="one">{one}</div>
-  <div class="badges">{badges}</div>
-  <div class="detail">{detail}</div>
-  <div class="sh">言论记录（点每条展开详情 → 再点链接看原文）</div>
-  <div class="kd-list">{drill}</div>
-</details>''')
+            real = {d: c for d, c in dirs.items() if d and d != "未表态"}
+            lead = max(real.items(), key=lambda kv: kv[1])[0] if real else "未表态"
+            lc = DIR_COLOR.get(lead, MUTED)
+            dated = sum(1 for s in stmts if s.get("published_on"))
+            flag = ""
+            if k.get("watchlist"):
+                flag = '<div class="kc-warn">监测对象 · 需交叉验证</div>'
+            elif k.get("quality_flag"):
+                flag = f'<div class="kc-flag">{esc(k["quality_flag"])}</div>'
+            cards.append(
+                f'<div class="kcard" data-kol="{esc(name)}" tabindex="0" role="button" '
+                f'style="border-top-color:{col}">'
+                f'<div class="kc-top">'
+                f'<span class="star" style="color:{STAR_COLOR.get(sn, MUTED)}">'
+                f'{"★"*sn}{"☆"*(5-sn)}</span>'
+                f'<span class="kc-score">{k.get("weighted_score") or "—"}</span></div>'
+                f'<div class="kc-name">{esc(name)}</div>'
+                f'<div class="kc-aff">{esc((k.get("affiliation") or "")[:58])}</div>'
+                f'{flag}'
+                f'<div class="kc-spec">{esc((k.get("specialty") or "")[:74]) or "—"}</div>'
+                f'<div class="kc-foot">'
+                f'<span class="kc-dir" style="background:{lc}22;color:{lc};'
+                f'border-color:{lc}66">{esc(lead)}</span>'
+                f'<span class="kc-n">{len(stmts)} 条 · {dated} 条有日期</span></div>'
+                f'<div class="kc-more">点击查看全部言论 →</div></div>')
+            payload[name] = {
+                "t": t, "star": sn,
+                "aff": k.get("affiliation") or "unknown",
+                "role": k.get("role") or "unknown",
+                "spec": k.get("specialty") or "",
+                "sa": k.get("score_A"), "sb": k.get("score_B"),
+                "sc": k.get("score_C"), "sd": k.get("score_D"),
+                "w": k.get("weighted_score"),
+                "why": k.get("rating_reason") or "—",
+                "ctr": k.get("controversies") or "none",
+                "watch": bool(k.get("watchlist")),
+                "flag": k.get("quality_flag") or "",
+                "h": [[s.get("published_on") or "", s.get("date_status") or "unverified",
+                       s.get("direction") or "", s.get("title") or "",
+                       (s.get("summary") or "")[:700], s.get("source_url") or "",
+                       s.get("attribution_reason") or ""] for s in stmts],
+            }
         out.append(f'<div class="tgroup"><div class="thead" style="border-color:{col}">'
                    f'<span class="tdot" style="background:{col}"></span>{esc(t)}'
                    f'<span class="tn">{len(people)} 人</span></div>'
-                   f'{"".join(cards)}</div>')
-    return "".join(out)
+                   f'<div class="kcard-grid">{"".join(cards)}</div></div>')
+    return "".join(out), payload
 
 
 def main():
@@ -353,6 +345,8 @@ def main():
         f'background:{DIR_COLOR[d]}"></span><span class="dc">{c}</span></div>'
         for d, c in dirc.most_common() if d)
 
+    cards_html, kol_payload = kol_cards(roster, by_kol)
+    payload_json = json.dumps(kol_payload, ensure_ascii=False, separators=(",", ":"))
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     doc = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -438,33 +432,54 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   padding:7px 0 7px 11px;border-left:3px solid;margin-bottom:9px}}
 .tdot{{width:9px;height:9px;border-radius:2px}}
 .tn{{color:{MUTED};font-size:12px;font-weight:400}}
-.card{{background:{PANEL};border:1px solid {GRID};border-left:3px solid;
-  border-radius:8px;margin-bottom:8px}}
-.card summary{{cursor:pointer;padding:11px 15px;display:flex;align-items:center;
-  gap:11px;list-style:none}}
-.card summary::-webkit-details-marker{{display:none}}
-.star{{font-size:12px;letter-spacing:1px;flex:none}}
-.nm{{font-weight:600;font-size:13.5px}}
-.aff{{color:{MUTED};font-size:11.5px;flex:1;overflow:hidden;white-space:nowrap;
-  text-overflow:ellipsis}}
-.cnt{{color:{MUTED};font-size:11.5px;flex:none}}
-.warn{{margin:0 15px 9px;padding:7px 11px;background:#bf616a22;
-  border:1px solid #bf616a66;border-radius:6px;font-size:12px;color:#e8a0a6}}
-.flag{{margin:0 15px 9px;padding:6px 11px;background:#ebcb8b1a;
-  border:1px solid #ebcb8b55;border-radius:6px;font-size:12px;color:#ebcb8b}}
-.one{{padding:0 15px 9px;font-size:13px}}
-.badges{{padding:0 15px 10px;display:flex;gap:6px;flex-wrap:wrap}}
+/* ── KOL 卡片网格（Chao 2026-09-02：列表 → 卡片）── */
+.kcard-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));
+  gap:11px}}
+.kcard{{background:{PANEL};border:1px solid {GRID};border-top:3px solid;
+  border-radius:9px;padding:12px 14px 10px;cursor:pointer;display:flex;
+  flex-direction:column;transition:transform .15s,box-shadow .15s,border-color .15s}}
+.kcard:hover{{transform:translateY(-2px);box-shadow:0 5px 16px rgba(0,0,0,.3);
+  border-color:{ACCENT}}}
+.kcard:focus-visible{{outline:2px solid {ACCENT};outline-offset:2px}}
+.kc-top{{display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:6px}}
+.star{{font-size:11.5px;letter-spacing:1px}}
+.kc-score{{font-size:11px;color:{MUTED};font-family:ui-monospace,monospace}}
+.kc-name{{font-size:13.5px;font-weight:600;margin-bottom:3px;line-height:1.35}}
+.kc-aff{{font-size:11px;color:{MUTED};line-height:1.45;margin-bottom:7px}}
+.kc-warn{{font-size:10.5px;color:#e8a0a6;background:#bf616a22;
+  border:1px solid #bf616a55;border-radius:5px;padding:3px 8px;margin-bottom:7px}}
+.kc-flag{{font-size:10.5px;color:#ebcb8b;background:#ebcb8b1a;
+  border:1px solid #ebcb8b44;border-radius:5px;padding:3px 8px;margin-bottom:7px}}
+.kc-spec{{font-size:11.5px;color:{FG};line-height:1.5;flex:1;margin-bottom:9px}}
+.kc-foot{{display:flex;align-items:center;justify-content:space-between;gap:8px}}
+.kc-dir{{font-size:10.5px;padding:2px 9px;border-radius:10px;border:1px solid;
+  flex:none}}
+.kc-n{{font-size:10.5px;color:{MUTED}}}
+.kc-more{{font-size:10.5px;color:{ACCENT};opacity:0;margin-top:7px;
+  transition:opacity .15s}}
+.kcard:hover .kc-more{{opacity:1}}
 .badge{{font-size:11px;padding:2px 8px;border-radius:10px;border:1px solid}}
-.detail{{margin:0 15px 11px;padding:11px 13px;background:{BG};border-radius:7px;
-  font-size:12.5px}}
+/* ── 钻取弹层：卡片 → 时间列表 → 单条详情 ── */
+.kd-mask{{position:fixed;inset:0;background:rgba(10,12,15,.72);z-index:900;
+  display:none;align-items:flex-start;justify-content:center;padding:40px 18px;
+  overflow-y:auto}}
+.kd-mask.on{{display:flex}}
+.kd-panel{{background:{BG};border:1px solid {GRID};border-radius:12px;
+  max-width:880px;width:100%;padding:22px 24px 26px;position:relative}}
+.kd-close{{position:absolute;top:14px;right:16px;background:none;border:none;
+  color:{MUTED};font-size:22px;cursor:pointer;line-height:1}}
+.kd-close:hover{{color:{FG}}}
+.kd-name{{font-size:19px;font-weight:600;margin-bottom:3px;padding-right:30px}}
+.kd-sub{{font-size:12px;color:{MUTED};margin-bottom:13px}}
+.kd-bio{{background:{PANEL};border:1px solid {GRID};border-radius:8px;
+  padding:12px 14px;font-size:12.5px;margin-bottom:14px}}
 .dt{{margin:5px 0}}
 .dt b{{color:{MUTED};font-weight:500;margin-right:8px;font-size:11.5px}}
-.sh{{padding:0 15px 6px;font-size:11.5px;color:{MUTED}}}
-/* 三层钻取：时间列表 → 单条详情 */
-.kd-list{{margin:0 15px 13px}}
+.kd-grp{{font-size:11.5px;color:{MUTED};margin:14px 0 7px}}
 .kd-row{{border:1px solid {GRID};border-radius:7px;margin-bottom:5px;
-  background:{BG};overflow:hidden}}
-.kd-hd{{display:flex;align-items:center;gap:8px;padding:7px 11px;cursor:pointer;
+  background:{PANEL};overflow:hidden}}
+.kd-hd{{display:flex;align-items:center;gap:8px;padding:8px 11px;cursor:pointer;
   font-size:12.5px}}
 .kd-hd:hover{{background:rgba(136,192,208,.07)}}
 .kd-caret{{color:{MUTED};font-size:10px;width:10px;flex:none}}
@@ -472,14 +487,13 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   flex:none;width:96px}}
 .kd-date.kd-unv{{color:{MUTED}}}
 .kd-title{{flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}}
-.kd-body{{display:none;padding:2px 13px 12px 30px;font-size:12.5px;
+.kd-body{{display:none;padding:2px 14px 13px 31px;font-size:12.5px;
   border-top:1px solid {GRID}}}
 .kd-row.open .kd-body{{display:block}}
-.kd-sum{{color:{FG};margin:9px 0}}
+.kd-sum{{color:{FG};margin:9px 0;line-height:1.65}}
 .kd-meta{{color:{MUTED};font-size:11.5px;margin-bottom:8px}}
 .kd-src{{font-size:12px}}
-.slist{{margin:0 15px 13px;padding-left:16px}}
-.slist li{{font-size:12.5px;margin:5px 0}}
+.kd-empty{{color:{MUTED};font-size:12.5px;padding:14px 0}}
 /* 言论卡片网格（Chao 2026-09-02 指定卡片形式，不用列表） */
 .scard-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(292px,1fr));
   gap:11px}}
@@ -546,7 +560,7 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 
 <div class="part-title"><span class="part-num">＋</span>观点全景
   <span class="desc">按战区分组，展开看评级依据；每条言论可再展开详情与原文</span></div>
-{kol_cards(roster, by_kol)}
+{cards_html}
 
 <div class="foot">
 名册 SSOT = Notion「War KOL List」，本页为单向镜像产物。<br>
@@ -556,6 +570,16 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 数据纪律：每条锚 source_url；发表日按实际发表日，查不到留空不用抓取日顶替；
 抓不到内容如实标注，绝不编造。
 </div>
+</div>
+
+<div class="kd-mask" id="kd-mask">
+  <div class="kd-panel">
+    <button class="kd-close" type="button" aria-label="关闭">×</button>
+    <div class="kd-name" id="kd-name"></div>
+    <div class="kd-sub" id="kd-sub"></div>
+    <div class="kd-bio" id="kd-bio"></div>
+    <div id="kd-body"></div>
+  </div>
 </div>
 
 <script>
@@ -668,6 +692,87 @@ document.addEventListener('click', function(ev) {{
     row.classList.toggle('open');
     var c = row.querySelector('.kd-caret');
     if (c) c.textContent = row.classList.contains('open') ? '▾' : '▸';
+    return;
+  }}
+  var kc = ev.target.closest ? ev.target.closest('.kcard') : null;
+  if (kc) {{ openKol(kc.getAttribute('data-kol')); return; }}
+  if (ev.target.closest && ev.target.closest('.kd-close')) {{ closeKol(); return; }}
+  if (ev.target.id === 'kd-mask') closeKol();
+}});
+
+/* ── KOL 钻取弹层：卡片 → 带日期时间列表 → 单条详情 ── */
+var KOL = {payload_json};
+var DIRC = {{"升级":"#bf616a","僵持":"#ebcb8b","降级":"#a3be8c","未表态":"#6c757d"}};
+function hesc(s) {{
+  return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}}
+function openKol(name) {{
+  var d = KOL[name];
+  if (!d) return;
+  var mask = document.getElementById('kd-mask');
+  document.getElementById('kd-name').textContent = name;
+  document.getElementById('kd-sub').textContent =
+    d.t + ' · ' + '★'.repeat(d.star) + '☆'.repeat(5 - d.star) + ' · 加权 ' + (d.w || '—');
+  var bio = '';
+  if (d.watch) bio += '<div class="kc-warn">监测对象 · 低可信度，需交叉验证后方可采信</div>';
+  else if (d.flag) bio += '<div class="kc-flag">' + hesc(d.flag) + '</div>';
+  bio += '<div class="dt"><b>机构</b>' + hesc(d.aff) + '</div>';
+  bio += '<div class="dt"><b>角色</b>' + hesc(d.role) + '</div>';
+  if (d.spec) bio += '<div class="dt"><b>专长</b>' + hesc(d.spec) + '</div>';
+  bio += '<div class="dt"><b>四维</b>机构根基 ' + d.sa + ' · 一手性 ' + d.sb +
+         ' · 命中率 ' + d.sc + ' · 透明度 ' + d.sd + ' → 加权 ' + d.w + '</div>';
+  bio += '<div class="dt"><b>评级依据</b>' + hesc(d.why) + '</div>';
+  bio += '<div class="dt"><b>争议</b>' + hesc(d.ctr) + '</div>';
+  document.getElementById('kd-bio').innerHTML = bio;
+  var h = d.h || [], body = '';
+  if (!h.length) {{
+    body = '<div class="kd-empty">本轮未抓到可归属于本人的公开言论（如实标注，未编造）。</div>';
+  }} else {{
+    var dated = [], undated = [];
+    for (var i = 0; i < h.length; i++) (h[i][0] ? dated : undated).push(h[i]);
+    dated.sort(function(a, b) {{ return a[0] < b[0] ? 1 : -1; }});
+    function rowHtml(r) {{
+      var c = DIRC[r[2]] || '#6c757d';
+      var dt = r[0] || '日期未核实';
+      var unv = (r[1] === 'verified') ? '' : ' kd-unv';
+      return '<div class="kd-row"><div class="kd-hd">' +
+        '<span class="kd-caret">▸</span>' +
+        '<span class="dirb" style="background:' + c + '"></span>' +
+        '<span class="kd-date' + unv + '">' + hesc(dt) + '</span>' +
+        '<span class="kd-title">' + hesc(r[3]) + '</span></div>' +
+        '<div class="kd-body"><div class="kd-sum">' +
+        (hesc(r[4]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
+        '<div class="kd-meta">走势判断：<b style="color:' + c + '">' + hesc(r[2]) +
+        '</b>　发表日状态：' + hesc(r[1]) + '　归属校验：' + hesc(r[6] || '—') + '</div>' +
+        '<a class="kd-src" href="' + hesc(r[5]) + '" target="_blank" rel="noopener">' +
+        '打开原始出处 →</a></div></div>';
+    }}
+    if (dated.length) {{
+      body += '<div class="kd-grp">已核实发表日 · ' + dated.length + ' 条（时间倒序）</div>';
+      for (var a = 0; a < dated.length; a++) body += rowHtml(dated[a]);
+    }}
+    if (undated.length) {{
+      body += '<div class="kd-grp">发表日未核实 · ' + undated.length +
+              ' 条（按纪律留空，不用抓取日顶替）</div>';
+      for (var b = 0; b < undated.length; b++) body += rowHtml(undated[b]);
+    }}
+  }}
+  document.getElementById('kd-body').innerHTML = body;
+  mask.classList.add('on');
+  document.body.style.overflow = 'hidden';
+}}
+function closeKol() {{
+  document.getElementById('kd-mask').classList.remove('on');
+  document.body.style.overflow = '';
+}}
+document.addEventListener('keydown', function(ev) {{
+  if (ev.key === 'Escape') {{ closeKol(); return; }}
+  if ((ev.key === 'Enter' || ev.key === ' ') && document.activeElement &&
+      document.activeElement.classList &&
+      document.activeElement.classList.contains('kcard')) {{
+    ev.preventDefault();
+    openKol(document.activeElement.getAttribute('data-kol'));
   }}
 }});
 </script>
