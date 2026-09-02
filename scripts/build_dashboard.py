@@ -55,6 +55,24 @@ def load(fn, default):
         return default
 
 
+def load_translations():
+    """中文翻译缓存（scripts/translate.py 产物）。
+
+    键：言论按 source_url，KOL 按 name_en/name_zh。
+    缺失即视为未翻译——前端会照实标注，绝不用英文冒充中文。
+    """
+    p = os.path.join(DATA, "translations.json")
+    if not os.path.exists(p):
+        return {"stmt": {}, "kol": {}}
+    try:
+        t = json.load(open(p, encoding="utf-8"))
+        t.setdefault("stmt", {})
+        t.setdefault("kol", {})
+        return t
+    except Exception:
+        return {"stmt": {}, "kol": {}}
+
+
 def all_statements():
     d = os.path.join(DATA, "statements")
     if not os.path.isdir(d):
@@ -160,7 +178,7 @@ def timeline_html(stmts):
             f'<div xmlns="http://www.w3.org/1999/xhtml" class="tl-card">'
             f'<div class="tl-d">{d.isoformat()}</div>'
             f'<div class="tl-k">{esc(s.get("kol", "")[:22])}</div>'
-            f'<div class="tl-t">{esc(s.get("title", "")[:46])}</div>'
+            f'<div class="tl-t">{esc((s.get("_title_cn") or s.get("title") or "")[:46])}</div>'
             f'</div></foreignObject>')
     axis = f'<line x1="40" y1="150" x2="{Wd-40}" y2="150" stroke="{GRID}" stroke-width="2"/>'
     return (f'<div class="tl-wrap"><svg width="{Wd}" height="270">{axis}{"".join(rows)}</svg></div>'
@@ -196,6 +214,12 @@ def region_pane(stmts, period):
 
 
 # ── 言论卡片（日/周/月档）────────────────────────────────────
+#   ★ 三级钻取（Chao 2026-09-02 拍板，全站统一）：
+#     L1 卡片正面 = 中文标题（+日期/方向/KOL）
+#     L2 点一次   = 中文言论总结（LLM 译写要点）
+#     L3 再点一次 = 英文原文摘要 + 原始出处链接
+#   为什么原文放第三级而不是直接给链接：读者先看懂「他说了什么」，
+#   再决定要不要花时间读英文原文；出处始终可达，不牺牲可追溯性。
 def statements_pane(stmts, period):
     pl = PERIOD_LABEL[period]
     if not stmts:
@@ -213,7 +237,9 @@ def statements_pane(stmts, period):
             f'涉及 <b>{len({s["kol"] for s in stmts})}</b> 位 KOL。方向分布：'
             + " ".join(f'<span class="badge" style="background:{DIR_COLOR[d]}22;'
                        f'color:{DIR_COLOR[d]};border-color:{DIR_COLOR[d]}66">{d} {c}</span>'
-                       for d, c in dirs.most_common() if d) + '</div>')
+                       for d, c in dirs.most_common() if d)
+            + '<br><span class="l3-tip">每张卡片三级展开：中文标题 → '
+              '中文言论总结 → 英文原文与出处；KOL 名前的色块＝所属战区</span></div>')
     blocks = []
     for t, items in sorted(by_t.items(), key=lambda kv: -len(kv[1])):
         col = THEATER_COLOR.get(t, MUTED)
@@ -223,19 +249,27 @@ def statements_pane(stmts, period):
             dc = DIR_COLOR.get(s.get("direction"), MUTED)
             dd = s.get("published_on") or "日期未核实"
             unv = "" if s.get("date_status") == "verified" else " sc-unv"
-            summ = esc((s.get("summary") or "")[:230]) or "（该来源摘要为空，请直接看原文）"
+            si = s.get("_si")
+            tcn = s.get("_title_cn") or s.get("title", "")
+            # 出处域名：展开前也能判断信源，不必先点两级才知道是谁发的
+            dom = ""
+            try:
+                dom = (s.get("source_url") or "").split("/")[2].replace("www.", "")
+            except Exception:
+                dom = ""
             cards.append(
-                f'<div class="scard" style="border-top-color:{dc}">'
+                f'<div class="scard" data-si="{si}" style="border-top-color:{dc}">'
                 f'<div class="sc-top">'
                 f'<span class="sc-dir" style="background:{dc}22;color:{dc};'
                 f'border-color:{dc}66">{esc(s.get("direction"))}</span>'
                 f'<span class="sc-date{unv}">{esc(dd)}</span></div>'
                 f'<div class="sc-kol"><span class="tdot" style="background:{col}"></span>'
                 f'{esc(s.get("kol", "")[:32])}</div>'
-                f'<div class="sc-title">{esc(s.get("title", "")[:96])}</div>'
-                f'<div class="sc-sum">{summ}</div>'
-                f'<a class="sc-src" href="{esc(s.get("source_url"))}" target="_blank" '
-                f'rel="noopener">原始出处 →</a></div>')
+                f'<div class="sc-title" title="{esc(tcn)}">{esc(tcn)}</div>'
+                f'<div class="sc-dom">{esc(dom)}</div>'
+                f'<div class="sc-lv sc-lv1"></div>'
+                f'<button type="button" class="sc-step" data-step="2">'
+                f'展开中文总结 ▾</button></div>')
         more = (f'<div class="pmore">另有 {len(items)-18} 条，见下方观点全景</div>'
                 if len(items) > 18 else "")
         blocks.append(
@@ -250,7 +284,122 @@ def statements_pane(stmts, period):
 #   原实现是竖排 <details> 列表行，一屏只看得到几个人。
 #   改为响应式卡片网格：一屏纵览全部，点卡片弹出遮罩层看三层详情。
 #   言论明细走 JSON payload 由前端渲染，避免 62 张卡片内联 647 条把 HTML 撑爆。
-def kol_cards(roster, by_kol, idx_of):
+# ── 战区升级温度计（借鉴 AI-News compute_danger_gauge 的加权净占比思路）──
+#   为什么要它：现在只有「升级 N 条 / 僵持 M 条」的原始计数，读者得自己心算谁更紧张。
+#   温度计把它归一到 -100~+100，一眼看出各战区的紧张度排序。
+#   ★ 加权口径（刻意确定性，不交给 LLM 判）：
+#     recency 半衰期 30 天（战况变化快，远比 AI 立场易变）× KOL 星级权重。
+#     「未表态」不计入分母——它是「没判断」，不是「判断中立」，
+#     混进去会把温度稀释成假中性。
+def theater_gauge(stmts, roster):
+    star_of = {}
+    for k in roster:
+        nm = k.get("name_en") or k.get("name_zh")
+        sr = k.get("rating") or ""
+        star_of[nm] = int(sr[0]) if sr and sr[0].isdigit() else 3
+    val = {"升级": 1.0, "僵持": 0.0, "降级": -1.0}
+    today = date.today()
+    agg = defaultdict(lambda: {"num": 0.0, "den": 0.0, "n": 0, "top": []})
+    for s in stmts:
+        d0 = s.get("direction")
+        if d0 not in val:
+            continue
+        p = s.get("published_on")
+        if not p:
+            continue
+        try:
+            days = max(0, (today - date.fromisoformat(p)).days)
+        except Exception:
+            continue
+        recency = 0.5 ** (days / 30.0)
+        w = recency * (star_of.get(s.get("kol"), 3) / 5.0)
+        t = s.get("theater") or "未分类"
+        a = agg[t]
+        a["num"] += val[d0] * w
+        a["den"] += w
+        a["n"] += 1
+        a["top"].append((w, s.get("kol"), d0, p))
+    out = []
+    for t, a in agg.items():
+        if a["den"] <= 0:
+            continue
+        g = round(100 * a["num"] / a["den"], 1)
+        a["top"].sort(reverse=True)
+        out.append({"theater": t, "gauge": g, "n": a["n"],
+                    "top": [(k, dd, pp) for _, k, dd, pp in a["top"][:3]]})
+    out.sort(key=lambda x: -x["gauge"])
+    return out
+
+
+def gauge_html(rows):
+    if not rows:
+        return ('<p class="empty">窗口内没有带已核实发表日的明确方向判断，'
+                '无法计算温度（不编造中性值）。</p>')
+    items = []
+    for r in rows:
+        g = r["gauge"]
+        # -100..100 → 0..100% 的指针位置
+        pos = (g + 100) / 2.0
+        col = "#bf616a" if g > 25 else ("#a3be8c" if g < -25 else "#ebcb8b")
+        tc = THEATER_COLOR.get(r["theater"], MUTED)
+        contrib = "、".join(f'{esc(k[:22])}（{esc(d)}）' for k, d, _ in r["top"])
+        items.append(
+            f'<div class="gg-row">'
+            f'<div class="gg-name"><span class="tdot" style="background:{tc}"></span>'
+            f'{esc(r["theater"])}</div>'
+            f'<div class="gg-track"><div class="gg-mid"></div>'
+            f'<div class="gg-pin" style="left:{pos:.1f}%;background:{col}"></div></div>'
+            f'<div class="gg-val" style="color:{col}">{g:+.0f}</div>'
+            f'<div class="gg-n">{r["n"]} 条</div>'
+            f'<div class="gg-top">权重最高：{contrib or "—"}</div></div>')
+    return (f'<div class="gg-wrap">'
+            f'<div class="gg-scale"><span>-100 降级</span>'
+            f'<span>0 僵持</span><span>+100 升级</span></div>'
+            f'{"".join(items)}'
+            f'<div class="gg-note">口径：方向值（升级+1／僵持0／降级-1）× '
+            f'时间衰减（半衰期 30 天）× KOL 星级权重，归一到 -100~+100。'
+            f'「未表态」不计入——那是没判断，不是判断中立。'
+            f'只用已核实发表日的言论。</div></div>')
+
+
+def changes_html():
+    """立场变化 call-out（数据由 scripts/stance_tracker.py 每日生成）。"""
+    d = load("stance_changes.json", {})
+    ch = d.get("changes") or []
+    if not ch:
+        why = d.get("reason") or "本期无立场变化"
+        return (f'<div class="kol-overview">暂无可报告的立场转向。'
+                f'<br><span style="color:{MUTED}">{esc(why)}。'
+                f'转向检测需要至少两份日快照做比对，'
+                f'系统每日 09:00 落一份，次日起自动产出。</span></div>')
+    KIND = {"escalate": ("转向升级", "#bf616a"),
+            "deescalate": ("转向降级", "#a3be8c"),
+            "new": ("新表态", "#88c0d0")}
+    rows = []
+    for c in ch[:24]:
+        lab, col = KIND.get(c["kind"], ("变化", MUTED))
+        arrow = (f'{esc(c["from"])} → <b style="color:{col}">{esc(c["to"])}</b>'
+                 if c.get("from") else f'<b style="color:{col}">{esc(c["to"])}</b>')
+        tc = THEATER_COLOR.get(c["theater"], MUTED)
+        rows.append(
+            f'<div class="ch-row" style="border-left-color:{col}">'
+            f'<span class="ch-kind" style="background:{col}22;color:{col};'
+            f'border-color:{col}66">{lab}</span>'
+            f'<span class="ch-kol">{esc(c["kol"][:34])}</span>'
+            f'<span class="ch-th"><span class="tdot" style="background:{tc}"></span>'
+            f'{esc(c["theater"])}</span>'
+            f'<span class="ch-arrow">{arrow}</span>'
+            f'<span class="ch-meta">近 {c["n"]} 条 · 最新 {esc(c["last"])}</span></div>')
+    more = (f'<div class="pmore">另有 {len(ch)-24} 条转向未列出</div>'
+            if len(ch) > 24 else "")
+    return (f'<div class="kol-overview">对比 <b>{esc(d.get("baseline_date"))}</b> 的快照，'
+            f'共 <b>{len(ch)}</b> 位 KOL 在某战区改变了主导判断。'
+            f'<br><span class="l3-tip">主导方向 = 该 KOL 该战区近 '
+            f'{d.get("window_days", 30)} 天言论的方向众数（排除未表态）</span></div>'
+            f'{"".join(rows)}{more}')
+
+
+def kol_cards(roster, by_kol, idx_of, tr):
     groups = defaultdict(list)
     for k in roster:
         groups[(k.get("theater") or ["未分类"])[0]].append(k)
@@ -262,6 +411,7 @@ def kol_cards(roster, by_kol, idx_of):
         cards = []
         for k in people:
             name = k.get("name_en") or k.get("name_zh")
+            kt = tr["kol"].get(name) or {}
             stmts = by_kol.get(name, [])
             sr = k.get("rating") or ""
             sn = int(sr[0]) if sr and sr[0].isdigit() else 3
@@ -283,9 +433,9 @@ def kol_cards(roster, by_kol, idx_of):
                 f'{"★"*sn}{"☆"*(5-sn)}</span>'
                 f'<span class="kc-score">{k.get("weighted_score") or "—"}</span></div>'
                 f'<div class="kc-name">{esc(name)}</div>'
-                f'<div class="kc-aff">{esc((k.get("affiliation") or "")[:58])}</div>'
+                f'<div class="kc-aff">{esc((kt.get("aff_cn") or k.get("affiliation") or "")[:58])}</div>'
                 f'{flag}'
-                f'<div class="kc-spec">{esc((k.get("specialty") or "")[:74]) or "—"}</div>'
+                f'<div class="kc-spec">{esc((kt.get("spec_cn") or k.get("specialty") or "")[:74]) or "—"}</div>'
                 f'<div class="kc-foot">'
                 f'<span class="kc-dir" style="background:{lc}22;color:{lc};'
                 f'border-color:{lc}66">{esc(lead)}</span>'
@@ -293,14 +443,21 @@ def kol_cards(roster, by_kol, idx_of):
                 f'<div class="kc-more">点击查看全部言论 →</div></div>')
             payload[name] = {
                 "t": t, "star": sn,
-                "aff": k.get("affiliation") or "unknown",
-                "role": k.get("role") or "unknown",
-                "spec": k.get("specialty") or "",
+                # 中文优先，未翻译时回落英文原文并由前端标注
+                "aff": kt.get("aff_cn") or k.get("affiliation") or "unknown",
+                "role": kt.get("role_cn") or k.get("role") or "unknown",
+                "spec": kt.get("spec_cn") or k.get("specialty") or "",
+                "aff_en": k.get("affiliation") or "",
+                "role_en": k.get("role") or "",
+                "spec_en": k.get("specialty") or "",
                 "sa": k.get("score_A"), "sb": k.get("score_B"),
                 "sc": k.get("score_C"), "sd": k.get("score_D"),
                 "w": k.get("weighted_score"),
-                "why": k.get("rating_reason") or "—",
-                "ctr": k.get("controversies") or "none",
+                "why": kt.get("why_cn") or k.get("rating_reason") or "—",
+                "why_en": k.get("rating_reason") or "",
+                "ctr": kt.get("ctr_cn") or k.get("controversies") or "none",
+                "ctr_en": k.get("controversies") or "",
+                "cn": bool(kt.get("status") == "ok"),
                 "watch": bool(k.get("watchlist")),
                 "flag": k.get("quality_flag") or "",
                 # 只存全局言论表的下标，明细统一由 STMTS 提供（去重、体积更小）
@@ -325,22 +482,28 @@ def main():
 
     periods = {p: slice_period(stmts, p) for p in ("day", "week", "month")}
 
-    # ── 全局言论表：地图弹层与 KOL 弹层共用同一份，避免重复内嵌 ──
+    # ── 全局言论表：地图弹层、言论卡片、KOL 弹层共用同一份 ──
     #   行格式（定长数组，省体积）：
-    #   0 发表日 / 1 日期状态 / 2 方向 / 3 战区 / 4 KOL / 5 标题
-    #   6 摘要 / 7 出处URL / 8 归属校验依据
+    #   0 发表日 / 1 日期状态 / 2 方向 / 3 战区 / 4 KOL / 5 英文原标题
+    #   6 英文原摘要 / 7 出处URL / 8 归属校验依据
+    #   9 中文标题 / 10 中文总结（缺失=未翻译，前端照实标注不冒充）
+    tr = load_translations()
     stmt_rows, idx_of = [], {}
     for s in stmts:
         key = (s.get("kol"), s.get("source_url"))
         if key in idx_of:
             continue
+        t = tr["stmt"].get(s.get("source_url")) or {}
         idx_of[key] = len(stmt_rows)
+        s["_si"] = idx_of[key]
+        s["_title_cn"] = t.get("title_cn") or ""
         stmt_rows.append([
             s.get("published_on") or "", s.get("date_status") or "unverified",
             s.get("direction") or "", s.get("theater") or "未分类",
             s.get("kol") or "", s.get("title") or "",
             (s.get("summary") or "")[:700], s.get("source_url") or "",
             s.get("attribution_reason") or "",
+            t.get("title_cn") or "", t.get("summary_cn") or "",
         ])
     # 每个时间档位命中的行下标（前端切档时直接取交集，不重算日期）
     period_idx = {p: sorted({idx_of[(s.get("kol"), s.get("source_url"))]
@@ -352,8 +515,10 @@ def main():
     dated = sum(1 for s in stmts if s.get("published_on"))
     nf = len([k for k in roster if not by_kol.get(k.get("name_en") or k.get("name_zh"))])
 
+    ntr = sum(1 for r in stmt_rows if r[9] and r[10])
     kpi = [("名册人数", len(roster), "Notion 单向镜像"),
            ("言论条目", len(stmts), "已过归属校验"),
+           ("中文译写", ntr, f"占 {ntr*100//max(len(stmt_rows),1)}%"),
            ("发表日已核实", dated, f"占 {dated*100//max(len(stmts),1)}%"),
            ("覆盖战区", len([t for t in tc if tc[t]]), "含军工与战略"),
            ("本轮无产出", nf, "如实标注，未编造")]
@@ -367,7 +532,7 @@ def main():
         f'background:{DIR_COLOR[d]}"></span><span class="dc">{c}</span></div>'
         for d, c in dirc.most_common() if d)
 
-    cards_html, kol_payload = kol_cards(roster, by_kol, idx_of)
+    cards_html, kol_payload = kol_cards(roster, by_kol, idx_of, tr)
     payload_json = json.dumps(kol_payload, ensure_ascii=False, separators=(",", ":"))
     stmts_json = json.dumps(stmt_rows, ensure_ascii=False, separators=(",", ":"))
     pidx_json = json.dumps(period_idx, ensure_ascii=False, separators=(",", ":"))
@@ -421,7 +586,7 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .part-num{{color:{ACCENT};font-weight:700}}
 .part-title .desc{{color:{MUTED};font-size:12.5px;font-weight:400}}
 .panel{{background:{PANEL};border:1px solid {GRID};border-radius:10px;padding:18px}}
-.kpis{{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}}
+.kpis{{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}}
 .kpi{{background:{PANEL};border:1px solid {GRID};border-radius:10px;padding:14px 16px}}
 .kv{{font-size:26px;font-weight:600}}
 .kl{{font-size:12.5px;margin-top:2px}}
@@ -485,7 +650,7 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .kcard:hover .kc-more{{opacity:1}}
 .badge{{font-size:11px;padding:2px 8px;border-radius:10px;border:1px solid}}
 /* ── 钻取弹层：卡片 → 时间列表 → 单条详情 ── */
-.kd-mask{{position:fixed;inset:0;background:rgba(10,12,15,.72);z-index:900;
+.kd-mask{{position:fixed;inset:0;background:rgba(8,10,13,.86);z-index:900;
   display:none;align-items:flex-start;justify-content:center;padding:40px 18px;
   overflow-y:auto}}
 .kd-mask.on{{display:flex}}
@@ -493,6 +658,15 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 #tv-mask{{align-items:center;overflow:hidden;padding:32px 18px}}
 .kd-panel{{background:{BG};border:1px solid {GRID};border-radius:12px;
   max-width:880px;width:100%;padding:22px 24px 26px;position:relative}}
+/* KOL 档案弹层同样锁在视口内：头部固定、正文自己滚（战区弹层同款处理） */
+#kd-mask{{align-items:center;overflow:hidden;padding:28px 18px}}
+#kd-mask .kd-panel{{display:flex;flex-direction:column;
+  max-height:calc(100vh - 56px);padding-bottom:16px}}
+#kd-mask .kd-name,#kd-mask .kd-sub{{flex:none}}
+#kd-scroll{{flex:1;min-height:0;overflow-y:auto;padding-right:6px;
+  scrollbar-width:thin;scrollbar-color:#4a525c transparent}}
+#kd-scroll::-webkit-scrollbar{{width:8px}}
+#kd-scroll::-webkit-scrollbar-thumb{{background:#4a525c;border-radius:4px}}
 .kd-close{{position:absolute;top:8px;right:10px;background:none;border:none;
   color:{MUTED};font-size:22px;cursor:pointer;line-height:1;
   width:38px;height:38px;border-radius:8px}}
@@ -501,8 +675,20 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .kd-sub{{font-size:12px;color:{MUTED};margin-bottom:13px}}
 .kd-bio{{background:{PANEL};border:1px solid {GRID};border-radius:8px;
   padding:12px 14px;font-size:12.5px;margin-bottom:14px}}
-.dt{{margin:5px 0}}
-.dt b{{color:{MUTED};font-weight:500;margin-right:8px;font-size:11.5px}}
+.dt{{margin:6px 0;display:grid;grid-template-columns:64px 1fr;gap:10px;
+  align-items:baseline}}
+.dt b{{color:{MUTED};font-weight:500;font-size:11.5px;margin:0}}
+.dt > span{{line-height:1.65}}
+/* 四维评分芯片：最关键的量化信息不该是纯文本（视觉复核指出） */
+.kd-dim{{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:9px 0}}
+.kd-dim > div{{background:{CARD2};border:1px solid {GRID};border-radius:7px;
+  padding:7px 10px}}
+.kd-dim .dl{{font-size:10.5px;color:{MUTED};margin-bottom:4px}}
+.kd-dim .dvv{{font-size:15px;font-weight:600;line-height:1}}
+.kd-dim .dbarw{{height:4px;background:{GRID};border-radius:2px;margin-top:6px;
+  overflow:hidden}}
+.kd-dim .dbari{{height:100%;border-radius:2px}}
+.kd-wsum{{font-size:11.5px;color:{MUTED};margin:-2px 0 10px}}
 .kd-grp{{font-size:11.5px;color:{MUTED};margin:14px 0 7px}}
 .kd-row{{border:1px solid {GRID};border-radius:7px;margin-bottom:5px;
   background:{PANEL};overflow:hidden}}
@@ -606,6 +792,55 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   font-weight:600;text-decoration:none}}
 .tv-btn-primary:hover{{filter:brightness(1.08);text-decoration:none}}
 .tv-none{{color:{MUTED};font-size:12.5px;padding:20px 14px;text-align:center}}
+/* ── 三级钻取通用样式（言论卡片 / 战区列表 / KOL 弹层共用）── */
+.l3-tip{{color:{ACCENT};font-size:11.5px}}
+.l3-pend{{font-size:10px;color:{MUTED};background:{CARD2};border:1px solid {GRID};
+  border-radius:4px;padding:1px 6px;margin-left:7px;white-space:nowrap}}
+.l3-cn{{line-height:1.75;color:{FG};font-size:12.5px}}
+.l3-missing{{color:{MUTED};font-size:11.5px;line-height:1.6;
+  background:{CARD2};border:1px dashed {GRID};border-radius:6px;padding:8px 11px}}
+.l3-btn{{font-size:11.5px;color:{ACCENT};background:none;border:1px solid {GRID};
+  border-radius:6px;padding:4px 12px;cursor:pointer;font-family:inherit;
+  margin-top:9px}}
+.l3-btn:hover{{border-color:{ACCENT};background:rgba(136,192,208,.08)}}
+.l3-btn.on{{border-color:{ACCENT}}}
+.l3-wrap{{display:none;margin-top:9px}}
+.l3-wrap.on{{display:block}}
+.l3-en{{background:{CARD2};border:1px solid {GRID};border-radius:7px;
+  padding:10px 13px}}
+.l3-en-t{{font-size:10.5px;color:{MUTED};letter-spacing:.4px;margin-bottom:4px}}
+.l3-en-b{{font-size:12px;line-height:1.65;color:#c3cad3}}
+/* ── 升级温度计 ── */
+.gg-wrap{{font-size:12.5px}}
+.gg-scale{{display:flex;justify-content:space-between;font-size:10.5px;
+  color:{MUTED};margin:0 0 10px}}
+.gg-row{{display:grid;grid-template-columns:96px 1fr 52px 58px;
+  gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid #2f353c}}
+.gg-name{{display:flex;align-items:center;gap:7px;font-size:12.5px}}
+.gg-track{{position:relative;height:8px;background:{CARD2};border-radius:4px;
+  border:1px solid {GRID}}}
+.gg-mid{{position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;
+  background:{GRID}}}
+.gg-pin{{position:absolute;top:-3px;width:4px;height:12px;border-radius:2px;
+  transform:translateX(-2px)}}
+.gg-val{{font-family:ui-monospace,monospace;font-size:13px;font-weight:600;
+  text-align:right}}
+.gg-n{{font-size:11px;color:{MUTED};text-align:right}}
+.gg-top{{grid-column:1/-1;font-size:11px;color:{MUTED};padding-left:103px;
+  margin-top:-4px}}
+.gg-note{{margin-top:11px;font-size:11px;color:{MUTED};line-height:1.6}}
+/* ── 立场转向 call-out ── */
+.ch-row{{display:flex;align-items:center;gap:11px;flex-wrap:wrap;
+  background:{PANEL};border:1px solid {GRID};border-left:3px solid;
+  border-radius:8px;padding:9px 13px;margin-bottom:6px;font-size:12.5px}}
+.ch-kind{{font-size:10.5px;padding:2px 9px;border-radius:10px;border:1px solid;
+  flex:none}}
+.ch-kol{{font-weight:600}}
+.ch-th{{display:flex;align-items:center;gap:6px;color:{MUTED};font-size:12px}}
+.ch-arrow{{font-size:12px}}
+.ch-meta{{margin-left:auto;font-size:11px;color:{MUTED}}}
+@media(max-width:760px){{.gg-row{{grid-template-columns:82px 1fr 46px}}
+  .gg-n{{display:none}} .gg-top{{padding-left:0}}}}
 /* 言论卡片网格（Chao 2026-09-02 指定卡片形式，不用列表） */
 .scard-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(292px,1fr));
   gap:11px}}
@@ -620,9 +855,20 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .sc-date.sc-unv{{color:{MUTED}}}
 .sc-kol{{display:flex;align-items:center;gap:6px;font-size:12px;
   color:{FG};font-weight:600;margin-bottom:5px}}
-.sc-title{{font-size:12.5px;line-height:1.45;margin-bottom:7px}}
-.sc-sum{{font-size:11.5px;color:{MUTED};line-height:1.55;flex:1;margin-bottom:9px}}
-.sc-src{{font-size:11.5px;align-self:flex-start}}
+.sc-title{{font-size:12.5px;line-height:1.55;margin-bottom:7px;font-weight:500;
+  /* 固定两行高度：标题 1 行或 2 行都占同样空间，消除卡片行间高度阶梯 */
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;min-height:calc(12.5px * 1.55 * 2)}}
+.sc-dom{{font-size:10.5px;color:{MUTED};font-family:ui-monospace,monospace;
+  margin-bottom:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.sc-lv{{font-size:11.5px;line-height:1.6;flex:1;margin-bottom:0}}
+.sc-lv:not(:empty){{margin-bottom:9px}}
+.sc-src{{font-size:11.5px;align-self:flex-start;display:inline-block;
+  margin-top:8px}}
+.sc-step{{font-size:11px;color:{ACCENT};background:none;border:1px solid {GRID};
+  border-radius:6px;padding:4px 11px;cursor:pointer;font-family:inherit;
+  align-self:flex-start;margin-top:auto}}
+.sc-step:hover{{border-color:{ACCENT};background:rgba(136,192,208,.08)}}
 .pmore{{color:{MUTED};font-size:11.5px;padding:4px 0 0 2px}}
 a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 .empty{{color:{MUTED};font-size:12.5px;padding:10px 15px}}
@@ -651,6 +897,14 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 <div class="part-title"><span class="part-num">＋</span>地域走向
   <span class="desc">各战区军事走向汇总，气泡面积＝言论量、颜色＝主导方向，可切日/周/月</span></div>
 {multi_period(region_pane, periods, "map", "month")}
+
+<div class="part-title"><span class="part-num">＋</span>升级温度计
+  <span class="desc">各战区加权净升级倾向，按紧张度排序；权重＝时效衰减 × KOL 星级</span></div>
+<div class="panel">{gauge_html(theater_gauge(stmts, roster))}</div>
+
+<div class="part-title"><span class="part-num">＋</span>立场转向
+  <span class="desc">谁改了判断——比谁一直在喊更值得注意；与历史快照逐日比对</span></div>
+{changes_html()}
 
 <div class="part-title"><span class="part-num">＋</span>战区雷达
   <span class="desc">全量言论的战区密度分布与走势方向构成</span></div>
@@ -689,8 +943,10 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
     <button class="kd-close" type="button" aria-label="关闭">×</button>
     <div class="kd-name" id="kd-name"></div>
     <div class="kd-sub" id="kd-sub"></div>
-    <div class="kd-bio" id="kd-bio"></div>
-    <div id="kd-body"></div>
+    <div id="kd-scroll">
+      <div class="kd-bio" id="kd-bio"></div>
+      <div id="kd-body"></div>
+    </div>
   </div>
 </div>
 
@@ -737,8 +993,8 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
   if (!titles.length || !box) return;
   var GROUPS = [
     {{ name: '总览', match: ['总览'] }},
-    {{ name: '地域与走势', match: ['地域走向', '战区雷达'] }},
-    {{ name: '言论与时间', match: ['言论卡片', '事件时间线'] }},
+    {{ name: '地域与走势', match: ['地域走向', '战区雷达', '升级温度计'] }},
+    {{ name: '言论与时间', match: ['言论卡片', '事件时间线', '立场转向'] }},
     {{ name: 'KOL 观点', match: ['观点全景'] }}
   ];
   function groupOf(label) {{
@@ -817,6 +1073,55 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 
 /* 日/周/月 切档 + 单条言论展开（事件委托，三份数据已内嵌，点击零请求） */
 document.addEventListener('click', function(ev) {{
+  /* L3 展开钮（三处弹层共用同一个 class） */
+  var l3 = ev.target.closest ? ev.target.closest('.l3-btn') : null;
+  if (l3) {{
+    var w = l3.nextElementSibling;
+    if (w && w.classList.contains('l3-wrap')) {{
+      var on = w.classList.toggle('on');
+      /* 文案随状态切换：展开态必须写「收起」，否则和 ▴ 箭头自相矛盾 */
+      if (!l3.getAttribute('data-label'))
+        l3.setAttribute('data-label', l3.textContent.replace(/\\s*[▾▴]\\s*$/, ''));
+      var lab = l3.getAttribute('data-label');
+      l3.textContent = on ? ('收起' + lab.replace(/^展开/, '') + ' ▴')
+                          : (lab + ' ▾');
+      l3.classList.toggle('on', on);
+    }}
+    ev.stopPropagation();
+    return;
+  }}
+  /* 言论卡片三级：L1 标题 →（点钮）L2 中文总结 →（再点）L3 英文原文+出处 */
+  var st = ev.target.closest ? ev.target.closest('.sc-step') : null;
+  if (st) {{
+    var card = st.closest('.scard');
+    var r = STMTS[parseInt(card.getAttribute('data-si'), 10)];
+    var box = card.querySelector('.sc-lv');
+    if (!r || !box) return;
+    var lvl = parseInt(card.getAttribute('data-lv') || '1', 10);
+    if (lvl === 1) {{
+      box.innerHTML = r[10]
+        ? '<div class="l3-cn">' + hesc(r[10]) + '</div>'
+        : '<div class="l3-missing">该条尚未生成中文总结（如实标注，未用机翻冒充）。'
+          + '可继续展开看英文原文。</div>';
+      card.setAttribute('data-lv', '2');
+      st.textContent = '展开英文原文与出处 ▾';
+    }} else if (lvl === 2) {{
+      box.innerHTML += '<div class="l3-en"><div class="l3-en-t">英文原标题</div>' +
+        '<div class="l3-en-b">' + hesc(r[5]) + '</div>' +
+        '<div class="l3-en-t" style="margin-top:7px">英文原文摘要</div>' +
+        '<div class="l3-en-b">' +
+        (hesc(r[6]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
+        '<a class="sc-src" href="' + hesc(r[7]) +
+        '" target="_blank" rel="noopener">打开原始出处 →</a></div>';
+      card.setAttribute('data-lv', '3');
+      st.textContent = '收起 ▴';
+    }} else {{
+      box.innerHTML = '';
+      card.setAttribute('data-lv', '1');
+      st.textContent = '展开中文总结 ▾';
+    }}
+    return;
+  }}
   var kp = ev.target.closest ? ev.target.closest('.kp-btn') : null;
   if (kp) {{
     var grp = kp.getAttribute('data-kp-group'), sel = kp.getAttribute('data-kp'), i;
@@ -854,23 +1159,100 @@ function hesc(s) {{
   return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }}
+
+/* ── 统一的三级钻取行（Chao 2026-09-02 拍板，全站共用一个渲染器）──
+   L1 中文标题（未翻译时显示英文原标题并打「待翻译」标）
+   L2 中文言论总结
+   L3 英文原文摘要 + 归属/日期元信息 + 原始出处链接
+   ★ 只用一个函数，KOL 弹层 / 战区列表 / 时间线全走它，
+     否则三处各写一遍，改一处漏两处（Eco 踩过）。
+   行数据 = STMTS 行：0日期 1日期状态 2方向 3战区 4KOL 5英标题
+            6英摘要 7出处 8归属依据 9中标题 10中总结 */
+function l3Row(r) {{
+  var c = DIRC[r[2]] || '#6c757d';
+  var dt = r[0] || '日期未核实';
+  var unv = (r[1] === 'verified') ? '' : ' kd-unv';
+  var titleCn = r[9] || '';
+  var sumCn = r[10] || '';
+  var head = titleCn ? hesc(titleCn) : hesc(r[5]);
+  var pend = titleCn ? '' :
+    '<span class="l3-pend">待翻译</span>';
+  var lv2 = sumCn
+    ? '<div class="l3-cn">' + hesc(sumCn) + '</div>'
+    : '<div class="l3-cn l3-missing">该条尚未生成中文总结（翻译任务未覆盖到，' +
+      '如实标注、不用机翻标题冒充）。可直接展开下一级看英文原文。</div>';
+  var lv3 = '<div class="l3-en"><div class="l3-en-t">英文原文摘要</div>' +
+    '<div class="l3-en-b">' +
+    (hesc(r[6]) || '（该来源摘要为空，请直接打开原文）') + '</div>' +
+    '<div class="kd-meta">走势判断：<b style="color:' + c + '">' + hesc(r[2]) +
+    '</b>　战区：' + hesc(r[3]) + '　KOL：' + hesc(r[4]) +
+    '　发表日：' + hesc(dt) +
+    '（' + (r[1] === 'verified' ? '已核实' : '未核实') + '）' +
+    '　归属校验：' + hesc(r[8] || '—') + '</div>' +
+    '<a class="kd-src" href="' + hesc(r[7]) + '" target="_blank" rel="noopener">' +
+    '打开原始出处 →</a></div>';
+  return '<div class="kd-row"><div class="kd-hd">' +
+    '<span class="kd-caret">▸</span>' +
+    '<span class="dirb" style="background:' + c + '"></span>' +
+    '<span class="kd-date' + unv + '">' + hesc(dt) + '</span>' +
+    '<span class="kd-title">' + head + pend + '</span></div>' +
+    '<div class="kd-body">' + lv2 +
+    '<button type="button" class="l3-btn" data-l3="open">' +
+    '展开英文原文与出处 ▾</button>' +
+    '<div class="l3-wrap">' + lv3 + '</div></div></div>';
+}}
 function openKol(name) {{
   var d = KOL[name];
   if (!d) return;
   var mask = document.getElementById('kd-mask');
   document.getElementById('kd-name').textContent = name;
   document.getElementById('kd-sub').textContent =
-    d.t + ' · ' + '★'.repeat(d.star) + '☆'.repeat(5 - d.star) + ' · 加权 ' + (d.w || '—');
+    d.t + ' · ' + '★'.repeat(d.star) + '☆'.repeat(5 - d.star) +
+    '（群体内百分位）· 加权 ' + (d.w || '—') + '/10（绝对分）';
   var bio = '';
   if (d.watch) bio += '<div class="kc-warn">监测对象 · 低可信度，需交叉验证后方可采信</div>';
   else if (d.flag) bio += '<div class="kc-flag">' + hesc(d.flag) + '</div>';
-  bio += '<div class="dt"><b>机构</b>' + hesc(d.aff) + '</div>';
-  bio += '<div class="dt"><b>角色</b>' + hesc(d.role) + '</div>';
-  if (d.spec) bio += '<div class="dt"><b>专长</b>' + hesc(d.spec) + '</div>';
-  bio += '<div class="dt"><b>四维</b>机构根基 ' + d.sa + ' · 一手性 ' + d.sb +
-         ' · 命中率 ' + d.sc + ' · 透明度 ' + d.sd + ' → 加权 ' + d.w + '</div>';
-  bio += '<div class="dt"><b>评级依据</b>' + hesc(d.why) + '</div>';
-  bio += '<div class="dt"><b>争议</b>' + hesc(d.ctr) + '</div>';
+  bio += '<div class="dt"><b>机构</b><span>' + hesc(d.aff) + '</span></div>';
+  bio += '<div class="dt"><b>角色</b><span>' + hesc(d.role) + '</span></div>';
+  if (d.spec) bio += '<div class="dt"><b>专长</b><span>' + hesc(d.spec) + '</span></div>';
+  /* 四维做成带条形的芯片，比一行纯文本可读得多 */
+  var DIMS = [['机构根基', d.sa, '#88c0d0'], ['一手性', d.sb, '#a3be8c'],
+              ['命中率', d.sc, '#ebcb8b'], ['方法透明度', d.sd, '#b48ead']];
+  bio += '<div class="kd-dim">' + DIMS.map(function(x) {{
+    var v = (x[1] === null || x[1] === undefined) ? 0 : x[1];
+    return '<div><div class="dl">' + x[0] + '</div>' +
+      '<div class="dvv" style="color:' + x[2] + '">' + hesc(x[1] == null ? '—' : x[1]) +
+      '<span style="font-size:10px;color:#8a929c"> /10</span></div>' +
+      '<div class="dbarw"><div class="dbari" style="width:' +
+      Math.max(0, Math.min(100, v * 10)) + '%;background:' + x[2] + '"></div></div>' +
+      '</div>'; }}).join('') + '</div>';
+  bio += '<div class="kd-wsum">加权总分 <b>' + hesc(d.w) +
+         '</b>（权重：机构根基 30% · 一手性 25% · 命中率 30% · 透明度 15%）</div>';
+  bio += '<div class="dt"><b>评级依据</b><span>' + hesc(d.why) + '</span></div>';
+  bio += '<div class="dt"><b>争议</b><span>' + hesc(d.ctr) + '</span></div>';
+  /* 档案第二级：中文档案 → 展开原始字段（可核对译写有没有走样）。
+     ★ 注意：registry 里部分字段建册时就是中文写的，所以这里叫「原始字段」
+       而不是「英文字段」——标错会让人以为翻译坏了（视觉复核时踩过）。
+     只有和译文真正不同的字段才列，一模一样就没必要占地方。*/
+  var en = [['机构', d.aff_en, d.aff], ['角色', d.role_en, d.role],
+            ['专长', d.spec_en, d.spec], ['评级依据', d.why_en, d.why],
+            ['争议', d.ctr_en, d.ctr]]
+    .filter(function(x) {{ return x[1] && x[1] !== x[2]; }})
+    .map(function(x) {{
+      return '<div class="dt"><b>' + x[0] + '</b><span>' + hesc(x[1]) +
+             '</span></div>'; }})
+    .join('');
+  if (en) {{
+    bio += '<button type="button" class="l3-btn" data-l3="open">' +
+           '展开抓取原文字段 ▾</button>' +
+           '<div class="l3-wrap"><div class="l3-en">' +
+           '<div class="l3-en-t">抓取到的原始字段 · 未经译写</div>' + en +
+           '</div></div>';
+  }}
+  if (!d.cn) {{
+    bio += '<div class="l3-missing" style="margin-top:8px">' +
+           '本人档案尚未生成中文译写，以上为英文原文。</div>';
+  }}
   document.getElementById('kd-bio').innerHTML = bio;
   var h = (d.h || []).map(function(i) {{ return STMTS[i]; }})
                      .filter(function(r) {{ return !!r; }});
@@ -881,31 +1263,14 @@ function openKol(name) {{
     var dated = [], undated = [];
     for (var i = 0; i < h.length; i++) (h[i][0] ? dated : undated).push(h[i]);
     dated.sort(function(a, b) {{ return a[0] < b[0] ? 1 : -1; }});
-    function rowHtml(r) {{
-      var c = DIRC[r[2]] || '#6c757d';
-      var dt = r[0] || '日期未核实';
-      var unv = (r[1] === 'verified') ? '' : ' kd-unv';
-      return '<div class="kd-row"><div class="kd-hd">' +
-        '<span class="kd-caret">▸</span>' +
-        '<span class="dirb" style="background:' + c + '"></span>' +
-        '<span class="kd-date' + unv + '">' + hesc(dt) + '</span>' +
-        '<span class="kd-title">' + hesc(r[5]) + '</span></div>' +
-        '<div class="kd-body"><div class="kd-sum">' +
-        (hesc(r[6]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
-        '<div class="kd-meta">走势判断：<b style="color:' + c + '">' + hesc(r[2]) +
-        '</b>　战区：' + hesc(r[3]) +
-        '　发表日状态：' + hesc(r[1]) + '　归属校验：' + hesc(r[8] || '—') + '</div>' +
-        '<a class="kd-src" href="' + hesc(r[7]) + '" target="_blank" rel="noopener">' +
-        '打开原始出处 →</a></div></div>';
-    }}
     if (dated.length) {{
       body += '<div class="kd-grp">已核实发表日 · ' + dated.length + ' 条（时间倒序）</div>';
-      for (var a = 0; a < dated.length; a++) body += rowHtml(dated[a]);
+      for (var a = 0; a < dated.length; a++) body += l3Row(dated[a]);
     }}
     if (undated.length) {{
       body += '<div class="kd-grp">发表日未核实 · ' + undated.length +
               ' 条（按纪律留空，不用抓取日顶替）</div>';
-      for (var b = 0; b < undated.length; b++) body += rowHtml(undated[b]);
+      for (var b = 0; b < undated.length; b++) body += l3Row(undated[b]);
     }}
   }}
   document.getElementById('kd-body').innerHTML = body;
@@ -951,7 +1316,9 @@ function tvRows() {{
   for (i = 0; i < pool.length; i++) {{
     var r = STMTS[pool[i]];
     if (!r || r[3] !== TV.theater) continue;
-    if (q && (r[4] + ' ' + r[5] + ' ' + r[6]).toLowerCase().indexOf(q) < 0) continue;
+    /* 中英文都可搜：中文标题/总结 + 英文标题/摘要 + KOL 名 */
+    if (q && (r[4] + ' ' + r[5] + ' ' + r[6] + ' ' + (r[9] || '') + ' ' +
+              (r[10] || '')).toLowerCase().indexOf(q) < 0) continue;
     out.push(pool[i]);
   }}
   var k = TV.sort, dir = TV.desc ? -1 : 1;
@@ -998,13 +1365,16 @@ function tvRender() {{
   }}
   for (var i = 0; i < idx.length; i++) {{
     var r = STMTS[idx[i]], c = DIRC[r[2]] || '#6c757d';
+    /* 列表只显中文标题；未翻译的回落英文原标题并打「待翻译」标 */
+    var ttl = r[9] ? hesc(r[9])
+                   : hesc(r[5]) + '<span class="l3-pend">待翻译</span>';
     h += '<tr class="tv-r" data-si="' + idx[i] + '" tabindex="0">' +
       '<td><span class="tv-dt' + (r[1] === 'verified' ? '' : ' tv-unv') + '">' +
       hesc(r[0] || '未核实') + '</span></td>' +
       '<td class="tv-kol" title="' + hesc(r[4]) + '">' + hesc(r[4]) + '</td>' +
       '<td><span class="tv-dir" style="background:' + c + '22;color:' + c +
       ';border-color:' + c + '66">' + hesc(r[2] || '—') + '</span></td>' +
-      '<td class="tv-tt" title="' + hesc(r[5]) + '">' + hesc(r[5]) + '</td>' +
+      '<td class="tv-tt" title="' + hesc(r[9] || r[5]) + '">' + ttl + '</td>' +
       '<td><a class="tv-src" href="' + hesc(r[7]) +
       '" target="_blank" rel="noopener">原文 →</a></td></tr>';
   }}
@@ -1022,21 +1392,24 @@ function tvToggleDetail(tr) {{
   det.className = 'tv-det';
   /* 摘要开头常见 "5 days ago · " 之类的相对时间前缀，抽出来单独做标签并中文化，
      否则它会和正文粘成一句，且中文界面里夹英文（视觉复核时发现）。*/
-  var sum = r[6] || '', rel = '';
+  var sum0 = r[6] || '', rel = '';
   var UNIT = {{second:'秒', minute:'分钟', hour:'小时', day:'天',
                week:'周', month:'个月', year:'年'}};
-  var m = sum.match(/^\\s*(?:(\\d+)\\s+(second|minute|hour|day|week|month|year)s?\\s+ago|(yesterday|today))\\s*[·\\-—|]?\\s*/i);
+  var m = sum0.match(/^\\s*(?:(\\d+)\\s+(second|minute|hour|day|week|month|year)s?\\s+ago|(yesterday|today))\\s*[·\\-—|]?\\s*/i);
   if (m) {{
     if (m[3]) rel = (m[3].toLowerCase() === 'today') ? '当天' : '前一天';
     else rel = m[1] + UNIT[m[2].toLowerCase()] + '前';
-    sum = sum.slice(m[0].length);
+    sum0 = sum0.slice(m[0].length);
   }}
   det.innerHTML = '<td colspan="5">' +
     '<div class="tv-ctx">' + hesc(r[0] || '发表日未核实') + '　·　' +
       hesc(r[4]) + '</div>' +
     (rel ? '<div class="tv-rel">来源页标注：' + hesc(rel) + '</div>' : '') +
-    '<div class="tv-sum">' +
-    (hesc(sum) || '（该来源摘要为空，请直接看原文）') + '</div>' +
+    /* L2：中文总结 */
+    (r[10]
+      ? '<div class="tv-sum l3-cn">' + hesc(r[10]) + '</div>'
+      : '<div class="tv-sum l3-missing">该条尚未生成中文总结（如实标注，' +
+        '未用机翻冒充）。展开下一级看英文原文。</div>') +
     '<div class="tv-kv">' +
     /* KOL 名常有机构后缀，会换行三行把同排短字段撑出空腔 → 单独通栏一行 */
     '<div class="tv-kv-wide"><b>KOL</b><span>' + hesc(r[4]) + '</span></div>' +
@@ -1049,6 +1422,15 @@ function tvToggleDetail(tr) {{
     '<div class="tv-kv-wide"><b>归属校验</b><span>' + hesc(r[8] || '—') +
       '</span></div>' +
     '</div>' +
+    /* L3：英文原文（再点一次才出来） */
+    '<button type="button" class="l3-btn" data-l3="open">' +
+    '展开英文原文与出处 ▾</button>' +
+    '<div class="l3-wrap"><div class="l3-en">' +
+    '<div class="l3-en-t">英文原标题</div>' +
+    '<div class="l3-en-b">' + hesc(r[5]) + '</div>' +
+    '<div class="l3-en-t" style="margin-top:8px">英文原文摘要</div>' +
+    '<div class="l3-en-b">' + (hesc(sum0) || '（该来源摘要为空，请直接看原文）') +
+    '</div></div></div>' +
     '<div class="tv-act">' +
     '<a class="tv-btn tv-btn-primary" href="' + hesc(r[7]) +
     '" target="_blank" rel="noopener">打开原始出处</a>' +
