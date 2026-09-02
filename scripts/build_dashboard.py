@@ -192,7 +192,7 @@ def multi_period(render, data_by_period, group, active="week"):
 # ── 地域走向汇总（世界地图 + 表）────────────────────────────
 def region_pane(stmts, period):
     pl = PERIOD_LABEL[period]
-    return world_map_svg(stmts, pl)
+    return world_map_svg(stmts, pl, period)
 
 
 # ── 言论卡片（日/周/月档）────────────────────────────────────
@@ -250,7 +250,7 @@ def statements_pane(stmts, period):
 #   原实现是竖排 <details> 列表行，一屏只看得到几个人。
 #   改为响应式卡片网格：一屏纵览全部，点卡片弹出遮罩层看三层详情。
 #   言论明细走 JSON payload 由前端渲染，避免 62 张卡片内联 647 条把 HTML 撑爆。
-def kol_cards(roster, by_kol):
+def kol_cards(roster, by_kol, idx_of):
     groups = defaultdict(list)
     for k in roster:
         groups[(k.get("theater") or ["未分类"])[0]].append(k)
@@ -303,10 +303,9 @@ def kol_cards(roster, by_kol):
                 "ctr": k.get("controversies") or "none",
                 "watch": bool(k.get("watchlist")),
                 "flag": k.get("quality_flag") or "",
-                "h": [[s.get("published_on") or "", s.get("date_status") or "unverified",
-                       s.get("direction") or "", s.get("title") or "",
-                       (s.get("summary") or "")[:700], s.get("source_url") or "",
-                       s.get("attribution_reason") or ""] for s in stmts],
+                # 只存全局言论表的下标，明细统一由 STMTS 提供（去重、体积更小）
+                "h": [idx_of[(s.get("kol"), s.get("source_url"))] for s in stmts
+                      if (s.get("kol"), s.get("source_url")) in idx_of],
             }
         out.append(f'<div class="tgroup"><div class="thead" style="border-color:{col}">'
                    f'<span class="tdot" style="background:{col}"></span>{esc(t)}'
@@ -325,6 +324,29 @@ def main():
         v.sort(key=lambda s: s.get("published_on") or "0000", reverse=True)
 
     periods = {p: slice_period(stmts, p) for p in ("day", "week", "month")}
+
+    # ── 全局言论表：地图弹层与 KOL 弹层共用同一份，避免重复内嵌 ──
+    #   行格式（定长数组，省体积）：
+    #   0 发表日 / 1 日期状态 / 2 方向 / 3 战区 / 4 KOL / 5 标题
+    #   6 摘要 / 7 出处URL / 8 归属校验依据
+    stmt_rows, idx_of = [], {}
+    for s in stmts:
+        key = (s.get("kol"), s.get("source_url"))
+        if key in idx_of:
+            continue
+        idx_of[key] = len(stmt_rows)
+        stmt_rows.append([
+            s.get("published_on") or "", s.get("date_status") or "unverified",
+            s.get("direction") or "", s.get("theater") or "未分类",
+            s.get("kol") or "", s.get("title") or "",
+            (s.get("summary") or "")[:700], s.get("source_url") or "",
+            s.get("attribution_reason") or "",
+        ])
+    # 每个时间档位命中的行下标（前端切档时直接取交集，不重算日期）
+    period_idx = {p: sorted({idx_of[(s.get("kol"), s.get("source_url"))]
+                             for s in v
+                             if (s.get("kol"), s.get("source_url")) in idx_of})
+                  for p, v in periods.items()}
     tc = Counter(s.get("theater", "未分类") for s in stmts)
     dirc = Counter(s.get("direction") for s in stmts)
     dated = sum(1 for s in stmts if s.get("published_on"))
@@ -345,8 +367,10 @@ def main():
         f'background:{DIR_COLOR[d]}"></span><span class="dc">{c}</span></div>'
         for d, c in dirc.most_common() if d)
 
-    cards_html, kol_payload = kol_cards(roster, by_kol)
+    cards_html, kol_payload = kol_cards(roster, by_kol, idx_of)
     payload_json = json.dumps(kol_payload, ensure_ascii=False, separators=(",", ":"))
+    stmts_json = json.dumps(stmt_rows, ensure_ascii=False, separators=(",", ":"))
+    pidx_json = json.dumps(period_idx, ensure_ascii=False, separators=(",", ":"))
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     doc = f'''<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -465,11 +489,14 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   display:none;align-items:flex-start;justify-content:center;padding:40px 18px;
   overflow-y:auto}}
 .kd-mask.on{{display:flex}}
+/* 战区列表弹层固定在视口内，页面不再产生第二条滚动条 */
+#tv-mask{{align-items:center;overflow:hidden;padding:32px 18px}}
 .kd-panel{{background:{BG};border:1px solid {GRID};border-radius:12px;
   max-width:880px;width:100%;padding:22px 24px 26px;position:relative}}
-.kd-close{{position:absolute;top:14px;right:16px;background:none;border:none;
-  color:{MUTED};font-size:22px;cursor:pointer;line-height:1}}
-.kd-close:hover{{color:{FG}}}
+.kd-close{{position:absolute;top:8px;right:10px;background:none;border:none;
+  color:{MUTED};font-size:22px;cursor:pointer;line-height:1;
+  width:38px;height:38px;border-radius:8px}}
+.kd-close:hover{{color:{FG};background:rgba(136,192,208,.12)}}
 .kd-name{{font-size:19px;font-weight:600;margin-bottom:3px;padding-right:30px}}
 .kd-sub{{font-size:12px;color:{MUTED};margin-bottom:13px}}
 .kd-bio{{background:{PANEL};border:1px solid {GRID};border-radius:8px;
@@ -494,6 +521,91 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .kd-meta{{color:{MUTED};font-size:11.5px;margin-bottom:8px}}
 .kd-src{{font-size:12px}}
 .kd-empty{{color:{MUTED};font-size:12.5px;padding:14px 0}}
+/* ── 战区言论列表弹层：地图气泡点开 → 可排序表格 → 双击展开详情 ── */
+.tv-panel{{max-width:1080px;display:flex;flex-direction:column;
+  max-height:calc(100vh - 48px)}}
+/* ★ 弹层自身不滚：头部固定、表格区吃掉剩余高度自己滚。
+   否则会出现「弹层内表格滚 + 页面外层滚」双滚动条，且底部被视口裁掉。*/
+.tv-panel > .kd-name,.tv-panel > .kd-sub,.tv-panel > .tv-bar,
+.tv-panel > .tv-hint{{flex:none}}
+.tv-bar{{display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap}}
+.tv-q{{flex:1;min-width:200px;background:{PANEL};border:1px solid {GRID};
+  border-radius:7px;color:{FG};font-size:12.5px;padding:7px 12px;outline:none;
+  font-family:inherit}}
+.tv-q:focus{{border-color:{ACCENT}}}
+.tv-tabs{{display:flex;gap:5px}}
+.tv-tab{{font-size:11.5px;font-weight:600;color:{MUTED};background:{PANEL};
+  border:1px solid {GRID};border-radius:7px;padding:5px 13px;cursor:pointer;
+  font-family:inherit}}
+.tv-tab:hover{{border-color:{ACCENT};color:{FG}}}
+.tv-tab.on{{background:{ACCENT};border-color:{ACCENT};color:#1e2429}}
+.tv-hint{{font-size:11.5px;color:{MUTED};margin-bottom:9px}}
+.tv-tablewrap{{border:1px solid {GRID};border-radius:9px;
+  flex:1;min-height:0;overflow-y:auto;padding-bottom:2px;position:relative;
+  scrollbar-width:thin;scrollbar-color:{GRID} transparent;
+  /* 底部渐隐：最后一行被容器切断时提示「还有内容」，而不像渲染坏了。
+     滚到底后由 JS 加 .tv-atbot 撤掉遮罩，避免「已经到底了还像有东西」。*/
+  -webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent);
+  mask-image:linear-gradient(to bottom,#000 calc(100% - 28px),transparent)}}
+.tv-tablewrap.tv-atbot{{-webkit-mask-image:none;mask-image:none}}
+.tv-tablewrap::-webkit-scrollbar{{width:8px}}
+.tv-tablewrap::-webkit-scrollbar-track{{background:transparent}}
+.tv-tablewrap::-webkit-scrollbar-thumb{{background:#4a525c;border-radius:4px}}
+.tv-tablewrap::-webkit-scrollbar-thumb:hover{{background:#5b6470}}
+.tv-table{{width:100%;border-collapse:collapse;font-size:12.5px;table-layout:fixed}}
+.tv-table thead th{{position:sticky;top:0;background:{CARD2};text-align:left;
+  font-size:11px;font-weight:600;color:{MUTED};padding:9px 11px;
+  border-bottom:1px solid {GRID};white-space:nowrap;z-index:2}}
+.tv-table th.tv-s{{cursor:pointer;user-select:none}}
+.tv-table th.tv-s:hover{{color:{FG}}}
+.tv-table th .tv-ar{{margin-left:5px;font-size:9px;color:{ACCENT};opacity:.25}}
+.tv-table th.tv-s:hover .tv-ar{{opacity:.6}}
+.tv-table th.tv-on .tv-ar{{opacity:1}}
+.tv-table th.tv-on{{color:{FG}}}
+.tv-table thead th:nth-child(1){{width:100px}}
+.tv-table thead th:nth-child(2){{width:268px}}
+.tv-table thead th:nth-child(3){{width:96px}}
+.tv-table thead th:nth-child(5){{width:82px;text-align:right}}
+.tv-table tbody td:nth-child(5){{text-align:right}}
+.tv-table thead th:last-child,.tv-table tbody td:last-child{{padding-right:14px}}
+.tv-table tbody td{{padding:8px 11px;border-bottom:1px solid #2f353c;
+  vertical-align:top;line-height:1.5}}
+.tv-r{{cursor:pointer}}
+.tv-r:hover td{{background:rgba(136,192,208,.08)}}
+.tv-r.open td{{background:rgba(136,192,208,.11)}}
+.tv-dt{{font-family:ui-monospace,monospace;font-size:11px;color:#c3cad3}}
+.tv-dt.tv-unv{{color:{MUTED}}}
+.tv-kol{{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.tv-tt{{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.tv-r.open .tv-tt{{white-space:normal}}
+.tv-dir{{font-size:10.5px;padding:1px 8px;border-radius:9px;border:1px solid;
+  white-space:nowrap}}
+.tv-src{{font-size:11.5px;white-space:nowrap}}
+.tv-det td{{background:{PANEL};padding:13px 16px 16px 16px;font-size:12.5px}}
+.tv-ctx{{font-size:11px;color:{ACCENT};margin:-13px -16px 7px;
+  padding:7px 16px 6px;border-bottom:1px solid {GRID};
+  position:sticky;top:36px;z-index:1;background:{PANEL}}}
+.tv-rel{{font-size:11px;color:{MUTED};background:{CARD2};border:1px solid {GRID};
+  border-radius:5px;padding:2px 8px;display:inline-block;margin-bottom:8px}}
+.tv-det .tv-sum{{line-height:1.7;margin-bottom:11px;max-width:82ch}}
+.tv-kv{{display:grid;grid-template-columns:repeat(3,1fr);
+  gap:1px;background:{GRID};border:1px solid {GRID};border-radius:7px;
+  overflow:hidden;margin-bottom:11px}}
+.tv-kv > div{{background:{CARD2};padding:7px 11px;display:flex;gap:10px;
+  align-items:baseline;font-size:12px}}
+.tv-kv b{{color:{MUTED};font-weight:500;font-size:11px;flex:none;width:60px}}
+.tv-kv span{{word-break:break-word}}
+.tv-kv .tv-dir{{align-self:center}}
+.tv-kv-wide{{grid-column:1/-1}}
+@media(max-width:760px){{.tv-kv{{grid-template-columns:1fr}}}}
+.tv-act{{display:flex;gap:10px;flex-wrap:wrap}}
+.tv-btn{{font-size:11.5px;color:{ACCENT};background:none;border:1px solid {GRID};
+  border-radius:6px;padding:4px 12px;cursor:pointer;font-family:inherit}}
+.tv-btn:hover{{border-color:{ACCENT}}}
+.tv-btn-primary{{background:{ACCENT};border-color:{ACCENT};color:#1e2429;
+  font-weight:600;text-decoration:none}}
+.tv-btn-primary:hover{{filter:brightness(1.08);text-decoration:none}}
+.tv-none{{color:{MUTED};font-size:12.5px;padding:20px 14px;text-align:center}}
 /* 言论卡片网格（Chao 2026-09-02 指定卡片形式，不用列表） */
 .scard-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(292px,1fr));
   gap:11px}}
@@ -579,6 +691,37 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
     <div class="kd-sub" id="kd-sub"></div>
     <div class="kd-bio" id="kd-bio"></div>
     <div id="kd-body"></div>
+  </div>
+</div>
+
+<div class="kd-mask" id="tv-mask">
+  <div class="kd-panel tv-panel">
+    <button class="kd-close" type="button" aria-label="关闭">×</button>
+    <div class="kd-name" id="tv-name"></div>
+    <div class="kd-sub" id="tv-sub"></div>
+    <div class="tv-bar">
+      <input type="search" id="tv-q" class="tv-q" placeholder="按 KOL、标题、摘要筛选…"
+             autocomplete="off">
+      <div class="tv-tabs" id="tv-tabs">
+        <button type="button" class="tv-tab" data-tvp="day">本日</button>
+        <button type="button" class="tv-tab" data-tvp="week">本周</button>
+        <button type="button" class="tv-tab" data-tvp="month">本月</button>
+        <button type="button" class="tv-tab on" data-tvp="all">全部</button>
+      </div>
+    </div>
+    <div class="tv-hint" id="tv-hint"></div>
+    <div class="tv-tablewrap">
+      <table class="tv-table">
+        <thead><tr>
+          <th class="tv-s" data-sort="0">发表日</th>
+          <th class="tv-s" data-sort="4">KOL</th>
+          <th class="tv-s" data-sort="2">走势</th>
+          <th class="tv-s" data-sort="5">标题</th>
+          <th>出处</th>
+        </tr></thead>
+        <tbody id="tv-body"></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
@@ -696,12 +839,16 @@ document.addEventListener('click', function(ev) {{
   }}
   var kc = ev.target.closest ? ev.target.closest('.kcard') : null;
   if (kc) {{ openKol(kc.getAttribute('data-kol')); return; }}
-  if (ev.target.closest && ev.target.closest('.kd-close')) {{ closeKol(); return; }}
+  if (ev.target.closest && ev.target.closest('#kd-mask .kd-close')) {{ closeKol(); return; }}
   if (ev.target.id === 'kd-mask') closeKol();
 }});
 
 /* ── KOL 钻取弹层：卡片 → 带日期时间列表 → 单条详情 ── */
 var KOL = {payload_json};
+/* 全局言论表（地图弹层与 KOL 弹层共用同一份）：
+   0 发表日 1 日期状态 2 方向 3 战区 4 KOL 5 标题 6 摘要 7 出处URL 8 归属依据 */
+var STMTS = {stmts_json};
+var PIDX = {pidx_json};
 var DIRC = {{"升级":"#bf616a","僵持":"#ebcb8b","降级":"#a3be8c","未表态":"#6c757d"}};
 function hesc(s) {{
   return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
@@ -725,7 +872,9 @@ function openKol(name) {{
   bio += '<div class="dt"><b>评级依据</b>' + hesc(d.why) + '</div>';
   bio += '<div class="dt"><b>争议</b>' + hesc(d.ctr) + '</div>';
   document.getElementById('kd-bio').innerHTML = bio;
-  var h = d.h || [], body = '';
+  var h = (d.h || []).map(function(i) {{ return STMTS[i]; }})
+                     .filter(function(r) {{ return !!r; }});
+  var body = '';
   if (!h.length) {{
     body = '<div class="kd-empty">本轮未抓到可归属于本人的公开言论（如实标注，未编造）。</div>';
   }} else {{
@@ -740,12 +889,13 @@ function openKol(name) {{
         '<span class="kd-caret">▸</span>' +
         '<span class="dirb" style="background:' + c + '"></span>' +
         '<span class="kd-date' + unv + '">' + hesc(dt) + '</span>' +
-        '<span class="kd-title">' + hesc(r[3]) + '</span></div>' +
+        '<span class="kd-title">' + hesc(r[5]) + '</span></div>' +
         '<div class="kd-body"><div class="kd-sum">' +
-        (hesc(r[4]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
+        (hesc(r[6]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
         '<div class="kd-meta">走势判断：<b style="color:' + c + '">' + hesc(r[2]) +
-        '</b>　发表日状态：' + hesc(r[1]) + '　归属校验：' + hesc(r[6] || '—') + '</div>' +
-        '<a class="kd-src" href="' + hesc(r[5]) + '" target="_blank" rel="noopener">' +
+        '</b>　战区：' + hesc(r[3]) +
+        '　发表日状态：' + hesc(r[1]) + '　归属校验：' + hesc(r[8] || '—') + '</div>' +
+        '<a class="kd-src" href="' + hesc(r[7]) + '" target="_blank" rel="noopener">' +
         '打开原始出处 →</a></div></div>';
     }}
     if (dated.length) {{
@@ -764,10 +914,226 @@ function openKol(name) {{
 }}
 function closeKol() {{
   document.getElementById('kd-mask').classList.remove('on');
-  document.body.style.overflow = '';
+  if (!document.getElementById('tv-mask').classList.contains('on'))
+    document.body.style.overflow = '';
 }}
+
+/* ── 战区言论列表弹层 ────────────────────────────────────────
+   地图气泡 / 战区表格行 → 打开该战区全部言论的可排序列表 → 双击行展开详情。
+   ★行数据引用全局 STMTS 下标，不复制对象；排序在下标数组上做，几百行也秒开。
+   ★为什么表头点击排序自己写而不用库：整站是单文件零依赖 HTML，
+     引外部 JS 会破坏离线可用性。*/
+var TV = {{theater:'', period:'all', sort:0, desc:true, q:''}};
+function tvOpen(theater, period) {{
+  TV.theater = theater;
+  TV.period = (period && PIDX[period]) ? period : 'all';
+  TV.sort = 0; TV.desc = true; TV.q = '';
+  var qi = document.getElementById('tv-q'); if (qi) qi.value = '';
+  var tabs = document.querySelectorAll('.tv-tab');
+  for (var i = 0; i < tabs.length; i++)
+    tabs[i].classList.toggle('on', tabs[i].getAttribute('data-tvp') === TV.period);
+  document.getElementById('tv-name').textContent = theater + ' · 言论列表';
+  tvRender();
+  document.getElementById('tv-mask').classList.add('on');
+  document.body.style.overflow = 'hidden';
+}}
+function tvClose() {{
+  document.getElementById('tv-mask').classList.remove('on');
+  if (!document.getElementById('kd-mask').classList.contains('on'))
+    document.body.style.overflow = '';
+}}
+function tvRows() {{
+  var pool, i, out = [];
+  if (TV.period === 'all') {{
+    pool = []; for (i = 0; i < STMTS.length; i++) pool.push(i);
+  }} else {{ pool = PIDX[TV.period] || []; }}
+  var q = TV.q.toLowerCase();
+  for (i = 0; i < pool.length; i++) {{
+    var r = STMTS[pool[i]];
+    if (!r || r[3] !== TV.theater) continue;
+    if (q && (r[4] + ' ' + r[5] + ' ' + r[6]).toLowerCase().indexOf(q) < 0) continue;
+    out.push(pool[i]);
+  }}
+  var k = TV.sort, dir = TV.desc ? -1 : 1;
+  out.sort(function(a, b) {{
+    var x = STMTS[a][k] || '', y = STMTS[b][k] || '';
+    /* 日期列：空值（未核实）永远沉底，不参与升降序，否则升序时一屏全是空白 */
+    if (k === 0) {{
+      if (!x && !y) return 0;
+      if (!x) return 1;
+      if (!y) return -1;
+    }}
+    if (x === y) return 0;
+    return (x > y ? 1 : -1) * dir;
+  }});
+  return out;
+}}
+function tvRender() {{
+  var idx = tvRows(), body = document.getElementById('tv-body'), h = '';
+  var total = 0, ti;
+  for (ti = 0; ti < STMTS.length; ti++) if (STMTS[ti][3] === TV.theater) total++;
+  var PL = {{day:'本日', week:'本周', month:'本月', all:'全部时段'}};
+  document.getElementById('tv-sub').textContent =
+    PL[TV.period] + ' · ' + idx.length + ' 条' +
+    (idx.length === total ? '' : '（该战区累计 ' + total + ' 条）');
+  document.getElementById('tv-hint').textContent =
+    '点表头排序，双击任意一行展开详情。日/周/月按实际发表日切档，' +
+    '发表日未核实的条目只出现在「全部」档。';
+  var ths = document.querySelectorAll('.tv-table th.tv-s');
+  for (var t = 0; t < ths.length; t++) {{
+    var on = parseInt(ths[t].getAttribute('data-sort'), 10) === TV.sort;
+    ths[t].classList.toggle('tv-on', on);
+    var ar = ths[t].querySelector('.tv-ar');
+    if (!ar) {{ ar = document.createElement('span'); ar.className = 'tv-ar';
+                ths[t].appendChild(ar); }}
+    /* 未激活列用双向箭头，避免被误读成「已按降序排」 */
+    ar.textContent = on ? (TV.desc ? '▼' : '▲') : '⇅';
+    ths[t].setAttribute('aria-sort',
+      on ? (TV.desc ? 'descending' : 'ascending') : 'none');
+  }}
+  if (!idx.length) {{
+    body.innerHTML = '<tr><td colspan="5" class="tv-none">' +
+      '当前筛选条件下没有言论。换个档位或清空搜索词再试。</td></tr>';
+    return;
+  }}
+  for (var i = 0; i < idx.length; i++) {{
+    var r = STMTS[idx[i]], c = DIRC[r[2]] || '#6c757d';
+    h += '<tr class="tv-r" data-si="' + idx[i] + '" tabindex="0">' +
+      '<td><span class="tv-dt' + (r[1] === 'verified' ? '' : ' tv-unv') + '">' +
+      hesc(r[0] || '未核实') + '</span></td>' +
+      '<td class="tv-kol" title="' + hesc(r[4]) + '">' + hesc(r[4]) + '</td>' +
+      '<td><span class="tv-dir" style="background:' + c + '22;color:' + c +
+      ';border-color:' + c + '66">' + hesc(r[2] || '—') + '</span></td>' +
+      '<td class="tv-tt" title="' + hesc(r[5]) + '">' + hesc(r[5]) + '</td>' +
+      '<td><a class="tv-src" href="' + hesc(r[7]) +
+      '" target="_blank" rel="noopener">原文 →</a></td></tr>';
+  }}
+  body.innerHTML = h;
+}}
+function tvToggleDetail(tr) {{
+  var si = parseInt(tr.getAttribute('data-si'), 10), r = STMTS[si];
+  if (!r) return;
+  var nxt = tr.nextElementSibling;
+  if (nxt && nxt.classList.contains('tv-det')) {{
+    nxt.parentNode.removeChild(nxt); tr.classList.remove('open'); return;
+  }}
+  var c = DIRC[r[2]] || '#6c757d';
+  var det = document.createElement('tr');
+  det.className = 'tv-det';
+  /* 摘要开头常见 "5 days ago · " 之类的相对时间前缀，抽出来单独做标签并中文化，
+     否则它会和正文粘成一句，且中文界面里夹英文（视觉复核时发现）。*/
+  var sum = r[6] || '', rel = '';
+  var UNIT = {{second:'秒', minute:'分钟', hour:'小时', day:'天',
+               week:'周', month:'个月', year:'年'}};
+  var m = sum.match(/^\\s*(?:(\\d+)\\s+(second|minute|hour|day|week|month|year)s?\\s+ago|(yesterday|today))\\s*[·\\-—|]?\\s*/i);
+  if (m) {{
+    if (m[3]) rel = (m[3].toLowerCase() === 'today') ? '当天' : '前一天';
+    else rel = m[1] + UNIT[m[2].toLowerCase()] + '前';
+    sum = sum.slice(m[0].length);
+  }}
+  det.innerHTML = '<td colspan="5">' +
+    '<div class="tv-ctx">' + hesc(r[0] || '发表日未核实') + '　·　' +
+      hesc(r[4]) + '</div>' +
+    (rel ? '<div class="tv-rel">来源页标注：' + hesc(rel) + '</div>' : '') +
+    '<div class="tv-sum">' +
+    (hesc(sum) || '（该来源摘要为空，请直接看原文）') + '</div>' +
+    '<div class="tv-kv">' +
+    /* KOL 名常有机构后缀，会换行三行把同排短字段撑出空腔 → 单独通栏一行 */
+    '<div class="tv-kv-wide"><b>KOL</b><span>' + hesc(r[4]) + '</span></div>' +
+    '<div><b>战区</b><span>' + hesc(r[3]) + '</span></div>' +
+    '<div><b>走势判断</b><span class="tv-dir" style="background:' + c +
+      '22;color:' + c + ';border-color:' + c + '66">' +
+      hesc(r[2] || '—') + '</span></div>' +
+    '<div><b>发表日</b><span>' + hesc(r[0] || '未核实') +
+      '（' + (r[1] === 'verified' ? '已核实' : '未核实') + '）</span></div>' +
+    '<div class="tv-kv-wide"><b>归属校验</b><span>' + hesc(r[8] || '—') +
+      '</span></div>' +
+    '</div>' +
+    '<div class="tv-act">' +
+    '<a class="tv-btn tv-btn-primary" href="' + hesc(r[7]) +
+    '" target="_blank" rel="noopener">打开原始出处</a>' +
+    (KOL[r[4]] ? '<button type="button" class="tv-btn tv-tokol" data-k="' +
+       hesc(r[4]) + '">查看该 KOL 档案</button>' : '') +
+    '</div></td>';
+  tr.parentNode.insertBefore(det, tr.nextSibling);
+  tr.classList.add('open');
+  /* 展开的详情常高过滚动容器 → 优先保证【底部按钮】可见（父行滚出无妨，
+     详情自带 tv-ctx 一行标明是哪条）。容器装得下时才顺带把父行拉回视野。*/
+  var wrap = document.querySelector('.tv-tablewrap');
+  if (wrap) {{
+    var wb = wrap.getBoundingClientRect();
+    var over = det.getBoundingClientRect().bottom - wb.bottom;
+    if (over > 0) wrap.scrollTop += over + 12;
+    var thead = wrap.querySelector('thead');
+    var headH = thead ? thead.getBoundingClientRect().height : 0;
+    var need = tr.getBoundingClientRect().height + det.getBoundingClientRect().height;
+    if (need <= wb.height - headH) {{
+      var short = (wb.top + headH) - tr.getBoundingClientRect().top;
+      if (short > 0) wrap.scrollTop -= short + 4;
+    }}
+  }}
+}}
+document.addEventListener('click', function(ev) {{
+  var g = ev.target.closest ? ev.target.closest('.mp-bub') : null;
+  if (g) {{ tvOpen(g.getAttribute('data-theater'), g.getAttribute('data-period'));
+            return; }}
+  var mr = ev.target.closest ? ev.target.closest('.mp-row') : null;
+  if (mr) {{ tvOpen(mr.getAttribute('data-theater'), mr.getAttribute('data-period'));
+             return; }}
+  var th = ev.target.closest ? ev.target.closest('.tv-table th.tv-s') : null;
+  if (th) {{
+    var k = parseInt(th.getAttribute('data-sort'), 10);
+    if (k === TV.sort) TV.desc = !TV.desc; else {{ TV.sort = k; TV.desc = (k === 0); }}
+    tvRender(); return;
+  }}
+  var tab = ev.target.closest ? ev.target.closest('.tv-tab') : null;
+  if (tab) {{
+    TV.period = tab.getAttribute('data-tvp');
+    var tabs = document.querySelectorAll('.tv-tab');
+    for (var i = 0; i < tabs.length; i++) tabs[i].classList.toggle('on', tabs[i] === tab);
+    tvRender(); return;
+  }}
+  var tk = ev.target.closest ? ev.target.closest('.tv-tokol') : null;
+  if (tk) {{ openKol(tk.getAttribute('data-k')); return; }}
+  if (ev.target.id === 'tv-mask') {{ tvClose(); return; }}
+  if (ev.target.closest && ev.target.closest('#tv-mask .kd-close')) {{ tvClose(); }}
+}});
+/* 双击行展开详情（单击留给「原文」链接，避免误触） */
+document.addEventListener('dblclick', function(ev) {{
+  var tr = ev.target.closest ? ev.target.closest('.tv-r') : null;
+  if (!tr || (ev.target.closest && ev.target.closest('a'))) return;
+  ev.preventDefault();
+  tvToggleDetail(tr);
+}});
+(function() {{
+  var qi = document.getElementById('tv-q');
+  if (qi) qi.addEventListener('input', function() {{ TV.q = qi.value || ''; tvRender(); }});
+  /* 滚到底就撤掉底部渐隐（否则「已经到底」也像还有内容） */
+  var wrap = document.querySelector('.tv-tablewrap');
+  if (wrap) wrap.addEventListener('scroll', function() {{
+    var atBot = wrap.scrollTop + wrap.clientHeight >= wrap.scrollHeight - 2;
+    wrap.classList.toggle('tv-atbot', atBot);
+  }}, {{passive:true}});
+  /* 键盘可达：气泡/表格行按 Enter 或空格等同点击 */
+  document.addEventListener('keydown', function(ev) {{
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    var el = document.activeElement;
+    if (!el || !el.getAttribute) return;
+    if (el.classList.contains('mp-bub') || el.classList.contains('mp-row')) {{
+      ev.preventDefault();
+      tvOpen(el.getAttribute('data-theater'), el.getAttribute('data-period'));
+    }} else if (el.classList.contains('tv-r')) {{
+      ev.preventDefault(); tvToggleDetail(el);
+    }}
+  }});
+}})();
 document.addEventListener('keydown', function(ev) {{
-  if (ev.key === 'Escape') {{ closeKol(); return; }}
+  if (ev.key === 'Escape') {{
+    /* 两层弹层同开时，Esc 先关上层（战区列表），再按一次关 KOL 档案 */
+    if (document.getElementById('tv-mask').classList.contains('on')) tvClose();
+    else closeKol();
+    return;
+  }}
   if ((ev.key === 'Enter' || ev.key === ' ') && document.activeElement &&
       document.activeElement.classList &&
       document.activeElement.classList.contains('kcard')) {{
