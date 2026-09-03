@@ -817,10 +817,10 @@
    "src_hash": "3b6a3e259267123e"
   },
   "https://www.defensepriorities.org/explainers/target-taiwan-challenges-for-a-us-intervention/": {
-   "title_cn": "台海目标：美国军事干预面临的挑战",
-   "summary_cn": "Defense Priorities 发布的报告引用 CSIS 2023 年 1 月研究「下一场战争的首场战役」，分析美国若介入台海冲突将遇到的作战难题。原文仅提供文献引用信息，未展开具体挑战内容或判断依据。",
+   "title_cn": "目标台湾：美军干预面临的挑战",
+   "summary_cn": "Defense Priorities 报告指出，2025 年观察到 PLA 在台湾 1000 英里范围内已拥有 134 个空军基地和约 650 个加固飞机掩体。报告评估美军介入台海冲突将面临严峻挑战，包括 PLA 空中力量投送能力显著增强、基地设施大幅扩建等不利态势变化。",
    "status": "ok",
-   "src_hash": "65da73464cd3646e"
+   "src_hash": "3497967493474fc6"
   },
   "https://www.uscc.gov/sites/default/files/2025-03/Greg_Poling_Testimony.pdf": {
    "title_cn": "美国会被建议要求报告解放军在南海东海台海不安全空中拦截频率",
@@ -1321,10 +1321,10 @@
    "src_hash": "45614cc3b2f25f8e"
   },
   "https://www.cnas.org/people/tom-shugart": {
-   "title_cn": "CNAS 研究员谈中国对美亚太基地的导弹威胁",
-   "summary_cn": "该研究员曾在 CNAS 担任海军研究员期间发表《先发制人：中国对美国亚洲基地的导弹威胁》研究报告。他毕业于美国海军战争学院，拥有国家安全与战略研究硕士学位。",
+   "title_cn": "CNAS 国防项目兼职高级研究员个人简介",
+   "summary_cn": "Tom Shugart 担任新美国安全中心（CNAS）国防项目兼职高级研究员。其文章曾发表于《外交事务》《War on the Rocks》《国家利益》、美国海军学会《Proceedings》期刊及洛伊研究所《Interpreter》等刊物。原文未提供具体研究观点或判断。",
    "status": "ok",
-   "src_hash": "9c37fde5e5302f76"
+   "src_hash": "cc9ba7e6d4d9db47"
   },
   "https://www.uscc.gov/sites/default/files/2021-02/Thomas_Shugart_bio.pdf": {
    "title_cn": "CNAS 国防项目资深兼职研究员 Tom Shugart",
@@ -1369,10 +1369,10 @@
    "src_hash": "78c4a159a58ee4d7"
   },
   "https://www.uscc.gov/sites/default/files/2024-03/Thomas_Shugart_Bio.pdf": {
-   "title_cn": "USCC 专员 Tom Shugart Bio 履历：前核潜艇指挥官与净评估办公室成员",
-   "summary_cn": "Tom Shugart Bio 在美国海军服役超过 25 年，最后在国防部净评估办公室（Office of Net Assessment）工作。曾担任潜艇战军官，多次部署至印太地区，2013 至 2016 年指挥核动力快速攻击潜艇 USS Olympia（SSN 717）。潜艇指挥任期后继续在国防领域任职。",
+   "title_cn": "CNAS 防务项目高级研究员 Tom Shugart 简介",
+   "summary_cn": "Tom Shugart 任职于新美国安全中心（CNAS）防务项目，担任兼职高级研究员。研究重点涵盖水下作战与海洋竞争、军事创新与装备采购，以及印太地区整体军事平衡态势。",
    "status": "ok",
-   "src_hash": "911fe96a8896823c"
+   "src_hash": "65a6814497ba0398"
   },
   "https://twitter.com/tshugart3": {
    "title_cn": "前潜艇军官创立战略咨询公司",
@@ -3719,6 +3719,498 @@
    "summary_cn": "Nathaniel A. Raymond 现任耶鲁大学公共卫生学院人道主义研究实验室执行主任，同时在该学院微生物疾病流行病学系担任讲师。原文未涉及具体战争或国防议题，仅为人物职务介绍。",
    "status": "ok",
    "src_hash": "825ec34976858c73"
+  },
+  "https://www.key.aero/author/babak-taghvaee": {
+   "title_cn": "伊朗击落美军第 494 中队 F-15E 及其机组复杂救援行动分析",
+   "summary_cn": "Babak Taghvaee 分析了一架隶属美军第 494 战斗机中队的 F-15E 战斗轰炸机在伊朗境内被击落事件，并详细探讨了针对该机组人员展开的复杂救援行动。文章由 Key Aero 航空刊物发布，聚焦事件经过与救援细节。",
+   "status": "ok",
+   "src_hash": "238f53b9122f6940"
+  },
+  "https://economictimes.indiatimes.com/news/defence/satellite-images-shows-damage-done-by-indian-strikes-to-nur-khan-other-pakistan-air-bases-check-visuals-here/articleshow/121079752.cms": {
+   "title_cn": "卫星图像显示印度空袭巴控克什米尔恐怖设施造成的破坏",
+   "summary_cn": "印度武装部队于5月7日凌晨发动「Sindoor行动」，打击巴基斯坦及巴控克什米尔地区的9处恐怖分子基础设施目标。卫星图像显示了空袭造成的破坏程度。",
+   "status": "ok",
+   "src_hash": "da95de4352175e17"
+  },
+  "https://www.youtube.com/watch?v=1s25VrdT7xU": {
+   "title_cn": "以色列向印度提供全面军事支持并警告中国与巴基斯坦",
+   "summary_cn": "开源情报账号称，某无人机「可能执行 ISR（情报、监视与侦察）任务」，沿印度与中国及尼泊尔边境活动。原文未提供以色列军事支持的具体内容、警告的详情或消息来源，信息不足。",
+   "status": "ok",
+   "src_hash": "af169be065823d88"
+  },
+  "https://www.news18.com/world/six-months-after-indias-strikes-satellite-images-show-pakistan-still-repairing-key-military-sites-9714850.html": {
+   "title_cn": "卫星图像显示巴基斯坦在印度空袭六个月后仍在修复受损军事设施",
+   "summary_cn": "OSINT 分析师 Damien Symon 根据最新卫星图像指出，2025 年 5 月印巴四天冲突中印度军队打击巴基斯坦境内多处军事目标六个月后，伊斯兰堡仍在修复受损设施。Damien Symon 是首位通过卫星图像披露相关损毁的研究人员。",
+   "status": "ok",
+   "src_hash": "8ffc534ef7039927"
+  },
+  "https://www.foreignaffairs.com/regions/pakistan": {
+   "title_cn": "印度与巴基斯坦濒临冲突边缘",
+   "summary_cn": "Foreign Affairs 刊文讨论南亚地区紧张局势。Sushant Singh 分析印巴两国关系危险接近冲突临界点，Andrew J. Nathan 探讨 Kashmir 地区在 21 世纪冲突中的处境，Moeed Yusuf 阐述巴基斯坦对阿富汗局势的战略视角。三篇文章聚焦南亚地缘政治热点问题。",
+   "status": "ok",
+   "src_hash": "c2b705c3ec26cc86"
+  },
+  "https://www.belfercenter.org/publication/indias-counterforce-temptations-strategic-dilemmas-doctrine-and-capabilities": {
+   "title_cn": "印度的反击力量诱惑：战略困境、学说与能力发展",
+   "summary_cn": "Belfer 中心发布关于印度核战略的研究报告，探讨印度在发展反击力量（counterforce）能力时面临的战略困境和学说演变。报告分析了印度核态势的变化及其对南亚战略稳定的影响，同时涉及威慑理论、生物技术安全和北极采矿等议题的框架分析。",
+   "status": "ok",
+   "src_hash": "020cac09d747637c"
+  },
+  "https://oglobo.globo.com/mundo/noticia/2026/01/08/rocio-san-miguel-e-enrique-marquez-estao-na-lista-de-presos-politicos-libertados-pela-venezuela-segundo-midia-internacional.ghtml": {
+   "title_cn": "委内瑞拉军事专家 Rocío San Miguel 与前总统候选人 Enrique Márquez 被列入囚犯名单",
+   "summary_cn": "根据 Rocío San Miguel 的消息，委内瑞拉公民监督组织（Controle Cidadão）主任、该国主要军事议题专家 Rocío San Miguel 律师，以及前总统候选人 Enrique Márquez，均被列入 Nicolás Maduro 政府时期的高知名度囚犯名单。原文未说明具体拘押时间、指控内容或当前状态。",
+   "status": "ok",
+   "src_hash": "f677d44902054778"
+  },
+  "https://deepnewz.com/south-america/venezuela-detains-activist-rocio-san-miguel-5-family-members": {
+   "title_cn": "委内瑞拉拘留国防与安全事务活动家 Rocío San Miguel",
+   "summary_cn": "委内瑞拉国防与安全领域重要活动家 Rocío San Miguel 及其家人遭到拘留。Phil Gunson 就此事撰写了相关报道，San Miguel 在委内瑞拉国防与安全问题上具有重要发言权。",
+   "status": "ok",
+   "src_hash": "c0ad7a3c6caa2cf1"
+  },
+  "https://www.newarab.com/analysis/secret-us-israel-project-mapped-irans-civilian-pressure-points": {
+   "title_cn": "美以秘密项目绘制伊朗民间社会脆弱性地图",
+   "summary_cn": "以色列国家安全研究所（INSS）研究员 Raz Zimmt 披露，美以联合项目「伊朗民间社会脆弱性评估」旨在绘制伊朗平民压力点地图。该项目提案于2025年9月提交中东论坛。报道涉及黎巴嫩-以色列冲突背景，但原文未说明具体评估内容、实施时间及目的。",
+   "status": "ok",
+   "src_hash": "f8fcfdf8b94f956f"
+  },
+  "https://www.thecipherbrief.com/experts/dr-stacie-pettyjohn": {
+   "title_cn": "CNAS 国防项目主任 Stacie Pettyjohn 专家简介",
+   "summary_cn": "Stacie Pettyjohn 是 CNAS（新美国安全中心）高级研究员兼国防项目主任。其专业领域涵盖国防战略、军事态势、兵力规划、国防预算、空中力量及兵棋推演。",
+   "status": "ok",
+   "src_hash": "8454a9ed0134e984"
+  },
+  "https://www.cnas.org/press/in-the-news/at-a-steam-age-arsenal-u-s-army-forges-cannons-for-a-digital-era-war-in-ukraine": {
+   "title_cn": "美国陆军在蒸汽时代兵工厂锻造火炮，军火预算常为高调项目让路",
+   "summary_cn": "CNAS 防务项目主任 Stacie Pettyjohn 指出，五角大楼有句老话「弹药是买单者」，意思是陆军军火预算经常被削减，用于资助更高调的项目。这反映了美国军工预算分配中陆基武器装备常被边缘化的现实。",
+   "status": "ok",
+   "src_hash": "5e4a228930fb7fc7"
+  },
+  "https://www.youtube.com/watch?v=e9k1d1CPf6g": {
+   "title_cn": "法国记者：土耳其招募叙利亚雇佣军参与阿塞拜疆—亚美尼亚纳卡边境冲突",
+   "summary_cn": "France 24 记者报道称，此前从叙利亚被招募前往利比亚的外国武装人员，现已部署在阿塞拜疆与亚美尼亚就 Nagorno-Karabakh（纳戈尔诺-卡拉巴赫）地区爆发的边境冲突前线。截至周五，至少 30 名该类人员已阵亡。报道强调这些人员为雇佣军性质，而非圣战组织成员。",
+   "status": "ok",
+   "src_hash": "e8d80fcdd593007f"
+  },
+  "https://ctc.westpoint.edu/journey-to-damascus-an-interview-with-wassim-nasr-journalist-france24/": {
+   "title_cn": "法国记者 Wassim Nasr 谈叙利亚圣战组织十年观察",
+   "summary_cn": "Wassim Nasr 是法国记者，过去十余年为 France24 法语、英语和阿拉伯语频道追踪报道圣战组织动向，进行了多项调查与采访。本访谈聚焦其对叙利亚圣战势力的长期观察经验。",
+   "status": "ok",
+   "src_hash": "174bb2ec8436fcf1"
+  },
+  "https://www.rfi.fr/en/podcasts/paris-perspective/20210919-paris-perspective-15-the-future-history-of-jihad-wassim-nasr": {
+   "title_cn": "基地组织视塔利班复兴为天启，ISIS 则遭遇挫折",
+   "summary_cn": "France 24 恐怖主义专家 Wassim Nasr 指出，作为跨国逊尼派叛乱组织的基地组织（al-Qaeda）将塔利班的复兴视为「真主的启示」，这对基地组织有利但对 ISIS 不利。该判断基于对激进伊斯兰主义战略的持续监测。",
+   "status": "ok",
+   "src_hash": "c3ce22d92674b5f6"
+  },
+  "https://www.theguardian.com/world/2025/jan/09/venezuela-maria-corina-machado-kidnapped": {
+   "title_cn": "委内瑞拉反对派领袖面临拘捕威胁",
+   "summary_cn": "Crisis Group 驻加拉加斯分析师 Phil Gunson 指出，马杜罗政府多年来一直克制未拘捕 Machado，判断她虽是「眼中钉」，但逮捕可能适得其反，反而使其更受欢迎。依据是政府对拘捕后果的政治考量。",
+   "status": "ok",
+   "src_hash": "950b6425e05d5b55"
+  },
+  "https://oslo3.org/speaker/ibrahim-yahaya-ibrahim/": {
+   "title_cn": "国际危机组织萨赫勒地区高级分析师 Ibrahim Yahaya Ibrahim 数字会议发言",
+   "summary_cn": "Ibrahim Yahaya Ibrahim 是国际危机组织（International Crisis Group）萨赫勒地区高级分析师，拥有佛罗里达大学政治学博士学位。本次为 PVE 数字会议的咨询分析师发言。原文未提供具体会议内容或观点。",
+   "status": "ok",
+   "src_hash": "5c0953c3f0feeaf9"
+  },
+  "https://chinapower.csis.org/tag/peoples-liberation-army-navy/": {
+   "title_cn": "中国在南海叙事的说服力与意外升级风险分析",
+   "summary_cn": "Gregory B. Poling 分析中国在南海的叙事是否具有说服力，并警告声索国之间存在暴力意外升级的潜在风险。文章聚焦于中国的话语策略及其对地区紧张局势的影响，但原文摘要未提供具体判断依据或详细论证过程。",
+   "status": "ok",
+   "src_hash": "97a8f9d577df63f3"
+  },
+  "https://threadreaderapp.com/thread/1220012476324028417.html": {
+   "title_cn": "中国与马来西亚同意建立南海争议联合对话机制",
+   "summary_cn": "中国政府高级外交官员周四表示，中国与马来西亚已同意就南海争议问题建立联合对话机制。这一声明是在中方外交高官与马来西亚外长会晤后发布的。原文未提供该机制的具体运作方式或时间表等细节信息。",
+   "status": "ok",
+   "src_hash": "3cf7bcf2889c7791"
+  },
+  "https://www.defensepriorities.org/people/dara-massicot/": {
+   "title_cn": "Dara Massicot — 俄罗斯与欧亚军事分析专家",
+   "summary_cn": "Dara Massicot 现为卡内基国际和平基金会俄罗斯与欧亚项目高级研究员，研究领域涵盖俄罗斯军事、乌克兰以及欧亚地区防务安全议题。原文未提供具体分析结论或政策判断，仅为人物机构简介。",
+   "status": "ok",
+   "src_hash": "5f2ba298043c589d"
+  },
+  "https://www.rferl.org/a/ukraine-war-russia-measuring-progress-analysis-massicot/31925753.html": {
+   "title_cn": "RAND 研究员解读：衡量乌克兰战争进展为何困难",
+   "summary_cn": "RAND 智库研究员、前五角大楼高级分析师 Dara Massicot 分析指出，顿巴斯战役将改变战争的整体战略走向，并认为俄罗斯作战力量正显露令人担忧的迹象。受访者阐述了评估战争进展面临的困难，涉及战场态势变化和俄军表现等问题。",
+   "status": "ok",
+   "src_hash": "7c431fbafe606ce3"
+  },
+  "https://warontherocks.com/russias-post-war-military-recruiting-strategy-emerges/": {
+   "title_cn": "俄罗斯战后兵员招募策略浮现",
+   "summary_cn": "Dara Massicot（卡内基俄罗斯与欧亚项目高级研究员、RAND兼职研究员）分析认为，乌克兰战争冻结或结束后，俄军将启动长期的装备与人员重建工作，文章探讨俄方可能采取的兵员招募策略。原文未详述具体招募手段，仅提出该议题框架。",
+   "status": "ok",
+   "src_hash": "907f5932e4695c77"
+  },
+  "https://ngoreport.org/dara-massicot/": {
+   "title_cn": "Dara Massicot 因在卡内基国际和平基金会任职而被建议列入黑名单",
+   "summary_cn": "报告建议将 Dara Massicot 列入黑名单，理由是她担任卡内基国际和平基金会俄罗斯与欧亚项目高级研究员，批评性分析认为该机构实际充当阿联酋政府的战略工具。原文未提供具体判断依据或详细论证。",
+   "status": "ok",
+   "src_hash": "3ac5e0ec544f547c"
+  },
+  "https://www.npr.org/2022/09/30/1126281353/understanding-putins-latest-moves-as-he-annexes-even-more-of-ukraine": {
+   "title_cn": "分析普京吞并更多乌克兰领土的最新举措",
+   "summary_cn": "NPR采访RAND公司专注俄罗斯防务问题的高级政策研究员Dara Massicot，试图理解普京最新吞并行动的意图。访谈从弗吉尼亚州阿灵顿连线进行，聚焦其对俄罗斯吞并乌克兰领土举措的专业解读。",
+   "status": "ok",
+   "src_hash": "1a69d8f1b2609b8f"
+  },
+  "https://www.foreignaffairs.com/podcasts/reeducation-russias-military": {
+   "title_cn": "俄罗斯军队的再教育：入侵以来的失败与韧性",
+   "summary_cn": "Carnegie国际和平基金会高级研究员Dara Massicot在Foreign Affairs撰文指出，外界对俄军的常见印象均不符合实际。自入侵乌克兰以来，她持续分析俄军状态，认为俄军既遭遇失败，也展现出令人意外的韧性。文章未给出具体判断依据的详细信息。",
+   "status": "ok",
+   "src_hash": "88f149dd67b72539"
+  },
+  "https://www.jns.org/writers/uzi-rubin/": {
+   "title_cn": "Uzi Rubin 对以色列防御系统的分析",
+   "summary_cn": "Uzi Rubin 对以色列防御系统、安全战略和军事政策进行分析。原文摘要未提供具体判断内容或依据，仅说明这是 Rubin 对以色列国防体系的评估性研究。",
+   "status": "ok",
+   "src_hash": "223c9c82336572a6"
+  },
+  "https://www.newenglishreview.org/articles/the-iranian-missile-threat/": {
+   "title_cn": "伊朗导弹威胁分析",
+   "summary_cn": "以色列导弹专家 Uzi Rubin 对伊朗导弹威胁进行评估。Rubin 曾任以色列导弹研发项目负责人，在近期采访中分享其对伊朗导弹能力的专业见解。原文未提供具体威胁评估内容或技术细节。",
+   "status": "ok",
+   "src_hash": "818541bbfba67d94"
+  },
+  "https://jcfa.org/article/new-developments-in-irans-missile-capabilities-implications-beyond-the-middle-east/": {
+   "title_cn": "伊朗导弹能力新进展：超越地区的影响",
+   "summary_cn": "以色列导弹防御专家 Uzi Rubin 分析伊朗导弹项目发展，涵盖核导技术、卫星发射器、Scud 导弹和 Zalzal 火箭系统等武器平台，评估其对以色列安全及核战争风险的影响。Rubin 在以色列军事研发领域从业近四十年。",
+   "status": "ok",
+   "src_hash": "a9fff62521c85a6e"
+  },
+  "https://novayagazeta.eu/en/articles/2026/06/10/russias-military-recruitment-rate-fell-to-three-year-low-in-first-quarter-of-2026-en-news": {
+   "title_cn": "俄罗斯军事招募速度降至每日约 800 人",
+   "summary_cn": "德国经济学家 Janis Kluge 依据俄罗斯财政部联邦预算支出数据估算，1 至 3 月期间俄军招募速度放缓至每日约 800 人报名。",
+   "status": "ok",
+   "src_hash": "ce8cd5acf370252f"
+  },
+  "https://europeanleadershipnetwork.org/person/fabian-hinz/": {
+   "title_cn": "Fabian Hinz — 专注中东北非导弹扩散的开源情报专家",
+   "summary_cn": "Fabian Hinz 是一名独立的开源情报（OSINT）专家，专注于中东和北非地区的导弹扩散问题。",
+   "status": "ok",
+   "src_hash": "b7e47846101a962b"
+  },
+  "https://tu-dresden.de/bu/wirtschaft/bwl/ee2/die-professur/news/21-enerconnect-stammtisch-mit-dr-fabian-hinz": {
+   "title_cn": "E.ON SE 企业战略部门专家受邀参加能源交流活动",
+   "summary_cn": "德累斯顿工业大学举办第21届 enerCONNECT Stammtisch 活动，邀请目前在 E.ON SE 企业战略与投资组合部门工作的专家参加。该专家此前曾在德累斯顿工业大学能源经济学教席担任博士研究生。原文未提供具体议题或战略判断内容。",
+   "status": "ok",
+   "src_hash": "065c56d2ffd6e518"
+  },
+  "https://www.iiss.org/podcasts/arms-control-primer/2024/11/the-past-present-and-future-of-irans-missile-programme-with-jim-lamson/transcript/": {
+   "title_cn": "伊朗导弹计划的过去、现在与未来",
+   "summary_cn": "IISS 研究员 Fabian Hinz 专注于弹道导弹、巡航导弹、无人机及游荡弹药的分析,研究领域涵盖伊朗与中东北非地区。Jim Lamson 为缅因州高级研究助理。本访谈探讨伊朗导弹计划的发展历程与趋势,但原文未提供具体技术判断或政策结论。",
+   "status": "ok",
+   "src_hash": "4f1340238513393a"
+  },
+  "https://bellingcat.gitbook.io/toolkit": {
+   "title_cn": "Bellingcat 开源调查工具包主页",
+   "summary_cn": "Bellingcat 是一个独立调查团体，由研究员、调查员和公民记者组成，致力于开源情报研究。该工具包提供在线调查资源和方法论，供公众使用开源信息进行核查与分析。",
+   "status": "ok",
+   "src_hash": "e8859a0c77c12e32"
+  },
+  "https://github.com/bellingcat": {
+   "title_cn": "Bellingcat 开源调查工具与项目代码库",
+   "summary_cn": "Bellingcat 在 GitHub 上存档了一系列长期开源调查项目代码，旨在为该组织及全球开源调查人员提供技术工具支持。Bellingcat 是由研究员、调查员和公民记者组成的独立调查团体，专注于开源情报研究。",
+   "status": "ok",
+   "src_hash": "32875fa6c4da1259"
+  },
+  "https://www.armedgroupscentre.org/network/christoph-vogel": {
+   "title_cn": "刚果（金）东部武装团体格局研究",
+   "summary_cn": "两篇学术文献聚焦刚果（金）东部基伍地区安全问题。2018年《非洲事务》期刊文章重访基伍地区持续存在的安全困境；2015年国际合作中心报告梳理该地区武装团体的整体格局。研究由 Christoph Vogel、Jason K. Stearns 等学者合作完成，属中长期区域安全态势分析。",
+   "status": "ok",
+   "src_hash": "46452eb75d4ff1ed"
+  },
+  "https://foreignpolicy.com/author/christoph-vogel/": {
+   "title_cn": "Christoph Vogel — 刚果民主共和国前联合国专家、伦敦政经学院冲突研究项目研究员",
+   "summary_cn": "Christoph Vogel 曾任联合国刚果民主共和国问题专家，现为伦敦政经学院冲突研究项目（Conflict Research Programme）研究员。该作者专注于刚果及相关冲突议题研究。",
+   "status": "ok",
+   "src_hash": "cecac957e1ed737a"
+  },
+  "https://www.strategicstudyindia.com/2023/07/interview-christoph-vogel.html": {
+   "title_cn": "中非政治与冲突分析专家访谈",
+   "summary_cn": "受访者是一名研究员、调查员和作家，在分析中非地区政治与冲突方面拥有超过15年的经验。原文未提供访谈具体内容，仅标注访谈对象背景及另有俄罗斯 S-500 防空系统与美国 F-22、F-35 战机对比的相关议题。",
+   "status": "ok",
+   "src_hash": "7c5840424b51ef10"
+  },
+  "https://environmentalhealth.ucdavis.edu/people/christoph-vogel": {
+   "title_cn": "环境毒理学研究者 Christoph Vogel 专注异源物质受体与炎症信号研究",
+   "summary_cn": "Christoph Vogel 是环境毒理学系及健康与环境中心的专业研究员。其实验室研究异源物质受体和炎症信号的功能，旨在理解相关分子机制的发展。原文未提供与战争、国防相关的具体信息。",
+   "status": "ok",
+   "src_hash": "8dca68e85b09d1a0"
+  },
+  "https://cepa.org/article/russias-year-of-truth-1-the-soldier-shortage/": {
+   "title_cn": "俄罗斯的真相之年：兵员短缺",
+   "summary_cn": "CEPA 非常驻高级研究员指出，俄罗斯在乌克兰战争中面临兵员短缺困境。原文仅提供作者介绍，未给出具体分析内容，无法总结俄军兵力不足的具体表现、数据依据或战场影响。",
+   "status": "ok",
+   "src_hash": "56fedb3bd7e6fcc7"
+  },
+  "https://www.saratoga-foundation.org/p/experts": {
+   "title_cn": "Pavel Luzin 博士：Saratoga 基金会俄罗斯防务政策专家",
+   "summary_cn": "Pavel Luzin 博士是 Saratoga 基金会高级研究员，专长领域为俄罗斯外交与防务政策以及俄罗斯太空政策。原文未提供其具体研究成果或观点。",
+   "status": "ok",
+   "src_hash": "3ee35b96204d9438"
+  },
+  "https://www.youtube.com/watch?v=lPjw8HcNk64": {
+   "title_cn": "莫斯科对北约峰会的反应分析",
+   "summary_cn": "NEST Centre 外交政策负责人 John Lough 与防务分析师 Pavel Luzin 讨论莫斯科对最新 NATO 峰会的反应。节目为 NEST Centre 周中俄罗斯简报的一部分，聚焦俄方对北约决策的立场解读。",
+   "status": "ok",
+   "src_hash": "92f1bc2d470fba64"
+  },
+  "https://sflix.film/actor/nick-waters-yPPGoOF3no4": {
+   "title_cn": "此条目与战争国防无关，系演员 Nick Waters 影视作品页面",
+   "summary_cn": "该条目为流媒体平台 SFlix 上演员 Nick Waters 的个人传记页面，收录其出演角色、职业履历和代表作品等信息，与战争、国防或军事主题无关联，不属于专业领域译写范畴。",
+   "status": "ok",
+   "src_hash": "b25b532f6baccaef"
+  },
+  "https://www.diario-red.com/author/jason-stearns/": {
+   "title_cn": "Jason Stearns Jason Stearns — 刚果研究专家与国际合作中心高级成员",
+   "summary_cn": "Jason Stearns Jason Stearns 现任 Center on International Cooperation 高级成员，Congo Research Group 创始人兼顾问委员会主席，并在 Simon Fraser 大学担任国际研究兼职教授。原文为作者简介，未涉及具体战争或国防判断。",
+   "status": "ok",
+   "src_hash": "97ba01cbe0e9bd67"
+  },
+  "https://www.ibtimes.co.uk/drc-veteran-us-journalist-jason-stearns-expulsion-slammed-by-rights-groups-1554219": {
+   "title_cn": "刚果民主共和国驱逐美国资深研究员引发人权组织强烈谴责",
+   "summary_cn": "4月7日，刚果民主共和国（DRC）驱逐了纽约大学刚果研究小组（CRG）主任、知名美国研究员，此举遭到人权组织强烈谴责。该研究员长期从事刚果问题研究工作。",
+   "status": "ok",
+   "src_hash": "f5c942e8d04c1845"
+  },
+  "https://digital-commons.usnwc.edu/cmsi-maritime-reports/": {
+   "title_cn": "中国海事报告第54期：习主席治下的中国海军",
+   "summary_cn": "Ryan D. Martinson 撰写的 CMSI 报告指出，美台战略家应评估 PLA 可能采用的独特突袭手段并制定应对预案。报告题为「习主席的海军」，聚焦中国海军在习近平领导下的特征与作战方式。",
+   "status": "ok",
+   "src_hash": "aefac9df01c933eb"
+  },
+  "https://www.andrewerickson.com/2021/02/the-ryan-martinson-bookshelf-unique-insights-on-chinas-maritime-policies-forces-operations-coast-guard-reform/": {
+   "title_cn": "Ryan Martinson 书架：中国海洋战略研究精选读物",
+   "summary_cn": "Ryan D. Martinson 系美国 Naval War College（纽波特）China Maritime Studies Institute 助理教授。该书架汇集其对中国海洋力量建设与战略的独特研究视角，涵盖相关专业文献推荐。原文未提供具体书目或核心观点细节。",
+   "status": "ok",
+   "src_hash": "5b4ce9596f6d3ae1"
+  },
+  "https://usnwc.edu/Faculty-and-Departments/Directory/Ryan-D-Martinson": {
+   "title_cn": "Ryan D. Martinson 教员简介 | 美国海军战争学院",
+   "summary_cn": "Ryan D. Martinson 是中国海洋研究所（CMSI）核心成员，主要研究中国海洋战略，尤其是中国在东亚地区对海上力量的强制性使用。原文未提供具体研究发现或判断。",
+   "status": "ok",
+   "src_hash": "7aea44bf8de98e29"
+  },
+  "https://muckrack.com/ryan-d-martinson/articles": {
+   "title_cn": "Ryan D. Martinson 个人简介页面",
+   "summary_cn": "这是作者 Ryan D. Martinson 在 Muck Rack 平台的个人资料页面，展示其发表的文章列表及联系方式、社交媒体账号等信息。原文未提供具体文章内容或观点。",
+   "status": "ok",
+   "src_hash": "1a6e798d1c1ba6b3"
+  },
+  "https://foreignpolicy.com/author/ryan-d-martinson/": {
+   "title_cn": "Ryan D. Martinson — 美国海军战争学院中国海事研究所研究员",
+   "summary_cn": "Ryan D. Martinson 现任美国海军战争学院（U.S. Naval War College）中国海事研究所（China Maritime Studies Institute）研究员，专注中国海事领域研究。原文仅为作者简介，未提供具体研究观点或判断。",
+   "status": "ok",
+   "src_hash": "83600b7fc0b8af97"
+  },
+  "https://www.defensenews.com/industry/2015/01/09/defense-industry-running-out-of-time-mergers-loom/": {
+   "title_cn": "国防工业时间紧迫，合并潮临近",
+   "summary_cn": "战略与预算评估中心高级研究员 Todd Harrison 指出，国防工业界与政府间出现脱节，原因是业界预见到预算削减和新启动研发项目匮乏，已提前采取必要准备措施。当前形势暗示行业整合在即。",
+   "status": "ok",
+   "src_hash": "376cd40de0390028"
+  },
+  "https://www.vox.com/authors/matt-korda": {
+   "title_cn": "Matt Korda 在 Vox 的专栏文章汇总",
+   "summary_cn": "Vox 网站收录了 Matt Korda 撰写的系列文章，其中包括 2023 年 7 月 3 日发表的「人工智能崛起解析」一文。原文未提供具体观点或分析内容。",
+   "status": "ok",
+   "src_hash": "7d987010b5ca76c3"
+  },
+  "https://icct.nl/people/aaron-zelin": {
+   "title_cn": "ICCT 研究员 Aaron Y. Zelin 兼任华盛顿近东政策研究所 Richard Borow 学者",
+   "summary_cn": "Aaron Y. Zelin 博士现任国际反恐中心（ICCT）研究员，同时担任华盛顿近东政策研究所 Richard Borow 学者，并主持该所伊斯兰国全球活动地图项目。原文未提供具体研究内容或政策判断。",
+   "status": "ok",
+   "src_hash": "37731f3b62e97a9e"
+  },
+  "https://www.lawfaremedia.org/contributors/azelin": {
+   "title_cn": "Aaron Y. Zelin | 华盛顿近东政策研究所研究员",
+   "summary_cn": "Aaron Y. Zelin 现任华盛顿近东政策研究所（Washington Institute for Near East Policy）Richard Borow 研究员，兼任布兰迪斯大学政治学系访问研究学者，圣战研究网站 Jihadology 创始人。原文为个人简介，未涉及具体研判内容。",
+   "status": "ok",
+   "src_hash": "4624b2954dbbde18"
+  },
+  "https://foreignpolicy.com/author/aaron-y-zelin/": {
+   "title_cn": "Aaron Y. Zelin — 华盛顿近东政策研究所学者简介",
+   "summary_cn": "Aaron Y. Zelin 现任华盛顿近东政策研究所（Washington Institute for Near East Policy）Richard Borow 研究员，同时担任布兰代斯大学（Brandeis University）访问研究学者。原文仅为人物职务介绍，未涉及具体政策判断或研究成果。",
+   "status": "ok",
+   "src_hash": "eaa6e8805306c0c0"
+  },
+  "https://www.thewirechina.com/2021/04/25/andrew-s-erickson-on-the-decade-of-greatest-danger/?trk=article-ssr-frontend-pulse_little-text-block": {
+   "title_cn": "Andrew S. Erickson 谈中国海上安全的「最大危险十年」",
+   "summary_cn": "Andrew S. Erickson 博士现任美国海军战争学院 CMSI 战略教授及哈佛大学费正清中国研究中心访问学者。原文仅为人物介绍，未提供具体观点或判断依据。",
+   "status": "ok",
+   "src_hash": "07fb5e3921ad4dc7"
+  },
+  "https://www.chinafile.com/contributors/andrew-s-erickson": {
+   "title_cn": "Andrew S. Erickson — 美国海军战争学院中国海洋研究所教授兼创始成员",
+   "summary_cn": "Andrew S. Erickson 担任美国海军战争学院战略 Professor，是该校中国海洋研究所核心创始成员，并在 Naval War College Review 编辑委员会任职。原文未提供具体研究或观点内容。",
+   "status": "ok",
+   "src_hash": "11e343bdd16d926c"
+  },
+  "https://www.uscc.gov/sites/default/files/Erickson_Testimony.pdf": {
+   "title_cn": "中国反舰弹道导弹发展",
+   "summary_cn": "文章探讨中国分析人士对反舰弹道导弹（ASBM）的研究。Andrew S. Erickson 和 David D. Yang 在《Naval War College Review》2009 年秋季刊发表论文，分析中国「以陆制海」战略思路下的 ASBM 发展理念，文章篇幅 53-86 页。原文摘要信息有限，未提供具体技术细节或作战评估结论。",
+   "status": "ok",
+   "src_hash": "77d4d313519361e4"
+  },
+  "https://usnwc.edu/_images/portals/0/FacultyMembers/Erickson-Andrew/Professor-Andrew-S-Erickson_Biography_20250617.pdf": {
+   "title_cn": "美国海军战争学院中国海事研究所战略教授简介",
+   "summary_cn": "Andrew S. Erickson 博士现任美国海军战争学院（NWC）中国海事研究所（CMSI）战略终身正教授。原文仅为人物职务介绍，未提供具体研究判断或分析依据。",
+   "status": "ok",
+   "src_hash": "f9ac4e92c044fc6b"
+  },
+  "https://www.youtube.com/watch?v=Am8l7uZ3UCk": {
+   "title_cn": "中国新时代军事战略研讨",
+   "summary_cn": "MIT 安全研究项目主任就中国新时代军事战略发表演讲。原文摘要信息有限，仅提及演讲者为 MIT 政治学教授及安全研究项目负责人，未提供具体战略判断或依据内容。",
+   "status": "ok",
+   "src_hash": "4f797b6cbb64de10"
+  },
+  "https://www.chinafile.com/contributors/M-Taylor-Fravel": {
+   "title_cn": "M. Taylor Fravel | 麻省理工学院安全研究项目主任",
+   "summary_cn": "M. Taylor Fravel 是麻省理工学院政治学 Arthur 和 Ruth Sloan 讲席教授及安全研究项目主任。他研究国际关系，重点关注国际安全、中国和东亚问题。",
+   "status": "ok",
+   "src_hash": "baf591e2a883bfe1"
+  },
+  "https://tallbergfoundation.org/podcasts/nothing-says-war-like-forever/": {
+   "title_cn": "美国将墨西哥与委内瑞拉贩毒集团定性为国家安全威胁的「战争」框架质疑",
+   "summary_cn": "文章质疑美国将墨西哥和委内瑞拉贩毒集团（包括当前焦点 Tren de Aragua）定性为国家安全威胁是否合理。作者指出，若将此定义为「战争」，则存在能否取胜及如何判定胜利的根本性问题——这与「毒品战争」和「反恐战争」面临的困境相同。",
+   "status": "ok",
+   "src_hash": "f2ec745e9c2c11cd"
+  },
+  "https://acleddata.com/newsletter/raleigh-report-february-2026": {
+   "title_cn": "Raleigh 报告 2026 年 2 月 | 全球冲突追踪动态",
+   "summary_cn": "Clionadh Raleigh 对世界局势的月度观察。报告批评 1990 年代末的关键作者采用「不成熟的研究方法」，认为这些研究导致了当前问题。涉及三位匿名学者的理论框架。原文未提供具体区域事件或数据支撑。",
+   "status": "ok",
+   "src_hash": "1ad05efff9586b15"
+  },
+  "https://www.mundoamerica.com/british/2026/03/12/69b2d7fce4d4d84a038b45c4.html": {
+   "title_cn": "ACLED 创始人谈伊朗战争如何制造完美条件",
+   "summary_cn": "Clionadh Raleigh 于 2005 年在其博士论文研究中创立了一个实时监测全球政治暴力的观察机构。二十年后，ACLED 已发展为拥有 200 名员工的非政府组织，既关注街头抗议也关注重大武装冲突。原文未提供关于伊朗战争具体判断的内容。",
+   "status": "ok",
+   "src_hash": "514549bcab7253af"
+  },
+  "https://www.israelhayom.com/writer/mark-cancian/": {
+   "title_cn": "CSIS 高级顾问 Mark F. Cancian 专栏文章存档",
+   "summary_cn": "Mark F. Cancian 是美国海军陆战队预备役上校（退役），现任 CSIS 国际安全项目高级顾问。本页面为其在以色列媒体上发表的分析文章合集，涉及军事战略与国防政策领域。",
+   "status": "ok",
+   "src_hash": "e0cbe57958810f6f"
+  },
+  "https://www.youtube.com/watch?v=5tbApf6fPF4": {
+   "title_cn": "CSIS 高级顾问谈乌克兰战争形势",
+   "summary_cn": "CSIS 高级顾问就乌克兰战争发表分析。原文为视频内容，未提供具体观点、判断依据或实质性分析要点，仅标注为《Trends Journal》周刊的全球时事分析节目。",
+   "status": "ok",
+   "src_hash": "fd455c9ee5073293"
+  },
+  "https://www.cfr.org/podcasts/presidents-inbox/long-war-ukraine-michael-kofman": {
+   "title_cn": "俄乌战争的长期走向：军事战略与装备对比分析",
+   "summary_cn": "美国海军分析中心俄罗斯研究项目主任 Michael Kofman 与 James M. Lindsay 讨论了俄乌双方的军事战略、装备现状及战争未来走向。分析涵盖俄军与乌军在战场上的策略差异、武器装备对比，以及战争可能的演变路径，但原文摘要未提供具体判断依据或结论细节。",
+   "status": "ok",
+   "src_hash": "bb5c7def84efba98"
+  },
+  "https://www.irishtimes.com/world/middle-east/2026/06/12/inside-irans-underground-missile-cities-battered-but-still-firing/": {
+   "title_cn": "伊朗地下导弹基地：遭受打击但仍在发射",
+   "summary_cn": "CNA 副研究分析师 Decker Eveleth 指出，伊朗西部边境附近的导弹设施更易遭受攻击，因为无人机可以在上空盘旋并在发射装置从隧道出现时实施打击。这些地下「导弹城」虽然受损但仍保持作战能力。",
+   "status": "ok",
+   "src_hash": "efaa02c4643bdf3a"
+  },
+  "https://www.fpri.org/contributor/decker-eveleth/": {
+   "title_cn": "俄白非战略核演习：普京与卢卡申科展示核威慑姿态",
+   "summary_cn": "Decker Eveleth 是核不扩散及导弹与核力量态势专家。其分析文章《最新俄白非战略核演习：普京与卢卡申科展示獠牙》发表于2026年7月，聚焦俄罗斯与白俄罗斯联合进行的非战略核武器演习，评估两国领导人通过此类军演展示核威慑能力的意图与影响。",
+   "status": "ok",
+   "src_hash": "eb4d04bfd771bbb3"
+  },
+  "https://www.voanews.com/a/with-latest-missile-test-north-korea-aims-to-overwhelm-us-defenses-/7675526.html": {
+   "title_cn": "朝鲜最新导弹试射意在压制美国防御系统",
+   "summary_cn": "Center for Naval Analyses 研究朝鲜战略力量的分析师 Decker Eveleth 指出，鉴于现有公开证据有限，难以确定此次发射的成功程度。朝鲜此举旨在通过导弹试验展示压制美国导弹防御系统的能力。",
+   "status": "ok",
+   "src_hash": "c588bb4dd3370d30"
+  },
+  "https://www.nti.org/analysis/articles/chinas-growing-missile-arsenal-and-the-risk-of-a-taiwan-missile-crisis/": {
+   "title_cn": "中国导弹库存增长及其对台湾安全的影响",
+   "summary_cn": "James Martin 防扩散研究中心研究员 Decker Eveleth 指出，中国导弹发射装置数量相比 2019 年报告估计的 90 部已显著增加。该评估关注中国导弹力量扩张对台海安全态势的潜在影响，但原文未披露具体新增数量及导弹型号细节。",
+   "status": "ok",
+   "src_hash": "ee5849561d2b9bb1"
+  },
+  "https://123dok.co/article/siemon-wezeman-impact-shifts-trade-exercises-south-europe.yd7mv4nl": {
+   "title_cn": "武器贸易与军演转变对地区安全的影响",
+   "summary_cn": "SIPRI 武器与军费项目高级研究员 Siemon T. Wezeman 分析武器贸易与军演变化的影响。文中提及中国军队现代化自 1970 年代规划，1979 年对越作战表现不佳后获得额外推动力。原文未提供关于武器贸易转变的具体判断或数据。",
+   "status": "ok",
+   "src_hash": "88af5a36c486fe4a"
+  },
+  "https://www.longnowboston.org/people/nathaniel-a.-raymond": {
+   "title_cn": "Nathaniel A. Raymond —— Harvard 人道主义倡议「人类安全与技术信号项目」主任",
+   "summary_cn": "Nathaniel A. Raymond 担任 Harvard T.H. Chan School of Public Health 下属 Harvard Humanitarian Initiative (HHI) 的「人类安全与技术信号项目」主任。原文仅提供个人职务信息，未涉及具体研究判断或观点。",
+   "status": "ok",
+   "src_hash": "c3fdbcaeb38e2b25"
+  },
+  "https://18.re-publica.com/en/member/12401.html": {
+   "title_cn": "Nathaniel A. Raymond 在 re:publica 2018 大会发言",
+   "summary_cn": "Nathaniel A. Raymond 系哈佛大学公共卫生学院人道主义倡议项目（HHI）下人类安全与技术信号项目主任。原文仅提供其职务信息，未涉及具体发言内容或判断。",
+   "status": "ok",
+   "src_hash": "b376241a4b1bfa27"
+  },
+  "https://opencanada.org/the-case-against-humanitarian-drones/": {
+   "title_cn": "反对人道主义无人机应用的理由",
+   "summary_cn": "Nathaniel Raymond（哈佛人道主义倡议组织人类安全与技术信号项目主任）撰文阐述反对在人道救援中使用无人机的观点。原文未提供具体论据，仅标明作者身份和机构背景。",
+   "status": "ok",
+   "src_hash": "f22c64bb9e4cc2c0"
+  },
+  "https://thebulletin.org/biography/hans-m-kristensen/": {
+   "title_cn": "Hans M. Kristensen — 美国科学家联合会核信息项目主任",
+   "summary_cn": "Hans M. Kristensen 担任位于华盛顿特区的美国科学家联合会（Federation of American Scientists）核信息项目主任。其研究工作聚焦于核武器现状及相关政策方向的调研与写作。",
+   "status": "ok",
+   "src_hash": "525c500640fcf449"
+  },
+  "https://www.youtube.com/watch?v=6pLuIZslH7Y": {
+   "title_cn": "2026 年核禁令监测项目启动发布会访谈",
+   "summary_cn": "美国科学家联合会核信息项目主任在发布会上介绍 2026 核禁令监测项目的启动情况。原文信息不足以提供该项目的具体目标、监测范围或主要依据，仅确认这是一个由专业核武器研究机构牵头的监测计划。",
+   "status": "ok",
+   "src_hash": "92c35cc4e5dbe00f"
+  },
+  "https://www.armscontrolwonk.com/archive/202193/iran-panic-induced-by-lousy-reporting/": {
+   "title_cn": "伊朗恐慌源于糟糕报道",
+   "summary_cn": "西方政府与媒体持续妖魔化伊朗并制造恐慌氛围。评论者认为伊朗方面可能已知其核材料储量略高于 IAEA 上次报告数值，但相关报道质量低劣加剧了公众误解。原文未详述具体事件或数据依据。",
+   "status": "ok",
+   "src_hash": "d79e2eb1d8fe96df"
+  },
+  "https://www.38north.org/author/amber-lee/feed/": {
+   "title_cn": "Jeffrey Lewis 担任 James Martin 防扩散研究中心东亚项目主任",
+   "summary_cn": "Jeffrey Lewis 在 Monterey Institute of International Studies 的 James Martin Center for Nonproliferation Studies 担任东亚防扩散项目主任。该机构专注于核武器及大规模杀伤性武器扩散研究。",
+   "status": "ok",
+   "src_hash": "be12c8c1d62e3cfd"
+  },
+  "https://talkhouse.com/joanna-sternberg-and-jeffrey-lewis-want-that-immediate-immediacy": {
+   "title_cn": "两位音乐人与漫画艺术家的对谈",
+   "summary_cn": "本文为 Jeffrey Lewis（下东区词曲作者与漫画艺术家）与 Joanna Sternberg（地狱厨房词曲作者与艺术家）的对话。原文未提供战争、国防或中东相关实质内容，无法提取军事情报要点。",
+   "status": "ok",
+   "src_hash": "e93fa493777c7cd3"
+  },
+  "https://www.penguin.co.uk/authors/242240/dr-jeffrey-lewis": {
+   "title_cn": "Jeffrey Lewis 博士",
+   "summary_cn": "Jeffrey Lewis PhD 是蒙特雷国际研究学院（Middlebury Institute）学者，同时担任斯坦福大学安全与国际合作中心研究员。原文未提供具体研究内容或观点。",
+   "status": "ok",
+   "src_hash": "601fb42d3899a3ef"
+  },
+  "https://allhiphop.com/features/jefferey-lewis/": {
+   "title_cn": "本条目与战争和国防主题无关",
+   "summary_cn": "原文讨论的是嘻哈音乐媒体平台运营、娱乐新闻写作等内容，不涉及军事、国防、战争、安全政策或地缘冲突等专业领域，无法按战争与国防译者的要求进行专业翻译。",
+   "status": "ok",
+   "src_hash": "eff8e7764dc81afb"
+  },
+  "https://www.pressherald.com/2019/02/03/in-jeffrey-lewis-latest-novel-of-small-town-maine-life-an-equity-firm-buys-the-longtime-shoe-factory/": {
+   "title_cn": "缅因州小镇生活小说：股权公司介入地方社区",
+   "summary_cn": "此条目为文学作品介绍，非战争与国防领域内容。原文讨论某小说对比性叙事结构与社会相关性主题，未涉及军事、国防或中东战区实质信息，无法按战争与国防专业角度译写要点。",
+   "status": "ok",
+   "src_hash": "1c3c4daebbbebc97"
+  },
+  "https://newrepublic.com/authors/jeffrey-lewis": {
+   "title_cn": "特朗普退出伊核协议引发核危机风险",
+   "summary_cn": "评论认为特朗普在国会纵容下破坏伊核协议（Iran deal），可能引发其无力控制的局势升级，导致与伊朗的核危机。原文未提供具体事件细节或时间节点，仅表达对协议破裂后果的担忧判断。",
+   "status": "ok",
+   "src_hash": "2c98d9d2ce4f0d22"
   }
  },
  "kol": {

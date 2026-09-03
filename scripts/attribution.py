@@ -47,6 +47,49 @@ def _own_domains(kol):
     return out
 
 
+# ★ 2026-09-03 实测漏洞：primary_url = https://www.youtube.com/@zhuweiyi
+#   → _own_domains 抽出裸域 youtube.com → 任何 youtube.com 链接都被判「自有平台」。
+#   实际抓回的是电子音乐人 ZHU 的频道（标题「ZHU - YouTube」）。
+#   同理 wikipedia.org 本在 DENY_DOMAINS，但被「自有平台」这条更高优先级绕过，
+#   导致「At sign - Wikipedia」这类词条被当成本人言论。
+#   → 通用平台域名不能只看域名，必须再验 URL 路径里的账号标识。
+GENERIC_PLATFORM_HOSTS = {
+    "youtube.com", "youtu.be", "music.youtube.com", "x.com", "twitter.com",
+    "medium.com", "substack.com", "facebook.com", "instagram.com",
+    "t.me", "telegram.me", "wikipedia.org", "en.wikipedia.org",
+    "de.wikipedia.org", "linkedin.com", "blogspot.com", "wordpress.com",
+}
+
+
+def _is_generic_host(dom):
+    if not dom:
+        return False
+    return (dom in GENERIC_PLATFORM_HOSTS
+            or dom.endswith(".wikipedia.org")
+            or dom.endswith(".youtube.com")
+            or dom.endswith(".substack.com")
+            or dom.endswith(".medium.com")
+            or dom.endswith(".blogspot.com")
+            or dom.endswith(".wordpress.com"))
+
+
+def _account_tokens(kol):
+    """KOL 在通用平台上的账号标识（handle / 频道 id / 用户名）。"""
+    toks = set()
+    blob = " ".join(str(kol.get(k) or "") for k in
+                    ("primary_url", "youtube", "platforms", "sources"))
+    for m in re.finditer(r"(?:youtube\.com|x\.com|twitter\.com|t\.me|medium\.com)"
+                         r"/(@?[A-Za-z0-9_.\-]{3,})", blob):
+        toks.add(m.group(1).lower().lstrip("@"))
+    for m in re.finditer(r"youtube\.com/(?:channel|c|user)/([A-Za-z0-9_\-]{6,})", blob):
+        toks.add(m.group(1).lower())
+    h = str(kol.get("x_handle") or "").strip().lstrip("@").lower()
+    if h and h != "unknown":
+        toks.add(h)
+    return {t for t in toks if t not in
+            ("watch", "channel", "playlist", "user", "c", "results", "shorts")}
+
+
 def _name_variants(kol):
     """生成用于匹配的姓名变体（去噪：剥掉括号注释与机构后缀）。"""
     vs = set()
@@ -75,7 +118,16 @@ def check(kol, hit):
 
     own = _own_domains(kol)
     if dom and any(dom == d or dom.endswith("." + d) for d in own):
-        return True, f"自有平台域名 {dom}"
+        # ★ 通用平台（YouTube/X/Wikipedia/Medium…）不能只凭域名判「自有」，
+        #   否则整站任何页面都算本人。必须在 URL 里找到本人账号标识。
+        if _is_generic_host(dom):
+            u = url.lower()
+            toks = _account_tokens(kol)
+            if any(t in u for t in toks):
+                return True, f"自有平台账号 {dom}"
+            # 没有账号标识 → 退回姓名判据（下方），此处不直接放行
+        else:
+            return True, f"自有平台域名 {dom}"
 
     variants = _name_variants(kol)
     hit_names = [v for v in variants if v in blob]
