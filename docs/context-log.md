@@ -158,3 +158,45 @@ URL 路径判据一开始写太宽（拒掉 RAND 出版物页、Foreign Policy �
 - [ ] 立场转向 section 首日 0 条（无基线），**2026-09-03 起应出真实数据** —— 次日需验证
 - [ ] 方向分类「未表态」占 80%（628/782），未改；要降只能抓正文，成本高
 - [ ] Chao 未答的开放问题：是否把「地图钻取列表」模式复制到战区雷达（点雷达轴出列表）
+
+---
+
+## 2026-09-03（每日 cron 首个完整自动轮次）
+
+### 执行结果
+步骤 0 名册镜像 → 抓取 → 补日期 → 归属复检 → 写 Notion → 中译 → 立场快照 → 双端 push，全链路跑通。
+- 名册：Notion 65 行 / active 62，本地 registry 62（无增删）
+- 抓取：319 条，有效 311 / not_found 8；归属复检后当日文件 313 条（ok 305）
+- 发表日核实：0 → 132/305（43%）；其余留空标 unverified
+- Notion By Day：新建 82 / 更新 617，读回 729 行
+- 中译增量 85 条，0 失败；缓存 702 条
+- 立场快照落盘，基线 2026-09-02，有明确立场者仅 4 位，转向 0 条
+- 线上 md5 与本地一致（8ce9f625…）
+
+### 发现并修掉的真 bug：通用平台域名让归属校验形同虚设
+`_own_domains()` 从 `primary_url = https://www.youtube.com/@zhuweiyi` 抽出**裸域
+youtube.com**，于是**整个 YouTube 的任何页面**都被判为「自有平台域名 → 强归属」。
+实测抓回电子音乐人 ZHU 的频道页（标题「ZHU - YouTube」）当成听风的蚕的言论。
+同理 `en.wikipedia.org` 一旦进了某人的 sources，就以更高优先级**绕过了
+DENY_DOMAINS**，把「At sign - Wikipedia」这类词条当本人发言。
+
+修法（`scripts/attribution.py`）：
+1. 新增 `GENERIC_PLATFORM_HOSTS`（YouTube/X/Wikipedia/Medium/Substack…）
+2. 命中通用平台时**不再只看域名**，必须在 URL 里找到 `_account_tokens()` 抽出的
+   账号标识（handle / 频道 id）；找不到就退回姓名判据，不直接放行
+
+★ 教训：**「自有域名」这条捷径只对机构自有站点成立**（csis.org、acleddata.com），
+对通用 UGC 平台必须精确到账号。这是归属校验的**第三道闸门**，前两道都放行了它。
+
+### 新增 scripts/revalidate_attribution.py
+判据升级后历史文件不会自动失效 —— 旧数据会继续在 dashboard 上展示。
+新脚本用当前判据重跑全量已入库条目，默认 dry-run，`--apply` 才落地并累加留痕到
+`data/removed_attribution_<date>.json`。首轮剔除 15 条（3 个文件，全部是
+Wikipedia 词条页 + 1 条同名 YouTube 频道）。
+`publish.sh` 的 SCAN_FILES / git add 两个清单已同步补入新脚本与留痕文件。
+
+### 待办
+- [ ] 归属校验建议再补一道：`enrich_dates.py` 的 `--file` 参数只接受**文件名**不接受
+      路径（传路径会拼成 data/statements/data/statements/…），易踩，可加个 basename 兜底
+- [ ] 立场转向仍 0 条：有明确立场的 KOL 只有 4 位，样本太小。根因还是「未表态」占 80%
+- [ ] 本轮 9 位 KOL 零产出（含听风的蚕，其 YouTube 通道仍缺）
