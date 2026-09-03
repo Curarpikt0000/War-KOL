@@ -94,6 +94,29 @@ def all_statements():
     return out
 
 
+def load_thesis():
+    """读 extract_thesis.py 的产物，按 (kol, source_url) 建索引。
+
+    ★ Chao 2026-09-03：L2 不能再放搜索引擎 description 的翻译
+      （那是背景描述、没有见解，「点开之后没有内容」）。
+      L2 必须是【论点 + 论证 + 论据 + 数据】。
+    """
+    d = os.path.join(DATA, "thesis")
+    if not os.path.isdir(d):
+        return {}
+    out = {}
+    for fn in sorted(os.listdir(d)):
+        if not fn.endswith(".json"):
+            continue
+        try:
+            rows = json.load(open(os.path.join(d, fn), encoding="utf-8"))
+        except Exception:
+            continue
+        for r in rows:
+            out[(r.get("kol"), r.get("source_url"))] = r
+    return out
+
+
 def slice_period(stmts, period):
     """按【实际发表日】切档。无发表日者不进任何档位——
     绝不用抓取日顶替（AGENTS.md 数据纪律）。"""
@@ -484,7 +507,21 @@ def kol_cards(roster, by_kol, idx_of, tr):
 
 def main():
     roster = load("kol_registry.json", [])
+    thesis = load_thesis()
     stmts = all_statements()
+    # ★ 硬门禁（Chao 2026-09-03 拍板）：无「论点+论证+论据」不入 dashboard。
+    #   抓不到正文 / LLM 判定无本人判断的条目一律剔除，剔除物已由
+    #   extract_thesis.py 落盘留痕（removed_directory / nobody / no_thesis）。
+    #   ★ 把标准写成建立前的硬门禁，比写进文档靠「记得检查」可靠。
+    if thesis:
+        before = len(stmts)
+        stmts = [s for s in stmts
+                 if (s.get("kol"), s.get("source_url")) in thesis]
+        print(f"[五要素门禁] {before} → {len(stmts)} 条（剔除 {before-len(stmts)}）")
+    else:
+        print("[五要素门禁] 未找到 data/thesis/ 产物，本轮不过滤（首次运行）")
+    for s in stmts:
+        s["_th"] = thesis.get((s.get("kol"), s.get("source_url")))
     by_kol = defaultdict(list)
     for s in stmts:
         by_kol[s["kol"]].append(s)
@@ -505,16 +542,26 @@ def main():
         if key in idx_of:
             continue
         t = tr["stmt"].get(s.get("source_url")) or {}
+        th = s.get("_th") or {}
         idx_of[key] = len(stmt_rows)
         s["_si"] = idx_of[key]
-        s["_title_cn"] = t.get("title_cn") or ""
+        # ★ 方向以抽取结果为准：关键词分类器只扫标题，全库 82% 判「未表态」；
+        #   LLM 读了正文，它的判断才是有依据的。
+        if th.get("direction"):
+            s["direction"] = th["direction"]
+        s["_title_cn"] = th.get("topic") or t.get("title_cn") or ""
         stmt_rows.append([
             s.get("published_on") or "", s.get("date_status") or "unverified",
             s.get("direction") or "", s.get("theater") or "未分类",
             s.get("kol") or "", s.get("title") or "",
             (s.get("summary") or "")[:700], s.get("source_url") or "",
             s.get("attribution_reason") or "",
-            t.get("title_cn") or "", t.get("summary_cn") or "",
+            th.get("topic") or t.get("title_cn") or "",
+            t.get("summary_cn") or "",
+            # 11-16：五要素（Chao 2026-09-03 加，L2 的真正内容）
+            th.get("claim") or "", th.get("reasoning") or "",
+            th.get("evidence") or [], th.get("data") or [],
+            th.get("horizon") or "", th.get("confidence") or "",
         ])
     # 每个时间档位命中的行下标（前端切档时直接取交集，不重算日期）
     period_idx = {p: sorted({idx_of[(s.get("kol"), s.get("source_url"))]
@@ -833,6 +880,27 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   padding:10px 13px}}
 .l3-en-t{{font-size:10.5px;color:{MUTED};letter-spacing:.4px;margin-bottom:4px}}
 .l3-en-b{{font-size:12px;line-height:1.65;color:#c3cad3}}
+/* ── L2 五要素（论点/论证/论据/数据）Chao 2026-09-03 ── */
+.th-claim{{font-size:13px;line-height:1.7;color:{FG};font-weight:600;
+  background:rgba(136,192,208,.07);border-left:3px solid {ACCENT};
+  border-radius:0 6px 6px 0;padding:9px 12px}}
+.th-k{{display:inline-block;font-size:10px;font-weight:700;color:{ACCENT};
+  letter-spacing:.6px;margin-right:8px;vertical-align:1px}}
+.th-hz{{font-size:11px;color:{MUTED};margin:6px 0 0 3px}}
+.th-sec{{margin-top:11px}}
+.th-k2{{font-size:10.5px;font-weight:700;color:{MUTED};letter-spacing:.8px;
+  margin-bottom:5px}}
+.th-body{{font-size:12.5px;line-height:1.75;color:#c9d1d9}}
+.th-ev{{margin:0;padding-left:17px}}
+.th-ev li{{font-size:12px;line-height:1.7;color:#c9d1d9;margin-bottom:3px}}
+.th-data{{display:flex;flex-direction:column;gap:5px}}
+.th-d{{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;
+  background:{CARD2};border:1px solid {GRID};border-radius:6px;padding:6px 11px}}
+.th-dm{{font-size:11.5px;color:{MUTED};min-width:130px}}
+.th-dv{{font-size:13.5px;font-weight:700;color:{ACCENT};
+  font-variant-numeric:tabular-nums}}
+.th-dc{{font-size:11px;color:{MUTED};opacity:.85}}
+.th-nodata{{font-size:11.5px;color:{MUTED};font-style:normal;opacity:.75}}
 /* ── 升级温度计 ── */
 .gg-wrap{{font-size:12.5px}}
 .gg-scale{{display:flex;justify-content:space-between;font-size:10.5px;
@@ -1185,27 +1253,65 @@ function hesc(s) {{
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }}
 
+/* ── L2 五要素渲染器（唯一实现）──
+   Chao 2026-09-03：L2 必须是论点/论证/论据/数据，不能是搜索摘要的翻译。
+   ★ l3Row 和战区列表弹层 tvToggleDetail 都调它。战区列表曾经自己另写了
+     一份 L2，就是「改一处漏两处」的原型 —— 别再复制第二份。 */
+function thesisHTML(r) {{
+  if (!r[11]) {{
+    if (r[10]) return '<div class="l3-cn">' + hesc(r[10]) + '</div>';
+    return '<div class="l3-cn l3-missing">该条尚未抽取论点论据' +
+           '（正文不可得或抽取未覆盖）。可直接展开下一级看英文原文。</div>';
+  }}
+  var h = '<div class="th-claim"><span class="th-k">论点</span>' +
+          hesc(r[11]) + '</div>';
+  var meta = [];
+  if (r[15]) meta.push('时间视野 ' + hesc(r[15]));
+  if (r[16]) meta.push('表述确定度 ' + hesc(r[16]));
+  if (meta.length) h += '<div class="th-hz">' + meta.join('　·　') + '</div>';
+  if (r[12]) h += '<div class="th-sec"><div class="th-k2">论证</div>' +
+                  '<div class="th-body">' + hesc(r[12]) + '</div></div>';
+  if (r[13] && r[13].length) {{
+    var ev = '';
+    for (var i = 0; i < r[13].length; i++) ev += '<li>' + hesc(r[13][i]) + '</li>';
+    h += '<div class="th-sec"><div class="th-k2">论据</div>' +
+         '<ul class="th-ev">' + ev + '</ul></div>';
+  }}
+  if (r[14] && r[14].length) {{
+    var dd = '';
+    for (var j = 0; j < r[14].length; j++) {{
+      var d = r[14][j] || {{}};
+      dd += '<div class="th-d"><span class="th-dm">' + hesc(d.metric || '') +
+            '</span><span class="th-dv">' + hesc(d.value || '') + '</span>' +
+            '<span class="th-dc">' + hesc(d.context || '') + '</span></div>';
+    }}
+    h += '<div class="th-sec"><div class="th-k2">数据</div>' +
+         '<div class="th-data">' + dd + '</div></div>';
+  }} else {{
+    h += '<div class="th-sec"><div class="th-k2">数据</div>' +
+         '<div class="th-nodata">原文未给出确切数字（不估算、不脑补）</div></div>';
+  }}
+  return h;
+}}
+
 /* ── 统一的三级钻取行（Chao 2026-09-02 拍板，全站共用一个渲染器）──
-   L1 中文标题（未翻译时显示英文原标题并打「待翻译」标）
-   L2 中文言论总结
+   L1 主题（12-20字中文名词短语）
+   L2 【论点 + 论证 + 论据 + 数据 + 时间视野】—— 见 thesisHTML
    L3 英文原文摘要 + 归属/日期元信息 + 原始出处链接
    ★ 只用一个函数，KOL 弹层 / 战区列表 / 时间线全走它，
      否则三处各写一遍，改一处漏两处（Eco 踩过）。
    行数据 = STMTS 行：0日期 1日期状态 2方向 3战区 4KOL 5英标题
-            6英摘要 7出处 8归属依据 9中标题 10中总结 */
+            6英摘要 7出处 8归属依据 9主题 10旧中文总结
+            11论点 12论证 13论据[] 14数据[] 15时间视野 16置信 */
 function l3Row(r) {{
   var c = DIRC[r[2]] || '#6c757d';
   var dt = r[0] || '日期未核实';
   var unv = (r[1] === 'verified') ? '' : ' kd-unv';
   var titleCn = r[9] || '';
-  var sumCn = r[10] || '';
   var head = titleCn ? hesc(titleCn) : hesc(r[5]);
   var pend = titleCn ? '' :
     '<span class="l3-pend">待翻译</span>';
-  var lv2 = sumCn
-    ? '<div class="l3-cn">' + hesc(sumCn) + '</div>'
-    : '<div class="l3-cn l3-missing">该条尚未生成中文总结（翻译任务未覆盖到，' +
-      '如实标注、不用机翻标题冒充）。可直接展开下一级看英文原文。</div>';
+  var lv2 = thesisHTML(r);
   var lv3 = '<div class="l3-en"><div class="l3-en-t">英文原文摘要</div>' +
     '<div class="l3-en-b">' +
     (hesc(r[6]) || '（该来源摘要为空，请直接打开原文）') + '</div>' +
@@ -1465,11 +1571,8 @@ function tvToggleDetail(tr) {{
     '<div class="tv-ctx">' + hesc(r[0] || '发表日未核实') + '　·　' +
       hesc(r[4]) + '</div>' +
     (rel ? '<div class="tv-rel">来源页标注：' + hesc(rel) + '</div>' : '') +
-    /* L2：中文总结 */
-    (r[10]
-      ? '<div class="tv-sum l3-cn">' + hesc(r[10]) + '</div>'
-      : '<div class="tv-sum l3-missing">该条尚未生成中文总结（如实标注，' +
-        '未用机翻冒充）。展开下一级看英文原文。</div>') +
+    /* L2：五要素（共用 thesisHTML，别在这里再写一份） */
+    '<div class="tv-sum">' + thesisHTML(r) + '</div>' +
     '<div class="tv-kv">' +
     /* KOL 名常有机构后缀，会换行三行把同排短字段撑出空腔 → 单独通栏一行 */
     '<div class="tv-kv-wide"><b>KOL</b><span>' + hesc(r[4]) + '</span></div>' +
