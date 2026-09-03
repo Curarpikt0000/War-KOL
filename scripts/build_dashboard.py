@@ -127,8 +127,12 @@ def radar_svg(counter):
                     f'stroke="{GRID}" stroke-width="1" opacity=".6"/>')
         lx, ly = cx + (R + 26) * ca, cy + (R + 26) * sa
         anc = "start" if ca > 0.3 else ("end" if ca < -0.3 else "middle")
-        txts.append(f'<text x="{lx:.1f}" y="{ly:.1f}" fill="{col}" font-size="12.5" '
-                    f'text-anchor="{anc}" dominant-baseline="middle">{esc(t)} {counter[t]}</text>')
+        # 轴标签可点 → 打开该战区言论列表（与地图/温度计共用同一弹层）
+        txts.append(f'<text class="rd-ax" data-theater="{esc(t)}" role="button" '
+                    f'tabindex="0" x="{lx:.1f}" y="{ly:.1f}" fill="{col}" '
+                    f'font-size="12.5" text-anchor="{anc}" '
+                    f'dominant-baseline="middle">{esc(t)} {counter[t]}'
+                    f'<title>点击查看 {esc(t)} 的全部言论</title></text>')
         f = counter[t] / maxv
         px, py = cx + R * f * ca, cy + R * f * sa
         pts.append(f"{px:.1f},{py:.1f}")
@@ -175,7 +179,9 @@ def timeline_html(stmts):
             f'stroke="{col}" stroke-width="1" opacity=".5"/>'
             f'<circle cx="{x:.0f}" cy="{y_dot}" r="4.5" fill="{col}"/>'
             f'<foreignObject x="{x-85:.0f}" y="{y_box}" width="170" height="62">'
-            f'<div xmlns="http://www.w3.org/1999/xhtml" class="tl-card">'
+            f'<div xmlns="http://www.w3.org/1999/xhtml" class="tl-card" '
+            f'data-si="{s.get("_si")}" role="button" tabindex="0" '
+            f'title="点击查看该条详情">'
             f'<div class="tl-d">{d.isoformat()}</div>'
             f'<div class="tl-k">{esc(s.get("kol", "")[:22])}</div>'
             f'<div class="tl-t">{esc((s.get("_title_cn") or s.get("title") or "")[:46])}</div>'
@@ -183,7 +189,9 @@ def timeline_html(stmts):
     axis = f'<line x1="40" y1="150" x2="{Wd-40}" y2="150" stroke="{GRID}" stroke-width="2"/>'
     return (f'<div class="tl-wrap"><svg width="{Wd}" height="270">{axis}{"".join(rows)}</svg></div>'
             f'<div class="tl-note">{d0.isoformat()} ~ {d1.isoformat()}，'
-            f'共 {len(ev)} 条带已核实发表日的言论，横向滚动查看</div>')
+            f'共 {len(ev)} 条带已核实发表日的言论，横向滚动查看。'
+            f'<br><span class="l3-tip">点任意卡片 → 中文总结 → '
+            f'再点开英文原文与出处</span></div>')
 
 
 # ── 日/周/月 三档 tab（仿 Eco _kol_period_tabs）───────────────
@@ -344,7 +352,8 @@ def gauge_html(rows):
         tc = THEATER_COLOR.get(r["theater"], MUTED)
         contrib = "、".join(f'{esc(k[:22])}（{esc(d)}）' for k, d, _ in r["top"])
         items.append(
-            f'<div class="gg-row">'
+            f'<div class="gg-row" data-theater="{esc(r["theater"])}" '
+            f'role="button" tabindex="0" title="点击查看该战区全部言论">'
             f'<div class="gg-name"><span class="tdot" style="background:{tc}"></span>'
             f'{esc(r["theater"])}</div>'
             f'<div class="gg-track"><div class="gg-mid"></div>'
@@ -359,7 +368,9 @@ def gauge_html(rows):
             f'<div class="gg-note">口径：方向值（升级+1／僵持0／降级-1）× '
             f'时间衰减（半衰期 30 天）× KOL 星级权重，归一到 -100~+100。'
             f'「未表态」不计入——那是没判断，不是判断中立。'
-            f'只用已核实发表日的言论。</div></div>')
+            f'只用已核实发表日的言论。'
+            f'<br><span class="l3-tip">点任意一行 → 该战区言论列表 → '
+            f'双击条目看中文总结 → 再点开英文原文与出处</span></div></div>')
 
 
 def changes_html():
@@ -526,7 +537,9 @@ def main():
         f'<div class="kpi"><div class="kv">{v}</div><div class="kl">{esc(l)}</div>'
         f'<div class="ks">{esc(s)}</div></div>' for l, v, s in kpi)
     dir_html = "".join(
-        f'<div class="dline"><span class="dirb" style="background:{DIR_COLOR[d]}"></span>'
+        f'<div class="dline" data-dir="{esc(d)}" role="button" tabindex="0" '
+        f'title="点击查看所有判断为「{esc(d)}」的言论">'
+        f'<span class="dirb" style="background:{DIR_COLOR[d]}"></span>'
         f'<span class="dn">{esc(d)}</span>'
         f'<span class="dbar" style="width:{c*100//max(sum(dirc.values()),1)}%;'
         f'background:{DIR_COLOR[d]}"></span><span class="dc">{c}</span></div>'
@@ -593,7 +606,10 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .ks{{font-size:11px;color:{MUTED}}}
 .two{{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}}
 .ptitle{{font-size:13.5px;margin-bottom:10px;font-weight:600}}
-.dline{{display:flex;align-items:center;gap:9px;margin:9px 0}}
+.dline{{display:flex;align-items:center;gap:9px;margin:9px 0;cursor:pointer;
+  border-radius:6px;padding:3px 6px;margin-left:-6px;margin-right:-6px}}
+.dline:hover{{background:rgba(136,192,208,.10)}}
+.dline:focus-visible{{background:rgba(136,192,208,.16);outline:none}}
 .dirb{{width:9px;height:9px;border-radius:2px;display:inline-block;flex:none}}
 .dn{{width:52px;font-size:12.5px}}
 .dbar{{height:9px;border-radius:3px;min-width:3px}}
@@ -610,7 +626,14 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .tl-wrap{{overflow-x:auto;background:{PANEL};border:1px solid {GRID};
   border-radius:10px;padding:8px}}
 .tl-card{{background:{BG};border:1px solid {GRID};border-radius:6px;padding:5px 7px;
-  font-size:10.5px;color:{FG};overflow:hidden;height:58px}}
+  font-size:10.5px;color:{FG};overflow:hidden;height:58px;cursor:pointer;
+  transition:border-color .15s,transform .15s}}
+.tl-card:hover{{border-color:{ACCENT};transform:translateY(-1px)}}
+.tl-card:focus-visible{{outline:2px solid {ACCENT};outline-offset:1px}}
+/* 雷达轴标签可点 */
+.rd-ax{{cursor:pointer}}
+.rd-ax:hover{{text-decoration:underline}}
+.rd-ax:focus-visible{{outline:1px solid {ACCENT}}}
 .tl-d{{color:{MUTED};font-size:9.5px}}
 .tl-k{{font-weight:600;font-size:10.5px;white-space:nowrap;overflow:hidden;
   text-overflow:ellipsis}}
@@ -815,7 +838,10 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .gg-scale{{display:flex;justify-content:space-between;font-size:10.5px;
   color:{MUTED};margin:0 0 10px}}
 .gg-row{{display:grid;grid-template-columns:96px 1fr 52px 58px;
-  gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid #2f353c}}
+  gap:10px;align-items:center;padding:8px 6px;border-bottom:1px solid #2f353c;
+  cursor:pointer;border-radius:6px}}
+.gg-row:hover{{background:rgba(136,192,208,.09)}}
+.gg-row:focus-visible{{background:rgba(136,192,208,.15);outline:none}}
 .gg-name{{display:flex;align-items:center;gap:7px;font-size:12.5px}}
 .gg-track{{position:relative;height:8px;background:{CARD2};border-radius:4px;
   border:1px solid {GRID}}}
@@ -902,10 +928,6 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
   <span class="desc">各战区加权净升级倾向，按紧张度排序；权重＝时效衰减 × KOL 星级</span></div>
 <div class="panel">{gauge_html(theater_gauge(stmts, roster))}</div>
 
-<div class="part-title"><span class="part-num">＋</span>立场转向
-  <span class="desc">谁改了判断——比谁一直在喊更值得注意；与历史快照逐日比对</span></div>
-{changes_html()}
-
 <div class="part-title"><span class="part-num">＋</span>战区雷达
   <span class="desc">全量言论的战区密度分布与走势方向构成</span></div>
 <div class="two">
@@ -915,6 +937,10 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
       判断维度为冲突是否升级，非金融多空</div>
     {dir_html or '<p class="empty">暂无数据</p>'}</div>
 </div>
+
+<div class="part-title"><span class="part-num">＋</span>立场转向
+  <span class="desc">谁改了判断——比谁一直在喊更值得注意；与历史快照逐日比对</span></div>
+{changes_html()}
 
 <div class="part-title"><span class="part-num">＋</span>言论卡片
   <span class="desc">按实际发表日切档，可切日/周/月；未核实日期者不入档</span></div>
@@ -985,7 +1011,11 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 /* 左侧索引栏：自动生成 + 主题分组 + scrollspy。
    ★只认带 .part-num 的顶级标题（Eco 踩坑：图内小标题也带 .part-title，
      会掉进「其他」组并让高亮来回窜）。
-   ★菜单顺序 === DOM 顺序（分组按首个成员的 DOM 位置排序）。*/
+   ★★菜单必须【严格按 DOM 顺序】铺开（Chao 2026-09-02 指出跳动感）：
+     旧实现按 GROUPS 定义顺序装桶，同组成员会被聚到一起，
+     和页面真实顺序错位（立场转向/战区雷达被调了个）→ 往下滚高亮往回跳。
+     现改为：顺着 DOM 走，遇到组名变化才开新组；同一组名在页面里
+     不连续出现时，就如实拆成两段，绝不为了「归类好看」打乱顺序。*/
 (function() {{
   var titles = Array.prototype.slice.call(document.querySelectorAll('.part-title'))
                     .filter(function(t) {{ return t.querySelector('.part-num'); }});
@@ -997,13 +1027,13 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
     {{ name: '言论与时间', match: ['言论卡片', '事件时间线', '立场转向'] }},
     {{ name: 'KOL 观点', match: ['观点全景'] }}
   ];
-  function groupOf(label) {{
+  function groupNameOf(label) {{
     for (var g = 0; g < GROUPS.length; g++)
       for (var m = 0; m < GROUPS[g].match.length; m++)
-        if (label.indexOf(GROUPS[g].match[m]) >= 0) return g;
-    return GROUPS.length;
+        if (label.indexOf(GROUPS[g].match[m]) >= 0) return GROUPS[g].name;
+    return '其他';
   }}
-  var links = [], bucket = {{}};
+  var links = [], seq = [];
   titles.forEach(function(t, i) {{
     var id = t.id || ('sec-' + i); t.id = id;
     var tc = t.cloneNode(true);
@@ -1018,24 +1048,19 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
       if (window.innerWidth <= 1100)
         document.getElementById('sidenav').classList.remove('sn-open');
     }});
-    (bucket[groupOf(label)] = bucket[groupOf(label)] || []).push({{a:a, idx:i}});
     links[i] = a;
+    // 顺着 DOM 走：组名与上一段相同就并入，不同就开新段
+    var gn = groupNameOf(label);
+    if (seq.length && seq[seq.length - 1].name === gn) seq[seq.length - 1].items.push(a);
+    else seq.push({{ name: gn, items: [a] }});
   }});
-  var order = [];
-  for (var gi = 0; gi <= GROUPS.length; gi++) {{
-    var it = bucket[gi]; if (!it || !it.length) continue;
-    order.push({{gIdx:gi, gName:(gi < GROUPS.length) ? GROUPS[gi].name : '其他',
-                first:it[0].idx}});
-  }}
-  order.sort(function(a,b) {{ return a.first - b.first; }});
-  order.forEach(function(o) {{
-    var items = bucket[o.gIdx];
+  seq.forEach(function(o) {{
     var wrap = document.createElement('div'); wrap.className = 'sn-group';
     var hdr = document.createElement('div'); hdr.className = 'sn-group-hdr';
-    hdr.innerHTML = '<span class="sn-caret">▾</span>' + o.gName +
-                    '<span class="sn-cnt">' + items.length + '</span>';
+    hdr.innerHTML = '<span class="sn-caret">▾</span>' + o.name +
+                    '<span class="sn-cnt">' + o.items.length + '</span>';
     var list = document.createElement('div'); list.className = 'sn-group-list';
-    items.forEach(function(x) {{ list.appendChild(x.a); }});
+    o.items.forEach(function(a) {{ list.appendChild(a); }});
     hdr.addEventListener('click', function() {{ wrap.classList.toggle('sn-collapsed'); }});
     wrap.appendChild(hdr); wrap.appendChild(list); box.appendChild(wrap);
   }});
@@ -1288,16 +1313,35 @@ function closeKol() {{
    ★行数据引用全局 STMTS 下标，不复制对象；排序在下标数组上做，几百行也秒开。
    ★为什么表头点击排序自己写而不用库：整站是单文件零依赖 HTML，
      引外部 JS 会破坏离线可用性。*/
-var TV = {{theater:'', period:'all', sort:0, desc:true, q:''}};
+var TV = {{theater:'', dir:'', only:null, period:'all', sort:0, desc:true, q:''}};
 function tvOpen(theater, period) {{
-  TV.theater = theater;
+  TV.theater = theater; TV.dir = ''; TV.only = null;
   TV.period = (period && PIDX[period]) ? period : 'all';
   TV.sort = 0; TV.desc = true; TV.q = '';
+  tvShow(theater + ' · 言论列表');
+}}
+/* 按走势方向开列表（战区雷达的方向分布条点进来） */
+function tvOpenDir(dir) {{
+  TV.theater = ''; TV.dir = dir; TV.only = null;
+  TV.period = 'all'; TV.sort = 0; TV.desc = true; TV.q = '';
+  tvShow('走势判断「' + dir + '」· 言论列表');
+}}
+/* 单条直达（时间线卡片点进来）：列表里只放这一条，并自动展开详情 */
+function tvOpenOne(si) {{
+  var r = STMTS[si];
+  if (!r) return;
+  TV.theater = ''; TV.dir = ''; TV.only = si;
+  TV.period = 'all'; TV.sort = 0; TV.desc = true; TV.q = '';
+  tvShow((r[0] || '发表日未核实') + ' · ' + r[4]);
+  var tr = document.querySelector('#tv-body .tv-r[data-si="' + si + '"]');
+  if (tr) tvToggleDetail(tr);
+}}
+function tvShow(title) {{
   var qi = document.getElementById('tv-q'); if (qi) qi.value = '';
   var tabs = document.querySelectorAll('.tv-tab');
   for (var i = 0; i < tabs.length; i++)
     tabs[i].classList.toggle('on', tabs[i].getAttribute('data-tvp') === TV.period);
-  document.getElementById('tv-name').textContent = theater + ' · 言论列表';
+  document.getElementById('tv-name').textContent = title;
   tvRender();
   document.getElementById('tv-mask').classList.add('on');
   document.body.style.overflow = 'hidden';
@@ -1309,13 +1353,17 @@ function tvClose() {{
 }}
 function tvRows() {{
   var pool, i, out = [];
+  // 单条直达模式：只放这一条，不受档位/搜索影响
+  if (TV.only !== null && TV.only !== undefined) return [TV.only];
   if (TV.period === 'all') {{
     pool = []; for (i = 0; i < STMTS.length; i++) pool.push(i);
   }} else {{ pool = PIDX[TV.period] || []; }}
   var q = TV.q.toLowerCase();
   for (i = 0; i < pool.length; i++) {{
     var r = STMTS[pool[i]];
-    if (!r || r[3] !== TV.theater) continue;
+    if (!r) continue;
+    if (TV.theater && r[3] !== TV.theater) continue;   // 按战区
+    if (TV.dir && r[2] !== TV.dir) continue;           // 按走势方向
     /* 中英文都可搜：中文标题/总结 + 英文标题/摘要 + KOL 名 */
     if (q && (r[4] + ' ' + r[5] + ' ' + r[6] + ' ' + (r[9] || '') + ' ' +
               (r[10] || '')).toLowerCase().indexOf(q) < 0) continue;
@@ -1338,14 +1386,26 @@ function tvRows() {{
 function tvRender() {{
   var idx = tvRows(), body = document.getElementById('tv-body'), h = '';
   var total = 0, ti;
-  for (ti = 0; ti < STMTS.length; ti++) if (STMTS[ti][3] === TV.theater) total++;
+  for (ti = 0; ti < STMTS.length; ti++) {{
+    if (TV.theater && STMTS[ti][3] === TV.theater) total++;
+    else if (TV.dir && STMTS[ti][2] === TV.dir) total++;
+  }}
   var PL = {{day:'本日', week:'本周', month:'本月', all:'全部时段'}};
-  document.getElementById('tv-sub').textContent =
-    PL[TV.period] + ' · ' + idx.length + ' 条' +
-    (idx.length === total ? '' : '（该战区累计 ' + total + ' 条）');
+  var sub;
+  if (TV.only !== null && TV.only !== undefined) {{
+    sub = '单条详情（来自事件时间线）';
+  }} else {{
+    var scope = TV.theater ? '该战区' : (TV.dir ? '该走势' : '');
+    sub = PL[TV.period] + ' · ' + idx.length + ' 条' +
+          (idx.length === total || !scope ? ''
+           : '（' + scope + '累计 ' + total + ' 条）');
+  }}
+  document.getElementById('tv-sub').textContent = sub;
   document.getElementById('tv-hint').textContent =
-    '点表头排序，双击任意一行展开详情。日/周/月按实际发表日切档，' +
-    '发表日未核实的条目只出现在「全部」档。';
+    (TV.only !== null && TV.only !== undefined)
+      ? '已自动展开该条中文总结，再点「展开英文原文与出处」看原始材料。'
+      : '点表头排序，双击任意一行展开详情。日/周/月按实际发表日切档，' +
+        '发表日未核实的条目只出现在「全部」档。';
   var ths = document.querySelectorAll('.tv-table th.tv-s');
   for (var t = 0; t < ths.length; t++) {{
     var on = parseInt(ths[t].getAttribute('data-sort'), 10) === TV.sort;
@@ -1462,6 +1522,22 @@ document.addEventListener('click', function(ev) {{
   var mr = ev.target.closest ? ev.target.closest('.mp-row') : null;
   if (mr) {{ tvOpen(mr.getAttribute('data-theater'), mr.getAttribute('data-period'));
              return; }}
+  /* 升级温度计的战区行 */
+  var gr = ev.target.closest ? ev.target.closest('.gg-row') : null;
+  if (gr && gr.getAttribute('data-theater')) {{
+    tvOpen(gr.getAttribute('data-theater'), 'all'); return; }}
+  /* 战区雷达的轴标签（SVG <text>，closest 在 SVG 上可用） */
+  var rx = ev.target.closest ? ev.target.closest('.rd-ax') : null;
+  if (rx && rx.getAttribute('data-theater')) {{
+    tvOpen(rx.getAttribute('data-theater'), 'all'); return; }}
+  /* 走势方向分布条 */
+  var dl = ev.target.closest ? ev.target.closest('.dline') : null;
+  if (dl && dl.getAttribute('data-dir')) {{
+    tvOpenDir(dl.getAttribute('data-dir')); return; }}
+  /* 事件时间线卡片 → 单条直达 */
+  var tc2 = ev.target.closest ? ev.target.closest('.tl-card') : null;
+  if (tc2 && tc2.getAttribute('data-si')) {{
+    tvOpenOne(parseInt(tc2.getAttribute('data-si'), 10)); return; }}
   var th = ev.target.closest ? ev.target.closest('.tv-table th.tv-s') : null;
   if (th) {{
     var k = parseInt(th.getAttribute('data-sort'), 10);
@@ -1504,6 +1580,12 @@ document.addEventListener('dblclick', function(ev) {{
     if (el.classList.contains('mp-bub') || el.classList.contains('mp-row')) {{
       ev.preventDefault();
       tvOpen(el.getAttribute('data-theater'), el.getAttribute('data-period'));
+    }} else if (el.classList.contains('gg-row') || el.classList.contains('rd-ax')) {{
+      ev.preventDefault(); tvOpen(el.getAttribute('data-theater'), 'all');
+    }} else if (el.classList.contains('dline')) {{
+      ev.preventDefault(); tvOpenDir(el.getAttribute('data-dir'));
+    }} else if (el.classList.contains('tl-card')) {{
+      ev.preventDefault(); tvOpenOne(parseInt(el.getAttribute('data-si'), 10));
     }} else if (el.classList.contains('tv-r')) {{
       ev.preventDefault(); tvToggleDetail(el);
     }}
