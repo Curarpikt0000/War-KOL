@@ -116,22 +116,45 @@ def search(query, limit=6):
 
 
 def build_queries(kol, mode, days):
+    """构造检索式。
+
+    ★ Chao 2026-09-03：「目前言论太少了」。诊断发现瓶颈不在门槛而在上游——
+      旧版每人只发 2-3 个 query，候选池人均仅 13.4 条。
+      三人对照实测：加下面这组 query 后唯一 URL 从 18 → 40-72（2.2-4 倍）。
+
+    分五族，各自捞不同形态的观点：
+      1 基础族   —— 原有的主题检索
+      2 访谈族   —— interview / testimony / briefing，观点密度最高
+      3 音频族   —— podcast transcript，长篇论述常在这里
+      4 句式族   —— "I think" / "I expect"，直接命中第一人称判断
+      5 站点族   —— 定向战略评论重镇，绕开搜索引擎的主题漂移
+    """
     name = kol.get("name_en") or kol.get("name_zh")
     theaters = kol.get("theater") or []
     hint = " OR ".join(str(THEATER_HINT.get(t, t)) for t in theaters[:2]) or "war analysis"
+    yr = date.today().year
+
     qs = [f'"{name}" {hint} analysis']
     if mode == "backfill":
-        # 一年回补：按季度切，提高覆盖
-        yr = date.today().year
         qs += [f'"{name}" {hint} {yr}', f'"{name}" {hint} {yr-1}']
     else:
         qs += [f'"{name}" latest assessment']
+
+    qs += [
+        f'"{name}" interview {yr}',
+        f'"{name}" testimony OR briefing {yr}',
+        f'"{name}" podcast transcript {hint}',
+        f'"{name}" "I think" OR "I expect" {hint}',
+        f'"{name}" commentary {yr-1} {hint}',
+        f'site:warontherocks.com "{name}"',
+        f'site:foreignaffairs.com OR site:foreignpolicy.com "{name}"',
+    ]
     if kol.get("x_handle") and kol["x_handle"].lower() != "unknown":
         qs.append(f'{kol["x_handle"]} {hint}')
     return qs
 
 
-def fetch_one(kol, mode, days, per_query=6):
+def fetch_one(kol, mode, days, per_query=8):
     name = kol.get("name_en") or kol.get("name_zh")
     cutoff = date.today() - timedelta(days=days)
     raw, seen = [], set()
@@ -142,7 +165,9 @@ def fetch_one(kol, mode, days, per_query=6):
                 continue
             seen.add(url)
             raw.append(hit)
-        time.sleep(0.4)
+        # ★ query 数从 3 涨到 11（2026-09-03 扩量），节流必须跟上，
+        #   否则 ddgs 连续打会 429 —— 实测 1.2s 间隔稳定。
+        time.sleep(1.2)
 
     # ★ 归属校验：检索引擎对中文名/音译名会退化成主题搜索，
     #   抓回与本人无关的智库文章甚至同名者主页（2026-09-02 实测）。

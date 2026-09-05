@@ -106,14 +106,19 @@ def load_thesis():
         return {}
     out = {}
     for fn in sorted(os.listdir(d)):
-        if not fn.endswith(".json"):
+        # ★ 只读 thesis_*.json。目录里还有 _body_cache_*.json（闸2 正文缓存），
+        #   结构完全不同，误读会 AttributeError。
+        if not (fn.startswith("thesis_") and fn.endswith(".json")):
             continue
         try:
             rows = json.load(open(os.path.join(d, fn), encoding="utf-8"))
         except Exception:
             continue
+        if not isinstance(rows, list):
+            continue
         for r in rows:
-            out[(r.get("kol"), r.get("source_url"))] = r
+            if isinstance(r, dict) and r.get("kol"):
+                out[(r.get("kol"), r.get("source_url"))] = r
     return out
 
 
