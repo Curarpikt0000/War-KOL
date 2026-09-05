@@ -25,13 +25,21 @@ SCAN_FILES=(
   scripts/compute_ratings.py scripts/sync_kol_from_notion.py
   scripts/translate.py scripts/stance_tracker.py scripts/purge_homonyms.py
   scripts/revalidate_attribution.py scripts/enrich_dates.py
+  scripts/extract_thesis.py
+  scripts/weekly_rollup.py scripts/write_weekly_to_notion.py
+  scripts/propagate_dates_to_thesis.py scripts/patch_daily_cron_prompt.py
   docs/HANDOVER.md docs/PENDING_AGENTS_MD_UPDATE.md
   data/kol_registry.json data/roster_final.json
   data/candidates_rejected.json data/candidates_raw.json
   data/translations.json data/stance_changes.json
+  data/weekly/*.json
   data/removed_attribution_*.json data/removed_homonym_*.json
+  data/removed_directory_*.json data/removed_nobody_*.json
+  data/removed_no_thesis_*.json
 )
-if grep -rniE "code\.uber\.internal|uberinternal|aifx|presto|chao\.jin|hermeschao|ChaoProjects|ntn_[A-Za-z0-9]{15}|secret_[A-Za-z0-9]{15}" \
+# ⚠️ presto 必须带词边界 \b：2026-09-05 实测被播客主持人姓氏「Preston」误伤，
+#    中止了整次 push。放宽关键词是危险的，加边界不是——它只是不再匹配单词内部。
+if grep -rniE "code\.uber\.internal|uberinternal|\baifx\b|\bpresto\b|chao\.jin|hermeschao|ChaoProjects|ntn_[A-Za-z0-9]{15}|secret_[A-Za-z0-9]{15}" \
    "${SCAN_FILES[@]}" data/statements/*.json 2>/dev/null | grep -v notion_ids; then
   echo "RED-LINE HIT — 中止个人端 push"; exit 2
 fi
@@ -43,6 +51,10 @@ git add -A data/statements/ 2>/dev/null
 git add -A data/removed_attribution_*.json data/removed_homonym_*.json 2>/dev/null
 # 方向快照：删了就没法算立场转向，必须进版本库
 git add -A data/stance/ 2>/dev/null
+# 五要素抽取产物：dashboard 的 L2 内容全靠它，不进库线上就空
+git add -A data/thesis/ 2>/dev/null
+# 周度汇总产物：周报/月报的输入，删了就没法回溯当周口径
+git add -A data/weekly/ 2>/dev/null
 if ! git diff --cached --quiet; then
   if ! git -c commit.gpgsign=false commit -q -m "Daily update: refresh war KOL statements and dashboard $(date +%F)"; then
     echo "个人端 commit 失败 — 重试一次"

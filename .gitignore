@@ -1,0 +1,13 @@
+.venv/
+.env
+.secrets/
+__pycache__/
+*.pyc
+scratch/
+data/notion_ids.json
+*cookies*.txt
+*cookies*.json
+AGENTS.md
+*.bak
+*.tmp
+data/thesis/_body_cache_*.json

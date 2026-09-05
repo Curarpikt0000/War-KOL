@@ -308,3 +308,69 @@ Wikipedia 词条页 + 1 条同名 YouTube 频道）。
 - [ ] 199 条「抓不到正文」中的付费墙（NYT / FT）救回方案：浏览器抓取或换 Exa key
 - [ ] `enrich_dates.py --file` 仍只接受文件名不接受路径（已确认脚本内无 basename 兜底）
 - [ ] 立场转向：有明确立场者已从 4 位扩到 47 位，需下一轮 cron 累积基线后验证是否出真实转向
+
+
+---
+
+## 2026-09-04 深夜～09-05 凌晨（扩量：138 → 402 条）
+
+### Chao 的指令
+「目前言论太少了你觉得能否放宽一点空间，给更多的人物言论放入我们tracker的空间」
+
+### 诊断：瓶颈不在门槛，在上游（假设被实测推翻）
+我原以为「门槛太严」，数字不支持：
+- **上游候选池只有 815 条、人均 13.4** —— fetch_statements 每人只发 2-3 个 query
+- 三人对照实测：加 7 组 query 后唯一 URL 从 18 → 40-72（**2.2-4 倍**）
+- 闸3 剔的 134 条逐条归类 LLM 理由：真正该剔的约 48 条（纯新闻 22 + 简介书单 19 +
+  同名 4 + 预告 3）判断**是对的**；误杀主要是 **PDF 解析失败 23 条**
+  （LLM 说「正文乱码」= 我把 PDF 字节喂给了 HTML 解析器）
+- 闸2 的 199 条同样多是技术问题：200但正文<800 有 111 条、PDF 25、YT 30、X 30、真付费墙 65
+
+### 方案 A+B（Chao 选「直接跑完全部」+「论据下限 2→3」，未选 C 放宽判断类型）
+**A 修技术漏**
+- PDF 走 pymupdf（抽样 12 条可读 58%）
+- 正文三层提取：PDF → 严格法(p/li>60) → article/main 宽松兜底（抽样回收 40%）
+- 闸1 补 bookshelf/CV/events/webinar/podcast-preview 规则
+- MIN_EVIDENCE 2→3（对现有 138 条零损失，最少的正好是 3）
+
+**B 扩大上游**
+query 3 组 → 11 组，五族：基础/访谈(interview,testimony)/音频(podcast transcript)/
+句式("I think","I expect")/站点定向(warontherocks,foreignaffairs)。节流 0.4s→1.2s 防 429。
+
+### 结果
+- 抓取 1332 条 → 全库去重候选 **699 → 1625（2.3 倍）**
+- 闸1 剔 478 / 闸2 剔 361 / 闸3 剔 386 → **合格 402 条（25%）**，LLM 零失败
+- 论据均 **5.3**/条，数据均 **3.1**/条，**80%** 带确切数字
+- 方向：升级 168 / 僵持 120 / 降级 60 / 未表态 54（未表态仅 13%）
+- KOL 覆盖 58/62；战区：俄乌 116 / 军工 75 / 中东 72 / 非洲 45 / 印太 37 / 南亚 35 / 拉美 22
+
+### 三个真 bug（都在这轮暴露）
+**1. LLM 半死连接导致无限挂起（最严重）**
+`urlopen(timeout=180)` 挡不住「socket 已 ESTABLISHED 但服务端永不返回数据」。
+实测卡 35 分钟，判据是 **/proc/<pid>/io 计数器纹丝不动**（不是 CPU、不是线程数）。
+修法：`socket.setdefaulttimeout(LLM_TIMEOUT)` + finally 显式 close。
+★ 教训：我曾从「1 线程 1 socket」推断线程池已结束→在正常跑，**推错了**——
+  ThreadPoolExecutor.map 惰性，主线程等第一批结果时本来就只有 1 个活动线程。
+  唯一可靠判据是 io 计数器。
+
+**2. 卡死重启白重抓一轮** → 加 `_body_cache_<tag>.json` 正文落盘缓存，
+闸2 从 409s 降到 **74s**。缓存 17MB 已加进 .gitignore。
+
+**3. 红线扫描误杀整次 push**：`presto` 撞上播客主持人姓氏 **Preston**
+（iheart.com/podcast/...preston-s-287975507）。修法 = 加词边界 `\bpresto\b`，
+**不是放宽关键词**。已用 7 行样本验证：真泄漏全拦、Preston/prestomanifest 正确放行。
+
+### 另两处修正
+- `load_thesis()` 误读 `_body_cache_*.json` → AttributeError。改成只认 `thesis_*.json` + 类型守卫
+- 同名污染：新 query 里的 interview/podcast/commentary 把同名音乐人、小说家捞进来
+  （Jeffrey Lewis 音乐人/小说家、Todd Harrison 股评人）。闸3 挡住了但白烧配额；
+  手工剔 Todd Harrison 2 条财经稿（yahoo/newsday），defensenews 那条是真国防分析保留
+
+### 我犯的错（记录以免重复）
+上一轮我报「零产出、卡在 138 条」是**错的**——实际已跑出 208 条，
+是产物文件按 SAVE_EVERY=5 落盘导致读数滞后。已加每 20 条打印进度+ETA 的日志。
+
+### 待办
+- [ ] 同名污染前置：扩量 query 让它变多了，考虑在闸1 加「KOL 领域词 vs 标题主题词」预筛
+- [ ] 真付费墙 65 条（NYT/FT）仍未攻，需浏览器抓取或 Exa key
+- [ ] 带日期只有 160/402（40%），发表日核实率仍是短板
