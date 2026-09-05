@@ -1,8 +1,27 @@
 {
- "generated_on": "2026-09-03",
+ "generated_on": "2026-09-05",
  "baseline_date": "2026-09-02",
  "window_days": 30,
  "reason": "",
- "changes": [],
- "n_kol_with_stance": 4
+ "changes": [
+  {
+   "kol": "Stacie Pettyjohn",
+   "theater": "军工与战略",
+   "from": null,
+   "to": "僵持",
+   "kind": "new",
+   "n": 1,
+   "last": "2026-08-19"
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "from": null,
+   "to": "升级",
+   "kind": "new",
+   "n": 1,
+   "last": "2026-09-03"
+  }
+ ],
+ "n_kol_with_stance": 5
 }
