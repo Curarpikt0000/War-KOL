@@ -94,6 +94,29 @@ def all_statements():
     return out
 
 
+def load_layers():
+    """读 build_layers.py 的四层产物（一句话 / 总结 / 原文翻译）。
+
+    ★ Chao 2026-09-07：「你现在第二层总结没有，第三层原文翻译没有，
+      只有第四层的链接，其实链接是可有可无的」。
+      四层定义：1 Title+一句话 → 2 总结 300-600字 → 3 原文全文翻译 → 4 出处链接。
+    """
+    d = os.path.join(DATA, "layers")
+    if not os.path.isdir(d):
+        return {}
+    out = {}
+    for fn in sorted(os.listdir(d)):
+        if not (fn.startswith("layers_") and fn.endswith(".json")):
+            continue
+        try:
+            rows = json.load(open(os.path.join(d, fn), encoding="utf-8"))
+        except Exception:
+            continue
+        if isinstance(rows, dict):
+            out.update(rows)
+    return out
+
+
 def load_thesis():
     """读 extract_thesis.py 的产物，按 (kol, source_url) 建索引。
 
@@ -305,7 +328,7 @@ def statements_pane(stmts, period):
                 f'<div class="sc-dom">{esc(dom)}</div>'
                 f'<div class="sc-lv sc-lv1"></div>'
                 f'<button type="button" class="sc-step" data-step="2">'
-                f'展开中文总结 ▾</button></div>')
+                f'展开详情 ▾</button></div>')
         more = (f'<div class="pmore">另有 {len(items)-18} 条，见下方观点全景</div>'
                 if len(items) > 18 else "")
         blocks.append(
@@ -541,6 +564,7 @@ def main():
     #   6 英文原摘要 / 7 出处URL / 8 归属校验依据
     #   9 中文标题 / 10 中文总结（缺失=未翻译，前端照实标注不冒充）
     tr = load_translations()
+    lay = load_layers()
     stmt_rows, idx_of = [], {}
     for s in stmts:
         key = (s.get("kol"), s.get("source_url"))
@@ -567,6 +591,10 @@ def main():
             th.get("claim") or "", th.get("reasoning") or "",
             th.get("evidence") or [], th.get("data") or [],
             th.get("horizon") or "", th.get("confidence") or "",
+            # 17-19：四层内容（Chao 2026-09-07）。17 一句话 / 18 总结 / 19 原文翻译
+            (lay.get(s.get("source_url")) or {}).get("oneline") or "",
+            (lay.get(s.get("source_url")) or {}).get("summary") or "",
+            (lay.get(s.get("source_url")) or {}).get("translation") or "",
         ])
     # 每个时间档位命中的行下标（前端切档时直接取交集，不重算日期）
     period_idx = {p: sorted({idx_of[(s.get("kol"), s.get("source_url"))]
@@ -906,6 +934,37 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
   font-variant-numeric:tabular-nums}}
 .th-dc{{font-size:11px;color:{MUTED};opacity:.85}}
 .th-nodata{{font-size:11.5px;color:{MUTED};font-style:normal;opacity:.75}}
+/* ── 四层结构（一句话 / 总结 / 原文翻译 / 出处）Chao 2026-09-07 ── */
+.ly-one{{font-size:13.5px;line-height:1.75;color:{FG};font-weight:600;
+  background:rgba(136,192,208,.07);border-left:3px solid {ACCENT};
+  border-radius:0 6px 6px 0;padding:10px 13px;margin-bottom:11px}}
+.ly-sec{{margin-top:8px}}
+.ly-btn{{display:flex;align-items:center;gap:7px;width:100%;text-align:left;
+  font-size:12.5px;font-weight:600;color:{FG};background:{CARD2};
+  border:1px solid {GRID};border-radius:7px;padding:8px 12px;cursor:pointer;
+  font-family:inherit}}
+.ly-btn:hover{{border-color:{ACCENT};background:rgba(136,192,208,.08)}}
+.ly-btn.on{{border-color:{ACCENT};border-bottom-left-radius:0;
+  border-bottom-right-radius:0}}
+.ly-ar{{color:{ACCENT};font-size:10px;width:11px;flex:none}}
+.ly-n{{margin-left:auto;font-size:10.5px;font-weight:400;color:{MUTED};
+  font-variant-numeric:tabular-nums}}
+.ly-pend{{opacity:.7}}
+.ly-wrap{{display:none}}
+.ly-wrap.on{{display:block;border:1px solid {ACCENT};border-top:none;
+  border-radius:0 0 7px 7px;padding:12px 14px;background:rgba(136,192,208,.03)}}
+.ly-sum{{font-size:13px;line-height:1.95;color:#cdd6e0;white-space:pre-wrap}}
+.ly-trans{{font-size:12.5px;line-height:1.95;color:#c3cad3;
+  max-height:60vh;overflow-y:auto}}
+.ly-trans p{{margin:0 0 11px}}
+.ly-missing{{color:{MUTED};font-size:11.5px;line-height:1.7;
+  background:{CARD2};border:1px dashed {GRID};border-radius:6px;padding:9px 12px}}
+.ly-meta{{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:7px 14px;margin-bottom:11px}}
+.ly-meta>div{{font-size:11.5px;display:flex;gap:7px}}
+.ly-meta b{{color:{MUTED};font-weight:400;flex:none;min-width:62px}}
+.ly-meta span{{color:{FG}}}
+.ly-meta-wide{{grid-column:1/-1}}
 /* ── 升级温度计 ── */
 .gg-wrap{{font-size:12.5px}}
 .gg-scale{{display:flex;justify-content:space-between;font-size:10.5px;
@@ -1171,6 +1230,20 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 
 /* 日/周/月 切档 + 单条言论展开（事件委托，三份数据已内嵌，点击零请求） */
 document.addEventListener('click', function(ev) {{
+  /* 四层折叠钮（总结 / 原文翻译 / 出处元信息）—— Chao 2026-09-07 的四层结构。
+     用 data-ly 指向紧邻的 .ly-wrap，箭头 ▸/▾ 随状态翻转。 */
+  var ly = ev.target.closest ? ev.target.closest('.ly-btn') : null;
+  if (ly) {{
+    var w2 = ly.nextElementSibling;
+    if (w2 && w2.classList.contains('ly-wrap')) {{
+      var on2 = w2.classList.toggle('on');
+      ly.classList.toggle('on', on2);
+      var ar = ly.querySelector('.ly-ar');
+      if (ar) ar.textContent = on2 ? '▾' : '▸';
+    }}
+    ev.stopPropagation();
+    return;
+  }}
   /* L3 展开钮（三处弹层共用同一个 class） */
   var l3 = ev.target.closest ? ev.target.closest('.l3-btn') : null;
   if (l3) {{
@@ -1188,35 +1261,22 @@ document.addEventListener('click', function(ev) {{
     ev.stopPropagation();
     return;
   }}
-  /* 言论卡片三级：L1 标题 →（点钮）L2 中文总结 →（再点）L3 英文原文+出处 */
+  /* 言论卡片：点一次展开四层体（一句话/总结/原文翻译/出处），再点收起。
+     ★ 与 l3Row、战区列表共用 layerBody，别在这里再写一份渲染逻辑。 */
   var st = ev.target.closest ? ev.target.closest('.sc-step') : null;
   if (st) {{
     var card = st.closest('.scard');
     var r = STMTS[parseInt(card.getAttribute('data-si'), 10)];
     var box = card.querySelector('.sc-lv');
     if (!r || !box) return;
-    var lvl = parseInt(card.getAttribute('data-lv') || '1', 10);
-    if (lvl === 1) {{
-      box.innerHTML = r[10]
-        ? '<div class="l3-cn">' + hesc(r[10]) + '</div>'
-        : '<div class="l3-missing">该条尚未生成中文总结（如实标注，未用机翻冒充）。'
-          + '可继续展开看英文原文。</div>';
-      card.setAttribute('data-lv', '2');
-      st.textContent = '展开英文原文与出处 ▾';
-    }} else if (lvl === 2) {{
-      box.innerHTML += '<div class="l3-en"><div class="l3-en-t">英文原标题</div>' +
-        '<div class="l3-en-b">' + hesc(r[5]) + '</div>' +
-        '<div class="l3-en-t" style="margin-top:7px">英文原文摘要</div>' +
-        '<div class="l3-en-b">' +
-        (hesc(r[6]) || '（该来源摘要为空，请直接看原文）') + '</div>' +
-        '<a class="sc-src" href="' + hesc(r[7]) +
-        '" target="_blank" rel="noopener">打开原始出处 →</a></div>';
-      card.setAttribute('data-lv', '3');
-      st.textContent = '收起 ▴';
-    }} else {{
+    if (card.getAttribute('data-lv') === '2') {{
       box.innerHTML = '';
       card.setAttribute('data-lv', '1');
-      st.textContent = '展开中文总结 ▾';
+      st.textContent = '展开详情 ▾';
+    }} else {{
+      box.innerHTML = layerBody(r, 'c' + (++__lyUid));
+      card.setAttribute('data-lv', '2');
+      st.textContent = '收起 ▴';
     }}
     return;
   }}
@@ -1258,56 +1318,104 @@ function hesc(s) {{
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }}
 
-/* ── L2 五要素渲染器（唯一实现）──
-   Chao 2026-09-03：L2 必须是论点/论证/论据/数据，不能是搜索摘要的翻译。
-   ★ l3Row 和战区列表弹层 tvToggleDetail 都调它。战区列表曾经自己另写了
-     一份 L2，就是「改一处漏两处」的原型 —— 别再复制第二份。 */
-function thesisHTML(r) {{
-  if (!r[11]) {{
-    if (r[10]) return '<div class="l3-cn">' + hesc(r[10]) + '</div>';
-    return '<div class="l3-cn l3-missing">该条尚未抽取论点论据' +
-           '（正文不可得或抽取未覆盖）。可直接展开下一级看英文原文。</div>';
+/* ── 四层钻取渲染器（唯一实现，Chao 2026-09-07 拍板）──
+   L1 标题 + 一句话导语（35-55字）
+   L2 总结 300-600 字（论点/论证/论据/数据已并入行文，不再单独列）
+   L3 原文全文翻译（原文多长译多长，长文分段拼接）
+   L4 出处链接 + 元信息（Chao：「链接是可有可无的」，放最后）
+   四层都默认折叠，逐层点开。
+   ★ 全站只有这一个实现：l3Row（言论卡片/KOL弹层/时间线）和战区列表弹层
+     tvToggleDetail 都调它。战区列表曾自己另写一份 L2，就是「改一处漏两处」的
+     原型，别再复制第二份。
+   行数据 = STMTS 行：0日期 1日期状态 2方向 3战区 4KOL 5英标题
+            6英摘要 7出处 8归属依据 9主题 10旧中文总结
+            11论点 12论证 13论据[] 14数据[] 15视野 16置信
+            17一句话 18总结 19原文翻译 */
+function layerBody(r, uid) {{
+  var h = '';
+
+  /* ── L1：一句话导语（跟在标题下，本身也折叠在展开区顶部）── */
+  if (r[17]) {{
+    h += '<div class="ly-one">' + hesc(r[17]) + '</div>';
+  }} else if (r[11]) {{
+    h += '<div class="ly-one">' + hesc(r[11]) + '</div>';
   }}
-  var h = '<div class="th-claim"><span class="th-k">论点</span>' +
-          hesc(r[11]) + '</div>';
-  var meta = [];
-  if (r[15]) meta.push('时间视野 ' + hesc(r[15]));
-  if (r[16]) meta.push('表述确定度 ' + hesc(r[16]));
-  if (meta.length) h += '<div class="th-hz">' + meta.join('　·　') + '</div>';
-  if (r[12]) h += '<div class="th-sec"><div class="th-k2">论证</div>' +
-                  '<div class="th-body">' + hesc(r[12]) + '</div></div>';
-  if (r[13] && r[13].length) {{
-    var ev = '';
-    for (var i = 0; i < r[13].length; i++) ev += '<li>' + hesc(r[13][i]) + '</li>';
-    h += '<div class="th-sec"><div class="th-k2">论据</div>' +
-         '<ul class="th-ev">' + ev + '</ul></div>';
-  }}
-  if (r[14] && r[14].length) {{
-    var dd = '';
-    for (var j = 0; j < r[14].length; j++) {{
-      var d = r[14][j] || {{}};
-      dd += '<div class="th-d"><span class="th-dm">' + hesc(d.metric || '') +
-            '</span><span class="th-dv">' + hesc(d.value || '') + '</span>' +
-            '<span class="th-dc">' + hesc(d.context || '') + '</span></div>';
+
+  /* ── L2：总结 ── */
+  var sum = r[18] || '';
+  if (!sum && r[12]) {{
+    /* 四层尚未生成时的回落：用论证+论据拼一段，并标注 */
+    sum = r[12];
+    if (r[13] && r[13].length) sum += '　支撑事实：' + r[13].join('；') + '。';
+    if (r[14] && r[14].length) {{
+      var dd = [];
+      for (var k = 0; k < r[14].length; k++) {{
+        var x = r[14][k] || {{}};
+        dd.push(x.metric + ' ' + x.value + (x.context ? '（' + x.context + '）' : ''));
+      }}
+      sum += '　关键数据：' + dd.join('；') + '。';
     }}
-    h += '<div class="th-sec"><div class="th-k2">数据</div>' +
-         '<div class="th-data">' + dd + '</div></div>';
-  }} else {{
-    h += '<div class="th-sec"><div class="th-k2">数据</div>' +
-         '<div class="th-nodata">原文未给出确切数字（不估算、不脑补）</div></div>';
   }}
+  h += '<div class="ly-sec">' +
+    '<button type="button" class="ly-btn" data-ly="' + uid + '-s">' +
+      '<span class="ly-ar">▸</span>总结' +
+      (r[18] ? '<span class="ly-n">' + r[18].length + ' 字</span>'
+             : '<span class="ly-n ly-pend">精简版</span>') +
+    '</button>' +
+    '<div class="ly-wrap" id="ly-' + uid + '-s">' +
+      (sum ? '<div class="ly-sum">' + hesc(sum) + '</div>'
+           : '<div class="ly-missing">该条尚未生成总结（四层生成任务未覆盖到，' +
+             '如实标注、不用摘要冒充）。</div>') +
+    '</div></div>';
+
+  /* ── L3：原文翻译 ── */
+  h += '<div class="ly-sec">' +
+    '<button type="button" class="ly-btn" data-ly="' + uid + '-t">' +
+      '<span class="ly-ar">▸</span>原文翻译' +
+      (r[19] ? '<span class="ly-n">' + r[19].length + ' 字</span>'
+             : '<span class="ly-n ly-pend">未生成</span>') +
+    '</button>' +
+    '<div class="ly-wrap" id="ly-' + uid + '-t">' +
+      (r[19]
+        ? '<div class="ly-trans">' + hesc(r[19]).replace(/\\n\\n/g, '</p><p>')
+            .replace(/^/, '<p>').replace(/$/, '</p>') + '</div>'
+        : '<div class="ly-missing">该条原文正文不可得（付费墙 / 403 / 正文过短），' +
+          '因此没有翻译。绝不用英文摘要冒充译文——可直接看下一层的原始出处。</div>') +
+    '</div></div>';
+
+  /* ── L4：出处与元信息 ── */
+  var c = DIRC[r[2]] || '#6c757d';
+  h += '<div class="ly-sec">' +
+    '<button type="button" class="ly-btn" data-ly="' + uid + '-o">' +
+      '<span class="ly-ar">▸</span>出处与元信息' +
+    '</button>' +
+    '<div class="ly-wrap" id="ly-' + uid + '-o">' +
+      '<div class="ly-meta">' +
+        '<div><b>KOL</b><span>' + hesc(r[4]) + '</span></div>' +
+        '<div><b>战区</b><span>' + hesc(r[3]) + '</span></div>' +
+        '<div><b>走势判断</b><span style="color:' + c + '">' +
+          hesc(r[2] || '—') + '</span></div>' +
+        '<div><b>发表日</b><span>' + hesc(r[0] || '未核实') +
+          '（' + (r[1] === 'verified' ? '已核实' : '未核实') + '）</span></div>' +
+        (r[15] ? '<div><b>时间视野</b><span>' + hesc(r[15]) + '</span></div>' : '') +
+        (r[16] ? '<div><b>表述确定度</b><span>' + hesc(r[16]) + '</span></div>' : '') +
+        '<div class="ly-meta-wide"><b>归属校验</b><span>' +
+          hesc(r[8] || '—') + '</span></div>' +
+        '<div class="ly-meta-wide"><b>英文原标题</b><span>' +
+          hesc(r[5] || '—') + '</span></div>' +
+      '</div>' +
+      '<a class="kd-src" href="' + hesc(r[7]) + '" target="_blank" ' +
+        'rel="noopener">打开原始出处 →</a>' +
+    '</div></div>';
   return h;
 }}
 
-/* ── 统一的三级钻取行（Chao 2026-09-02 拍板，全站共用一个渲染器）──
-   L1 主题（12-20字中文名词短语）
-   L2 【论点 + 论证 + 论据 + 数据 + 时间视野】—— 见 thesisHTML
-   L3 英文原文摘要 + 归属/日期元信息 + 原始出处链接
-   ★ 只用一个函数，KOL 弹层 / 战区列表 / 时间线全走它，
-     否则三处各写一遍，改一处漏两处（Eco 踩过）。
-   行数据 = STMTS 行：0日期 1日期状态 2方向 3战区 4KOL 5英标题
-            6英摘要 7出处 8归属依据 9主题 10旧中文总结
-            11论点 12论证 13论据[] 14数据[] 15时间视野 16置信 */
+/* 兼容旧调用点：thesisHTML 现在等价于四层体（不带 uid 时自动生成） */
+var __lyUid = 0;
+function thesisHTML(r) {{ return layerBody(r, 'x' + (++__lyUid)); }}
+
+/* ── 统一的钻取行（全站共用）──
+   L1 标题（点开进入四层） */
 function l3Row(r) {{
   var c = DIRC[r[2]] || '#6c757d';
   var dt = r[0] || '日期未核实';
@@ -1316,26 +1424,16 @@ function l3Row(r) {{
   var head = titleCn ? hesc(titleCn) : hesc(r[5]);
   var pend = titleCn ? '' :
     '<span class="l3-pend">待翻译</span>';
-  var lv2 = thesisHTML(r);
-  var lv3 = '<div class="l3-en"><div class="l3-en-t">英文原文摘要</div>' +
-    '<div class="l3-en-b">' +
-    (hesc(r[6]) || '（该来源摘要为空，请直接打开原文）') + '</div>' +
-    '<div class="kd-meta">走势判断：<b style="color:' + c + '">' + hesc(r[2]) +
-    '</b>　战区：' + hesc(r[3]) + '　KOL：' + hesc(r[4]) +
-    '　发表日：' + hesc(dt) +
-    '（' + (r[1] === 'verified' ? '已核实' : '未核实') + '）' +
-    '　归属校验：' + hesc(r[8] || '—') + '</div>' +
-    '<a class="kd-src" href="' + hesc(r[7]) + '" target="_blank" rel="noopener">' +
-    '打开原始出处 →</a></div>';
+  var lv2 = layerBody(r, 'r' + (++__lyUid));
+  /* ★ 旧的「展开英文原文与出处」按钮已删：英文摘要那一层被 L3 原文翻译取代，
+     出处链接并进了 L4。Chao 2026-09-07：「原文这层我不需要原文链接，
+     我需要的是原文翻译」「链接是可有可无的」。 */
   return '<div class="kd-row"><div class="kd-hd">' +
     '<span class="kd-caret">▸</span>' +
     '<span class="dirb" style="background:' + c + '"></span>' +
     '<span class="kd-date' + unv + '">' + hesc(dt) + '</span>' +
     '<span class="kd-title">' + head + pend + '</span></div>' +
-    '<div class="kd-body">' + lv2 +
-    '<button type="button" class="l3-btn" data-l3="open">' +
-    '展开英文原文与出处 ▾</button>' +
-    '<div class="l3-wrap">' + lv3 + '</div></div></div>';
+    '<div class="kd-body">' + lv2 + '</div></div>';
 }}
 function openKol(name) {{
   var d = KOL[name];
@@ -1514,7 +1612,7 @@ function tvRender() {{
   document.getElementById('tv-sub').textContent = sub;
   document.getElementById('tv-hint').textContent =
     (TV.only !== null && TV.only !== undefined)
-      ? '已自动展开该条中文总结，再点「展开英文原文与出处」看原始材料。'
+      ? '已展开该条详情：一句话导语在最上，其下可逐层点开总结、原文翻译、出处。'
       : '点表头排序，双击任意一行展开详情。日/周/月按实际发表日切档，' +
         '发表日未核实的条目只出现在「全部」档。';
   var ths = document.querySelectorAll('.tv-table th.tv-s');
@@ -1576,32 +1674,11 @@ function tvToggleDetail(tr) {{
     '<div class="tv-ctx">' + hesc(r[0] || '发表日未核实') + '　·　' +
       hesc(r[4]) + '</div>' +
     (rel ? '<div class="tv-rel">来源页标注：' + hesc(rel) + '</div>' : '') +
-    /* L2：五要素（共用 thesisHTML，别在这里再写一份） */
-    '<div class="tv-sum">' + thesisHTML(r) + '</div>' +
-    '<div class="tv-kv">' +
-    /* KOL 名常有机构后缀，会换行三行把同排短字段撑出空腔 → 单独通栏一行 */
-    '<div class="tv-kv-wide"><b>KOL</b><span>' + hesc(r[4]) + '</span></div>' +
-    '<div><b>战区</b><span>' + hesc(r[3]) + '</span></div>' +
-    '<div><b>走势判断</b><span class="tv-dir" style="background:' + c +
-      '22;color:' + c + ';border-color:' + c + '66">' +
-      hesc(r[2] || '—') + '</span></div>' +
-    '<div><b>发表日</b><span>' + hesc(r[0] || '未核实') +
-      '（' + (r[1] === 'verified' ? '已核实' : '未核实') + '）</span></div>' +
-    '<div class="tv-kv-wide"><b>归属校验</b><span>' + hesc(r[8] || '—') +
-      '</span></div>' +
-    '</div>' +
-    /* L3：英文原文（再点一次才出来） */
-    '<button type="button" class="l3-btn" data-l3="open">' +
-    '展开英文原文与出处 ▾</button>' +
-    '<div class="l3-wrap"><div class="l3-en">' +
-    '<div class="l3-en-t">英文原标题</div>' +
-    '<div class="l3-en-b">' + hesc(r[5]) + '</div>' +
-    '<div class="l3-en-t" style="margin-top:8px">英文原文摘要</div>' +
-    '<div class="l3-en-b">' + (hesc(sum0) || '（该来源摘要为空，请直接看原文）') +
-    '</div></div></div>' +
+    /* 四层全部由 layerBody 渲染（一句话 / 总结 / 原文翻译 / 出处元信息）。
+       ★ 别在这里再写一份——旧版这里重复了元信息表和英文摘要层，
+         正是「改一处漏两处」的原型。 */
+    '<div class="tv-sum">' + layerBody(r, 'v' + (++__lyUid)) + '</div>' +
     '<div class="tv-act">' +
-    '<a class="tv-btn tv-btn-primary" href="' + hesc(r[7]) +
-    '" target="_blank" rel="noopener">打开原始出处</a>' +
     (KOL[r[4]] ? '<button type="button" class="tv-btn tv-tokol" data-k="' +
        hesc(r[4]) + '">查看该 KOL 档案</button>' : '') +
     '</div></td>';
