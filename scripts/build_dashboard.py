@@ -462,8 +462,20 @@ def changes_html():
 
 
 def kol_cards(roster, by_kol, idx_of, tr):
+    """KOL 卡片网格。
+
+    ★ 硬门禁（Chao 2026-09-07）：「这个人如果是没有记录的话，就不应该上我们的
+      dashboard」。零入库言论的人从战区分组里剥离，单独放到底部
+      「监测中·待验证」区，不给星级、不参与百分位排名。
+      ——写成代码里的门禁，不是写进文档靠记得检查。
+    """
     groups = defaultdict(list)
+    monitor = []
     for k in roster:
+        nm = k.get("name_en") or k.get("name_zh")
+        if k.get("tier") == "monitor" or not by_kol.get(nm):
+            monitor.append(k)
+            continue
         groups[(k.get("theater") or ["未分类"])[0]].append(k)
     payload = {}
     out = []
@@ -487,6 +499,18 @@ def kol_cards(roster, by_kol, idx_of, tr):
                 flag = '<div class="kc-warn">监测对象 · 需交叉验证</div>'
             elif k.get("quality_flag"):
                 flag = f'<div class="kc-flag">{esc(k["quality_flag"])}</div>'
+            # ★ Chao 2026-09-07：星级必须标明命中率是否真的被验证过。
+            #   旧版所有人都是「5★ 9.55」这样的硬分数，但 62 人里只有 8 人的
+            #   评分理由含预测应验证据，其余是拿「持续更新/定期作证」的产出
+            #   勤勉度冒充命中率。现在分三档明示。
+            tier = k.get("tier") or "provisional"
+            if tier == "monitor":
+                badge = ('<span class="kc-tier kc-tier-m">监测中 · 无入库言论</span>')
+            elif k.get("hit_verified"):
+                badge = (f'<span class="kc-tier kc-tier-v">✓ 命中率已核验 '
+                         f'{k.get("pred_hit",0)}/{k.get("pred_judged",0)}</span>')
+            else:
+                badge = '<span class="kc-tier kc-tier-p">临时 · 未经命中率验证</span>'
             cards.append(
                 f'<div class="kcard" data-kol="{esc(name)}" tabindex="0" role="button" '
                 f'style="border-top-color:{col}">'
@@ -497,6 +521,7 @@ def kol_cards(roster, by_kol, idx_of, tr):
                 f'<div class="kc-name">{esc(name)}</div>'
                 f'<div class="kc-aff">{esc((kt.get("aff_cn") or k.get("affiliation") or "")[:58])}</div>'
                 f'{flag}'
+                f'{badge}'
                 f'<div class="kc-spec">{esc((kt.get("spec_cn") or k.get("specialty") or "")[:74]) or "—"}</div>'
                 f'<div class="kc-foot">'
                 f'<span class="kc-dir" style="background:{lc}22;color:{lc};'
@@ -515,6 +540,12 @@ def kol_cards(roster, by_kol, idx_of, tr):
                 "sa": k.get("score_A"), "sb": k.get("score_B"),
                 "sc": k.get("score_C"), "sd": k.get("score_D"),
                 "w": k.get("weighted_score"),
+                # 评分可信度（Chao 2026-09-07）
+                "note": k.get("score_note") or "",
+                "pj": k.get("pred_judged") or 0,
+                "ph": k.get("pred_hit") or 0,
+                "pm": k.get("pred_miss") or 0,
+                "pu": k.get("pred_unclear") or 0,
                 "why": kt.get("why_cn") or k.get("rating_reason") or "—",
                 "why_en": k.get("rating_reason") or "",
                 "ctr": kt.get("ctr_cn") or k.get("controversies") or "none",
@@ -530,6 +561,59 @@ def kol_cards(roster, by_kol, idx_of, tr):
                    f'<span class="tdot" style="background:{col}"></span>{esc(t)}'
                    f'<span class="tn">{len(people)} 人</span></div>'
                    f'<div class="kcard-grid">{"".join(cards)}</div></div>')
+    # ── 监测中·待验证（零入库言论，不给星级、不参与排名）──
+    if monitor:
+        # 各人零产出的原因不同，卡片上要说清是哪一种，不能一句笼统话打发。
+        # ★ 尤其别把「已抓到原始内容但还没过五要素抽取」说成「抓取覆盖不足」——
+        #   那是两回事，后者会让人以为抓取还有漏，实际是待处理。
+        raw_cnt = {}
+        try:
+            import glob as _g
+            for _f in _g.glob(os.path.join(DATA, "statements", "*.json")):
+                try:
+                    _d = json.load(open(_f, encoding="utf-8"))
+                except Exception:
+                    continue
+                _rows = _d if isinstance(_d, list) else (
+                    _d.get("records") or _d.get("items") or [])
+                for _r in _rows:
+                    if isinstance(_r, dict) and _r.get("status") == "ok" \
+                            and _r.get("kol"):
+                        raw_cnt[_r["kol"]] = raw_cnt.get(_r["kol"], 0) + 1
+        except Exception:
+            pass
+        WHY = {
+            'Zhu Weiyi ("Ting Feng De Can")':
+                "纯 YouTube 口播，该频道无字幕轨；第三方整理的文字稿非本人发布，"
+                "按归属铁律不入库",
+        }
+        mc = []
+        for k in monitor:
+            nm = k.get("name_en") or k.get("name_zh")
+            kt = tr["kol"].get(nm) or {}
+            n_raw = raw_cnt.get(nm, 0)
+            if nm in WHY:
+                why = WHY[nm]
+            elif n_raw:
+                why = (f"已抓到 {n_raw} 条原始材料，尚未通过五要素抽取 —— "
+                       f"待下一轮抽取后重新评定")
+            else:
+                why = ("本轮抓取未取得任何原始材料 —— "
+                       "可能是产出形态特殊（内部简报／付费墙）或抓取覆盖不足")
+            mc.append(
+                f'<div class="mcard">'
+                f'<div class="mc-name">{esc(nm)}</div>'
+                f'<div class="mc-aff">'
+                f'{esc((kt.get("aff_cn") or k.get("affiliation") or "")[:56])}</div>'
+                f'<div class="mc-why">{esc(why)}</div></div>')
+        out.append(
+            f'<div class="tgroup"><div class="thead" style="border-color:{MUTED}">'
+            f'<span class="tdot" style="background:{MUTED}"></span>监测中 · 待验证'
+            f'<span class="tn">{len(monitor)} 人</span></div>'
+            f'<div class="mnote">名册成员，但本轮没有够格的入库言论。'
+            f'不给星级、不参与百分位排名 —— '
+            f'如实标注，而不是给一个无据可依的评分。</div>'
+            f'<div class="kcard-grid">{"".join(mc)}</div></div>')
     return "".join(out), payload
 
 
@@ -736,6 +820,24 @@ h1{{font-size:26px;margin:0 0 4px;font-weight:600}}
 .kc-top{{display:flex;align-items:center;justify-content:space-between;
   margin-bottom:6px}}
 .star{{font-size:11.5px;letter-spacing:1px}}
+/* ── 评分可信度徽章（Chao 2026-09-07）── */
+.kc-tier{{display:inline-block;font-size:9.5px;padding:2px 7px;border-radius:4px;
+  margin:5px 0 2px;letter-spacing:.2px;white-space:nowrap}}
+.kc-tier-v{{color:#a3be8c;background:rgba(163,190,140,.13);
+  border:1px solid rgba(163,190,140,.35)}}
+.kc-tier-p{{color:{MUTED};background:{CARD2};border:1px solid {GRID}}}
+.kc-tier-m{{color:#d08770;background:rgba(208,135,112,.12);
+  border:1px solid rgba(208,135,112,.3)}}
+/* ── 监测中·待验证区 ── */
+.mnote{{font-size:11.5px;color:{MUTED};line-height:1.7;padding:2px 2px 10px}}
+.mcard{{background:{CARD2};border:1px dashed {GRID};border-radius:9px;
+  padding:13px 15px;opacity:.82}}
+.mc-name{{font-size:13px;font-weight:600;color:{FG};margin-bottom:4px}}
+.mc-aff{{font-size:11px;color:{MUTED};margin-bottom:7px}}
+.mc-why{{font-size:10.5px;color:{MUTED};line-height:1.6;opacity:.85}}
+.kd-note{{font-size:11px;color:{MUTED};line-height:1.7;margin:7px 0 3px;
+  padding:8px 11px;background:{CARD2};border:1px dashed {GRID};
+  border-radius:6px}}
 .kc-score{{font-size:11px;color:{MUTED};font-family:ui-monospace,monospace}}
 .kc-name{{font-size:13.5px;font-weight:600;margin-bottom:3px;line-height:1.35}}
 .kc-aff{{font-size:11px;color:{MUTED};line-height:1.45;margin-bottom:7px}}
@@ -1460,8 +1562,20 @@ function openKol(name) {{
       '<div class="dbarw"><div class="dbari" style="width:' +
       Math.max(0, Math.min(100, v * 10)) + '%;background:' + x[2] + '"></div></div>' +
       '</div>'; }}).join('') + '</div>';
-  bio += '<div class="kd-wsum">加权总分 <b>' + hesc(d.w) +
-         '</b>（权重：机构根基 30% · 一手性 25% · 命中率 30% · 透明度 15%）</div>';
+  bio += '<div class="kd-wsum">加权总分 <b>' + hesc(d.w) + '</b>' +
+    (d.sc == null
+      ? '（命中率样本不足已置空，仅按机构根基 30% · 一手性 25% · '
+        + '透明度 15% 三维归一）'
+      : '（权重：机构根基 30% · 一手性 25% · 命中率 30% · 透明度 15%）') +
+    '</div>';
+  /* ★ Chao 2026-09-07：必须写清这个分是怎么来的、命中率有没有真被验证过。
+     旧版所有人都显示硬分数，实际 62 人里只有 8 人有预测应验证据。 */
+  if (d.note) bio += '<div class="kd-note">' + hesc(d.note) + '</div>';
+  if (d.pj) {{
+    bio += '<div class="dt"><b>预测核验</b><span>已到期 ' + d.pj +
+      ' 条：命中 ' + d.ph + ' / 落空 ' + d.pm +
+      '（另 ' + d.pu + ' 条表述模糊不强判）</span></div>';
+  }}
   bio += '<div class="dt"><b>评级依据</b><span>' + hesc(d.why) + '</span></div>';
   bio += '<div class="dt"><b>争议</b><span>' + hesc(d.ctr) + '</span></div>';
   /* 档案第二级：中文档案 → 展开原始字段（可核对译写有没有走样）。

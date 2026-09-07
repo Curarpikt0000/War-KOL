@@ -115,21 +115,95 @@ def search(query, limit=6):
             return []
 
 
+def _own_sites(kol):
+    """从 registry 的 primary_url / sources 抽出【自有站点域名】。
+
+    ★ Chao 2026-09-07 指出的真 bug：Open Source Centre 每天有产出，
+      我们却抓到 0 条。根因有二——
+      ① query 用了我们自己编的名字「Open Source Centre (OSC) research team」，
+         这个精确短语世界上没有任何页面会这么写，搜索必然零结果；
+      ② registry 里明明存着 primary_url = opensourcecentre.org 和 4 条 sources，
+         但抓取器【从不去自有站点找】，只会打搜索引擎。
+      实测：加一条 site:opensourcecentre.org 立刻出 8 篇研究报告。
+
+    ★ 纯视频 KOL 不走这条路（Chao 2026-09-07 拍板）：
+      听风的蚕（@zhuweiyi）是名册里唯一的纯 YouTube 口播博主，无任何文字站点。
+      · 字幕通道：--list-subs 实测该频道【无字幕轨】
+      · 音频通道：需 cookies+Deno+ejs:github 三件套，缺 cookies 恒 403
+      · 第三方文字稿（知乎「春去秋来」整理的节目稿）内容属实但【非本人发布】，
+        按归属铁律算转述，不入库
+      Chao 决定：「像这种没有字幕的 YouTube 暂时不跑，尽量从其他文字渠道先拿
+      信息，不然太费时间」+「不收，他留在监测中区」。
+      → 他停在「监测中·待验证」区，这是【如实标注】不是失败。
+        61/62 人都有文字源，为 1 人建音频管道不划算。
+    """
+    urls = []
+    if kol.get("primary_url"):
+        urls.append(kol["primary_url"])
+    src = kol.get("sources") or ""
+    if isinstance(src, str):
+        urls += [u.strip() for u in src.split("|") if u.strip()]
+    elif isinstance(src, list):
+        urls += [str(u).strip() for u in src]
+    hosts, seen = [], set()
+    for u in urls:
+        m = re.match(r"https?://([^/]+)", u.strip())
+        if not m:
+            continue
+        h = m.group(1).lower().lstrip("www.")
+        # 通用 UGC 平台不能当「自有站点」定向——那等于搜全站
+        if any(g in h for g in ("youtube.com", "twitter.com", "x.com",
+                                "wikipedia.org", "linkedin.com", "medium.com",
+                                "substack.com", "facebook.com", "google.com")):
+            continue
+        if h not in seen:
+            seen.add(h)
+            hosts.append(h)
+    return hosts[:4]
+
+
+def _real_names(kol):
+    """真实世界会出现的名字（去掉我们自己加的机构后缀/说明）。
+
+    「Open Source Centre (OSC) research team」→「Open Source Centre」
+    「听风的蚕 ("Ting Feng De Can")」→ 听风的蚕 / Ting Feng De Can
+    """
+    out = []
+    raw = kol.get("search_terms_notion") or kol.get("search_terms") or ""
+    for t in re.split(r"[|,;]", str(raw)):
+        t = t.strip()
+        if t and t not in out:
+            out.append(t)
+    name = kol.get("name_en") or kol.get("name_zh") or ""
+    # 剥掉尾部的角色说明词：research team / staff / project 等
+    base = re.sub(r"\s*\((?:[^)]*)\)\s*", " ", name).strip()
+    base = re.sub(r"\s+(research team|team|staff|project|group|desk)$", "",
+                  base, flags=re.I).strip()
+    for cand in (base, name, kol.get("name_zh")):
+        if cand and cand.strip() and cand.strip() not in out:
+            out.append(cand.strip())
+    return [x for x in out if len(x) >= 3][:3]
+
+
 def build_queries(kol, mode, days):
     """构造检索式。
 
-    ★ Chao 2026-09-03：「目前言论太少了」。诊断发现瓶颈不在门槛而在上游——
-      旧版每人只发 2-3 个 query，候选池人均仅 13.4 条。
-      三人对照实测：加下面这组 query 后唯一 URL 从 18 → 40-72（2.2-4 倍）。
+    ★ Chao 2026-09-03：候选池人均仅 13.4 条 → query 从 3 组扩到 11 组，池翻 2.3 倍。
+    ★ Chao 2026-09-07：OSC / O'Rourke 零产出 → 再补两族（见下 6、7）。
 
-    分五族，各自捞不同形态的观点：
-      1 基础族   —— 原有的主题检索
-      2 访谈族   —— interview / testimony / briefing，观点密度最高
-      3 音频族   —— podcast transcript，长篇论述常在这里
-      4 句式族   —— "I think" / "I expect"，直接命中第一人称判断
-      5 站点族   —— 定向战略评论重镇，绕开搜索引擎的主题漂移
+    七族，各自捞不同形态的观点：
+      1 基础族   —— 主题检索
+      2 访谈族   —— interview / testimony / briefing
+      3 音频族   —— podcast transcript
+      4 句式族   —— "I think" / "I expect"
+      5 站点族   —— 战略评论重镇定向
+      6 自有站点族 —— site:<他自己的官网>（机构型 KOL 的主产出地）
+      7 机构产出族 —— report / publication / CRS / PDF
+         （O'Rourke 的产出是 CRS 报告和国会作证，不是 interview/podcast，
+           旧 query 族完全没覆盖他的产出形态）
     """
-    name = kol.get("name_en") or kol.get("name_zh")
+    names = _real_names(kol)
+    name = names[0] if names else (kol.get("name_en") or kol.get("name_zh"))
     theaters = kol.get("theater") or []
     hint = " OR ".join(str(THEATER_HINT.get(t, t)) for t in theaters[:2]) or "war analysis"
     yr = date.today().year
@@ -148,7 +222,20 @@ def build_queries(kol, mode, days):
         f'"{name}" commentary {yr-1} {hint}',
         f'site:warontherocks.com "{name}"',
         f'site:foreignaffairs.com OR site:foreignpolicy.com "{name}"',
+        # 6 自有站点族
     ]
+    for host in _own_sites(kol):
+        qs.append(f"site:{host} {yr} OR {yr-1}")
+        qs.append(f"site:{host} report OR analysis OR research")
+    # 7 机构产出族
+    qs += [
+        f'"{name}" report OR publication {yr}',
+        f'"{name}" filetype:pdf {hint}',
+    ]
+    # 别名也各打一发主检索（真实世界可能用另一个写法）
+    for alt in names[1:]:
+        qs.append(f'"{alt}" {hint} {yr}')
+
     if kol.get("x_handle") and kol["x_handle"].lower() != "unknown":
         qs.append(f'{kol["x_handle"]} {hint}')
     return qs

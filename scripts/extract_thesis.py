@@ -91,6 +91,23 @@ DIRECTORY_URL2 = re.compile(
     r"/(bookshelf|reading-list|cv|curriculum-vitae|events?|webinars?|"
     r"podcast-preview|speakers?|register|subscribe|newsletter)(/|$|\?|-)", re.I)
 
+# ★ 同名污染预筛（Chao 2026-09-07 扩 query 后的副作用）
+#   新增的 interview / testimony / report / 自有站点族会把跨行业同名者捞进来。
+#   实测捞到：法院案件（Delhi Court…bail）、兽医（D.V.M., DACVIM）、
+#   歌曲（Song Bar）、财经股评（yahoo finance）。
+#   闸3 的 LLM 能挡住，但每条要烧约 10 秒配额，这里用零成本规则先剔。
+#   ★ 只挡【明确跨行业】的标志词，绝不挡任何可能有军事/地缘含义的词——
+#     宁可放过让闸3 判，也不误杀（教训：主题词白名单曾误杀 96 条合法言论）。
+CROSS_DOMAIN_TITLE = re.compile(
+    # 法律案件：X v. Y 后面跟法院卷宗号才算（「Russia vs. Ukraine Discussion」
+    # 是合法军事讨论，实测被误杀过——所以必须要求卷宗特征）
+    r"\bv\.\s+[A-Z][a-z]+,\s*\d+\s*(?:S\.\s*Ct\.|F\.\d|U\.S\.)|"
+    r"\b(?:lawsuit|bail hearing|indictment|obituary|"
+    r"D\.V\.M\.|DACVIM|veterinary|"                   # 兽医
+    r"recipe|discography|tour dates|"                 # 生活/音乐
+    r"real estate|wedding|horoscope)\b|"
+    r"—\s*Song Bar\s*$", re.I)
+
 
 def is_directory_page(rec):
     """返回 (是否名录页, 理由)。纯规则判定，不烧 LLM。"""
@@ -109,6 +126,9 @@ def is_directory_page(rec):
     m = DIRECTORY_TITLE.search(title)
     if m:
         return True, f"标题名录特征「{m.group(0).strip()[:30]}」"
+    m = CROSS_DOMAIN_TITLE.search(title)
+    if m:
+        return True, f"跨行业同名者「{m.group(0).strip()[:30]}」"
     return False, ""
 
 

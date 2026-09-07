@@ -49,7 +49,7 @@ H = {
 }
 
 
-def api(method, path, payload=None, retries=3):
+def api(method, path, payload=None, retries=8):
     for a in range(retries):
         req = urllib.request.Request(
             f"https://api.notion.com/v1/{path}",
@@ -59,8 +59,16 @@ def api(method, path, payload=None, retries=3):
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
-            if e.code == 429 and a < retries - 1:
-                time.sleep(2 ** a)
+            # 429/5xx 都值得重试；429 优先服从 Notion 给的 retry_after
+            if e.code in (429, 500, 502, 503, 504) and a < retries - 1:
+                wait = min(2 ** a, 30)
+                if e.code == 429:
+                    ra = e.headers.get("Retry-After")
+                    try:
+                        wait = max(float(ra), wait) if ra else wait
+                    except (TypeError, ValueError):
+                        pass
+                time.sleep(wait)
                 continue
             raise RuntimeError(f"{method} {path} -> {e.code}: {e.read().decode()[:400]}")
         except Exception:

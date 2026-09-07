@@ -36,6 +36,7 @@ SCAN_FILES=(
   data/removed_attribution_*.json data/removed_homonym_*.json
   data/removed_directory_*.json data/removed_nobody_*.json
   data/removed_no_thesis_*.json
+  data/layers/*.json
 )
 # ⚠️ presto 必须带词边界 \b：2026-09-05 实测被播客主持人姓氏「Preston」误伤，
 #    中止了整次 push。放宽关键词是危险的，加边界不是——它只是不再匹配单词内部。
@@ -53,6 +54,8 @@ git add -A data/removed_attribution_*.json data/removed_homonym_*.json 2>/dev/nu
 git add -A data/stance/ 2>/dev/null
 # 五要素抽取产物：dashboard 的 L2 内容全靠它，不进库线上就空
 git add -A data/thesis/ 2>/dev/null
+# 四层内容产物：一句话/总结/原文翻译，dashboard 的 L1-L3 全靠它
+git add -A data/layers/ 2>/dev/null
 # 周度汇总产物：周报/月报的输入，删了就没法回溯当周口径
 git add -A data/weekly/ 2>/dev/null
 if ! git diff --cached --quiet; then
