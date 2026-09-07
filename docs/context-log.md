@@ -406,3 +406,113 @@ query 3 组 → 11 组，五族：基础/访谈(interview,testimony)/音频(podc
 ### 待办
 - [ ] 上述三份文件：公网端要么补进 `SCAN_FILES`+`git add`，要么写进 `.gitignore` 显式排除，
       **不要留在第三态**（Chao 拍板方向后再改）
+
+## 2026-09-07（Chao 两处质疑 → 四层钻取 + 评分体系重做 + 抓取补自有站点）
+
+### 决策
+- **Chao：言论列表缺中间层** —— 「我现在只能看到 title，但展开之后就直接是原文了，中间这层缺失了。
+  而且原文这层我不需要原文链接，我需要的是原文翻译」。定四层：
+  ①Title+一句话 ②总结 200-600 字 ③原文翻译（**原文有多长就翻译多长**，不封顶）④原文链接放最后。
+  且「**所有的列表都应该是这样**」——metrics / table / dashboard 全覆盖。
+- **Chao：原有论点/论证/论据/数据四个结构化字段抽掉**，并入 L2 总结行文。
+- **Chao 质疑评分** —— 「这个人有零条记录，但是打了 9.5 分（他零条记录怎么会有任何一条是准确的？）
+  ……如果没有记录就不应该上我们的 dashboard；或者如果你觉得有必要跟踪，再去打 1 分然后跟踪他。」
+  → 拍板：零言论者不上主榜；评分标准重做。
+- **Chao 质疑抓取** —— 「我听说过这个开源服务中心，它每天都有大量的汇报，怎么会一个文字都没抓到呢？
+  你要重新核实一下你后面的 crawling 逻辑是不是过于严苛」。核查后**质疑成立**。
+- **Chao：暂定者仍给临时星级**（不能整榜空白），已验证者打「✓已核验」徽章区分。
+- **agent 判断：不重做 KOL list** —— 58 人有真实言论、528 条五要素内容为真，
+  烂的是评分口径与 4 人的抓取覆盖，重做会丢已验证数据。Chao 未反对。
+- **Chao：一起做，所有做好之后给我 review** → 四层生成与抓取重跑并行推进。
+
+### 改动
+- **新建 `scripts/build_layers.py`（349 行）** —— 四层生成器。L1 一句话 35-55 字须点明
+  「谁+对什么+判断什么」；L2 硬性 300-600 字；L3 按段落切块分段翻译再拼接、**不封顶**；L4 出处。
+  数据落 `data/layers/layers_2026-09-07.json`（已 4.1MB / 315 条）。
+- **新建 `scripts/rescore_kols.py`（366 行）** —— C 维度只判**已到期**预测，
+  逐条 hit/miss/unclear 落 `data/prediction_verdicts.json`（27 条：hit 9 / miss 3 / unclear 15）；
+  `pred_judged < 3` → C 置空并按 A/B/D 三维归一，`rating_provisional=True`；
+  **rated 与 provisional 分开排百分位**（避免被验证者反而吃亏）。
+  写回结果：rated 1（Dara Massicot 2/3 → 6.82）、provisional 57、monitor 4。
+  备份 `data/kol_registry.json.bak-rescore-2026-09-07`。
+- **`scripts/fetch_statements.py`** —— 新增两族 query：①自有站点定向（从 `primary_url`/`sources`
+  抽域名生成 `site:`，排除 YouTube/X 等通用 UGC 平台）②机构产出族（report / publication /
+  testimony / filetype:pdf）。名字用真实世界写法，剥掉 registry 自编后缀。
+  全量重跑 → `data/statements/backfill_sitefix_2026-09-07.json` **2486 条**（原 1330，+87%），零产出者清零。
+- **`scripts/build_dashboard.py`** —— STMTS 17→20 字段；抽出全站唯一渲染器 `layerBody()`
+  （言论卡片 / KOL 弹层 / 战区列表弹层 / 时间线四处共用），四层默认全折叠、折叠钮标字数；
+  删旧「展开英文原文与出处」按钮与战区弹层里那份重复元信息表；
+  **零言论硬门禁写进 `kol_cards()` 入口**（不是写文档），4 人移入「监测中·待验证」区，
+  且按人显示真实原因（待抽取 / 无原始材料 / 渠道性障碍），不用笼统话糊弄。
+- **新建 `scripts/layers_watchdog.sh` + crontab `*/5`** —— flock 互斥 + 断点续跑的自愈守护。
+- **新建 `scripts/fetch_youtube_kol.py`（195 行）** —— 听风的蚕通道，`--run` 需 `--force`；
+  无字幕轨 + 缺 cookies 恒 403 + 第三方稿属转述不入库 → **搁置**。
+- **`scripts/publish.sh`** —— `SCAN_FILES` 加 `data/layers/*.json`，同时加 `git add -A data/layers/`
+  （★两个清单同批加，未重蹈「只加 add 忘了扫描」的老坑）。
+- commit `9b377a7`，已 push 公网端（线上 md5 `bf5c98a2…` 与本地 `index.html` 一致，实测 HTTP 200）。
+
+### 踩坑与教训
+**1. 评分维度退化成「产出勤勉度」（我的设计错误，Chao 一眼看穿）**
+AGENTS.md 白纸黑字写 C 维度（权重 30%）是「过去公开预测 vs 实际结果的对照证据」，还写了
+Wilson 置信下界与 `judged<3` 标暂定。**执行时全部落空**：62 人里仅 8 人的 `rating_reason`
+含预测应验证据，20 人只有「持续更新 / 定期发布 / 多次作证」，34 人两者皆无；
+C 分布 8 分 42 人 + 9 分 16 人 —— **一个人人高分的维度等于没在区分任何东西**；
+`rating_provisional` 全 False，暂定机制**从未生效过**。
+O'Rourke C=9 的理由原文是「四十余年持续更新 CRS 报告、定期简报作证」，无一字关于命中。
+★ 教训：**写进文档的评分口径不会自动被执行**。可证否的维度必须有落盘的判定产物
+（本次的 `prediction_verdicts.json`）作为存在性证据，否则口径只是自我安慰。
+
+**2. 抓取从不去 KOL 自家门口（Chao 的直觉对了）**
+OSC 每天有产出却抓 0 条，两个根因叠加：①query 用了 registry 里**我们自己编的名字**
+`"Open Source Centre (OSC) research team"` —— 世上没有任何页面会这样写，精确短语搜索必然零结果；
+②`fetch_statements.py` 明明能读到 `primary_url=opensourcecentre.org` 和 4 条 sources，
+**却从来只打搜索引擎，从不使用这些已知地址**。加一条 `site:` 立刻出 8 篇研究报告。
+O'Rourke 是另一种漏法：产出形态是 CRS 报告 PDF 与国会作证，而 query 族全是
+interview / podcast / commentary，形态完全没覆盖 → 补族后 29→43 条。
+★ 教训：**「抓到 0 条」先怀疑检索面，不要当成「此人没产出」**；registry 里存着的
+官网地址是最高置信的检索入口，不用等于白存。且 query 里的人名必须是**世界会怎么写他**，
+不是**我们内部怎么叫他**。
+
+**3. 长任务被外部整组收割 —— 三种后台方式全军覆没**
+`build_layers.py` 需跑约 11 小时，实测：
+`terminal(background=true)` → EXIT=143(SIGTERM)，44/521 被杀（Hermes 通知却写
+"completed normally exit code 0"，**判完成只看 EXIT 码**）；`tmux new -d` → 整个 tmux server
+连锅端，13/480 被杀；`systemd-run --user` → 容器无 user bus 直接失败。
+三者共同点：日志戛然而止、无报错、内存磁盘都充裕 = 外部整组收割。
+★ 对策不是继续找「更硬的后台」，而是**不与收割机制对抗**：crontab `*/5` 拉起
+`layers_watchdog.sh`，flock 非阻塞互斥（不靠 pgrep 猜），脚本本身断点续跑，
+被杀最多损失当前那一条。截至 09-08 05:20 该进程已连续存活 10 小时 46 分。
+
+**4. 严格口径在小样本下会产生反向激励（发现并已修）**
+初版 rescore 里唯一被判定的 Dara Massicot（2/3 命中）反而掉到 6.82 分 ——
+Wilson 下界对 n=3 惩罚极重（0.21）。**被验证的人比没被验证的人吃亏**，这是反向激励。
+改为 rated 与 provisional **分池排百分位**。
+★ 教训：统计上正确的估计量，套进「排名/激励」场景可能产生与设计意图相反的行为导向，
+引入前要先问「这会奖励谁、惩罚谁」。
+
+**5. 无浏览器环境下验证前端交互**
+本机浏览器守护起不来，改用 **Node 直接跑渲染器函数**（不是看 HTML 字符串）：
+实测一句话块 1、折叠钮 3、折叠体 3、**默认展开 0**，四层顺序正确，
+无译文的行诚实标注「原文正文不可得」不谎称有译文。
+中途 `hesc` 正则贪婪匹配抓到两份，用非贪婪修正。
+
+**6. 成本估错一倍**
+先按「521 篇 × 3 段 × 12s ≈ 5 小时」估，3 条冒烟实测 **84 秒/条** → 528 条约 12 小时。
+★ 教训：分段翻译的段数分布是长尾（最长一条 114 段），用均值估长尾任务必低估。
+
+### 现状（截至 2026-09-08 05:20）
+- 四层生成：**315/524 完成（60%），308 条有译文**，watchdog 拉起的进程仍在跑（已 10h46m），
+  按当前速度预计 09-08 白天跑完。
+- 线上已是四层结构，未生成的行显示「精简版/未生成」的**诚实标注，不是 bug**。
+
+### 待办
+- [ ] 四层生成剩 **209 条**，跑完后需重建 dashboard 并重新 publish（当前线上只有部分行有四层）
+- [ ] 跑完后给 Chao 一份完整 review（他要求「所有做好之后给我 review」）
+- [ ] `backfill_sitefix_2026-09-07.json` 的 2486 条候选**尚未过五要素抽取管道**，
+      新增内容还没进 dashboard
+- [ ] `AGENTS.md` 四块内容仍未贴（`docs/PENDING_AGENTS_MD_UPDATE.md`）——
+      审批弹窗需 Chao 在屏幕前时同轮触发
+- [ ] 承接 09-06：`data/README.md` / `data/roster_candidates.json` / `data/raw/` 仍是
+      「既没收录也没排除」的第三态（本次 publish.sh 只加了 data/layers/，未处理这三份）
+- [ ] 付费墙 65 条（NYT/FT）仍未攻
+- [ ] 发表日核实率仍是短板，决定日/周/月 filter 可用性
