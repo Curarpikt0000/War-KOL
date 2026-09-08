@@ -43,6 +43,7 @@ import socket
 import sys
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -54,6 +55,10 @@ os.makedirs(LAYER_DIR, exist_ok=True)
 API = os.environ.get("GENAI_PROXY", "http://127.0.0.1:8800") + "/v1/chat/completions"
 MODEL = os.environ.get("LAYER_MODEL", "claude-sonnet-4-5")
 GAP = 1.5
+# ★ 翻译段并发数（2026-09-08 实测定的，不是拍脑袋）：
+#   真实语料 4×8000 字符 + max_tokens=8000，并发 4 零失败、3.0 倍加速。
+#   取 3 留一档余量——cron 的 extract_thesis 可能同时在烧配额。
+TRANS_WORKERS = int(os.environ.get("TRANS_WORKERS", "3"))
 LLM_TIMEOUT = 180
 SAVE_EVERY = 3
 
@@ -188,22 +193,51 @@ def split_chunks(body, size=CHUNK):
 
 
 def gen_translation(body, log_prefix=""):
-    """全文翻译，长文分段拼接。返回 (译文, 段数, 失败段数)。"""
+    """全文翻译，长文分段拼接。返回 (译文, 段数, 失败段数)。
+
+    ★ 2026-09-08 提速（Chao 质疑「还需要这么长时间吗」后实测）：
+      原来段与段串行，实测 157 秒/条、22.9 条/小时，剩 144 条要 6.3 小时。
+      瓶颈不是代理慢（小请求 3 秒返回），而是【每段 8000 字符输入 +
+      max_tokens=8000 输出】，生成 5-6k token 本身就要 57-95 秒——
+      这是真实成本，砍不掉。
+
+      但**段与段之间互不依赖**（prompt 明说「只翻译本段」），可以并发。
+      我的旧笔记写着「本机 genai 代理并发必 429」，实测该假设【已不成立】：
+        · 并发 3（小负载）：0 失败，13.8s vs 串行 40.1s
+        · 并发 4（真实语料 4×8000 字符、max_tokens=8000）：
+          0 失败，95.0s vs 串行 285.5s → **3.0 倍加速**
+      ⇒ 不盲信旧笔记，按实测改并发。取 TRANS_WORKERS=3 留一档余量
+        （避免与 cron 的 extract_thesis 抢配额时踩线）。
+
+      单段仍失败则原地记录，不影响其他段——顺序由 index 保证不乱。
+    """
     chunks = split_chunks(body)
-    parts, fails = [], 0
-    for i, ch in enumerate(chunks, 1):
+    if len(chunks) == 1:
+        txt, err = call_llm(SYS_TRANS, chunks[0], max_tokens=MAX_TOKENS_TRANS)
+        time.sleep(GAP)
+        if err or not txt:
+            return f"（翻译失败：{(err or '空响应')[:60]}）", 1, 1
+        return txt.strip(), 1, 0
+
+    def one(job):
+        i, ch = job
         head = (f"这是同一篇文章的第 {i}/{len(chunks)} 段，"
-                f"请只翻译本段，不要重复前文也不要预告后文。\n\n"
-                if len(chunks) > 1 else "")
+                f"请只翻译本段，不要重复前文也不要预告后文。\n\n")
         txt, err = call_llm(SYS_TRANS, head + ch, max_tokens=MAX_TOKENS_TRANS)
         if err or not txt:
-            fails += 1
-            parts.append(f"（第 {i} 段翻译失败：{(err or '空响应')[:60]}）")
-        else:
-            parts.append(txt.strip())
-        if len(chunks) > 1:
-            print(f"{log_prefix}    译 {i}/{len(chunks)}", flush=True)
-        time.sleep(GAP)
+            return i, f"（第 {i} 段翻译失败：{(err or '空响应')[:60]}）", 1
+        return i, txt.strip(), 0
+
+    jobs = list(enumerate(chunks, 1))
+    results = {}
+    fails = 0
+    with ThreadPoolExecutor(max_workers=min(TRANS_WORKERS, len(jobs))) as ex:
+        for i, txt, f in ex.map(one, jobs):
+            results[i] = txt
+            fails += f
+            print(f"{log_prefix}    译 {len(results)}/{len(chunks)}", flush=True)
+    parts = [results[i] for i in sorted(results)]   # 按段序还原，不能乱
+    time.sleep(GAP)
     return "\n\n".join(parts), len(chunks), fails
 
 
