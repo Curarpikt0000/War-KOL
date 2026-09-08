@@ -31,8 +31,16 @@ flock -n 9 || exit 0                      # 上一轮还在跑
 # ── 条件 1：四层是否追平 ──
 GAP=$(python3 - <<'EOF' 2>/dev/null || echo 9999
 import json, glob, os
-p = 'data/layers/layers_2026-09-07.json'
-lay = json.load(open(p)) if os.path.exists(p) else {}
+# ★ 2026-09-08 踩坑：build_layers.py 按【当天日期】写产物
+#   （layers_2026-09-07.json / layers_2026-09-08.json ...），
+#   读取时才合并全部。只看单个文件会把跨天续跑的产量算丢，
+#   导致缺口永远不为 0 → 收尾永远不触发。必须合并所有 layers_*.json。
+lay = {}
+for p in glob.glob('data/layers/layers_*.json'):
+    try:
+        lay.update(json.load(open(p)))
+    except Exception:
+        pass
 need = set()
 for f in glob.glob('data/thesis/thesis_*.json'):
     try:
@@ -58,9 +66,11 @@ pgrep -f 'build_layers'   >/dev/null && exit 0
 
 # 双保险：产物 5 分钟内有写入 = 还在跑（防 pgrep 模式再次失效）
 FRESH=$(python3 - <<'EOF' 2>/dev/null || echo 1
-import os, time
-p = 'data/layers/layers_2026-09-07.json'
-print(1 if os.path.exists(p) and time.time() - os.path.getmtime(p) < 300 else 0)
+import os, time, glob
+# 看【最新的】那个 layers_*.json（跨天会换文件，见上）
+fs = glob.glob('data/layers/layers_*.json')
+newest = max((os.path.getmtime(p) for p in fs), default=0)
+print(1 if time.time() - newest < 300 else 0)
 EOF
 )
 [ "$FRESH" = "0" ] || exit 0

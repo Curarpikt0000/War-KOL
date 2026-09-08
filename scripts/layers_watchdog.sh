@@ -25,15 +25,23 @@ flock -n 9 || exit 0
 # 全部生成完就自我停用（避免空转刷日志）
 REMAIN=$(python3 - <<'EOF' 2>/dev/null || echo 1
 import json, os, glob
+# ★ 2026-09-08：产物按当天日期分文件，必须合并全部再算剩余，
+#   否则跨天后会把昨天做完的当成没做（虽然 build_layers 自己会跳过，
+#   但这里的判据会永远认为还有剩，守护无法自我停用）。
 lay = {}
-p = 'data/layers/layers_2026-09-07.json'
-if os.path.exists(p):
-    lay = json.load(open(p))
+for p in glob.glob('data/layers/layers_*.json'):
+    try:
+        lay.update(json.load(open(p)))
+    except Exception:
+        pass
 need = set()
 for f in glob.glob('data/thesis/thesis_*.json'):
-    for r in json.load(open(f)):
-        if isinstance(r, dict) and r.get('source_url'):
-            need.add(r['source_url'])
+    try:
+        for r in json.load(open(f)):
+            if isinstance(r, dict) and r.get('source_url'):
+                need.add(r['source_url'])
+    except Exception:
+        pass
 print(len(need - set(lay)))
 EOF
 )
