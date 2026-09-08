@@ -47,8 +47,23 @@ EOF
 [ "$GAP" = "0" ] || exit 0
 
 # ── 条件 2：抽取/生成进程都已退出 ──
-pgrep -f '^python3 -u scripts/extract_thesis.py' >/dev/null && exit 0
-pgrep -f '^python3 -u scripts/build_layers.py'   >/dev/null && exit 0
+# ★ 2026-09-08 实测踩坑：pgrep 的 '^python3 -u scripts/xxx.py' 锚定模式
+#   在本机匹配不到真实进程（容器 PID 命名空间下 ps -eo 也看不到，
+#   但 pgrep -cf 'build_layers' 能返回 1，且日志确实在推进）。
+#   用失效模式判活 = 误判成「已退出」→ 会在四层没跑完时提前发布残缺版。
+#   ⇒ 改用宽松子串匹配，并【额外用日志时间戳兜底】：
+#     只要产物文件 5 分钟内被写过，就认为还在跑，绝不动手。
+pgrep -f 'extract_thesis' >/dev/null && exit 0
+pgrep -f 'build_layers'   >/dev/null && exit 0
+
+# 双保险：产物 5 分钟内有写入 = 还在跑（防 pgrep 模式再次失效）
+FRESH=$(python3 - <<'EOF' 2>/dev/null || echo 1
+import os, time
+p = 'data/layers/layers_2026-09-07.json'
+print(1 if os.path.exists(p) and time.time() - os.path.getmtime(p) < 300 else 0)
+EOF
+)
+[ "$FRESH" = "0" ] || exit 0
 
 say() { echo "[$(date '+%F %T')] $*" >> "$LOG"; }
 say "════ 四层已追平（缺口 0），开始自动收尾 ════"
