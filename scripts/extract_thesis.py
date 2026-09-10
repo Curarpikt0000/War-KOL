@@ -31,6 +31,7 @@
   python3 scripts/extract_thesis.py --all --limit 50
 """
 import argparse
+import glob
 import json
 import os
 import re
@@ -341,14 +342,49 @@ def main():
     print(f"候选 {len(cands)} 条（theater={tag}）")
 
     # 断点续跑：已抽过的不重复烧配额
+    # ★ 2026-09-10 修复：原先 done_keys 只读【今天】的 out_path，
+    #   而 out_path 文件名带当日日期 → 每天都是空集 → 昨天抽好的 735 条
+    #   今天全部重抽一遍（白烧 735 次 LLM + 多耗约 2 小时）。
+    #   下游 build_dashboard.load_thesis() 本来就合并读取全部 thesis_*.json，
+    #   所以历史条目根本不需要重抽。改为扫描目录内所有 thesis_*.json 建 done_keys。
+    #   （_body_cache_*.json 不是产物，必须排除，否则解析出错。）
     done_keys, results = set(), []
-    if os.path.exists(out_path):
+    for fn in sorted(os.listdir(THESIS_DIR)):
+        if not (fn.startswith("thesis_") and fn.endswith(".json")):
+            continue
+        fp = os.path.join(THESIS_DIR, fn)
         try:
-            results = json.load(open(out_path, encoding="utf-8"))
-            done_keys = {(r["kol"], r["source_url"]) for r in results}
-            print(f"  已有产物 {len(results)} 条，跳过重跑")
+            rows = json.load(open(fp, encoding="utf-8"))
         except Exception:
-            results = []
+            continue
+        if fp == out_path:
+            results = rows                      # 今天的产物：续写
+            print(f"  已有产物 {len(results)} 条，跳过重跑")
+        for r in rows:
+            if isinstance(r, dict) and r.get("kol") and r.get("source_url"):
+                done_keys.add((r["kol"], r["source_url"]))
+    print(f"  历史已抽 {len(done_keys)} 条（跨全部 thesis_*.json，不重复烧配额）")
+
+    # ★ 2026-09-10 同一个 bug 的另一半：闸3 判过「无本人判断/不合格」的条目
+    #   只落在 removed_no_thesis_*.json，不在 thesis_*.json 里，
+    #   于是每天被重新送进 LLM 再判一次（实测积压 1359 条）。
+    #   这些是 LLM 已经给过结论的确定性剔除，重判既烧配额又拖慢整轮。
+    #   ⇒ 一并计入 done_keys。
+    #   注意：只跳过【闸3 LLM 判过】的，不跳过闸2「正文抓不到」——
+    #   后者多是 403/超时等瞬时故障，明天可能就能抓到，必须留着重试。
+    n_rej = 0
+    for fp in sorted(glob.glob(os.path.join(DATA, "removed_no_thesis_*.json"))):
+        try:
+            rows = json.load(open(fp, encoding="utf-8"))
+        except Exception:
+            continue
+        for r in rows:
+            if isinstance(r, dict) and r.get("kol") and r.get("source_url"):
+                k = (r["kol"], r["source_url"])
+                if k not in done_keys:
+                    done_keys.add(k)
+                    n_rej += 1
+    print(f"  历史已判定剔除 {n_rej} 条（闸3 判过的不重判；闸2 无正文仍会重试）")
 
     # ── 闸 1 ──
     rm_dir, stage2 = [], []
