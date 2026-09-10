@@ -21,12 +21,19 @@ cd "$(dirname "$0")/.." || exit 1
 
 LOCK=scratch/finalize.lock
 LOG=scratch/finalize.log
-SENTINEL=scratch/.finalized_$(date +%F)
+# ★ 2026-09-10 Chao 拍板：去重从「按日期」改为「按内容指纹」。
+#   旧的 scratch/.finalized_<date> 会让「凌晨发了昨天数据」把当天成果永久挡掉
+#   （详见 scripts/publish_fingerprint.sh 抬头）。现在只问一句：
+#   线上那份，是不是【当前数据】做出来的？不是就发，是就跳过。
+FPFILE=scratch/.published_fingerprint
 
 exec 9>"$LOCK" || exit 1
 flock -n 9 || exit 0                      # 上一轮还在跑
 
-[ -f "$SENTINEL" ] && exit 0              # 今天已收尾
+FP=$(bash scripts/publish_fingerprint.sh 2>/dev/null || echo ERR)
+[ "$FP" = "ERR" ] && exit 0               # 指纹算不出来就别乱发
+[ "$FP" = "EMPTY" ] && exit 0             # 没有任何数据文件，不发
+[ "$FP" = "$(cat "$FPFILE" 2>/dev/null)" ] && exit 0   # 线上已是当前数据
 
 # ── 条件 1：四层是否追平 ──
 GAP=$(python3 - <<'EOF' 2>/dev/null || echo 9999
@@ -112,5 +119,8 @@ if ! bash scripts/publish.sh >> "$LOG" 2>&1; then
   say "✗ 发布失败（多半是红线扫描拦截，看上面日志）"; exit 1
 fi
 
-touch "$SENTINEL"
-say "✓ 收尾完成。线上已更新，等 Chao 验收。"
+# ★ 记录【发布前那一刻】算出的 FP，不重算：
+#   若发布过程中数据又变了（cron 同时在写），重算会把新数据也标成"已发"，
+#   那批新内容就永远发不出去——正是这次要修的病，别换个形式再犯一遍。
+echo "$FP" > "$FPFILE"
+say "✓ 收尾完成（指纹 $FP）。线上已更新，等 Chao 验收。"
