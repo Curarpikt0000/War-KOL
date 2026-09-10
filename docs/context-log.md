@@ -621,3 +621,111 @@ MEMORY 里写着「本机 genai 代理并发必 429」，所以四层翻译一�
 - [x] ~~四层生成剩 209 条~~ → 09-08 20:14 全量追平（716 条）
 - [x] ~~backfill 2486 条未过五要素抽取~~ → 09-08 cron 已抽出 698 条合格
 - [x] ~~跑完后重建 dashboard 并 publish~~ → 自动收尾已完成两轮，线上 md5 已核对一致
+
+## 2026-09-10～09-11（发布哨兵从「按日期」改「按内容指纹」+ 增量抽取白烧修复）
+
+### 决策
+- **Chao：「改」** —— 我把发布去重的隐患摆出来（凌晨 watchdog 发了昨天的数据、放下当日
+  哨兵，导致中午真数据发不出去），给「改 / 不改」二选一，Chao 回「改」。
+  这是发布逻辑（决定线上出现什么内容），属于必须先问、不自治执行的那一类。
+- Chao 上一条是「没太理解，需要我做什么」—— **agent 判断**：技术表述过密，
+  改用「门口贴着『今日已送报』条子，可那是凌晨送的昨天旧报纸」的比方重讲，
+  并把需要他做的事压缩成一个字的选择题。
+
+### 改动
+- **新增 `scripts/publish_fingerprint.sh`（54 行）** —— 发布去重的内容指纹，
+  对 `data/thesis/thesis_*.json` + `data/layers/layers_*.json` 取 mtime+size 汇总哈希。
+  ★ 故意**不含** `data/kol_registry.json`（见踩坑 1）。
+- **`scripts/finalize_watchdog.sh`** —— `scratch/.finalized_<date>` 判据整段替换为指纹比对；
+  发布成功后落盘的是**发布前那一刻算出的** FP，不重算。
+- **`scripts/daily_chain.sh`（新增 93 行并纳入 git）** —— fetch→enrich→thesis→notion→publish
+  全链自动接续；`flock` 单实例互斥；与 finalize_watchdog 共用 `finalize.lock` 与同一套指纹。
+  两个调度入口共用一个指纹脚本，避免逻辑各写一份后漂移。
+- commit `f4b9634`（09-10 23:01）。
+- **`scripts/extract_thesis.py`（09-10，commit `b4545c4`，+40/-4）** —— 两处白烧修复：
+  ① `done_keys` 原先只读**当天**的 `thesis_all_<date>.json`（文件名带当日日期 → 每天开局都是空集）
+     ⇒ 昨天抽好的 735 条今天全量重抽。改为扫 `THESIS_DIR` 下全部 `thesis_*.json` 建 done_keys
+     （排除 `_body_cache_*.json`）。
+  ② 闸3 LLM 判过「无本人判断」的条目只落在 `removed_no_thesis_*.json`，不在 thesis 产物里
+     ⇒ 每天重新送进 LLM 再判（实测积压 1359 条）。一并计入 done_keys。
+     ★ 只跳过**闸3 判过**的；闸2「正文抓不到」不跳过（403/超时是瞬时故障，明天可能就能抓到）。
+- **`scripts/enrich_extra.sh` / `scripts/chainctl.sh`（新建，尚未纳入 git）** ——
+  前者是可重入的追加 enrich 轮次（单进程串行，并发写同一 JSON 会截断）；
+  后者只列/杀命令行**恰好等于** `bash scripts/daily_chain.sh` 的进程
+  （`pgrep -f 'daily_chain.sh'` 会命中 agent 自己的 wrapper shell → 自杀）。
+- crontab 现役三条 watchdog：`layers_watchdog` */5、`finalize_watchdog` */10、`daily_chain` */5。
+
+### 当日实况（实测数字）
+- 09-10 翻车链条（日志铁证）：`5f400e8` 02:31 发布（内容是 09-09 的）→ 12:01 THESIS 才收工 →
+  13:02 `chain_2026-09-10.status` 记 `PUBLISH skipped (watchdog 已收尾)` → 线上停在昨天。
+  手动清哨兵重发 = `856574b`（23:00）。
+- 09-11 首个「指纹版」自动轮次全绿：00:00 CHAIN_START → 01:14 FETCH exit=0 →
+  01:20 ENRICH → 01:26 THESIS → 02:26 NOTION → 发布 `b10ad04`（01:50）。
+  02:26 那次记 `PUBLISH skipped (线上已是当前数据 a03c101a32f75689)` —— **幂等生效，没有空刷 git**。
+- 本次归档时复验：`index.html` 本地 md5 `44b4d7d1…` = 线上 `curl` md5，HTTP 200 / 15.1 MB。
+- 语料规模：thesis 全量 3167 条（09-11 新增 6）、layers 1388 条；
+  带 `published_on` 的 1304 条 = **41%**（09-08 是 33%，两轮 enrich 加轮次见效）。
+  但近 7 天仅 3 条、近 31 天 101 条 —— **日/周档 filter 仍不可用**。
+
+### 踩坑与教训
+**1. 幂等键的输入集必须与被保护动作的副作用集不相交（差点做出每 10 分钟自我触发的死循环）**
+第一版指纹把 `kol_registry.json` 也算进去。而发布收尾第一步 `rescore_kols.py --apply`
+就会改写它 ⇒ 发布 → registry 变 → 指纹变 → 下一轮又判「数据变新」→ 再发布。
+**生产上真撞到了（多发了一次）**，指纹从 `a33de1e8` 漂到 `1a4a2b43` 才看出来。
+修法：registry 是发布的**产物**不是**输入**，看板内容由 thesis + layers 决定，剔出指纹。
+并加回归场景 E：只有 registry 被改、连探 3 次 → 不得再发。
+
+**2. 发布后落盘的必须是「发布前那一刻」的指纹，不能事后重算**
+重算会把「发布过程中 cron 新写入的数据」一起标成已发 ⇒ 那批数据**永久漏发** ——
+比重复发布严重得多，而且同样无声。这等于换个形式再犯一遍今天要修的病。
+
+**3.「修复无效」先怀疑测试构造 —— 我白判了一次**
+沙盒里关键场景 C（中午真数据到了）仍不发布，我一度写下「修复无效」。查下来指纹逻辑
+**完全正确**（识别出 `ec14…` ≠ `e57a…` 并放行），是卡在下游另一道**本来就正确**的护栏：
+我的测试给了 3 条 thesis 却只有 1 条 layers，四层没追平，本来就不该发。
+★ 教训：**测试必须能通过被测逻辑之前的所有门，否则测的根本不是你以为的东西**。
+差点因此去改一段没毛病的代码。
+
+**4. 幂等类改动一律先在沙盒跑完整场景矩阵，再上生产**
+A 首次发布→发 1 次；B 数据没变探 3 次→仍 1 次；**C 数据变新→发第 2 次（原翻车场景，必须有）**；
+D 发布后没变探 2 次→仍 2 次；E registry 被改探 3 次→仍 2 次。
+生产复验：连跑 3 次 finalize，`git HEAD` 不动。坑 1 与坑 3 都是这套矩阵逼出来的。
+
+**5. 「按日期命名的产物」第二种害法：不是读错文件，是把跳过集清空**
+09-08 踩的是下游硬编码昨天的文件名；09-10 这次是**脚本读自己当天的产物当跳过集** ——
+文件名带当日日期，所以每天开局必为空，昨天的成果全部重抽。表象上一切正常
+（日志照常打印进度、结果也对），只是白烧 735 次 LLM + 多耗约 2 小时。
+★ 判据：凡「跳过已完成」的集合，其来源文件若名字里有日期，几乎一定是错的，必须 glob 全量。
+★ 配套：**剔除清单也是幂等状态的一部分**，但要按结论性质分层 ——
+LLM 已给结论的确定性剔除计入跳过集；抓取失败（403/超时）这类瞬时故障必须留着重试。
+混为一谈：全跳 = 永久丢数据，全不跳 = 每天白烧。
+
+**6. 显示层脱敏会命中 shell 变量，让人误以为自己写错了代码**
+patch 返回的 diff 里出现 `ANONYMIZED_PERSON_0FP`，我第一反应是 `echo "$FP"` 被吃掉了。
+布尔探测磁盘：`finalize_watchdog.sh:125` 含 `echo "$FP" > "$FPFILE"`、不含 `ANONYMIZED` ——
+**磁盘干净，是终端显示层的事**。已知铁律「判据只认字节不看回显」以前只用在人名上，
+这次证明**代码标识符同样会被误命中**；若当时据 diff 去「修」，反而会把正确代码改坏。
+
+**7. 09-11 当轮抽取合格率异常低（新隐患，未解）**
+`thesis_2026-09-11.log`：闸1 剔 1155、闸2 无正文剔 1117 → 只剩 32 条进 LLM，
+其中 **4 条 `TypeError: 'NoneType' object is not subscriptable`**，最终合格 6 条（0%）。
+分母 4486 里绝大多数是历史已判定条目（跳过集生效，属正常），
+但「闸2 无正文 1117」与「LLM 4 连败」两项需要单独查。
+
+### 待办
+- [ ] **踩坑 7：09-11 LLM 4 次 `NoneType` 失败 + 闸2 无正文 1117 条**，未定位
+- [ ] `publish.sh` 的 `SCAN_FILES` 仍**未包含** `build_layers.py` / `rescore_kols.py` /
+      `layers_watchdog.sh` / `finalize_watchdog.sh` / `fetch_youtube_kol.py`，
+      本轮又新增 `daily_chain.sh` / `publish_fingerprint.sh` 两个**已进 git 但不在扫描清单**的文件
+      （本次归档已手动扫过全部 9 个脚本，红线词 0 命中；但下次改动仍会绕过安全门）
+- [ ] `scripts/enrich_extra.sh` / `scripts/chainctl.sh` 尚未 `git add`，属第三态
+- [ ] `finalize_watchdog` 与 `layers_watchdog` 的 FRESH 窗口竞态（09-08 踩坑 7）未根治
+- [ ] **给 Chao 完整 review**（09-07 承诺的「改造前 vs 改造后」对照）仍未交
+- [ ] `AGENTS.md` 四块内容仍未贴（`docs/PENDING_AGENTS_MD_UPDATE.md`）
+- [ ] 承接 09-06：`data/README.md` / `data/roster_candidates.json` / `data/raw/` 仍是第三态；
+      另新增 `logs/` 与 5 个 `kol_registry.json.bak-rescore-*` 未纳管
+- [ ] 付费墙 65 条（NYT/FT）仍未攻
+- [ ] **发表日核实率**：3167 条中 1304 条带日期（41%，↑33%），但近 7 天仅 3 条 ——
+      日/周档 filter 依然实质不可用
+- [x] ~~发布哨兵按日期导致当天成果发不出去~~ → 09-10 改为内容指纹，09-11 首轮自动发布已验证
+- [x] ~~每日重抽历史 thesis 白烧配额~~ → 09-10 done_keys 改 glob 全量 + 计入确定性剔除
