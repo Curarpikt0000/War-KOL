@@ -240,7 +240,26 @@ def call_llm(kol, title, theater, body, retries=3):
             resp = urllib.request.urlopen(req, timeout=LLM_TIMEOUT)
             raw = resp.read().decode("utf-8")
             d = json.loads(raw)
-            return d["choices"][0]["message"]["content"], None
+            # ★ 2026-09-11：代理偶发返回字面量 null / 缺 choices，旧代码直接
+            #   d["choices"] 抛 TypeError，错误信息完全看不出上游返回了什么。
+            #   这里显式判空并把 raw 前缀带进错误串，便于定位。
+            if not isinstance(d, dict) or not d.get("choices"):
+                try:
+                    with open(os.path.join(THESIS_DIR, "_llm_badresp.log"),
+                              "a", encoding="utf-8") as _f:
+                        _f.write(f"=== {kol} | {title[:80]}\n{raw}\n\n")
+                except Exception:
+                    pass
+                last = f"BadResponse: raw={raw[:200]!r}"
+                time.sleep(2 + attempt * 3)
+                continue
+            msg = (d["choices"][0] or {}).get("message") or {}
+            content = msg.get("content")
+            if content is None:
+                last = f"NoContent: raw={raw[:200]!r}"
+                time.sleep(2 + attempt * 3)
+                continue
+            return content, None
         except Exception as e:
             last = f"{type(e).__name__}: {e}"
             time.sleep(2 + attempt * 3)
