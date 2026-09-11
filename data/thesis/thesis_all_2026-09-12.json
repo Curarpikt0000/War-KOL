@@ -1,0 +1,79 @@
+[
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.newsx.com/world/pakistan-repairs-airbases-after-india-operation-sindoor-strikes-nur-khan-airbase-rawalpindi-jacobabad-airbase-northern-sindh-damien-symon-satellite-imagery-kirana-hills-111885/",
+  "source_title": "Pakistan Still Struggling To Repair Nur Khan, Jacobabad ... - NewsX",
+  "published_on": "2025-11-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度2025年5月对巴基斯坦军事设施打击后的修复进展",
+  "claim": "巴基斯坦在印度打击六个月后仍在努力修复关键基础设施，Nur Khan 空军基地已新建设施，Jacobabad 空军基地受损机库仍在分阶段修复中",
+  "reasoning": "Damien Symon通过持续追踪卫星图像发现，巴基斯坦在被打击的多个地点展现出不同修复进度。Nur Khan基地已在原打击位置建起新设施，显示该战略要地（靠近核武库管理部门）优先恢复；而Jacobabad基地的受损机库仍处于分阶段拆除屋顶、检查内部结构损伤的阶段，尚未进入全面重建，表明损伤评估复杂且修复工作缓慢",
+  "evidence": [
+   "卫星情报显示，距离印度2025年5月打击行动已过去六个月以上，巴基斯坦仍在修复关键基础设施",
+   "巴基斯坦在Rawalpindi的Nur Khan空军基地原打击位置已开始建造新设施",
+   "Nur Khan基地因靠近负责监管巴基斯坦核武库的战略计划司而具有特殊战略价值",
+   "Jacobabad空军基地受损机库的屋顶已分阶段拆除，可能是在进行内部损伤检查后才进行全面修复",
+   "印度在「辛杜尔行动」期间打击了11处巴基斯坦军事设施，包括多个空军基地和核设施"
+  ],
+  "data": [
+   {
+    "metric": "印度打击的巴基斯坦军事设施数量",
+    "value": "11处",
+    "context": "2025年5月辛杜尔行动期间"
+   },
+   {
+    "metric": "冲突持续时间",
+    "value": "4天",
+    "context": "2025年5月印巴冲突"
+   },
+   {
+    "metric": "修复时间跨度",
+    "value": "6个月以上",
+    "context": "自2025年5月打击至11月报道时"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-12"
+ },
+ {
+  "kol": "Decker Eveleth",
+  "theater": "中东",
+  "source_url": "https://hiwars.com/en/intel/us-analyst-denies-missile-damage-at-russias-oreshn",
+  "source_title": "U.S. analyst denies missile damage at Russia’s Oreshnik site",
+  "published_on": "2026-02-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「decker eveleth」",
+  "topic": "乌克兰对俄罗斯卡普斯京亚尔导弹试验场打击评估",
+  "claim": "乌克兰远程导弹未击中俄罗斯卡普斯京亚尔试验场，该设施没有遭受损坏",
+  "reasoning": "Decker Eveleth 通过分析高分辨率卫星图像得出结论。他指出早期报道引用的图像被误读，所谓的「可见损坏」实际上是试验场电厂正常运行产生的烟雾。他进一步使用攻击时间窗口3天后拍摄的0.5米分辨率图像进行验证，确认设施建筑物没有结构性损坏，从而否定了乌克兰成功打击该设施机库或导弹准备基础设施的说法",
+  "evidence": [
+   "早期报道声称乌克兰使用国产 FP-5「火烈鸟」巡航导弹打击了阿斯特拉罕州卡普斯京亚尔的基础设施",
+   "卡普斯京亚尔试验场与俄罗斯 Oreshnik 导弹系统的测试和发射活动相关",
+   "流传的图像中显示的是试验场电厂正常运行的烟雾",
+   "攻击时间窗口3天后拍摄的0.5米分辨率卫星图像显示设施没有损坏",
+   "卡普斯京亚尔是俄罗斯最重要的导弹测试和评估场地之一"
+  ],
+  "data": [
+   {
+    "metric": "卫星图像分辨率",
+    "value": "0.5米",
+    "context": "攻击时间窗口3天后拍摄"
+   },
+   {
+    "metric": "早期分析使用的图像分辨率",
+    "value": "3米",
+    "context": "被 Eveleth 批评的误读图像"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-12"
+ }
+]
