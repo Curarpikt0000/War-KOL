@@ -625,3 +625,60 @@
 }
 
 
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "72897d6a-dfb8-4596-adb6-26d2d040a3a5",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "bf49a4b4-477d-40a4-9b6a-696bc5febeb1",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "6e2e4292-ea2a-4a67-a093-b611069731e1",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
