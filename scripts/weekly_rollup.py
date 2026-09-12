@@ -25,16 +25,25 @@ DIRECTIONS = ["升级", "僵持", "降级", "未表态"]
 
 
 def load_thesis() -> list[dict]:
-    """载入最新一份 thesis_all_*.json（五要素合格言论全集）。"""
+    """载入全部 thesis_all_*.json 的并集（五要素合格言论全集）。
+
+    ★ 2026-09-12 修：原实现只读最新一份。但 thesis 产物从 2026-09-10 起
+    由「累计全量」变成「当日增量」（81→6→2 行），只读最新会把历史合格言论
+    全部丢掉，周报/月报直接空转。改为按 (kol, source_url) 去重取并集，
+    后出现的文件覆盖先前同键记录（日期回填等修正以最新为准）。
+    """
     files = sorted(glob.glob(os.path.join(ROOT, "data/thesis/thesis_all_*.json")))
-    if not files:
-        return []
-    latest = files[-1]
-    with open(latest, encoding="utf-8") as fh:
-        rows = json.load(fh)
-    for r in rows:
-        r["_src_file"] = os.path.basename(latest)
-    return rows
+    merged: dict[tuple, dict] = {}
+    for path in files:
+        try:
+            with open(path, encoding="utf-8") as fh:
+                rows = json.load(fh)
+        except Exception:
+            continue
+        for r in rows:
+            r["_src_file"] = os.path.basename(path)
+            merged[(r.get("kol"), r.get("source_url"))] = r
+    return list(merged.values())
 
 
 def load_statements() -> list[dict]:
