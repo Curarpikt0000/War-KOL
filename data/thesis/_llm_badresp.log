@@ -1594,3 +1594,231 @@
 }
 
 
+=== Todd Harrison | Guidance for Assessing Biosecurity and Biosafety Risks: For the... | AEI
+{
+  "id": "2df336e6-a5b9-40c0-8dfd-f3add52cba74",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3591,
+    "completion_tokens": 1,
+    "total_tokens": 3592,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Todd Harrison | Guidance for Assessing Biosecurity and Biosafety Risks: For the... | AEI
+{
+  "id": "ba02a68b-81b9-4d52-a88e-dc316c8ec825",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3591,
+    "completion_tokens": 1,
+    "total_tokens": 3592,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Todd Harrison | Guidance for Assessing Biosecurity and Biosafety Risks: For the... | AEI
+{
+  "id": "0f0bf407-e23e-4d83-bcff-48e4b228b588",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3591,
+    "completion_tokens": 1,
+    "total_tokens": 3592,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Jeffrey Lewis | Anthrax: Background Report | James Martin Center for Nonproliferation...
+{
+  "id": "095f47e6-d37f-4c1a-a38f-4a8f909c2c4b",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 2833,
+    "completion_tokens": 1,
+    "total_tokens": 2834,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Jeffrey Lewis | Anthrax: Background Report | James Martin Center for Nonproliferation...
+{
+  "id": "252dd28f-e807-48f9-a970-c33f1cf71a84",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 2833,
+    "completion_tokens": 1,
+    "total_tokens": 2834,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Jeffrey Lewis | Anthrax: Background Report | James Martin Center for Nonproliferation...
+{
+  "id": "1ab43e09-091f-4f96-ad89-3071b6eb4696",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 2833,
+    "completion_tokens": 1,
+    "total_tokens": 2834,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Peter Makowsky | Kim Jong Un Tours Pesticide Facility Capable of Producing Biological...
+{
+  "id": "39295d65-d0c7-4cc6-a602-98e0bf361c49",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3760,
+    "completion_tokens": 1,
+    "total_tokens": 3761,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Peter Makowsky | Kim Jong Un Tours Pesticide Facility Capable of Producing Biological...
+{
+  "id": "15020016-9bdf-4b55-964e-73f0b03de93b",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3760,
+    "completion_tokens": 1,
+    "total_tokens": 3761,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Peter Makowsky | Kim Jong Un Tours Pesticide Facility Capable of Producing Biological...
+{
+  "id": "37eb4f16-366c-4d57-b4ec-1e54a8b983d8",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 3760,
+    "completion_tokens": 1,
+    "total_tokens": 3761,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "b24dc432-7303-4bd9-8589-eb03812f0df8",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "930181dc-3c9b-4705-8768-f65955ed21ab",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+
+=== Mark F. Cancian | Did the US Invent Lyme Disease in the 1960s? The... - Defense One
+{
+  "id": "6dcdba87-f465-412f-b7a8-18ece45fcd1c",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 1623,
+    "completion_tokens": 1,
+    "total_tokens": 1624,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+

@@ -443,8 +443,8 @@
   "theater": "军工与战略",
   "source_url": "https://warontherocks.com/readiness-redefined-but-not-measured/",
   "source_title": "Readiness Redefined, But Not Measured",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2024-01-15",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
   "topic": "美国空军飞行员个体战备能力评估体系",
@@ -488,7 +488,8 @@
   "direction": "未表态",
   "horizon": "未指明",
   "confidence": "high",
-  "extracted_on": "2026-09-14"
+  "extracted_on": "2026-09-14",
+  "date_source": "page_meta"
  },
  {
   "kol": "Aaron Y. Zelin",
@@ -547,8 +548,8 @@
   "theater": "印太",
   "source_url": "https://chinapower.csis.org/podcasts/the-impact-of-covid-19-on-chinas-military/",
   "source_title": "The Impact of Covid-19 on China’s Military | ChinaPower Project",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2021-08-31",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
   "topic": "新冠疫情期间中国对周边国家的军事姿态",
@@ -565,7 +566,8 @@
   "direction": "僵持",
   "horizon": "未指明",
   "confidence": "high",
-  "extracted_on": "2026-09-14"
+  "extracted_on": "2026-09-14",
+  "date_source": "page_meta"
  },
  {
   "kol": "M. Taylor Fravel",
@@ -613,8 +615,8 @@
   "theater": "拉美",
   "source_url": "https://thefulcrum.us/democracy/political-violence",
   "source_title": "Political polarization has become a form of entertainment",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2024-11-12",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clionadh raleigh」",
   "topic": "全球冲突暴力事件上升趋势与政治竞争关系",
@@ -653,15 +655,16 @@
   "direction": "升级",
   "horizon": "当前趋势",
   "confidence": "high",
-  "extracted_on": "2026-09-14"
+  "extracted_on": "2026-09-14",
+  "date_source": "page_meta"
  },
  {
   "kol": "Michael Kofman",
   "theater": "俄乌",
   "source_url": "https://www.rferl.org/a/russia-ukraine-war-attrition-kofman-interview/31956739.html",
   "source_title": "Interview: Military Analyst Says Russia's Invasion Of Ukraine Is Now...",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2022-07-23",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
   "topic": "俄乌战争消耗战态势与 HIMARS 对战场平衡的影响",
@@ -705,7 +708,8 @@
   "direction": "僵持",
   "horizon": "未指明",
   "confidence": "medium",
-  "extracted_on": "2026-09-14"
+  "extracted_on": "2026-09-14",
+  "date_source": "page_meta"
  },
  {
   "kol": "Michael Kofman",
@@ -837,8 +841,8 @@
   "theater": "中东",
   "source_url": "https://www.lanacion.com.ar/el-mundo/el-ataque-con-misiles-de-iran-contra-israel-deja-una-alarmante-pista-sobre-el-avance-de-sus-armas-nid02102024/",
   "source_title": "El ataque con misiles de Irán contra Israel deja una... - LA NACION",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2024-10-02",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
   "topic": "伊朗对以色列弹道导弹攻击的技术演进与防御压力",
@@ -887,6 +891,7 @@
   "direction": "升级",
   "horizon": "未指明",
   "confidence": "medium",
-  "extracted_on": "2026-09-14"
+  "extracted_on": "2026-09-14",
+  "date_source": "page_meta"
  }
 ]
