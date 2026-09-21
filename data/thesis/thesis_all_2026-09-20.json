@@ -1,0 +1,58 @@
+[
+ {
+  "kol": "Fabian Hoffmann",
+  "theater": "俄乌",
+  "source_url": "https://www.19fortyfive.com/2026/09/ukraines-fire-point-is-building-2-ballistic-missiles-of-its-own-the-fp-7-reaches-200-kilometres-with-a-150-kilogram-warhead-the-longer-ranged-fp-9-could-strike-600-to-800-kilometres-into-russia-wi/",
+  "source_title": "Ukraine's Fire Point Is Building 2 Ballistic Missiles of Its ...",
+  "published_on": "2026-09-14",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hoffmann」",
+  "topic": "乌克兰国产弹道导弹对俄乌战争影响",
+  "claim": "若乌克兰能月产约50枚FP-9导弹且精度足够，将显著改变俄乌战场态势，使俄方处境更加困难",
+  "reasoning": "霍夫曼认为乌克兰国产弹道导弹的关键在于「有意义的数量」。他指出FP-9射程可达600-800公里，飞行速度比现有巡航导弹快得多，能在数分钟内打击俄罗斯纵深目标，给俄防空系统更少反应时间。若月产50枚且精度可靠，能打击高价值军事资产和大型基础设施目标，将使「猎杀弹道导弹发射器或防空压制/摧毁行动成功率大幅提升」，从而在这场消耗战中改变力量对比",
+  "evidence": [
+   "俄罗斯国防工业每月可生产约120枚弹道导弹（泽连斯基在北约-乌克兰理事会演讲中披露）",
+   "乌克兰现有导弹库存几乎完全依赖外国来源且数量远少于俄方",
+   "乌克兰最近与土耳其达成协议获得70枚ATACMS和12套M270发射系统（2.8亿美元军售协议）",
+   "FP-9导弹射程和载荷均显著大于FP-7（FP-7射程200公里载荷150公斤）",
+   "FP-9飞行速度远快于现有FP-5 Flamingo巡航导弹，使俄防空系统更难拦截"
+  ],
+  "data": [
+   {
+    "metric": "俄罗斯弹道导弹月产量",
+    "value": "约120枚",
+    "context": "泽连斯基2024年夏季北约-乌克兰理事会演讲披露"
+   },
+   {
+    "metric": "FP-7导弹射程",
+    "value": "约200公里",
+    "context": "预期性能参数"
+   },
+   {
+    "metric": "FP-7导弹载荷",
+    "value": "150公斤",
+    "context": "预期性能参数"
+   },
+   {
+    "metric": "FP-9打击纵深",
+    "value": "600-800公里",
+    "context": "霍夫曼访谈估算「数分钟内可打击」"
+   },
+   {
+    "metric": "乌克兰从土耳其获ATACMS数量",
+    "value": "70枚",
+    "context": "最近一个月军售协议"
+   },
+   {
+    "metric": "关键月产量阈值",
+    "value": "约50枚FP-9",
+    "context": "霍夫曼认为达到此产能将产生显著影响"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时间，但强调「必须先达到月产50枚」这一前提条件",
+  "confidence": "medium",
+  "extracted_on": "2026-09-20"
+ }
+]

@@ -1,0 +1,624 @@
+[
+  {
+    "name_en": "Bonny Lin",
+    "name_zh": "unknown",
+    "affiliation": "CSIS 战略与国际研究中心 中国实力项目 (China Power Project)",
+    "role": "主任、亚洲安全高级研究员",
+    "platforms": [
+      "CSIS ChinaPower",
+      "ChinaPower Podcast",
+      "Foreign Affairs"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "中国对台军事胁迫、灰色地带战术、解放军战力评估、中美危机管理；主持 ChinaPower 数据库与播客",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "耶鲁政治学博士，2015-2018 任美国防长办公室台湾事务主任与中国国别主任，前 RAND 政治学家。ChinaPower 项目自建台湾 ADIZ 侵扰、军费、贸易咽喉点等原始数据库，方法说明公开；2024 年与葛来仪合著《台海迫近的危机》。多次赴参院军委会作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/bonny-lin",
+      "https://chinapower.csis.org/",
+      "https://en.wikipedia.org/wiki/Bonny_Lin"
+    ]
+  },
+  {
+    "name_en": "Gregory B. Poling",
+    "name_zh": "unknown",
+    "affiliation": "CSIS 东南亚项目 / 亚洲海事透明倡议 (AMTI)",
+    "role": "AMTI 主任、东南亚高级研究员",
+    "platforms": [
+      "AMTI",
+      "CSIS",
+      "X"
+    ],
+    "x_handle": "@GregPoling",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "南海争端、岛礁建设卫星影像判读、海上民兵、菲律宾—中国对峙、航行自由",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "AMTI 创办与主导者，运营 Island Tracker 岛礁数据库与 Maxar 商业卫星影像分析，是南海填海造岛证据链的公开来源之一；曾赴众院外委会亚太小组作证。著有《On Dangerous Ground: America's Century in the South China Sea》。产出以可核验影像与坐标为主。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/gregory-b-poling",
+      "https://amti.csis.org/gpoling/",
+      "https://www.uscc.gov/sites/default/files/Poling+Bio.pdf"
+    ]
+  },
+  {
+    "name_en": "Harrison Prétat",
+    "name_zh": "unknown",
+    "affiliation": "CSIS 亚洲海事透明倡议 (AMTI)",
+    "role": "副主任、研究员",
+    "platforms": [
+      "AMTI",
+      "CSIS"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "商业卫星影像与遥感在地缘分析中的应用、南海灰色地带胁迫、越南填海扩建、海底采矿",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "AMTI 副主任，专长商业卫星影像与遥感判读，2025 年《越南南海填海的涟漪效应》为一手影像分析；2026 年关于中国在南海新建大型基地的判读被 WSJ、NYT 引用。产出附 Maxar 影像与日期，可复核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/harrison-pretat",
+      "https://amti.csis.org/"
+    ]
+  },
+  {
+    "name_en": "Thomas H. Shugart III",
+    "name_zh": "unknown",
+    "affiliation": "新美国安全中心 (CNAS)；前美海军潜艇军官",
+    "role": "兼任高级研究员",
+    "platforms": [
+      "CNAS",
+      "X",
+      "War on the Rocks"
+    ],
+    "x_handle": "@tshugart3",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "解放军导弹对西太平洋基地的第一击威胁、卫星影像判读（模拟靶场、船厂、潜艇）、美军基地脆弱性建模",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "退役美海军潜艇艇长，以卫星影像发现解放军在新疆/内蒙古建造美舰与基地模拟靶标、以及 2024 年武昌船厂新型核潜艇沉没事件而受主流媒体广泛引用；建模作品《First Strike》公开假设与弹药量算法。曾赴美中经济与安全审查委员会作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/tom-shugart",
+      "https://www.uscc.gov/sites/default/files/2024-03/Thomas_Shugart_Bio.pdf"
+    ]
+  },
+  {
+    "name_en": "Ryan D. Martinson",
+    "name_zh": "unknown",
+    "affiliation": "美国海军战争学院 中国海事研究所 (CMSI)",
+    "role": "研究员/助理教授",
+    "platforms": [
+      "CMSI China Maritime Report",
+      "X",
+      "学术期刊"
+    ],
+    "x_handle": "@rdmartinson88",
+    "youtube": "unknown",
+    "language": "英文（大量引用中文原始资料）",
+    "theater": "印太",
+    "specialty": "中国海警与海上民兵、海洋调查船活动追踪、中文原始文献（军报、地方志、渔业公告）解读",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CMSI 核心研究员，长期以中文一手资料（中国海警年鉴、渔业公告、地方党报）与 AIS 数据重构海上民兵编制，代表作 China Maritime Report No.46《中国渔民间谍》；论文附中文出处，可逐条回溯，是英语圈解读中国官方海上文献的标杆。",
+    "controversies": "none",
+    "sources": [
+      "https://www.usnwc.edu/Faculty-and-Departments/Directory/Ryan-D-Martinson",
+      "https://digital-commons.usnwc.edu/cmsi-maritime-reports/46"
+    ]
+  },
+  {
+    "name_en": "Ben Lewis",
+    "name_zh": "unknown",
+    "affiliation": "PLATracker（独立项目）",
+    "role": "共同创办人、独立国防分析师",
+    "platforms": [
+      "PLATracker",
+      "X"
+    ],
+    "x_handle": "@Ben_Lewis1_",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "解放军对台空中/海上活动逐日追踪、台湾 ADIZ 侵扰数据库、军演规模量化",
+    "score_A": 6,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "独立分析师，与他人共建 PLATracker，把台湾国防部每日公布的共机共舰动态结构化为可查询数据库并做趋势统计，被 CSIS ChinaPower 等引用。机构根基弱于智库研究员，但一手数据整理与公开程度高。",
+    "controversies": "none",
+    "sources": [
+      "https://www.platracker.com/trackers",
+      "http://officialbenlewis.com/"
+    ]
+  },
+  {
+    "name_en": "Decker Eveleth",
+    "name_zh": "unknown",
+    "affiliation": "CNA（海军分析中心）；曾属 Middlebury/CNS",
+    "role": "研究分析师",
+    "platforms": [
+      "CNA",
+      "X",
+      "Arms Control Wonk"
+    ],
+    "x_handle": "@dex_eve",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "卫星影像发现中国洲际导弹发射井群、火箭军基地设施测绘、开源核力量分析",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "学生时期即用商业卫星影像发现中国玉门/哈密等地上百个新建 ICBM 发射井，成果被 NYT 报道并成为美国核态势辩论的基础事实；发布坐标与影像来源，方法可复现，命中率经后续官方评估确认。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cna.org/our-experts/eveleth-decker",
+      "https://en.wikipedia.org/wiki/Decker_Eveleth"
+    ]
+  },
+  {
+    "name_en": "Ray Powell",
+    "name_zh": "unknown",
+    "affiliation": "SeaLight（史丹佛大学 Gordian Knot 国家安全创新中心）",
+    "role": "SeaLight 项目主任；退役美空军上校",
+    "platforms": [
+      "SeaLight",
+      "X",
+      "Why Should We Care About the Indo-Pacific 播客"
+    ],
+    "x_handle": "@GordianKnotRay",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "南海灰色地带行动实时追踪（AIS/船舶动态/卫星）、中国海警与民兵船只点名曝光、菲中对峙",
+    "score_A": 7,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "退役美空军上校、前驻澳武官，创办史丹佛 SeaLight，以 AIS 与商业影像逐日公开中国海警、民兵船在仁爱礁/黄岩岛等地的动向，形成「透明化威慑」路线；发布多附船名、MMSI 与时间戳，可独立核对。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sealight.live/",
+      "https://www.sealight.live/about"
+    ]
+  },
+  {
+    "name_en": "Matthew P. Funaiole",
+    "name_zh": "unknown",
+    "affiliation": "CSIS Dracopoulos iDeas Lab / 中国实力项目 / Hidden Reach",
+    "role": "iDeas Lab 副总裁、高级研究员",
+    "platforms": [
+      "CSIS Hidden Reach",
+      "ChinaPower",
+      "features.csis.org 视觉调查"
+    ],
+    "x_handle": "@MFunaiole",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "中国造船业与海军扩张产能、第四艘航母建造追踪、军民融合供应链、卫星影像+航运数据视觉调查",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "主导 CSIS Hidden Reach 系列，用商业卫星影像+船舶/企业注册数据追踪中国第四艘航母、造船厂扩建；2025 年《Ship Wars》报告量化中国造船产能对美优势。报告公开数据来源与影像日期，属可复核的一手 OSINT 视觉调查。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/matthew-p-funaiole",
+      "https://www.csis.org/programs/hidden-reach",
+      "https://features.csis.org/hiddenreach/china-fourth-carrier/"
+    ]
+  },
+  {
+    "name_en": "Jeffrey Lewis",
+    "name_zh": "unknown",
+    "affiliation": "米德尔伯里国际研究学院 詹姆斯·马丁禁止核扩散研究中心 (CNS)",
+    "role": "东亚禁扩项目主任、教授",
+    "platforms": [
+      "Arms Control Wonk 博客与播客",
+      "X",
+      "CNS 报告"
+    ],
+    "x_handle": "@ArmsControlWonk",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "朝鲜导弹与核设施卫星影像判读、中国核力量与发射井、开源核情报方法学教学",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CNS 东亚禁扩项目负责人，其团队以商业卫星影像识别朝鲜未申报导弹基地、中国新建发射井群，成果多次先于官方披露并被 NYT 报道；Arms Control Wonk 博客与播客长期公开影像坐标与推理链，是 OSINT 核分析方法的教科书级来源。",
+    "controversies": "风格尖锐、对政策官员批评直白，偶有推文口径引发争论，但未见实质性事实被证伪记录。",
+    "sources": [
+      "https://www.middlebury.edu/institute/people/jeffrey-lewis",
+      "https://en.wikipedia.org/wiki/Jeffrey_Lewis_(academic)"
+    ]
+  },
+  {
+    "name_en": "Ankit Panda",
+    "name_zh": "unknown",
+    "affiliation": "卡内基国际和平基金会 核政策项目",
+    "role": "Stanton 高级研究员",
+    "platforms": [
+      "Carnegie",
+      "The Diplomat",
+      "NK News / Korea Pro",
+      "X"
+    ],
+    "x_handle": "@nktpnd",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "朝鲜导弹技术与核战略、延伸威慑、中美核态势；擅长从朝中社影像与弹道参数反推技术细节",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "卡内基核政策 Stanton 高级研究员、MIT CIS 关联学者，著有《Kim Jong Un and the Bomb》。长期对朝鲜每次试射做技术复核（射程/弹道/发射车型号），推理依据（朝中社照片、日韩防卫省数据）逐条列明；亦为 NK News/Korea Pro 特约分析师。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/people/ankit-panda",
+      "https://koreapro.org/meet-the-team/ankit-panda-contributing-analyst/"
+    ]
+  },
+  {
+    "name_en": "Peter Makowsky",
+    "name_zh": "unknown",
+    "affiliation": "38 North（史汀生中心 Stimson Center）",
+    "role": "卫星影像分析师（常与 Jack Liu、Iliana Ragnone 合著）",
+    "platforms": [
+      "38 North"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "朝鲜宁边核设施、西海（东仓里）卫星发射场、导弹基地的逐期商业卫星影像变化判读",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "38 North 卫星影像分析主力之一，2025 年多篇报告以商业影像追踪宁边放射化学实验室扩建、东仓里新建海港，逐张标注日期与设施变化，是朝鲜核活动最稳定的开源监测来源。缺点是署名个人公开简历少、几乎不做社媒露出。",
+    "controversies": "none",
+    "sources": [
+      "https://www.38north.org/tag/peter-makowsky/",
+      "https://www.38north.org/topics/satellite-analysis/"
+    ]
+  },
+  {
+    "name_en": "Joseph Dempsey",
+    "name_zh": "unknown",
+    "affiliation": "国际战略研究所 (IISS) 国防与军事分析项目",
+    "role": "研究员（影像分析）",
+    "platforms": [
+      "IISS Military Balance",
+      "IISS Analysis",
+      "38 North",
+      "X"
+    ],
+    "x_handle": "@JosephHDempsey",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "军事装备影像识别、朝鲜阅兵新型导弹与装备判读、《军事平衡》装备数据编纂",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "IISS 影像分析专职研究员，参与编纂《The Military Balance》装备数据库；以朝鲜阅兵/试射影像的装备型号识别见长，亦为 38 North 撰稿。判读多附影像比对，但个别识别属推定性质。",
+    "controversies": "none",
+    "sources": [
+      "https://www.iiss.org/people/defence-and-military-analysis/joseph-dempsey",
+      "https://www.38north.org/author/joseph-dempsey"
+    ]
+  },
+  {
+    "name_en": "Su Tzu-yun",
+    "name_zh": "蘇紫雲",
+    "affiliation": "台灣 國防安全研究院 (INDSR) 國防戰略與資源研究所",
+    "role": "所長、研究員",
+    "platforms": [
+      "INDSR 即時評析",
+      "台湾电视政论/新闻访谈"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "中文（繁体）",
+    "theater": "印太",
+    "specialty": "台海防卫战略与国防资源配置、不对称作战、共军对台军演解读、军购与国防预算分析",
+    "score_A": 8,
+    "score_B": 6,
+    "score_C": 6,
+    "score_D": 6,
+    "rating_reason": "淡江大學國際事務與戰略研究所博士，曾任國安會研究員、淡江整合科技與戰略中心執行長，現為 INDSR 國防戰略與資源研究所所長，是台湾官方智库对共军动态的主要发言人之一。产出以政策评析与预算/装备分析为主，原始数据自采较少，且高频上电视政论节目，部分判断偏向政策立场。",
+    "controversies": "因常上台湾政论节目、且与政界人物有亲属关系（兄黃偉哲、姐黃智賢），其评论的政治独立性时受两岸舆论质疑；未见具体事实被证伪的公开记录。",
+    "sources": [
+      "https://indsr.org.tw/member?pid=13&resid=4",
+      "https://zh.wikipedia.org/zh-tw/%E8%98%87%E7%B4%AB%E9%9B%B2"
+    ]
+  },
+  {
+    "name_en": "Lin Ying-yu",
+    "name_zh": "林穎佑",
+    "affiliation": "淡江大學 國際事務與戰略研究所",
+    "role": "副教授",
+    "platforms": [
+      "学术期刊",
+      "台湾媒体评论",
+      "海基會《交流》雜誌"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "中文（繁体）",
+    "theater": "印太",
+    "specialty": "解放军军改与组织结构、共军资讯战与网军、中国国防工业与军贸、共军演训解读",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 6,
+    "score_D": 6,
+    "rating_reason": "淡江大學戰略所副教授，台湾学界少数长期专攻解放军组织与军改的研究者，著述以中共官方文献、军报与军改文件为主要材料，Google Scholar 有可查引用记录；亦为媒体常用的共军动态解读来源。原创数据采集有限，多为文献解读。",
+    "controversies": "none",
+    "sources": [
+      "https://www.titx.tku.edu.tw/titx/?tkumembers=%E6%9E%97%E7%A9%8E%E4%BD%91-ying-yu-lin",
+      "https://scholar.google.com/citations?user=V1ejdtwAAAAJ&hl=zh-TW"
+    ]
+  },
+  {
+    "name_en": "Zhu Weiyi (\"Ting Feng De Can\")",
+    "name_zh": "聽風的蠶（朱唯一）",
+    "affiliation": "独立自媒体（YouTube 频道 @zhuweiyi）",
+    "role": "中文军事时评 UP 主",
+    "platforms": [
+      "YouTube",
+      "YouTube Music/播客镜像"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/@zhuweiyi",
+    "language": "中文（简体）",
+    "theater": "印太",
+    "specialty": "每日更新的全球战事（俄乌、中东、台海）口播时评，以「解读+判断」为主，素材几乎全部来自他人推文与外媒报道",
+    "score_A": 2,
+    "score_B": 2,
+    "score_C": 3,
+    "score_D": 2,
+    "rating_reason": "高频日更（单集约 3-15 分钟，单集播放量约 1.5-2.5 万），内容形态为二手转引再解读：实测 2026-09-01《9.1 32枚导弹只拦截了8枚？爱国者一次消耗128枚？》一期，核心数据全部转引自 Babak Taghvaee，本人只提供「我认为说得很对」式判断，无自采数据、无卫星影像、无来源清单，故 score_B 极低。",
+    "controversies": "中文自媒体圈存在公开批评其「造谣」的指控（如 YouTube 视频《大V怒批@听风的蚕，军事自媒体造谣没人管吗？》），另有频道被封/风波传闻；其身份传为河南漯河检察系统离职人员（仅见于内容农场类来源，未获权威证实，标 unknown）。转引源本身（如 Babak Taghvaee）准确度亦长期受质疑。",
+    "sources": [
+      "https://www.youtube.com/@zhuweiyi",
+      "https://music.youtube.com/@zhuweiyi",
+      "https://www.youtube.com/watch?v=ppzREW--vlM"
+    ]
+  },
+  {
+    "name_en": "Mark F. Cancian",
+    "name_zh": "unknown",
+    "affiliation": "CSIS 国际安全项目；退役美海军陆战队上校",
+    "role": "高级顾问",
+    "platforms": [
+      "CSIS 报告",
+      "Breaking Defense/War on the Rocks 撰稿"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "台海登陆战兵棋推演、美军弹药与产能缺口、国防预算与部队结构",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 10,
+    "rating_reason": "2023 年 CSIS《下一场战争的第一战：中国入侵台湾兵推》主要作者，24 轮推演的规则、单位数据、损失模型与假设全部随报告公开，方法透明度在同类兵推中罕见；退役美海军陆战队上校、前 OMB 国防项目负责人，另长期做弹药库存与产能量化分析。",
+    "controversies": "兵推结论（美台胜但损失惨重）被部分学者批评对中方两栖能力与后勤假设保守，属方法论争议而非事实错误；CSIS 已公开回应假设依据。",
+    "sources": [
+      "https://www.csis.org/analysis/first-battle-next-war-wargaming-chinese-invasion-taiwan",
+      "https://ssp.mit.edu/publications/2023/the-first-battle-of-the-next-war-wargaming-a-chinese-invasion-of-taiwan"
+    ]
+  },
+  {
+    "name_en": "Hu Bo",
+    "name_zh": "胡波",
+    "affiliation": "北京大学海洋战略研究中心；南海战略态势感知计划 (SCSPI)",
+    "role": "中心主任、SCSPI 主任",
+    "platforms": [
+      "SCSPI 网站与年度报告",
+      "中英文核心期刊"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "中文/英文",
+    "theater": "印太",
+    "specialty": "南海军事态势追踪（美军机舰抵近侦察统计、航行自由行动统计）、中美西太平洋海上力量对比",
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": 6,
+    "score_D": 6,
+    "rating_reason": "北大海洋战略研究中心主任，2019 年发起 SCSPI，用 AIS 与飞行追踪数据发布美军侦察机、双航母活动的月度/年度统计，是中方视角少见的可量化开源产出，常被外媒引用作对照数据。",
+    "controversies": "SCSPI 自称「不隶属任何机构」的国际研究网络，但西方分析界普遍质疑其与中国官方立场高度一致、选择性统计（只统计美方抵近活动、不统计中方对等行动）；使用其数据时须注意口径偏向。",
+    "sources": [
+      "https://www.scspi.org/en/node/102",
+      "https://www.scspi.org/zh/gywm"
+    ]
+  },
+  {
+    "name_en": "M. Taylor Fravel",
+    "name_zh": "傅泰林",
+    "affiliation": "麻省理工学院 (MIT) 安全研究项目 (SSP)",
+    "role": "主任、政治学讲席教授",
+    "platforms": [
+      "学术专著与期刊",
+      "X"
+    ],
+    "x_handle": "@fravel",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "中国军事战略演变（历版《军事战略方针》）、中国领土与海洋争端行为、解放军战略文献解读",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "MIT 安全研究项目主任，《Active Defense: China's Military Strategy Since 1949》以中共军内战略文献、军科院教材与《战略学》历版为原始材料重建解放军战略方针演变，是英语学界解读中国官方军事文献的最高标准之一；论证均附中文出处，可逐条查证。",
+    "controversies": "在南海争端与中国边界谈判议题上持「中国并非一贯扩张」的经验性结论，被部分鹰派评论者批评为「淡化威胁」，但其史料与编码方法公开、未见被证伪。",
+    "sources": [
+      "https://ssp.mit.edu/people/m-taylor-fravel",
+      "https://en.wikipedia.org/wiki/Taylor_Fravel"
+    ]
+  },
+  {
+    "name_en": "Euan Graham",
+    "name_zh": "unknown",
+    "affiliation": "澳大利亚战略政策研究所 (ASPI)",
+    "role": "高级分析师",
+    "platforms": [
+      "ASPI The Strategist",
+      "X",
+      "媒体评论"
+    ],
+    "x_handle": "@graham_euan",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "印太海上安全、澳洲国防态势与 AUKUS 核潜艇、中国海军远海活动与澳中海上摩擦",
+    "score_A": 8,
+    "score_B": 6,
+    "score_C": 7,
+    "score_D": 6,
+    "rating_reason": "2023 年加入 ASPI 任高级分析师，曾任澳洲洛伊研究所国际安全项目主任、新加坡 RSIS 学者，长期跟踪印太海上安全；2025 年中国海军编队环澳航行与实弹演习期间是主要解读来源之一。产出多为分析评论而非自采数据。",
+    "controversies": "ASPI 因接受美澳政府与国防工业资助，其对华研究常被中方与部分澳洲评论者指为立场先行；Graham 个人未见事实性错误记录。",
+    "sources": [
+      "https://www.aspi.org.au/bio/dr-euan-graham/",
+      "https://www.aspistrategist.org.au/author/euan-graham/"
+    ]
+  },
+  {
+    "name_en": "Timothy R. Heath",
+    "name_zh": "unknown",
+    "affiliation": "兰德公司 (RAND)",
+    "role": "高级国际防务研究分析师",
+    "platforms": [
+      "RAND 报告",
+      "媒体评论",
+      "USCC 证词"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文（读中文原始资料）",
+    "theater": "印太",
+    "specialty": "解放军政治工作与作战能力短板、中共军队党军关系、中国全球战略与军改后的指挥体系",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "RAND 高级国际防务研究分析师，加入 RAND 前为美太平洋司令部中国战略研究组高级分析师；著有《China's Quest for Global Primacy》，长期以中共中央与军委文件、军报社论为原始材料评估解放军「和平病」与实战能力短板，多次赴美中经济与安全审查委员会作证。",
+    "controversies": "对解放军实战能力持相对怀疑的评估，与部分主张「2027 窗口」的分析者存在明显分歧，属判断分歧。",
+    "sources": [
+      "https://www.rand.org/pubs/authors/h/heath_timothy_r.html",
+      "https://www.uscc.gov/sites/default/files/Panel+I_Timothy+Heath_Bio.pdf"
+    ]
+  },
+  {
+    "name_en": "Andrew S. Erickson",
+    "name_zh": "艾立信（安德鲁·埃里克森）",
+    "affiliation": "美国海军战争学院 中国海事研究所 (CMSI)；哈佛费正清中心研究员",
+    "role": "战略系教授",
+    "platforms": [
+      "CMSI China Maritime Report",
+      "Jamestown China Brief",
+      "个人网站 andrewerickson.com"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文（大量中文原始资料）",
+    "theater": "印太",
+    "specialty": "中国海军造舰与海事力量、海上民兵体系（三大主力民兵队伍考证）、中国国防工业与航天",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CMSI 创所骨干、海军战争学院教授、哈佛费正清中心研究员，以中文军内出版物、地方志与企业年报重建中国海上民兵编制与造舰产能，并在 Jamestown China Brief 长期供稿；个人网站公开全部原始中文出处与译文，可逐条核对。",
+    "controversies": "none",
+    "sources": [
+      "https://jamestown.org/analyst/andrew-s-erickson",
+      "https://cwp.sipa.columbia.edu/directory/andrew-erickson"
+    ]
+  },
+  {
+    "name_en": "Bonnie S. Glaser",
+    "name_zh": "葛來儀",
+    "affiliation": "德国马歇尔基金会 (GMF) 印太项目",
+    "role": "董事总经理",
+    "platforms": [
+      "GMF",
+      "Foreign Affairs",
+      "X",
+      "播客 China Global"
+    ],
+    "x_handle": "@BonnieGlaser",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": "印太",
+    "specialty": "台海危机管理、中美台三边关系、中国对台胁迫策略与政治战",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 8,
+    "score_D": 6,
+    "rating_reason": "华府最资深的台海问题分析者之一，曾长期主持 CSIS 中国实力项目，现任 GMF 印太项目董事总经理；2024 年与 Bonny Lin 合著《台海迫近的危机》。强项是政策判断与两岸政治动态解读，一手数据自采较少，主要靠一轨/二轨对话与官方文本。",
+    "controversies": "因长期参与美中二轨对话、曾多次会见两岸高层，其立场在台湾统独两侧均遭批评（时被绿营指过度强调「危机管控」、被蓝营指偏美），未见事实性错误记录。",
+    "sources": [
+      "https://www.gmfus.org/find-experts/bonnie-s-glaser",
+      "https://en.wikipedia.org/wiki/Bonnie_S._Glaser"
+    ]
+  },
+  {
+    "name_en": "Chieh Chung",
+    "name_zh": "揭仲",
+    "affiliation": "台灣 國防安全研究院（委任副研究員）；淡江大學戰略所兼任助理教授；中華戰略前瞻協會",
+    "role": "委任副研究員／研究員兼秘書長",
+    "platforms": [
+      "INDSR",
+      "個人網站 chiehchung.info",
+      "風傳媒等專欄"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "中文（繁体）",
+    "theater": "印太",
+    "specialty": "共軍對台作戰想定与联合登陆战役、台海军演逐日兵力构成解读、台湾兵力结构与后备动员",
+    "score_A": 7,
+    "score_B": 7,
+    "score_C": 6,
+    "score_D": 6,
+    "rating_reason": "淡江大學戰略所博士，兼 INDSR 委任副研究員与中華戰略前瞻協會秘書長，长期以共軍教範、軍改文獻与台湾国防部每日公布的共机共舰数据分析对台作战想定；个人网站 chiehchung.info 系统整理其国防与中共军事专题文章，可核查。产出偏文献推演，无自采影像数据。",
+    "controversies": "曾任国民党籍相关智库（國家政策研究基金會）副研究員，评论被部分台湾舆论视为带蓝营立场；未见具体事实被证伪记录。",
+    "sources": [
+      "https://indsr.org.tw/member?pid=292&resid=4",
+      "https://chiehchung.info/author/chiehchungorg/"
+    ]
+  }
+]

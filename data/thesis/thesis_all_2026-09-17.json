@@ -1,0 +1,199 @@
+[
+ {
+  "kol": "Vipin Narang",
+  "theater": "南亚",
+  "source_url": "https://ssp.mit.edu/news/2026/narang-trumps-nuclear-review",
+  "source_title": "Narang: Trump's Nuclear Review | 2026 | News | MIT Security Studies ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ssp.mit.edu",
+  "topic": "特朗普政府核战略评估与美国核威慑政策",
+  "claim": "美国核威慑战略必须基于敌方领导人的价值观而非美方镜像假设，需威胁摧毁对手政权最看重的资产（政权存续、情报机构、核力量、国防工业基础）",
+  "reasoning": "Vipin Narang作为跨党派专家组成员，强调学术界长期存在「镜像思维」谬误，即假定俄中领导层与美国共享行为规范。他引用情报界评估及历史文献，指出威慑的本质是影响「潜在侵略者的心理状态」，而非以美方标准衡量。因此美国必须精准识别普京、习近平等威权领导人最重视的资产类型（政权、秘密警察、核武库、军工体系），并以摧毁这些目标为威胁基础，这一现实深刻决定了美国核力量的规模与性质需求。",
+  "evidence": [
+   "特朗普五角大楼正在进行美国核战略的小型封闭评估",
+   "每届美国政府自原子时代以来都会审查继承的核战略",
+   "学术文献存在将俄中领导层视为美国视角的长期倾向",
+   "情报界过去五十年确认莫斯科和北京最重视政权存续、秘密警察、核力量和国防工业基础",
+   "Scowcroft委员会1983年报告指出威慑需判断「何物能阻止敌方领导人而非我方」",
+   "这一现实决定美国威慑所需力量规模超出我方偏好的最低水平"
+  ],
+  "data": [
+   {
+    "metric": "情报评估时间跨度",
+    "value": "五十年",
+    "context": "情报界关于俄中最高价值资产的确认"
+   },
+   {
+    "metric": "历史文献年份",
+    "value": "1983年",
+    "context": "Scowcroft委员会报告发布时间"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-17"
+ },
+ {
+  "kol": "Jeremy McDermott",
+  "theater": "拉美",
+  "source_url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/",
+  "source_title": "Colombia’s Total Peace: What Went Wrong and What Comes Next?",
+  "published_on": "2026-09-15",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 insightcrime.org",
+  "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+  "claim": "哥伦比亚与武装组织的谈判本身并非不可行，Gustavo Petro总统「全面和平」计划的失败不能否定谈判途径的有效性，历史上哥伦比亚曾有成功的谈判先例",
+  "reasoning": "Jeremy McDermott认为尽管Gustavo Petro任期内非法武装组织成员从1.5万增至近2.9万（几乎翻倍），但这一失败源于执行层面的错误——包括未履行2016年FARC和平协议承诺、缺乏立法框架、过早实施停火、试图同时与所有组织谈判且准备不足。他强调哥伦比亚在2000年代初与AUC准军事组织及后来与FARC的谈判都取得过成功，这些先例证明谈判路径可行。当前Abelardo de la Espriella总统的军事化政策重复了Iván Duque时期的做法，而Iván Duque任内古柯种植面积从16.9万公顷增至23万公顷、可卡因产量从1100吨升至1700吨，即便实施了史无前例的13万公顷人工根除行动也未能遏制，这表明纯军事手段历史上并不有效",
+  "evidence": [
+   "哥伦比亚在2000年代初与准军事组织AUC以及2016年与FARC的和平谈判均取得成功，这些谈判中停火是在取得实质进展后才实施的",
+   "Iván Duque总统任期（2018-2022）采取军事化政策，实施13万公顷人工根除行动，但古柯种植面积仍从16.9万公顷增至23万公顷，可卡因产量从1100吨升至1700吨",
+   "在南部厄瓜多尔边境地区，ELN的一个单位和Walter Mendoza领导的FARC持不同政见者组织主动上交武器并准备进入集中区，麦德林和布埃纳文图拉等城市的帮派谈判也使勒索大幅减少",
+   "Catatumbo地区ELN在72小时内杀害近100人、导致5万人流离失所，Gustavo Petro因此中断与ELN的谈判，成为「全面和平」的分水岭时刻",
+   "Gustavo Petro未能通过立法框架，无法为犯罪组织提供免于引渡、减刑等法律保障，也未履行2016年FARC协议中的作物替代承诺"
+  ],
+  "data": [
+   {
+    "metric": "非法武装组织成员数",
+    "value": "从1.5万增至2.9万人",
+    "context": "Gustavo Petro任期2022年8月至2026年移交权力期间"
+   },
+   {
+    "metric": "古柯种植面积",
+    "value": "从16.9万公顷增至23万公顷",
+    "context": "Iván Duque任期2018-2022年"
+   },
+   {
+    "metric": "可卡因产量",
+    "value": "从1100吨增至1700吨",
+    "context": "Iván Duque任期2018-2022年"
+   },
+   {
+    "metric": "人工根除面积",
+    "value": "13万公顷",
+    "context": "Iván Duque任期实施，为史上最大规模"
+   },
+   {
+    "metric": "Catatumbo冲突伤亡",
+    "value": "72小时内近100人死亡",
+    "context": "ELN攻击FARC持不同政见者"
+   },
+   {
+    "metric": "Catatumbo流离失所人口",
+    "value": "5万人",
+    "context": "72小时冲突期间"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-17"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://x.com/RALee85/status/1820892991067754636?lang=en",
+  "source_title": "Rob Lee on X: \"Some early thoughts about this operation. The most important factor in the war right now is Russia's manpower and force availability advantage, in particular with infantry. That is the primary reason why Ukraine is struggling to hold back Russian advances in Donetsk oblast.\" / X",
+  "published_on": "2024-08-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台账号 x.com",
+  "topic": "乌军库尔斯克州跨境行动的战术效果与风险",
+  "claim": "乌军此次大规模跨境行动难以改变顿巴斯战局，且可能因高伤亡进一步恶化乌军兵力紧张局面",
+  "reasoning": "当前战争最关键因素是俄军在步兵兵力上的优势，这导致乌军在顿涅茨克难以阻挡俄军推进。俄军哈尔科夫攻势已进一步消耗了乌军预备队，使乌军缺乏足够兵力增援或堵截突破。2023年和2024年3月的跨境行动对优先方向战斗影响甚微，而现在俄军已在边境地区建立北方集群、加强常规力量和指挥控制、部署征召兵部队，且无人机动态打击能力大幅提升。进攻作战的伤亡率通常高于防御，在兵力已捉襟见肘的情况下，高损失会使波克罗夫斯克等关键方向防御更加困难",
+  "evidence": [
+   "俄军在顿涅茨克州波克罗夫斯克和托列茨克前线过去三周的推进速度在2023-2024年期间相对较快",
+   "俄军哈尔科夫攻势进一步消耗了乌军预备队，导致乌军指挥官可用于增援或阻止突破的兵力有限",
+   "俄军已组建北方集群领导哈尔科夫攻势，并加强了边境地区兵力",
+   "俄军通过无人机持续侦察覆盖乌军后方，用于为「柳叶刀」无人机、「红土地」炮弹、「伊斯坎德尔-M」导弹等精确制导武器定位目标",
+   "2023年5-6月和2024年3月的两次大规模跨境行动对优先作战方向的战斗影响甚微",
+   "乌军可能无法在此次行动中使用 HIMARS，因为美国仅授权打击别尔哥罗德地区"
+  ],
+  "data": [
+   {
+    "metric": "俄军推进时间段",
+    "value": "过去三周",
+    "context": "波克罗夫斯克前线，截至2024年8月6日"
+   },
+   {
+    "metric": "乌军参与部队",
+    "value": "第22机械化旅及可能的第82空中突击旅 Stryker 装甲车",
+    "context": "库尔斯克州行动"
+   },
+   {
+    "metric": "俄军推进距离",
+    "value": "500-1000米",
+    "context": "新约克西部地区单次推进"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-17"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://threadreaderapp.com/thread/1571963979752443904.html",
+  "source_title": "Thread by @RALee85 on Thread Reader App – Thread Reader App",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ralee85」",
+  "topic": "俄乌战争赫尔松方向坦克战与俄军战场响应能力",
+  "claim": "俄罗斯军方在战场形势变化时响应迟缓，这是其根本性弱点，导致不必要损失",
+  "reasoning": "Rob Lee通过多个战例论证俄军决策缓慢的模式：蛇岛在乌克兰获得鱼叉导弹和远程火炮后位置已不可持续，但俄军等待并承受不必要损失；HIMARS系统能力众所周知且俄方提前数周得知乌方将获得，但仍措手不及；哈尔科夫方向乌军集结时俄军缺乏响应。他认为这反映俄军领导层决策高度集中化但质量低下的根本问题",
+  "evidence": [
+   "基辅获得鱼叉导弹和远程火炮后，俄罗斯在蛇岛的位置明显不可持续，但俄军等待并承受了不必要的损失",
+   "俄军提前数周知道乌克兰将获得HIMARS且其能力众所周知，但当乌克兰开始使用时俄军仍措手不及",
+   "俄军对乌克兰在哈尔科夫的兵力集结缺乏响应，这是同一模式的一部分",
+   "某些俄军部队中20%或更多士兵（包括军官）拒绝部署到乌克兰",
+   "精锐部队中应担任连长或副连长的上尉和高级中尉拒绝部署，显示拒服问题的严重程度",
+   "俄军决策仍然高度集中化，但决策质量低下或根本不做决策"
+  ],
+  "data": [
+   {
+    "metric": "部队拒服率",
+    "value": "20-40%",
+    "context": "某些俄军部队单位"
+   },
+   {
+    "metric": "缴获装备数量",
+    "value": "8辆MT-LB、6辆BTR-82、2辆T-72等共约30件",
+    "context": "根据9月12日推文统计"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-17"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://x.com/WarintheFuture/status/1820962836635627837",
+  "source_title": "Mick Ryan, AM on X: \"A good thread from @RALee85 on the new Ukrainian operation on the Kursk axis. Given defensive pressures elsewhere, particularly with Russia's advances towards Pokrovsk and Toretsk, the strategic rationale for this operation at this time is difficult to fathom. 1/5 🧵\" / X",
+  "published_on": "2024-08-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ralee85」",
+  "topic": "乌克兰库尔斯克方向新攻势的战略合理性",
+  "claim": "在俄罗斯于波克罗夫斯克和托列茨克方向推进、乌方防御压力巨大的情况下，此时发起库尔斯克攻势的战略合理性难以理解",
+  "reasoning": "俄罗斯当前拥有兵力和部队可用性优势（尤其步兵），这是乌克兰在顿涅茨克州难以阻挡俄军推进的主要原因。进攻行动通常比防御消耗更多人员和资源，且这类行动有时会产生自身惯性，吸引资源和注意力超出其战略重要性。虽然该行动可能出于政治动机（改变战略叙事）或作战动机（吸引俄军兵力离开顿巴斯），但考虑到俄方人力优势，俄罗斯可能同时覆盖两个方向而对东部乌克兰行动影响有限。",
+  "evidence": [
+   "俄罗斯在战争中当前最重要的因素是人力和部队可用性优势，特别是步兵优势",
+   "俄罗斯正向波克罗夫斯克和托列茨克方向推进，这是乌克兰面临的防御压力所在",
+   "进攻行动通常比防御行动消耗更多人员和资源",
+   "这类行动有时会产生自身惯性，吸引的资源和注意力超出其战略重要性",
+   "考虑到俄罗斯的人力优势，俄方可能同时覆盖库尔斯克和顿巴斯两个方向"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-17"
+ }
+]

@@ -1,0 +1,728 @@
+[
+  {
+    "name_en": "Michael Kofman",
+    "name_zh": "迈克尔·科夫曼",
+    "affiliation": "卡内基国际和平基金会 俄罗斯与欧亚项目 高级研究员；War on the Rocks 特约编辑",
+    "role": "俄军研究学者/播客主持人",
+    "platforms": [
+      "X",
+      "War on the Rocks 播客 The Russia Contingency",
+      "Foreign Affairs",
+      "Carnegie"
+    ],
+    "x_handle": "@KofmanMichael",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "俄军编制、动员、军工再生产与战役层面消耗战分析；多次赴乌前线实地调研后写成结构化战场评估",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "前CNA俄罗斯研究项目主任，现卡内基高级研究员，在Foreign Affairs、IISS《Survival》发表同行评审级文章（与Gady合著《Making Attrition Work》）。多次亲赴乌克兰前线取一手观察。对2023乌军反攻前景的谨慎判断被后续事实印证；他也公开承认早期对俄军战力评估过高。",
+    "controversies": "曾被批评在开战初期高估俄军能力，本人在播客中公开承认并修正",
+    "sources": [
+      "https://carnegieendowment.org/people/michael-kofman",
+      "https://www.iiss.org/globalassets/media-library---content--migration/files/online-analysis/survival-online/2024/01/66-1-gady-and-kofman.pdf",
+      "https://en.wikipedia.org/wiki/Michael_Kofman"
+    ]
+  },
+  {
+    "name_en": "Rob Lee",
+    "name_zh": "罗布·李",
+    "affiliation": "美国外交政策研究所（FPRI）欧亚项目 高级研究员；前美海军陆战队步兵军官",
+    "role": "军事分析师/开源情报研究者",
+    "platforms": [
+      "X",
+      "FPRI",
+      "War on the Rocks"
+    ],
+    "x_handle": "@RALee85",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "逐条汇编并核验俄乌双方战场影像，追踪乌军与俄军战术演进、装备使用、无人机战法；与Kofman联合发布实地考察报告",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "FPRI高级研究员、前陆战队步兵军官，曾在莫斯科任Alfa Fellow并在俄战略技术分析中心（CAST）访学。X上长期逐条转发并标注战场原始视频，注明来源与不确定性；与Kofman多次赴乌前线做一手访谈并公开发表考察报告。",
+    "controversies": "none",
+    "sources": [
+      "https://www.fpri.org/contributor/rob-lee/",
+      "https://www.fpri.org/news/2022/02/rob-lee-joins-fpris-eurasia-program-as-a-senior-fellow/",
+      "https://x.com/RALee85"
+    ]
+  },
+  {
+    "name_en": "Franz-Stefan Gady",
+    "name_zh": "弗朗茨-施特凡·加迪",
+    "affiliation": "国际战略研究所（IISS）研究员；战略分析顾问",
+    "role": "防务分析师",
+    "platforms": [
+      "X",
+      "IISS Survival",
+      "Foreign Policy"
+    ],
+    "x_handle": "@HoansSolo",
+    "youtube": "unknown",
+    "language": "英语/德语",
+    "theater": "俄乌",
+    "specialty": "作战层面（operational art）与兵种协同分析、乌军训练与编制改革、消耗战理论；多次赴乌前线实地调研",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "IISS研究员，在IISS旗舰期刊《Survival》与Kofman合著《Making Attrition Work: A Viable Theory of Victory for Ukraine》等严谨长文。强调可核实的作战层面细节而非口号，多次亲赴前线取一手素材。",
+    "controversies": "none",
+    "sources": [
+      "https://www.iiss.org/globalassets/media-library---content--migration/files/online-analysis/survival-online/2024/01/66-1-gady-and-kofman.pdf",
+      "https://de.wikipedia.org/wiki/Franz-Stefan_Gady"
+    ]
+  },
+  {
+    "name_en": "Konrad Muzyka",
+    "name_zh": "康拉德·穆兹卡",
+    "affiliation": "Rochan Consulting 创始人兼总监；FPRI 撰稿人",
+    "role": "独立防务分析师",
+    "platforms": [
+      "Substack (Ukraine Conflict Monitor)",
+      "X",
+      "YouTube"
+    ],
+    "x_handle": "@konrad_muzyka",
+    "youtube": "unknown",
+    "language": "英语/波兰语",
+    "theater": "俄乌",
+    "specialty": "俄罗斯与白俄罗斯部队结构、战略预警、兵力生成与战线推进量化跟踪；出版付费订阅的《Ukraine Conflict Monitor》定期战报",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "Rochan Consulting 创办人，专做俄/白俄/乌开源军事评估，Substack订阅近万。产品为逐周量化战线变动与部队编成追踪，方法与数据来源在报告中标注；同时是FPRI撰稿人。",
+    "controversies": "none",
+    "sources": [
+      "https://rochan-consulting.com/about-us/",
+      "https://www.fpri.org/contributor/konrad-muzyka/",
+      "https://substack.com/@rochanconsulting"
+    ]
+  },
+  {
+    "name_en": "Institute for the Study of War (ISW)",
+    "name_zh": "战争研究所",
+    "affiliation": "美国华盛顿智库，与 AEI 关键威胁项目（CTP）合作",
+    "role": "机构级日更战役评估",
+    "platforms": [
+      "官网",
+      "X"
+    ],
+    "x_handle": "@TheStudyofWar",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "每日《Russian Offensive Campaign Assessment》：逐条脚注、附控制区地图，综合俄方军事博主、乌军通报与地理定位影像做推进评估",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "自2022年起不间断日更战役评估，每条判断附编号脚注与原始链接，明确区分「已确认/有报道但未确认」，并标注评估地图的置信度。被主流媒体与政府机构广泛引用。",
+    "controversies": "被部分分析者批评倾向采信乌方叙事、对俄方推进的确认存在滞后；其地图口径与 DeepState 常有出入",
+    "sources": [
+      "https://understandingwar.org/analysis/russia-ukraine/russian-offensive-campaign-assessment/",
+      "https://www.understandingwar.org/"
+    ]
+  },
+  {
+    "name_en": "Oryx (Stijn Mitzer & Jakub Janovsky et al.)",
+    "name_zh": "Oryx（斯泰恩·米策等）",
+    "affiliation": "独立开源情报博客 Oryxspioenkop",
+    "role": "装备损失影像核证数据库",
+    "platforms": [
+      "博客",
+      "X"
+    ],
+    "x_handle": "@oryxspioenkop",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "仅统计有照片/视频视觉证据的装备损失，逐条附证据链接，分类为摧毁/受损/遗弃/缴获，是被学界与媒体最常引用的战损下限数据集",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "无机构背景但方法极透明：每一条战损都附可点击的影像证据，明确声明数字是「视觉确认下限」而非全部损失。被路透、BBC、多篇学术论文当作基准数据引用。",
+    "controversies": "数据只反映有影像的损失，存在系统性低估与双方影像发布量不对称的偏差；作者本人反复提示此局限",
+    "sources": [
+      "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html",
+      "https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html"
+    ]
+  },
+  {
+    "name_en": "GeoConfirmed",
+    "name_zh": "GeoConfirmed",
+    "affiliation": "志愿者驱动的开源地理定位核证项目",
+    "role": "影像地理定位核证平台",
+    "platforms": [
+      "官网互动地图",
+      "X"
+    ],
+    "x_handle": "@GeoConfirmed",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "对战场影像做逐条地理定位并公开定位推理过程，产出可交互的已核证事件地图与 ORBAT 图",
+    "score_A": 5,
+    "score_B": 10,
+    "score_C": 7,
+    "score_D": 10,
+    "rating_reason": "每个地图标记都链接回用于定位与确认的原始证据，公开「地理定位拆解」步骤，可复现性极高。非机构项目故 A 维低，但一手性与方法透明度是同类最高档。",
+    "controversies": "none",
+    "sources": [
+      "https://geoconfirmed.org/",
+      "https://geoconfirmed.org/map/ukraine"
+    ]
+  },
+  {
+    "name_en": "DeepState UA",
+    "name_zh": "DeepState（乌克兰）",
+    "affiliation": "乌克兰志愿者 OSINT 团队（DeepStateMap）",
+    "role": "前线控制区实时地图",
+    "platforms": [
+      "deepstatemap.live",
+      "Telegram",
+      "X"
+    ],
+    "x_handle": "@Deepstate_UA",
+    "youtube": "unknown",
+    "language": "乌克兰语/英语",
+    "theater": "俄乌",
+    "specialty": "基于地理定位影像与前线来源逐日更新控制区/灰区地图，常先于官方承认俄军推进，是研究者比对 ISW 地图的主要对照源",
+    "score_A": 5,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 6,
+    "rating_reason": "更新频率与颗粒度在公开地图中最高，多次比ISW更早标出俄军进入某聚居地，事后被证实。但与乌军方立场接近、消息源不全部公开，方法透明度弱于 GeoConfirmed。",
+    "controversies": "曾因地图标注与乌军总参说法冲突引发官方不满；部分推进判断依赖不公开的前线来源，外部难以复核",
+    "sources": [
+      "https://www.deepstatemap.live/en"
+    ]
+  },
+  {
+    "name_en": "Dara Massicot",
+    "name_zh": "达拉·马西科特",
+    "affiliation": "卡内基国际和平基金会 俄罗斯与欧亚项目 高级研究员；前 RAND 高级政策研究员、前美国防部俄军能力高级分析员",
+    "role": "俄军能力与人事制度分析师",
+    "platforms": [
+      "X",
+      "Carnegie",
+      "Foreign Affairs"
+    ],
+    "x_handle": "@massdara",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "俄军兵员招募/留存、人事与后勤制度、部队再生成能力；基于俄方官方文件与合同数据做量化研究",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "美国防部俄军能力前高级分析员，RAND出版《Russian Military Wartime Personnel Recruiting and Retention 2022–2023》等实证报告。分析以俄方公开合同、征兵数据、法规文本为底稿，结论有据可查。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/people/dara-massicot",
+      "https://www.rand.org/pubs/authors/m/massicot_dara.html",
+      "https://www.defensepriorities.org/people/dara-massicot/"
+    ]
+  },
+  {
+    "name_en": "Pavel Luzin",
+    "name_zh": "帕维尔·卢津",
+    "affiliation": "CEPA 高级研究员；塔夫茨大学弗莱彻学院访问学者；詹姆斯敦基金会高级研究员",
+    "role": "俄罗斯国防工业与军费研究者",
+    "platforms": [
+      "CEPA",
+      "Jamestown",
+      "Riddle Russia",
+      "X"
+    ],
+    "x_handle": "@PavelLuzin",
+    "youtube": "unknown",
+    "language": "英语/俄语",
+    "theater": "俄乌",
+    "specialty": "俄国防预算与国防工业产能拆解、导弹与航天工业、军工采购数据；擅长从俄联邦预算文件与企业报表反推真实产能",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "IMEMO国际关系博士（2012），CEPA高级研究员兼Fletcher访问学者、Jamestown高级研究员。其俄国防工业产能与预算分析基于俄官方预算行项与企业财报，可复核，被广泛引用为西方评估俄军工再生产的基础素材。",
+    "controversies": "none",
+    "sources": [
+      "https://cepa.org/author/pavel-luzin/",
+      "https://sites.tufts.edu/fletcherrussia/visiting-scholars/current-visiting-scholars/"
+    ]
+  },
+  {
+    "name_en": "Janis Kluge",
+    "name_zh": "扬尼斯·克鲁格",
+    "affiliation": "德国国际与安全事务研究所（SWP，柏林）研究员",
+    "role": "俄罗斯经济与制裁分析师",
+    "platforms": [
+      "X",
+      "SWP 出版物"
+    ],
+    "x_handle": "@jakluge",
+    "youtube": "unknown",
+    "language": "英语/德语",
+    "theater": "俄乌",
+    "specialty": "俄联邦预算与战时财政、制裁效果、卢布与油气收入、影子船队；用俄财政部与海关高频数据做图表化跟踪",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "SWP研究员，专长俄国家预算、制裁与贸易，有Google Scholar可查的学术产出。X上按月发布俄财政部预算执行数据与油气收入图表，均注明原始数据源，可自行复算；对俄经济「即将崩溃」类夸张说法长期做纠偏。",
+    "controversies": "none",
+    "sources": [
+      "https://www.swp-berlin.org/en/researcher/janis-kluge",
+      "https://scholar.google.com/citations?user=CyiyfagAAAAJ&hl=en"
+    ]
+  },
+  {
+    "name_en": "Conflict Intelligence Team (Ruslan Leviev)",
+    "name_zh": "冲突情报小组（鲁斯兰·列维耶夫）",
+    "affiliation": "独立俄罗斯调查组织 CIT（前身 War in Ukraine 项目）",
+    "role": "俄语开源+人力情报调查团队",
+    "platforms": [
+      "citeam.org",
+      "Telegram",
+      "YouTube",
+      "X"
+    ],
+    "x_handle": "@CITeam_en",
+    "youtube": "CIT YouTube 频道",
+    "language": "俄语/英语",
+    "theater": "俄乌",
+    "specialty": "通过俄军人社交媒体、讣告、军事单位调动痕迹追踪俄军部署与伤亡；也做每日战况播报与俄内政军事事件核查",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "由俄反对派活动人士列维耶夫创办的独立调查组织，自2014年起用开源加人力情报追踪俄军境外部署，早期即坐实俄正规军进入顿巴斯。调查报告公开证据链（照片元数据、社媒账号、卫星影像）。",
+    "controversies": "被俄当局列为「外国代理人」并对成员立案，团队流亡海外；因立场鲜明反战，被亲俄方指控有政治偏向",
+    "sources": [
+      "https://citeam.org/about-our-team/?lang=en",
+      "https://en.wikipedia.org/wiki/Conflict_Intelligence_Team",
+      "https://en.wikipedia.org/wiki/Ruslan_Leviev"
+    ]
+  },
+  {
+    "name_en": "Jack Watling",
+    "name_zh": "杰克·沃特林",
+    "affiliation": "英国皇家联合军种研究院（RUSI）陆战（应用军事科学）高级研究员",
+    "role": "陆战研究学者",
+    "platforms": [
+      "RUSI 报告",
+      "X",
+      "主流媒体评论"
+    ],
+    "x_handle": "@Jack_Watling",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "陆战战术与火力/电子战/杀伤链分析、乌军适应性研究；多次赴乌实地调研并与乌军参谋部门访谈后写成 RUSI 特别报告",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "RUSI应用军事科学高级研究员，与英军合作开发作战概念。其报告（如2022年《Ukraine at War: Paving the Road from Survival to Victory》）明确写明基于赴乌实地调研，方法与局限在报告中申明；对俄电子战压制乌方杀伤链、炮兵消耗等判断多被后续证实。",
+    "controversies": "部分报告基于乌方军方受访者的一手材料，外部无法独立复核；被批评偶有偏向乌方视角",
+    "sources": [
+      "https://www.rusi.org/people/jack-watling",
+      "https://static.rusi.org/special-report-202207-ukraine-final-web_0.pdf"
+    ]
+  },
+  {
+    "name_en": "Justin Bronk",
+    "name_zh": "贾斯汀·布朗克",
+    "affiliation": "RUSI 空权与技术高级研究员；《RUSI Defence Systems》编辑；挪威皇家空军学院副教授",
+    "role": "空权分析师",
+    "platforms": [
+      "RUSI",
+      "X"
+    ],
+    "x_handle": "@Justin_Br0nk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "俄乌空战、地面防空对抗、战斗机与巡航导弹/拦截弹产能瓶颈分析；对F-16、爱国者供应链有细致技术拆解",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "RUSI空权高级研究员，KCL防务研究博士。2022年初关于「俄空天军为何未能取得制空权」的分析在当时属少数派，后被广泛接受为标准解释。技术判断（如爱国者拦截弹产能受制于分包件而非弹体）具体到供应链层级，可验证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.rusi.org/people/bronk",
+      "https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine"
+    ]
+  },
+  {
+    "name_en": "Emil Kastehelmi (Black Bird Group)",
+    "name_zh": "埃米尔·卡斯特海尔米（黑鸟小组）",
+    "affiliation": "Black Bird Group 联合创始人、分析员（芬兰注册 NGO）",
+    "role": "OSINT 战线分析师",
+    "platforms": [
+      "Substack",
+      "X",
+      "Bluesky"
+    ],
+    "x_handle": "@emilkastehelmi",
+    "youtube": "unknown",
+    "language": "英语/芬兰语",
+    "theater": "俄乌",
+    "specialty": "结合商业卫星影像与地理定位做战线推进量化评估、俄军列宁格勒军区动向、无人机战；团队含专职地理空间分析员",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Black Bird Group 2021年底成立、2023年秋正式注册为芬兰NGO，团队分工明确（地理空间、信息环境等）。产出结合商业卫星影像与开源核证，态势更新逐条给证据；对推进速度的量化统计常被媒体引用。",
+    "controversies": "none",
+    "sources": [
+      "https://www.blackbirdgroup.fi/team",
+      "https://www.blackbirdgroup.fi/"
+    ]
+  },
+  {
+    "name_en": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+    "name_zh": "美杜莎版《Mediazona》与 BBC 俄语部「俄罗斯200」阵亡者统计项目",
+    "affiliation": "Mediazona + BBC 俄语部 + 志愿者团队",
+    "role": "俄军阵亡人员实名统计",
+    "platforms": [
+      "zona.media",
+      "BBC Russian"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "俄语/英语",
+    "theater": "俄乌",
+    "specialty": "从讣告、亲属社媒、地方媒体与地方政府公告中逐一确认俄军阵亡者姓名，并用遗产继承案卷等独立方法做总量外推",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "自2022年5月起维护俄军阵亡者实名清单，全部来自可核验公开来源；截至2026年2月已确认逾20万人。方法文档公开，明确区分「实名确认数」与「基于继承登记的总量估计」，是西方评估俄军伤亡最常引用的独立基准。",
+    "controversies": "Mediazona 在俄被列为「外国代理人」并遭封锁；实名确认数天然低于真实阵亡数，项目自身反复强调这一点",
+    "sources": [
+      "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+      "https://en.wikipedia.org/wiki/Russia_200"
+    ]
+  },
+  {
+    "name_en": "Andrew Perpetua",
+    "name_zh": "安德鲁·佩尔佩图阿",
+    "affiliation": "独立 OSINT 研究者（与 WarSpotting/装备损失核证社区协作）",
+    "role": "每日装备损失与地理定位核证者",
+    "platforms": [
+      "X",
+      "Substack/清单发布"
+    ],
+    "x_handle": "@AndrewPerpetua",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "每日发布经地理定位核证的俄乌双方装备损失清单，逐条给影像来源与坐标，并对交战双方的宣称做交叉核对",
+    "score_A": 3,
+    "score_B": 9,
+    "score_C": 6,
+    "score_D": 8,
+    "rating_reason": "长期高频发布逐条带坐标与影像链接的双方装备损失清单，是Oryx之外的重要补充源。无机构背景、语气带明显反俄倾向，故A维低；一手核证工作量与可复核性高。",
+    "controversies": "发帖语气强烈、与其他OSINT账号公开争吵，对「俄军推进叙事」的反驳有时先于证据；需与其他源交叉核对",
+    "sources": [
+      "https://x.com/AndrewPerpetua"
+    ]
+  },
+  {
+    "name_en": "Tatiana Stanovaya",
+    "name_zh": "塔季扬娜·斯坦诺瓦娅",
+    "affiliation": "卡内基俄罗斯欧亚中心高级研究员；R.Politik 创始人",
+    "role": "俄罗斯精英政治分析师",
+    "platforms": [
+      "R.Politik 订阅刊",
+      "Carnegie",
+      "X",
+      "Telegram"
+    ],
+    "x_handle": "@Stanovaya",
+    "youtube": "unknown",
+    "language": "俄语/英语/法语",
+    "theater": "俄乌",
+    "specialty": "克里姆林宫决策机制、普京身边精英博弈、战争对俄内政的反馈；解析俄官方表态与人事变动背后的权力逻辑",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "卡内基俄罗斯欧亚中心高级研究员，曾任莫斯科政治技术中心分析部主任15年，创办政治分析机构R.Politik。长于从俄官方文本与人事任免读出决策结构；对普里戈任兵变后克里姆林宫处置逻辑的解读被后续事实印证。",
+    "controversies": "其一手信息来自不具名俄精英圈消息源，外部无法核验；判断以定性推理为主、缺少可量化数据",
+    "sources": [
+      "https://carnegieendowment.org/russia-eurasia/people/tatiana-stanovaya",
+      "https://en.wikipedia.org/wiki/Tatiana_Stanovaya"
+    ]
+  },
+  {
+    "name_en": "Fabian Hoffmann",
+    "name_zh": "法比安·霍夫曼",
+    "affiliation": "挪威国防大学学院高级研究员；前奥斯陆大学核项目博士研究员；Missile Matters 作者",
+    "role": "导弹与核战略研究者",
+    "platforms": [
+      "Substack (Missile Matters)",
+      "X",
+      "Foreign Affairs/Foreign Policy"
+    ],
+    "x_handle": "@FRHoffmann1",
+    "youtube": "unknown",
+    "language": "英语/德语",
+    "theater": "俄乌",
+    "specialty": "俄乌远程打击与防空对抗的技术分析：导弹型号性能、产能与成本、深度打击战役效果评估；自建导弹数据集",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "挪威国防大学学院高级研究员，在《Journal of Strategic Studies》等同行评审期刊及CNA报告发表。Missile Matters 逾万订阅，附公开的 Missile Matters Dataset，分析给出型号级技术依据与来源，明确标注推断成分。",
+    "controversies": "none",
+    "sources": [
+      "https://missilematters.substack.com/about",
+      "https://substack.com/@frhoffmann"
+    ]
+  },
+  {
+    "name_en": "Kateryna Stepanenko",
+    "name_zh": "卡捷琳娜·斯捷帕年科",
+    "affiliation": "战争研究所（ISW）俄罗斯团队负责人、认知战项目副主任",
+    "role": "俄军兵力生成与信息空间分析师",
+    "platforms": [
+      "ISW",
+      "媒体访谈"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/乌克兰语/俄语",
+    "theater": "俄乌",
+    "specialty": "俄军兵力生成与集中化、普京决策模式、俄亲战民族主义 Telegram 生态；ISW 日更战役评估的核心作者之一",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "ISW俄罗斯团队负责人，自2022年2月起主持日更《Russian Offensive Campaign Assessment》并参与控制区地图制作。基辅出身、通俄乌双语，直接读取俄军事博主原文；著有巴赫穆特战役复盘、俄征兵与动员释疑等报告。",
+    "controversies": "其产品继承ISW整体倾向性争议（被指对乌方叙事采信偏多）",
+    "sources": [
+      "https://understandingwar.org/people/kateryna-stepanenko/"
+    ]
+  },
+  {
+    "name_en": "Nick Reynolds",
+    "name_zh": "尼克·雷诺兹",
+    "affiliation": "RUSI 陆战研究员",
+    "role": "陆战与兵棋推演研究者",
+    "platforms": [
+      "RUSI 报告",
+      "媒体评论"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "陆战力量运用、战场工事与伪装/热成像对抗、无人机时代的战术演变；与 Jack Watling 合著多份 RUSI 乌克兰实地调研报告",
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "RUSI陆战研究员，KCL战争研究本科与冲突安全发展硕士。与Watling合著的乌克兰战场适应报告基于赴乌访谈；对「战壕消失、伪装与热信号对抗」等战术细节的判断具体可核。个人独立发声较少，多以机构报告形式出现。",
+    "controversies": "none",
+    "sources": [
+      "https://www.rusi.org/people/reynolds"
+    ]
+  },
+  {
+    "name_en": "Alexandra Prokopenko",
+    "name_zh": "亚历山德拉·普罗科片科",
+    "affiliation": "卡内基俄罗斯欧亚中心高级研究员；柏林东欧与国际研究中心(ZOiS)附属研究员；2017–2022 任职俄罗斯中央银行与莫斯科高等经济学院",
+    "role": "俄罗斯宏观经济与战时财政分析师",
+    "platforms": [
+      "Carnegie",
+      "X",
+      "Foreign Affairs/The Bell"
+    ],
+    "x_handle": "@aprokopenko",
+    "youtube": "unknown",
+    "language": "俄语/英语",
+    "theater": "俄乌",
+    "specialty": "俄战时财政与货币政策、国家福利基金消耗、军费挤出效应；从央行/财政部数据与内部运作经验解读政策约束",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "曾在俄央行工作至2022年初，具制度内部视角；现为卡内基俄罗斯欧亚中心高级研究员。分析基于俄央行与财政部公开统计，对「制裁短期内不会压垮俄经济、但会缓慢侵蚀增长潜力」的判断与后续数据一致。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/russia-eurasia/people/alexandra-prokopenko",
+      "https://www.zois-berlin.de/en/about-us/staff/alexandra-prokopenko"
+    ]
+  },
+  {
+    "name_en": "H I Sutton (Covert Shores)",
+    "name_zh": "H·I·萨顿（Covert Shores）",
+    "affiliation": "独立防务分析师，Covert Shores 站长；曾为 Naval News/USNI 撰稿",
+    "role": "海军与水下作战 OSINT 分析师",
+    "platforms": [
+      "hisutton.com",
+      "Bluesky",
+      "YouTube"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://youtube.com/HISuttonCovertShores",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "黑海舰队动向、无人水面艇(USV)、潜艇与塞瓦斯托波尔基地卫星影像判读；自绘技术剖面图",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "独立海军OSINT分析师，长期用卫星影像与船舶追踪判读黑海舰队部署，多次先于官方指出俄舰艇撤离塞瓦斯托波尔、S-400阵地用充气假目标等细节，后被证实。技术图解自制，来源与推理在文中说明。",
+    "controversies": "none",
+    "sources": [
+      "https://www.hisutton.com/",
+      "https://navyleaders.com/speaker/h-i-sutton/"
+    ]
+  },
+  {
+    "name_en": "Mykola Bielieskov",
+    "name_zh": "米科拉·别列斯科夫",
+    "affiliation": "乌克兰总统直属国家战略研究所(NISS)研究员；乌 NGO「回来吧，活着」(Come Back Alive) 高级分析师",
+    "role": "乌方战略分析师",
+    "platforms": [
+      "Substack",
+      "Kyiv Independent",
+      "Atlantic Council"
+    ],
+    "x_handle": "@MBielieskov",
+    "youtube": "unknown",
+    "language": "乌克兰语/英语",
+    "theater": "俄乌",
+    "specialty": "乌军力量生成、西方援助节奏与作战需求匹配、俄乌战略平衡评估；从乌方角度提供制度内部视角",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "乌总统直属国家战略研究所研究员，同时任乌最大军援NGO「回来吧，活着」高级分析师，为RUSI、大西洋理事会、Kyiv Independent撰稿。长期强调「西方援助滴灌式供给导致战争拖长」，判断与后续弹药短缺进程吻合。",
+    "controversies": "任职于乌官方研究机构，立场天然亲乌，需与俄方与中立源交叉阅读",
+    "sources": [
+      "https://www.rusi.org/people/bielieskov",
+      "https://kyivindependent.com/author/mykola-bielieskov/",
+      "https://mbielieskov.substack.com/"
+    ]
+  },
+  {
+    "name_en": "Samuel Bendett",
+    "name_zh": "塞缪尔·本德特",
+    "affiliation": "CNA 俄罗斯研究项目顾问；CNAS 兼职高级研究员",
+    "role": "俄罗斯无人系统与军事AI分析师",
+    "platforms": [
+      "X",
+      "CNA/CNAS 报告",
+      "播客"
+    ],
+    "x_handle": "@sambendett",
+    "youtube": "unknown",
+    "language": "英语/俄语",
+    "theater": "俄乌",
+    "specialty": "俄乌无人机与无人地面/水面系统、俄军事AI与自主系统、俄军工技术论坛与志愿者造机生态；直接读俄语一手技术讨论",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "CNA俄罗斯研究项目顾问兼CNAS兼职高级研究员，专攻俄无人与自主系统。日常直接引用俄语Telegram技术圈与军工展会原始材料并附链接，对光纤无人机、FPV规模化等趋势的早期提示先于西方主流报道。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cna.org/our-experts/bendett-samuel",
+      "https://www.cnas.org/people/samuel-bendett"
+    ]
+  },
+  {
+    "name_en": "Rybar (Mikhail Zvinchuk)",
+    "name_zh": "Rybar（米哈伊尔·兹温丘克）",
+    "affiliation": "俄亲战军事 Telegram 频道 Rybar 创办人；曾任俄国防部新闻部门；据欧盟/英国制裁文件为普京2022年12月设立的动员协调工作组成员",
+    "role": "俄方军事 Telegram 频道",
+    "platforms": [
+      "Telegram",
+      "YouTube",
+      "Solovyov LIVE"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "俄语",
+    "theater": "俄乌",
+    "specialty": "俄方视角的战线制图与打击评估，产出精细地图；是研究俄方叙事与俄军内部不满情绪的重要监测对象，而非中立信源",
+    "score_A": 3,
+    "score_B": 6,
+    "score_C": 4,
+    "score_D": 2,
+    "rating_reason": "英国、欧盟、瑞士均对其实施制裁，制裁文件称其为俄动员协调工作组成员，并主持宣传频道Solovyov LIVE节目。地图产品制作精细但服务于俄方信息作战，选择性发布、不区分证实与宣称，仅可作为「俄方叙事监测源」使用，不宜作事实依据。",
+    "controversies": "被英/欧/瑞制裁，定性为俄对外信息战工具；多次发布无法核实的战果宣称",
+    "sources": [
+      "https://www.opensanctions.org/entities/Q119234000/",
+      "https://war-sanctions.gur.gov.ua/en/sanctions/persons/25299"
+    ]
+  },
+  {
+    "name_en": "Bellingcat (Eliot Higgins)",
+    "name_zh": "贝灵猫（埃利奥特·希金斯）",
+    "affiliation": "荷兰注册独立调查机构 Bellingcat",
+    "role": "开源调查机构",
+    "platforms": [
+      "bellingcat.com",
+      "X",
+      "Eyes on Russia 地图",
+      "Civilian Harm in Ukraine 数据库"
+    ],
+    "x_handle": "@bellingcat",
+    "youtube": "unknown",
+    "language": "英语/俄语/乌克兰语",
+    "theater": "俄乌",
+    "specialty": "战争罪与打击事件的影像核证与责任归属调查，MH17 击落链路重建；维护 Eyes on Russia 地图与乌克兰平民伤害数据库",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "其MH17调查被荷兰联合调查组与法院大量引用，方法论公开可复现（地理定位、时序定位、原始素材存档），明确声明开源手段的边界。乌战后维护 Eyes on Russia 与平民伤害数据库，逐条附证据。",
+    "controversies": "因接受德国马歇尔基金、NED 等基金会资助，被批评资金链影响选题独立性；调查员本人遭俄方威胁与信息战攻击",
+    "sources": [
+      "https://www.bellingcat.com/",
+      "https://www.bellingcat.com/author/eliothiggins/"
+    ]
+  },
+  {
+    "name_en": "Def Mon (@DefMon3)",
+    "name_zh": "Def Mon",
+    "affiliation": "独立 OSINT 分析者（匿名，瑞典背景）",
+    "role": "战线地图与地理定位分析者",
+    "platforms": [
+      "X",
+      "Telegram",
+      "defmon3.github.io"
+    ],
+    "x_handle": "@DefMon3",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "俄乌",
+    "specialty": "逐日追踪战线变动并自制地图、对影像做坐标级地理定位（常直接给出经纬度）",
+    "score_A": 2,
+    "score_B": 8,
+    "score_C": 6,
+    "score_D": 6,
+    "rating_reason": "X 上约28万关注的匿名分析者，长期发布带经纬度的地理定位与自制战线图，一手核证有可复核的坐标。但无机构背景、身份不公开，且贴文夹带大量党派性评论与嘲讽，与分析内容混杂，方法透明度中等。",
+    "controversies": "公开发表强烈党派政治评论（如直接把投票选择与支持普京挂钩），削弱其中立性；匿名身份使资历无法核实",
+    "sources": [
+      "https://x.com/DefMon3",
+      "https://threadreaderapp.com/user/DefMon3"
+    ]
+  }
+]

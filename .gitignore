@@ -1,0 +1,23 @@
+.venv/
+.env
+.secrets/
+__pycache__/
+*.pyc
+scratch/
+data/notion_ids.json
+*cookies*.txt
+*cookies*.json
+AGENTS.md
+*.bak
+*.tmp
+data/thesis/_body_cache_*.json
+
+# 内网专用：含 vibe-mcp 内网域名与内网仓库名，绝不进公网 repo
+# （内网 monorepo 走 rsync 整目录同步，不受此影响）
+scripts/publish_vibe_mirror.sh
+
+# 运行日志：publish 日志会打印内网 git 地址，绝不进公网 repo
+logs/
+
+# 重建脚本含红线扫描正则（必然含内网关键词），不进公网
+scripts/rebuild_public_repo.sh

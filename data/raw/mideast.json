@@ -1,0 +1,677 @@
+[
+  {
+    "name_en": "Babak Taghvaee",
+    "name_zh": "巴巴克·塔格瓦伊",
+    "affiliation": "自由撰稿人；Middle East Forum Observer / Washington Institute 外部作者；Iran International 供稿人；AirForces Monthly、Key.Aero、CRFS 博客撰稿",
+    "role": "伊朗裔流亡防务与安全记者、航空史作者、自称 OSINT 专家",
+    "platforms": [
+      "X",
+      "Middle East Forum",
+      "Iran International",
+      "Key.Aero",
+      "AirForces Monthly"
+    ],
+    "x_handle": "@BabakTaghvaee1",
+    "youtube": "unknown",
+    "language": "英语/波斯语",
+    "theater": "中东",
+    "specialty": "伊朗空军与航空工业、伊朗民航制裁规避（马汉航空购机路线）、IRGC 导弹与空袭战报速递；对伊朗-以色列-美国空战做即时战报式播报。",
+    "score_A": 6,
+    "score_B": 5,
+    "score_C": 3,
+    "score_D": 3,
+    "rating_reason": "机构履历确实存在（MEF Observer、Washington Institute 2024 文章、Iran International 作者页、Key.Aero），伊朗航空/制裁规避线索有独家性。但战时速报大量为不可核验的匿名'内部消息'，实时战报（如具体机型投弹数、拦截弹消耗量）几乎不给一手证据；连转载他的博主也公开表示无法判断其准确度。方法透明度低，故 C/D 压低。",
+    "controversies": "X 上多次被他人公开要求删帖/更正，例如 2026-03 有用户在其贴下称'Not true. Please remove your post it is giving false information'；亲以立场明显。转载者 BattleSwarm Blog 在引用其 B-1B/B-2 轰炸声明时明确写道'不知道是哪型轰炸机说明消息源缺乏一手信息'。他自述 2018 年账号曾被封。关于 2026-09-01 '伊朗对约旦美军基地发射 32 枚弹道导弹、美军消耗 96-128 枚 PAC-3、全球库存仅剩千余枚'的说法，公开检索未找到独立权威来源佐证，属单源未证实。",
+    "sources": [
+      "https://www.meforum.org/babak-taghvaee",
+      "https://www.washingtoninstitute.org/experts/babak-taghvaee",
+      "https://www.iranintl.com/en/author/babak-taghvaee",
+      "https://www.key.aero/author/babak-taghvaee",
+      "https://x.com/zeroDEIUSA/status/2040188594686431398",
+      "https://www.battleswarmblog.com/?tag=babak-taghvaee",
+      "https://x.com/babaktaghvaee1"
+    ]
+  },
+  {
+    "name_en": "Fabian Hinz",
+    "name_zh": "法比安·欣茨",
+    "affiliation": "International Institute for Strategic Studies (IISS) 防务与军事分析研究员；曾为 CNS/Middlebury、FPRI 供稿",
+    "role": "中东导弹与火箭扩散研究员、开源分析师",
+    "platforms": [
+      "X",
+      "IISS",
+      "播客"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/德语/波斯语/阿拉伯语",
+    "theater": "中东",
+    "specialty": "伊朗弹道导弹与巡航导弹型号识别、伊朗向真主党/胡塞/伊拉克民兵的导弹技术转移路径；著有 IISS《Missile multinational: Iran's new approach to missile proliferation》研究报告。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "中东导弹扩散领域公认顶级开源分析者：IISS 机构背书，长期用残骸照片、阅兵影像、伊朗语原始文献做型号比对，报告标注证据与不确定性，方法可复核。伊朗导弹型号与射程判读在多轮伊以交火中被后续官方信息反复印证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.iiss.org/research-paper/2021/04/iran-missile-proliferation-strategy",
+      "https://europeanleadershipnetwork.org/person/fabian-hinz/",
+      "https://www.fpri.org/contributor/fabian-hinz",
+      "https://de.wikipedia.org/wiki/Fabian_Hinz"
+    ]
+  },
+  {
+    "name_en": "Decker Eveleth",
+    "name_zh": "德克尔·埃夫莱思",
+    "affiliation": "CNA（美国海军分析中心）副研究分析员；曾任 CNS/Middlebury 研究员",
+    "role": "卫星影像与导弹/核力量部署分析师",
+    "platforms": [
+      "X",
+      "CNA",
+      "Foreign Policy"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "商业卫星影像判读：伊朗地下导弹基地与发射井、核设施打击后毁伤评估、防空阵地部署识别；同类方法此前用于发现中国导弹发射井群，专业度获主流媒体验证。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "纯一手影像分析派，成果多以带坐标与影像日期的形式发布，可被他人独立复核；因发现新疆导弹发射井群而获国际主流媒体广泛引用，方法论公开。中东线主要贡献是伊朗核/导弹设施打击毁伤评估。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cna.org/our-experts/eveleth-decker",
+      "https://en.wikipedia.org/wiki/Decker_Eveleth",
+      "https://foreignpolicy.com/author/decker-eveleth/"
+    ]
+  },
+  {
+    "name_en": "Raz Zimmt",
+    "name_zh": "拉兹·齐姆特",
+    "affiliation": "以色列国家安全研究所（INSS）'伊朗与什叶派轴心'研究项目主任；特拉维夫大学 Alliance 伊朗研究中心研究员",
+    "role": "伊朗研究学者",
+    "platforms": [
+      "X",
+      "INSS",
+      "个人网站 razzimmt.com"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "希伯来语/波斯语/英语",
+    "theater": "中东",
+    "specialty": "伊朗国内政治、IRGC 与'抵抗轴心'（真主党、胡塞、伊拉克民兵）的关系、伊朗媒体与社交媒体舆情监测；直接读波斯语一手材料。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "INSS 伊朗项目负责人，长期以波斯语原始媒体与官方声明为素材做趋势判读，写作区分'已知/推测'。对伊朗在多轮对以冲突中的升级门槛判断被后续事态多次印证。立场为以色列建制派安全智库，需注意视角偏向。",
+    "controversies": "none（隶属以色列官方色彩智库，分析视角天然亲以，非造假争议）",
+    "sources": [
+      "https://www.inss.org.il/person/zimmtraz/",
+      "https://www.razzimmt.com/?page_id=20",
+      "https://en-humanities.tau.ac.il/ACIS-razimmt-eng-welcome"
+    ]
+  },
+  {
+    "name_en": "Farzin Nadimi",
+    "name_zh": "法尔津·纳迪米",
+    "affiliation": "Washington Institute for Near East Policy 高级研究员；Middle East Institute 客座撰稿人",
+    "role": "伊朗与海湾军事、安全事务分析员",
+    "platforms": [
+      "Washington Institute",
+      "MEI"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/波斯语",
+    "theater": "中东",
+    "specialty": "伊朗海军与 IRGC 海上力量、无人机与反舰导弹、霍尔木兹海峡与海湾兵力态势；对美军中东兵力调动的作战含义解读。",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "华盛顿近东政策研究所常驻伊朗军事专家，PolicyWatch 系列文章附装备参数与来源说明，技术判断（伊朗无人机/反舰导弹能力）较少被证伪。偏政策分析而非自采影像，故一手性中上。",
+    "controversies": "none",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/farzin-nadimi",
+      "https://www.mei.edu/person/farzin-nadimi/",
+      "https://www.washingtoninstitute.org/policy-analysis/changing-irans-coercive-calculus-requires-more-massing-us-forces"
+    ]
+  },
+  {
+    "name_en": "Uzi Rubin",
+    "name_zh": "乌兹·鲁宾",
+    "affiliation": "以色列导弹防御组织（IMDO）创始主任（1991-1999，'箭'式反导计划）；耶路撒冷战略与安全研究所（JISS）、BESA 中心高级研究员",
+    "role": "导弹防御工程师出身的资深分析者",
+    "platforms": [
+      "JISS",
+      "BESA",
+      "以色列媒体"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": "中东",
+    "specialty": "以色列多层反导体系（箭-2/3、大卫投石索、铁穹）性能与拦截率评估、伊朗与真主党火箭/导弹威胁量化建模；对每轮弹道导弹袭击后的拦截率给出工程口径统计。",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "以色列反导体系奠基人，具备型号级工程知识，其战后拦截率与弹着分析常成为公开讨论的基准数据。局限是以色列官方背景、部分数据依赖军方口径无法独立核验。",
+    "controversies": "none（前以色列国防部官员，立场亲以）",
+    "sources": [
+      "https://jiss.org.il/en/author/urubin/",
+      "https://besacenter.org/author/urubin/",
+      "https://en.wikipedia.org/wiki/Uzi_Rubin"
+    ]
+  },
+  {
+    "name_en": "Emanuel Fabian",
+    "name_zh": "埃马努埃尔·法比安",
+    "affiliation": "The Times of Israel 军事记者",
+    "role": "以色列国防线记者",
+    "platforms": [
+      "X",
+      "Telegram",
+      "Times of Israel"
+    ],
+    "x_handle": "@manniefabian",
+    "youtube": "unknown",
+    "language": "英语/希伯来语",
+    "theater": "中东",
+    "specialty": "以色列国防军（IDF）行动的逐日实时报道：加沙、黎巴嫩、也门方向空袭与伤亡通报、IDF 官方声明的第一时间英文化与交叉核对。",
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "以色列英文媒体中最系统的 IDF 战线记录者，几乎所有条目标注消息来源（IDF 声明/军方简报/自采），错误后会公开更正，是战时时间线的基础参考层。局限：主要转述 IDF 口径，巴方伤亡数据依赖第三方。",
+    "controversies": "none",
+    "sources": [
+      "https://www.timesofisrael.com/writers/emanuel-fabian/",
+      "https://mann.ie/",
+      "https://muckrack.com/emanuel-fabian"
+    ]
+  },
+  {
+    "name_en": "Mohammed Albasha (Mohammed al-Basha)",
+    "name_zh": "穆罕默德·巴沙",
+    "affiliation": "Basha Report LLC 创始人；曾任也门驻美使馆发言人（约2005-2015）；AGSI（海湾研究所）撰稿人",
+    "role": "也门与红海方向独立 OSINT 分析师",
+    "platforms": [
+      "X",
+      "Substack（Basha Report）",
+      "LinkedIn"
+    ],
+    "x_handle": "@Yemen_Analyst",
+    "youtube": "unknown",
+    "language": "阿拉伯语/英语",
+    "theater": "中东",
+    "specialty": "胡塞武装（安萨鲁拉）内部人事与军事结构、红海/亚丁湾对商船与美舰的袭击战术、也门部落与政府军动态；有大量也门本地人脉与阿语一手源。",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "也门方向公认最可靠的独立分析者之一，被路透/WSJ 等主流媒体广泛引用；阿语一手源+本地人脉带来的独家消息命中率高。部分独家来自不可披露的匿名信源，透明度受限。",
+    "controversies": "none",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mohammed_al-Basha",
+      "https://agsi.org/people/mohammed-al-basha/",
+      "https://substack.com/@bashareport",
+      "https://www.linkedin.com/in/bashareport"
+    ]
+  },
+  {
+    "name_en": "Michael Knights",
+    "name_zh": "迈克尔·奈茨",
+    "affiliation": "Washington Institute for Near East Policy 高级研究员（Bernstein Fellow）；'Militia Spotlight'项目共同主持；AGSI 撰稿人",
+    "role": "伊拉克/也门/海湾军事安全研究员",
+    "platforms": [
+      "Washington Institute",
+      "X",
+      "播客"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "伊朗支持的伊拉克什叶派民兵（Kataib Hezbollah 等）袭击事件数据库、胡塞对沙特/以色列/航运的远程打击能力、海湾国家防空态势；'Militia Spotlight'逐次记录袭击并做归因。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Militia Spotlight 是公开来源中最系统的伊朗代理人袭击事件数据集，逐条列出时间/地点/弹药/归因证据强度，方法透明可复核；本人有大量伊拉克实地调研经历。政策立场偏鹰派需注意。",
+    "controversies": "none",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/michael-knights",
+      "https://www.washingtoninstitute.org/policy-analysis/series/militia-spotlight",
+      "https://agsi.org/people/michael-knights/"
+    ]
+  },
+  {
+    "name_en": "Charles Lister",
+    "name_zh": "查尔斯·利斯特",
+    "affiliation": "Middle East Institute 叙利亚项目与反恐/极端主义项目主任、高级研究员",
+    "role": "叙利亚武装团体研究者",
+    "platforms": [
+      "X",
+      "MEI",
+      "Foreign Policy"
+    ],
+    "x_handle": "@Charles_Lister",
+    "youtube": "unknown",
+    "language": "英语/阿拉伯语",
+    "theater": "中东",
+    "specialty": "叙利亚反对派与圣战组织谱系（HTS/沙拉政权转型）、叙利亚过渡政府与各派兵力整合、跨境走私与captagon 经济；与叙利亚各派人物有长期直接接触。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "自 2011 年起持续跟踪叙利亚武装派系，掌握大量派系一手接触与内部文件，2024-25 叙政权更替期的判断与后续事态吻合度高；2025 年在 MEI 主持与叙总统沙拉的公开对话，机构与渠道能力兼具。",
+    "controversies": "none（长期被亲阿萨德/亲俄阵营指责'亲反对派'，但无公开证伪记录）",
+    "sources": [
+      "https://www.mei.edu/profile/charles-lister",
+      "https://newlinesinstitute.org/people/charles-lister/",
+      "https://foreignpolicy.com/author/charles-lister/",
+      "https://sana.sy/en/international/2269236/"
+    ]
+  },
+  {
+    "name_en": "Aaron Y. Zelin",
+    "name_zh": "亚伦·泽林",
+    "affiliation": "Washington Institute for Near East Policy Gloria & Ken Levy 高级研究员；Jihadology.net 创办人",
+    "role": "圣战组织原始资料研究者",
+    "platforms": [
+      "Jihadology.net",
+      "Washington Institute",
+      "X"
+    ],
+    "x_handle": "@azelin",
+    "youtube": "unknown",
+    "language": "英语/阿拉伯语",
+    "theater": "中东",
+    "specialty": "叙利亚与北非圣战组织原始宣传材料的收集、翻译与归档（Jihadology 为该领域标准资料库）、外国战斗人员流动、HTS 治理研究。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Jihadology 是圣战组织一手文件的公开标准档案库，学界与情报界普遍引用；其结论建立在可下载的原始材料上，读者可自行核验，方法透明度极高。",
+    "controversies": "none",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/aaron-y-zelin",
+      "https://jihadology.net/about/about-me/",
+      "https://aaronzelin.com/"
+    ]
+  },
+  {
+    "name_en": "Hanin Ghaddar",
+    "name_zh": "哈宁·加达尔",
+    "affiliation": "Washington Institute for Near East Policy Friedmann 高级研究员（Rubin 家族阿拉伯政治项目）",
+    "role": "黎巴嫩/真主党与什叶派政治分析员",
+    "platforms": [
+      "Washington Institute",
+      "X",
+      "黎巴嫩媒体"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "阿拉伯语/英语",
+    "theater": "中东",
+    "specialty": "真主党财政与社会网络（Al-Qard Al-Hassan 等）、黎巴嫩什叶派社群舆情、真主党战后重建与武装解除议题；曾任 NOW Lebanon 主编。",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "黎巴嫩本土出身、阿语一手源，2026 年 2 月就'打击真主党更广泛权力生态'向美国国会作证，政策影响力大。以定性判断与内部消息为主，缺少可复核的量化数据，故 B/D 中等。",
+    "controversies": "none（被亲真主党媒体指为亲美反黎抵抗阵营，属立场争议而非事实错误）",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/hanin-ghaddar",
+      "https://www.washingtoninstitute.org/policy-analysis/targeting-hezbollahs-broader-ecosystem-power",
+      "https://www.congress.gov/119/meeting/house/118912/witnesses/HHRG-119-FA13-Bio-GhaddarH-20260203.pdf"
+    ]
+  },
+  {
+    "name_en": "Joe Truzman",
+    "name_zh": "乔·特鲁兹曼",
+    "affiliation": "FDD's Long War Journal 编辑兼高级研究分析员；FDD 军事与政治权力中心（CMPP）撰稿人",
+    "role": "巴勒斯坦武装团体与真主党追踪分析师",
+    "platforms": [
+      "X",
+      "Long War Journal"
+    ],
+    "x_handle": "@JoeTruzman",
+    "youtube": "unknown",
+    "language": "英语/希伯来语/阿拉伯语",
+    "theater": "中东",
+    "specialty": "哈马斯卡桑旅、伊斯兰圣战组织、真主党等团体自发布战报视频的收集与逐条比对；用武装团体自身宣称与 IDF 通报做交叉验证，追踪各派系交火强度曲线。",
+    "score_A": 7,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "长期系统采集武装团体阿语原始声明与视频并附原始链接，可复核性强，是加沙/黎巴嫩战线交火统计的常用来源。所属 FDD 为亲以鹰派智库，选题与措辞有明显立场倾向。",
+    "controversies": "none（机构立场偏向被批评，无公开造假记录）",
+    "sources": [
+      "https://www.fdd.org/team/joe-truzman/",
+      "https://www.longwarjournal.org/archives/author/mihai_4-joe-truzman-2020",
+      "https://muckrack.com/joe-truzman/articles"
+    ]
+  },
+  {
+    "name_en": "Avi Scharf",
+    "name_zh": "阿维·沙尔夫",
+    "affiliation": "Haaretz（《国土报》）国家安全、网络与 OSINT 主编；前 Haaretz 英文版总编",
+    "role": "以色列 OSINT 调查记者",
+    "platforms": [
+      "X",
+      "Haaretz"
+    ],
+    "x_handle": "@avischarf",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": "中东",
+    "specialty": "航班/船舶追踪与 ADS-B 数据分析：美军向中东的战略投送、以色列与伊朗方向的空中加油机与运输机活动、秘密航线识别；曾获欧洲新闻奖提名。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "以公开 ADS-B/AIS 数据做兵力调动判读的代表性记者，结论通常附航班号、时间与航迹，可被读者自行复核；其对美军中东最大规模部署的判读被后续事实印证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.haaretz.com/ty-WRITER/0000017f-da25-d938-a17f-fe2f2c1f0000",
+      "https://www.europeanpressprize.com/laureate/avi-scharf/",
+      "https://muckrack.com/avi-scharf-1/articles"
+    ]
+  },
+  {
+    "name_en": "Emile Hokayem",
+    "name_zh": "埃米尔·霍卡耶姆",
+    "affiliation": "International Institute for Strategic Studies (IISS) 地区安全主任、中东安全高级研究员",
+    "role": "中东地区安全战略分析家",
+    "platforms": [
+      "X",
+      "IISS",
+      "国际会议"
+    ],
+    "x_handle": "@emile_hokayem",
+    "youtube": "unknown",
+    "language": "阿拉伯语/法语/英语",
+    "theater": "中东",
+    "specialty": "黎巴嫩与叙利亚政治军事、伊朗地区战略与'抵抗轴心'的政治经济基础、海湾国家安全架构；擅长把战术事件放回地区战略框架解读。",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "IISS 中东安全负责人，黎巴嫩出身、阿法英三语，长期对黎叙局势给出反共识但事后被验证的判断（如对叙反对派与伊朗代理网络韧性的评估）。以战略评论为主、非自采数据，一手性打中等。",
+    "controversies": "none",
+    "sources": [
+      "https://www.iiss.org/people/middle-east/emile-hokayem",
+      "https://agsi.org/people/emile-hokayem/",
+      "https://www.ispionline.it/en/publication/a-new-security-landscape-in-the-middle-east-interview-with-emile-hokayem-221023"
+    ]
+  },
+  {
+    "name_en": "Jeffrey Lewis",
+    "name_zh": "杰弗里·刘易斯",
+    "affiliation": "Middlebury 国际研究学院 James Martin 防扩散研究中心（CNS）东亚防扩散项目主任、教授；Arms Control Wonk 创办人",
+    "role": "核不扩散与导弹项目学者",
+    "platforms": [
+      "X",
+      "armscontrolwonk.com",
+      "播客 Arms Control Wonk"
+    ],
+    "x_handle": "@ArmsControlWonk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "用商业卫星影像+公开文件评估伊朗核计划（福尔多、纳坦兹、伊斯法罕）打击毁伤与浓缩铀去向、伊朗导弹试验场识别；对官方毁伤宣称提供独立技术反证。",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CNS 团队的影像与技术分析长期作为主流媒体核查伊朗核设施说法的独立基准；坚持公布影像日期、坐标与推理链，也公开修正自身判断。缺点是对政治意图判断偏保守、时而与美以官方结论冲突。",
+    "controversies": "none（其对伊朗核设施打击效果的保守评估被鹰派批评，属分歧非造假）",
+    "sources": [
+      "https://www.middlebury.edu/institute/people/jeffrey-lewis",
+      "https://www.armscontrolwonk.com/",
+      "https://en.wikipedia.org/wiki/Jeffrey_Lewis_(academic)"
+    ]
+  },
+  {
+    "name_en": "Ali Vaez",
+    "name_zh": "阿里·瓦埃兹",
+    "affiliation": "International Crisis Group 伊朗项目主任、总裁高级顾问",
+    "role": "伊朗核外交与谈判分析者",
+    "platforms": [
+      "X",
+      "Crisis Group",
+      "Foreign Affairs"
+    ],
+    "x_handle": "@AliVaez",
+    "youtube": "unknown",
+    "language": "波斯语/英语/法语",
+    "theater": "中东",
+    "specialty": "伊朗核谈判（JCPOA 及其后续框架）、IAEA 核查与浓缩铀库存政治、制裁与升级螺旋的路径分析；与伊朗与西方谈判方均有直接接触渠道。",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "Crisis Group 伊朗项目负责人，长期直接参与'二轨'沟通，对谈判可行区间的判断多次先于公开事态；报告标注消息来源类型与不确定性。军事技术细节非其强项，一手性以外交渠道信息为主。",
+    "controversies": "none（被部分鹰派批评对德黑兰过于'理解'，属立场争议）",
+    "sources": [
+      "https://www.crisisgroup.org/who-we-are/people/ali-vaez",
+      "https://www.foreignaffairs.com/authors/ali-vaez",
+      "https://agsi.org/people/ali-vaez/"
+    ]
+  },
+  {
+    "name_en": "Tal Inbar",
+    "name_zh": "塔尔·因巴尔",
+    "affiliation": "Inbar Space 独立研究者；以色列 Fisher 航空航天战略研究所前空间与无人机研究中心主任；Missile Defense Advocacy Alliance 研究员",
+    "role": "导弹与航天项目分析师",
+    "platforms": [
+      "X",
+      "inbarspace.com"
+    ],
+    "x_handle": "@inbarspace",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": "中东",
+    "specialty": "伊朗与也门弹道导弹/运载火箭型号识别、发射场卫星影像判读、以色列反导拦截影像分析；近 30 年导弹与航天项目追踪。",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "型号级技术识别能力强，常在袭击后第一时间凭残骸与尾焰影像做出型号判定并给出比对依据，多次先于官方确认；隶属亲反导游说机构，须注意其对拦截系统效能的乐观倾向。",
+    "controversies": "none",
+    "sources": [
+      "https://www.inbarspace.com/about/",
+      "https://www.missiledefenseadvocacy.org/about/research-fellows/tal-inbar/",
+      "https://www.nknews.org/content_author/tal-inbar/"
+    ]
+  },
+  {
+    "name_en": "Conflict Armament Research (CAR)",
+    "name_zh": "冲突军备研究组织",
+    "affiliation": "英国注册的独立武器溯源调查机构（含也门、伊拉克、叙利亚现场调查队）",
+    "role": "实地武器取证与溯源机构",
+    "platforms": [
+      "conflictarm.com",
+      "iTrace 数据库",
+      "ArcGIS StoryMaps"
+    ],
+    "x_handle": "@conflictarm",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "胡塞武装导弹/无人机部件的实地取证与序列号溯源（《Powering the Houthis》系列）、也门地雷与 IED、叙伊战场缴获武器的供应链回溯至伊朗与第三国厂商。",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "极少数真正做战场实地取证的机构：调查员亲赴现场记录部件编号、厂商标识并回溯采购链，报告附照片与编号，可被独立复核；结论多次被联合国专家组与各国制裁清单采纳。属机构非个人。",
+    "controversies": "none",
+    "sources": [
+      "https://www.conflictarm.com/perspectives/powering-the-houthis/",
+      "https://www.conflictarm.com/publications/",
+      "https://storymaps.arcgis.com/stories/7c9e800562ab479c9382268bc75388eb"
+    ]
+  },
+  {
+    "name_en": "Nick Waters",
+    "name_zh": "尼克·沃特斯",
+    "affiliation": "Bellingcat 开源调查员（2016 年起）；前英国陆军军官",
+    "role": "冲突开源调查记者",
+    "platforms": [
+      "X",
+      "Bellingcat"
+    ],
+    "x_handle": "@N_Waters89",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "叙利亚化学武器袭击、加沙关键事件（如医院爆炸、弹道判读）的影像地理定位与时间校验、商业卫星影像与视频交叉验证；也做伪造影像的辨伪。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "Bellingcat 方法论标准做法：每一步地理定位与时间戳都在文中展示原始素材与推理，读者可完全复现；在加沙争议事件中常同时指出'哪些说法证据不足'，包括打脸各方。军事背景带来战术判读能力。",
+    "controversies": "none（Bellingcat 整体被亲俄/亲巴阵营指为西方资助，个人无公开证伪记录）",
+    "sources": [
+      "https://www.bellingcat.com/author/nick-waters/",
+      "https://www.europeanpressprize.com/laureate/nick-waters/"
+    ]
+  },
+  {
+    "name_en": "Amir Bohbot",
+    "name_zh": "阿米尔·博赫博特",
+    "affiliation": "Walla! News 军事与国防事务编辑；The Jerusalem Post 军事记者；本-古里安大学",
+    "role": "以色列资深军事记者",
+    "platforms": [
+      "Walla!",
+      "Jerusalem Post"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": "中东",
+    "specialty": "IDF 内部决策、军种建设与预算、加沙与黎巴嫩地面作战的部队级细节；希伯来语媒体中长期跑军方线、拥有军内消息源。",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 6,
+    "rating_reason": "以色列主流媒体资深军事线记者，独家常涉及 IDF 内部争论与作战安排，事后多被证实；但多为不具名军方消息源、受以色列军事审查限制，透明度受限。",
+    "controversies": "none",
+    "sources": [
+      "https://www.jpost.com/author/amir-bohbot",
+      "https://il.linkedin.com/in/dr-amir-bohbot-36424b1a4",
+      "https://www.bgu.ac.il/en/people/bohbota/"
+    ]
+  },
+  {
+    "name_en": "Elijah J. Magnier",
+    "name_zh": "伊利亚·马格尼耶",
+    "affiliation": "独立战地记者与政治分析师（35 年以上中东战地经验）；Middle East Eye 等媒体撰稿",
+    "role": "抵抗轴心方向的战地记者/评论员",
+    "platforms": [
+      "X",
+      "ejmagnier.com",
+      "Middle East Eye"
+    ],
+    "x_handle": "@ejmalrai",
+    "youtube": "unknown",
+    "language": "阿拉伯语/英语/法语",
+    "theater": "中东",
+    "specialty": "真主党、伊朗与伊拉克民兵一侧的内部消息与战略意图解读；黎巴嫩、叙利亚、伊拉克现场经验丰富，能拿到抵抗轴心高层信源。",
+    "score_A": 6,
+    "score_B": 7,
+    "score_C": 5,
+    "score_D": 4,
+    "rating_reason": "具备罕见的'轴心一侧'信源通道，可作为对冲西方/以色列单一叙事的信息源；但几乎全部关键结论依赖不可核验的匿名'高层消息人士'，无影像或文件佐证，且立场明显同情抵抗轴心，多起战况与谈判预测未兑现。宜作为参考视角而非事实基准。",
+    "controversies": "长期被西方与以色列分析圈批评为亲真主党/亲伊朗宣传渠道，其匿名信源型独家常无法被独立验证；本人否认。无第三方权威机构的正式证伪裁定。",
+    "sources": [
+      "https://ejmagnier.com/about/",
+      "https://www.middleeasteye.net/users/lijah-j-magnier"
+    ]
+  },
+  {
+    "name_en": "David Albright",
+    "name_zh": "戴维·奥尔布赖特",
+    "affiliation": "科学与国际安全研究所（ISIS/isis-online.org）创始人兼所长；前 IAEA 伊拉克核查行动顾问",
+    "role": "核不扩散技术分析者",
+    "platforms": [
+      "X",
+      "isis-online.org",
+      "智库报告"
+    ],
+    "x_handle": "@TheGoodISIS",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "中东",
+    "specialty": "伊朗浓缩铀库存与'突破时间'测算、离心机数量与产能建模、核设施卫星影像判读；著有《Iran's Perilous Pursuit of Nuclear Weapons》。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 6,
+    "score_D": 8,
+    "rating_reason": "ISIS 的伊朗浓缩量与突破时间估算是公开讨论的常用基准，方法（IAEA 报告数据+离心机分离功建模）在报告中完整披露可复算。但其历史上多次给出偏紧的'突破时间'与偏鹰派解读，长期被同行批评倾向于最坏情形，故命中率一项保留。",
+    "controversies": "长期被部分军控学界批评其伊朗'突破时间'与武器化进展评估偏悲观/鹰派，且早年对伊拉克大规模杀伤性武器议题的公开判断亦受争议；技术数据本身通常源自 IAEA 公开报告，可复核。",
+    "sources": [
+      "https://isis-online.org/",
+      "https://isis-online.org/books/irans-perilous-pursuit-of-nuclear-weapons",
+      "https://www.iiss.org/podcasts/arms-control-primer/2024/12/assessing-the-possibility-of-iran-going-nuclear-with-david-albright/"
+    ]
+  },
+  {
+    "name_en": "Samir Madani / TankerTrackers.com",
+    "name_zh": "萨米尔·马达尼（TankerTrackers）",
+    "affiliation": "TankerTrackers.com 联合创始人（与 Lisa Ward、Breki Tomasson，2018 年创立）",
+    "role": "海事情报与油轮追踪分析",
+    "platforms": [
+      "X",
+      "tankertrackers.com"
+    ],
+    "x_handle": "@TankerTrackers",
+    "youtube": "unknown",
+    "language": "英语/瑞典语",
+    "theater": "中东",
+    "specialty": "伊朗'暗船队'原油出口追踪、霍尔木兹海峡与红海航运流量统计、被袭击/被扣船舶识别；用 AIS+卫星影像核实关闭应答器的油轮。",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "非学术机构但纯一手数据：以 AIS 轨迹与卫星影像逐船核实，出口量估算被主流财经媒体与政策辩论直接引用（如 2026 年伊朗原油过境量数据）。局限是商业机构、部分方法为专有，且只覆盖航运维度。",
+    "controversies": "none",
+    "sources": [
+      "https://tankertrackers.com/",
+      "https://www.globalindiantimes.com/p/oil-shipping-62025",
+      "https://lowdown.today/e/samir-madani/"
+    ]
+  },
+  {
+    "name_en": "Muhammad Shehada",
+    "name_zh": "穆罕默德·舍哈达",
+    "affiliation": "欧洲对外关系委员会（ECFR）访问研究员；Euro-Med Human Rights Monitor 欧盟事务主管",
+    "role": "加沙本地出身的研究者/评论者",
+    "platforms": [
+      "X",
+      "ECFR",
+      "The New Arab"
+    ],
+    "x_handle": "@muhammadshehad2",
+    "youtube": "unknown",
+    "language": "阿拉伯语/英语",
+    "theater": "中东",
+    "specialty": "加沙内部社会与人道状况、哈马斯治理与巴勒斯坦内部政治动态、以军行动的人权法维度；具备加沙本地网络与阿语一手访谈。",
+    "score_A": 7,
+    "score_B": 7,
+    "score_C": 6,
+    "score_D": 5,
+    "rating_reason": "少见的加沙本地视角+欧洲智库平台，能提供以色列/西方来源看不到的地面社会与哈马斯内部信息，人道数据引用规范。军事技术判读非其强项，立场明确亲巴，需与以方来源并读对冲。",
+    "controversies": "因明确的亲巴勒斯坦倡导立场被以色列方面批评为哈马斯辩护者；无公开的具体事实造假裁定，但其所属 Euro-Med Monitor 的部分伤亡统计曾遭以方质疑。",
+    "sources": [
+      "https://ecfr.eu/profile/muhammad-shehada/",
+      "https://www.newarab.com/author/67471/muhammad-shehada",
+      "https://dohaforum.org/speakers/muhammad-shehada"
+    ]
+  }
+]

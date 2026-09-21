@@ -1,0 +1,273 @@
+[
+ {
+  "kol": "Wassim Nasr",
+  "theater": "非洲",
+  "source_url": "https://eurafrica.info/2026/06/02/developments-in-the-sahel-an-interview-with-wassim-nasr-journalist-france24-senior-research-fellow-soufan-center/",
+  "source_title": "Developments in the Sahel: An Interview with Wassim Nasr, Journalist ...",
+  "published_on": "2026-06-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「wassim nasr」",
+  "topic": "萨赫勒地区JNIM与FLA联盟及其政治转型前景",
+  "claim": "JNIM正在通过与世俗组织结盟和温和治理实践，事实上（de facto）走向与基地组织分离的道路，但短期内不会正式宣布断绝关系",
+  "reasoning": "Wassim Nasr认为JNIM已经与世俗的FLA结盟、呼吁非圣战派反对派加入、采取温和沙里亚治理方式（释放俘虏、避免极端刑罚），这些行为在事实层面已构成与基地组织的疏远。但他强调正式断绝需要宗教法理依据，且基地组织领导层真空（扎瓦希里已死但未公布继任者）使断绝操作困难；更关键的是，如无充分宗教理由就断绝，大量富拉尼战士可能叛逃至伊斯兰国，这将削弱JNIM遏制伊斯兰国扩张的核心能力。因此判断会「事实分离但暂不正式宣布」",
+  "evidence": [
+   "JNIM在2025年3月与FLA达成协议，FLA同意实施沙里亚法以换取JNIM富拉尼战士支持其自治诉求",
+   "JNIM实施「习惯性沙里亚」治理，在廷巴克图地区对盗贼采取驱逐而非处决，与伊斯兰国的断手断脚公开处刑形成对比",
+   "2026年4月攻势中JNIM向俄罗斯喊话「停止支持政权以换取未来良好关系」，攻势前释放两名俄罗斯人质，俄非洲军团从基达尔撤退时未遭射击",
+   "马里反对派马克思主义政治家Oumar Mariko（67岁、三次总统候选人）非法越境进入JNIM控制区谈判释放马里军人并成功释放四人",
+   "CFR联盟中包括基督徒Etienne Fakaba Sissoko等非圣战派人士",
+   "Iyad Ag Ghali本人表态「与基地组织断绝不是当务之急」，但承认断绝「在议程上」"
+  ],
+  "data": [
+   {
+    "metric": "JNIM-FLA协议签订时间",
+    "value": "2025年2-3月",
+    "context": "Wassim Nasr于2025年3月首次报道该协议"
+   },
+   {
+    "metric": "敌对关系持续时间",
+    "value": "30年",
+    "context": "部分图阿雷格领导人之间的宿怨"
+   },
+   {
+    "metric": "谈判释放被扣军人数量",
+    "value": "4人",
+    "context": "Oumar Mariko谈判成功释放的马里军人"
+   },
+   {
+    "metric": "JNIM与伊斯兰国冲突起始年份",
+    "value": "2019年",
+    "context": "自2019年起对抗伊斯兰国成为JNIM生存优先事项"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-11"
+ },
+ {
+  "kol": "Phil Gunson",
+  "theater": "拉美",
+  "source_url": "https://www.ecoi.net/en/document/2130889.html",
+  "source_title": "International Crisis Group (Author): “Anniversary of Election ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「phil gunson」",
+  "topic": "委内瑞拉马杜罗政权2025年地方选举后的稳固性",
+  "claim": "马杜罗政权尽管在2024年总统选举中实际失败，但通过镇压、选举操控和美国政策转向，短期内仍将保持稳固，反对派已陷入分裂和无力状态",
+  "reasoning": "Phil Gunson分析认为马杜罗的执政基础并非来自民意支持，而是多重因素共同作用：选举制度已被操控导致「投票但不选举」的局面，反对派因内部分裂和抵制呼吁导致投票率仅30%，政府通过大规模镇压（850名以上政治犯、强迫失踪、酷刑）瓦解了反对派的动员能力，曾能组织数十万人示威的反对力量现在连小规模集会都需严格安保。同时特朗普政府虽不承认马杜罗合法性，但实际上越过反对派直接与其谈判，雪佛龙恢复石油生产许可证换取美国囚犯释放的交易表明美国短期内不追求「政权更迭」，这进一步巩固了马杜罗的地位",
+  "evidence": [
+   "2025年5月地方选举中政府控制了除科赫德斯州外的所有州长职位和几乎全部国民议会席位",
+   "2025年12月地方选举反对派仅保住335个市镇中的50个，连马拉开波等传统反对派堡垒都失守",
+   "投票率超过70%的选民弃权，反对派分裂为马查多派系和统一平台联盟两个阵营",
+   "过去一年政府加强镇压，关押温和反对派人士、学者、记者甚至活动人士亲属，政治犯总数超过850人，其中约50人被关押在未知地点",
+   "特朗普政府允许雪佛龙公司在制裁下恢复委内瑞拉石油生产，作为释放美国囚犯的交换",
+   "美国特使Richard Grenell数月前明确表示「政权更迭」至少目前不在美国议程上"
+  ],
+  "data": [
+   {
+    "metric": "地方选举反对派控制市镇数",
+    "value": "50/335个",
+    "context": "2025年12月地方选举"
+   },
+   {
+    "metric": "选民投票率",
+    "value": "低于30%",
+    "context": "2025年12月地方选举，超70%弃权"
+   },
+   {
+    "metric": "政治犯总数",
+    "value": "超过850人",
+    "context": "人权组织统计，2025年"
+   },
+   {
+    "metric": "未知地点关押政治犯数",
+    "value": "约50人",
+    "context": "2025年人权组织报告"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "短期内（未明确具体时限，但上下文暗示至少2025-2026年）",
+  "confidence": "high",
+  "extracted_on": "2026-09-11"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://nafoforum.org/magazine/military-analyst-rob-lee-on-how-russias-war-in-ukraine-will-continue-in-2025",
+  "source_title": "Military analyst Rob Lee on how Russia’s war in Ukraine will ...",
+  "published_on": "2025-02-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "2025年俄乌战争走势与俄军攻势持续性",
+  "claim": "俄罗斯在2024年拥有多项优势，但其能否维持当前攻击强度和损失率存在疑问",
+  "reasoning": "Rob Lee认为2024年俄罗斯在战场上处于优势地位，这体现在其持续的进攻态势和在顿涅茨克南部的领土推进。然而展望2025年，他指出存在多个不可预测因素，其中俄罗斯能否承受当前的攻击速度和人员损失是核心悬念之一，暗示这种优势的可持续性值得怀疑。",
+  "evidence": [
+   "2024年俄罗斯拥有多项优势（Russia had a number of advantages）",
+   "俄军在东乌克兰持续零度以下气温期间仍保持每日攻击",
+   "俄罗斯在Pokrovsk以外的领土推进已减缓至停滞",
+   "乌克兰在Kurakhove地区的防御在2025年前几个月出现动摇",
+   "俄罗斯在乌克兰的损失超过150万人",
+   "未来美国援助存在不确定性"
+  ],
+  "data": [
+   {
+    "metric": "俄军损失",
+    "value": "超过150万人",
+    "context": "截至第1659天累计"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2025年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-11"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://plugin-frontend.meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge",
+  "source_title": "Meduza — Russia’s military recruitment numbers remain steady ...",
+  "published_on": "2026-02-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯军队募兵可持续性与动员可能性",
+  "claim": "俄罗斯当前志愿募兵模式在未来几个月内不会崩溃，但联邦政府年内必须向地方转移资金以维持该体系，否则地方预算将在战争负担下崩溃",
+  "reasoning": "Janis Kluge 基于俄罗斯联邦及地方预算数据追踪发现，尽管官方宣称每年招募 40-45 万人的数字基本可信（通过签约金支出倒推验证），但地方政府为完成配额的成本急剧上升——2025 年地方预算赤字达历史新高 1.5 万亿卢布，平均 3-4% 地方预算用于募兵，极端情况下（如 Mari El）占比达 10%，与医疗教育支出相当。他认为当前自上而下的配额制迫使地方不断提高签约金（月均递增），该模式已不可持续，联邦必须在年内介入转移支付，否则地方财政将崩溃。",
+  "evidence": [
+   "2025 年俄罗斯地方预算赤字合计 1.5 万亿卢布，为历史最高水平",
+   "联邦签约金从 19.5 万卢布（2024 年 8 月前）提高到 40 万卢布，地方平均签约金基本每月递增",
+   "部分地方在 2025 年末将签约金降至最低，2026 年 1 月新预算年开始后再次提高，显示预算压力",
+   "已有迹象显示联邦政府意识到问题，推出债务减免计划允许贫困地区核销战争支出",
+   "Mediazona 数据显示，按俄军年招募 40 万人计算，约 20% 会在一年内阵亡"
+  ],
+  "data": [
+   {
+    "metric": "俄军年度招募人数",
+    "value": "2024年 45万人，2025年 42.2万人",
+    "context": "官方数据，通过联邦签约金支出验证为 30-35 万人实际领取"
+   },
+   {
+    "metric": "地方预算赤字",
+    "value": "1.5万亿卢布（约196亿美元）",
+    "context": "2025年俄罗斯地方预算总赤字，历史最高"
+   },
+   {
+    "metric": "募兵支出占 GDP 比例",
+    "value": "约0.5%",
+    "context": "联邦+地方+企业签约金总和"
+   },
+   {
+    "metric": "募兵支出占地方预算比例",
+    "value": "平均3-4%，极端情况10%",
+    "context": "Mari El 等极端案例占比与医疗教育支出相当"
+   },
+   {
+    "metric": "联邦签约金",
+    "value": "19.5万卢布→40万卢布",
+    "context": "2024年8月前后调整"
+   },
+   {
+    "metric": "新兵阵亡率",
+    "value": "约20%",
+    "context": "基于 Mediazona 数据推算，年招募40万人中约20%在一年内阵亡"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2026年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-11"
+ },
+ {
+  "kol": "Fabian Hoffmann",
+  "theater": "俄乌",
+  "source_url": "https://x.com/FRHoffmann1/status/2096866395917295680",
+  "source_title": "Fabian Hoffmann, PhD on X: \"Since early 2026, Russia has ...",
+  "published_on": "2026-09-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hoffmann」",
+  "topic": "俄罗斯低成本涡喷巡航导弹大规模生产及对乌克兰防空体系的威胁",
+  "claim": "俄罗斯目前每月发射数百枚低成本巡航导弹，很快可能达到数千枚，这些导弹利用了乌克兰分层防空系统中无人机拦截器和高端地空导弹都无法经济有效填补的空白",
+  "reasoning": "Fabian Hoffmann 判断基于以下逻辑：自2026年初以来俄罗斯部署了低成本涡喷动力巡航导弹家族并大幅提升产能；在某些突袭中这类导弹已占来袭弹药的半数或更多；这些导弹针对的是乌克兰现有防空体系的成本效益缺口——既不能用低成本拦截无人机应对（可能因速度或数量），也不能用昂贵的防空导弹经济地拦截。他识别出该武器库目前依赖单一供应链脆弱点，暗示这是可被针对的战略弱点。",
+  "evidence": [
+   "自2026年初以来，俄罗斯已部署一个低成本涡喷动力巡航导弹家族并大幅扩大生产规模",
+   "俄罗斯目前每月发射数百枚低成本巡航导弹，很快可能达到数千枚",
+   "在某些突袭中，这些导弹已占来袭弹药的半数或更多",
+   "这些导弹利用了乌克兰分层防空系统中拦截无人机和高端地空导弹都无法经济有效填补的空白",
+   "该新兴武器库包含六种导弹系统",
+   "该武器库目前依赖单一供应链脆弱点"
+  ],
+  "data": [
+   {
+    "metric": "月发射量",
+    "value": "数百枚，很快可能数千枚",
+    "context": "2026年当前及近期预测"
+   },
+   {
+    "metric": "突袭中占比",
+    "value": "半数或更多",
+    "context": "某些突袭中该类导弹占来袭弹药比例"
+   },
+   {
+    "metric": "导弹系统数量",
+    "value": "6种",
+    "context": "俄罗斯新兴低成本巡航导弹武器库"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "当前进行中，近期（未来数月）将达到数千枚/月",
+  "confidence": "high",
+  "extracted_on": "2026-09-11"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://www.csis.org/analysis/golden-dome-and-new-missile-age",
+  "source_title": "The Golden Dome and the New Missile Age - CSIS",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 csis.org",
+  "topic": "美国「金色穹顶」导弹防御计划的发展方向与能力定位",
+  "claim": "美国将通过Golden Dome计划实现导弹防御能力的全面升级，从应对流氓国家弹道导弹转向全频谱威胁防御，并在技术竞赛中保持领先地位",
+  "reasoning": "Tom Karako认为Golden Dome不仅是系统而是综合性倡议，将整合多层防御能力应对包括巡航导弹、高超音速武器在内的全频谱威胁。他强调美国在精密制导拦截技术（hit-to-kill）方面拥有独特优势，这是全球18个爱国者系统使用国都需要的核心能力。同时他指出美国此前因反恐分心导致在战略竞争中落后，但凭借无可匹敌的商业和创新基础正在追赶，未来将通过释放国内创新潜力、增加太空拦截器和定向能武器投入来实现技术突破",
+  "evidence": [
+   "美国导弹防御预算从2015年的128亿美元增长到当前的255亿美元，占国防部现代化预算比例从7.6%升至8.2%",
+   "2025年行政命令承认导弹防御仍需重新定向应对俄罗斯和中国威胁",
+   "伊朗对以色列的多次导弹袭击中，美国和以色列导弹防御系统成功拦截了大量来袭导弹",
+   "土耳其因购买俄罗斯S-400系统被踢出F-35项目，显示武器系统兼容性的战略重要性",
+   "全球18个国家使用爱国者系统并大量需求PAC-3拦截弹的精密寻的器能力",
+   "中国间谍气球事件验证了CSIS 2022年报告关于算法无法识别非传统飞行模式目标的预测"
+  ],
+  "data": [
+   {
+    "metric": "导弹防御预算（2015年）",
+    "value": "128亿美元",
+    "context": "占国防部现代化预算7.6%"
+   },
+   {
+    "metric": "导弹防御预算（当前）",
+    "value": "255亿美元",
+    "context": "占国防部现代化预算8.2%"
+   },
+   {
+    "metric": "爱国者系统使用国数量",
+    "value": "18个国家",
+    "context": "全球范围"
+   },
+   {
+    "metric": "CSIS导弹防御项目成立时间",
+    "value": "10年",
+    "context": "2015年5月启动"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来数年内（2026预算周期开始实施）",
+  "confidence": "high",
+  "extracted_on": "2026-09-11"
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://nafoforum.org/magazine/military-analyst-rob-lee-on-how-russias-war-in-ukraine-will-continue-in-2025?highlight=WzIwMjQsIjIwMjQtMDEtMTciLCIyMDI0LnJ1c3NpYW4iLCJ1a3JhaW5lcy1tYXJpaWEtc3VsaWFsaW5hLXdpbnMtMjAyNC1jaXZpbC1yaWdodHMtZGVmZW5kZXItYXdhcmQiLCJ1a3JhaW5lLXdhci1sYXRlc3QtYXByaWwtMjktMjAyNCIsIjIwMjRtZWRpYSIsInVrcmFpbmUtd2FyLWxhdGVzdC1tYXktNC01LTIwMjQiLCIyMDI0LnRoZSIsIjIwMjAtMjAyNC51a3JhaW5pYW4iLDEyMDI0MDMxODdd",
+  "source_title": "Military analyst Rob Lee on how Russia’s war in Ukraine will ...",
+  "published_on": "2025-02-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "2025年俄乌战争走势与俄军攻势持续性",
+  "claim": "2025年俄乌战争将继续进行，多个不可预测因素将主导战争走向，但俄军能否维持当前攻击速率和损失水平存在疑问",
+  "reasoning": "Rob Lee认为尽管俄罗斯在2024年拥有多项优势，但进入2025年后战场态势复杂化。俄军在顿涅茨克南部的攻势虽然强度持续，但在波克罗夫斯克外围领土推进已停滞，仅在库拉霍韦周边取得进展。他判断未来一年战争将受到乌克兰国防改革、俄军持续作战能力以及美国援助不确定性三大因素影响，这些变量决定了战争无法短期结束但俄军优势能否维持存疑",
+  "evidence": [
+   "2024年是俄罗斯拥有多项优势的一年",
+   "俄军在波克罗夫斯克关键城市外围的领土推进已减缓至停滞",
+   "乌克兰在库拉霍韦地区的防御在2025年前几个月出现动摇",
+   "顿涅茨克州南部持续发生最激烈战斗，俄军在零度以下气温中保持每日攻击",
+   "乌克兰正通过新改革巩固防御",
+   "美国援助的未来不确定性是最大悬而未决因素"
+  ],
+  "data": [
+   {
+    "metric": "战争持续时间",
+    "value": "第4年",
+    "context": "截至采访时（2025年2月22日）"
+   },
+   {
+    "metric": "俄军损失",
+    "value": "超过150万人",
+    "context": "文中提及截至某日统计"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未来一年（2025-2026）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-13"
+ },
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl",
+  "source_title": "How many Russian soldiers died in the war with Ukraine",
+  "published_on": "2026-09-11",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+  "claim": "截至2026年9月，俄军已确认死亡超过23万人，且2026年初征召的囚犯部队在前三个月内伤亡率达20%，战争性质已转变为「灰色地带」消耗战，死亡登记延迟普遍达数月。",
+  "reasoning": "Mediazona与BBC俄语部通过公开来源（社交媒体、地方媒体、遗嘱登记数据库）核实死者姓名，发现2026年确认死亡数据严重滞后的原因在于：前线变为「灰色地带」导致遗体无法及时撤离，官方死亡登记延迟加剧（例如2026年1-3月死亡者直到9月仍在持续确认中），且志愿兵和囚犯等非正规军占比上升至伤亡主体。通过追踪乌方泄露的4000名囚犯征召名单，发现其中807人（20%）在半年内阵亡，且84.5%集中在前三个月，印证了「短训后即投入突击」的高消耗战术。",
+  "evidence": [
+   "截至2026年9月11日，已核实俄军死亡名单包含23.46万人（有年龄记录者）和23.13万人（有死亡日期记录者）",
+   "2024年俄军死亡9.56万人，2025年死亡5.97万人，2026年截至更新时仅确认6600人（数据严重滞后）",
+   "乌克兰「我想活下去」项目泄露的4000名囚犯征召名单中，807人已确认死亡（占20%），其中682人（84.5%）死于2026年1-3月",
+   "2026年初阵亡的囚犯被分配至第254摩步团、第15摩步旅、第5摩步旅等多个单位，表明非单一部队损失",
+   "2022年初战争阶段空降兵和摩步部队损失最大，2023年3月起囚犯成为最大阵亡群体（因瓦格纳在巴赫穆特使用囚犯突击队），2024年9月后志愿兵重新成为最大阵亡群体",
+   "军官阵亡比例从2022年初的10%降至2024年11月的2-3%，反映志愿步兵伤亡率远高于指挥官"
+  ],
+  "data": [
+   {
+    "metric": "已核实死亡人数（有死亡日期记录）",
+    "value": "231,300人",
+    "context": "截至2026年9月11日"
+   },
+   {
+    "metric": "2024年俄军死亡人数",
+    "value": "95,600人",
+    "context": "全年"
+   },
+   {
+    "metric": "2025年俄军死亡人数",
+    "value": "59,700人",
+    "context": "全年"
+   },
+   {
+    "metric": "2026年已确认死亡人数",
+    "value": "6,600人",
+    "context": "截至更新时（数据严重滞后）"
+   },
+   {
+    "metric": "泄露囚犯名单确认死亡率",
+    "value": "807人/4,000人 = 20%",
+    "context": "2026年1-9月追踪结果"
+   },
+   {
+    "metric": "泄露囚犯名单中2026年1-3月死亡占比",
+    "value": "682人/807人 = 84.5%",
+    "context": "1月81人，2月316人，3月285人"
+   },
+   {
+    "metric": "军官阵亡总数",
+    "value": "7,656人",
+    "context": "截至2026年9月11日"
+   },
+   {
+    "metric": "将军阵亡总数",
+    "value": "15人",
+    "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2026年全年（数据滞后需2年后完整呈现）",
+  "confidence": "high",
+  "extracted_on": "2026-09-13"
+ }
+]

@@ -1,0 +1,775 @@
+[
+  {
+    "name_en": "Tom Karako",
+    "name_zh": "汤姆·卡拉科",
+    "affiliation": "CSIS 战略与国际研究中心",
+    "role": "导弹防御项目主任、防务与安全部资深研究员",
+    "platforms": [
+      "CSIS 官网",
+      "X",
+      "CSIS Missile Defense Project (missilethreat.csis.org)"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "防空/导弹防御拦截弹经济学、固体火箭发动机产业基础、爱国者/PAC-3 与 THAAD 交战数据、导弹威胁数据库（Missile Threat）",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "2015 年起领导 CSIS 导弹防御项目，2026-06 发布《Solid Rocket Motors for Missile Defense》专门量化固体火箭发动机产能瓶颈；2025-07 主持 Al Udeid 史上最大规模爱国者交战复盘。其 missilethreat.csis.org 数据库是公开可核查的一手威胁清单。",
+    "controversies": "被批评长期主张扩大导弹防御预算，与国防承包商资助的智库立场重合。",
+    "sources": [
+      "https://www.csis.org/people/tom-karako",
+      "https://www.csis.org/news/csis-announces-new-missile-defense-project"
+    ]
+  },
+  {
+    "name_en": "Cynthia Cook",
+    "name_zh": "辛西娅·库克",
+    "affiliation": "CSIS 防务产业倡议小组（DIIG）",
+    "role": "DIIG 主任、防务与安全部资深研究员",
+    "platforms": [
+      "CSIS 官网",
+      "LinkedIn",
+      "CSIS 圆桌与报告"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防采购政策、国防工业基础、武器系统生产与保障、弹药产能扩产路径",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "CSIS 防务产业倡议小组主任，DIIG 长期维护国防合同与采购数据分析（基于 FPDS/USAspending 类公开合同数据）。曾主持与陆军采购主管 ASA(ALT) 的弹药产能专题圆桌，直接对话产能决策者；此前在 RAND 做采购研究。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/cynthia-cook",
+      "https://www.csis.org/events/munitions-production-roundtable-featuring-asaalt-honorable-douglas-r-bush",
+      "https://www.dmi-ida.org/expert-details/cynthia-cook"
+    ]
+  },
+  {
+    "name_en": "Seth G. Jones",
+    "name_zh": "塞思·G·琼斯",
+    "affiliation": "CSIS 战略与国际研究中心",
+    "role": "防务与安全部主席、资深副总裁",
+    "platforms": [
+      "CSIS 官网",
+      "著作",
+      "国会作证"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防工业基础与弹药库存、台海冲突弹药消耗兵推、大国军工产能对比",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "2023-01《Empty Bins in a Wartime Environment》作者，用 CSIS 台海兵推给出量化结论：三周冲突消耗超 5000 枚远程导弹（4000 JASSM、450 LRASM、400 鱼叉、400 战斧），部分精导弹药不到一周耗尽；该报告被众议院听证直接引用。新著《The American Edge》比较各大国军工基础。",
+    "controversies": "兵推假设与消耗率被部分学者质疑偏向支持扩大采购预算。",
+    "sources": [
+      "https://www.csis.org/analysis/empty-bins-wartime-environment-challenge-us-defense-industrial-base",
+      "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-01/230119_Jones_Empty_Bins.pdf",
+      "https://www.csis.org/people/seth-g-jones"
+    ]
+  },
+  {
+    "name_en": "Hans M. Kristensen",
+    "name_zh": "汉斯·M·克里斯滕森",
+    "affiliation": "美国科学家联盟（FAS）核信息项目",
+    "role": "核信息项目主任",
+    "platforms": [
+      "FAS Strategic Security Blog",
+      "X",
+      "Bulletin of the Atomic Scientists 核笔记",
+      "SIPRI 年鉴"
+    ],
+    "x_handle": "@nukestrat",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "全球核力量清点、核弹头数量估算、核部署与储存设施卫星影像分析、FOIA 解密文件挖掘",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "自 2001 年合著《核笔记》（Nuclear Notebook，1987 年至今 Bulletin 栏目）并撰写 SIPRI 年鉴世界核力量章节，是全球核弹头数量的事实标准来源。方法论核心是公开源 + 《信息自由法》申请解密文件，可复核；曾据卫星影像率先确认白俄罗斯核储存点建设进度。",
+    "controversies": "其估算数字常被有核国家官方否认，但迄今未有系统性证伪。",
+    "sources": [
+      "https://fas.org/expert/hans-kristensen/",
+      "https://fas.org/initiative/nuclear-information-project/",
+      "https://thebulletin.org/nuclear-notebook/"
+    ]
+  },
+  {
+    "name_en": "Matt Korda",
+    "name_zh": "马特·科尔达",
+    "affiliation": "FAS 核信息项目 / SIPRI 大规模杀伤性武器项目",
+    "role": "FAS 核信息项目副主任、SIPRI 副资深研究员",
+    "platforms": [
+      "FAS",
+      "X",
+      "SIPRI 年鉴",
+      "ICBM Information Project"
+    ],
+    "x_handle": "@mattkorda",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "开源核力量追踪、洲际弹道导弹基地卫星影像、核现代化项目进度、导弹防御与核态势交叉分析",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "《核笔记》与 SIPRI 年鉴核章节共同作者，主持 FAS 的 ICBM Information Project，用商业卫星影像逐个基地核实发射井状态并公开数据集；曾在 NATO 军控与防扩散中心工作。其开源发现（如中国新增发射井群）被全球主流媒体引用。",
+    "controversies": "none",
+    "sources": [
+      "https://fas.org/expert/matt-korda",
+      "https://fas.org/issues/icbm-information-project/",
+      "https://www.tandfonline.com/doi/abs/10.1080/00963402.2025.2494386"
+    ]
+  },
+  {
+    "name_en": "Jeffrey Lewis",
+    "name_zh": "杰弗里·刘易斯",
+    "affiliation": "米德尔伯里国际研究学院 詹姆斯·马丁防扩散研究中心（CNS）",
+    "role": "东亚防扩散项目主任、ArmsControlWonk 创办人",
+    "platforms": [
+      "ArmsControlWonk.com 博客与播客",
+      "X",
+      "Foreign Policy 专栏"
+    ],
+    "x_handle": "@ArmsControlWonk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "卫星影像开源情报、朝鲜/中国/伊朗导弹与核设施定位、导弹型号识别、核政策",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "ArmsControlWonk 创办人（2004 年至今），CNS 团队 2024-11 用开源影像定位四川乐山的中国大型水面舰艇陆上核反应堆原型，判定为核动力航母铺路；2026-04 据影像识别疑似 PrSM、2025-12 分析奥列什尼克在白俄部署。教授开源情报课程，方法公开可复现。",
+    "controversies": "曾公开驳斥朝鲜 EMP 威胁论等主流恐慌叙事，与部分鹰派分析者长期论战。",
+    "sources": [
+      "https://www.middlebury.edu/institute/people/jeffrey-lewis",
+      "https://www.armscontrolwonk.com/archive/author/jeffrey",
+      "https://nonproliferation.org/experts/jeffrey-lewis"
+    ]
+  },
+  {
+    "name_en": "Mark F. Cancian",
+    "name_zh": "马克·F·坎西安",
+    "affiliation": "CSIS 防务与安全部",
+    "role": "资深顾问（美国海军陆战队预备役退役上校）",
+    "platforms": [
+      "CSIS 官网",
+      "Defense One 专栏",
+      "CSIS 兵推报告"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防预算逐条拆解、部队结构与采购项目、战时补充拨款、对乌军援清单跟踪、台海兵推",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "加入 CSIS 前在白宫 OMB 任「部队结构与投资处」处长 7 年多，直接负责国防部预算战略、战争经费与采购项目审核，这是极罕见的预算一手经历。CSIS 期间持续做年度国防预算分项分析与对乌援助逐项清单，方法可核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/mark-f-cancian",
+      "https://www.dmi-ida.org/expert-details/mark-cancian",
+      "https://www.defenseone.com/voices/mark-cancian/11851"
+    ]
+  },
+  {
+    "name_en": "Fabian Hoffmann",
+    "name_zh": "法比安·霍夫曼",
+    "affiliation": "奥斯陆大学 Oslo Nuclear Project / 挪威国防大学 / CEPA",
+    "role": "研究员、Missile Matters 简报作者",
+    "platforms": [
+      "Substack: frhoffmann.substack.com（Missile Matters）",
+      "X",
+      "CEPA",
+      "War on the Rocks"
+    ],
+    "x_handle": "@FRHoffmann1",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "导弹技术与远程打击、防空拦截弹消耗与成本交换比、欧洲威慑与导弹产能、核战略",
+    "score_A": 8,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "Substack「Missile Matters」订阅逾 1 万，专写导弹技术与拦截经济学；学术侧在 Journal of Strategic Studies 发表远程打击战略效应框架论文（2024，doi:10.1080/01402390.2024.2351500），曾在 IISS 任研究助理。既有同行评审底子又做高频公开拆解。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sv.uio.no/isv/english/people/aca/fabiah/index.html",
+      "https://frhoffmann.substack.com/",
+      "https://cepa.org/author/fabian-hoffman"
+    ]
+  },
+  {
+    "name_en": "Eric Lofgren",
+    "name_zh": "埃里克·洛夫格伦",
+    "affiliation": "乔治梅森大学 Center for Government Contracting（MasonGovCon）",
+    "role": "研究员、Acquisition Talk 博客与播客主理人",
+    "platforms": [
+      "acquisitiontalk.com",
+      "Substack",
+      "播客"
+    ],
+    "x_handle": "@AcqTalk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防采购制度与预算科目（PPBE）、武器系统成本数据、合同定价、采购改革",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "入行前在 Technomics 做 7 年顾问、常驻五角大楼为 OSD CAPE 处理成本数据与项目估算，并担任国防定价与合同司（DPC）成本会计研究的首席研究员。Acquisition Talk 长期把国防预算原始科目与合同数据摊开讲解，是少见的「读预算文件」型一手分析者。",
+    "controversies": "none",
+    "sources": [
+      "https://acquisitiontalk.com/",
+      "https://substack.com/@acquisitiontalk"
+    ]
+  },
+  {
+    "name_en": "Todd Harrison",
+    "name_zh": "托德·哈里森",
+    "affiliation": "美国企业研究所（AEI）",
+    "role": "资深研究员，Defense Budget Navigator 作者",
+    "platforms": [
+      "AEI 官网",
+      "Defense Budget Navigator 数据工具",
+      "X"
+    ],
+    "x_handle": "@ToddHarrisonDC",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防预算建模与长期趋势、国防工业基础、太空军与航天预算、军事人员与战备成本",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "美国最系统的国防预算量化分析者之一，在 AEI 维护「Defense Budget Navigator」——把国防部预算申请与国会拨款做成可查询数据集并公开来源与方法说明页，属于罕见的公开数据集+方法透明范例；此前在 CSIS 和 CSBA 做预算分析。",
+    "controversies": "none",
+    "sources": [
+      "https://www.aei.org/profile/todd-harrison/",
+      "https://www.defensepriorities.org/people/todd-harrison/"
+    ]
+  },
+  {
+    "name_en": "Jack Watling",
+    "name_zh": "杰克·沃特林",
+    "affiliation": "英国皇家联合军种研究院（RUSI）",
+    "role": "应用军事科学资深研究员",
+    "platforms": [
+      "RUSI 官网与报告",
+      "Talking Strategy 播客",
+      "著作"
+    ],
+    "x_handle": "@Jack_Watling",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "陆战与炮兵消耗率、俄乌双方弹药供应链、拦截弹全球库存与产能缺口、俄罗斯军工体系承受力",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "多次赴乌克兰前线做一手取证，与 Open Source Centre 合著《Ore to Ordnance: Disrupting Russia's Artillery Supply Chains》，从矿石到弹药逐环节追踪俄军炮弹供应链。2026-08-21 公开判断：能拦截俄弹道导弹的拦截弹全球库存已在乌克兰与中东大量耗尽、产能不足以补缺——正是本板块的核心命题。",
+    "controversies": "none",
+    "sources": [
+      "https://www.rusi.org/people/jack-watling",
+      "https://static.opensourcecentre.org/assets/osc_ore_to_ordnance.pdf",
+      "https://www.rusi.org/podcasts/talking-strategy/episode-21-dr-jack-watling-ukrainian-adaptation-war"
+    ]
+  },
+  {
+    "name_en": "Gracelin Baskaran",
+    "name_zh": "格蕾丝琳·巴斯卡兰",
+    "affiliation": "CSIS 关键矿产安全项目",
+    "role": "创始主任、矿业经济学家",
+    "platforms": [
+      "CSIS 官网",
+      "LinkedIn",
+      "播客与国会作证"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "稀土与关键矿产供应链、中国出口管制影响评估、矿产加工产能与国防装备依赖",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "2024-09 出任 CSIS 关键矿产安全项目首任主任，剑桥博士、矿业经济学家，专做稀土加工 90%+ 集中于中国的量化依赖分析；2026-07 公开评估中国稀土出口武器化反而加速了国际替代合作，2026-03 就关键矿产在国会作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/gracelin-baskaran",
+      "https://www.csis.org/news/csis-names-gracelin-baskaran-director-critical-minerals-security-program"
+    ]
+  },
+  {
+    "name_en": "Michael Kofman",
+    "name_zh": "迈克尔·科夫曼",
+    "affiliation": "卡内基国际和平基金会 俄罗斯与欧亚项目",
+    "role": "资深研究员；War on the Rocks 特约编辑、The Russia Contingency 播客主持",
+    "platforms": [
+      "Carnegie 官网",
+      "War on the Rocks / The Russia Contingency 播客",
+      "X"
+    ],
+    "x_handle": "@KofmanMichael",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "俄军战力与俄乌战场走势、俄罗斯军工产能与弹药消耗率、战争持久力评估、前线实地调研",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 7,
+    "rating_reason": "卡内基俄罗斯与欧亚项目资深研究员，此前在美国国防大学任研究员与项目主管；主持双周播客 The Russia Contingency 做俄军军力与俄乌战争深度分析。多次赴乌前线实地调研，其对战线消耗率与俄军产能恢复的判断在 2022-2025 年多次先于共识。",
+    "controversies": "2022 年初对俄军战力的部分早期评估偏高，本人事后公开修正。",
+    "sources": [
+      "https://carnegieendowment.org/people/michael-kofman",
+      "https://warontherocks.com/premium/therussiacontingency/"
+    ]
+  },
+  {
+    "name_en": "Pavel Luzin",
+    "name_zh": "帕维尔·卢津",
+    "affiliation": "CEPA 高级研究员 / 弗莱彻学院访问学者 / 詹姆斯敦基金会",
+    "role": "俄罗斯国防工业与军费分析师",
+    "platforms": [
+      "CEPA",
+      "FPRI",
+      "Riddle Russia",
+      "Jamestown"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语、俄语",
+    "theater": "军工与战略",
+    "specialty": "俄罗斯国防工业产能与效率、俄军费与国家武器计划、俄导弹与无人机产量估算、航天与电子战产业",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "IMEMO 国际关系博士，长期用俄罗斯预算文件、企业财报与工资数据逐厂推算俄军工产能，代表作包括《Russia's Military Industry Forecast 2023-2025》《Russian Military Drones: Past, Present, and Future of the UAV Industry》。以俄语原始经济数据为底的推算在西方分析圈稀缺。",
+    "controversies": "曾为纳瓦尔尼 2017-2018 总统竞选团队做国防与军工议题顾问，被亲俄方指为立场先行。",
+    "sources": [
+      "https://cepa.org/author/pavel-luzin/",
+      "https://www.fpri.org/contributor/pavel-luzin/",
+      "https://www.fpri.org/article/2023/04/russias-military-industry-forecast-2023-2025/"
+    ]
+  },
+  {
+    "name_en": "Eric J. Labs",
+    "name_zh": "埃里克·J·拉布斯",
+    "affiliation": "美国国会预算办公室（CBO）国家安全司",
+    "role": "海军力量与武器资深分析师",
+    "platforms": [
+      "CBO 报告与国会证词",
+      "播客访谈"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "海军造船计划成本独立估算、造船工业基础产能瓶颈、舰艇采购长期负担能力分析",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "CBO 海军力量首席分析师，每年出具《An Analysis of the Navy's Shipbuilding Plan》独立成本估算，长期指出海军自估成本偏低；2025-03 就 2025 造船计划在国会作证，2026-01 发布《The 2026 Outlook for Navy Shipbuilding》分析国会拨款超申请对造船工业基础的影响。CBO 报告全文公开方法与模型。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cbo.gov/publication/61218",
+      "https://www.cbo.gov/publication/61947"
+    ]
+  },
+  {
+    "name_en": "Ronald O'Rourke",
+    "name_zh": "罗纳德·奥鲁尔克",
+    "affiliation": "美国国会研究服务部（CRS）",
+    "role": "海军事务专家",
+    "platforms": [
+      "CRS 报告",
+      "国会作证",
+      "USNI"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "海军舰艇项目逐项跟踪（DDG、SSN、护卫舰、无人舰艇）、造船产能、中国海军力量对比、国防采购立法议题",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "自 1984 年起任 CRS 海军事务分析员，四十余年持续更新的 CRS 舰艇项目报告是美国海军采购领域的事实基准文档，逐份列明预算数字、进度与国会争议点，全部公开可下载；定期向国会议员简报并多次作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.usni.org/people/ronald-orourke",
+      "https://www.congress.gov/119/meeting/house/118011/witnesses/HHRG-119-AS28-Bio-ORourkeR-20250311.pdf"
+    ]
+  },
+  {
+    "name_en": "Samuel Bendett",
+    "name_zh": "塞缪尔·本德特",
+    "affiliation": "CNA 战略、政策与计划中心（俄罗斯研究项目）/ CNAS 兼职资深研究员",
+    "role": "俄罗斯军事技术与无人系统顾问",
+    "platforms": [
+      "CNA",
+      "CNAS",
+      "X",
+      "俄语 Telegram 频道追踪"
+    ],
+    "x_handle": "@sambendett",
+    "youtube": "unknown",
+    "language": "英语、俄语",
+    "theater": "军工与战略",
+    "specialty": "俄罗斯无人机与反无人机产业、自主系统与军用 AI、俄军技术论坛与产业动员一手俄语信源",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "CNA 俄罗斯研究项目顾问、CNAS 兼职资深研究员、CSIS 欧俄欧亚项目非驻会高级研究员。核心一手性在于持续追踪俄语 Telegram 军工与志愿者无人机社群、俄国防工业展会与政府文件，是西方少数能实时读俄语无人机产业信源的分析者。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cna.org/our-experts/bendett-samuel",
+      "https://www.cnas.org/people/samuel-bendett"
+    ]
+  },
+  {
+    "name_en": "Decker Eveleth",
+    "name_zh": "德克·埃夫莱斯",
+    "affiliation": "CNA Corporation",
+    "role": "副研究分析师（开源情报/核与导弹力量态势）",
+    "platforms": [
+      "CNA",
+      "个人博客与 Substack",
+      "X",
+      "Foreign Policy / NK News 撰稿"
+    ],
+    "x_handle": "@dex_eve",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "商业卫星影像分析、中国火箭军战斗序列与发射井、朝鲜导弹试验、俄新型核系统部署点定位",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "2021 年在 CNS 期间用商业卫星影像率先识别甘肃玉门约 120 个在建洲际导弹发射井，直接改写外界对中国核力量规模的判断（后续合计逾 300 个）；另建成含 600+ 火箭军弹道/巡航导弹发射车的开源部署数据库；2024 年定位俄「海燕」核动力巡航导弹疑似部署点。",
+    "controversies": "对俄「海燕」等新型武器的公开质疑态度与俄官方宣传直接冲突。",
+    "sources": [
+      "https://www.cna.org/our-experts/eveleth-decker",
+      "https://en.wikipedia.org/wiki/Decker_Eveleth"
+    ]
+  },
+  {
+    "name_en": "Nan Tian",
+    "name_zh": "田楠",
+    "affiliation": "斯德哥尔摩国际和平研究所（SIPRI）",
+    "role": "军费开支与武器生产项目主任、资深研究员",
+    "platforms": [
+      "SIPRI 官网与数据库",
+      "SIPRI Yearbook",
+      "LinkedIn"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语、中文",
+    "theater": "军工与战略",
+    "specialty": "全球军费数据库建设与年度趋势、军费与经济增长关系、SIPRI Top 100 军工企业榜",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "2016 年起负责 SIPRI 军费开支数据库，2023-12 起任军费与武器生产项目主任。SIPRI Military Expenditure Database 是全球唯一公开、口径一致的各国军费长序列数据源，方法说明与原始来源全部公开；2024 年全球军费 2.7 万亿美元这一被广泛引用的数字即出自该项目。",
+    "controversies": "SIPRI 军费口径与各国官方口径差异（尤其俄中）常被质疑，SIPRI 已公开方法论文回应。",
+    "sources": [
+      "https://www.sipri.org/about/bios/dr-nan-tian",
+      "https://www.sipri.org/publications/2025/policy-reports/rebalancing-military-spending-towards-achieving-sustainable-development",
+      "https://www.sipri.org/research/armament-and-disarmament/arms-and-military-expenditure"
+    ]
+  },
+  {
+    "name_en": "Siemon T. Wezeman",
+    "name_zh": "西蒙·T·韦泽曼",
+    "affiliation": "SIPRI 武器转让项目",
+    "role": "资深研究员",
+    "platforms": [
+      "SIPRI 官网与武器转让数据库",
+      "SIPRI Yearbook"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国际武器转让追踪、亚太与前苏联地区军贸、许可证生产与转让透明度、印太自主生产能力测量",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "1992 年起在 SIPRI 武器转让项目工作，是年度《Trends in International Arms Transfers》系列合著者（含 2025 年度版，2026-03 发布）。SIPRI 武器转让数据库只用可独立核查的公开源、覆盖几乎所有国家，是判断谁在给谁供弹的基础数据层；另著《Arms-production Capabilities in the Indo-Pacific: Measuring Self-reliance》。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sipri.org/about/bios/siemon-t-wezeman",
+      "https://www.sipri.org/databases/armstransfers"
+    ]
+  },
+  {
+    "name_en": "Stacie Pettyjohn",
+    "name_zh": "斯泰西·佩蒂约翰",
+    "affiliation": "新美国安全中心（CNAS）",
+    "role": "资深研究员、防务项目主任",
+    "platforms": [
+      "CNAS 官网与报告",
+      "X",
+      "兵推简报"
+    ],
+    "x_handle": "@StaciePettyjohn",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "精确制导弹药产能与库存、兵棋推演、兵力部署与国防战略、无人系统与「可消耗质量」",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "CNAS 防务项目主任，2023-06 与 Hannah Dennis 合著《'Production Is Deterrence': Investing in Precision-Guided Weapons to Meet Peer Challengers》，把「产能本身就是威慑」的命题量化成对具体弹种的采购建议；此前在 RAND 做兵力规划与兵推，兵推方法论有公开发表。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/stacie-pettyjohn",
+      "https://www.cnas.org/press/press-release/new-cnas-report-production-is-deterrence-investing-in-precision-guided-weapons-to-meet-peer-challengers"
+    ]
+  },
+  {
+    "name_en": "Timothy Wright",
+    "name_zh": "蒂莫西·赖特",
+    "affiliation": "国际战略研究所（IISS）防务与军事分析项目",
+    "role": "研究员",
+    "platforms": [
+      "IISS Military Balance / 在线分析",
+      "X",
+      "SIPRI 合作报告"
+    ],
+    "x_handle": "@Wright_T_J",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "导弹与高超音速武器扩散、核威慑、军控与出口管制、欧洲远程打击部署",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "IISS 防务与军事分析项目研究员，专注导弹、核武与出口管制；为 SIPRI 撰写《Hypersonic Missile Proliferation: An Emerging European Problem》（2022-05）。IISS 的 Military Balance 是各国装备存量的标准参考，其分析建立在该数据库之上，便于交叉核对。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sipri.org/about/bios/timothy-wright",
+      "https://www.iiss.org/podcasts/sounds-strategic/2024/08/blast-from-the-past-the-return-of-long-range-us-missiles-to-europe/"
+    ]
+  },
+  {
+    "name_en": "Byron Callan",
+    "name_zh": "拜伦·卡兰",
+    "affiliation": "Capital Alpha Partners（华盛顿独立研究机构）/ CSIS 非驻会专家",
+    "role": "管理合伙人，国防与航空航天板块分析师",
+    "platforms": [
+      "Capital Alpha 研究简报",
+      "CSIS",
+      "媒体评论"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "国防承包商财务与订单积压（backlog）、国防预算对企业营收的传导、产能扩张的资本开支可行性、军工股权分析",
+    "score_A": 7,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 6,
+    "rating_reason": "覆盖航空航天/国防板块四十年：1993-2005 在美林任第一副总裁并担任该板块全球协调人，其后 Prudential、Perella Weinberg 防务基金，2010 年起在 Capital Alpha 做独立研究；被《机构投资者》评级累计 15 年，2012、2013 年入选 Defense News 美国防务最具影响力人物榜。从资本开支与订单角度判断产能扩产是否真能落地，是本板块的稀缺视角。",
+    "controversies": "研究面向机构投资者收费，多数报告不公开，方法透明度受限。",
+    "sources": [
+      "https://www.capalphadc.com/Team/Byron_Callan",
+      "https://www.csis.org/people/byron-callan"
+    ]
+  },
+  {
+    "name_en": "Peter Scoblic",
+    "name_zh": "彼得·斯科布利克",
+    "affiliation": "Event Horizon Strategies 联合创始人 / 新美国基金会未来安全项目 / 乔治城大学外交学院",
+    "role": "战略预见与预测方法专家；曾任 Metaculus 战略预见总监、NTI 山姆·纳恩杰出研究员",
+    "platforms": [
+      "Event Horizon Strategies",
+      "NTI",
+      "Metaculus",
+      "HBR / Foreign Affairs 撰稿"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "战略预见与情景规划、地缘政治概率预测方法、核危机决策、预测平台与超预测者社群方法论",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "哈佛商学院博士，研究战略预见并获 Wyss 卓越奖；曾任预测平台 Metaculus 战略预见总监、FutureSearch 首席战略官，2025-01 至 2026-03 任 NTI 山姆·纳恩杰出研究员研究 AI 对核危机决策的影响。2018 年关于中情局预测部门的文章获 Bobby R. Inman 情报研究奖；持海军战争学院与 MORS 兵推证书、牛津情景规划证书——方法论本身公开可教。",
+    "controversies": "none",
+    "sources": [
+      "https://www.nti.org/about/people/peter-scoblic/",
+      "https://eventhorizonstrategies.com/peter-scoblic/"
+    ]
+  },
+  {
+    "name_en": "Ian Williams",
+    "name_zh": "伊恩·威廉姆斯",
+    "affiliation": "CSIS 导弹防御项目（后转任美国国防部相关战略分析岗）",
+    "role": "原 CSIS 导弹防御项目副主任、Missile Threat 网站执行编辑",
+    "platforms": [
+      "missilethreat.csis.org",
+      "CSIS Nuclear Network",
+      "Defense360"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "导弹防御与战略力量、导弹扩散清单化追踪、助推段拦截等技术方案的成本可行性评估",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "任 CSIS 导弹防御项目副主任期间兼 Missile Threat 网站执行编辑——该站是公开、逐型号建档的全球导弹清单库，被广泛用作交叉核对基准；著有《Boost-Phase Missile Defense: Interrogating the Assumptions》等对拦截方案假设做逐条证伪的研究。此前在导弹防御倡导联盟（MDAA）任倡导总监。",
+    "controversies": "曾任导弹防御倡导联盟（一个明确主张扩大导弹防御的游说型组织）倡导总监，立场中立性受质疑。",
+    "sources": [
+      "https://nuclearnetwork.csis.org/author/ian-williams/",
+      "https://missilethreat.csis.org/countering-missile-threats-means-addressing-the-present-while-planning-for-the-future/"
+    ]
+  },
+  {
+    "name_en": "Steve Trimble",
+    "name_zh": "史蒂夫·特林布尔",
+    "affiliation": "Aviation Week & Space Technology",
+    "role": "防务主编（Defense Editor）",
+    "platforms": [
+      "aviationweek.com",
+      "X",
+      "Check 6 播客"
+    ],
+    "x_handle": "@TheDEWLine",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "美军飞机与导弹项目进度、预算文件与试验靶场文件挖掘（如据靶场空域图推断 AIM-260 射程）、隐秘项目追踪、产能与交付节奏",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "Aviation Week 防务主编，2003-2018 先后任《简氏防务周刊》与 FlightGlobal 美国分社社长。以扒预算与试验文件著称：曾据埃格林空军基地射程需求图推算 AIM-260 JATM 的射程区间，属于典型的从公开原始文件反推能力参数的一手工作，其项目进度报道常先于官方公告。",
+    "controversies": "none",
+    "sources": [
+      "https://aviationweek.com/author/steve-trimble",
+      "https://muckrack.com/steve-trimble",
+      "https://en.wikipedia.org/wiki/AIM-260_JATM"
+    ]
+  },
+  {
+    "name_en": "Tom Shugart",
+    "name_zh": "汤姆·舒加特",
+    "affiliation": "新美国安全中心（CNAS）",
+    "role": "防务项目兼职资深研究员（前美国海军潜艇军官）",
+    "platforms": [
+      "CNAS",
+      "X",
+      "卫星影像分析帖"
+    ],
+    "x_handle": "@tshugart3",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "中国造船产能与海军扩张、印太军事平衡、导弹打击下的基地脆弱性、卫星影像判读",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "前美国海军潜艇军官，用商业卫星影像逐个船坞跟踪中国造船产能：2024 年就中国占全球商船建造过半、美国不足 1% 的产能落差做系统对比；2026-03 依据影像评估中国核动力航母在建情况并与福特级早期建造照对照。其影像判读+吨位统计的方法公开可复核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/tom-shugart",
+      "https://www.cnas.org/publications/video/how-chinas-100b-shipbuilding-empire-dominates-the-u-s-s"
+    ]
+  },
+  {
+    "name_en": "Ankit Panda",
+    "name_zh": "安基特·潘达",
+    "affiliation": "卡内基国际和平基金会 核政策项目 / MIT 核安全政策中心",
+    "role": "斯坦顿资深研究员",
+    "platforms": [
+      "Carnegie 官网",
+      "ankitpanda.com",
+      "X",
+      "The Diplomat 前编辑"
+    ],
+    "x_handle": "@nktpnd",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "核战略与升级路径、导弹与导弹防御、朝鲜核与导弹项目、太空安全、美国同盟延伸威慑",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "卡内基核政策项目斯坦顿资深研究员、MIT 核安全政策中心附属研究员，专攻核战略、升级与导弹防御；著有关于朝鲜核力量的专著，长期基于朝方公开影像与试验数据做能力判读，在朝鲜固体燃料导弹与洲际能力的时间线判断上有可查记录。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/people/ankit-panda",
+      "https://cis.mit.edu/our-people/ankit-panda",
+      "https://www.ankitpanda.com/"
+    ]
+  },
+  {
+    "name_en": "Open Source Centre (OSC) research team",
+    "name_zh": "开源中心（OSC）研究团队",
+    "affiliation": "Open Source Centre（英国非营利开源调查机构）",
+    "role": "机构级开源调查团队（与 RUSI 合作）",
+    "platforms": [
+      "opensourcecentre.org",
+      "与 RUSI 联合报告",
+      "X"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "军工与战略",
+    "specialty": "俄罗斯炮弹与火炮供应链逐环节测绘（铁矿石、硫酸、CNC 机床）、制裁规避网络、船运与货运数据追踪",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "英国非营利开源调查机构，2024-10 与 RUSI 合出《Ore to Ordnance: Disrupting Russia's Artillery Supply Chains》，把俄军火炮与弹药供应链从原材料（铁矿石、硫酸）一路测绘到 CNC 机床与前线交付，是「弹药经济学」最彻底的一份公开供应链拆解；报告 PDF 公开，方法与数据源可核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.opensourcecentre.org/",
+      "https://www.opensourcecentre.org/research/ore-to-ordnance",
+      "https://www.rusi.org/explore-our-research/publications/external-publications/ore-ordnance-disrupting-russias-artillery-supply-chains"
+    ]
+  }
+]

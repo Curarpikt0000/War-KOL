@@ -1,0 +1,5512 @@
+[
+ {
+  "kol": "Babak Taghvaee",
+  "theater": "中东",
+  "source_url": "https://kayhanlife.com/news/kayhan/analysis-how-likely-is-a-war-between-israel-and-iran/",
+  "source_title": "ANALYSIS: How Likely Is a War Between Israel and Iran?",
+  "published_on": "2019-03-21",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「babak taghvaee」",
+  "topic": "以色列与伊朗在叙利亚的军事对抗风险",
+  "claim": "以色列与伊朗目前不会爆发战争，但如果国际外交无法缓和两国强硬派的紧张关系，战争风险将上升",
+  "reasoning": "Babak Taghvaee 认为 IRGC 圣城旅在叙利亚南部因以色列空袭而改变战略，让叙利亚版真主党接管阵地以减少损失。他判断伊朗没有放弃在叙利亚的军事和政治霸权计划，只是调整了策略以应对以色列的持续打击。同时他强调 IRGC 在戈兰高地附近的活动为以色列提供了每年从美国获得 50 亿美元军费的理由，因此战争永远不会是双方的选项，但紧张局势会持续",
+  "evidence": [
+   "以色列在叙利亚对 IRGC 及其代理人实施的大规模空袭迫使伊朗圣城旅改变战略",
+   "驻扎在叙利亚南部特别是戈兰高地附近的 IRGC 圣城旅几乎将阵地让给了叙利亚版真主党",
+   "叙利亚版真主党开始使用旧边境哨所并在戈兰高地上建立新哨所",
+   "伊朗没有放弃在叙利亚建立军事和政治霸权的计划，但不得不改变战略以减少以色列空袭造成的伤亡和损失",
+   "IRGC 在叙利亚的活动威胁戈兰高地和以色列多个城市，这为以色列每年从美国获得 50 亿美元军费开支提供了机会"
+  ],
+  "data": [
+   {
+    "metric": "以色列年度军费援助",
+    "value": "50亿美元",
+    "context": "每年从美国获得"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Babak Taghvaee",
+  "theater": "中东",
+  "source_url": "https://www.armyrecognition.com/news/aerospace-news/2026/iran-recovers-us-jassm-er-missile-wreckage",
+  "source_title": "Iran recovers fragments of US JASSM-ER cruise missile sparking...",
+  "published_on": "2026-05-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「babak taghvaee」",
+  "topic": "伊朗获得美军JASSM-ER巡航导弹残骸对其导弹及防空研发的影响",
+  "claim": "伊朗通过分析JASSM-ER残骸能够提升本国远程打击系统和防空能力，但无法完全复制该导弹",
+  "reasoning": "Babak Taghvaee认为，虽然伊朗获得了包括复合材料机体、推进系统碎片和可能的航电组件在内的JASSM-ER残骸，但复制整个武器系统仍不可能。然而，通过材料分析、架构研究和工程选择的理解，伊朗能够改进本国远程打击系统，更好地了解西方低可探测巡航导弹特性，并将选定特征融入未来国产项目。残骸分析的实际价值在于渐进式改进而非一对一复制，同时帮助识别雷达特征驱动因素和潜在漏洞以改进防空规划。",
+  "evidence": [
+   "回收的残骸包括复合材料外壳面板、内部结构框架、线束、隔板部分、推进系统碎片和后机身部分",
+   "2026年2-4月美国对伊朗空袭行动中消耗约1100枚JASSM/JASSM-ER导弹，占战前库存4400枚的25%",
+   "AGM-158B使用Williams F107-WR-105涡扇发动机，射程超过925公里，实际射程接近1000公里，而AGM-158A仅370公里",
+   "历史经验表明，回收的外国系统通常促成渐进式进步而非一对一复制",
+   "伊朗拥有Soumar、Hoveyzeh和Paveh等本国巡航导弹项目"
+  ],
+  "data": [
+   {
+    "metric": "JASSM/JASSM-ER消耗量",
+    "value": "约1100枚",
+    "context": "2026年2-4月39天作战期间"
+   },
+   {
+    "metric": "战前JASSM库存",
+    "value": "约4400枚",
+    "context": "2026年战前"
+   },
+   {
+    "metric": "库存消耗比例",
+    "value": "25%",
+    "context": "单次战役消耗占战前库存"
+   },
+   {
+    "metric": "战后补充采购量",
+    "value": "约4300枚",
+    "context": "战后紧急采购"
+   },
+   {
+    "metric": "AGM-158A射程",
+    "value": "约370公里",
+    "context": "使用Teledyne J402涡喷发动机"
+   },
+   {
+    "metric": "AGM-158B射程",
+    "value": "超过925公里，接近1000公里",
+    "context": "使用Williams F107-WR-105涡扇发动机"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Babak Taghvaee",
+  "theater": "中东",
+  "source_url": "https://www.globaldefensecorp.com/2026/04/07/israeli-air-force-destroys-mi-17-helicopter-fleet-near-iranian-capital/",
+  "source_title": "Israeli Air Force destroys Mi-17 helicopter fleet near Iranian capital.",
+  "published_on": "2026-04-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「babak taghvaee」",
+  "topic": "以色列空袭德黑兰附近伊朗伊斯兰革命卫队直升机",
+  "claim": "以色列空军使用「Delilah」巡航导弹摧毁了德黑兰附近 Karaj 市 Fat'h 直升机场的伊朗伊斯兰革命卫队 Mi-17V-5 和 Mi-171E 直升机",
+  "reasoning": "Babak Taghvaee 基于以色列国防军公布的打击录像，确认了被打击目标包括伊朗伊斯兰革命卫队地面部队航空分队及 Yas 直升机服务公司的直升机，并识别出使用的武器系统为「Delilah」巡航导弹。他通过影像分析确认了被摧毁的具体机型为 Mi-17V-5 和 Mi-171E，并指出打击地点位于德黑兰以西的 Karaj 市 Fat'h 直升机场。",
+  "evidence": [
+   "以色列国防军公布了打击录像，显示在 Fat'h 直升机场摧毁 Mi-17 系列直升机",
+   "被打击目标包括伊朗伊斯兰革命卫队地面部队航空分队和 Yas 直升机服务公司",
+   "打击发生在德黑兰以西的 Karaj 市 Fat'h 直升机场",
+   "录像显示至少一架被摧毁的直升机在打击前已拆除旋翼叶片，可能处于维修或停用状态"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.livemint.com/news/operation-sindoor-did-pakistan-destroy-india-sukhoi-and-s400-adampur-bhuj-airbase-expert-debunks-claim-is-what-he-said-11749393529989.html",
+  "source_title": "Did Pakistan destroy India's Sukhoi and S-400 in Adampur, Bhuj...",
+  "published_on": "2025-06-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "巴基斯坦对印度Adampur空军基地与Bhuj基地攻击声明的真实性",
+  "claim": "巴基斯坦声称摧毁印度Adampur空军基地Su-30战机和Bhuj的S-400雷达系统均为虚假宣传",
+  "reasoning": "通过开源情报图像分析，该分析师发现巴基斯坦用于支持其攻击宣称的卫星图像拍摄时间早于冲突发生时间。Adampur基地的图像拍摄于2025年3月（冲突前），显示的是正在维护的米格-29战机，发动机测试区附近的黑色痕迹是常规维护痕迹而非战损；Bhuj基地的图像拍摄于2025年2月（同样早于冲突），所谓的S-400雷达损毁实际上只是车辆维修场的油渍。通过时间线比对和图像细节分析，证明巴方使用了冲突前的旧图像来伪造战果",
+  "evidence": [
+   "巴基斯坦宣称的Adampur空军基地攻击图像实际拍摄于2025年3月，早于印巴冲突时间",
+   "图像显示的是一架米格-29战机正在进行维护作业，而非苏-30战机",
+   "发动机测试区附近的深色痕迹是常规维护产生的烟尘，并非战斗损伤",
+   "巴基斯坦声称摧毁的Bhuj基地S-400雷达图像拍摄于2025年2月，同样早于冲突发生时间",
+   "所谓的雷达损毁实际上是Bhuj军事基地车辆维修场的油渍"
+  ],
+  "data": [
+   {
+    "metric": "Adampur基地图像拍摄时间",
+    "value": "2025年3月",
+    "context": "早于印巴冲突发生时间"
+   },
+   {
+    "metric": "Bhuj基地图像拍摄时间",
+    "value": "2025年2月",
+    "context": "早于印巴冲突发生时间"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "即时判断",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.indiatoday.in/india/story/india-hit-pakistan-nuclear-warheads-depot-kirana-hills-operation-sindoor-claims-osint-expert-heres-how-2759067-2025-07-21",
+  "source_title": "India hit Pak N-warheads depot Kirana Hills during Op... - India Today",
+  "published_on": "2025-07-21",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度2025年5月辛杜尔行动打击巴基斯坦Kirana Hills核武库",
+  "claim": "印度在2025年5月对巴基斯坦Kirana Hills（核弹头储存地之一）实施了警告性打击，但未造成地下穿透或实质性损毁",
+  "reasoning": "Damien Symon依据2025年6月更新的Google Earth卫星图像分析，确认Kirana Hills存在打击痕迹，但结合早期图像判断，打击点位于山体一侧且周边无重要设施，地下隧道距离较远且无损毁迹象，因此判定这是印度展示打击能力的警告性行动而非实质摧毁企图",
+  "evidence": [
+   "2025年6月更新的Google Earth图像显示Kirana Hills存在打击痕迹",
+   "打击点位于山体一侧，周边没有价值目标",
+   "地下隧道距离打击点较远且未显示任何损毁",
+   "印度在辛杜尔行动中打击了Nur Khan空军基地和Sargodha空军基地等11处巴基斯坦军事目标",
+   "Sargodha的Mushaf空军基地与Kirana Hills地下核储存设施相关联"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://thefoxdaily.com/world/even-after-six-months-pakistans-slow-restoration-shows-the-extent-of-indias-impact/2700/",
+  "source_title": "Even After Six Months, Pakistan’s Slow Restoration Shows the Extent...",
+  "published_on": "2025-11-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印巴冲突后巴基斯坦军事设施恢复进度",
+  "claim": "巴基斯坦在印度「辛杜尔行动」打击后的军事设施恢复缓慢，显示印度精确打击造成深层结构性损伤且巴方难以快速恢复作战能力",
+  "reasoning": "Damien Symon通过持续追踪卫星影像发现，冲突6个月后巴基斯坦多个被打击的高价值军事目标仍在缓慢重建中——努尔汗空军基地正在新建设施、雅各巴巴德空军基地的受损机库仍在分阶段拆除检查内部损伤。这种修复速度与巴方声称的「成功防御」形成对比，印证了印度打击的深度和精确性，证明巴基斯坦空防网络存在脆弱性且作战能力受到显著削弱",
+  "evidence": [
+   "卫星影像显示巴基斯坦在努尔汗空军基地（靠近战略计划司令部总部）正在被印度打击位置新建设施",
+   "雅各巴巴德空军基地的受损机库屋顶数月来分阶段拆除，仍在进行内部损伤检查",
+   "巴基斯坦总理Shehbaz Sharif公开承认印度导弹确实击中了包括查克拉拉空军基地在内的关键军事设施",
+   "印度「辛杜尔行动」打击了至少10-11个巴基斯坦军事设施，包括基拉纳山核武器储存设施",
+   "冲突6个月后巴基斯坦多个受损目标的修复工作仍明显不完整且进展缓慢"
+  ],
+  "data": [
+   {
+    "metric": "冲突持续时间",
+    "value": "4天",
+    "context": "2025年5月印巴冲突"
+   },
+   {
+    "metric": "恢复耗时",
+    "value": "超过6个月",
+    "context": "截至报道发布时（11月）"
+   },
+   {
+    "metric": "印度打击目标数",
+    "value": "10-11个军事设施",
+    "context": "「辛杜尔行动」期间"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "6个月观察期",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.moneycontrol.com/world/india-struck-pakistan-s-nuclear-storage-site-in-kirana-hills-osint-expert-shares-google-earth-imagery-article-13304783.html",
+  "source_title": "India struck Pakistan’s nuclear storage site in Kirana Hills: OSINT...",
+  "published_on": "2025-07-21",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度对巴基斯坦Kirana Hills核储存设施疑似打击",
+  "claim": "印度在2025年5月「信度行动」期间对巴基斯坦Kirana Hills附近实施了警告性打击，该地区被怀疑储存核弹头",
+  "reasoning": "基于2025年6月更新的Google Earth卫星影像分析，Kirana Hills区域出现与打击一致的损伤痕迹，且时间吻合5月7日目击者拍摄的烟柱视频；同时该打击选择了距离巴基斯坦战略计划司令部仅数公里的山体一侧，位置无重要设施但足够传递信号；巴基斯坦军方对此保持「刻意沉默」，未否认也未承认，被解读为措手不及的默认；打击未造成地下穿透破坏，隧道等核心设施更远处未显示损伤，符合「警告性打击」而非实际摧毁意图",
+  "evidence": [
+   "2025年6月Google Earth更新的卫星影像显示Kirana Hills有打击痕迹",
+   "5月7日社交媒体流传的视频显示Sargodha附近有爆炸和烟柱，India Today的OSINT团队将其地理定位到Kirana Hills附近",
+   "印度空军元帅在5月12日三军简报会上被问及是否打击Kirana Hills时回应「我们没有打击，无论那里有什么」",
+   "巴基斯坦军方和政府对Kirana Hills可能遭打击保持「刻意沉默」，未发布官方承认",
+   "Kirana Hills被长期怀疑设有加固隧道和地下掩体用于储存核弹头"
+  ],
+  "data": [
+   {
+    "metric": "卫星影像更新时间",
+    "value": "2025年6月",
+    "context": "Google Earth更新，拍摄于6月"
+   },
+   {
+    "metric": "疑似打击时间",
+    "value": "2025年5月7日",
+    "context": "「信度行动」启动日，社交媒体视频拍摄日期"
+   },
+   {
+    "metric": "官方回应时间",
+    "value": "5月12日",
+    "context": "印度空军元帅三军简报会"
+   },
+   {
+    "metric": "「信度行动」打击目标数量",
+    "value": "11个军事设施",
+    "context": "涵盖巴基斯坦和巴控克什米尔地区"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "已发生（2025年5月）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.indiatoday.in/world/story/india-airstrike-on-nur-khan-airbase-rawalpindi-6-months-on-pakistan-still-repairing-damage-from-indian-air-force-airstrikes-2821499-2025-11-18",
+  "source_title": "India airstrike on Pakistan: Pak's repair work, even after... - India Today",
+  "published_on": "2025-11-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度「辛杜尔行动」打击巴基斯坦军事设施的损毁与修复进展",
+  "claim": "巴基斯坦在遭受印度打击6个月后仍在艰难修复受损设施，证明损害程度严重且修复工作进展缓慢",
+  "reasoning": "Damien Symon 通过持续追踪卫星图像发现，巴基斯坦在 Nur Khan 空军基地被打击位置新建设施，而 Jacobabad 空军基地的机库仍在分阶段拆除屋顶以评估内部损坏，这表明损害评估和修复工作复杂且耗时。他认为屋顶分阶段拆除是为了在全面重建前进行内部损害检查，说明受损程度超出表面可见范围。",
+  "evidence": [
+   "卫星图像显示巴基斯坦在 Rawalpindi 的 Nur Khan 空军基地印度打击位置开始建设新设施",
+   "Jacobabad 空军基地被打击的机库屋顶正在分阶段拆除",
+   "过去几个月的图像显示 Jacobabad 机库在结构修复前仍在进行内部损害检查",
+   "印度在「辛杜尔行动」中打击了包括 Nur Khan、Jacobabad 在内的十个巴基斯坦军事设施"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "6个月后",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Sushant Singh",
+  "theater": "南亚",
+  "source_url": "https://foreignpolicy.com/2025/07/28/INDIA-CHINA-NORMALIZATION-TRUMP-SECOND-TERM-GEOPOLITICS/",
+  "source_title": "Trump Is Pushing India to Submit to China",
+  "published_on": "2025-07-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 foreignpolicy.com",
+  "topic": "特朗普第二任期下印度对华战略转向与屈服趋势",
+  "claim": "印度正在向中国做出前所未有的让步和实质性屈服，这是自1962年边境战争以来最显著的战略退缩",
+  "reasoning": "Sushant Singh认为印度的屈服并非源于自身战略神经丧失，而是特朗普「美国优先」外交剥夺了印度的战略保护伞。在缺乏美国可靠支持的情况下，印度评估认为当前迁就北京的成本低于赌注华盛顿的保证支持。特朗普通过关税威胁、复兴与巴基斯坦关系、要求盟友承担更多防务负担等手段，将美国从「不可或缺的伙伴」变成「不可预测的熟人」，迫使印度在军事技术劣势和地缘政治压力下选择务实屈服而非战略对抗。",
+  "evidence": [
+   "过去6个月内印度国家安全顾问Ajit Doval、国防部长Rajnath Singh、外交秘书Vikram Misri、外交部长S. Jaishankar先后访华，每次访问均以承诺关系正常化结束",
+   "中国在5月印巴冲突期间向巴基斯坦提供实时卫星情报，巴基斯坦过去5年81%军事装备采购自中国，但印度仅公开谴责巴基斯坦而未提及中国角色",
+   "尽管2020年加勒万冲突后设立缓冲区，印度士兵仍无法进入临时和有限缓冲区，双方边境增派部队均未撤减，中国拒绝承认需进一步降级",
+   "2025年7月富士康从印度南部iPhone制造厂撤回超过300名中国工程师，印度仅将此定性为苹果与富士康之间问题",
+   "特朗普4月9日对所有美国进口商品征收10%基准关税，威胁对俄罗斯石油买家征收100%次级关税（印度约40%原油进口来自俄罗斯）",
+   "特朗普6月在白宫接待巴基斯坦陆军参谋长Asim Munir，声称「阻止了南亚核战争」并准备调解克什米尔问题"
+  ],
+  "data": [
+   {
+    "metric": "印度对华战略访问频次",
+    "value": "4次高级别访问",
+    "context": "过去6个月内（2025年前半年）"
+   },
+   {
+    "metric": "巴基斯坦对华军购依赖度",
+    "value": "81%",
+    "context": "过去5年军事装备采购占比"
+   },
+   {
+    "metric": "印度原油进口对俄依赖",
+    "value": "约40%",
+    "context": "当前印度原油进口总量"
+   },
+   {
+    "metric": "美国基准关税税率",
+    "value": "10%",
+    "context": "2025年4月9日起对所有进口商品"
+   },
+   {
+    "metric": "印度国防开支占GDP比例",
+    "value": "1.9%",
+    "context": "当前水平，计划2030年达2.5%"
+   },
+   {
+    "metric": "富士康撤出中国工程师数量",
+    "value": "超过300名",
+    "context": "2025年7月从印度iPhone制造厂"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "当前进行时（特朗普第二任期内，至少至2025年9月莫迪访华）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://www.stimson.org/2025/analysis-of-the-2025-india-pakistan-crisis/",
+  "source_title": "Analysis of the 2025 India-Pakistan Crisis • Stimson Center",
+  "published_on": "2025-07-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "topic": "2025年印巴危机中的军事力量与空中力量平衡",
+  "claim": "印度在此次危机中对巴基斯坦的打击力度超过以往任何一次危机",
+  "reasoning": "Christopher Clary评估了印巴双方的整体军事力量平衡和空中力量平衡。基于新兴能力的发展，印度获得了更强的打击能力，使其能够在2025年危机中对巴基斯坦实施比以往更深入、更有力的军事行动，改变了传统的escalation轨迹。",
+  "evidence": [
+   "Christopher Clary总结评估了印巴双方的整体军事力量平衡和空中力量平衡",
+   "Arzan Tarapore解释新兴能力如何使印度能够比以往危机中更强力地打击巴基斯坦",
+   "2025年印巴危机达到了两个核武装国家之间前所未有的escalation水平",
+   "这场危机的空前性质使其成为理解南亚安全关系的重要新案例"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://www.hindustantimes.com/cities/delhi-news/india-pak-strain-not-unending-both-have-achieved-a-lot-clary-101663870814756.html",
+  "source_title": "India, Pak strain not unending, both have achieved a lot: US political...",
+  "published_on": "2022-09-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christopher clary」",
+  "topic": "印巴关系近中期和平前景与领导人集中决策权",
+  "claim": "印巴关系近期和平前景悲观，主要因巴基斯坦缺乏集中外交决策权威，而印度总理Narendra Modi具备政治资本可推动重大突破",
+  "reasoning": "Christopher Clary认为国家对战略激励的响应程度取决于「领导人首要地位」（leader primacy）即集中外交决策权的有无。当前巴基斯坦处于「领导人首要地位的反面」，陷入「永久危机的政治」每日应对内部危机，体制无法维持对印谈判；反观印度总理在体制内拥有足够政治资本实现重大目标，尽管党内意识形态存在挑战。这种权力集中度的不对称是决定和平前景的首要变量。",
+  "evidence": [
+   "Christopher Clary曾在美国国防部长办公室任职并管理印度事务账户，此经历使他认为影响印巴关系的最大单一变量是领导人对本国体系的首要掌控能力",
+   "其新书《和平的艰难政治：现代南亚的竞争》提出国家对战略激励的响应取决于「集中外交政策权威」即「领导人首要地位」的存在与否",
+   "巴基斯坦当前局势是「领导人首要地位的反面」，体制每天应对永久危机的政治，几乎不可能维持与印度的谈判",
+   "印度总理Narendra Modi在印度体制内拥有「实现重大目标的政治资本」，尽管在推动印巴和平方面面临党内意识形态挑战"
+  ],
+  "data": [
+   {
+    "metric": "争议边界定义完成度",
+    "value": "1947年几乎全部未定义，如今几乎全部已定义",
+    "context": "1947年至今历史对比"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "近期（near-term）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://twitter.com/clary_co/status/1579841124646412291",
+  "source_title": "Christopher Clary on Twitter: \"Now, India wasn't obligated to buy...&q...",
+  "published_on": "2022-10-11",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christopher clary」",
+  "topic": "印度对俄罗斯军事装备依赖的历史成因",
+  "claim": "印度外长Jaishankar关于西方国家数十年拒售武器导致印度依赖俄制装备的说法不符合历史记录",
+  "reasoning": "Christopher Clary通过历史文献考证指出，很难找到连续10年西方国家没有向印度进行重大武器销售或要约的时期。他以1980年印度选择购买T-72坦克而非西方坦克为例，认为这是印度主动选择更优惠交易的结果，而非西方的拒售政策。因此Jaishankar将印度依赖俄制装备归咎于西方的论述过于简化了历史真相。",
+  "evidence": [
+   "1980年《华盛顿邮报》关于印度决定购买T-72坦克而非西方坦克的当代报道显示，这更像是印度的主动选择而非西方拒售",
+   "很难找到连续10年没有重大武器销售的时期",
+   "更难找到连续10年没有重大武器要约的时期",
+   "印度在获得俄制坦克更优惠条件时没有义务购买西方坦克"
+  ],
+  "data": [
+   {
+    "metric": "考察时间段",
+    "value": "10年",
+    "context": "用于验证Jaishankar「数十年」说法的分析单位"
+   },
+   {
+    "metric": "关键案例年份",
+    "value": "1980年",
+    "context": "印度选择T-72坦克的决策时点"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Vipin Narang",
+  "theater": "南亚",
+  "source_url": "https://www.belfercenter.org/publication/indias-new-nuclear-thinking-counterforce-crises-and-consequences",
+  "source_title": "India's New Nuclear Thinking: Counterforce, Crises, and Consequences",
+  "published_on": "2019-05-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「vipin narang」",
+  "topic": "印度对巴基斯坦核战略的反击力（counterforce）转向",
+  "claim": "印度正在发展针对巴基斯坦核武器的先发制人打击能力，尽管近中期内难以完全实现解除武装，但这种追求本身会引发南亚严重的战略不稳定和军备竞赛",
+  "reasoning": "印度长期不满巴基斯坦以核武器威慑其常规报复能力，限制了印度对巴支持恐怖组织的惩罚空间。为突破战略僵局，印度试图通过反击力选项（定位并摧毁巴基斯坦远程核系统）重建「升级主导」能力。印度高级前官员已论证先发制人可能符合「不首先使用」政策，意味着实质战略转变。虽然印度目前能力尚不足以解除巴基斯坦武装，但其情报监视、精确打击、导弹防御系统的快速发展已制造出危险的「先发制人激励」，可能导致巴基斯坦在危机中更早考虑首次打击。2019年巴拉科特事件显示印度对自身能力的过度自信可能带来灾难性误判。",
+  "evidence": [
+   "2019年2月26日印度首次使用精确制导弹药对巴基斯坦巴拉科特恐怖训练营实施远程打击，这是核武国家首次对另一核武国家领土使用空中力量",
+   "2019年3月印度总理莫迪宣布成功拦截本国卫星，展示弹道导弹防御拦截器的改进型能力，可拦截高空高速目标如巴基斯坦远程导弹",
+   "印度前国防部长 Manohar Parrikar、前国家安全顾问 Shivshankar Menon、前海军参谋长 Arun Prakash、前核战略部队司令 Balraj Nagal 等多名高级官员公开主张印度核理论应允许或已允许核先发制人",
+   "印度现拥有大量陆基和海基弹道导弹、巡航导弹、远程无人机及俄制 S-400 系统，可覆盖巴基斯坦大部分地区，而2003年发布核理论时几乎不具备这些能力",
+   "印度现可通过长航时无人机、商业卫星可见光和合成孔径雷达影像、政府系统及友好国情报，在夜间和云层条件下定位巴基斯坦战略资产"
+  ],
+  "data": [
+   {
+    "metric": "印度准军事部队伤亡",
+    "value": "40人",
+    "context": "2019年2月14日克什米尔自杀袭击"
+   },
+   {
+    "metric": "印度弹道导弹射程",
+    "value": "250公里以上",
+    "context": "2003年核理论发布时无此类系统，现已具备"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "近中期内（near to medium term）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Vipin Narang",
+  "theater": "南亚",
+  "source_url": "https://www.orfonline.org/research/india-pakistan-dynamics-balakot-different-deterrence-equation-63691",
+  "source_title": "India-Pakistan dynamics after Balakot: A different deterrence equation?",
+  "published_on": "2020-03-25",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「vipin narang」",
+  "topic": "印巴巴拉科特空袭后的威慑态势变化",
+  "claim": "巴基斯坦以核升级威胁阻吓印度的策略已失效，印度两次证伪了巴方的核讹诈，但印度若要维持新确立的威慑均衡需大幅改善军事准备与应对国内困境",
+  "reasoning": "Vipin Narang 认为，2016年「外科手术式打击」与2019年巴拉科特空袭均未引发巴基斯坦核升级或对等常规报复，证明巴方核威胁已被印度两度证伪；同时巴基斯坦依赖外部大国介入的「催化策略」因自身在反恐战争中角色可疑、经济体量仅为印度十分之一、且中国紧密结盟令印太国家不愿支持而失灵。但他警告，印度国防预算下降导致能力缺口，加上《公民身份法修正案》等国内争议损害其作为自由民主国家的声誉，若下次冲突升级印度初期成本可能大幅上升，除非尽快补强军事准备并解决国内问题。",
+  "evidence": [
+   "2016年印度政府在乌里营地袭击后首次公开宣传「外科手术式打击」，打破了以往因担心核升级而不公开越境行动的惯例",
+   "2019年巴拉科特空袭后巴基斯坦仅在常规层面作出有限回应，未击中印度设施，且无条件归还被击落的印度飞行员",
+   "1999年卡吉尔战争与2008年孟买恐袭期间美国等国际力量未站在巴基斯坦一边，巴方「催化策略」失效",
+   "印度经济规模近3万亿美元，巴基斯坦仅略超3000亿美元且差距逐年扩大",
+   "印度国防预算下降导致能力缺口，若巴拉科特空袭引发升级印度成本将大幅上升",
+   "《公民身份法修正案》与拟议的全国公民登记册被内外视为针对少数群体，损害印度自由民主声誉并可能削弱其在克什米尔问题上的外部同情"
+  ],
+  "data": [
+   {
+    "metric": "印度经济规模",
+    "value": "近3万亿美元",
+    "context": "文章撰写时"
+   },
+   {
+    "metric": "巴基斯坦经济规模",
+    "value": "略超3000亿美元",
+    "context": "文章撰写时"
+   },
+   {
+    "metric": "普尔瓦马袭击死亡人数",
+    "value": "近40名印度士兵",
+    "context": "2019年2月"
+   },
+   {
+    "metric": "乌里营地袭击死亡人数",
+    "value": "19名印度士兵",
+    "context": "2016年"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mohammed Zubair",
+  "theater": "南亚",
+  "source_url": "https://www.indianewsweek.com/mohammed-zubair-indian-fact-checker-battles-pakistans-misinformation-during-operation-sindoor/",
+  "source_title": "Mohammed Zubair: Indian Fact-Checker Battles Pakistan’s ...",
+  "published_on": "2026-06-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mohammed zubair」",
+  "topic": "印巴紧张局势下社交媒体虚假信息传播",
+  "claim": "冒充印度军方人员的账号正在推广巴基斯坦宣传内容，加剧印巴对立",
+  "reasoning": "Mohammed Zubair 通过观察社交媒体账号行为，发现有账号假冒印度陆军官员身份，实际传播亲巴基斯坦叙事。在印巴关系紧张的敏感时期，此类虚假信息若被放大传播，会加深社会分裂、破坏公众对合法机构的信任、干扰国家安全议题的理性讨论，因此需要公众保持警惕，避免转发未经验证的内容",
+  "evidence": [
+   "2025年5月7日 Mohammed Zubair 在推特发布警告，指出有账号伪装成印度陆军人员",
+   "Zubair 分享了视觉示例以说明其观点",
+   "Zubair 因持不同意见常被贴上「反国家」或「巴基斯坦同情者」标签",
+   "社交媒体已成为印度主要信息来源，虚假叙事影响公众舆论和政策的潜力不可低估"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mohammed Zubair",
+  "theater": "南亚",
+  "source_url": "https://note.f5.pm/go-328856.html",
+  "source_title": "India-Pakistan Conflict: How a Deepfake Video Made it Mainstream",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mohammed zubair」",
+  "topic": "印巴冲突中深度伪造视频的传播与危害",
+  "claim": "高质量深度伪造视频在危机时期会使信息环境更加混乱，增加事实核查的难度和不确定性，并分散人们对重要真实信息的注意力",
+  "reasoning": "Rachel Moran 认为，在危机时期信息环境本就混乱，需要快速区分谣言与事实。深度伪造技术的快速创作和发布能力带来了新挑战。当高质量的虚假视频加入信息流时，会使核查过程更加费力、结论更不确定，并且会将公众注意力从重要的真实信息上转移开",
+  "evidence": [
+   "5月8日出现的伪造巴基斯坦将军 Ahmed Sharif Chaudhry 的视频在 X 平台被分享近70万次",
+   "包括 NDTV、The Free Press Journal、The Statesman 和 Firstpost 等多家印度主流媒体引用了该伪造视频的内容进行报道",
+   "Bellingcat 通过找到去年同一场新闻发布会的另一段视频，证实该视频是用不同音频覆盖原始画面制作而成",
+   "NDTV 和 The Statesman 后来删除了相关报道但未作任何说明"
+  ],
+  "data": [
+   {
+    "metric": "视频分享次数",
+    "value": "近70万次",
+    "context": "截至文章发表时在 X 平台上"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mohammed Zubair",
+  "theater": "南亚",
+  "source_url": "https://f5.pm/go-328856.html",
+  "source_title": "India-Pakistan Conflict: How a Deepfake Video Made it Mainstream",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mohammed zubair」",
+  "topic": "印巴冲突中深度伪造视频的传播与危害",
+  "claim": "高质量深度伪造视频在危机时期会使信息环境更加混乱，增加事实核查的难度和不确定性，并分散人们对重要真实信息的注意力",
+  "reasoning": "Rachel Moran 认为，在危机时期信息环境本就混乱，需要快速区分谣言与事实。深度伪造技术的快速创作和发布能力带来了新挑战。当高质量的虚假视频加入信息流时，会使核查过程更加费力、结论更不确定，并且会将公众注意力从重要的真实信息上转移开",
+  "evidence": [
+   "5月8日出现的伪造巴基斯坦将军 Ahmed Sharif Chaudhry 的视频在 X 平台被分享近70万次",
+   "包括 NDTV、The Free Press Journal、The Statesman 和 Firstpost 等多家印度主流媒体引用了该伪造视频的内容进行报道",
+   "Bellingcat 通过找到去年同一场新闻发布会的另一段视频，证实该视频是用不同音频覆盖原始画面制作而成",
+   "NDTV 和 The Statesman 后来删除了相关报道但未作任何说明"
+  ],
+  "data": [
+   {
+    "metric": "视频分享次数",
+    "value": "近70万次",
+    "context": "截至文章发表时在 X 平台上"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Raz Zimmt",
+  "theater": "中东",
+  "source_url": "https://peacediplomacy.org/2024/03/20/the-war-in-gaza-as-an-opportunity-for-reassessing-the-israeli-iranian-confrontation/",
+  "source_title": "The War in Gaza as an Opportunity for Reassessing the Israeli-Iranian...",
+  "published_on": "2024-03-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「raz zimmt」",
+  "topic": "以色列对伊朗战略的重新评估与加沙战争影响",
+  "claim": "以色列必须重新定义其对伊朗战略，聚焦现实可达成的安全目标，并减少加剧双方摩擦和升级循环的行动",
+  "reasoning": "Raz Zimmt 认为，加沙战争暴露了以色列-伊朗对抗升级的严重后果，伊朗首次利用该冲突同时激活其地区盟友网络对以色列施压。他指出过去十年以色列针对伊朗利益的公开与隐蔽行动（叙利亚「战争间战役」、刺杀核科学家等）已成为催化剂，促使伊朗将以色列视为国家安全威胁并强化边境军事部署。他主张以色列应利用战后机遇重新评估长期战略假设，建立新地区架构以削弱伊朗扩张影响力的因素，同时避免将伊朗反以政策的核心性视为不可改变的「DNA」，转而关注可实现的安全利益",
+  "evidence": [
+   "加沙战争中伊朗首次实施「战场统一」战略，同时激活哈马斯、真主党及其他代理组织从南部（加沙）、东部（约旦河西岸）、北部（黎巴嫩和叙利亚）对以色列形成协同压力",
+   "以色列自2013年起在叙利亚发起「战争间战役」（CBW），初期针对真主党武器转移，后扩展至阻止精确导弹项目及2019年后打击伊朗通过叙利亚向真主党输送燃料和武器的系统",
+   "伊朗在叙利亚内战后加强军事存在，部署包括叙利亚本地团体、伊朗影响的叙军单位及真主党在内的代理力量至以色列边境附近，并积累导弹、火箭、无人机和防空系统",
+   "伊朗加大在约旦河西岸的渗透力度，以色列发现伊朗试图建立情报基础设施、以民间组织为掩护创建恐怖网络并通过无人机运送爆炸物",
+   "以色列针对伊朗核目标的隐蔽行动（包括刺杀核科学家 Mohsen Fakhrizadeh）在一定程度上延缓了核进展，但似乎促使德黑兰决定将铀浓缩水平提高至20%"
+  ],
+  "data": [
+   {
+    "metric": "伊朗铀浓缩水平",
+    "value": "20%",
+    "context": "刺杀核科学家后伊朗提升浓缩等级"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Raz Zimmt",
+  "theater": "中东",
+  "source_url": "https://www.atlanticcouncil.org/blogs/iransource/israel-iran-escalation-syria-zahedi/",
+  "source_title": "This round of Iran-Israel escalation is over, but the... - Atlantic Council",
+  "published_on": "2024-04-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「raz zimmt」",
+  "topic": "伊朗-以色列直接军事冲突新阶段及地区格局演变",
+  "claim": "伊朗与以色列的对抗已从代理人战争转向直接军事冲突的新阶段，伊朗领导层认为其地缘战略地位正在稳步改善，正朝着与以色列的战略平衡迈进",
+  "reasoning": "Raz Zimmt 基于伊朗在4月14日首次直接攻击以色列这一事件，认为这标志着两国战略竞争进入新阶段。他指出，伊朗多年来通过代理人网络行动以保持可否认性，但现在已转向直接军事对抗。伊朗领导层的自信源于其评估：战略军事能力提升、代理人网络、俄中支持，以及对以色列国际支持下降和加沙战争失利的判断。这反映了由保守派和极端鹰派主导的伊朗领导层的真实评估。",
+  "evidence": [
+   "伊朗4月14日对以色列发动史无前例的攻击，动用超过350枚弹道导弹、巡航导弹和无人机，这是伊朗首次直接攻击以色列",
+   "伊朗革命卫队指挥官 Hossein Salami 表示伊朗已形成针对「犹太复国主义政权」的新方法，今后将直接反击以色列",
+   "最高领袖军事顾问 Yahya Safavi 在纪念仪式上表达对伊朗领导的抵抗轴心胜利的信心，宣称以中东正在形成以伊朗为核心的新秩序",
+   "革命卫队附属报纸 Javan 断言伊朗对以色列的攻击标志着分水岭时刻，将在该地区建立新秩序，伊朗是其建筑师",
+   "自2023年12月以来，以色列在叙利亚杀害多名伊朗军官，包括2023年12月25日在大马士革被暗杀的革命卫队高级军官 Razi Mousavi"
+  ],
+  "data": [
+   {
+    "metric": "伊朗攻击规模",
+    "value": "超过350枚弹道导弹、巡航导弹和无人机",
+    "context": "2024年4月14日对以色列的攻击"
+   },
+   {
+    "metric": "叙利亚内战开始时间",
+    "value": "2011年",
+    "context": "导致伊朗在叙利亚军事存在增加"
+   },
+   {
+    "metric": "以色列-伊朗影子战争开始",
+    "value": "2010年",
+    "context": "围绕伊朗核计划和军事建设"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Raz Zimmt",
+  "theater": "中东",
+  "source_url": "https://www.csmonitor.com/World/Middle-East/2026/0102/israel-netanyahu-trump-war-iran-protests",
+  "source_title": "Israel and Iran talk of war. How does it suit their... - CSMonitor.com",
+  "published_on": "2026-01-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「raz zimmt」",
+  "topic": "以色列-伊朗战争前景与双方战备状态评估",
+  "claim": "伊朗至少目前不太可能决定打击以色列",
+  "reasoning": "伊朗在6月战争中防空系统遭到消耗，需要时间重建弹道导弹库和代理人武装力量（哈马斯、真主党），同时需在东非建立新物流系统以替代在叙利亚损失的能力。在恢复对以色列的全方位威慑能力之前，德黑兰缺乏发动战争的条件，尽管长期而言其扩充导弹计划的目标将被以色列视为不可容忍的威胁",
+  "evidence": [
+   "伊朗6月战争中防空系统被消耗",
+   "伊朗领导层知道需要重建被削弱的代理人武装（哈马斯和真主党）",
+   "伊朗计划在东非扩大行动以建立新物流系统，替代在叙利亚损失的能力",
+   "伊朗在6月战争中学到了关于导弹精度和以色列防御的重要经验"
+  ],
+  "data": [
+   {
+    "metric": "6月战争伊朗死亡人数",
+    "value": "超过1100人",
+    "context": "包括高级安全官员和科学家"
+   },
+   {
+    "metric": "6月战争以色列死亡人数",
+    "value": "28人",
+    "context": "6月战争期间"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "至少目前（短期内）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://time.com/article/2026/08/08/the-army-fast-tracks-weapons/",
+  "source_title": "time.com/article/2026/08/08/the-army-fast-tracks-weapons",
+  "published_on": "2026-08-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国国防部武器测试与采购流程加速",
+  "claim": "国防部更关注测试新技术而非补充现有库存，需要更简单、「够用」的导弹以更快生产和更大规模采购",
+  "reasoning": "Stacie Pettyjohn 认为美国现有武器（如对伊朗使用的导弹）性能优秀但生产周期长达数年，因此国防部的重点是开发简单但足够有效的导弹，以实现更快生产速度和更大采购量，而非仅补充现有精密武器库存。",
+  "evidence": [
+   "美国现有武器（如对伊朗使用的导弹）性能优秀",
+   "生产这些精密导弹需要数年时间",
+   "国防部推出 Ground-Based Affordable Mass (G-BAM) Challenge 项目，要求武器系统单价低于 25 万美元",
+   "五角大楼要求长程精确打击系统在 60-90 天内演示、12-18 个月内量产"
+  ],
+  "data": [
+   {
+    "metric": "G-BAM Challenge 武器目标单价",
+    "value": "低于 25 万美元",
+    "context": "量产规模下的目标成本"
+   },
+   {
+    "metric": "新系统演示周期",
+    "value": "60-90 天",
+    "context": "G-BAM Challenge 要求"
+   },
+   {
+    "metric": "量产准备周期",
+    "value": "12-18 个月",
+    "context": "G-BAM Challenge 要求"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://www.theportal-center.com/296",
+  "source_title": "U.S. Army Weapons Testing Accelerates as Trump Denies Munitions...",
+  "published_on": "2026-08-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国武器测试加速与军火库存争议",
+  "claim": "五角大楼当前重点不是单纯补充现有武器，而是测试和部署新技术；军方需要更简单、足够好用、能大量采购且制造速度更快的导弹",
+  "reasoning": "Stacie Pettyjohn认为美国已经拥有高性能武器（包括对伊朗使用的系统），但生产先进导弹耗时数年。真正的挑战在于：现有库存无法独自支撑未来冲突所需的规模、成本和速度。因此五角大楼需要转向更快速、更经济的新型武器，而不是仅依赖传统复杂系统的补库。",
+  "evidence": [
+   "美国已经拥有高性能武器，包括正在对伊朗使用的系统",
+   "生产先进导弹可能需要数年时间",
+   "国防创新部门的G-BAM挑战项目指出，未来冲突可能需要「现有库存无法独自支撑」的规模、成本和速度的远程火力",
+   "五角大楼的核心挑战不仅是现有武器数量，还包括在持续军事行动中能多快制造和替换复杂系统"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Wassim Nasr",
+  "theater": "非洲",
+  "source_url": "https://ctc.westpoint.edu/developments-in-the-sahel-an-interview-with-wassim-nasr-journalist-france24-senior-research-fellow-soufan-center/",
+  "source_title": "Developments in the Sahel: An Interview with Wassim Nasr, Journalist...",
+  "published_on": "2026-05-01",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ctc.westpoint.edu",
+  "topic": "萨赫勒地区 JNIM 与 al-Qa`ida 组织关系及马里政治演变",
+  "claim": "JNIM 事实上正在走向与 al-Qa`ida 脱钩，但短期内不会正式宣布决裂，这一进程将通过治理实践而非公开声明来实现",
+  "reasoning": "Wassim Nasr 认为 JNIM 已通过与世俗分离组织 FLA 结盟、实施温和沙里亚法、呼吁非圣战派反对派联合等行为事实上（de facto）走上脱离 al-Qa`ida 路径。但他判断正式决裂不会在短期发生，因为 al-Qa`ida 领导层真空（扎瓦希里已死且未宣布继任者）使得没有明确的「脱钩对象」，且缺乏教法正当性的仓促决裂会导致富拉尼战士大规模投奔 Islamic State，削弱 JNIM 对抗 IS 的能力。他强调如果国际社会将「与 AQ 决裂」设为前提条件反而会适得其反，JNIM 会通过治理马里城市地区的实践来自然完成转型，类似 HTS 在叙利亚的路径但无需经历八年正式分裂过程",
+  "evidence": [
+   "JNIM 在 2025 年 3 月与世俗分离组织 FLA 达成协议，FLA 的 MNLA 组成部分接受实施沙里亚法作为结盟条件",
+   "JNIM 在关于协同攻击的首份公报中呼吁俄罗斯放弃支持马里政权以换取「未来良好关系」，一周前释放两名俄罗斯人质，俄罗斯非洲军团随后得以从基达尔等地撤退而未遭射击",
+   "JNIM 在第三份政治性公报中呼吁与其他政治力量建立「统一战线以避免马里混乱」，此前已释放部分被俘马里军人",
+   "马里政治家 Oumar Mariko（67 岁马克思主义者、三次总统候选人）非法进入 JNIM 控制区谈判释放被马里政府遗弃的军人，成功释放四人",
+   "Imam Dicko 领导的 CFR 联盟中的核心人物 Etienne Fakaba Sissoko 是基督徒，显示 JNIM 与非圣战派政治力量的合作"
+  ],
+  "data": [
+   {
+    "metric": "JNIM 与 FLA 协议签署时间",
+    "value": "2025年2月（确认于2025年3月）",
+    "context": "Wassim Nasr 一年前（2025年3月）独家报道该协议"
+   },
+   {
+    "metric": "双方冲突死亡人数",
+    "value": "数十人",
+    "context": "截至2024年4月在毛里塔尼亚边境的周期性冲突"
+   },
+   {
+    "metric": "释放俄罗斯人质数量",
+    "value": "2人",
+    "context": "协同攻击一周前"
+   },
+   {
+    "metric": "释放马里军人数量",
+    "value": "4人",
+    "context": "Oumar Mariko 谈判成果"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Wassim Nasr",
+  "theater": "非洲",
+  "source_url": "https://twitter.com/SimNasr/status/1258429682300719107",
+  "source_title": "Wassim Nasr on Twitter: \"#Sahel fin officielle de l’exception de...\"",
+  "published_on": "2020-05-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「wassim nasr」",
+  "topic": "萨赫勒地区伊斯兰国与基地组织武装冲突升级",
+  "claim": "萨赫勒地区伊斯兰国（IS）与基地组织（AQMI/JNIM）之间的「容忍例外」已正式结束，双方将进入持续武装对抗阶段",
+  "reasoning": "Wassim Nasr 基于伊斯兰国在也门发布的长篇宗教文献（4月29日）以及萨赫勒地区首次制作物的内容，判断这些宣传品预示着IS与AQMI之间长期存在的非正式容忍关系已瓦解。他认为IS在马里和布基纳法索主动对基地组织武装使用自杀式袭击、公开指控AQMI与法国军队合作、将JNIM领导人Kouffa和Ghali定性为「叛教者」等行为，标志着双方从个人关系主导的默契转向组织层面的敌对",
+  "evidence": [
+   "伊斯兰国在马里和布基纳法索对基地组织武装发起攻击，并使用自杀式袭击手段（kamikaze）",
+   "IS宣称在马里袭击导致法国Barkhane行动一名外籍军团士兵死亡，使用多个简易爆炸装置",
+   "IS指控JNIM/AQMI「与军队和十字军[法国]共同参与三国边境地区军事行动，保护阿尔及利亚和毛里塔尼亚边界」",
+   "IS在也门发布长篇宗教文献（2020年4月29日），该地在圣战运动中具有特殊象征意义",
+   "IS在Liptako地区与基地组织发生地面战斗，提及AQMI某些指挥官居住在阿尔及利亚境内的Timiaouine和Tinzouaten"
+  ],
+  "data": [
+   {
+    "metric": "也门宣传文献发布日期",
+    "value": "2020年4月29日",
+    "context": "IS发布的长篇宗教文献"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Phil Gunson",
+  "theater": "拉美",
+  "source_url": "https://www.foreignaffairs.com/podcasts/what-comes-next-venezuela",
+  "source_title": "What Comes Next in Venezuela - Foreign Affairs",
+  "published_on": "2026-01-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「phil gunson」",
+  "topic": "委内瑞拉马杜罗被捕后政权稳定性与美国政策走向",
+  "claim": "委内瑞拉现政权（以Delcy Rodríguez为首）与特朗普政府之间存在「可能达成协议的区域」，双方可能在务实利益基础上维持某种妥协，但不包括民主转型",
+  "reasoning": "Phil Gunson认为，特朗普的核心诉求集中在物质利益（石油、资产、遏制毒品、驱逐中国势力），而委内瑞拉执政集团的底线是保住权力以避免监禁或流亡。双方都聚焦于「绝对务实的考量」而非民主人权等「虚无缥缈的东西」。由于美方需求清单中民主转型优先级很低，而现政权愿意在经济利益上让步以换取政治生存，这构成了潜在交易空间。但这一安排将排斥代表2024年选举民意的反对派，导致缺乏长期政治解决方案。",
+  "evidence": [
+   "特朗普已要求在委内瑞拉庞大石油资源中获得巨大份额，并暗示美国可以「运营」该国",
+   "委内瑞拉现政权面临特朗普的「新殖民式要求」与国内保持革命修辞的两难困境，美国持续扣押油轮施加经济压力",
+   "国防部长Padrino López和内政部长Diosdado Cabello控制军队、警察、情报机构及民兵组织等所有武装力量",
+   "反对派领导人María Corina Machado和2024年选举获胜者Edmundo González「在谈判桌上没有席位」，特朗普政府仅对民主转型「口头表态」",
+   "美国在马杜罗被捕前曾拒绝委方提出的「马杜罗下台、Delcy Rodríguez接任」的交易提议"
+  ],
+  "data": [
+   {
+    "metric": "委内瑞拉人口",
+    "value": "3000多万人",
+    "context": "包括国内及流散海外的委内瑞拉人"
+   },
+   {
+    "metric": "2024年选举",
+    "value": "反对派获胜",
+    "context": "2024年7月举行，Edmundo González赢得选举"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://www.washingtoninstitute.org/policy-analysis/bigger-picture-iran-israel-conflict-russia-missiles-militias-and-more",
+  "source_title": "The Bigger Picture in the Iran-Israel Conflict: Russia, Missiles, Militias...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 washingtoninstitute.org",
+  "topic": "伊朗-以色列冲突中以军作战目标与战役进程",
+  "claim": "冲突将持续至以色列达成战争目标——削弱伊朗弹道导弹与核能力且伊朗停止打击，或美国介入推进这些目标",
+  "reasoning": "Michael Knights 判断以色列已在战略层面获得对伊朗领空的几乎完全行动自由，正通过全供应链打击（从铀转化浓缩到武器化）持续削弱伊朗核计划，同时扩大打击范围至破坏政权稳定的经济目标（如银行系统网络攻击）。他认为冲突结束条件取决于以色列是否实现削弱伊朗导弹核能力的目标、伊朗是否停火、或美国是否军事介入，而非伊朗单方面意愿",
+  "evidence": [
+   "以色列在作战层面对伊朗领空享有几乎完全的行动自由",
+   "以色列将攻击目标扩展至包括破坏政权稳定的经济目标，近期对银行业实施网络攻击",
+   "以色列国防军需要维持攻击直至白宫就Fordow核设施的行动方案明确",
+   "以色列攻击了负责镇压民众起义的伊朗部队总部，试图鼓励伊朗人民采取行动",
+   "伊朗对以色列的弹幕攻击已显著减少，表明德黑兰未采取最鲁莽行动"
+  ],
+  "data": [
+   {
+    "metric": "白宫对伊朗的最后通牒期限",
+    "value": "两周",
+    "context": "截至论坛举办时（6月20日）白宫给出的时限"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "持续至以色列实现战争目标或美国介入（未指明具体时间点）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://www.cfr.org/expert-roundup/interview-peter-khalil-and-michael-knights-iran-iraq-relations",
+  "source_title": "Interview with Peter Khalil and Michael Knights on Iran-Iraq Relations",
+  "published_on": "2026-08-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael knights」",
+  "topic": "伊朗对伊拉克南部什叶派民兵及地方政治的渗透程度",
+  "claim": "伊朗情报机构对伊拉克南部的控制力被严重高估，伊朗虽有优势但仍需与联军及本地派系逐日竞争影响力",
+  "reasoning": "Michael Knights 强调伊朗虽在伊南部耕耘近20年、掌握部落结构且战后准备更充分，但其仍是外部势力，需依赖本地代理人的合作意愿才能发挥作用。这些代理人并非「无脑自动机」(brainless automaton)，会根据自身利益决定配合程度。伊朗必须每日与联军和内部竞争者争夺影响力，其控制权远非绝对。",
+  "evidence": [
+   "伊朗情报及安全机构在伊拉克南部活动近20年，对当地心态和部落结构有更深入洞察",
+   "伊朗在战后恢复阶段的准备比多国联军更充分",
+   "伊朗代理人会根据与伊朗合作是否有利来决定支持程度，不存在简单的控制关系",
+   "伊朗必须与联军和内部竞争者逐日争夺影响力"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://www.npr.org/2025/04/05/nx-s1-5352837/tensions-are-rising-in-the-middle-east-again-and-the-u-s-is-deeply-involved",
+  "source_title": "Tensions are rising in the Middle East again, and the U.S. is... : NPR",
+  "published_on": "2025-04-05",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael knights」",
+  "topic": "美国对中东特别是也门胡塞武装的军事介入态势",
+  "claim": "特朗普政府正在扩大而非缩减美国在中东的军事存在，当前的重兵部署既旨在施压伊朗重启核谈判，也旨在迫使胡塞武装停止攻击航运",
+  "reasoning": "尽管特朗普此前表态希望减少美国在中东的活动，但实际行动显示美军正在大幅增兵该地区——派遣额外航母战斗群、在印度洋迪戈加西亚岛集中部署6架B-2隐形轰炸机（这种集中部署极为罕见），这些高端战力既可用于打击胡塞武装，也向支持胡塞的伊朗发出信号。该分析师认为这是「双头危机」的军事支撑：一方面对伊朗施压要求直接核谈判，另一方面要求胡塞停止攻击航运，当前的重兵集结同时服务于这两个目标。",
+  "evidence": [
+   "美国正向该地区派遣另一个航母战斗群",
+   "美军已将6架B-2隐形轰炸机转移到印度洋的迭戈加西亚岛，这种在单一地点集中如此多B-2的做法极为罕见",
+   "特朗普表示对与伊朗达成核协议持开放态度，但伊朗总统最近拒绝了与美国的直接谈判",
+   "美军3月15日开始对胡塞武装新一轮轰炸行动，规模远大于拜登政府去年的行动"
+  ],
+  "data": [
+   {
+    "metric": "B-2隐形轰炸机部署数量",
+    "value": "6架",
+    "context": "集中部署于迭戈加西亚岛"
+   },
+   {
+    "metric": "航母战斗群增派数量",
+    "value": "1个",
+    "context": "本周向中东地区增派"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Seth G. Jones",
+  "theater": "军工与战略",
+  "source_url": "https://www.nightdragon.com/insights/recording-nightvision-fireside-chat-with-defense-leader-seth-g-jones/",
+  "source_title": "Recording: NightVision Fireside Chat with Defense Leader Seth...",
+  "published_on": "2026-01-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「seth g. jones」",
+  "topic": "美国防务创新与大国竞争中的技术优势",
+  "claim": "美国在水下作战、无人系统和自主技术领域保持有意义的优势，这些能力可成为对抗中国的非对称优势，但必须从和平时期思维转向战时工业思维才能重建威慑力",
+  "reasoning": "Seth G. Jones 认为中国在中远程精确打击能力上的扩张对美军在台海及其他地区的行动自由构成挑战，但美国及其盟友在水下战、无人系统和自主技术方面仍有显著优势，这些能力可利用中国的弱点。然而要将这些技术优势转化为有效威慑，美国必须摆脱和平时期的防务整合思维，转向增加产能、简化采购流程并建立紧迫感的战时工业模式，同时需要将大规模私营部门投资与军事需求和战略更好对接。",
+  "evidence": [
+   "中国正在扩大中远程精确打击能力，这使美军在台海及其他地区的部队调动、通信和后勤保障面临操作困境",
+   "美军印太司令部司令 Samuel Paparo 提出的「hellscape」新概念需要与技术创新相结合以有效威慑冲突",
+   "水下战、无人系统和自主技术利用了中国的弱点，同时能以较低人员风险实现情报收集和精确打击",
+   "美国防务生态系统受益于大规模私营部门投资，风险投资和私募股权正在加速创新",
+   "能源是关键脆弱点，人工智能、先进制造和工业振兴都依赖大规模发电能力，而中国在生产方面具有优势"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://www.businessinsider.com/russia-arms-drones-with-new-electronic-defenses-fight-ukrainian-interceptors-2026-5",
+  "source_title": "Russia Puts Electronic Warfare on Drones Fighting Ukrainian ...",
+  "published_on": "2026-05-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "俄罗斯在Shahed无人机上加装电子战系统对抗乌克兰拦截无人机",
+  "claim": "俄罗斯在攻击无人机上加装电子战技术的效果目前参半，尚不足以击败乌克兰的拦截无人机",
+  "reasoning": "Bendett认为俄罗斯从去年开始在无人机上搭载便携式电子战设备，主要是轻型固定翼侦察无人机携带该技术，但数量不足以阻止乌克兰拦截无人机攻击的增长。他指出目前尚不清楚在Shahed型无人机上增加电子战系统是否足以击败乌克兰的拦截机，因为部分乌克兰拦截无人机使用锁定目标技术能够持续追踪目标",
+  "evidence": [
+   "俄罗斯从去年开始在无人机上安装便携式电子战设备，以应对乌克兰拦截无人机的激增",
+   "大多数此类尝试是在轻型固定翼侦察无人机上搭载该技术",
+   "这些部署数量不足，未能阻止乌克兰拦截攻击的增长",
+   "部分乌克兰拦截无人机使用目标锁定技术，能够持续追踪所追击的飞行器"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://breakingdefense.com/2026/03/ukraine-inks-defense-agreements-with-qatar-and-saudi-arabia-with-uae-to-follow/",
+  "source_title": "Ukraine inks defense agreements with Qatar and Saudi Arabia ...",
+  "published_on": "2026-03-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "乌克兰与海湾国家在无人机防御领域的防务合作前景",
+  "claim": "海湾国家能够快速从乌克兰的反无人机作战经验中获益，并通过投资乌克兰国防技术获得经过实战检验的解决方案",
+  "reasoning": "Samuel Bendett认为乌克兰多年对抗Shahed/Geran无人机积累的全套防御能力（探测、数据共享、拦截手段、目标防护）对海湾国家具有直接价值，且通过投资乌克兰国防技术，海湾国家可以快速获得经过俄罗斯无人机和导弹实战检验的解决方案，形成技术转移与实战验证的良性循环",
+  "evidence": [
+   "乌克兰已与卡塔尔和沙特阿拉伯签署10年期防务合作协议，涵盖技术领域合作、联合项目开发、防务投资以及导弹和无人机系统对抗专业知识交流",
+   "乌克兰军事专家已在沙特工作超过一周，重点识别该地区天空防护的问题并确定加强防御所需的改进措施",
+   "泽连斯基表示乌克兰准备支持保护那些帮助其捍卫独立的国家，主要涉及击落无人机的方法",
+   "乌克兰多年来一直在对抗伊朗Shahed 136无人机及其俄罗斯衍生型Geran，并已开发出经济高效的对抗方法"
+  ],
+  "data": [
+   {
+    "metric": "防务合作协议期限",
+    "value": "10年",
+    "context": "乌克兰与卡塔尔和沙特分别签署"
+   },
+   {
+    "metric": "乌克兰专家在沙特驻留时间",
+    "value": "超过1周",
+    "context": "截至泽连斯基周五声明时"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "10年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://www.businessinsider.com/sweden-rushing-create-swarm-drones-not-seen-ukraine-russia-war-2025-4",
+  "source_title": "Sweden Rushes to Make Swarm Drones, a Tech Not... - Business Insider",
+  "published_on": "2025-04-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "瑞典蜂群无人机技术开发与西方军事应对",
+  "claim": "蜂群无人机技术对人口较少或高度训练士兵的西方军队具有战略优势，可用多型机器人系统替代单个士兵",
+  "reasoning": "Samuel Bendett 基于西方军队相比俄罗斯更注重单兵培训投入的特点，认为蜂群技术能够以机器人系统弥补人力劣势。这一判断建立在对西方与俄罗斯军事体系差异的分析上——西方军队通常人口基数较小但单兵训练成本高，而蜂群无人机恰好能够通过「以机代人」的方式发挥西方的技术优势，规避人力短板。",
+  "evidence": [
+   "瑞典国防部长称该国在不到一年内完成蜂群无人机项目开发，传统流程需五年",
+   "瑞典在1月展示由武装部队与萨博公司联合研发的蜂群无人机技术",
+   "西方军队通常比俄罗斯在单兵训练上投入更多资源",
+   "乌克兰凭借无人机技术在人力和火炮劣势下减缓俄军进攻"
+  ],
+  "data": [
+   {
+    "metric": "单兵可控无人机数量",
+    "value": "最多100架",
+    "context": "瑞典国防部长所述自主控制能力"
+   },
+   {
+    "metric": "传统项目开发周期",
+    "value": "5年",
+    "context": "瑞典国防部长对比常规流程"
+   },
+   {
+    "metric": "瑞典项目实际开发周期",
+    "value": "不到1年",
+    "context": "蜂群无人机快速研发案例"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://www.newsweek.com/ukraine-heavy-bomber-drone-jetmax-2123017",
+  "source_title": "Ukraine Unveils New ‘JET MAX’ Bomber Drone: What To... - Newsweek",
+  "published_on": "2025-09-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "俄乌战争中重型轰炸无人机的战略重要性",
+  "claim": "俄罗斯与乌克兰都必须拥有重型轰炸无人机机队，这对双方都「非常重要」",
+  "reasoning": "Samuel Bendett 明确表示拥有重型轰炸无人机机队对俄乌双方「非常重要」（very important），因为这类无人机在对付固定目标、集群士兵和掩体时效用极高，且乌克兰已在该领域领先。他指出乌克兰方面已有约两打已知型号的重型轰炸无人机在运作，而俄罗斯虽然进展较慢但其军工部门正在追赶，这表明双方都认识到该装备的战略价值。",
+  "evidence": [
+   "乌克兰已有约两打（roughly two dozen）已知类型的重型轰炸无人机",
+   "乌克兰在重型轰炸无人机领域「引领了方向」（have led the way）",
+   "俄罗斯在该领域「进展较慢」（things have been a little slower）",
+   "俄罗斯军工部门正在努力生产重型轰炸无人机",
+   "俄罗斯已研发出击落乌克兰重型轰炸无人机的战术，并能修复后用于反击乌军"
+  ],
+  "data": [
+   {
+    "metric": "乌克兰已知重型轰炸无人机型号数",
+    "value": "约24种",
+    "context": "截至报道时乌克兰方面"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://english.nv.ua/nation/ukraine-probes-russia-s-aid-defenses-ahead-of-next-move-report-50343505.html",
+  "source_title": "Ukraine probes Russia's air defenses ahead of next move – report",
+  "published_on": "2023-08-03",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "乌克兰对俄罗斯纵深目标的无人机打击能力",
+  "claim": "乌克兰近期的无人机攻击可能是在为大规模无人机集群攻击莫斯科做准备，测试俄罗斯防空系统的漏洞",
+  "reasoning": "Samuel Bendett 认为乌克兰国防工业正快速学习和适应，已经或即将生产至少六种不同类型的远程打击无人机。他判断最近对莫斯科同一办公楼的重复打击，展示了乌克兰无人机能够穿透俄罗斯防空系统的能力，这些攻击可能是在为未来从不同方向和高度对城市发动数十架无人机的大规模集群攻击做技术侦察和准备",
+  "evidence": [
+   "乌克兰本周两次打击莫斯科同一办公楼，展示了乌军无人机工业在战争期间取得的进展",
+   "乌克兰在过去一年成为无人机作战领域的领先国家之一",
+   "最近对莫斯科的攻击使用了类似 Bober（海狸）型号的新型远程无人机",
+   "7月30日和8月1日莫斯科市中心同一摩天大楼（容纳俄罗斯多个政府机构辅助办公室）遭到两次无人机袭击"
+  ],
+  "data": [
+   {
+    "metric": "乌克兰正在或即将生产的远程打击无人机型号数量",
+    "value": "至少6种",
+    "context": "Samuel Bendett 评估"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jeremy McDermott",
+  "theater": "拉美",
+  "source_url": "https://colombiaone.com/2026/01/06/doj-cartel-of-the-suns/",
+  "source_title": "DOJ Admits Venezuela's 'Cartel of the Suns' Doesn't Exist",
+  "published_on": "2026-01-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeremy mcdermott」",
+  "topic": "美国对委内瑞拉「太阳卡特尔」的法律定性与反恐行动合法性",
+  "claim": "美国司法部承认「太阳卡特尔」并非实体恐怖组织或正式贩毒集团，这削弱了美军加勒比海军事行动及抓捕马杜罗的法律正当性",
+  "reasoning": "Jeremy McDermott 指出「太阳卡特尔」是一个笼统标签（catchall phrase），用于描述国家内嵌的贩毒行为，绝非字面意义上的组织实体。司法部在修订起诉书中将其改称为「庇护系统」和「腐败文化」，仅提及两次（原起诉书提及32次），证明无法在法庭上证明该卡特尔的存在。这一转变意味着原先用于支持军事行动的「外国恐怖组织」认定建立在虚构前提上，可能为马杜罗辩护团队提供挑战军事绑架和主权豁免的法律突破口。",
+  "evidence": [
+   "司法部在修订起诉书中将「太阳卡特尔」从被提及32次的具体组织降为仅提及两次的「庇护系统」和「腐败文化」",
+   "Jeremy McDermott 称该标签为「笼统短语」（catchall phrase），并明确警告「绝对不是一个组织本身」",
+   "「太阳卡特尔」一词由委内瑞拉记者在1990年代创造，指代将军肩章上的太阳徽章，而非组织名称",
+   "2025年美国政府将该组织指定为外国恐怖组织（FTO），用于支持炸毁21艘船只、导致至少83人死亡的加勒比海军事行动"
+  ],
+  "data": [
+   {
+    "metric": "原起诉书提及「太阳卡特尔」次数",
+    "value": "32次",
+    "context": "2020年针对马杜罗的原始起诉书"
+   },
+   {
+    "metric": "修订起诉书提及「太阳卡特尔」次数",
+    "value": "2次",
+    "context": "曼哈顿法院公开的修订起诉书"
+   },
+   {
+    "metric": "加勒比海军事行动炸毁船只数量",
+    "value": "21艘",
+    "context": "2025年川普政府「外科手术式」轰炸"
+   },
+   {
+    "metric": "加勒比海军事行动死亡人数",
+    "value": "至少83人",
+    "context": "2025年军事行动结果"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jeremy McDermott",
+  "theater": "拉美",
+  "source_url": "https://latinamericanpost.com/americas/venezuela-is-a-mafia-state-jeremy-mcdermott-executive-director-of-insight-crime/",
+  "source_title": "\"Venezuela is a Mafia State\": Jeremy McDermott, Executive Director...",
+  "published_on": "2018-05-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeremy mcdermott」",
+  "topic": "委内瑞拉国家性质与有组织犯罪渗透",
+  "claim": "委内瑞拉具备「黑手党国家」的全部条件，政府高层存在有组织犯罪网络，且这种「国家黑手党」趋势很可能持续增长，使该国成为拉美地区犯罪中心之一",
+  "reasoning": "Jeremy McDermott 基于 InSight Crime 三年调查，从研究玻利瓦尔政权成员与犯罪活动的关联入手，得出委内瑞拉符合「黑手党国家」定义。其论证逻辑是：政府高层与毒品走私、食品走私、黑市的系统性关联，加上约 50 名官员遭美国制裁、瑞士罕见宣布制裁，以及立法、行政、司法、地方各层级官员被指控属于贩毒网络，构成国家机器与有组织犯罪深度融合的证据链，而非偶发腐败",
+  "evidence": [
+   "美国已对约 50 名委内瑞拉官员实施制裁，理由是其与毒品走私保持关联",
+   "瑞士宣布对委内瑞拉实施制裁，称严重关切该国反复侵犯个人自由、三权分立原则严重削弱",
+   "报告点名的涉毒高官包括国民议会副主席兼前主席 Diosdado Cabello、第一夫人 Cilia Flores、副总统 Tareck El Aissami、内政部长 Nestor Luis Reverol，以及多名省长、国家石油公司 PDVSA 高管、安全部队官员",
+   "立法、市政、行政、地区、司法各部门官员被指控属于「太阳卡特尔」贩毒网络",
+   "哥伦比亚可卡因主要过境地是委内瑞拉，再经多米尼加共和国转运至美国和欧洲",
+   "委内瑞拉 2017 年凶杀率为每 10 万居民 89 起，是拉美最危险国家"
+  ],
+  "data": [
+   {
+    "metric": "遭美国制裁的委内瑞拉官员数量",
+    "value": "约 50 名",
+    "context": "截至报告发布时"
+   },
+   {
+    "metric": "委内瑞拉凶杀率",
+    "value": "89 起/10 万居民",
+    "context": "2017 年"
+   },
+   {
+    "metric": "犯罪团伙规模",
+    "value": "部分达 300 名成员",
+    "context": "食品走私与黑市催生的团伙"
+   },
+   {
+    "metric": "调查时长",
+    "value": "3 年",
+    "context": "InSight Crime 研究周期"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时限，但表述为「很可能持续增长」（very likely continue to grow）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Ibrahim Yahaya Ibrahim",
+  "theater": "非洲",
+  "source_url": "https://www.voaafrica.com/a/sahel-islamist-leaders-forge-ties-with-military-regimes-/7502866.html",
+  "source_title": "Sahel Islamist Leaders Forge Ties with Military Regimes",
+  "published_on": "2024-02-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ibrahim yahaya ibrahim」",
+  "topic": "萨赫勒地区（尼日尔、布基纳法索、马里）军政府与宗教领袖的政治联盟",
+  "claim": "宗教领袖尤其是萨拉菲派已成为萨赫勒军政权「更具结构性」和「更具声量」的支持基础，但其政治影响力目前仍然有限",
+  "reasoning": "Ibrahim Yahaya Ibrahim 认为，相较于其他支持力量，宗教领袖为尼日尔和布基纳法索军政权提供的支持在组织性和公开性上更强。这种联盟建立在反西方情绪、对世俗民主政权的失望、以及穆斯林群体寻求更大政治空间的诉求之上。然而，尽管宗教运动在萨赫勒社会影响力日增，军方仍牢牢掌控政局（政党被禁），且马里新宪法保留世俗主义原则表明宗教势力诉求未被全盘接受，因此其政治权重受到制约。",
+  "evidence": [
+   "尼日尔、布基纳法索和马里的萨拉菲派伊玛目公开参与支持军政权的祈祷活动和街头动员，伊玛目 Souleymane Maiga Mounkaila 在首都大清真寺主持「支持祷告」",
+   "布基纳法索 MSBF 运动领袖 Mohammad Ishaq Kindo 在布道中呼吁支持打击圣战分子，部长们定期在其清真寺参加节日祈祷",
+   "马里伊玛目 Mahmoud Dicko 最初支持军政府领导人 Assimi Goita 上校，后成为批评者",
+   "尼日尔、布基纳法索、马里三国政党均被军政府暂停活动",
+   "马里 2023 年 7 月通过的新宪法保留了国家世俗主义原则，拒绝了原教旨主义者的要求"
+  ],
+  "data": [
+   {
+    "metric": "布基纳法索穆斯林人口占比",
+    "value": "约 60%",
+    "context": "全国人口"
+   },
+   {
+    "metric": "布基纳法索首位穆斯林国家元首任期跨度",
+    "value": "42 年来首次",
+    "context": "Ibrahim Traore 上校于 2022 年上台"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Thomas H. Shugart III",
+  "theater": "印太",
+  "source_url": "https://www.twz.com/43101/china-is-using-e-3-sentry-mockups-for-targets-on-its-ballistic-missile-impact-range",
+  "source_title": "China Is Using E-3 Sentry Mockups For Targets On Its Ballistic Missile...",
+  "published_on": "2021-11-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas h. shugart iii」",
+  "topic": "中国针对美军 E-3 预警机的弹道导弹打击能力开发",
+  "claim": "中国在戈壁沙漠导弹靶场部署 E-3 Sentry 预警机全尺寸模型，表明其正在针对美军高价值空中支援资产开发精确打击能力，这将是冲突初期的优先目标",
+  "reasoning": "Thomas H. Shugart III 在 2021年2月 CNAS 报告中指出该靶场存在 E-3 模型。其逻辑是：摧毁预警机是剥夺美军空战优势的最佳方式，而地面打击优于空中拦截；E-3 机队规模小（仅31架）、机体老旧且常驻嘉手纳等第一岛链前沿基地，使其成为理想的弹道导弹首波打击目标；靶场位置与嘉手纳等实战目标对应，用于验证杀伤链（含动态目标识别传感器）而非单纯测试导弹",
+  "evidence": [
+   "Thomas H. Shugart III 于2021年2月在 CNAS 报告中首次公开指出该靶场存在一架 E-3 仿真模型",
+   "2021年8月28日 Planet Labs 卫星图像显示靶场主跑道目标区出现两架全尺寸 E-3 模型",
+   "该靶场过去十五年间曾部署舰船和码头形状目标用于弹道导弹开发，现已被更高保真度目标替代",
+   "嘉手纳空军基地长期驻扎 E-3 预警机，是中国在第一岛链的首要打击目标"
+  ],
+  "data": [
+   {
+    "metric": "美军 E-3 机队规模",
+    "value": "31架",
+    "context": "美国空军现役库存"
+   },
+   {
+    "metric": "靶场模型数量变化",
+    "value": "从1架增至2架",
+    "context": "2021年2月至8月期间"
+   },
+   {
+    "metric": "卫星图像拍摄日期",
+    "value": "2021年8月28日",
+    "context": "Planet Labs 提供"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Thomas H. Shugart III",
+  "theater": "印太",
+  "source_url": "https://www.defensepriorities.org/explainers/target-taiwan-challenges-for-a-us-intervention/",
+  "source_title": "Target Taiwan: Challenges for a U.S. intervention - Defense Priorities",
+  "published_on": "2025-10-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas h. shugart iii」",
+  "topic": "美国介入台海冲突的军事可行性与代价评估",
+  "claim": "美国在台海冲突中保卫台湾的能力远比美国国内通常认为的更为有限，美国可能缺乏足够战区资产阻止中国成功入侵台湾",
+  "reasoning": "中国拥有距离和意志两大关键优势。台湾距中国大陆仅90英里，而距关岛1700英里、夏威夷5000英里。中国可在美国动员足够兵力前实现既成事实。美国地面部队因中国初期大规模导弹、无人机和空中打击可能瘫痪区域内盟军空军基地而无法及时抵达，且台湾会迅速被封锁。美国海军水面力量包括航母战斗群易受中国反介入/区域拒止系统攻击，只有潜艇部队能以有限损失投入战斗，但可能缺乏足够火力阻止入侵。美国虽可对中国军队造成重大损失，但可能无法阻止中国成功入侵，即使击退中国，北京仍可再次准备进攻或使美国在台地位成本高昂",
+  "evidence": [
+   "中国导弹、空中和无人机攻击可能损坏美国在该地区的机场并减缓美国空中支援，严重削弱美国海上行动和台湾地面防御",
+   "美国海军水面力量包括航母战斗群易受中国A2/AD系统攻击，台海冲突中战斗可能不成比例地由美国海军潜艇部队承担",
+   "美国潜艇虽可对中国海军造成损害，但可能缺乏足够火力影响战争整体结果",
+   "在台海情景中向前部署美国空中和海军力量将带来巨大风险，包括核升级",
+   "台湾距中国大陆仅90英里，距关岛超过1700英里，距夏威夷超过5000英里"
+  ],
+  "data": [
+   {
+    "metric": "台湾距中国大陆距离",
+    "value": "90英里",
+    "context": "地理位置"
+   },
+   {
+    "metric": "台湾距关岛距离",
+    "value": "1700英里以上",
+    "context": "地理位置"
+   },
+   {
+    "metric": "台湾距夏威夷距离",
+    "value": "5000英里以上",
+    "context": "地理位置"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Cynthia Cook",
+  "theater": "军工与战略",
+  "source_url": "https://www.npr.org/transcripts/1197961507",
+  "source_title": "A munitions shortage is showing U.S. defense has... : NPR",
+  "published_on": "2024-01-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「cynthia cook」",
+  "topic": "美国国防工业弹药生产能力与供应链韧性",
+  "claim": "美国国防工业面临的挑战不是依赖准时制生产本身，而是缺乏在需求激增时的充分韧性和应急扩产能力",
+  "reasoning": "Cynthia Cook 认为准时制生产（just-in-time）包含多项原则如质量控制和供应商紧密协作，这些本身有价值。真正问题在于国防工业基础过度精简，没有保留足够的弹性空间（resiliency）来应对突发的大规模需求。她主张改革国防采购合同制度，不应仅以最低价中标，而应投资冗余产能和备用劳动力，尽管这会增加平时成本。",
+  "evidence": [
+   "美国在俄乌战争前155毫米炮弹月产能仅约14000发，已翻倍后仍远低于乌克兰日消耗7000发的需求",
+   "五角大楼2024年发布首个国防工业战略，寻求资助备用生产能力",
+   "美国陆军在德克萨斯州签约建设新设施，并与波兰、印度等海外公司签订多年合同以提升弹药产能",
+   "目标到2025年达到月产10万发155炮弹，是当前产能的三倍以上"
+  ],
+  "data": [
+   {
+    "metric": "俄乌战争前美国155炮弹月产能",
+    "value": "约14000发",
+    "context": "战前基准水平"
+   },
+   {
+    "metric": "乌克兰炮弹日消耗量",
+    "value": "约7000发",
+    "context": "俄乌战争期间"
+   },
+   {
+    "metric": "美国155炮弹产能增长目标",
+    "value": "月产10万发",
+    "context": "计划2025年达成，为当前3倍以上"
+   },
+   {
+    "metric": "美国国防预算占GDP比重下降幅度",
+    "value": "减半",
+    "context": "1980年代中期至2000年间"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://carnegieendowment.org/emissary/2026/08/russia-ukraine-war-vibe-shift-summer-offensive",
+  "source_title": "Is the Russia-Ukraine War Vibe Shift Real? | Carnegie ...",
+  "published_on": "2026-08-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 carnegieendowment.org",
+  "topic": "俄乌战争2026年夏季战场态势与战略僵局",
+  "claim": "未来6个月内俄乌双方在地面战场上无法打破装甲机动僵局，战争将更加持久化",
+  "reasoning": "Dara Massicot 判断双方已在地面达到高度「校准」状态——无人机和FPV弹药的饱和部署使「杀伤区」扩展到20-30公里，任何装甲集群一旦聚集就会被打击。俄军虽每日尝试不同规模进攻，但营级规模（20-30辆坦克）的机械化攻击刚被击败，更大规模同步攻击因无法集结而做不到。她明确表示「在6个月视野内看不到任何东西能解决这个核心问题」，因此战场将持续呈现阵地战与消耗战混合形态。",
+  "evidence": [
+   "双方在地面「高度校准」，虽非完全僵持但装甲机动已陷入僵局，坦克等装备因无人机和FPV环境复杂而无法使用",
+   "「杀伤区」已扩展至20-30公里，双方无人机和FPV饱和部署使机动、补给、集结都极其困难",
+   "俄军刚进行的约一个营规模机械化攻击（20-30辆坦克和装甲车）被击败，更大规模同步攻击因一集结就被瞄准而无法实施",
+   "俄军持续以高代价进行步兵渗透，乌军用无人机和炮火压制，这一模式未改变"
+  ],
+  "data": [
+   {
+    "metric": "杀伤区范围",
+    "value": "20-30公里",
+    "context": "2026年夏季当前双方无人机饱和部署条件下"
+   },
+   {
+    "metric": "俄军营级机械化攻击规模",
+    "value": "约20-30辆坦克和装甲车",
+    "context": "近期被击败的一次攻击"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "6个月内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://www.foreignaffairs.com/russia/how-russia-recovered",
+  "source_title": "How Russia Recovered | Dara Massicot - Foreign Affairs",
+  "published_on": "2025-10-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「dara massicot」",
+  "topic": "俄军在俄乌战争中的系统性学习与适应能力提升",
+  "claim": "俄军通过系统化的战场经验学习与制度化改革，已从早期失利中恢复并持续改进作战能力，未来将对乌克兰构成更大威胁",
+  "reasoning": "作者认为外界多次误判俄军表现（从「不可阻挡」到「即将崩溃」），核心原因是忽视了俄军从2022年起建立的系统性学习机制。俄军通过派驻前线研究人员、建立20余个专门委员会、修订450余份作战手册、整合国防工业与科研机构、培育无人机等新技术能力，已将临时性战场适应转化为制度化改进。这种学习生态系统覆盖战术、装备、训练全链条，使俄军在无人机作战、电子战、精确打击等领域缩小了与乌军的技术差距，并为战后军事重建奠定基础",
+  "evidence": [
+   "2022年俄军向前线指挥所派驻专职参谋人员和研究员，通过审查战斗结果、指挥官日志和访谈生成分析报告，经评估后分发至作战总部、总参谋部、军事学院和国防企业",
+   "俄军南部军区多次召集空军、地面部队、电子战部队和国防工业人员举办专题研讨会，教授探测、压制和摧毁无人机的方法",
+   "2023年俄炮兵学院主办会议，士兵与专家共同修订炮兵战术并将无人机整合进炮击流程",
+   "国防部建立精英无人机研究与作战单位Rubikon，其战术实验成果被用于指导其他无人机部队训练",
+   "国防企业向乌克兰占领区派遣专家修理装备、研究性能并反馈，类似其在叙利亚支持Bashar al-Assad政权时的做法"
+  ],
+  "data": [
+   {
+    "metric": "俄军电子战设备抽检缺陷率",
+    "value": "30%",
+    "context": "入侵首年数百套系统抽检结果"
+   },
+   {
+    "metric": "电子战系统故障原因占比",
+    "value": "60-70%设备故障，30-40%敌方火力",
+    "context": "2022-2024年《军事思想》杂志数据"
+   },
+   {
+    "metric": "作战手册临时修订数量",
+    "value": "450余份",
+    "context": "三年内完成"
+   },
+   {
+    "metric": "莫斯科设立的战场经验实施委员会数量",
+    "value": "20余个",
+    "context": "当前运行状态"
+   },
+   {
+    "metric": "初级军官补充训练时长",
+    "value": "2个月",
+    "context": "战时新增课程"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来数月及战后",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://unrollnow.com/status/1823058780537733306",
+  "source_title": "Thread By @MassDara - Russia is responding to Ukraine’s...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「dara massicot」",
+  "topic": "俄军应对乌军库尔斯克攻势的指挥结构与边境防御弱点",
+  "claim": "乌军成功利用了俄罗斯FSB、国民近卫军与国防部之间的指挥责任缝隙，攻击了最弱作战集群的薄弱点，俄方将以过度反应进行反击",
+  "reasoning": "该KOL认为乌军精准识别出「北方作战集群」是俄军最弱环节（刚完成从防御到进攻的转型、司令新任、部队陷于哈尔科夫），且库尔斯克地区存在列宁格勒军区与莫斯科军区、FSB边防军、国民近卫军之间的指挥交叉地带。俄方虽有车臣战争时期联合指挥经验（Bortnikov与Gerasimov曾合作），但当前各军区司令均身兼作战集群指挥、部队已投入战场，应急指挥权归属混乱。俄罗斯系统性问题（2年动员未能巩固边境、部门协调立法失效、普里戈任2023年建议被拒）导致边境空虚，现在只能用「过度纠正」的强硬手段回应",
+  "evidence": [
+   "乌军攻击库尔斯克时，「北方作战集群」在攻势发起前1-2周刚完成从防御性质向进攻性质的转型和司令更替，且部队陷于哈尔科夫攻势未取得进展",
+   "库尔斯克地处莫斯科军区，但前沿部署部队属于列宁格勒军区，该地区原属2024年3-4月刚拆分的西部军区",
+   "俄方宣布为「反恐行动」（KTO），FSB边防军已有人员（包括征召兵）被俘，这是政治敏感问题",
+   "普京指示FSB（含边防军）和国民近卫军防御边境，同时告知军方主要任务是驱逐乌军并对抗侦察破坏小组",
+   "俄罗斯自2023年普里戈任提议帮助守卫边境被绍伊古拒绝后，库尔斯克经历2年局部动员仍未巩固边防"
+  ],
+  "data": [
+   {
+    "metric": "西部军区拆分时间",
+    "value": "2024年3-4月",
+    "context": "应对北约扩张，拆分为列宁格勒军区和莫斯科军区"
+   },
+   {
+    "metric": "北方作战集群改编时间",
+    "value": "5月哈尔科夫攻势前1-2周",
+    "context": "从防御性质转为进攻性质"
+   },
+   {
+    "metric": "库尔斯克局部动员时长",
+    "value": "2年",
+    "context": "截至攻势发起时"
+   },
+   {
+    "metric": "部门协调立法年限",
+    "value": "10年",
+    "context": "旨在改善各权力部门协调"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://twitter.com/MassDara/status/1559195561386967041",
+  "source_title": "Dara Massicot on Twitter: \"In sum, I flag probable Russian efforts to...&qu...",
+  "published_on": "2022-08-15",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「dara massicot」",
+  "topic": "俄罗斯吞并乌克兰占领区与2022年底前战局走向",
+  "claim": "俄军在未来1-2年内处于最虚弱状态，其试图通过吞并占领区来冻结接触线的策略将面临兵力过度承诺的风险，而乌军在此期间存在局部反攻机会",
+  "reasoning": "Dara Massicot 认为俄罗斯正通过行政接管为吞并占领区铺路，意图以核威慑迫使西方停止援乌或冻结战线，从而为俄军修整争取时间。但俄军当前已耗尽常规兵力储备、装备靠启用长期封存库存、国防工业面临生产瓶颈，且未实施动员（即使动员也需一年见效）。这种临时拼凑式补员方式使俄军在接下来1-2年最虚弱，而守住高度对抗的占领区前线需要大规模部队。乌军虽也疲惫但性质不同，俄军总参谋部仍能评估目标风险（如此前从基辅、哈尔科夫撤退），因此乌军针对关键地点（如赫尔松西部）的局部攻击是可行战略。",
+  "evidence": [
+   "俄罗斯数月来在占领区安插俄籍官员、更换区号和ISP为俄罗斯系统、没收乌克兰护照、引入教师等措施使这些地区与俄罗斯「协调一致」",
+   "俄军正从人员储备的底部搜刮兵力，并从长期封存库中提取各种服役状态不一的旧装备",
+   "俄罗斯未下令动员，即使动员也可能需要长达一年才能见到效果，因为其动员基础已休眠很久",
+   "俄军总参谋部曾基于内部战斗力评估从基辅和哈尔科夫撤军",
+   "乌克兰一直在赫尔松西部对关键地点实施局部攻击"
+  ],
+  "data": [
+   {
+    "metric": "俄军最虚弱时间窗口",
+    "value": "未来1-2年",
+    "context": "假设俄军能够重新注资的前提下"
+   },
+   {
+    "metric": "动员见效时长",
+    "value": "约1年",
+    "context": "即使俄罗斯下令动员"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2022年底前数月及未来1-2年",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://kyivindependent.com/despite-negotiations-buzz-russias-war-is-likely-to-continue-says-military-analyst-rob-lee/",
+  "source_title": "‘As long as Russia is advancing, the war will continue’— military...",
+  "published_on": "2025-02-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "俄乌战争2025年态势与乌军改革前景",
+  "claim": "俄军仍可在2025年维持当前攻势强度，乌方若无法遏制兵力恶化将持续处于劣势",
+  "reasoning": "Rob Lee认为俄罗斯拥有足够兵员储备且国内政治敏感度极低，可通过无限动员维持消耗战；而乌军步兵平均年龄已达50岁、旅级单位严重缺编，尽管无人机创新显著但人力池萎缩是结构性瓶颈。俄军虽装备与火力优势削弱、步兵质量下降，但仍通过大规模人员投入保持渐进式推进。乌方若2025年无法稳定兵力补充（18-50岁动员潜力未充分挖掘、志愿兵枯竭），天平将继续倾斜",
+  "evidence": [
+   "2024年乌军旅级部队轮换三次观察显示兵力逐次削弱，步兵平均年龄从年初40岁升至10月的50岁",
+   "乌军2024年生产160万架无人机，FPV创新速度极快，部分旅的后勤补给已主要依赖无人地面车辆（UGV）",
+   "俄军可处决拒战士兵，存在大量自杀视频，但签约入伍者仍源源不断且政府可执行无限动员而不引发动荡",
+   "俄军步兵质量显著下降（新兵训练不足一个月即投入冲锋），但乌军兵力不足导致俄方即使以低质量步兵仍能持续占领树线级目标",
+   "乌方本周宣称收到1万份18-24岁年龄段志愿者申请，但步兵岗位的志愿者已枯竭（最后一批为囚犯志愿者）"
+  ],
+  "data": [
+   {
+    "metric": "乌军步兵平均年龄",
+    "value": "50岁",
+    "context": "2024年10月前线旅级单位"
+   },
+   {
+    "metric": "乌方2024年无人机产量",
+    "value": "160万架",
+    "context": "国防部公布数据"
+   },
+   {
+    "metric": "18-24岁志愿者申请数",
+    "value": "1万份",
+    "context": "本周（2025年2月）宣布"
+   },
+   {
+    "metric": "FPV无人机作战半径",
+    "value": "10英里/10公里",
+    "context": "当前可打击前线后方区域"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2025年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://www.foreignaffairs.com/ukraine/ukraines-gamble",
+  "source_title": "Ukraine’s Gamble: The Risks and Rewards of the Offensive Into...",
+  "published_on": "2024-09-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "乌克兰库尔斯克攻势的战略风险与收益评估",
+  "claim": "乌克兰库尔斯克攻势虽然取得战术成功，但未能迫使俄军从乌东抽调兵力，反而削弱了乌克兰在顿涅茨克方向的防御，使其前线面临更大风险，除非能促使俄军改变作战重心否则战略收益有限",
+  "reasoning": "Rob Lee与ANONYMIZED_PERSON_5认为，乌克兰投入1万至1.5万精锐部队（包括空降部队）实施库尔斯克攻势，这些部队原本在顿涅茨克和哈尔科夫防线作战或作为重要预备队。虽然攻势利用奇袭快速突破俄军防线并占领俄领土，但乌军统帅Oleksandr Syrsky已表示俄军不仅未从乌东抽兵，反而向波克罗夫斯克方向增派最具战斗力的部队。由于乌克兰前线本已兵力紧张、防线薄弱，库尔斯克攻势抽调的精锐部队无法填补缺口或应对俄军突破，使本已摇摇欲坠的防线更加脆弱。俄军自2023年10月以来稳步推进750平方英里，近期推进速度加快，波克罗夫斯克等关键枢纽处于威胁之下。除非俄军改变优先级全力反攻库尔斯克（如当年克林基村战例），否则乌克兰将面临在库尔斯克陷入消耗战、同时乌东防线逐步或突然崩溃的双重风险。",
+  "evidence": [
+   "乌军统帅Oleksandr Syrsky称俄军未从前线抽兵，反而向波克罗夫斯克方向增派最具战斗力的部队并加大攻势强度",
+   "俄军自2023年10月以来在乌东稳步推进750平方英里，库尔斯克攻势发起后数周内俄军仍持续推进且速度加快",
+   "乌克兰库尔斯克攻势部队由1万至1.5万人组成，骨干来自精锐空降部队，部分从顿涅茨克和哈尔科夫防线抽调",
+   "俄军近期攻占Niu-York大部、推进至托列茨克、将波克罗夫斯克置于炮兵射程内并迫使平民撤离",
+   "俄军优先向库尔斯克调动无人机打击单位而非步兵预备队，同时在扎波罗热和哈尔科夫抽调部分部队，但在顿涅茨克方向保持攻势优先",
+   "乌克兰前线自5月俄军哈尔科夫攻势后已兵力紧张，防线在顿涅茨克多个方向承压（Vuhledar至波克罗夫斯克、托列茨克至Chasiv Yar、库皮扬斯克附近）"
+  ],
+  "data": [
+   {
+    "metric": "乌军库尔斯克攻势兵力",
+    "value": "1万至1.5万人",
+    "context": "文中估算，包括正规旅、特种作战部队、精锐空降部队"
+   },
+   {
+    "metric": "俄军自2023年10月推进领土",
+    "value": "750平方英里",
+    "context": "截至库尔斯克攻势发起前"
+   },
+   {
+    "metric": "乌东前线总长度",
+    "value": "750英里",
+    "context": "文中提及"
+   },
+   {
+    "metric": "乌克兰5月动员法生效后新增人员",
+    "value": "超过2倍志愿兵与动员兵",
+    "context": "5月新动员法生效后"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge",
+  "source_title": "Russia’s military recruitment numbers remain steady, but... — Meduza",
+  "published_on": "2026-02-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯军事招募可持续性与动员前景分析",
+  "claim": "俄罗斯现行志愿兵招募模式在未来数月内尚可维持，但地方财政压力已接近临界点，联邦政府年内必须介入转移支付，否则地方预算将在战争负担下崩溃；再次动员虽非即将发生但确为可能选项。",
+  "reasoning": "Janis Kluge通过追踪联邦与地方预算数据验证官方招募数字（年均40-45万人）的真实性，发现虽招募总量相对稳定，但地方政府为完成配额支付的签约金成本持续攀升，2025年地方财政赤字达历史新高1.5万亿卢布。他认为当前模式依赖高额金钱激励（地方签约金占部分地区预算10%），但若男性群体普遍意识到死亡风险（年招募者中约20%会在次年阵亡）与战争无休止性，招募可能突然崩盘。再次动员的准备工作（数字登记、边境管控）已展开，但实施将重创志愿招募并引发大规模出逃，故短期内不太可能，除非前线人力短缺显著恶化。",
+  "evidence": [
+   "2025年俄罗斯地方政府预算赤字合计1.5万亿卢布，为历史最高水平，主要由战争招募支出导致",
+   "部分地区（如Mari El）的签约金支出占地方预算10%，相当于医疗或教育预算规模",
+   "联邦签约金已从19.5万卢布提升至2024年8月的40万卢布，地方平均签约金每月持续上涨",
+   "已有地区因预算不足在2025年末降低签约金至最低标准，2026年1月新预算年度开始后才再次提高",
+   "Mediazona数据显示，按年招募40万人计算，约20%会在次年阵亡",
+   "已出现边境管控与数字登记等动员准备措施，但2025年末至2026年初地方签约金支出未见剧烈下降"
+  ],
+  "data": [
+   {
+    "metric": "月均招募人数",
+    "value": "约3万人",
+    "context": "文中估算，官方年度数字为40-45万人"
+   },
+   {
+    "metric": "2024年官方招募总数",
+    "value": "45万人",
+    "context": "官方数据"
+   },
+   {
+    "metric": "2025年官方招募总数",
+    "value": "42.2万人",
+    "context": "官方数据"
+   },
+   {
+    "metric": "联邦签约金",
+    "value": "40万卢布",
+    "context": "2024年8月起，之前为19.5万卢布"
+   },
+   {
+    "metric": "2025年地方预算赤字",
+    "value": "1.5万亿卢布",
+    "context": "历史最高"
+   },
+   {
+    "metric": "招募支出占GDP比例",
+    "value": "约0.5%",
+    "context": "联邦+地方+市政与企业签约金总和"
+   },
+   {
+    "metric": "阵亡士兵抚恤金",
+    "value": "1000-1500万卢布",
+    "context": "每位阵亡士兵家庭获得"
+   },
+   {
+    "metric": "招募支出占地方预算比例（Mari El）",
+    "value": "10%",
+    "context": "极端案例"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2026年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.newsweek.com/russia-ruble-economy-war-2075795",
+  "source_title": "Russia Classifies Budget As Ukraine War Costs Spiral... - Newsweek",
+  "published_on": "2025-05-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯联邦预算中的战争开支机密化趋势",
+  "claim": "俄罗斯机密支出增加意味着战争成本正在上升，2025年政府可能被迫削减预算、增加借贷或再次提高税收",
+  "reasoning": "Janis Kluge 基于俄罗斯联邦预算中机密支出占比的显著增长进行判断。他指出几乎所有俄军事支出都被列为机密，而大部分机密支出用于军事领域。由于招募新兵、武器和弹药的成本逐年上升，机密支出的增加直接反映战争成本攀升。他进一步指出，虽然2022年以来俄罗斯依靠高能源价格负担了增加的军事成本，但2025年情况不同，政府融资战争变得更加困难。",
+  "evidence": [
+   "俄罗斯联邦总支出中近三分之一被列为机密，2024年12月通过预算时「秘密」一词出现39次",
+   "机密支出从上一年的11.1万亿卢布（1211.9亿美元）增加到12.12万亿卢布（1520亿美元），占预算的29.22%",
+   "莫斯科国立核研究大学专家 Yakov Yakubovich 指出相当一部分隐藏开支涉及国防和安全",
+   "2022年以来俄罗斯依靠高能源价格负担了增加的军事成本"
+  ],
+  "data": [
+   {
+    "metric": "机密支出占预算比例",
+    "value": "29.22%",
+    "context": "2025年预算"
+   },
+   {
+    "metric": "机密支出绝对值",
+    "value": "12.12万亿卢布（1520亿美元）",
+    "context": "2025年预算"
+   },
+   {
+    "metric": "上一年机密支出",
+    "value": "11.1万亿卢布（1211.9亿美元）",
+    "context": "2024年预算"
+   },
+   {
+    "metric": "预算文件中「秘密」出现次数",
+    "value": "39次",
+    "context": "2024年12月通过的预算"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2025年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-13-2026/",
+  "source_title": "Russian Offensive Campaign Assessment, April 13, 2026",
+  "published_on": "2026-04-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯在俄乌战争中的兵员招募与伤亡趋势（2026年第一季度）",
+  "claim": "俄军2026年第一季度日均招募量较2025年同期下降20%，同时战场伤亡上升，招募速度不足以弥补损失",
+  "reasoning": "Janis Kluge基于俄罗斯联邦主体预算数据分析得出，2026年第一季度俄军日均招募800-1000人，低于2025年同期的1000-1200人，同比下降20%。尽管各地区大幅提高一次性签约奖金至2026年3月的147万卢布（约1.93万美元）历史新高，仍未能阻止招募放缓。同时，根据俄财政部数据推算，2026年第一季度约有2.5万名俄军士兵阵亡，高于2025年同期的2万人和2024年同期的近1万人。该结论与ISW观察到的多项指标一致：招募量相对伤亡不足、战略储备投入、签约奖金增加、秘密动员扩大等。",
+  "evidence": [
+   "2026年第一季度俄军日均招募800-1000人，2025年同期为1000-1200人",
+   "2026年3月签约奖金达到147万卢布（约1.93万美元）的历史最高水平",
+   "2026年第一季度约2.5万名俄军士兵阵亡家属获得补偿，2025年同期约2万人，2024年同期近1万人",
+   "乌克兰「我想活下去」倡议报告显示2026年前三个月俄军日均招募940人，总计约8.05万人，同期俄军伤亡约8.53万人",
+   "至少12个俄罗斯联邦主体自2026年2月中旬起将签约奖金提高50-80%"
+  ],
+  "data": [
+   {
+    "metric": "日均招募量",
+    "value": "800-1000人",
+    "context": "2026年第一季度（1月1日至3月31日）"
+   },
+   {
+    "metric": "日均招募量",
+    "value": "1000-1200人",
+    "context": "2025年第一季度"
+   },
+   {
+    "metric": "招募量同比降幅",
+    "value": "20%",
+    "context": "2026年第一季度相比2025年同期"
+   },
+   {
+    "metric": "签约奖金",
+    "value": "147万卢布（约1.93万美元）",
+    "context": "2026年3月平均水平"
+   },
+   {
+    "metric": "阵亡士兵家属获补偿人数",
+    "value": "约2.5万人",
+    "context": "2026年第一季度，基于17个联邦主体数据推算"
+   },
+   {
+    "metric": "阵亡士兵家属获补偿人数",
+    "value": "约2万人",
+    "context": "2025年第一季度"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2026年第一季度（已发生）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://united24media.com/war-in-ukraine/russia-spent-nearly-every-second-budget-ruble-on-war-in-early-2026-analysis-finds-19791",
+  "source_title": "Russia Spent Nearly Every Second Budget Ruble on War in Early ...",
+  "published_on": "2026-06-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯2026年第一季度军费开支占联邦预算比例",
+  "claim": "俄罗斯2026年全年军费开支最终可能达到GDP的9-10%，远超官方预算设定的6.2%水平",
+  "reasoning": "Kluge基于俄财政部数据分析发现，2026年第一季度军费已占联邦支出的46%，绝对值达5.9万亿卢布（较2025年同期增长近30%），占当季GDP约12%。这一开支速度已远超官方全年6.2% GDP的预算目标。此外，机密预算支出激增至4.9万亿卢布（占联邦总支出38.2%，为有统计以来最高），而俄预算体系中约85%的机密开支与军事项目相关。军费消耗了政府收入的近三分之二，导致前5个月财政赤字扩大至6万亿卢布，财政部正考虑冻结部分民用开支以应对压力",
+  "evidence": [
+   "2026年1-3月俄军费约5.9万亿卢布，占联邦预算支出的46%，较2025年同期增长近30%，为全面入侵乌克兰以来最高季度水平",
+   "第一季度机密预算支出4.9万亿卢布，占联邦总支出12.8万亿卢布的38.2%，为有统计以来最高占比",
+   "俄罗斯预算分类系统中约85%的机密支出通常与军事项目相关",
+   "第一季度联邦收入8.3万亿卢布，军费消耗了政府收入的近三分之二",
+   "俄财政部正考虑冻结部分民用开支以管理与战争相关的预算压力"
+  ],
+  "data": [
+   {
+    "metric": "2026年Q1军费",
+    "value": "5.9万亿卢布（750亿美元）",
+    "context": "俄财政部数据，Kluge估算"
+   },
+   {
+    "metric": "军费占联邦支出比例",
+    "value": "46%",
+    "context": "2026年第一季度"
+   },
+   {
+    "metric": "军费同比增幅",
+    "value": "近30%",
+    "context": "2026年Q1对比2025年Q1"
+   },
+   {
+    "metric": "机密支出",
+    "value": "4.9万亿卢布（623亿美元）",
+    "context": "2026年Q1，从2025年Q1的3.4万亿卢布增长"
+   },
+   {
+    "metric": "机密支出占联邦总支出比例",
+    "value": "38.2%",
+    "context": "2026年Q1，联邦总支出12.8万亿卢布"
+   },
+   {
+    "metric": "军费占当季GDP比例",
+    "value": "约12%",
+    "context": "2026年Q1，InVEB估算该季度GDP为48.4万亿卢布"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2026年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.theguardian.com/world/ng-interactive/2025/jun/22/one-million-and-counting-russian-casualties-hit-milestone-in-ukraine-war",
+  "source_title": "One million and counting: Russian casualties hit milestone in Ukraine...",
+  "published_on": "2025-06-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "2025年一季度俄罗斯在乌克兰战场的兵力征募情况",
+  "claim": "俄罗斯2025年第一季度征兵数量较2024年同期大幅增长22%，征兵势头持续强劲",
+  "reasoning": "Kluge基于俄罗斯联邦在签约奖金上的支出数据进行估算，认为尽管伤亡已达百万级别，但俄罗斯仍能通过高额签约奖金（最高达200万卢布）维持征兵规模的持续增长，这表明莫斯科目前有能力为战争补充人力，支撑其在乌克兰缓慢推进并占领更多领土",
+  "evidence": [
+   "军事征募在许多地区持续激增，参战合同的签约奖金达到创纪录高位——最高达200万卢布（约2.5万美元）",
+   "莫斯科目前似乎能够为战争补充人力，使其尽管付出人员代价仍能在乌克兰缓慢推进并占领更多领土",
+   "征兵数量代表比去年同期增长22%"
+  ],
+  "data": [
+   {
+    "metric": "2025年1-3月征兵人数",
+    "value": "89,601人",
+    "context": "基于联邦签约奖金支出估算"
+   },
+   {
+    "metric": "同比增长率",
+    "value": "22%",
+    "context": "相比2024年同期"
+   },
+   {
+    "metric": "签约奖金最高额",
+    "value": "200万卢布（约2.5万美元）",
+    "context": "2025年部分地区"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2025年一季度已发生，未来趋势未明确指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://x.com/jakluge",
+  "source_title": "Janis Kluge (@jakluge) / X",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯在乌克兰的兵力规模与战争财政",
+  "claim": "通过联邦预算报告可以估算出俄罗斯在乌克兰的部队数量（包括动员兵和合同兵）",
+  "reasoning": "Janis Kluge 基于俄罗斯联邦预算报告中的数据，通过分析俄军在乌克兰作战部队获得的不同工资补贴项目，推算出实际部署兵力。这种方法利用了财政支出与人员规模之间的对应关系，属于间接估算手段。",
+  "evidence": [
+   "解锁了新的原始数据源——联邦预算报告",
+   "俄罗斯在乌克兰的部队获得不同的工资补贴",
+   "估算涵盖动员兵和合同兵两类人员",
+   "战争资金流入正在改变布里亚特等贫困地区"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://x.com/jakluge/status/2055957017735410125",
+  "source_title": "Reminder that Russia would just have to *pause* its invasion ...",
+  "published_on": "2026-05-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄乌战争停火可能性与战略选择",
+  "claim": "俄罗斯只需暂停入侵就能停止战争，但普京拒绝了乌克兰多次提出的真正停火提议",
+  "reasoning": "Janis Kluge 认为停战主动权在俄罗斯一方，乌克兰已多次提出真正的停火方案，但俄方持续拒绝。他强调俄罗斯可以通过暂停军事行动来终止冲突，暗示战争持续的责任在于克里姆林宫的政治意愿而非军事僵局。",
+  "evidence": [
+   "乌克兰已多次向俄罗斯提出真正停火方案",
+   "普京至今拒绝接受停火提议",
+   "乌克兰对俄罗斯延长战争和袭击城市的反击是正当的",
+   "乌克兰远程打击已触及莫斯科地区"
+  ],
+  "data": [
+   {
+    "metric": "推文发布时间",
+    "value": "2026年5月17日上午10:22",
+    "context": "Janis Kluge 发推时间"
+   },
+   {
+    "metric": "推文浏览量",
+    "value": "5700次",
+    "context": "该推文的浏览数据"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Fabian Hinz",
+  "theater": "中东",
+  "source_url": "https://www.ap.org/news-highlights/spotlights/2025/iran-has-likely-carried-out-an-undeclared-missile-test-satellite-photos-analyzed-by-the-ap-show/",
+  "source_title": "Iran has likely carried out an undeclared missile test, satellite photos...",
+  "published_on": "2025-09-26",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hinz」",
+  "topic": "伊朗弹道导弹与洲际导弹研发能力",
+  "claim": "伊朗可能正在努力扩展其导弹射程，包括潜在的洲际弹道导弹能力，以威胁中东以外目标",
+  "reasoning": "卫星图像显示伊朗伊玛目霍梅尼航天发射场出现显著灼烧痕迹，烧蚀模式表明发射了固体燃料导弹。固体燃料导弹能够发射卫星进入太空，这引发了美国政府对伊朗可能建造洲际弹道导弹能力的担忧。如果测试的是空间运载火箭，代表德黑兰有意威胁中东以外目标，如欧洲大陆甚至美国本土。",
+  "evidence": [
+   "9月18日卫星照片显示伊玛目霍梅尼航天发射场圆形发射台出现变色和显著灼烧痕迹",
+   "灼烧模式的规模表明伊朗发射了固体燃料导弹，燃烧的氧化铝颗粒造成此类痕迹",
+   "伊朗议员声称在9月19日测试了一枚洲际射程导弹",
+   "伊朗过去曾使用该发射台发射名为Zuljanah的固体燃料导弹，该导弹能够发射卫星进入太空"
+  ],
+  "data": [
+   {
+    "metric": "发射场位置",
+    "value": "距德黑兰东南约230公里",
+    "context": "伊玛目霍梅尼航天发射场"
+   },
+   {
+    "metric": "洲际弹道导弹射程",
+    "value": "大于5500公里",
+    "context": "典型定义标准"
+   },
+   {
+    "metric": "伊朗最高领袖允许射程",
+    "value": "2000公里",
+    "context": "据报道的限制"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Fabian Hinz",
+  "theater": "中东",
+  "source_url": "https://www.bbc.com/news/articles/cy7dkgz71x6o",
+  "source_title": "What satellite images reveal about strikes on Iran",
+  "published_on": "2024-10-29",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hinz」",
+  "topic": "以色列空袭伊朗导弹生产与防空设施的影响评估",
+  "claim": "对Parchin和Khojir两处疑似火箭燃料生产设施的破坏，最终将削弱伊朗发射足以突破以色列空防所需规模齐射的能力",
+  "reasoning": "Fabian Hinz通过卫星图像分析发现，以色列空袭严重损毁了Parchin和Khojir两个关键军事基地的多栋建筑。Parchin被IISS专家认定为主要武器研发生产设施，与火箭生产相关；Khojir则是伊朗弹道导弹相关基础设施密度最高的区域。这两处设施被认为与火箭燃料生产有关，其受损将直接影响伊朗的导弹发射能力，尤其是大规模齐射能力",
+  "evidence": [
+   "卫星图像显示Parchin至少四座建筑严重受损，其中Taleghan 2曾被IAEA与伊朗核项目联系",
+   "Khojir复合设施中至少两栋建筑严重受损，该地区是伊朗弹道导弹相关基础设施密度最高的区域",
+   "Shahroud军事基地受损，该地区参与远程导弹部件生产",
+   "伊朗在10月初对以色列发射导弹攻击，继4月发射300枚导弹和无人机后第二次袭击"
+  ],
+  "data": [
+   {
+    "metric": "受损建筑数量",
+    "value": "至少4座",
+    "context": "Parchin基地，对比9月9日与10月27日卫星图像"
+   },
+   {
+    "metric": "受损建筑数量",
+    "value": "至少2座",
+    "context": "Khojir基地"
+   },
+   {
+    "metric": "Abadan炼油厂产能",
+    "value": "50万桶/天",
+    "context": "该厂首席执行官数据"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Fabian Hinz",
+  "theater": "中东",
+  "source_url": "https://www.jpost.com/breaking-news/article-856777",
+  "source_title": "Iran orders thousands of ballistic missile ingredients from China",
+  "published_on": "2025-06-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hinz」",
+  "topic": "伊朗弹道导弹产能重建与进口依赖",
+  "claim": "伊朗国防工业在没有持续进口导弹推进剂材料的情况下难以满足其需求",
+  "reasoning": "Fabian Hinz 基于伊朗国防工业的生产瓶颈现状，指出伊朗必须依赖外部进口才能维持弹道导弹的生产能力。这一判断建立在对伊朗国内生产能力不足的评估之上，说明伊朗无法仅靠本土产能支撑其导弹项目，必须通过从中国等国采购关键原料来弥补缺口。",
+  "evidence": [
+   "伊朗从中国订购数千吨弹道导弹原料，包括高氯酸铵等固体推进剂关键成分",
+   "伊朗实体 Pishgaman Tejarat Rafi Novin Co. 近几个月下单，材料来自香港 Lion Commodities Holdings Ltd.",
+   "今年早些时候伊朗船只在中国装载超过1000吨高氯酸钠（高氯酸铵前体），2月中旬和3月下旬运抵伊朗港口",
+   "4月 Shahid Rajaee 港口发生致命爆炸，伊朗伊斯兰革命卫队一个单位误处理爆炸材料导致数十人死亡，部分今年早些时候进口的高氯酸钠在爆炸中损失"
+  ],
+  "data": [
+   {
+    "metric": "高氯酸铵新订单可生产导弹数量",
+    "value": "约800枚",
+    "context": "一位官员估算，3月初特朗普提出核谈判前数月下单"
+   },
+   {
+    "metric": "高氯酸钠进口量",
+    "value": "超过1000吨",
+    "context": "今年早些时候，2月中旬和3月下旬运抵"
+   },
+   {
+    "metric": "高氯酸钠可生产短程导弹数量",
+    "value": "约260枚",
+    "context": "根据运输追踪数据"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Matthew P. Funaiole",
+  "theater": "印太",
+  "source_url": "https://www.csis.org/analysis/how-china-could-quarantine-taiwan-mapping-out-two-possible-scenarios",
+  "source_title": "How China Could Quarantine Taiwan: Mapping Out Two Possible...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 csis.org",
+  "topic": "中国对台湾实施海上检疫封控的可行性与战略优势",
+  "claim": "中国对台湾实施由海警主导的「灰色地带检疫」(quarantine) 比全面入侵或军事封锁在近期更可行且更可能发生",
+  "reasoning": "检疫行动由执法力量而非解放军主导，可停留在武装冲突门槛之下，目标不是完全切断台湾对外联系而是建立管控体系以展示中国对台主权。这种方式成本更低、政治风险可控、便于宣布结束，且能利用中国海警在数量和质量上对台湾海警的压倒性优势（中国拥有150艘以上远洋船只，台湾仅10艘），同时因「白船」对「白船」的性质使美国难以直接军事介入",
+  "evidence": [
+   "2024年5月解放军东部战区「联合利剑-2024A」演习期间，中国海警首次在台湾东侧及台湾海峡西南入口同时部署7艘船只，并演练包围目标船只喷射水炮",
+   "福建海警在乌丘、东引岛周边开展「综合执法演练」，巡逻船距乌丘最近2.8海里、距东引最近3.1海里，为首次进入该水域",
+   "2024年2月金门事件后中国海警加强金门周边巡逻，海警人员曾登上台湾旅游船检查证照",
+   "2023年4月「海巡06」轮首次深入台湾海峡，福建海事局宣布将对船只实施「现场检查」",
+   "CSIS专家调查显示仅13%美国专家和9%台湾专家「完全相信」美国会军事介入应对检疫行动"
+  ],
+  "data": [
+   {
+    "metric": "中国海警远洋船只数量",
+    "value": "超过150艘",
+    "context": "现有总量"
+   },
+   {
+    "metric": "中国海警小型船只数量",
+    "value": "超过400艘",
+    "context": "现有总量"
+   },
+   {
+    "metric": "台湾海警远洋船只数量",
+    "value": "10艘",
+    "context": "现有总量"
+   },
+   {
+    "metric": "台湾海警小型船只数量",
+    "value": "约160艘",
+    "context": "现有总量"
+   },
+   {
+    "metric": "台湾港口数量",
+    "value": "超过300个",
+    "context": "台湾海警保护范围"
+   },
+   {
+    "metric": "海警船只最近接近距离",
+    "value": "2.8海里",
+    "context": "2024年5月乌丘水域"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "近期 (near term)",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Fabian Hoffmann",
+  "theater": "俄乌",
+  "source_url": "https://twitter.com/FRHoffmann1/status/1658918894625603590",
+  "source_title": "\"On the bigger point I was trying to make: What Ukraine was...\"",
+  "published_on": "2023-05-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hoffmann」",
+  "topic": "乌克兰防空系统对俄罗斯多方向导弹攻击的拦截能力",
+  "claim": "乌克兰的综合防空网络能够成功抵御前所未有的多方向、多弹种协同导弹攻击，拦截率达到90-100%",
+  "reasoning": "战前他预期这种多方向攻击会让防御方遭遇灾难，但乌克兰实际表现超出预期。西方防空系统（Patriot、IRIS-T、NASAMS）在整场战争中持续超预期运作，有物证显示Patriot成功拦截了Kinzhal高超音速导弹，地面爆炸更可能是Patriot哑弹而非Kinzhal命中。这种防御成功对双能导弹系统（可搭载核弹头）具有战略意义，会影响华盛顿、莫斯科、北京的核政策决策者对短程导弹防御的认知",
+  "evidence": [
+   "在基辅地面发现了俄罗斯Kh-47M2 Kinzhal导弹的发动机段碎片，证明Patriot成功拦截",
+   "IRIS-T和NASAMS系统在整场战争中对俄罗斯巡航导弹和无人机表现出极高拦截效能",
+   "西方武器系统在整场战争中持续超出预期表现",
+   "乌克兰遭遇了前所未有的多弹种、多方向、多弹道协同攻击，这是同类攻击的首次实战",
+   "地面可见爆炸的威力不符合400+公斤弹头的典型特征，更像Patriot哑弹爆炸"
+  ],
+  "data": [
+   {
+    "metric": "弹头重量",
+    "value": "400+ kg",
+    "context": "俄乌战争中观察到的典型弹头"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Héni Nsaibia",
+  "theater": "非洲",
+  "source_url": "https://acleddata.com/expert-comment/heni-nsaibia-sahel-insurgency-expansion-jihadist-rivalry-intensifies-across-borders",
+  "source_title": "Héni Nsaibia on Sahel insurgency expansion as jihadist ...",
+  "published_on": "2026-04-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 acleddata.com",
+  "topic": "萨赫勒地区圣战组织扩张与组织间冲突",
+  "claim": "JNIM 和 ISSP 两大圣战组织将继续向尼日尔南部边境和尼日利亚扩张，组织间对抗升级",
+  "reasoning": "过去五个月萨赫勒圣战叛乱持续地理扩张，JNIM 在 2026年2月发动跨中萨赫勒和贝宁的区域性攻势，ISSP 在尼日尔西南部公开宣称袭击并对军事设施发动高烈度攻击，4月两组织在尼日尔和尼日利亚首次发生直接冲突。两组织均利用边境地区国家力量薄弱和对边缘化人群（尤其是牧民群体）的相对忽视，获得支持并建立招募基础",
+  "evidence": [
+   "JNIM 于 2026年2月初发动跨中萨赫勒和贝宁的区域性攻势",
+   "ISSP 在 2026年1月和3月分别对尼亚美和塔瓦市的军事设施和机场发动高烈度攻击",
+   "2026年4月 JNIM 与 ISSP 在尼日尔和尼日利亚首次发生武装冲突",
+   "贝宁 2026年录得有史以来最致命年份，JNIM 活动上升",
+   "尼日尔当局宣布建立「Domol Leydi」国家支持的地方自卫武装",
+   "萨赫勒国家联盟（AES）宣布为联合部队动员 15000 名军队"
+  ],
+  "data": [
+   {
+    "metric": "联合部队动员兵力",
+    "value": "15000人",
+    "context": "萨赫勒国家联盟（布基纳法索、马里、尼日尔）宣布"
+   },
+   {
+    "metric": "地理扩张持续时间",
+    "value": "5个月",
+    "context": "截至 2026年4月的萨赫勒圣战叛乱演变期"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "source_url": "https://www.wsws.org/en/articles/2016/10/13/bell-o13.html",
+  "source_title": "The Bellingcat research collective: War propaganda masquerading as...",
+  "published_on": "2016-10-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「bellingcat」",
+  "topic": "MH17空难调查与俄罗斯责任归属",
+  "claim": "Bellingcat关于俄罗斯击落MH17的指控缺乏科学依据，是为美国及北约的反俄政策服务的宣传工具",
+  "reasoning": "该文认为Bellingcat创始人Higgins与美国智库大西洋理事会关系密切，其分析方法被MIT科学家和数字图像专家否定为「不科学」「主观臆断」，德国明镜周刊曾为转载Bellingcat指控而道歉。文章指出Bellingcat在MH17调查中的结论与JIT报告几乎一致，但JIT报告本身「简略且主要基于乌克兰来源，未提供确凿证据」，而Bellingcat的方法论被专家批评为「看茶叶占卜」级别。文章将Bellingcat定性为「互联网与社交媒体上美国政府和北约的附属机构」",
+  "evidence": [
+   "Higgins自述其武器分析背景仅来自「电脑游戏」和「Chuck Norris与Rambo电影」",
+   "MIT教授Theodore Postol表示Higgins的叙利亚化武分析「缺乏任何分析基础，显然不知道自己在说什么」",
+   "德国明镜周刊2015年为uncritically转载Bellingcat关于俄国防部操纵卫星图像的指控而道歉",
+   "数字图像取证专家Kreise称Bellingcat的「误差修正分析」方法「主观且并非完全基于科学」「没有一篇科学论文涉及该方法」",
+   "Higgins在2016年文章中自述「与大西洋理事会同事一起」撰写关于俄罗斯介入乌克兰的报告",
+   "大西洋理事会2016年发布文件概述美国准备与「大国」进行「重大且致命」战争，并将战争可能性归因于「俄罗斯复兴」"
+  ],
+  "data": [
+   {
+    "metric": "Bellingcat成立时间",
+    "value": "2014年7月",
+    "context": "MH17坠毁前数日"
+   },
+   {
+    "metric": "Bellingcat团队规模",
+    "value": "最多15名员工和志愿者",
+    "context": "2014年扩张后"
+   },
+   {
+    "metric": "潜在发射地点范围",
+    "value": "320平方公里",
+    "context": "荷兰安全委员会2015年报告确定"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Shugart",
+  "theater": "军工与战略",
+  "source_url": "https://www.navalnews.com/naval-news/2025/01/chinese-naval-developments-2024-part-2-subs-support-industry/",
+  "source_title": "Chinese Naval Developments 2024 - Part 2: Subs, support, industry",
+  "published_on": "2025-01-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom shugart」",
+  "topic": "中国海军核潜艇部队与新型041型潜艇发展",
+  "claim": "041型「周级」潜艇在武汉码头发生了疑似沉没事件，且该艇可能搭载某种形式的核动力装置",
+  "reasoning": "Tom Shugart 基于7月底卫星图像观察到武汉船厂出现疑似打捞作业活动，结合美方匿名官员9月的情报声称，推断这艘首次采用X型尾舵设计的新型潜艇在泊位发生了沉没。同时美方声称该艇包含核推进系统，与中国退役少将Zhao Dengping 2017年公开讲座中提及的「常规潜艇辅助核动力」和「新型核攻击潜艇」概念相印证，表明这可能是中国首次在常规潜艇上尝试紧凑型核动力的试验项目。",
+  "evidence": [
+   "2024年4月底卫星图像首次显示武汉武昌船厂出现041型新潜艇，该艇采用中国首次应用的X型尾舵设计",
+   "7月底Tom Shugart发现武昌船厂出现疑似打捞作业迹象",
+   "9月《华尔街日报》等媒体引用美方匿名官员和未披露情报称该潜艇在码头沉没",
+   "退役少将Zhao Dengping至少在2017年的讲座幻灯片中提及「常规潜艇辅助核动力」和新型SSN概念",
+   "截至2025年初无额外信息证实该艇性能或事故细节，12月中国军力报告未提及该潜艇或沉没事件"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christoph Vogel",
+  "theater": "非洲",
+  "source_url": "https://qoshe.com/e-international/christoph-vogel-discusses-his-recent-book/interview-christoph-vogel/189048626",
+  "source_title": "Interview – Christoph Vogel - Christoph Vogel ... - QOSHE",
+  "published_on": "2026-08-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christoph vogel」",
+  "topic": "中非地区冲突研究的方法论与认识论转向",
+  "claim": "中非冲突研究正在经历从西方主导的宏大理论向基于实地经验的多元方法论和本土认识论的缓慢但逐步的转变",
+  "reasoning": "Christoph Vogel 认为传统冲突研究过度依赖 Collier、Rotberg 等西方学者缺乏实地经验的宏大理论，忽视了冲突区本土声音。他主张通过混合方法三角验证、GIS 与民族志结合、采纳冲突参与者的主位概念等方式，平衡研究者自身立场与主流范式。他强调几乎所有冲突都根植于政治争议、不满和愿景，需要解释多重驱动力而避免以偏概全，同时指出实地工作（包括人道主义和联合国工作经历）对拓宽分析视野至关重要。",
+  "evidence": [
+   "2000 年代末全球冲突研究学术界主要依赖 Collier、Rotberg、Fukuyama 等白人男性学者设定的政治学、国际关系和经济学范式，这些学者几乎没有长期危机和暴力情境的实证经验",
+   "当前关于混合方法三角验证以及使用 GIS 补充民族志洞察等新方法论的讨论正在发生",
+   "与称冲突区为家的研究者以及冲突现任和前参与者合作，采纳他们的主位概念已成为研究焦点",
+   "现在知道世界上大多数（如果不是全部）冲突都根植于一定程度的争议、不满和冲突主角的政治愿景",
+   "作者在不同冲突区不仅作为研究者，还作为人道主义工作者和联合国工作者的参与提供了必要的视野拓宽"
+  ],
+  "data": [
+   {
+    "metric": "作者冲突研究经验年限",
+    "value": "15年以上",
+    "context": "截至 2023 年发表时"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+  "source_title": "How many Russian soldiers died in the war with Ukraine",
+  "published_on": "2026-08-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争俄方人员伤亡总数统计",
+  "claim": "截至2025年12月底，俄军阵亡人数远超公开证实的已命名死者清单数量，需通过遗产登记处的超额男性死亡率数据进行统计估算才能接近真实伤亡规模",
+  "reasoning": "Mediazona与BBC俄语部的判断基于两层逻辑：一是公开来源（社交媒体、地方媒体、地方当局声明）只能证实部分死亡案例，不可能穷尽全部阵亡者；二是他们开发了基于国家遗产登记处数据的超额男性死亡率统计模型（与Meduza合作），用以弥补单纯依赖公开报道的局限性。文中明确指出「this list is not exhaustive」并强调需要「more complete picture」，显示其判断依据是方法学对比——命名清单是底线数据，统计估算才能逼近真实损失。",
+  "evidence": [
+   "公开可验证来源（亲属社交媒体帖子、地方媒体报道、地区当局声明）构建的已命名死者清单承认「并非详尽无遗，因并非每例死亡都会公开报道」",
+   "项目开发了基于国家遗产登记处（Probate Registry）的超额男性死亡率统计方法，与Meduza合作创建该模型以弥补单一依赖公开死亡报道的局限",
+   "截至2026年5月9日更新遗产登记处估算值，数据截止时间为2025年12月底",
+   "已证实死者中知晓死亡日期的案例有225,000例，知晓年龄的案例有228,450例，显示命名清单规模已达数十万级别",
+   "截至2026年8月28日证实7,596名军官死亡，15名将军阵亡，表明公开可证实的死亡数据持续累积但仍不完整"
+  ],
+  "data": [
+   {
+    "metric": "已证实军官死亡数",
+    "value": "7,596人",
+    "context": "截至2026年8月28日"
+   },
+   {
+    "metric": "已证实将军死亡数",
+    "value": "15人",
+    "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰叛逃将军"
+   },
+   {
+    "metric": "已知死亡日期案例数",
+    "value": "225,000例",
+    "context": "统计时间未明确指定"
+   },
+   {
+    "metric": "已知年龄案例数",
+    "value": "228,450例",
+    "context": "统计时间未明确指定"
+   },
+   {
+    "metric": "遗产登记处估算更新日期",
+    "value": "2026年5月9日",
+    "context": "估算数据截止2025年12月底"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "持续监测中（最新数据截至2025年12月底，2026年5月更新估算）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2026/02/24/mapofwar",
+  "source_title": "Four years of war. 200,000 confirmed dead and the geography ...",
+  "published_on": "2026-02-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争俄军阵亡人员规模与地理分布",
+  "claim": "俄军阵亡人数已达20万人且持续高位增长，战争负担不均衡地压在贫困地区和农村人口身上",
+  "reasoning": "通过交叉验证俄罗斯民事登记局（ZAGS）泄露的死亡证明数据与此前积压的讣告名单，在最近10天内新增验证2.3万死亡案例，使总数达到20万。地理数据显示68%死者来自城市、32%来自农村，但考虑到城市信息更易获取，实际农村伤亡可能被低估。人口超10万的大城市占全国一半人口但仅占三分之一死亡人数，其余三分之二来自小城镇和农村。经济落后的图瓦、布里亚特等共和国人均伤亡率最高（每10万人476人、400人），远高于全国平均水平，说明军方严重依赖这些地区的志愿兵。",
+  "evidence": [
+   "通过Manticore非法背景调查服务获取的俄罗斯民事登记局死亡证明数据库，交叉验证后在10天内新增2.3万确认死亡",
+   "已定位超18万死者家乡，覆盖俄罗斯至少2.66万个城镇和村庄，占全国居民点总数的17%",
+   "巴什基尔共和国7700例死亡中55%来自农村（该地区农村人口仅占40%），鞑靼斯坦6800例死亡中三分之一来自农村（农村人口仅23.6%）",
+   "布里亚特边境村庄Chikoy人口525人阵亡10人，Komsomolskoye同样人口阵亡9人，外贝加尔边疆区Nerchinsky Zavod人口2300人阵亡31人",
+   "人口超10万的城市占俄罗斯一半人口，但仅占军队死亡总数的三分之一"
+  ],
+  "data": [
+   {
+    "metric": "确认阵亡总数",
+    "value": "20万人",
+    "context": "截至2026年2月24日战争四周年"
+   },
+   {
+    "metric": "新增验证死亡",
+    "value": "2.3万人",
+    "context": "最近10天内通过ZAGS数据验证"
+   },
+   {
+    "metric": "城市死者占比",
+    "value": "68%（12.27万人）",
+    "context": "基于地理数据"
+   },
+   {
+    "metric": "农村死者占比",
+    "value": "32%（5.75万人）",
+    "context": "基于地理数据"
+   },
+   {
+    "metric": "图瓦共和国人均死亡率",
+    "value": "476人/10万居民",
+    "context": "除人口稀少的楚科奇外最高"
+   },
+   {
+    "metric": "布里亚特共和国人均死亡率",
+    "value": "400人/10万居民",
+    "context": "第二高人均伤亡率"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://intpolicydigest.org/pavel-luzin-on-russia-s-hollow-military-machine/",
+  "source_title": "Pavel Luzin on Russia’s Hollow Military Machine",
+  "published_on": "2025-10-21",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「pavel luzin」",
+  "topic": "俄罗斯对乌战争的军事能力与战略可持续性",
+  "claim": "俄罗斯已在战略上失败,当前国家状态比2022年2月前更糟,但克里姆林宫将不惜代价继续战争以试图扭转败局",
+  "reasoning": "Pavel Luzin认为俄罗斯虽保持战争目标(消灭乌克兰国家地位、削弱北约和美国领导力),但其实际国力已严重恶化,意味着战争已输。克里姆林宫之所以继续作战,是因为承认失败将导致国内重大政治经济动荡,对精英阶层风险不确定。他指出俄军面临电子元件、机床和劳动力等关键瓶颈,工业体系持续恶化,2023年末起若无朝鲜和伊朗武器供应就难以作战,且已确认7000多名军官阵亡,难以迅速替代,制约了扩军能力。",
+  "evidence": [
+   "俄罗斯2022-2025年直接在战争上花费超过40万亿卢布",
+   "截至2023年末,俄罗斯若没有朝鲜和伊朗的武器供应就几乎无法作战",
+   "已确认在乌克兰阵亡的俄军军官超过7000人",
+   "西部军区被拆分为莫斯科和列宁格勒两个军区,旅级单位转为师级单位",
+   "乌克兰的打击加速了俄罗斯工业的恶化进程"
+  ],
+  "data": [
+   {
+    "metric": "战争直接支出",
+    "value": "超过40万亿卢布",
+    "context": "2022-2025年"
+   },
+   {
+    "metric": "确认阵亡军官数量",
+    "value": "7000+人",
+    "context": "截至采访时在乌克兰战场"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://cepa.org/article/russias-year-of-truth-the-missing-military-hardware/",
+  "source_title": "Russia’s Year of Truth: The Missing Military Hardware - CEPA",
+  "published_on": "2025-01-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 cepa.org",
+  "topic": "俄罗斯军工生产能力与苏联库存耗尽前景",
+  "claim": "2025年将是俄罗斯能够依赖苏联时代常规武器库存的最后一年，若战斗强度保持2022-2024年水平，大部分库存将在2025年下半年耗尽",
+  "reasoning": "俄罗斯军工部门正遭受成本推动型通胀和卢布贬值压力，无法像2022-2023年那样扩大生产规模。军工企业高度依赖进口零部件和机床，实际成本通胀远超官方货币通胀率（如Kurganmashzavod生产成本2023年增45.5%，超过其41.8%的收入增长）。同时面临40万熟练工人和工程师短缺，劳动力年龄老化（2021年中位年龄45岁，50岁以上占41%）。这些结构性障碍使俄罗斯难以在不牺牲质量和产品范围的前提下显著增产，库存耗尽后将被迫依赖新造装备而非翻新装备",
+  "evidence": [
+   "Rostec子公司Kurganmashzavod在2023年生产成本增长45.5%，超过其41.8%的收入增长",
+   "2022年6月时任副总理Yuri Borisov宣布缺少40万工人和工程师（其中12万工程师），2024年继任者Denis Manturov称缺16万（预计2026年增至24万），杜马委员会主席Oleg Morozov重申40万缺口",
+   "2021年军工企业员工中位年龄为45岁，29岁及以下仅占16%，50岁及以上占41%",
+   "俄罗斯军工部门持续依赖进口零部件和机床，尽管有进口替代政策",
+   "官方货币通胀率为7.42%（2023年），但成本推动型通胀远高于此"
+  ],
+  "data": [
+   {
+    "metric": "Kurganmashzavod生产成本增长率",
+    "value": "45.5%",
+    "context": "2023年"
+   },
+   {
+    "metric": "Kurganmashzavod收入增长率",
+    "value": "41.8%",
+    "context": "2023年"
+   },
+   {
+    "metric": "工人和工程师缺口",
+    "value": "40万人（含12万工程师）",
+    "context": "2022年6月Yuri Borisov声明"
+   },
+   {
+    "metric": "工人和工程师缺口",
+    "value": "16万人",
+    "context": "2024年Denis Manturov声明"
+   },
+   {
+    "metric": "预计工人和工程师缺口",
+    "value": "24万人（含8万工程师）",
+    "context": "2026年预测"
+   },
+   {
+    "metric": "军工企业员工中位年龄",
+    "value": "45岁",
+    "context": "2021年"
+   },
+   {
+    "metric": "29岁及以下员工占比",
+    "value": "16%",
+    "context": "2021年"
+   },
+   {
+    "metric": "50岁及以上员工占比",
+    "value": "41%",
+    "context": "2021年"
+   },
+   {
+    "metric": "官方货币通胀率",
+    "value": "7.42%",
+    "context": "2023年"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2025年下半年",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Nick Waters",
+  "theater": "中东",
+  "source_url": "https://de.rt.com/der-nahe-osten/117599-ausrustung-hamas-wie-hoch-kosten/",
+  "source_title": "Ausrüstung der Hamas: Wie hoch steigen die Kosten für Israel im...",
+  "published_on": "2021-05-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「nick waters」",
+  "topic": "哈马斯「Shehab」无人机与伊朗 Ababil 无人机的技术关联",
+  "claim": "哈马斯展示的 Shehab 无人机在结构上与伊朗 Ababil 无人机存在紧密相似性",
+  "reasoning": "Nick Waters 作为无人机专家，通过技术分析指出 Shehab 无人机与伊朗 Ababil 战斗无人机在结构设计上具有显著的相似特征，这印证了哈马斯武器装备受伊朗技术支持的判断，与哈马斯加沙领导人 Jahja Sinwar 本人 2019 年承认「没有伊朗支持就不会拥有这些能力」的说法相呼应。",
+  "evidence": [
+   "哈马斯在网络发布视频中展示名为 Shehab 的战斗无人机",
+   "《耶路撒冷邮报》报道无人机专家 Nick Waters 等人指出 Shehab 与伊朗 Ababil 无人机存在紧密结构相似性",
+   "哈马斯加沙领导人 Jahja Sinwar 于 2019 年表示「没有伊朗支持就不会拥有这些能力」",
+   "伊朗 Quds 部队司令 Esmail Qaʾani 与哈马斯政治局负责人 Ismail Haniyya 通话讨论巴勒斯坦武装的军事能力"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
+  "source_title": "FP Live: Tom Karako on Why America Is Running Out of Munitions",
+  "published_on": "2026-08-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国关键弹药库存耗竭对全球威慑能力的影响",
+  "claim": "美国在与伊朗冲突中大量消耗关键弹药，已严重削弱其在印太地区威慑中国及支援乌克兰的能力，这一问题在近中期构成明显战略挫折",
+  "reasoning": "Tom Karako 基于 CSIS 的公开评估和预算文件分析，认为美国已消耗超过半数的某些关键防御与进攻导弹（如爱国者、战斧、THAAD），而生产周期需 2-3 年且产能虽在提升但远未弥补缺口。他指出美国在全球承诺（欧洲、中东、印太）下只能「花生酱式摊薄」库存或某些地区干脆没有防御系统，这直接削弱了常规威慑、拒止战略和挫败侵略者的能力，并可能诱使对手（如中国）认为美国远程打击与防空能力不足而采取行动。他明确表示这对台海威慑和对乌支援都是「相当大的挫折」（quite a lot; quite significantly; setback）",
+  "evidence": [
+   "根据 CSIS 评估和公开预算文件，美国战前爱国者拦截弹约 2,500 枚，已消耗可能超过 1,200 枚（over half）",
+   "据报道美国从印太地区调走大量装备和弹药用于中东冲突，造成该地区短缺",
+   "去年夏季 12 天战争中消耗了「非常显著数量」的 THAAD 库存，Epic Fury 行动中再次大量使用",
+   "战斧、JASSM、ATACM、PrSM、SM-3、SM-6 等进攻与防御导弹在冲突中均被大量报告使用",
+   "爱国者生产速率虽从年产 350 枚提升至 650 枚并计划本十年末达 2,000 枚，但从合同到交付需约 36 个月"
+  ],
+  "data": [
+   {
+    "metric": "战前爱国者拦截弹库存（估算）",
+    "value": "约 2,500 枚",
+    "context": "基于公开预算文件"
+   },
+   {
+    "metric": "已消耗爱国者拦截弹（估算）",
+    "value": "可能超过 1,200 枚",
+    "context": "基于公开来源信息"
+   },
+   {
+    "metric": "单枚爱国者拦截弹成本",
+    "value": "约 400 万美元",
+    "context": "具体取决于采购批次"
+   },
+   {
+    "metric": "爱国者生产周期",
+    "value": "约 36 个月",
+    "context": "从零开始到交付"
+   },
+   {
+    "metric": "爱国者当前年产量",
+    "value": "从 350 枚增至 650 枚",
+    "context": "截至去年"
+   },
+   {
+    "metric": "爱国者计划年产量",
+    "value": "本十年末达 1,000 至 2,000 枚",
+    "context": "五角大楼扩产计划"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "近中期（未明确具体年限，但强调生产周期 2-3 年内难以弥补）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://foreignpolicy.com/live/tom-karako-america-munitions-depleted/",
+  "source_title": "Why America Is Running Out of Munitions - Foreign Policy",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国对伊战争中高端拦截弹药库存消耗问题",
+  "claim": "美国在对伊战争中高端 Patriot 和 THAAD 拦截弹库存已消耗高达80%，补充需要数年时间",
+  "reasoning": "Tom Karako 作为 CSIS 导弹防御项目主任，通过追踪分析得出美国在对伊战争中燃烧了大量最先进弹药，导致高端拦截弹库存严重短缺。他认为这一短缺程度深刻，且补充周期漫长，同时军事规划者还需担忧欧洲和印太地区的需求，这表明美国弹药储备面临结构性危机，直接影响美国军事准备状态和多线作战能力",
+  "evidence": [
+   "美国在今年对伊战争中消耗了大量最先进弹药",
+   "高端 Patriot 和 THAAD 拦截弹库存按某些统计已消耗达80%",
+   "军事规划者担忧欧洲和印太地区的弹药需求",
+   "Tom Karako 追踪了短缺的深度并评估了修复所需条件"
+  ],
+  "data": [
+   {
+    "metric": "Patriot 和 THAAD 拦截弹库存消耗比例",
+    "value": "高达80%",
+    "context": "对伊战争期间/按某些统计"
+   },
+   {
+    "metric": "补充库存所需时间",
+    "value": "数年",
+    "context": "当前生产能力下"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "数年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://www.defenseone.com/business/2026/02/primed-production/411145/",
+  "source_title": "Munitions makers say they've been persuaded to... - Defense One",
+  "published_on": "2026-02-03",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国弹药产能扩张与国防预算",
+  "claim": "美国需要通过补充拨款或二次和解法案等额外立法手段，才能满足弹药生产的实际资金需求",
+  "reasoning": "Tom Karako认为国会在和解法案中仅增加不到20亿美元的弹药资金，远低于政府要求的288亿美元增幅。虽然这笔资金符合业界预期，但要达到政府所需的弹药产量，必须通过补充拨款法案、二次和解法案、或在现有和解资金内重新调配等方式获得更多资金。他指出后两种方式（重新调配）不理想，因为会损害其他项目利益，因此最合适的做法是通过弹药专项补充拨款，但这需要立法活动支持，存在挑战",
+  "evidence": [
+   "特朗普政府在12月要求国会在未来几年增加超过288亿美元的弹药支出",
+   "国会去年夏天通过和解法案拨款250亿美元用于弹药及供应链支持，本次妥协支出法案仅增加不到20亿美元用于特定关键弹药",
+   "2026年支出法案包含多年采购授权，覆盖AMRAAM、JASSM、PAC-3、SM-6、THAAD、战斧导弹等多种武器系统至2032财年",
+   "法案包含63亿美元关键弹药资金，其中比要求多19亿美元用于多年增产，另有5亿美元用于固体火箭发动机工业基础扩张"
+  ],
+  "data": [
+   {
+    "metric": "政府额外资金需求",
+    "value": "超过288亿美元",
+    "context": "特朗普政府12月要求/未来几年"
+   },
+   {
+    "metric": "和解法案弹药拨款",
+    "value": "250亿美元",
+    "context": "国会去年夏天/通过和解法案"
+   },
+   {
+    "metric": "本次妥协法案新增弹药资金",
+    "value": "不到20亿美元",
+    "context": "针对特定关键弹药"
+   },
+   {
+    "metric": "关键弹药总资金",
+    "value": "63亿美元",
+    "context": "2026年支出法案"
+   },
+   {
+    "metric": "额外增产资金",
+    "value": "19亿美元",
+    "context": "超出要求/用于多年增产"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://www.notus.org/defense/trump-munitions-production-congress-funding",
+  "source_title": "Trump Wants to Scale Up Munitions Production, But Congress...",
+  "published_on": "2026-07-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国导弹防御与军工产能扩张",
+  "claim": "五角大楼优先弹药扩产计划高度依赖和解法案，但该法案在中期选举前通过的可能性很低，即使最终批准，常规拨款延迟也会拖慢产能提升",
+  "reasoning": "Tom Karako 指出，五角大楼 2027 财年导弹采购预算中 57% 依赖和解法案，部分关键武器（PAC-3、AMRAAM、THAAD）对和解法案的依赖度高达 84%-90%。他认为即使是常规国防拨款在 11 月中期选举前也难有进展，和解法案在选前通过的可能性更低（跛脚鸭会期可能有机会）。同时，他警告若出现长期持续决议（CR）维持现有资金水平，将阻碍产能增长。这一判断基于国会拨款周期现实与选举年政治环境的叠加约束。",
+  "evidence": [
+   "截至目前仅有两份合同公告（PAC-3 和 THAAD 拦截弹），且为未确定合同行动（UCA），尚未完成最终条款和定价谈判",
+   "众议院拨款委员会批评五角大楼将 434 亿美元强制性支出绑定关键弹药项目的做法「风险高且不协调」，认为应纳入基础预算",
+   "国会在 2026 财年拨款流程中授权了 8 项多年期采购，但未提供五角大楼申请的 288 亿美元全额资金",
+   "五角大楼 2027 预算中近 530 亿美元用于 14 种优先武器，大部分资金不在常规国防预算内而依赖和解法案"
+  ],
+  "data": [
+   {
+    "metric": "PAC-3 拦截弹资金对和解法案依赖度",
+    "value": "90%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   },
+   {
+    "metric": "AMRAAM 资金对和解法案依赖度",
+    "value": "88%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   },
+   {
+    "metric": "THAAD 资金对和解法案依赖度",
+    "value": "84%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   },
+   {
+    "metric": "SM-6 资金对和解法案依赖度",
+    "value": "74%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   },
+   {
+    "metric": "战斧导弹资金对和解法案依赖度",
+    "value": "66%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   },
+   {
+    "metric": "导弹与导弹防御采购总预算对和解法案依赖度",
+    "value": "57%",
+    "context": "BNP Paribas 分析师 Matt Akers 对 2027 财年估算"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2025 年 11 月中期选举前",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam",
+  "source_title": "Pentagon Demands Rapid Weapons Production Surge Amid Shortages",
+  "published_on": "2026-08-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国导弹库存危机与军工产能扩张",
+  "claim": "美国签署的军工框架协议几乎没有转化为实际合同，这才是导弹产能问题的核心",
+  "reasoning": "Tom Karako 指出五角大楼虽与诺斯罗普·格鲁曼、洛克希德·马丁等厂商签署了扩产框架协议，但这些协议本质上是「同意去同意的协议」(agreements to agree)，不是真正的采购合同，且几乎没有合同得到实际签署，导致产能扩张无法落地。他强调这些机制完全取决于国会拨款，而1.15万亿美元的国防开支法案目前因党派分歧陷入僵局，使得框架协议处于不稳定状态",
+  "evidence": [
+   "五角大楼与诺斯罗普·格鲁曼和洛克希德·马丁签署了增加PAC-3和THAAD导弹产量的框架协议",
+   "五角大楼授予洛克希德·马丁一份潜在价值586亿美元的合同，计划到2030年将PAC-3产量提高三倍",
+   "5月份与Anduril、Castelion等防务科技公司签署低成本导弹采购安排",
+   "1.15万亿美元的国防开支法案因预算增加的党派反对而陷入僵局",
+   "白宫在7月下旬召集波音、洛克希德·马丁等高管前往华盛顿，要求他们直接游说国会通过和解程序批准国防开支"
+  ],
+  "data": [
+   {
+    "metric": "爱国者拦截弹全球库存",
+    "value": "从2200枚降至827枚以下",
+    "context": "自冲突开始至上周/CSIS分析数据"
+   },
+   {
+    "metric": "THAAD导弹库存",
+    "value": "从452枚降至278枚以下",
+    "context": "同期"
+   },
+   {
+    "metric": "战斗首月战斧巡航导弹消耗",
+    "value": "超过850枚",
+    "context": "美伊冲突首月"
+   },
+   {
+    "metric": "战斗首月爱国者和THAAD拦截弹消耗",
+    "value": "超过1000枚",
+    "context": "美伊冲突首月"
+   },
+   {
+    "metric": "战斗首月陆军战术弹道导弹消耗",
+    "value": "超过1300枚",
+    "context": "美伊冲突首月"
+   },
+   {
+    "metric": "洛克希德·马丁PAC-3合同潜在价值",
+    "value": "586亿美元",
+    "context": "上周签署/到2030年产量提高三倍"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jason Stearns",
+  "theater": "非洲",
+  "source_url": "https://sahelreporter.com/jason-stearns-urges-realistic-rdc-rwanda-peace-dismisses-military-defeat/",
+  "source_title": "RDC Rwanda peace strategy: Stearns' pragmatic approach",
+  "published_on": "2026-07-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jason stearns」",
+  "topic": "刚果民主共和国与卢旺达冲突中M23问题的解决路径",
+  "claim": "军事与外交压力不足以迫使卢旺达撤军或击败M23，必须通过政治妥协方案解决冲突",
+  "reasoning": "Jason Stearns认为2013年通过对基加利施压和军事打击M23的模式已不再可行。他指出当前M23控制相当于比利时面积的领土，损失数百甚至数千士兵，显示其军事实力；而华盛顿外交人员明确表示不指望通过对卢旺达施压实现简单撤军。因此他判断当前军事和外交压力都无法强加军事失败，唯一出路是对金沙萨也施压以达成政治妥协，同时该妥协不应损害刚果的完整性和主权",
+  "evidence": [
+   "2013年对基加利施压和对M23军事行动导致该组织军事失败，但之后未形成连贯和平进程",
+   "华盛顿外交人员明确表示「我们目前对卢旺达施压并不期待卢旺达简单撤军」",
+   "M23目前控制相当于比利时面积的领土",
+   "M23据报在刚果东部损失「数百名、可能数千名士兵」",
+   "Stearns及其同事此前将M23运动定性为「卢旺达侵略」"
+  ],
+  "data": [
+   {
+    "metric": "M23控制领土面积",
+    "value": "相当于比利时国土",
+    "context": "当前"
+   },
+   {
+    "metric": "M23士兵伤亡",
+    "value": "数百至数千人",
+    "context": "在刚果东部冲突中"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jason Stearns",
+  "theater": "非洲",
+  "source_url": "https://sahel-express.com/rdc-rwanda-jason-stearns-plaide-pour-une-solution-realiste-et-ecarte-loption-dune-defaite-militaire-imposee-au-rwanda/",
+  "source_title": "RDC-Rwanda : Jason Stearns plaide pour une “solution réaliste ...",
+  "published_on": "2026-07-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jason stearns」",
+  "topic": "刚果民主共和国与卢旺达冲突中的M23问题",
+  "claim": "无法通过国际压力迫使卢旺达单方面撤军，必须寻求政治妥协方案而非军事解决",
+  "reasoning": "Jason Stearns认为尽管2013年曾通过对基加利的外交压力和对M23的军事压力实现过M23军事失败，但当前形势已不同。M23现已控制相当于比利时国土面积的领土，付出数百甚至数千士兵伤亡代价。即使在华盛顿，外交官也明确表示不期望通过对卢旺达施压就能让其撤军。当前的军事与外交压力不足以强加军事失败，因此必须转向政治外交解决方案，这需要对金沙萨也施加压力以达成妥协。",
+  "evidence": [
+   "2013年对基加利的外交压力结合对M23的军事压力曾导致M23军事失败，但未跟进连贯的和平进程",
+   "华盛顿外交官明确表示不期望卢旺达会单纯因压力而撤军",
+   "M23目前控制的领土面积相当于比利时国土",
+   "M23在刚果东部已损失数百甚至数千名士兵",
+   "Jason Stearns及其同事从一开始就将该运动定性为卢旺达侵略"
+  ],
+  "data": [
+   {
+    "metric": "M23控制领土面积",
+    "value": "相当于比利时国土面积",
+    "context": "当前"
+   },
+   {
+    "metric": "M23士兵伤亡",
+    "value": "数百至数千人",
+    "context": "在刚果东部"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://www.dailymail.com/news/article-11674409/Is-Ukraine-winning-war-against-Russia-difference-Leopard-2-tanks-make.html",
+  "source_title": "Is Ukraine winning the war against Russia? | Daily Mail Online",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "乌克兰2023年春夏季反攻与西方军援时效性",
+  "claim": "乌克兰有可能在2023年赢得对俄战争，但若西方军事支持「太少且太迟」导致其无法抓住春夏反攻窗口，则获胜机会可能不再出现",
+  "reasoning": "Justin Bronk认为俄军2月攻势将因新征召兵训练不足而失败并遭受重大伤亡；乌军若能在早春前获得数百辆装甲车、主战坦克和机动火炮系统并完成训练，可在俄罗斯下一波动员兵力和军工产能恢复（秋季）前实现决定性突破、夺回领土且避免惨重步兵伤亡；反之若春季前未获足够重装备及配套保障（燃料、维修、架桥、工程车辆），俄方可能迫使战事僵持至2024年，对西方而言长期僵局的代价将远超当下充分援助",
+  "evidence": [
+   "俄罗斯自9月动员约30万新兵，其中约15万经过训练并接收坦克、火炮和装甲车，将于2月发起新攻势",
+   "俄罗斯准备开始新一轮动员，目标征召多达50万人，并将军工转入战时模式集中生产",
+   "德国最终同意向乌克兰提供14辆豹2坦克，美国预计随后宣布援助（包括M2布雷德利步兵战车）",
+   "乌克兰在2022年末哈尔科夫和赫尔松的两次反攻成功夺回领土，但精锐旅伤亡惨重",
+   "挪威情报估计自入侵以来约18万俄军阵亡、重伤或被俘"
+  ],
+  "data": [
+   {
+    "metric": "俄军动员新兵",
+    "value": "约30万人",
+    "context": "自2022年9月末"
+   },
+   {
+    "metric": "接受训练的俄军新兵",
+    "value": "约15万人",
+    "context": "自2022年9月训练至今"
+   },
+   {
+    "metric": "俄军新一轮动员目标",
+    "value": "多达50万人",
+    "context": "计划征召"
+   },
+   {
+    "metric": "德国豹2坦克援助数量",
+    "value": "14辆",
+    "context": "德国政府决定"
+   },
+   {
+    "metric": "乌克兰动员人数",
+    "value": "约70万人",
+    "context": "2022年2月被入侵时"
+   },
+   {
+    "metric": "俄军伤亡总数",
+    "value": "约18万人",
+    "context": "挪威情报估计，自入侵开始至今，含阵亡、重伤和被俘"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2023年内（春夏反攻窗口）；若失败则僵持至2024年",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://spectator.com/article/is-the-war-slipping-away-from-ukraine/",
+  "source_title": "Is the war slipping away from Ukraine? | The Spectator",
+  "published_on": "2022-06-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "俄乌战争顿巴斯地区军事态势与乌克兰防御能力",
+  "claim": "俄军在顿巴斯地区缓慢推进，若乌军因重武器弹药短缺无法在短期内发起反攻，双方可能在可预见的未来陷入消耗战僵持",
+  "reasoning": "俄军虽在战争初期遭受惨重损失（约6万伤亡、4350辆车辆损失），但在顿巴斯地区通过集中炮火优势正逐步推进（每日最多1公里）。乌军面临两大困境：一是为守住阵地每日伤亡100-200人；二是苏制152mm炮弹库存告急而北约供应有限，西方155mm榴弹炮交付数量少。俄军在其他战线兵力捉襟见肘，若乌军能在赫尔松等地施压可扭转战局，但若弹药短缺阻止乌军反攻，战争将陷入僵持。",
+  "evidence": [
+   "俄军自战争开始已损失约18000-20000名阵亡士兵、总伤亡约60000人、超过4350辆车辆被确认摧毁或缴获",
+   "俄军775辆坦克损失约占其正规部队坦克总数的一半",
+   "俄军在顿巴斯地区从北部伊久姆和南部扎波罗热包抄乌军联合部队作战区的大规模突破失败",
+   "乌军在此阶段每日阵亡人数为100至200人",
+   "北约剩余的苏制152mm和122mm弹药库存极为有限，仅少量西方制155mm榴弹炮和227mm火箭炮系统已交付乌克兰",
+   "俄军因缺乏可用增援部队在大部分前线兵力薄弱"
+  ],
+  "data": [
+   {
+    "metric": "俄军阵亡人数",
+    "value": "18000-20000人",
+    "context": "自入侵开始至文章发表时"
+   },
+   {
+    "metric": "俄军总伤亡",
+    "value": "约60000人",
+    "context": "自入侵开始至文章发表时"
+   },
+   {
+    "metric": "俄军车辆损失",
+    "value": "超过4350辆",
+    "context": "确认被摧毁或缴获"
+   },
+   {
+    "metric": "俄军坦克损失",
+    "value": "775辆",
+    "context": "约占正规部队坦克总数的一半"
+   },
+   {
+    "metric": "俄军入侵兵力",
+    "value": "160000正规军+50000非正规部队",
+    "context": "初始投入"
+   },
+   {
+    "metric": "乌军每日阵亡",
+    "value": "100-200人",
+    "context": "顿巴斯防御阶段"
+   },
+   {
+    "metric": "俄军每日推进速度",
+    "value": "最多1公里",
+    "context": "锡耶韦罗顿涅茨克周边部分地区"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "可预见的未来（短期内）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Ryan D. Martinson",
+  "theater": "印太",
+  "source_url": "https://digital-commons.usnwc.edu/cmsi-notes/21/",
+  "source_title": "\"CMSI Note 21: The New Normal East of Taiwan\" by Ryan D. Martinson",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 digital-commons.usnwc.edu",
+  "topic": "中国海警在台湾以东海域常态化部署",
+  "claim": "北京打算使中国海警在台湾以东海域的存在常态化",
+  "reasoning": "6月初以来中国海警持续存在于台湾以东海域，7月4日原部署的海警编队被两艘新船替换，这种轮换机制表明不同于过去短期出现的做法，北京有意将这种部署长期化。这一判断基于行动持续时间的变化和编队轮换这一组织行为特征。",
+  "evidence": [
+   "6月初以来中国海警在台湾以东海域保持持续存在",
+   "7月4日原海警特遣编队被两艘新船替换",
+   "过去中国海警仅在台湾以东短期出现",
+   "北京将此次行动描述为对5月底日本和菲律宾联合声明的回应"
+  ],
+  "data": [
+   {
+    "metric": "部署起始时间",
+    "value": "6月初",
+    "context": "2026年"
+   },
+   {
+    "metric": "编队轮换日期",
+    "value": "7月4日",
+    "context": "2026年"
+   },
+   {
+    "metric": "轮换船只数量",
+    "value": "2艘",
+    "context": "接替原编队"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Ryan D. Martinson",
+  "theater": "印太",
+  "source_url": "https://www.andrewerickson.com/2026/07/cmsi-note-21-the-new-normal-east-of-taiwan/",
+  "source_title": "CMSI Note 21: “The New Normal East of Taiwan” | Andrew S. Erickson",
+  "published_on": "2026-02-04",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ryan d. martinson」",
+  "topic": "中国海警在台湾东部海域的常态化存在及其战略影响",
+  "claim": "中国海警已在台湾东部建立「新常态」式的持续存在，这标志着北京军事海洋态势的重大转变，可能使未来危机中更快过渡到封锁行动",
+  "reasoning": "Martinson 的判断基于三个关键变化：一是从短期示威性部署转为通过轮换维持持续存在（7月4日实施了首次换防）；二是从一次性巡逻转向常态化执法行动；三是行动起因从台海事件转向对日菲海洋边界谈判的回应，显示区域影响超出两岸关系。他认为这种持续存在使海警能够快速转换为检疫/封锁行动，并可借执法名义对往来台湾船只实施登临检查甚至扣押，标志着战略拐点",
+  "evidence": [
+   "自6月初以来中国海警在台湾东部海域保持持续存在",
+   "7月4日原始任务编队被两艘新舰艇换防，表明北京意图常态化存在",
+   "此次行动是对5月底日菲联合声明（承诺合作划定海洋边界）的回应",
+   "不同于以往短期示威性部署，当前行动已转为通过轮换维持的持续存在",
+   "海警可能运用东海和南海长期使用的策略手册，包括护送中国调查和渔船、阻挠外国船只作业"
+  ],
+  "data": [
+   {
+    "metric": "换防日期",
+    "value": "7月4日",
+    "context": "2026年，首次对台湾东部任务编队实施轮换"
+   },
+   {
+    "metric": "持续存在起始时间",
+    "value": "6月初",
+    "context": "2026年，海警开始在台湾东部维持持续存在"
+   },
+   {
+    "metric": "换防船只数量",
+    "value": "2艘",
+    "context": "7月4日执行换防的新海警船"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体期限，但强调「常态化」「持续存在」暗示长期战略",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://www.wral.com/story/fact-check-trump-exaggerates-on-munitions-shortage/18687254/",
+  "source_title": "Fact check: Trump exaggerates on munitions shortage",
+  "published_on": "2019-10-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美军弹药库存与补充能力评估",
+  "claim": "美军特定弹药短缺从未成为实际作战问题，库存紧张状况已通过增产和预算补充得到缓解",
+  "reasoning": "Todd Harrison依据国防部预算审批记录和制造商产能响应判断：虽然反ISIS行动期间海尔法导弹和JDAM等精确制导弹药库存确实因大量消耗而紧张，但国防部及时获得了国会拨款授权，制造商也相应提高了产能来填补订单，使问题停留在「关切」层面未演变为作战障碍",
+  "evidence": [
+   "国防部已为补充库存申请并获得更多预算拨款",
+   "海尔法导弹和JDAM制造商已提高产能以填补新订单",
+   "联合参谋部发言人2017年表示通过在战区间重新分配弹药来缓解短缺",
+   "反ISIS任务发言人同期确认任务未因弹药不足受影响"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://ssp.mit.edu/publications/2022/how-much-risk-should-the-united-states-run-in-the-south-china-sea",
+  "source_title": "How Much Risk Should the United States Run in the South China ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ssp.mit.edu",
+  "topic": "美国在南海对华政策选择与风险评估",
+  "claim": "美国应维持当前对中国南海主导努力的抵抗力度，不应显著加强或收缩",
+  "reasoning": "中国在追求南海目标时表现谨慎，使当前政策风险可接受；美国在南海的安全利益相当有限，显著强硬政策会带来与中国高强度战争的风险，因此不值得；只有在未来中国行动显示其决心显著增强时，美国才应不情愿地结束军事抵抗，转向部分收缩政策",
+  "evidence": [
+   "中国在追求南海目标时一直保持谨慎",
+   "美国在南海的安全利益相当有限",
+   "显著强硬的政策会增加与中国发生高强度战争的风险",
+   "存在三种政策选项：加强抵抗、维持现状、部分收缩"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://thediplomat.com/2019/01/m-taylor-fravel-on-how-the-peoples-liberation-army-does-military-strategy/",
+  "source_title": "M. Taylor Fravel on How the People’s Liberation Army Does Military...",
+  "published_on": "2019-01-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「m. taylor fravel」",
+  "topic": "中国人民解放军军事战略演变与决策机制",
+  "claim": "中国军事战略变革只会在中共高层达成统一时发生，党内团结（或分裂）在战略决策中超越外部因素的作用",
+  "reasoning": "M. Taylor Fravel 通过研究1949年以来的九次军事战略调整，发现解放军虽然会密切监测外部安全环境和作战趋势，但重大战略变革（1956年、1980年、1993年）只在中共领导层对基本政策路线和权力结构达成一致时才会推进。当党内出现分裂（如文革期间、天安门事件后），解放军即使面临外部压力也无法或不太可能调整战略。这是因为解放军本质是党的武装，中央军委是党委会而非军队机构，战略决策权掌握在党员身份的军事专家手中，因此党内团结状态直接决定战略变革的可能性。",
+  "evidence": [
+   "解放军自1949年以来制定了九次军事战略方针，重大变革发生在1956年、1980年和1993年",
+   "中央军委是中共中央委员会下属的党委会，解放军高级将领以党员身份而非军职在军委任职",
+   "解放军高级指挥官约占中共中央委员会成员的20%",
+   "文革期间和天安门事件后的党内分裂显著延缓或阻止了军事战略调整",
+   "军事战略方针通过中央军委扩大会议的讲话形式发布，而非公开文件，具体细节在随后数月甚至数年内逐步制定"
+  ],
+  "data": [
+   {
+    "metric": "解放军军事战略方针数量",
+    "value": "9次",
+    "context": "1949年建国以来"
+   },
+   {
+    "metric": "重大战略变革年份",
+    "value": "1956年、1980年、1993年",
+    "context": "建国后三次关键调整"
+   },
+   {
+    "metric": "解放军高层在中央委员会占比",
+    "value": "约20%",
+    "context": "每五年选举一次的中央委员会"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://www.taylorfravel.com/2012/09/drawing-lines-in-the-water/",
+  "source_title": "Drawing Lines in the Water – M. Taylor Fravel",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「m. taylor fravel」",
+  "topic": "中日钓鱼岛/尖阁诸岛争端及中国基线划定行为",
+  "claim": "中国划定钓鱼岛领海基线后，中日政府船只可能在12海里领海范围内发生控制权争夺，局势存在失控升级风险",
+  "reasoning": "中国首次为争议岛屿划定领海基线并提交联合国，为增加海上执法存在提供了法理依据。这导致中国海监船只被派往该海域执行任务，打破了以往中方船只通常尊重该线的惯例。随着该区域船只数量增加且双方都试图对领海行使控制权，若无冷静克制，可能以双方都不愿看到的方式螺旋失控。",
+  "evidence": [
+   "中国于1996年首次宣布基线时，未公布南沙群岛、台湾和钓鱼岛三个争议区域的基点",
+   "2012年9月13日中国向联合国提交了钓鱼岛基线",
+   "9月14日中国外交部宣布派遣两个共六艘中国海监船编队前往岛屿附近海域「捍卫海洋权益」",
+   "过去中国船只通常尊重12海里线，但偶尔会暂时越线以强调中国主张"
+  ],
+  "data": [
+   {
+    "metric": "领海范围",
+    "value": "12海里",
+    "context": "UNCLOS规定的领海宽度"
+   },
+   {
+    "metric": "派遣船只数量",
+    "value": "6艘",
+    "context": "2012年9月14日中国海监编队"
+   },
+   {
+    "metric": "编队数量",
+    "value": "2个",
+    "context": "2012年9月14日派遣的任务编队"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://responsiblestatecraft.org/terrorist-sudan-rsf/",
+  "source_title": "Will naming, shaming & sanctioning terror in Sudan stop bloodshed?",
+  "published_on": "2026-07-31",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "美国将苏丹快速支援部队列为恐怖组织对停火谈判的影响",
+  "claim": "将RSF指定为恐怖组织会使与该组织的谈判变得困难，且可能导致其分裂，从而使本已艰难的和平进程变得更加不可能",
+  "reasoning": "de Waal认为，虽然美国政府已认定RSF犯有种族灭绝罪，但恐怖组织指定会带来外交矛盾——很难一边将某组织定性为恐怖分子，一边又立即与其对话。同时，这种指定可能强化苏丹武装部队SAF的「极端主义」立场（即寻求彻底军事胜利）。即使恐怖指定能迫使阿联酋与RSF保持距离并削弱该组织，这种削弱也可能导致RSF内部分裂，使原本就困难的谈判变得完全不可能",
+  "evidence": [
+   "美国政府已正式认定RSF成员在苏丹犯有种族灭绝罪",
+   "苏丹武装部队SAF拒绝了Boulos提出的连续多轮停火提案，目标是彻底军事胜利",
+   "阿联酋被可靠指控通过乍得、索马里、埃塞俄比亚和利比亚向RSF提供后勤和物质支持",
+   "有大量证据表明自2023年苏丹战争爆发以来阿联酋对RSF的支持"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Clionadh Raleigh",
+  "theater": "拉美",
+  "source_url": "https://acleddata.com/expert-comment/venezuela-and-us-comment-clionadh-raleigh",
+  "source_title": "Venezuela and the U.S - Comment from Clionadh Raleigh",
+  "published_on": "2026-01-03",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 acleddata.com",
+  "topic": "美国对委内瑞拉的军事行动与政权更迭风险",
+  "claim": "美国此次针对委内瑞拉的行动主要目的是推动政权更迭并重新确立地区影响力，而非单纯打击毒品恐怖主义，且马杜罗被移除后权力真空将导致混乱和潜在暴力冲突",
+  "reasoning": "Raleigh 认为如果美国真正优先考虑打击毒品恐怖主义，哥伦比亚应该是首要目标而非委内瑞拉。她指出委内瑞拉拥有巨大石油储备这一战略价值，且当前虽然马杜罗被移除，但控制军队、安全部队、港口和石油部门的核心圈子仍在位，而反对派尚不具备治理基础设施，这种组合几乎必然导致混乱的权力争夺",
+  "evidence": [
+   "过去24小时的行动在速度和戏剧性方面都非同寻常",
+   "如果真正优先打击毒品恐怖主义，哥伦比亚应排在首位而非委内瑞拉",
+   "委内瑞拉拥有巨大的石油储备",
+   "马杜罗已被移除，但控制军队、安全部队、港口和石油部门的内部核心圈子仍然存在",
+   "反对派尚未拥有治理所需的基础设施"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "短期内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Mark F. Cancian",
+  "theater": "军工与战略",
+  "source_url": "https://www.defensepriorities.org/explainers/target-taiwan-challenges-for-a-us-intervention/",
+  "source_title": "Target Taiwan: Challenges for a U.S. intervention - Defense Priorities",
+  "published_on": "2025-10-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mark f. cancian」",
+  "topic": "美国军事干预台海冲突的能力评估",
+  "claim": "美国在台海冲突中保卫台湾的能力远比美国国内普遍认知的更加有限，可能无法阻止中国成功入侵台湾",
+  "reasoning": "中国拥有地理接近性和意志两大关键优势。台湾距中国大陆仅90英里，而距关岛超1700英里、距夏威夷超5000英里。中国可在美国在战区集结足够兵力前实施既成事实攻击。美国地面部队因初期中国导弹、无人机和空中打击可能瘫痪区域盟友空军基地而无法及时进入战场。美国海军水面力量包括航母战斗群易受中国A2/AD系统攻击，战斗将不成比例地由潜艇部队承担，但潜艇火力可能不足以影响战争整体结果。美国虽可对中国军队造成重大损失，但可能缺乏足够战区资产阻止入侵。",
+  "evidence": [
+   "台湾距中国大陆仅90英里，距关岛超1700英里，距夏威夷超5000英里",
+   "中国初期导弹、无人机和空中攻击可能瘫痪区域内盟友空军基地，阻碍美国地面部队进入",
+   "美国海军水面力量包括航母战斗群易受中国A2/AD系统攻击",
+   "只有美国潜艇部队能以有限损失直接参战，但可能缺乏足够火力阻止中国入侵",
+   "即使美国能保卫台湾并驱逐中国军队，北京可准备再次攻击或使美国在台湾的处境代价越来越高"
+  ],
+  "data": [
+   {
+    "metric": "台湾距中国大陆距离",
+    "value": "90英里",
+    "context": "地理位置"
+   },
+   {
+    "metric": "台湾距关岛距离",
+    "value": "超1700英里",
+    "context": "地理位置"
+   },
+   {
+    "metric": "台湾距夏威夷距离",
+    "value": "超5000英里",
+    "context": "地理位置"
+   },
+   {
+    "metric": "美国在台特种部队",
+    "value": "约24名",
+    "context": "媒体报道的训练人员"
+   },
+   {
+    "metric": "美国在台海军陆战队",
+    "value": "未具体数量",
+    "context": "媒体报道的训练人员"
+   },
+   {
+    "metric": "五角大楼计划增派兵力",
+    "value": "100-200人",
+    "context": "华尔街日报报道，未确认"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://qoshe.com/foreign-affairs/michael-kofman/ukraine-s-war-of-endurance/188012030",
+  "source_title": "QOSHE - Ukraine’s War of Endurance - Michael Kofman",
+  "published_on": "2026-02-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄乌战争的消耗战动态与2026年俄罗斯财政崩溃预期",
+  "claim": "乌克兰力求在2026年使俄罗斯财政达到临界点，迫使莫斯科在谈判桌上大幅修改其要求",
+  "reasoning": "作者认为随着乌克兰扩大对俄罗斯能源出口基础设施的打击行动，并提升远程打击能力，持续增加俄方经济成本和人员伤亡（使其超过莫斯科可招募的数量），将使战争对俄罗斯变得不可持续。虽然俄罗斯保持战场优势，但未能取得决定性成果，且时间越来越不利于莫斯科。作者判断俄罗斯无法单靠军事手段实现政治目标，攻占领土的时间成本和人员代价都过于高昂",
+  "evidence": [
+   "俄罗斯「特别军事行动」持续时间已超过苏联1941-1945年的「伟大卫国战争」",
+   "乌克兰在2025年表现良好，年末处境甚至优于2024年（当时俄军推进速度加快）",
+   "俄罗斯进攻持续未能达到其目标，西方对乌克兰的支持被证明是持久的",
+   "战场已改变——无人机在很大程度上阻止了部队在前线附近集结或机动",
+   "俄罗斯夺取即使是小块领土也需要相当长的时间，且代价高昂"
+  ],
+  "data": [
+   {
+    "metric": "战争持续时长",
+    "value": "即将进入第5年",
+    "context": "2022年2月24日至2026年2月24日"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2026年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://www.ksmu.org/2025-07-04/military-analyst-michael-kofman-discusses-russias-recent-gains-in-ukraine",
+  "source_title": "Military analyst Michael Kofman discusses Russia's recent gains in...",
+  "published_on": "2025-07-04",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄乌战争 2025-2026年走势与谈判前景",
+  "claim": "俄乌战争将持续拖延至 2026年，2025年秋季和谈可能性越来越低",
+  "reasoning": "Kofman 认为俄军虽占优势但无法转化为决定性战果，乌军防线虽不稳但短期不会崩溃。战局的关键在于双方「进攻与防御的可持续性对比」将决定谈判地位。他原本期待秋季可能重启谈判，但现在「越来越怀疑」（increasingly skeptical）这会发生，因为双方仍在通过战场表现测试各自的谈判筹码，当前态势尚未迫使任何一方妥协。",
+  "evidence": [
+   "俄军过去几年在战场占优，但整体军事表现「严重不及预期」（woefully underperformed），距离占领整个顿涅茨克目标仍有相当距离",
+   "俄军在人力和物资上有显著优势，能够持续替换损失并生成新编队，预计至少推进到 2025年冬季",
+   "乌军通过扩大无人机部队使俄军推进代价高昂，双方防线虽不稳定但近期不太可能崩溃",
+   "双方都在扩大对对方关键基础设施和军事目标的打击行动，包括乌军 SBU Alpha 的「蜘蛛网行动」打击俄远程航空兵",
+   "美国暂停的武器运输「看起来是美国政府内部的重大程序失误」，该批次本身不具决定性，但若演变为大规模政策转向将在秋季产生严重影响"
+  ],
+  "data": [
+   {
+    "metric": "争夺焦点区域",
+    "value": "下一个 10-20公里顿涅茨克领土",
+    "context": "Kofman 认为这在战略上并不重要"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "拖延至 2026年",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://nationalsecurityjournal.org/16700-to-go-die-how-russia-keeps-finding-troops-for-ukraine-war/",
+  "source_title": "'$16,700 to Go Die': How Russia Keeps Finding Troops for Ukraine War",
+  "published_on": "2025-05-31",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄罗斯招募兵员的财政可持续性与2025年战争前景",
+  "claim": "俄罗斯虽然目前能通过高额奖金维持每日1000-1500人的招募速度，但这种天文数字般的支付水平在长期财政上不可持续",
+  "reasoning": "Michael Kofman认为尽管俄罗斯当前的合同兵招募率足以提供替补并实现部队轮换，但俄罗斯的军人奖金和薪资已经增长到「天文数字级别」（astronomically），这引发了关于他们能否在2025年继续维持这一速度的质疑。他判断最终会出现一个临界点：即无论提供多少卢布都无法吸引足够新兵入伍。这一判断基于财政逻辑——地方政府已承担约四分之三的签约奖金（每日约15亿卢布），许多地区将近3%的年度预算用于招募，联邦政府每日投入5亿卢布，这种支出规模难以长期延续。",
+  "evidence": [
+   "俄罗斯目前每日招募1000-1500名新兵，地方政府承担约四分之三的签约奖金（每日约15亿卢布），联邦政府承担剩余5亿卢布",
+   "许多地区政府正将近3%的年度预算用于招募活动",
+   "伊尔库茨克地区的签约奖金达到140万卢布（约16700美元），远高于当地平均工资",
+   "俄罗斯自2022年2月以来的损失接近100万人（阵亡和受伤），坦克损失近4000辆"
+  ],
+  "data": [
+   {
+    "metric": "每日新兵招募数",
+    "value": "1000-1500人",
+    "context": "2024年底至文章发表时"
+   },
+   {
+    "metric": "地方政府每日签约奖金支出",
+    "value": "15亿卢布（约1830万美元）",
+    "context": "根据Kluge分析"
+   },
+   {
+    "metric": "联邦政府每日招募支出",
+    "value": "5亿卢布（约610万美元）",
+    "context": "根据Kluge分析"
+   },
+   {
+    "metric": "地方预算招募占比",
+    "value": "近3%",
+    "context": "许多地区的年度预算"
+   },
+   {
+    "metric": "伊尔库茨克签约奖金",
+    "value": "140万卢布（约16700美元）",
+    "context": "文章采访对象报告"
+   },
+   {
+    "metric": "俄罗斯总损失",
+    "value": "接近100万人",
+    "context": "乌克兰总参谋部统计，自2022年2月起"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2025年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://www.npr.org/2025/12/09/nx-s1-5634738/russia-ukraine-war-donetsk-region",
+  "source_title": "Ukraine's last eastern strongholds hang on in Russia's fight ...",
+  "published_on": "2025-12-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄罗斯在乌克兰东部顿涅茨克地区的无人机战优势及其对战局的影响",
+  "claim": "乌克兰在无人机运用方面的优势在过去一年中已被大幅削减",
+  "reasoning": "Michael Kofman 指出，俄罗斯正在部署更多像 Rubicon 这样的精英无人机单位，并增加无人机系统的生产。这些举措使得俄罗斯在无人机领域迅速追赶，甚至在某些方面超越了乌克兰此前建立的技术优势。结合前线士兵描述的天空中密集的俄罗斯无人机（数量多到相互碰撞）以及乌克兰地面无人机遭受重大损失的情况，可以判断俄罗斯已在无人机战中扭转劣势。",
+  "evidence": [
+   "俄罗斯在 Pokrovsk 地区部署了 Rubicon 精英无人机单位",
+   "俄罗斯正在增加无人机系统的生产",
+   "乌克兰第 7 快速反应军团发言人表示其地面无人机遭俄罗斯空中无人机大量摧毁，「我们正遭受大量损失」",
+   "乌克兰第 14 旅士兵 Maksym 描述 Pokrovsk 上空无人机数量多到「它们甚至无法相互通过——只是相互碰撞」"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "过去一年内已发生的趋势变化",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://carnegieendowment.org/events/2026/07/the-next-russia-threat-moscows-military-power-after-ukraine",
+  "source_title": "The Next Russia Threat: Moscow’s Military Power After Ukraine",
+  "published_on": "2026-07-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 carnegieendowment.org",
+  "topic": "俄罗斯军事力量在乌克兰战争后的重建与对北约威胁",
+  "claim": "俄罗斯军队将在战后5到7年内完成重建，届时对北约的威胁能力将比战前更强",
+  "reasoning": "Michael Kofman认为，尽管乌克兰战争会消耗俄军力量，但战后重建过程中俄罗斯军队可能通过吸取战争教训、调整军事结构和战术，反而提升整体作战能力。这种重建速度比许多观察者预期的要快，使得俄罗斯在中期时间框架内（5-7年）就能恢复并增强对北约的军事挑战能力，而非长期虚弱。",
+  "evidence": [
+   "Michael Kofman在《外交事务》最新一期中对俄罗斯军事重建进行了详细评估",
+   "他认为俄罗斯军队可能从战争中emerge more capable and more dangerous to NATO",
+   "这一时间框架是sooner than many observers expect",
+   "该研究是Carnegie的「The Future of Russian Power」项目的一部分，该项目专门研究乌克兰战争后俄罗斯的能力演变"
+  ],
+  "data": [
+   {
+    "metric": "俄军对北约构成威胁的时间",
+    "value": "5到7年",
+    "context": "战后重建完成时间框架"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "5到7年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://nymag.com/intelligencer/article/ukraine-russia-war-drones-iran.html",
+  "source_title": "How Ukraine Put Russia on the Back Foot in Year 5 of the War",
+  "published_on": "2026-05-25",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "2026年俄乌战场态势与俄军进攻能力评估",
+  "claim": "俄军2026年进攻效能显著下降，推进速度仅为2025年同期一半，难以实现战役级突破",
+  "reasoning": "Kofman基于俄军战术僵化、乌军无人机/纵深打击能力提升、俄军兵员质量下降三重因素判断。他认为俄军仍沿用2025年渗透战术和轻型机械化突击，即便局部突破乌防线也无法转化为战役级进展，而乌军已适应这套打法并通过无人机构建「击杀区」优势，同时乌军「中程打击」开始威胁俄军后方，使俄军后勤指挥相对安全的状态终结。俄军虽维持月度征兵目标，但新兵仅受2周训练即投入渗透作战，质量持续劣化，难以支撑有效进攻。",
+  "evidence": [
+   "俄军2026年推进速度仅为2025年同期约一半",
+   "俄军渗透战术和轻型机械化突击无法制造战役级突破，乌军能够稳定局势并反击",
+   "乌军无人机部队质量与数量稳步提升，在「击杀区」建立优势并压制俄军无人机与炮兵单位",
+   "乌军「中程打击」能力开始覆盖俄军后方区域，威胁此前相对安全的俄军后勤与指挥系统",
+   "俄军新征募士兵仅接受不到2周训练即投入战场，部队质量连年下降"
+  ],
+  "data": [
+   {
+    "metric": "俄军2026年推进速度",
+    "value": "约为2025年同期50%",
+    "context": "2026年同期对比2025年"
+   },
+   {
+    "metric": "俄军阵亡人数",
+    "value": "超过40万人",
+    "context": "Kofman个人估算，截至访谈时"
+   },
+   {
+    "metric": "俄军新兵训练时长",
+    "value": "不到2周",
+    "context": "近期征募士兵"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2026年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Decker Eveleth",
+  "theater": "中东",
+  "source_url": "https://foreignpolicy.com/2026/03/24/iran-israel-us-war-missile-nuclear-weapons-deterrence/",
+  "source_title": "How Iran's Deterrence Collapsed Ahead of U.S.-Israeli Attacks",
+  "published_on": "2026-03-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 foreignpolicy.com",
+  "topic": "伊朗导弹威慑能力与核武器战略转向",
+  "claim": "伊朗常规导弹威慑已失效，政权若存活将被迫转向核武器发展以重建威慑",
+  "reasoning": "Eveleth 通过分析 2024 年 True Promise I 和 II 行动中伊朗导弹对以色列的攻击效果，认为伊朗导弹精度低、防空体系脆弱，未能摧毁关键目标，导致以色列与美国确认可通过突袭和多层防御实现有利战果。这使伊朗陷入持续空袭、代理人武装瓦解、海军沉没、空军瘫痪的困境。继续投资常规导弹只会重回当前被动局面，而封锁霍尔木兹海峡等手段未能阻止军事打击，核武器成为唯一可行的威慑重建路径，尽管面临技术难度（需秘密制造足够数量避免被全歼）、经济制裁和地区关系恶化，但政权生存压力可能促使德黑兰接受极端经济代价以换取安全保障。",
+  "evidence": [
+   "2024 年 True Promise I 和 II 行动中，伊朗数百枚导弹袭击以色列，未能摧毁以军总部或情报总部，对 Nevatim 空军基地约 40 次命中仅造成有限破坏，大部分设施完好并迅速修复",
+   "以色列成功摧毁伊朗境内深处的俄制 S-300 防空系统先进雷达，在 2025 年 6 月 12 天战争及当前冲突中，伊朗防空未能击落一架有人驾驶飞机",
+   "2024 年 11 月《国土报》调查发现伊朗导弹主要由焊接不良、劣质零件组成",
+   "伊朗已打破 IAEA 保障协议并终止核设施监控，对海湾民用区域发动无人机和导弹袭击，触发大量制裁并永久损害与邻国关系",
+   "伊朗目前仅有足够浓缩铀制造约 10 枚核武器，核设施在过去一年遭受重大破坏"
+  ],
+  "data": [
+   {
+    "metric": "导弹射程",
+    "value": "超过 1000 英里",
+    "context": "True Promise 行动中伊朗攻击以色列"
+   },
+   {
+    "metric": "铀浓缩度",
+    "value": "60%",
+    "context": "四年前伊朗已达到该水平"
+   },
+   {
+    "metric": "Nevatim 基地命中次数",
+    "value": "约 40 次",
+    "context": "True Promise II 行动"
+   },
+   {
+    "metric": "可制造核武器数量",
+    "value": "约 10 枚",
+    "context": "基于当前浓缩铀储量"
+   },
+   {
+    "metric": "2020 年 Ain al-Asad 基地距边境距离",
+    "value": "175 英里",
+    "context": "伊朗导弹袭击伊拉克美军基地"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "战后未来（未指明具体时间，取决于政权存活）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jack Watling",
+  "theater": "俄乌",
+  "source_url": "https://www.theguardian.com/commentisfree/2026/aug/14/patriot-missiles-ukraine-putin-kyiv-running-out-nato-danger",
+  "source_title": "Patriot missiles have been a godsend for Ukraine... | The Guardian",
+  "published_on": "2026-08-14",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jack watling」",
+  "topic": "爱国者导弹产能不足与乌克兰防空困境",
+  "claim": "乌克兰今冬无法获得足够的爱国者导弹来保护其关键基础设施，必须为电力严重中断做好准备",
+  "reasoning": "全球爱国者年产能约840枚，而乌克兰理想需求量是全球产能的3-4倍。俄罗斯年产约750枚伊斯坎德尔导弹且寻求增产，每次拦截需发射2-3枚拦截弹才能保证高成功率。美国对伊朗的打击引发德黑兰在中东发射大量弹道导弹（单日超170枚），造成全球性的爱国者导弹急性短缺。即使部分国家从库存中释放少量导弹，在今冬前也无法满足乌克兰的防护需求。",
+  "evidence": [
+   "2023年乌克兰获得爱国者系统后拦截率超过70%，但今年导弹供应耗尽后拦截率降至零，俄罗斯夜复一夜肆无忌惮地打击乌克兰基础设施",
+   "美国及德国、日本的授权制造商年产约840枚爱国者拦截弹（240枚PAC-2和600枚PAC-3）",
+   "俄罗斯年产约750枚伊斯坎德尔导弹并寻求增产，还使用空射Kinzhal弹道导弹和改装防空导弹",
+   "美国对伊朗的打击导致德黑兰在中东发射弹道导弹，去年和今年的战争中伊朗单日发射超过170枚",
+   "有一次伊朗的先进导弹需要17枚爱国者拦截弹才击败",
+   "北约成员国在2022年前就知道这些数字，但未投资扩大爱国者产能或成熟替代系统如法意SAMP-T"
+  ],
+  "data": [
+   {
+    "metric": "爱国者年产能",
+    "value": "840枚",
+    "context": "美国及德日授权制造商总产能"
+   },
+   {
+    "metric": "PAC-2年产量",
+    "value": "240枚",
+    "context": "较旧型号"
+   },
+   {
+    "metric": "PAC-3年产量",
+    "value": "600枚",
+    "context": "较新型号"
+   },
+   {
+    "metric": "伊斯坎德尔年产量",
+    "value": "约750枚",
+    "context": "俄罗斯当前产能"
+   },
+   {
+    "metric": "2023年拦截率",
+    "value": "超过70%",
+    "context": "乌克兰获得爱国者系统后"
+   },
+   {
+    "metric": "伊朗单日发射量",
+    "value": "超过170枚",
+    "context": "去年和今年战争期间"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "今冬",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jack Watling",
+  "theater": "俄乌",
+  "source_url": "https://spectator.com/?p=410571&edition=us",
+  "source_title": "Russia wants to bleed Ukraine dry before its tanks arrive | The Spectator",
+  "published_on": "2023-01-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jack watling」",
+  "topic": "乌克兰使用北约坦克发起反攻的时机与效果",
+  "claim": "未来几个月乌克兰将面临艰苦战斗，北约坦克短期内难以投入使用，俄军正试图在乌军获得新装备前消耗其精锐部队",
+  "reasoning": "Jack Watling 认为，尽管西方承诺提供北约主战坦克是关键转折点，但这些装备需要数月时间才能形成战斗力——乌军需要学习全新的操作维护体系，且因德国政府阻挠导致乌克兰将接收三种不同型号坦克而非单一型号，进一步延迟部署。与此同时，俄军正集结空降兵和装甲部队发起进攻，企图在乌军完成训练和装备整合前消耗其现有预备队，使乌克兰失去准备反攻的能力。因此近期战斗将非常艰难，乌克兰必须用现有装备抵御俄军攻势。",
+  "evidence": [
+   "北约设计坦克与乌克兰现役苏联系坦克在操作流程、维护需求上显著不同，且重量多出约20吨",
+   "因德国政府的阻挠和无能，乌克兰最终将接收三种不同型号的北约坦克，每种数量有限且维护需求各异，这将延迟坦克抵达前线",
+   "俄军正在卢甘斯克集结空降部队、在南部集结装甲部队，瓦格纳继续进攻巴赫穆特",
+   "格拉西莫夫将军现直接指挥乌克兰作战行动，推动攻势以迫使乌克兰预备队投入防御战而无法准备进攻",
+   "西方伙伴浪费了三个月时间决定是否派遣坦克"
+  ],
+  "data": [
+   {
+    "metric": "北约坦克比苏联坦克重量差",
+    "value": "约20吨",
+    "context": "北约设计坦克相比乌克兰现役坦克"
+   },
+   {
+    "metric": "英国承诺提供AS90自行榴弹炮数量",
+    "value": "最多30门",
+    "context": "英国对乌军事援助"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未来几个月",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jack Watling",
+  "theater": "俄乌",
+  "source_url": "https://warontherocks.com/the-war-will-grind-on-reflecting-on-a-year-of-war-in-ukraine/",
+  "source_title": "The War Will Grind On: Reflecting on A Year of War in Ukraine",
+  "published_on": "2023-02-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jack watling」",
+  "topic": "俄乌战争2023年走向与西方支援策略",
+  "claim": "战争将持续僵持，乌克兰能否在2023年内发起有效反攻取决于西方能否及时提供足够装备并避免乌军过早消耗预备队，否则将陷入长期消耗战",
+  "reasoning": "该分析师认为俄军当前处于实力最低点（动员兵训练差、弹药减少），但乌军能否利用这一窗口期取决于两个关键变量：一是俄军能否通过仓促进攻迫使乌军提前投入预备队从而破坏乌军反攻计划，二是西方能否持续提供营级装备（尤其是防护机动装备）并建立稳定的人员训练管道。他明确指出西方决策体系存在「直到成为危机才采取行动」的结构性问题，导致关键决策延迟（如弹药生产扩张延迟至2022年底、2023年1月拉姆施泰因会议浪费了三个月冬季整备时间），这种延迟会导致次优结果。他判断即使乌克兰收复领土，俄罗斯仍可能通过持续空袭、海上封锁和特种行动「拒绝给乌克兰和平」，使乌克兰无法经济重建。",
+  "evidence": [
+   "俄军在顿巴斯地区仅剩约7个突击旅、南部约4个旅，且为仓促发起进攻",
+   "乌克兰在欧洲已建立稳定的人员与编队训练管道",
+   "西方关键决策延迟案例：弹药库存告急问题6月已明确但欧洲扩产加速要到2022年底；2023年1月拉姆施泰因会议才做出最大化支援决定，浪费了三个月冬季整备时间",
+   "俄罗斯在后台渠道中坚持传递「决心继续战争」信号，除乌克兰投降外不提供任何条件",
+   "Joe Biden访问基辅表明俄罗斯「耗尽西方支持」的希望落空"
+  ],
+  "data": [
+   {
+    "metric": "俄军顿巴斯突击旅数量",
+    "value": "约7个旅",
+    "context": "卢甘斯克地区，文章撰写时"
+   },
+   {
+    "metric": "俄军南部突击旅数量",
+    "value": "约4个旅",
+    "context": "南部战线，文章撰写时"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2023年内",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Nathaniel A. Raymond",
+  "theater": "非洲",
+  "source_url": "https://twitter.com/nattyray11",
+  "source_title": "twitter.com/nattyray11",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「nattyray11」",
+  "topic": "埃塞俄比亚军队支援RSF在苏丹青尼罗州的攻势",
+  "claim": "RSF关联的埃塞俄比亚Asosa基地集结旅级部队，即将对Ad-Damazin发动攻击",
+  "reasoning": "通过卫星影像监测发现埃塞俄比亚Asosa基地（与RSF有关联）正在快速集结军事力量，包括新增装甲运兵车和车辆运输工具，部队规模已达旅级，且青尼罗州战斗正在升级。这种军力集结的规模、速度和位置表明针对Ad-Damazin的进攻即将发生，同时北科尔多凡州可能出现同步军事行动。",
+  "evidence": [
+   "埃塞俄比亚Asosa ENDF基地集结了旅级规模的部队",
+   "该基地新增装甲运兵车和车辆运输工具等军事装备",
+   "青尼罗州战斗正在升级",
+   "该基地与支援RSF在青尼罗州攻势的埃塞俄比亚军队有关联",
+   "北科尔多凡州可能出现同步军事行动"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "即将发生（报告发布于8月28日，使用「imminent」表述）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://political.org/2026/05/13/houthis-rapidly-rebuilding-sophisticated-weapons-arsenal-with-iranian-support-new-report-finds/",
+  "source_title": "Houthis Rapidly Rebuilding Sophisticated Weapons Arsenal With ...",
+  "published_on": "2026-05-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「conflict armament research」",
+  "topic": "也门胡塞武装通过伊朗援助快速重建先进武器库及其对红海航运的持续威胁",
+  "claim": "尽管美英联军持续空袭，胡塞武装正在伊朗支持下快速重建包括导弹和水下武器在内的先进武器库，且军事压力未能永久削弱其作战能力",
+  "reasoning": "CAR通过实地追踪武器供应链、制造商标记、序列号和缴获文件，发现伊朗持续通过阿曼、索马里等走私网络向胡塞武装提供弹道导弹、巡航导弹组件及水下武器系统（包括水雷和水下无人机），绕过联合国武器禁运。尽管2024年1月起美英发动「繁荣卫士行动」持续空袭，胡塞武装仍展现出吸收打击并继续进攻的能力，自2023年底已对红海和亚丁湾商业航运发动超100次无人机和导弹攻击。CAR方法论在国际政策圈具高可信度，其报告曾被联合国专家小组引用证实伊朗违反2015年安理会决议建立的也门武器禁运。",
+  "evidence": [
+   "CAR记录显示胡塞武装正在重建的武器库包含弹道和巡航导弹组件，以及能威胁商业和军事航运的水雷和水下无人机等先进水下武器系统",
+   "自2023年底以来，胡塞武装已对红海和亚丁湾商业航运发动超过100次无人机和导弹攻击，该航道承载全球约12-15%的贸易量",
+   "美英自2024年1月发动「繁荣卫士行动」对也门胡塞目标持续空袭，但该组织展现出显著的吸收打击并继续进攻行动的能力",
+   "伊朗通过阿曼、索马里及其他中转点的走私网络向胡塞武装提供武器，绕过联合国武器禁运；美国海军和联盟伙伴拦截的反坦克导弹、火箭推进榴弹和无人机组件货运只占流入也门物资总量的一小部分",
+   "CAR专长于追踪冲突区非法武器供应链，包括识别从战场回收的制造商标记、序列号和运输文件，其先前关于胡塞武器采购的报告曾被联合国专家小组报告引用"
+  ],
+  "data": [
+   {
+    "metric": "胡塞武装对红海航运攻击次数",
+    "value": "超过100次",
+    "context": "自2023年底以来，使用无人机和导弹"
+   },
+   {
+    "metric": "红海航道承载全球贸易占比",
+    "value": "约12-15%",
+    "context": "红海和亚丁湾航道"
+   },
+   {
+    "metric": "也门冲突死亡人数",
+    "value": "15万至37.7万人",
+    "context": "根据各人道主义组织估算，2014年至今"
+   },
+   {
+    "metric": "联合国对也门武器禁运决议年份",
+    "value": "2015年",
+    "context": "安理会决议建立"
+   },
+   {
+    "metric": "胡塞武装爆炸船攻击沙特护卫舰致死人数",
+    "value": "2名水兵",
+    "context": "2017年事件"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jeffrey Lewis",
+  "theater": "中东",
+  "source_url": "https://www.defenseone.com/ideas/2019/01/boltons-big-iran-con/154109/",
+  "source_title": "Bolton’s Big Iran Con - Defense One",
+  "published_on": "2019-01-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeffrey lewis」",
+  "topic": "伊朗核武器计划与核协议",
+  "claim": "伊朗已于2003年放弃核武器研发计划，并严格遵守JCPOA核协议，美国情报界不认为伊朗决定研发核武器",
+  "reasoning": "Jeffrey Lewis基于美国情报界评估、国际原子能机构结论和以色列窃取文件的分析得出判断。他指出自2007年起美国情报界一致评估伊朗未决定是否研发核武器，2003年后在国际压力下中止了核武器计划。即便以色列窃取的「原子仓库」文件也只显示2003年前的框架计划，不构成新证据。同时IAEA和美国情报机构确认伊朗严格遵守JCPOA，该协议显著增强了对伊朗核设施的透明监督能力",
+  "evidence": [
+   "美国国家情报总监ANONYMIZED_PERSON_7于2017年和2018年在国会证词中明确表示「我们不知道伊朗是否最终会决定建造核武器」",
+   "美国情报界自2007年起持续发布非机密评估认为伊朗未决定是否研发核武器，2007年NIE报告指出伊朗在2003年秋季中止核武器计划",
+   "国际原子能机构(IAEA)与美国情报机构一致结论伊朗严格遵守JCPOA核协议",
+   "以色列窃取的「原子仓库」文件经Jeffrey Lewis等专家检验后确认只显示2003年前的计划框架，「字面上没有任何新内容」",
+   "美国情报官员向NBC新闻确认这些文件虽可能包含新细节但讲述的是「伊朗曾有未授权核计划」这一旧故事"
+  ],
+  "data": [
+   {
+    "metric": "伊朗核武器计划中止时间",
+    "value": "2003年秋季",
+    "context": "2007年NIE报告"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Jeffrey Lewis",
+  "theater": "中东",
+  "source_url": "https://atthebrink.org/podcast/the-iran-deal-blocking-a-persian-bomb/",
+  "source_title": "The Iran Deal: Blocking a Persian Bomb — AT THE BRINK podcast",
+  "published_on": "2020-08-25",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeffrey lewis」",
+  "topic": "美国退出伊朗核协议（JCPOA）的后果",
+  "claim": "美国退出伊朗核协议将导致严重的、未预见到的后果",
+  "reasoning": "Jeffrey Lewis 认为 JCPOA 是迄今为止最全面的核不扩散协议，由前所未有的严格核查机制执行。该协议通过限制伊朗核能力换取解除经济制裁，成功阻止了可能演变为军事冲突的僵局。美国单方面退出这一有效的外交成果，将破坏这一平衡，带来危险的连锁反应。他强调在面对核扩散威胁时，外交、入侵或接受是仅有的三个选项，而放弃外交解决方案实际上只剩下军事冲突这一选项。",
+  "evidence": [
+   "大多数核专家称伊朗核协议是迄今为止最全面的核不扩散协议，由前所未有范围的严格核查执行",
+   "伊朗核设施于2002年首次向公众披露，引发伊朗核危机，之后伊朗面临日益严厉的国际制裁",
+   "2013年奥巴马政府与伊朗在新领导层下开启认真谈判，美国首次探索「非零离心机」的外交解决方案",
+   "JCPOA 于2015年8月由伊朗和 P5+1（美国、俄罗斯、中国、英国、法国加德国）签署",
+   "该协议消除伊朗制造武器级钚的能力，大幅削减其浓缩铀和研发能力，并建立覆盖整个核供应链的侵入性核查机制"
+  ],
+  "data": [
+   {
+    "metric": "伊朗核设施首次披露时间",
+    "value": "2002年",
+    "context": "引发伊朗核危机的起点"
+   },
+   {
+    "metric": "JCPOA 谈判启动时间",
+    "value": "2013年",
+    "context": "奥巴马政府新外交政策开启"
+   },
+   {
+    "metric": "JCPOA 签署时间",
+    "value": "2015年8月",
+    "context": "经过两年谈判后正式签署"
+   },
+   {
+    "metric": "谈判耗时",
+    "value": "2年",
+    "context": "从2013年认真谈判开始到2015年签署"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.businesstoday.in/india/story/six-months-after-operation-sindoor-why-jacobabads-damaged-hangar-is-still-making-headlines-502340-2025-11-15",
+  "source_title": "Six months after Operation Sindoor: Why... - BusinessToday",
+  "published_on": "2025-11-15",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度「辛杜尔行动」对巴基斯坦雅各布巴德空军基地的持续影响",
+  "claim": "巴基斯坦空军在行动六个月后仍在进行结构检查和损伤评估，显示该机库正在「逐步拆除」",
+  "reasoning": "Damien Symon通过分析最新卫星图像发现，被印度精确打击的机库屋顶在过去几个月被分阶段拆除，表明内部损伤检查仍在持续进行，结构修复尚未开始。这种检查模式符合标准的打击后损伤评估协议，说明损伤严重程度需要长期技术评估才能确定修复方案。",
+  "evidence": [
+   "最新卫星图像显示机库外部结构持续拆除，多个屋顶部分已被移除",
+   "拆除模式符合标准的打击后损伤评估协议",
+   "全面修复预计只会在技术评估结束后进行",
+   "持续监测表明该机库对巴基斯坦军事规划者仍是高优先级资产"
+  ],
+  "data": [
+   {
+    "metric": "冲突持续时间",
+    "value": "3天",
+    "context": "2025年5月，印巴冲突后巴方寻求停火"
+   },
+   {
+    "metric": "打击后时间跨度",
+    "value": "6个月",
+    "context": "2025年5月至文章发布时"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.moneycontrol.com/news/india/satellite-image-confirms-heavy-damage-to-pakistan-s-bholari-airbase-in-indian-strikes-repair-work-likely-underway-13087113.html",
+  "source_title": "Satellite image confirms heavy damage to Pakistan's Bholari airbase in...",
+  "published_on": "2025-06-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "巴基斯坦Bholari空军基地印度空袭损伤评估",
+  "claim": "Bholari基地遭印度空袭的机库正在进行修复作业",
+  "reasoning": "Damien Symon通过最新卫星图像观察到受损机库被防水布覆盖，这种防水布通常用于保护施工现场，因此判断基地正在开展某种形式的修复或恢复活动。此前的炸弹损伤评估图像已显示该机库顶部有明显弹孔及内部严重损坏，现在出现防水布覆盖物这一新变化，表明巴基斯坦已启动损伤修复工作。",
+  "evidence": [
+   "卫星图像显示Bholari基地受损机库现被防水布（tarpaulin）覆盖",
+   "Kawa Space此前发布的炸弹损伤评估图像显示该机库顶部有弹孔且内部严重受损",
+   "巴基斯坦信德省首席部长承认Bholari基地空袭导致6名空军人员死亡",
+   "印度武装部队5月10日对11个巴基斯坦空军基地实施报复性空袭"
+  ],
+  "data": [
+   {
+    "metric": "空袭目标数量",
+    "value": "11个空军基地",
+    "context": "印度5月10日空袭"
+   },
+   {
+    "metric": "人员伤亡",
+    "value": "6名空军人员死亡",
+    "context": "Bholari基地，信德省首席部长承认"
+   },
+   {
+    "metric": "基地距离",
+    "value": "不到100英里",
+    "context": "Bholari基地距卡拉奇"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.twz.com/news-features/chinas-area-51-is-undergoing-a-massive-expansion",
+  "source_title": "Massive Expansion At China’s ‘Area 51’",
+  "published_on": "2026-08-28",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "中国罗布泊核试验基地附近秘密空军试验场扩建",
+  "claim": "该基地正准备在不远的将来测试翼展远大于现役战机的新型飞机，可能包括 H-20 隐身轰炸机",
+  "reasoning": "Damien Symon 通过卫星图像分析发现，该基地南部新建的三座大型机库（每座约80×40米）尺寸与中国另一秘密试验基地马兰的宽比例机库相似，后者主要用于无人机测试；这些机库直接连接新建南部滑行道，尺寸可容纳所有 PLA 现役战术和战略飞机。结合当前两款大型隐身飞翼无人机正在飞行测试、H-20 隐身轰炸机尚未公开露面的背景，加上该基地似乎更专注于有人驾驶平台（而非马兰的无人机），这些新机库的宽比例设计暗示 PLA 预期测试翼展更大的飞机，罗布泊因项目敏感性成为理想测试地点。",
+  "evidence": [
+   "2026年8月27日卫星图像显示基地南部正在快速建设三座大型机库，每座约80×40米",
+   "这些机库的宽比例与新疆马兰另一秘密试验基地的新机库相似，后者主要专注于无人机",
+   "两款大型隐身飞翼无人机正在飞行测试，H-20 隐身轰炸机尚未公开露面且测试地点不明",
+   "该基地2025年首次发现中国两款六代隐身战斗机 J-36 和 J-XDS 在此测试",
+   "基地自2025年5月起建设速度加快且未放缓，新增滑行道、机库、可能的燃料储存设施"
+  ],
+  "data": [
+   {
+    "metric": "南部新建机库尺寸",
+    "value": "约80米×40米",
+    "context": "三座机库，2026年建设中"
+   },
+   {
+    "metric": "跑道长度",
+    "value": "16,400英尺",
+    "context": "世界最长跑道之一"
+   },
+   {
+    "metric": "中国现役战略轰炸机 H-6 翼展",
+    "value": "约108英尺",
+    "context": "用于对比机库容纳能力"
+   },
+   {
+    "metric": "北端圆形停机坪直径",
+    "value": "400英尺",
+    "context": "2026年新建"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "不远的将来",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Raz Zimmt",
+  "theater": "中东",
+  "source_url": "https://x.com/rzimmt",
+  "source_title": "Raz Zimmt (@RZimmt) / X",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「raz zimmt」",
+  "topic": "美伊军事对抗与伊朗对霍尔木兹海峡控制权",
+  "claim": "尽管美国持续施压，伊朗不会轻易放弃对霍尔木兹海峡的控制杠杆，且仍有能力升级局势",
+  "reasoning": "Zimmt 认为美伊恢复直接军事对抗进一步证明德黑兰的战略意图。他警告华盛顿可能重蹈德黑兰覆辙——在封锁霍尔木兹海峡后过度高估暂时成果、产生过度自信并误判时间优势。虽然伊朗经济快速恶化且正在失去动能，但这并不意味战争已接近胜局，伊朗仍保有升级能力来抵消美方压力",
+  "evidence": [
+   "美伊之间恢复直接军事对抗",
+   "伊朗曾封锁霍尔木兹海峡",
+   "伊朗经济正在快速恶化",
+   "伊拉克政府推出解除亲德黑兰民兵武装的雄心计划",
+   "美国持续打击伊朗能力的努力"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://www.bbc.com/news/articles/cz0r9v3xekno",
+  "source_title": "'I don't buy it': Americans encountering possible drones demand a...",
+  "published_on": "2024-12-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国东海岸无人机目击事件性质判断",
+  "claim": "大多数被目击的所谓大型无人机实际上是小型飞机，而非神秘威胁",
+  "reasoning": "她基于夜间目视识别的困难性和公开飞行追踪数据进行判断。认为在夜间用相机或光学设备难以准确识别空中物体，需要通过探测无人机遥控信号或优化用于追踪小型慢速飞行物体的雷达才能确认。现有公开的飞行追踪数据支持这些物体是小型飞机的评估。",
+  "evidence": [
+   "联邦航空管理局登记了超过100万架无人机，每天有数千架合法飞行",
+   "联邦法律在去年发生变化，允许更多无人机在夜间飞行",
+   "美国北方司令部自2022年以来报告了600多起类似的限制空域入侵事件",
+   "公开的飞行追踪数据支持这些物体是小型飞机的评估"
+  ],
+  "data": [
+   {
+    "metric": "FBI收到的目击报告",
+    "value": "5000多条",
+    "context": "过去一个月"
+   },
+   {
+    "metric": "FBI认为值得跟进的报告",
+    "value": "约100条",
+    "context": "基于FBI分析"
+   },
+   {
+    "metric": "FAA登记的无人机数量",
+    "value": "超过100万架",
+    "context": "当前"
+   },
+   {
+    "metric": "限制空域入侵报告",
+    "value": "600多起",
+    "context": "NORTHCOM自2022年以来"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://dckurd.org/2020/04/06/fulll-text-everything-iraq-interview-with-dr-michael-knights/",
+  "source_title": "Fulll text: Everything Iraq: interview with Dr. Michael Knights",
+  "published_on": "2020-04-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael knights」",
+  "topic": "伊朗在伊拉克的影响力趋势与伊斯兰革命卫队圣城旅指挥官 Qaani 的政治效能",
+  "claim": "伊朗在伊拉克的影响力自2019年9月达到顶峰后已明显减弱，新任圣城旅指挥官 Qaani 不如 Soleimani 有效，伊朗正处于守势并试图恢复影响力",
+  "reasoning": "Dr. Knights 认为伊朗在2019年9月达到最大权力（控制总理办公室、安全部队、经济主导地位）后因傲慢和失误（杀害抗议者、过度公开干预）触发反弹。Soleimani 死后，新任 Qaani 缺乏与伊拉克派系的历史关系和个人魅力，无法独自掌控伊拉克事务组合（该职能已分散给多个伊朗机构），且本周访问巴格达时未能见到 Sadr 等关键什叶派领袖，提名的总理人选被伊拉克派系以「流程不符」为由拒绝——这表明圣城旅已失去对伊拉克政治的精准判断力，正推动本已关闭的门而非等待时机",
+  "evidence": [
+   "2019年9月伊朗影响力达到顶峰时控制伊拉克总理办公室、安全部队并主导经济",
+   "伊朗支持的民兵开始杀害伊拉克抗议者,Mohammed al-Hashemi 被安插为总理幕僚长公开显示伊朗控制",
+   "年轻抗议者无遮面用鞋底击打 Khamenei 和 Soleimani 照片",
+   "Qaani 本周访问巴格达时 Muqtada al-Sadr 拒绝会见,多位什叶派领袖未接见",
+   "Qaani 提名的两位总理候选人(Abdul-Hussein Abdul、Qasim al-Araji)被伊拉克派系以「不能中断现有进程」为由拒绝",
+   "伊朗试图任命 Abu Fadk 为 Hashd al Shaabi 副主席遭 Ataba 神殿民兵明确拒绝"
+  ],
+  "data": [
+   {
+    "metric": "总理候选人确认截止日期",
+    "value": "2020年4月16日",
+    "context": "Adnan al Zurfi 作为总理提名人的法定期限"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "当前进行时(2020年访谈时点)",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Seth G. Jones",
+  "theater": "军工与战略",
+  "source_url": "https://www.irregularwarfare.org/preserving-the-american-edge-revitalizing-the-defense-industrial-base/",
+  "source_title": "Preserving the American Edge: Revitalizing the Defense Industrial Base",
+  "published_on": "2026-02-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「seth g. jones」",
+  "topic": "美国国防工业基础重振与大国竞争优势",
+  "claim": "美国必须通过产业政策、采办改革和技术创新的协同，才能在新一轮大国竞争中保持军事优势",
+  "reasoning": "Seth G. Jones认为美国军事优势历来依赖政府与产业的紧密合作，从二战动员到冷战突破均是如此。当前中国以空前速度扩大制造产能和国防生产，而美国虽保有技术深度（尤其人工智能和先进计算等商业领域），但因监管壁垒、采办文化和冷战后整合，大量创新未充分融入国防。重建工业实力需要持续投资、明确需求信号、预算与合同灵活性，以恢复激增产能和关键储备，准备成本远低于威慑失败成本。",
+  "evidence": [
+   "从罗斯福战时动员到冷战隐身与侦察突破，美国成功反复源于驾驭商业创新和工业规模的能力",
+   "中国正以空前速度扩大制造产能和国防生产",
+   "美国商业领域（人工智能、先进计算）保有无可匹敌的技术深度，但大部分创新仅部分整合进国防",
+   "监管壁垒、采办文化和冷战后整合收窄了国防工业基础，限制军方利用美国产业全部广度的能力",
+   "美国陆军正试验更快采办周期、商业伙伴关系和模块化软件驱动设计，以缩短从概念到部署的时间线同时保留危机时扩大生产的能力"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://taskandpurpose.com/tech-tactics/russian-military-iron-man-suit-combat-exoskeleton/",
+  "source_title": "Russia is once again hyping a brand new 'Iron Man' combat exoskeleton",
+  "published_on": "2022-11-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "俄军外骨骼装甲与 Ratnik/Sotnik 项目的大规模列装前景",
+  "claim": "俄军能做出概念验证，但在全军规模推广此类高技术装甲的可能性很低",
+  "reasoning": "俄国防工业可能没有足够产能大规模制造这些高成本套装；即便是已交付30万套的 Ratnik，在部队中的装备也很不均衡，有的单位装备了，有的还在用老装备。概念展示与跨军种量产是两回事。",
+  "evidence": [
+   "Ratnik 早期型号已向俄军交付超过30万套，但即便如此，在部队中的使用「很不均衡，一些单位装备了，另一些仍在用老装备」",
+   "Sotnik 三代预计2025年替换 Ratnik，而四代仍在完善子系统，外骨骼组件仍在研发中",
+   "俄军在乌克兰大量士兵因弹药和破片致残致伤，因此可能会倾向于新型战斗服",
+   "Armocom 与 Rostec 等多家企业同时推进不同代际装甲项目（Legionnaire、Ratnik-3、Sotnik），项目繁多但实际列装进度不明"
+  ],
+  "data": [
+   {
+    "metric": "Ratnik 早期型交付量",
+    "value": "超过30万套",
+    "context": "过去十年内交付俄军"
+   },
+   {
+    "metric": "Ratnik 子系统数量",
+    "value": "59个",
+    "context": "包含防护、生命保障、传感器、通信装备等"
+   },
+   {
+    "metric": "Sotnik 三代预期替换时间",
+    "value": "2025年",
+    "context": "Rostec 在2021年表示将替换现役 Ratnik"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://inews.co.uk/news/world/ukraine-drone-aim-russia-oil-industry-3185798",
+  "source_title": "Ukraine's drone pilots take aim at Russia's oil industry",
+  "published_on": "2024-07-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「samuel bendett」",
+  "topic": "乌克兰无人机打击俄罗斯炼油设施的效果",
+  "claim": "乌克兰的无人机打击已暴露俄罗斯防空体系的弱点，俄罗斯防空能力可能落后于当前威胁水平数月之久",
+  "reasoning": "Samuel Bendett 认为乌克兰针对俄罗斯燃料设施的持续成功打击证明，乌克兰已研究透俄罗斯防空系统，能够开发战术识别薄弱覆盖区域和缺口，集中无人机攻击特定区域，并利用许多关键俄罗斯设施对此类远程无人机打击缺乏足够防御能力的事实。虽然莫斯科最近引入新的移动防御单元来防御无人机，但这反而突显出俄罗斯防空能力可能落后于当前威胁水平数月。",
+  "evidence": [
+   "乌克兰今年已对俄罗斯石油设施实施超过30次攻击，无人机现在可以打击1500公里外的目标",
+   "周一对图阿普谢炼油厂和机场的联合攻击使用了超过80架无人机",
+   "莫斯科最近引入了新的移动防御单元来防御无人机，这是在效仿乌克兰应对俄罗斯弹幕攻击的做法",
+   "乌克兰定期成功打击俄罗斯燃料设施"
+  ],
+  "data": [
+   {
+    "metric": "攻击中使用的无人机数量",
+    "value": "超过80架",
+    "context": "周一对图阿普谢炼油厂的攻击"
+   },
+   {
+    "metric": "乌克兰无人机打击范围",
+    "value": "超过1500公里",
+    "context": "泽连斯基上月表态"
+   },
+   {
+    "metric": "今年对俄石油设施的攻击次数",
+    "value": "超过30次",
+    "context": "泽连斯基上月表态"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "当前进行时",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Uzi Rubin",
+  "theater": "中东",
+  "source_url": "https://www.middleeasteye.net/news/exclusive-uae-sought-gaza-war-assessment-father-israels-iron-dome",
+  "source_title": "EXCLUSIVE: UAE sought Gaza war assessment... | Middle East Eye",
+  "published_on": "2017-08-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「uzi rubin」",
+  "topic": "以色列「铁穹」系统在2012年加沙战争中的表现",
+  "claim": "「铁穹」系统在2012年加沙战争中成功拦截了来自加沙的导弹，该系统可适用于海湾国家应对伊朗导弹威胁",
+  "reasoning": "Rubin 认为2012年加沙冲突在战略层面主要是一场「按钮战争」，暗示「铁穹」通过技术手段有效控制了局势。他在华盛顿论坛上赞扬了「铁穹」在八天战争中的成功表现，并明确指出该系统对面临伊朗导弹威胁的海湾国家具有适用性。这一判断基于「铁穹」在实战中的防御效果，以及他作为该系统「之父」和前以色列导弹防御组织负责人的专业评估。",
+  "evidence": [
+   "Rubin 访问华盛顿，赞扬「铁穹」系统在八天战争中防御加沙导弹的成功",
+   "他在演讲中称2012年冲突在战略层面主要是「按钮战争」",
+   "Rubin 在演讲结尾评论该系统对面临伊朗导弹威胁的海湾国家的适用性",
+   "他曾领导以色列政府的导弹防御组织，被称为「铁穹」系统之父"
+  ],
+  "data": [
+   {
+    "metric": "巴勒斯坦死亡人数",
+    "value": "174人",
+    "context": "联合国数据，2012年加沙战争"
+   },
+   {
+    "metric": "巴勒斯坦平民死亡人数",
+    "value": "107人（含33名儿童）",
+    "context": "联合国数据，2012年加沙战争"
+   },
+   {
+    "metric": "以色列死亡人数",
+    "value": "6人（含2名士兵）",
+    "context": "2012年加沙战争"
+   },
+   {
+    "metric": "战争持续时间",
+    "value": "8天",
+    "context": "2012年「云柱行动」"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Uzi Rubin",
+  "theater": "中东",
+  "source_url": "https://jiss.org.il/en/uzi-rubin-the-father-of-israels-missile-defense-programs/",
+  "source_title": "Uzi Rubin: The Father of Israel’s Missile Defense Programs - JISS",
+  "published_on": "2018-10-19",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 jiss.org.il",
+  "topic": "以色列与真主党冲突中的火箭威胁与多层防御体系",
+  "claim": "真主党未来战争中每天可发射1000-1500枚火箭，精确制导火箭能确定性击中以色列关键基础设施，单靠防御系统无法实现密不透风防护，必须采取攻防结合策略",
+  "reasoning": "Uzi Rubin 基于2006年第二次黎巴嫩战争的历史数据（真主党30天发射约4000枚火箭，日均数百枚）和当前真主党武器库存量及机动性提升的评估，判断其日发射能力可能达到1000-1500枚。他强调精确制导火箭已从「恐怖武器」转变为「军事武器」，在缺乏密不透风防御的情况下，几乎必然能击中电力、供水等关键基础设施。因此他主张需「攻防结合、主动被动并用」——通过空袭降低敌方日发射量，同时保护己方作战能力和民用基础设施，而非单纯依赖拦截系统。",
+  "evidence": [
+   "2006年第二次黎巴嫩战争期间，真主党在30天内向以色列发射约4000枚火箭，日均数百枚",
+   "财政部长 Moshe Kahlon 近期发布11项特别命令，将11处不同基础设施设施指定为「战略性」设施以获得专项防护资金",
+   "2017年箭式系统首次实战拦截了一枚叙利亚防空导弹残骸，但尚未在真实作战情境下拦截过其设计目标——远程精确制导火箭",
+   "国防部长 Avigdor Liberman 于8月27日宣布，以色列将首次投资数十亿谢克尔用于长期进攻性火箭项目"
+  ],
+  "data": [
+   {
+    "metric": "2006年真主党火箭发射总量",
+    "value": "约4000枚",
+    "context": "第二次黎巴嫩战争30天"
+   },
+   {
+    "metric": "2006年真主党日均火箭发射量",
+    "value": "数百枚/天",
+    "context": "第二次黎巴嫩战争期间"
+   },
+   {
+    "metric": "未来预估真主党日发射能力",
+    "value": "1000-1500枚/天",
+    "context": "Rubin 基于当前武器库存量与机动性评估"
+   },
+   {
+    "metric": "财政部指定战略设施数量",
+    "value": "11处",
+    "context": "近期 Moshe Kahlon 特别命令"
+   },
+   {
+    "metric": "箭式系统测试成功率",
+    "value": "100%",
+    "context": "Rubin 陈述，但强调未经真实作战验证"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时间，但针对「未来与真主党的战争」场景",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.rferl.org/a/putin-trump-ukraine-pokrovsk-drone-military-frontline/33331620.html",
+  "source_title": "Europe Pushes For Lasting Peace, But Can Russia's Battlefield...",
+  "published_on": "2025-03-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄乌战争战场态势与和平谈判前景",
+  "claim": "战场实际情况与政治层面关于停火、维和甚至和解的讨论之间存在脱节，具体协议乃至持久和平协议仍遥不可及",
+  "reasoning": "Janis Kluge 认为，尽管外交层面出现停火、部署维和部队甚至达成和解的讨论，但战场上俄乌双方仍在进行高伤亡的消耗战，俄罗斯虽处于相对强势地位并缓慢推进，但付出高昂代价，且领土增益有限。政治话语与战场现实之间的这种断层意味着真正的协议和持久和平仍需很长时间才能实现。",
+  "evidence": [
+   "俄罗斯和乌克兰军队仍在进行残酷的消耗战，领土增益少但伤亡高",
+   "俄罗斯军队目前控制约20%的乌克兰领土，并宣称吞并四个地区",
+   "自2024年2月占领 Avdiyivka 以来一年多时间里，俄罗斯未能大幅推进前线",
+   "2024年俄罗斯军队获得4168平方公里土地，但付出士兵和装备的惊人损失",
+   "双方都无法进行大规模作战机动，战争已变成迫使对方在装备、弹药和人员方面遭受高损失"
+  ],
+  "data": [
+   {
+    "metric": "俄军控制乌克兰领土比例",
+    "value": "约20%",
+    "context": "当前"
+   },
+   {
+    "metric": "乌军防守前线长度",
+    "value": "超过1500公里",
+    "context": "当前对抗俄军"
+   },
+   {
+    "metric": "乌军控制俄领土面积",
+    "value": "约400平方公里",
+    "context": "库尔斯克地区"
+   },
+   {
+    "metric": "俄军2024年领土增益",
+    "value": "4168平方公里",
+    "context": "2024年全年"
+   },
+   {
+    "metric": "乌军阵亡人数",
+    "value": "46000人",
+    "context": "自2022年2月全面入侵开始，泽连斯基近期演讲数据"
+   },
+   {
+    "metric": "乌军受伤人数",
+    "value": "380000人",
+    "context": "自2022年2月全面入侵开始，泽连斯基近期演讲数据"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://twitter.com/jakluge",
+  "source_title": "Janis Kluge (@jakluge) on X",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯政权内外对未来的认知与战争前景",
+  "claim": "普京当前面临的最大问题是政权内外对未来的看法，在过去几个月后，这一未来看起来更加黯淡和危险",
+  "reasoning": "Janis Kluge 基于对俄罗斯联邦预算报告的分析，长期跟踪俄军在乌兵力及薪资补贴变化，认为近期俄方内部对战争前景的预期正在恶化。他在为《纽约时报》评论时强调，政权内外对未来的悲观认知已成为普京的核心困境，这反映在预算数据、地区经济变化及战略态度的多重信号中。",
+  "evidence": [
+   "基于联邦预算报告估算出俄军在乌克兰的动员兵和合同兵数量，数据来源于俄军在乌获得的不同薪资补贴",
+   "战争资金涌入正在改变布里亚特等贫困地区，WSJ 纪录片《俄罗斯战争新兴城镇内幕》展示了这一现象",
+   "为《纽约时报》撰写评论，分析普京政权面临的核心问题"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "source_url": "https://web.archive.org/web/20220412164323/https://time.com/6155869/bellingcat-eliot-higgins-ukraine-open-source-intelligence/",
+  "source_title": "Bellingcat's Eliot Higgins on the Ukraine Information War | Time",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「eliot higgins」",
+  "topic": "俄乌冲突中的开源情报（OSINT）与信息战效果",
+  "claim": "这是「我们这边」首次在信息战中获胜，俄罗斯试图构建叙事与传播虚假信息的努力已彻底崩溃",
+  "reasoning": "Higgins 判断俄乌冲突是 OSINT 首次在信息战中压倒对手，原因在于：开源验证社区已完全整合进主流媒体、问责机构与政策制定者的信息系统，俄方每次虚假信息在一小时内就被在线社区揭穿，乌方则通过 Zelensky 的社交媒体使用、大量地面影像实时共享、志愿者网络快速地理定位，形成了可信内容的压倒性优势，使俄方无法建立任何有效叙事，反被框定为实施战争罪的侵略者",
+  "evidence": [
+   "俄罗斯在入侵前散布的「乌克兰暴行」视频证据，在数小时内被 Bellingcat、其他 OSINT 志愿者和传统媒体揭穿为造假（metadata 暴露拍摄地点）",
+   "美国情报机构战前发布的预警与开源信息在冲突展开后保持一致，志愿者独立验证增强了其可信度",
+   "从冲突第一天起就能追踪到在平民区使用集束弹药的证据（几乎肯定构成战争罪）",
+   "博主 Oryx 通过视觉证据收集的俄军车辆损失数据，比冲突双方官方说法更准确，反映俄方进展糟糕",
+   "俄军信息安全糟糕，未加密通信被流传到互联网上，卫星图像暴露其位置与行动"
+  ],
+  "data": [
+   {
+    "metric": "Bellingcat 团队规模",
+    "value": "30人，将扩至35人",
+    "context": "访谈时点（2022年3月8日）"
+   },
+   {
+    "metric": "全球 OSINT 从业者规模",
+    "value": "数百人",
+    "context": "Higgins 估计，相比几年前的数十人"
+   },
+   {
+    "metric": "基辅外俄军车队长度",
+    "value": "40公里",
+    "context": "文中提及的「死亡车队」"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "source_url": "https://meduza.io/en/feature/2015/02/25/weapon-of-mass-discovery",
+  "source_title": "Weapon of Mass Discovery How a gamer created ‘Bellingcat’ and...",
+  "published_on": "2015-02-25",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「eliot higgins」",
+  "topic": "俄乌冲突中俄军火炮跨境打击乌克兰",
+  "claim": "2014年夏季俄罗斯炮兵从俄境内对乌克兰领土实施了炮击",
+  "reasoning": "Bellingcat 团队通过开源卫星图像分析了乌克兰境内靠近俄边境的弹坑形态，使用美军炮兵手册中的标准弹坑分析技术，确定了炮击轨迹方向。在分析三个打击地点、至少200个弹坑后，计算出的平均轨迹指向俄罗斯境内的异常燃烧区域（MLRS 火力特征），从而交叉验证了射击起源地",
+  "evidence": [
+   "2014年7月至9月期间 Google Maps 卫星图像显示乌克兰-俄罗斯边境附近大量清晰的炮弹坑（分辨率0.5米）",
+   "弹坑分为低角度引信快速弹坑和高角度炮弹坑两类，形态符合特定武器类型",
+   "分析了三个打击地点共确定九条弹道轨迹，其中八条指向俄罗斯境内",
+   "燃烧草地痕迹和轮胎履带痕迹显示了火炮的确切位置和车载武器类型",
+   "平均弹道轨迹经过俄境内「具有 MLRS 火力特征的异常燃烧区域」"
+  ],
+  "data": [
+   {
+    "metric": "卫星图像分辨率",
+    "value": "0.5米",
+    "context": "Google Maps 2014年7-9月拍摄"
+   },
+   {
+    "metric": "分析的打击地点",
+    "value": "3个",
+    "context": "乌俄边境区域"
+   },
+   {
+    "metric": "确定的弹道轨迹",
+    "value": "9条",
+    "context": "三个打击地点"
+   },
+   {
+    "metric": "指向俄境内的轨迹",
+    "value": "8条（占总数89%）",
+    "context": "9条中"
+   },
+   {
+    "metric": "单个地点分析的最少弹坑数",
+    "value": "200个",
+    "context": "用于计算平均弹道"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2014年夏季（已发生）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "source_url": "https://www.unian.info/world/1231308-bellingcat-founder-eliot-higgins-jerry-skinner-the-lawyer-is-going-to-the-echr-with-the-case-against-russian-and-putin-himself-about-mh17-and-russias-involvement-in-ukraine.html",
+  "source_title": "Bellingcat founder: Lawyer files suit against Russia, Putin about...",
+  "published_on": "2016-01-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「eliot higgins」",
+  "topic": "马航MH17航班击落事件俄方责任认定",
+  "claim": "俄罗斯第53防空旅约20名指挥官层级人员应对击落MH17负责，最高命令来源可能达到相当高的军衔层级",
+  "reasoning": "Bellingcat通过一年时间调查第53防空旅成员的社交媒体，识别出车队中约100人的行动轨迹，其中20人为旅长、营长、系统指挥官等命令传递链条中的关键节点。这些人在6月24-25日作为完整单位携全套系统向乌克兰边境移动，若有系统和人员消失必然被察觉。击落行为需命令授权，命令必经各级军衔传递，起源点应在相当高层级。",
+  "evidence": [
+   "Bellingcat将可能涉案的俄罗斯军人范围缩小至20人，并在两周前向荷兰检方提交了含姓名和照片的123页报告",
+   "调查确认俄罗斯驻库尔斯克的第53防空旅是MH17悲剧的实际责任方",
+   "2014年6月24-25日追踪到第53防空旅车队约100人携多辆车辆和运输单位作为完整单位向乌克兰边境移动",
+   "代表洛克比空难受害者的律师Jerry Skinner向欧洲人权法院提起针对俄罗斯联邦和普京本人关于MH17事件的诉讼",
+   "MH17击落前几天一架乌克兰An-26军用运输机被击落"
+  ],
+  "data": [
+   {
+    "metric": "涉案核心人员数量",
+    "value": "20人",
+    "context": "Bellingcat调查结果，包括指挥官和系统负责人"
+   },
+   {
+    "metric": "车队总人数规模",
+    "value": "约100人",
+    "context": "2014年6月24-25日第53防空旅车队"
+   },
+   {
+    "metric": "调查报告页数",
+    "value": "123页",
+    "context": "提交给荷兰检方的完整报告"
+   },
+   {
+    "metric": "俄语版网站所需资金",
+    "value": "5-6万英镑",
+    "context": "主要用于文章翻译"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "source_url": "https://www.dw.com/en/bellingcat-new-evidence-against-russian-soldiers-on-mh17/a-18959585",
+  "source_title": "Bellingcat: New evidence against Russian soldiers on MH17",
+  "published_on": "2016-01-05",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「eliot higgins」",
+  "topic": "俄罗斯第53防空旅涉嫌击落MH17航班",
+  "claim": "俄罗斯第53防空旅的20名士兵参与了击落MH17航班，该旅是唯一涉案单位",
+  "reasoning": "通过社交媒体开源调查，先确认击落MH17的Buk导弹发射车曾出现在2014年6月23-25日俄罗斯公民拍摄的车队中，追溯车队来自库尔斯克的第53防空旅。再从数百上千个社交媒体账号中筛查该部队成员发布的信息，包括点名册、出勤记录、照片，确定指挥链、发射车驾驶员、雷达操作员等角色，排除不在现场者后锁定核心20人及另外70-80名知情者。",
+  "evidence": [
+   "2014年6月23-25日期间俄罗斯公民拍摄到Buk导弹发射车出现在车队中，该车队来自第53防空旅",
+   "该旅士兵在社交媒体上发布了点名册和出勤记录，覆盖2014年夏季数月",
+   "车队约100人前往乌克兰边境附近营地，Buk发射车及部分士兵某日突然消失",
+   "运输营负责在边境来回运送这些单位",
+   "Bellingcat已将相关人员名单此前移交给警方"
+  ],
+  "data": [
+   {
+    "metric": "涉案核心士兵",
+    "value": "20人",
+    "context": "第53防空旅"
+   },
+   {
+    "metric": "潜在知情士兵",
+    "value": "70-80人",
+    "context": "同一车队成员"
+   },
+   {
+    "metric": "车队总人数",
+    "value": "约100人",
+    "context": "2014年6月前往边境营地"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christoph Vogel",
+  "theater": "非洲",
+  "source_url": "https://www.dw.com/fr/rdc-goma-m23-rwanda-christoph-vogel/audio-71434660",
+  "source_title": "Interview avec Christoph Vogel sur la situation à Goma",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christoph vogel」",
+  "topic": "M23武装夺取刚果（金）北基伍省首府戈马的态势",
+  "claim": "M23能否在戈马站稳取决于国际（尤其是地区与非盟）的政治外交反应，而非交战方单方面军事实力",
+  "reasoning": "Christoph Vogel认为刚果政府、卢旺达或M23本身都无法单独决定局势走向；关键在于非盟、欧盟及安理会等外部施压力度与协调方式。他指出过去数月国际压力仍停留在修辞层面，对M23和FDLR的制裁未能改变行为；若要扭转局面需要地区和国际社会先明确立场，再通过政治经济手段（非人道援助）对各方施压，才可能促成直接谈判并改变力量对比。",
+  "evidence": [
+   "安理会1月26日紧急会议仅展示初步立场，但「地面现实已迅速改变」",
+   "欧盟外长理事会正在开会讨论应对措施，比利时已率先表态",
+   "卢安达和解谈判12月中旬暂停后M23实现对戈马完全包围",
+   "肯尼亚总统William Ruto召集周三内罗毕危机会议，但尚不确定两国元首是否参加",
+   "欧盟、美国和联合国对M23及FDLR均已实施制裁但「难以对这些行为体产生决定性影响」"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Ryan D. Martinson",
+  "theater": "印太",
+  "source_url": "https://thediplomat.com/2024/12/missing-in-the-gray-zone-chinas-maritime-militia-forces-around-taiwan/",
+  "source_title": "Missing in the Gray Zone? China’s Maritime Militia Forces Around...",
+  "published_on": "2024-12-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ryan d. martinson」",
+  "topic": "中国海上民兵在台海周边的缺位及其战略原因",
+  "claim": "中国在台海灰色地带行动中主要依赖海警而非海上民兵，这是基于战略考量而非能力不足",
+  "reasoning": "作者认为福建拥有组织完备的海上民兵力量（如连江县数百艘渔船及指挥船体系），但台海战区与南海存在根本差异：台海空间更小、距离大陆更近，中国海警即可覆盖，无需民兵作为辅助舰队；更重要的是，北京对台施压的核心目标是通过权威性威慑改变台当局政策，海警的执法权威和武力优势比民兵的模糊身份更有效。民兵虽参与演习（如2024年5月配合海警演练），但仅作支援角色而非主力。",
+  "evidence": [
+   "福州警备区在2013年建立海上民兵侦察试点单位，2017年实现对民兵的实时指挥",
+   "连江县拥有两个国家中心渔港、数百艘渔船及顺帆渔业公司等民兵前线组织，并指定大型民用船只担任海上民兵指挥船",
+   "2024年5月「联合利剑2024A」演习期间，海警动用闽连渔60388等民兵渔船配合在台湾东部海域进行「查证识别」和「警告驱离」演练",
+   "2024年5月9日金门附近海警演习中，至少三艘来自漳州龙海的渔船被征用支援演习"
+  ],
+  "data": [
+   {
+    "metric": "福州中大型渔船数量",
+    "value": "1100艘",
+    "context": "2013年"
+   },
+   {
+    "metric": "中国南海声索管辖面积",
+    "value": "300万平方公里",
+    "context": "南海对比背景"
+   },
+   {
+    "metric": "中国海警2024年5月演习舰艇数量",
+    "value": "4艘",
+    "context": "台湾东部联合利剑2024A期间"
+   },
+   {
+    "metric": "海警演习参与公务船数量",
+    "value": "6艘",
+    "context": "2024年5月9日金门附近"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://www.lrb.co.uk/the-paper/v47/n02/alex-de-waal/how-to-measure-famine",
+  "source_title": "Alex de Waal · How to Measure Famine | London Review of Books",
+  "published_on": "2025-02-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "加沙地带饥荒测量与人道主义危机评估",
+  "claim": "加沙地带已出现饥荒，尽管以色列坚持否认，国际人道主义分析系统（IPC）的数据证实了大规模饥饿的存在",
+  "reasoning": "Alex de Waal 通过分析 IPC（综合粮食安全阶段分类）系统在加沙的评估数据，结合历史上列宁格勒围城和荷兰饥饿冬天的城市饥荒模式，论证了加沙正经历二战以来最严重的城市饥荒。他指出以色列通过 COGAT 精确控制加沙粮食供应的「红线」政策，在 2023 年 10 月 7 日后转变为近乎全面封锁，导致前所未有的粮食不安全水平。他强调「饥饿」是及物动词——是人对人施加的行为，而非自然灾害，并批评美国政府压制自身饥荒预警系统的报告以配合以色列叙事",
+  "evidence": [
+   "2023年11月 IPC 评估显示加沙 17% 人口（377800人）处于第5阶段「灾难」级别，另有 40% 处于第4阶段「紧急」级别",
+   "93% 的加沙人口处于 IPC 第3阶段（危机）或更高级别，这一比例在 IPC 历史上从未在任何地方记录过",
+   "10月7日前加沙急性粮食不安全仅影响 1% 人口，几个月内恶化速度在至少过去二十年中史无前例",
+   "美国驻以色列大使 Jack Lew 声称防止了饥荒，但华盛顿自己的饥荒预警系统contradicted此说法，且该报告被他和 USAID 高级官员压制",
+   "2024年1月19日停火协议生效后每天有超过600辆卡车进入加沙，远超之前但仍远低于国际法院十个月前命令的规模"
+  ],
+  "data": [
+   {
+    "metric": "IPC第5阶段人口",
+    "value": "377800人，占总人口17%",
+    "context": "2023年11月IPC评估"
+   },
+   {
+    "metric": "IPC第4阶段人口比例",
+    "value": "40%",
+    "context": "2023年11月IPC评估"
+   },
+   {
+    "metric": "危机及以上级别人口比例",
+    "value": "93%",
+    "context": "2023年11月IPC评估加沙"
+   },
+   {
+    "metric": "战前急性粮食不安全人口",
+    "value": "1%",
+    "context": "2023年10月7日前加沙"
+   },
+   {
+    "metric": "停火后援助卡车",
+    "value": "每天超过600辆",
+    "context": "2024年1月19日停火后"
+   },
+   {
+    "metric": "哈马斯释放人质",
+    "value": "105人",
+    "context": "2023年11月短暂停火期间"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2023年10月至2024年1月已发生",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://www.onedecision.com/podcast/russia-ukraine-war-ground-truth-ft-analyst-michael-kofman-swedish-spies-iran-pause-ai-fears-cenqJP5eNF",
+  "source_title": "Russia-Ukraine War Update with Michael Kofman | Sweden's Spy...",
+  "published_on": "2026-08-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄乌战争当前态势与俄军未来威胁",
+  "claim": "乌克兰目前处于2023年中期以来最强的位置，但俄军在作战方式和能力上已发生变化，北约传统空中优势未必能应对未来俄军威胁",
+  "reasoning": "Michael Kofman 基于多次前线考察发现，俄军虽在某些方面变差，但在其他方面（特别是无人机作战）已有进步。他指出在过去两年乌克兰军队扮演假想敌的演习中，北约部队表现不佳，这表明俄军已演化出新的作战模式——包括跨数千人员的无人机营和团，能够部署数百万架无人机。传统的北约空中优势可能无法自动应对这种新型威胁，因此需要重新评估和准备。",
+  "evidence": [
+   "乌克兰目前处于自2023年中期以来最强的位置",
+   "俄军在作战方式和使用的能力上已经发生改变",
+   "过去两年中乌克兰军队作为假想敌的演习里，北约部队表现不佳",
+   "俄军已建立跨数千人员的无人机营和无人机团",
+   "俄军指挥官向普京虚报进展可能导致战争目标与手段不匹配"
+  ],
+  "data": [
+   {
+    "metric": "演习时间跨度",
+    "value": "过去2年",
+    "context": "乌军作为假想敌的北约演习"
+   },
+   {
+    "metric": "乌克兰最强时间节点",
+    "value": "2023年中期以来",
+    "context": "当前态势对比"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "战后未来（post-war threat）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://news.err.ee/650543/michael-kofman-what-actually-happened-during-zapad-2017",
+  "source_title": "Michael Kofman: What actually happened during Zapad 2017 | Feature",
+  "published_on": "2017-12-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄罗斯Zapad 2017军演的实际规模与性质评估",
+  "claim": "Zapad 2017军演规模比预期小得多，实际参演人数约4.5万人而非外界所称的10万人，且演习未包含对北约的大规模反攻",
+  "reasoning": "Michael Kofman基于对演习的逐日跟踪分析，通过对比铁路运输订单与实际使用量、核实各军区实际参演单位，并参考Ben Hodges将军和RUSI研究员Igor Sutyagin的数据，论证演习规模被大幅夸大。他指出如果减去萨哈林岛的3000人以及是否计入东部军区和海外驻军的争议部分，核心演习区域（波罗的海和北方舰队）参演人数约2.3万人，全俄总数不超过4.5万人，远低于各方预测。",
+  "evidence": [
+   "铁路车皮订购数量大幅超过实际使用量，表明2016年初始规划可能设想了更大规模演习",
+   "第1近卫坦克集团军仅部分单位参演而非全军出动，空降兵各师也只派出少量营级单位",
+   "演习未包含中央军区第二梯队大规模反攻北约的科目，第90坦克师仅单独训练",
+   "VKS前沿基地部署规模有限，战略轰炸机未按公告参与演习主体阶段"
+  ],
+  "data": [
+   {
+    "metric": "总参演人数（Ben Hodges估算）",
+    "value": "4万人以上",
+    "context": "Ben Hodges将军退役前评估"
+   },
+   {
+    "metric": "总参演人数（RUSI估算）",
+    "value": "4.8万人",
+    "context": "ANONYMIZED_PERSON_2at RUSI的精确统计"
+   },
+   {
+    "metric": "核心演习区参演人数",
+    "value": "约2.3万人",
+    "context": "波罗的海地区传统Zapad演习区域"
+   },
+   {
+    "metric": "Michael Kofman估算总人数",
+    "value": "不超过4.5万人",
+    "context": "扣除萨哈林岛3000人后的全俄总数"
+   },
+   {
+    "metric": "统一战场空间宽度",
+    "value": "600公里",
+    "context": "总参谋部建立的联合作战指挥区域"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2023/05/12/KofmanMichael-trl",
+  "source_title": "“A defeat for Russia is not a victory for Ukraine.” An interview with...",
+  "published_on": "2023-05-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄乌战争军事态势与乌军2023年反攻前景",
+  "claim": "俄乌战争已成为长期战争，乌军即将发起的反攻可能成为今年的决定性阶段，但不太可能结束战争",
+  "reasoning": "Michael Kofman认为战争当前处于过渡期，即将到来的乌军反攻将是一个转折点。他基于历史经验指出，持续这么久的战争通常很难结束——即使一方取得明确军事胜利，也难以迅速转化为政治胜利，因为往往由失败方决定战争何时结束。他强调要区分「乌克兰的军事胜利」「俄罗斯的失败」和「战争终结」三个概念，认为未来数月可能是今年战争的决定性阶段，但战争可能以跨境战争或消耗战形式持续。",
+  "evidence": [
+   "战争已持续一年多，目前处于过渡期，反攻将代表一个转折点",
+   "历史告诉我们，当战争持续如此之久时，通常很难结束",
+   "即使取得决定性战场胜利，战争也可能以跨境战争或消耗战形式继续",
+   "乌克兰为反攻准备了由多个军组成的部队，主要由西方国家训练装备的新旅构成，这些部队未参加冬季战斗",
+   "这次反攻是乌克兰与西方联合军事战略的概念验证"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未来数月可能是今年的决定性阶段",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://www.jpost.com/middle-east/article-895829",
+  "source_title": "Houthis still using Iranian components in missiles | The Jerusalem Post",
+  "published_on": "2026-05-11",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「conflict armament research」",
+  "topic": "胡塞武装的伊朗供应武器系统与组装能力",
+  "claim": "胡塞武装仍然依赖外部供应来源，特别是伊朗提供的先进导弹和无人机系统，尽管受到联合国武器禁运，其采购网络依然稳健且持续活跃",
+  "reasoning": "CAR通过对2025年6月缴获武器部件的首次公开分析发现，导弹使用伊朗命名而非胡塞命名（如「358」而非「Saqr」），标签遵循标准化模式且为伊朗术语，这证明胡塞武装在先进导弹和无人机方面的国内工业能力有限。同时，CAR记录的电子元件生产时间在最近两年内，表明供应网络能够持续获取新开发系统的部件。尽管需要在也门境内组装，但核心技术和设计仍来自外部",
+  "evidence": [
+   "CAR在2025年6月Al Sherwa缴获行动中记录了超过800个导弹和无人机部件",
+   "导弹使用伊朗命名「358」而非胡塞使用的「Saqr」",
+   "部件标签遵循标准化模式，可能构成指导胡塞武装组装先进武器的说明",
+   "发现的电子元件生产时间在最近两年内",
+   "调查人员记录了与伊朗来源导弹相关的部件，这些导弹类型此前未在胡塞武装库存中观察到",
+   "缴获物品涵盖至少12种武器系统，包括10种导弹类型（反舰、地对空、弹道导弹）"
+  ],
+  "data": [
+   {
+    "metric": "记录的导弹和无人机部件数量",
+    "value": "超过800个",
+    "context": "2025年6月Al Sherwa缴获行动"
+   },
+   {
+    "metric": "涉及武器系统数量",
+    "value": "至少12种",
+    "context": "2025年6月缴获物品分析"
+   },
+   {
+    "metric": "导弹类型数量",
+    "value": "10种",
+    "context": "2025年6月缴获物品分析"
+   },
+   {
+    "metric": "部件来源国家/地区数量",
+    "value": "至少16个",
+    "context": "品牌标记的公司总部所在地"
+   },
+   {
+    "metric": "可追溯至伊朗生产的部件比例",
+    "value": "仅5%",
+    "context": "缴获的导弹和无人机部件"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://www.thenationalnews.com/news/mena/2026/05/11/houthis-expanding-weapons-cache-with-drones-and-missiles-from-iran/",
+  "source_title": "Houthis expand arsenal with drones and missiles from Iran | The National",
+  "published_on": "2026-05-11",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「conflict armament research」",
+  "topic": "也门胡塞武装导弹与无人机军火库扩张及伊朗供应链",
+  "claim": "胡塞武装正在扩充先进导弹和无人机军火库，其武器系统高度依赖伊朗的供应网络和技术支持，尽管部件来源呈现全球化特征",
+  "reasoning": "Conflict Armament Research（CAR）通过分析红海截获的800余件武器部件与750吨军火发现，胡塞武装获得了包括反舰导弹、防空导弹及水下武器在内的至少10种新型导弹系统。所有导弹均使用伊朗命名而非胡塞术语，部件以编码「DIY组装包」形式运输，表明外部供应网络与本地技术能力的结合。尽管仅5%部件来自伊朗本土，其余来自16个国家和地区，但电子元件生产日期显示采购网络持续活跃且供应最新开发系统，证实胡塞对伊朗供应链的深度依赖",
+  "evidence": [
+   "红海截获的武器包含800余件部件和750吨军火，由也门国民抵抗力量领导的拦截行动属史上最大规模之一",
+   "缴获武器包括此前未知的反舰导弹、防空导弹及水下武器，胡塞导弹种类从2014年苏联时代装备增至2025年至少10种型号",
+   "所有导弹部件标注编码并使用伊朗命名体系而非胡塞术语，表明伊朗持续提供武器和情报支持",
+   "800件部件中仅5%来自伊朗，其余来自16个国家和地区",
+   "缴获的电子元件生产日期在过去两年内，表明采购网络稳健且持续供应新开发系统"
+  ],
+  "data": [
+   {
+    "metric": "截获武器部件数量",
+    "value": "800余件",
+    "context": "红海拦截行动"
+   },
+   {
+    "metric": "截获军火总重",
+    "value": "750吨",
+    "context": "红海拦截行动"
+   },
+   {
+    "metric": "导弹系统种类",
+    "value": "至少10种",
+    "context": "2025年缴获"
+   },
+   {
+    "metric": "伊朗供应部件占比",
+    "value": "5%",
+    "context": "800件已记录部件"
+   },
+   {
+    "metric": "其他来源国家/地区数量",
+    "value": "16个",
+    "context": "部件溯源分析"
+   },
+   {
+    "metric": "电子元件生产时间跨度",
+    "value": "过去两年内",
+    "context": "缴获部件分析"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://www.belfercenter.org/publication/indias-counterforce-temptations-strategic-dilemmas-doctrine-and-capabilities",
+  "source_title": "India’s Counterforce Temptations: Strategic Dilemmas, Doctrine, and...",
+  "published_on": "2019-01-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christopher clary」",
+  "topic": "印度针对巴基斯坦的核反击力战略与升级风险",
+  "claim": "印度正在发展超出其「可信威慑」与「不首先使用核武器」声明政策的核武库，可能在危机中对巴基斯坦核力量实施先发制人打击",
+  "reasoning": "Christopher Clary 及合作者通过分析印度前国防官员的声明与印度寻求增强核能力的行动，判断印度领导层正在探索一种「反击力」(counterforce) 战略。这种战略旨在危机爆发时先发制人摧毁巴基斯坦核武力量，而非仅维持最低限度报复威慑。其逻辑是：印度面对巴基斯坦威胁时，传统的「不首先使用」承诺与实际军事准备之间出现偏离，官方声明与武器发展项目显示出对先发打击能力的追求",
+  "evidence": [
+   "印度前国防官员发表的声明暗示可能在危机中先发制人打击巴基斯坦核力量",
+   "印度正在寻求增强核能力 (enhanced nuclear capabilities)，超出其声明的「可信威慑」政策范围",
+   "这种战略可能在印度与巴基斯坦之间产生升级循环 (cycle of escalation)，影响范围延伸至南亚以外"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Wassim Nasr",
+  "theater": "非洲",
+  "source_url": "https://ctc.westpoint.edu/journey-to-damascus-an-interview-with-wassim-nasr-journalist-france24/",
+  "source_title": "Journey to Damascus: An Interview with Wassim Nasr, Journalist...",
+  "published_on": "2025-01-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ctc.westpoint.edu",
+  "topic": "叙利亚HTS组织及其领导人Ahmed al-Sharaa的务实转型路径",
+  "claim": "HTS已走出第三条道路——比塔利班温和、抛弃全球圣战的务实伊斯兰主义，且该转型具备可持续性",
+  "reasoning": "Wassim Nasr基于2023年与2024年两次当面访谈Ahmed al-Sharaa的观察，核心论据是：1）2023年承诺的务实政策在攻占阿勒颇、大马士革后得到实际执行（未强推沙里亚法、取消宗教警察、与各教派对话）；2）领导层有意识构建超越个人的治理体系（伊德利卜救国政府模式），并配置技术官僚（如总理al-Bashir）和外交战略家（外长al-Shaibani）；3）Ahmed al-Sharaa的圣战履历赋予其推动温和化的合法性资本，而非单纯话术包装。关键变量在于其需通过持续妥协（对俄示好、对沙特示好）来换取制裁解除，这种外部压力将倒逼进一步温和化",
+  "evidence": [
+   "2023年Ahmed al-Sharaa承诺「我们的焦点是推翻阿萨德、驱逐伊朗人、对抗俄罗斯，我们在控制ISIS和基地组织」，2024年攻占大马士革后在阿勒颇允许民众演奏音乐、吸水烟，未强制执行宗教管制",
+   "HTS自2017年起未遭美军空袭，Wassim Nasr称「他与余留基地组织成员（Hurras al-Din）作战，甚至默许或促成美方对其定点清除」",
+   "2024年12月访谈中Ahmed al-Sharaa强调「叙利亚不会被用来攻击其他国家，我们不想与以色列或其他国家冲突」「我们与德鲁兹、基督徒、阿拉维派、库尔德人对话，只要库尔德人不主张分裂」",
+   "新任外长al-Shaibani此前主导HTS政治局对外接触工作，总理al-Bashir被描述为「技术官僚而非圣战者」，体现去军事化治理意图",
+   "Bab al-Salama边境口岸已从亲土耳其SNA转由HTS过渡政府控制，显示权力版图变化"
+  ],
+  "data": [
+   {
+    "metric": "Wassim Nasr会见Ahmed al-Sharaa次数",
+    "value": "2次",
+    "context": "2023年春季伊德利卜、2024年12月16日大马士革"
+   },
+   {
+    "metric": "HTS未遭美军空袭起始年份",
+    "value": "2017年",
+    "context": "Wassim Nasr陈述"
+   },
+   {
+    "metric": "制宪时间预估",
+    "value": "3年",
+    "context": "Ahmed al-Sharaa对Al Arabiya表态"
+   },
+   {
+    "metric": "选举时间预估",
+    "value": "最多4年",
+    "context": "Ahmed al-Sharaa对Al Arabiya表态"
+   },
+   {
+    "metric": "Wassim Nasr入叙日期",
+    "value": "2024年12月15日",
+    "context": "从土耳其经Bab al-Salama口岸"
+   },
+   {
+    "metric": "2024年访谈时长",
+    "value": "超过1小时",
+    "context": "大马士革政府大楼接待室"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "3-4年内（制宪选举周期）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Phil Gunson",
+  "theater": "拉美",
+  "source_url": "https://www.theguardian.com/world/2025/jan/09/venezuela-maria-corina-machado-kidnapped",
+  "source_title": "Venezuelan opposition leader María Corina Machado... | The Guardian",
+  "published_on": "2025-01-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「phil gunson」",
+  "topic": "委内瑞拉反对派领袖 María Corina Machado 被拘事件及马杜罗政权稳定性",
+  "claim": "马杜罗政权目前对局势高度自信且掌控力强，其镇压策略正在奏效",
+  "reasoning": "Phil Gunson 认为政权敢于在 Machado 公开现身后拘捕她，说明他们确信此前大规模镇压已产生威慑效果，街头控制、恐怖氛围营造、异议网络瓦解、军警内部巩固等策略都在按计划推进，从马杜罗视角看「进展顺利」，政权感到「非常安全且完全掌控」",
+  "evidence": [
+   "马杜罗政府在选举后实施了大规模安全镇压，数百人被投入监狱",
+   "政权部署了大量警察、军队和亲政府摩托车帮派（colectivos）控制街头",
+   "安全部队高层仍坚定支持马杜罗",
+   "Machado 在集会上现身后被「暴力拦截」并短暂拘押，随后被迫录制多段视频",
+   "内政部长否认拘捕指控，称「如果决定拘留她，她就会被拘留」"
+  ],
+  "data": [
+   {
+    "metric": "抗议中逮捕人数",
+    "value": "至少 17 人",
+    "context": "据 NGO Foro Penal 副主席在 X 平台发布"
+   },
+   {
+    "metric": "Machado 躲藏时长",
+    "value": "超过 133 天",
+    "context": "自 2024年7月28日选举后至此次现身"
+   },
+   {
+    "metric": "Machado 年龄",
+    "value": "57 岁",
+    "context": "当前"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://www.rferl.org/a/ukraine-war-russia-measuring-progress-analysis-massicot/31925753.html",
+  "source_title": "Interview: Why It's Difficult To Measure Progress In The Ukraine War",
+  "published_on": "2022-07-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「dara massicot」",
+  "topic": "俄乌战争东部顿巴斯地区战局进展与力量对比",
+  "claim": "俄军在地面作战中占据一定优势，但无法再发动大规模攻势，战争可能演变为冻结冲突",
+  "reasoning": "俄军在火炮数量和射程上占据显著优势，已将作战目标收缩至卢甘斯克和顿涅茨克两个重点区域，并改进了近距空中支援能力。但俄军已投入全部陆军和空军职业兵力，在人员和装备上遭受重大损失，正从各处拼凑兵力以避免全面动员，征召的「志愿者」仅接受2-3周训练且年龄偏大。短期内俄军资源有限，长期看职业部队遭到重创且征兵留用面临困难。",
+  "evidence": [
+   "乌克兰军方自己表示在火炮打击方面处于显著劣势，俄军在数量和射程上都占优",
+   "俄军已将作战目标收缩，目前聚焦于卢甘斯克和顿涅茨克两个特定区域",
+   "俄军在谢韦罗顿涅茨克战役中使用了空中力量并改进了近距空中支援",
+   "俄军征召的「志愿者」仅接受2-3周训练，部分年龄在40-50岁",
+   "俄军已将陆军和空军的全部职业兵力投入战争，遭受重大伤亡，许多士兵不愿再续签合同"
+  ],
+  "data": [
+   {
+    "metric": "志愿者训练时长",
+    "value": "2-3周",
+    "context": "俄军当前征召的志愿者"
+   },
+   {
+    "metric": "志愿者年龄",
+    "value": "40-50岁",
+    "context": "在顿巴斯作战的部分志愿者"
+   },
+   {
+    "metric": "战争持续时间",
+    "value": "5个月",
+    "context": "截至采访时点"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://www.npr.org/2022/09/30/1126281353/understanding-putins-latest-moves-as-he-annexes-even-more-of-ukraine",
+  "source_title": "Understanding Putin's latest moves as he annexes even more of... : NPR",
+  "published_on": "2022-09-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「dara massicot」",
+  "topic": "俄罗斯吞并乌克兰四地区后的军事与核风险",
+  "claim": "普京近期核威胁概率较低，但若动员失败则可能采取网络攻击、威胁北约卫星或核讹诈等升级手段",
+  "reasoning": "俄军选择动员说明其认为战场尚有常规手段可用，目标是用新征兵力稳住现有占领区；若动员成功则无需核升级。但普京已通过吞并将自己逼入政治死角，国内动员风险极高，一旦常规手段失效，为迫使战争在对俄更不利前结束，可能转向非对称手段（网络战、反卫星、核讹诈），且核使用前会有信号（调动、演习）而非突然打击。",
+  "evidence": [
+   "俄罗斯选择了动员令，说明其相信战场上仍有作战途径，否则不会冒政治风险下达动员",
+   "俄军在被吞并地区已精疲力竭且兵力枯竭，无力将乌军逐出",
+   "普京通过吞并使自己在政治上和对基辅谈判上陷入死角",
+   "俄国防部长对北约卫星星座发出含蓄威胁",
+   "即便走到核讹诈阶段，也会有大量信号（调动武器、演习、展示使用）被探测到"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "短期内（若动员失败）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Uzi Rubin",
+  "theater": "中东",
+  "source_url": "https://jcfa.org/article/new-developments-in-irans-missile-capabilities-implications-beyond-the-middle-east/",
+  "source_title": "New Developments in Iran's Missile Capabilities: Implications Beyond...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「uzi rubin」",
+  "topic": "伊朗弹道导弹能力发展对欧洲威胁评估",
+  "claim": "伊朗已具备制造可威胁欧洲的中程弹道导弹（IRBM）的技术能力，固体推进剂 Sejil 导弹标志着战略性突破，西方应立即部署导弹防御系统",
+  "reasoning": "伊朗在18个月内完成6次多级导弹重大试验，成功研制14吨固体推进剂火箭发动机，展现出系统工程和项目管理能力；Sejil 固体导弹实际射程约2500公里，已可覆盖波兰、斯洛伐克等6个欧盟国家；基于已验证的固体推进剂和分级技术，伊朗将 Sejil 升级为紧凑型、可生存的 IRBM 不存在重大技术障碍，射程3600公里即可威胁大部分欧盟；若 EastWest Institute 报告所称「6年内可将核弹头装载到导弹」属实，届时伊朗可能已拥有相应运载工具，因此西方必须现在就开始准备防御",
+  "evidence": [
+   "伊朗在两个不同试验场由两支团队在18个月内进行了6次多级导弹重大试验，配备全套仪器和飞行控制制导系统遥测",
+   "2009年5月20日伊朗成功试射固体燃料 Sejil 火箭，首次飞行距开发结束仅30个月",
+   "伊朗防长公开提及 Kadr I（射程2000公里）和 Sejil（射程超2000公里）两型导弹，2000公里是威胁欧洲的临界值",
+   "Tabriz 发射区域面积约5万平方公里，遍布山脉峡谷，可隐藏数千枚弹道导弹并具备高生存概率",
+   "伊朗将无制导的 Zalzal 火箭改造为射程200公里的制导火箭，系伊朗原创项目"
+  ],
+  "data": [
+   {
+    "metric": "Sejil 导弹实际射程",
+    "value": "约2500公里",
+    "context": "基于 MIT Ted Postol 数据计算"
+   },
+   {
+    "metric": "威胁欧盟国家数量",
+    "value": "6个国家",
+    "context": "2009年，包括波兰、斯洛伐克、罗马尼亚、匈牙利、保加利亚、希腊"
+   },
+   {
+    "metric": "固体推进剂火箭发动机重量",
+    "value": "14吨",
+    "context": "伊朗已具备制造能力"
+   },
+   {
+    "metric": "多级导弹试验次数",
+    "value": "6次",
+    "context": "18个月内完成"
+   },
+   {
+    "metric": "Tabriz 发射区面积",
+    "value": "约5万平方公里",
+    "context": "大于阿塞拜疆、以色列和约旦一半面积之和"
+   },
+   {
+    "metric": "核弹头小型化时间",
+    "value": "约6年",
+    "context": "EastWest Institute 报告估算"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "现在至6年内（至2015年左右）",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://novayagazeta.eu/en/articles/2026/06/10/russias-military-recruitment-rate-fell-to-three-year-low-in-first-quarter-of-2026-en-news",
+  "source_title": "Russia’s military recruitment rate fell to... — Novaya Gazeta Europe",
+  "published_on": "2026-06-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯军队征募放缓与人力资源压力",
+  "claim": "俄军征募人数下降并非兵力短缺，而是招募难度增加所致，前线战况波动对俄军推进无决定性影响",
+  "reasoning": "Janis Kluge通过俄罗斯财政部预算支出数据分析得出2026年Q1征募放缓的结论，他认为地方签约奖金持续攀升至历史高位、全国各地不断出现完成招募配额的压力报告，这些现象更合理地解释了征募放缓是招募困难而非人力枯竭。他强调征募波动并非新现象，历史上曾在特定时期（如Donald Trump就职后）出现激增，当前波动尚未对前线产生决定性影响。",
+  "evidence": [
+   "2026年第一季度俄联邦当局向71200名新签约士兵支付入伍奖金，为三年来同期最低",
+   "联邦预算在第一季度支出285亿卢布用于一次性入伍支付，按标准联邦奖金40万卢布计算得出71216名新兵",
+   "该数字低于2025年同期的89600人和2024年第一季度的73400人",
+   "地方签约奖金持续攀升并处于历史高位，全国各地不断出现完成招募配额的压力报告",
+   "2026年第二季度招募数据稳定在每天约1000份合同即每月约30000人"
+  ],
+  "data": [
+   {
+    "metric": "2026年Q1入伍奖金支出",
+    "value": "285亿卢布",
+    "context": "俄罗斯财政部数据/联邦预算支出"
+   },
+   {
+    "metric": "2026年Q1新签约士兵",
+    "value": "71200人",
+    "context": "基于财政数据推算"
+   },
+   {
+    "metric": "2026年Q1日均签约",
+    "value": "约800人/天",
+    "context": "1-3月期间"
+   },
+   {
+    "metric": "2025年Q1新兵",
+    "value": "89600人",
+    "context": "同期对比"
+   },
+   {
+    "metric": "2024年Q1新兵",
+    "value": "73400人",
+    "context": "同期对比"
+   },
+   {
+    "metric": "2026年Q2日均签约",
+    "value": "约1000份合同/天，约30000人/月",
+    "context": "地方数据"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://cepa.org/article/russias-year-of-truth-1-the-soldier-shortage/",
+  "source_title": "Russia’s Year of Truth: The Soldier Shortage - CEPA",
+  "published_on": "2025-01-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 cepa.org",
+  "topic": "俄罗斯军队2025年兵员短缺与战力退化",
+  "claim": "如果乌克兰继续战斗且西方继续支持，俄军2025年将无法完成击败对手军队、消除其战斗能力和意志这一核心作战任务，同时人员和装备损失将使俄军退化不可逆转",
+  "reasoning": "俄军已损失高达70万人（包括40万人阵亡或重伤无法复役），2024年招募人数实际约30万（而非官方声称的43万），无法覆盖损失。军官团伤亡严重（5400名军官确认阵亡，其中过半为初级军官），导致基层指挥能力短缺，组织效能不可避免退化。虽然俄军能推进占领更多领土，但按照俄罗斯军事理论标准——主要任务是击败敌军而非占地——2023-2024年已经失败，2025年在持续损失下这一失败将继续且退化不可逆",
+  "evidence": [
+   "截至2024年10月，俄军损失高达70万人（阵亡、受伤或失踪），其中至少40万人阵亡或重伤无法返回战场",
+   "2024年1-9月预算报告显示仅招募约23万签约士兵，全年实际招募约30万人，而非Vladimir Putin声称的43万",
+   "截至2025年1月，超过5400名俄军军官确认阵亡，其中过半为初级军官（少尉、中尉、上尉）",
+   "2024年12月俄副防长Anna Tsivileva录音显示有4.8万名俄军士兵失踪，2025年1月俄公民向乌克兰当局查询失踪俄军士兵超过5万次",
+   "俄罗斯每年有超过70万刑事案件和超过50万罪犯，克里姆林宫依靠招募囚犯和被调查人员补充兵源"
+  ],
+  "data": [
+   {
+    "metric": "俄军总损失",
+    "value": "70万人",
+    "context": "截至2024年10月，包括阵亡、受伤或失踪"
+   },
+   {
+    "metric": "阵亡或重伤无法复役",
+    "value": "40万人",
+    "context": "俄罗斯和BBC研究人员估计"
+   },
+   {
+    "metric": "2024年实际招募签约士兵",
+    "value": "约30万人",
+    "context": "基于1-9月预算报告推算全年"
+   },
+   {
+    "metric": "签约士兵一次性补贴",
+    "value": "19.5万卢布",
+    "context": "2023年预算报告"
+   },
+   {
+    "metric": "确认阵亡军官",
+    "value": "5400人",
+    "context": "截至2025年1月"
+   },
+   {
+    "metric": "失踪俄军士兵",
+    "value": "4.8万人",
+    "context": "2024年12月俄副防长录音"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2025年内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://www.defensenews.com/industry/2015/01/09/defense-industry-running-out-of-time-mergers-loom/",
+  "source_title": "Defense Industry Running out of Time; Mergers Loom",
+  "published_on": "2015-01-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美国国防工业并购活动与财务策略走向",
+  "claim": "防务承包商当前的股票回购与降本增效策略将在12-15个月内走到尽头，2015年并购活动会启动，2016财年将是国防预算的低点",
+  "reasoning": "大型防务承包商过去数年通过裁员、关闭设施、股票回购维持股东回报，但这种策略只能阶段性奏效。目前行业现金储备与杠杆空间足以支撑12-15个月，但进一步压缩会损害竞争力。2014年已有价值130亿美元的交易接近达成但在最后关头搁浅，显示行业开始意识到不能继续观望。随着2016财年触及预算低点、2017年开始回升，并购窗口即将打开",
+  "evidence": [
+   "2014年仅发生轨道科学与阿连特技术系统45亿美元合并这一大型交易，其余主要承包商只进行小规模收购或业务剥离",
+   "大型承包商持续公布创纪录季度与年度利润，与五角大楼预算灾难论形成对比",
+   "2014年约有130亿美元价值的交易接近达成但最终有人在最后关头退缩",
+   "预算控制法案规定2016财年国防预算上限为4990亿美元，2017财年将升至5120亿美元"
+  ],
+  "data": [
+   {
+    "metric": "并购交易规模",
+    "value": "130亿美元",
+    "context": "2014年接近达成但未完成"
+   },
+   {
+    "metric": "轨道科学-阿连特合并规模",
+    "value": "45亿美元",
+    "context": "2014年4月宣布"
+   },
+   {
+    "metric": "新公司员工数",
+    "value": "13000人",
+    "context": "轨道科学-阿连特合并后"
+   },
+   {
+    "metric": "2016财年预算上限",
+    "value": "4990亿美元",
+    "context": "预算控制法案规定"
+   },
+   {
+    "metric": "2017财年预算上限",
+    "value": "5120亿美元",
+    "context": "预算控制法案规定"
+   },
+   {
+    "metric": "策略有效期",
+    "value": "12-15个月",
+    "context": "从发言时点算起的剩余时间"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "12-15个月内",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Clionadh Raleigh",
+  "theater": "拉美",
+  "source_url": "https://www.mundoamerica.com/british/2026/03/12/69b2d7fce4d4d84a038b45c4.html",
+  "source_title": "Clionadh Raleigh: \"The war in Iran ceates the perfect conditions for...&quo...",
+  "published_on": "2026-03-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「clionadh raleigh」",
+  "topic": "伊朗战争的全球化扩散与政权存续前景",
+  "claim": "当前中东冲突具备演变为第三次世界大战的完美条件，美国最终会与俄罗斯和中国发生冲突",
+  "reasoning": "Raleigh认为伊朗无法通过常规军事手段获胜，但其通过攻击海湾国家基础设施、部署分散式马赛克防御体系、已攻击15个国家等行动，正在提高次要参与国的介入成本，使冲突全球化。伊朗政权的存续不取决于武器库存而取决于政治意愿和革命卫队的完整性，而美国以往依赖高技术但地面战成本高昂的作战方式，在伊朗将面临与伊拉克、阿富汗、叙利亚相同的挑战，这种多方博弈状态为大国直接冲突创造了条件",
+  "evidence": [
+   "伊朗在霍尔木兹海峡布雷，美国从韩国向波斯湾调动防空系统",
+   "伊朗已攻击15个国家，部分轰炸被认为由自主单位执行",
+   "伊朗上周日攻击了巴林的海水淡化厂",
+   "革命卫队实际掌权，新任最高领袖Mojtaba Jamenei并非最有能力的人物",
+   "伊朗采用分散式马赛克防御（DMD），将革命卫队细分为具有完全自主决策权的多个单位"
+  ],
+  "data": [
+   {
+    "metric": "伊朗攻击国家数量",
+    "value": "15个国家",
+    "context": "截至访谈时"
+   },
+   {
+    "metric": "ACLED雇员数",
+    "value": "200名",
+    "context": "成立20年后的当前规模"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://www.cfr.org/podcasts/presidents-inbox/long-war-ukraine-michael-kofman",
+  "source_title": "The Long War in Ukraine, With Michael Kofman | Council on Foreign...",
+  "published_on": "2022-07-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄乌战争态势与俄军作战持续性",
+  "claim": "俄军能够通过拼凑式动员方案（志愿兵、雇佣军、占领区征兵）在相当长时间内维持战争，但军队整体会持续退化",
+  "reasoning": "俄军虽缺乏总动员，但通过高薪招募志愿兵（约5倍平均工资）、瓦格纳从监狱招募、在占领区强制征兵18-55岁男性、从白俄罗斯获取弹药补给等多种手段，能组建足够的志愿营和补充部队。但这些措施会消耗现役军队用于训练新兵的军官和装备，导致军队长期退化。火炮弹药方面，俄军拥有数百万发库存并能从白俄罗斯仓库调取苏联遗留弹药，火力优势明显。核心问题是兵力无法轮换导致部队疲惫，以及缺少步兵难以占领和控制大片城市地形。",
+  "evidence": [
+   "俄军正以约5倍平均工资招募志愿兵，用现役部队的军官和专业士兵组建新的志愿营",
+   "瓦格纳ChVK获国家授权从俄罗斯监狱招募人员，提供丰厚条件",
+   "俄军在顿涅茨克和卢甘斯克占领区强制征召18-55岁男性，这些LDNR部队主要参与了塞维罗顿涅茨克战斗",
+   "俄军从白俄罗斯仓库调取苏联遗留的数百万发炮弹，白俄罗斯提供领土、弹药和装备支持",
+   "俄军火炮优势明显但缺乏足够轮换部队，现有部队已疲惫不堪"
+  ],
+  "data": [
+   {
+    "metric": "志愿兵招募薪酬",
+    "value": "约5倍俄罗斯平均工资",
+    "context": "当前招募标准"
+   },
+   {
+    "metric": "战线长度",
+    "value": "约1000公里",
+    "context": "从某地到第聂伯河西岸赫尔松的战线（原文有地址信息但被匿名化）"
+   },
+   {
+    "metric": "占领区征兵年龄范围",
+    "value": "18-55岁",
+    "context": "顿涅茨克和卢甘斯克占领区"
+   },
+   {
+    "metric": "战争持续时间",
+    "value": "超过4个月",
+    "context": "截至访谈时，属于州际常规战争中较长的15%"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "相当长时间（quite some time）",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Decker Eveleth",
+  "theater": "中东",
+  "source_url": "https://www.irishtimes.com/world/middle-east/2026/06/12/inside-irans-underground-missile-cities-battered-but-still-firing/",
+  "source_title": "Inside Iran’s underground ‘missile cities’ – battered but still firing",
+  "published_on": "2026-06-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「decker eveleth」",
+  "topic": "伊朗地下导弹城在美以轰炸后的存活能力",
+  "claim": "伊朗境内纵深较深的地下导弹基地更难被压制，而靠近西部边境的设施更易受无人机持续打击",
+  "reasoning": "Decker Eveleth 认为，美以要持续压制这些基地需要大量连续作战行动。靠近伊朗西部边境的设施因无人机可长时间盘旋并在发射器从隧道出现时进行打击而更脆弱，但位于国家纵深的基地则因距离和作战持续性要求而更难压制。",
+  "evidence": [
+   "靠近伊朗西部边境的设施更易受攻击，因为无人机可以在上空盘旋并在发射器从隧道出现时打击它们",
+   "位于伊朗境内纵深的基地更难被压制",
+   "美以要压制这些基地需要大量持续作战行动"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Decker Eveleth",
+  "theater": "中东",
+  "source_url": "https://www.voanews.com/a/with-latest-missile-test-north-korea-aims-to-overwhelm-us-defenses-/7675526.html",
+  "source_title": "With latest missile test, North Korea aims to overwhelm US defenses",
+  "published_on": "2024-06-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「decker eveleth」",
+  "topic": "朝鲜多弹头导弹对美国反导系统的威胁",
+  "claim": "朝鲜的多弹头重返大气层载具（MIRV）技术将大幅提高突破美国导弹防御系统的概率",
+  "reasoning": "美国本土导弹防御系统仅有44枚拦截弹（计划扩充至64枚），这一数量本身就几乎没有容错空间。一旦朝鲜掌握MIRV技术，单枚导弹可携带多枚弹头加诱饵弹头，将使拦截弹数量严重不足，防御盾牌被突破的可能性急剧上升。多年来核专家关于「导弹防御不具成本效益，朝鲜最终会在数量上压倒防御系统」的警告正在成为现实",
+  "evidence": [
+   "朝鲜中央通讯社声称周三成功进行了「单个机动弹头的分离和制导控制试验」，弹头被正确引导至三个坐标目标",
+   "试验还包括诱饵弹头，旨在获得多弹头独立重返大气层载具能力",
+   "美国本土导弹防御系统目前配备44枚针对洲际弹道导弹的拦截弹，计划扩充至64枚",
+   "俄罗斯与朝鲜本月签署相互防御条约后，普京暗示该协议可能促进武器转让"
+  ],
+  "data": [
+   {
+    "metric": "美国本土反导拦截弹数量",
+    "value": "44枚",
+    "context": "当前部署"
+   },
+   {
+    "metric": "美国本土反导拦截弹计划数量",
+    "value": "64枚",
+    "context": "扩充目标"
+   },
+   {
+    "metric": "试验中弹头引导目标数量",
+    "value": "3个",
+    "context": "朝鲜声称的周三试验"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ },
+ {
+  "kol": "Siemon T. Wezeman",
+  "theater": "军工与战略",
+  "source_url": "https://123dok.co/article/siemon-wezeman-impact-shifts-trade-exercises-south-europe.yd7mv4nl",
+  "source_title": "Siemon T. Wezeman 1 - Impact of Shifts in Arms Trade and Exercises...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「siemon t. wezeman」",
+  "topic": "中俄军贸关系演变与中国国防工业崛起",
+  "claim": "中国军事技术将在各个层面全面超越俄罗斯",
+  "reasoning": "中国在电子、复合材料、先进材料和造船等领域的工业基础均优于俄罗斯，且中国经济规模使其能够投入更多资源和人力用于研发。随着中国即将推出J-20战机、先进喷气发动机、大型运输机、直升机和远程防空导弹系统——其中许多与俄罗斯系统相当甚至更优——2015年的Su-35和S-400军售协议很可能是俄罗斯对华大规模军售的最后机会。中国已从俄罗斯的学生转变为挑战者",
+  "evidence": [
+   "2015年俄中达成约70亿美元协议，俄罗斯向中国出售24架Su-35战机和4套S-400防空导弹系统，这是自2000年代中期以来首次对华重大武器销售",
+   "中国在获得Su-27战机几年后即推出近乎复制的J-11「国产」战机，新型防空导弹酷似俄罗斯S-300平台，潜艇装备了俄制877型和636型基洛级潜艇特征",
+   "中国已转型为主要武器出口国，进入阿尔及利亚、尼日利亚、委内瑞拉、印度尼西亚甚至前苏联国家土库曼斯坦等俄罗斯活跃市场",
+   "中国即将推出J-20战机、先进喷气发动机、大型运输机、直升机和远程防空导弹系统，许多与俄罗斯系统相当或更优",
+   "中国电子、复合材料、先进材料和造船工业均比俄罗斯更先进"
+  ],
+  "data": [
+   {
+    "metric": "苏联军费",
+    "value": "3500亿美元",
+    "context": "1988年"
+   },
+   {
+    "metric": "俄罗斯军费",
+    "value": "600亿美元",
+    "context": "1992年"
+   },
+   {
+    "metric": "俄罗斯军费",
+    "value": "190亿美元",
+    "context": "1998年"
+   },
+   {
+    "metric": "中国军费",
+    "value": "210亿美元",
+    "context": "1989年"
+   },
+   {
+    "metric": "中国军费",
+    "value": "2150亿美元",
+    "context": "2015年"
+   },
+   {
+    "metric": "中国占俄武器出口比重",
+    "value": "60%",
+    "context": "2005年峰值"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-03"
+ }
+]

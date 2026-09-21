@@ -1,0 +1,1073 @@
+{
+ "week_start": "2026-08-30",
+ "week_end": "2026-09-05",
+ "prev_start": "2026-08-23",
+ "prev_end": "2026-08-29",
+ "generated_on": "2026-09-05",
+ "n_thesis_total": 153,
+ "n_statements_total": 824,
+ "n_thesis_in_week": 1,
+ "n_thesis_prev_week": 5,
+ "n_statements_in_week": 9,
+ "n_thesis_undated": 23,
+ "theaters": {
+  "俄乌": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "中东": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "印太": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "南亚": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "非洲": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "拉美": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "军工与战略": {
+   "n_statements": 1,
+   "n_kol": 1,
+   "dominant": "僵持",
+   "dir_counts": {
+    "僵持": 1
+   }
+  }
+ },
+ "stance_changes": [],
+ "window30": {
+  "cur": [
+   "2026-08-07",
+   "2026-09-05"
+  ],
+  "prev": [
+   "2026-07-08",
+   "2026-08-06"
+  ],
+  "n_cur": 13,
+  "n_prev": 5
+ },
+ "stance_changes_30d": [
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "from": "僵持",
+   "to": "降级"
+  }
+ ],
+ "trajectories": [
+  {
+   "kol": "Janis Kluge",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-23",
+     "dir": "僵持",
+     "topic": "俄罗斯军队志愿兵募集的可持续性与动员前景",
+     "url": "https://meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge"
+    },
+    {
+     "date": "2026-04-13",
+     "dir": "降级",
+     "topic": "俄罗斯合同兵招募趋势与战场伤亡关系",
+     "url": "https://www.understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-13-2026/"
+    },
+    {
+     "date": "2026-05-17",
+     "dir": "僵持",
+     "topic": "俄罗斯是否会接受乌克兰提出的停火协议",
+     "url": "https://x.com/jakluge/status/2055957017735410125"
+    },
+    {
+     "date": "2026-06-10",
+     "dir": "僵持",
+     "topic": "俄罗斯军队合同兵招募速率与前线作战能力",
+     "url": "https://novayagazeta.eu/en/articles/2026/06/10/russias-military-recruitment-rate-fell-to-three-year-low-in-first-quarter-of-2026-en-news"
+    },
+    {
+     "date": "2026-06-13",
+     "dir": "升级",
+     "topic": "俄罗斯2026年一季度军费支出与战争财政压力",
+     "url": "https://united24media.com/war-in-ukraine/russia-spent-nearly-every-second-budget-ruble-on-war-in-early-2026-analysis-finds-19791"
+    }
+   ]
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-02-03",
+     "dir": "升级",
+     "topic": "美国导弹防御项目产能扩张与预算需求",
+     "url": "https://www.defenseone.com/business/2026/02/primed-production/411145/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "僵持",
+     "topic": "美国导弹与弹药产能扩张",
+     "url": "https://www.notus.org/defense/trump-munitions-production-congress-funding"
+    },
+    {
+     "date": "2026-08-09",
+     "dir": "降级",
+     "topic": "美国导弹防御系统补充生产与库存危机",
+     "url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam"
+    },
+    {
+     "date": "2026-08-27",
+     "dir": "降级",
+     "topic": "美国关键导弹弹药库存消耗与全球威慑能力",
+     "url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/"
+    }
+   ]
+  },
+  {
+   "kol": "Michael Kofman",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-16",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年财政拐点与谈判前景",
+     "url": "https://qoshe.com/foreign-affairs/michael-kofman/ukraine-s-war-of-endurance/188012030"
+    },
+    {
+     "date": "2026-05-25",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年态势与俄军战场表现",
+     "url": "https://nymag.com/intelligencer/article/ukraine-russia-war-drones-iran.html"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "升级",
+     "topic": "俄罗斯军事力量在乌克兰战争后的重建能力与对NATO威胁",
+     "url": "https://carnegieendowment.org/events/2026/07/the-next-russia-threat-moscows-military-power-after-ukraine"
+    },
+    {
+     "date": "2026-08-06",
+     "dir": "僵持",
+     "topic": "俄乌战争态势与俄军战后威胁评估",
+     "url": "https://www.onedecision.com/podcast/russia-ukraine-war-ground-truth-ft-analyst-michael-kofman-swedish-spies-iran-pause-ai-fears-cenqJP5eNF"
+    }
+   ]
+  },
+  {
+   "kol": "Conflict Armament Research (CAR)",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-05-11",
+     "dir": "僵持",
+     "topic": "胡塞武装导弹与无人机的伊朗组件供应链",
+     "url": "https://www.jpost.com/middle-east/article-895829"
+    },
+    {
+     "date": "2026-05-11",
+     "dir": "升级",
+     "topic": "胡塞武装导弹与无人机武器供应网络",
+     "url": "https://www.thenationalnews.com/news/mena/2026/05/11/houthis-expanding-weapons-cache-with-drones-and-missiles-from-iran/"
+    },
+    {
+     "date": "2026-05-13",
+     "dir": "升级",
+     "topic": "也门胡塞武装在伊朗支持下重建武器库及红海航运威胁",
+     "url": "https://political.org/2026/05/13/houthis-rapidly-rebuilding-sophisticated-weapons-arsenal-with-iranian-support-new-report-finds/"
+    }
+   ]
+  }
+ ],
+ "n_kol_active_week": 1,
+ "rows_in_week": [
+  {
+   "kol": "Todd Harrison",
+   "theater": "军工与战略",
+   "source_url": "https://yournews.com/2026/09/03/7184407/pentagon-timelines-show-critical-u-s-missile-stocks-may-not-recover/",
+   "source_title": "Pentagon Timelines Show Critical U.S. Missile Stocks May Not ...",
+   "published_on": "2026-09-03",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「todd harrison」",
+   "topic": "美国导弹库存补充与军工产能瓶颈",
+   "claim": "美国关键导弹库存的补充可能延续至2029-2030年，形成一个持续的脆弱窗口期",
+   "reasoning": "Todd Harrison在Defense One撰文指出，弹药短缺的核心制约因素是时间而非资金。即使国会批准数十亿美元拨款，工业基础也无法立即生产导弹发动机、制导系统等关键部件。他引用五角大楼采购数据显示，PAC-3拦截弹需31个月交付周期、THAAD需34个月、战斧Block Va需40个月，若2026年12月订购，最早交付将在2029-2030年。这种产能-资金时间差创造了「脆弱窗口」，美军需在库存低位下同时应对中东、欧洲和印太承诺。",
+   "evidence": [
+    "与伊朗冲突中美国前四周发射超过850枚战斧巡航导弹，消耗超过1000枚爱国者和THAAD拦截弹，发射超过1300枚ATACMS",
+    "五角大楼采购数据显示PAC-3 MSE拦截弹当前需约31个月交付周期，THAAD需34个月，战斧Block Va需40个月",
+    "国会若延迟至2027年3月才提供资金，交付日期将再推迟至少三个月",
+    "战略与国际研究中心CSIS单独警告称恢复多种关键导弹库存需要数年时间",
+    "涉及中国冲突的兵棋推演显示美国某些远程精确武器库存可能在持续高强度作战中迅速耗尽"
+   ],
+   "data": [
+    {
+     "metric": "战斧导弹消耗",
+     "value": "超过850枚",
+     "context": "与伊朗冲突前四周"
+    },
+    {
+     "metric": "爱国者和THAAD拦截弹消耗",
+     "value": "超过1000枚",
+     "context": "与伊朗冲突期间"
+    },
+    {
+     "metric": "ATACMS导弹消耗",
+     "value": "超过1300枚",
+     "context": "作战初期阶段"
+    },
+    {
+     "metric": "PAC-3 MSE交付周期",
+     "value": "约31个月",
+     "context": "当前采购数据"
+    },
+    {
+     "metric": "THAAD拦截弹交付周期",
+     "value": "34个月",
+     "context": "估算值"
+    },
+    {
+     "metric": "战斧Block Va交付周期",
+     "value": "40个月",
+     "context": "估算值"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "2029-2030年",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "date_source": "url_path",
+   "_src_file": "thesis_all_2026-09-05.json"
+  }
+ ],
+ "rows_30d": [
+  {
+   "kol": "Stacie Pettyjohn",
+   "theater": "军工与战略",
+   "source_url": "https://time.com/article/2026/08/08/the-army-fast-tracks-weapons/",
+   "source_title": "time.com/article/2026/08/08/the-army-fast-tracks-weapons",
+   "published_on": "2026-08-08",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「stacie pettyjohn」",
+   "topic": "美国国防部武器采购管线瓶颈与新型弹药快速测试计划",
+   "claim": "国防部更关注测试新技术而非补充现有库存，美军需要更简单、足够好、可快速大量生产的弹药",
+   "reasoning": "Stacie Pettyjohn 认为美国现有武器（如对伊朗使用的导弹）性能优异但生产周期长达数年，显然需要性能「足够好」、成本可负担、可大量采购且生产速度更快的简化型导弹。她指出国防部的重点是测试新技术而非补库存，这反映了对长期产能瓶颈而非短期库存紧急补充的战略判断。",
+   "evidence": [
+    "国防部国防创新部门 7 月启动的 G-BAM 挑战赛明确指出，未来冲突需要以「当前库存单独无法支撑」的规模、成本与速度生产可负担的远程火力",
+    "美国现有武器（如对伊朗使用的导弹）性能很好，但生产这些复杂导弹需要数年时间",
+    "陆军部长 Dan Driscoll 表示目前测试产品需要 12 至 18 个月，新系统旨在将测试排期从数月缩短至 30 天内",
+    "G-BAM 挑战赛要求武器系统在 60-90 天内演示，12-18 个月内规模化生产，单价低于 25 万美元"
+   ],
+   "data": [
+    {
+     "metric": "现有测试排期周期",
+     "value": "12-18个月",
+     "context": "陆军部长 Dan Driscoll 于 2026年8月在密歇根发布会上披露"
+    },
+    {
+     "metric": "新系统承诺测试场预约响应",
+     "value": "30天内",
+     "context": "陆军部长 Dan Driscoll 宣布的新在线预约系统"
+    },
+    {
+     "metric": "THAAD 拦截弹消耗比例",
+     "value": "接近80%",
+     "context": "CNN 于 8 月 6 日报道，因美伊战争"
+    },
+    {
+     "metric": "爱国者拦截弹消耗比例",
+     "value": "约50%",
+     "context": "CNN 于 8 月 6 日报道，因美伊战争"
+    },
+    {
+     "metric": "THAAD 拦截弹单价",
+     "value": "超过1500万美元",
+     "context": "CNN 报道"
+    },
+    {
+     "metric": "爱国者拦截弹单价",
+     "value": "约400万美元",
+     "context": "CNN 报道"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Stacie Pettyjohn",
+   "theater": "军工与战略",
+   "source_url": "https://www.theportal-center.com/296",
+   "source_title": "U.S. Army Weapons Testing Accelerates as Trump Denies Munitions...",
+   "published_on": "2026-08-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「stacie pettyjohn」",
+   "topic": "美国军工采购体系改革与弹药生产能力",
+   "claim": "美国国防部需要更简单、足够好用的导弹系统，这些系统可以大批量采购并且制造速度快得多，以应对未来冲突的规模和节奏需求",
+   "reasoning": "Stacie Pettyjohn认为美国已经拥有高性能武器（包括正在对伊朗使用的系统），但问题在于生产复杂导弹需要数年时间。她强调国防部关注的重点不是简单替换现有武器，而是测试和部署新技术。她指出军方需要在保持足够作战能力的前提下，开发更简单、更便宜、可大规模快速生产的导弹系统，以满足未来冲突可能需要的「规模、成本和速度」要求，这是当前库存无法单独支撑的。",
+   "evidence": [
+    "国防创新部门的「地面经济适用大规模挑战」（G-BAM Challenge）指出，未来冲突可能需要「当前库存无法单独支撑的规模、成本和速度」的经济适用远程火力",
+    "美国已经拥有高性能武器系统，包括正在对伊朗使用的武器",
+    "生产复杂导弹可能需要数年时间",
+    "五角大楼面临的挑战不仅是目前拥有多少武器，还包括在持续军事行动期间能以多快速度制造和替换复杂系统"
+   ],
+   "data": [
+    {
+     "metric": "G-BAM项目武器单价目标",
+     "value": "低于25万美元",
+     "context": "全面生产阶段的目标成本"
+    },
+    {
+     "metric": "技术演示时限",
+     "value": "60-90天",
+     "context": "国防部对远程精确打击系统的要求"
+    },
+    {
+     "metric": "规模化生产时限",
+     "value": "12-18个月",
+     "context": "成功技术从演示到规模化生产的目标周期"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Phil Gunson",
+   "theater": "拉美",
+   "source_url": "https://www.opendemocracy.net/en/venezuela-un-3997jsp/",
+   "source_title": "Venezuela: a seat at the top table",
+   "published_on": "2026-08-29",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「phil gunson」",
+   "topic": "委内瑞拉竞选联合国安理会席位",
+   "claim": "委内瑞拉不适合担任安理会成员，若当选将在核扩散等全球安全议题上采取不负责任的立场",
+   "reasoning": "作者认为查韦斯政府将安理会席位之争包装为「反布什」立场的象征，但其实际行为显示：藐视多边人权机制（拒绝美洲人权委员会访问、无视其裁决）、强调主权高于人权（联合国人权投票记录在拉美仅次于古巴）、支持伊朗铀浓缩和朝鲜导弹试验，且查韦斯本人认为联合国「无用」。这些事实证明委内瑞拉会将安理会职责服从于反美政治表演，而非国际和平与安全。",
+   "evidence": [
+    "委内瑞拉自2002年起拒绝接受美洲人权委员会代表团访问，未执行多项委员会裁决",
+    "人权观察组织研究发现，委内瑞拉在联合国人权决议投票记录是拉美除古巴外最差的",
+    "委内瑞拉对伊朗铀浓缩问题给予「坚定支持」",
+    "副总统 José Vicente Rangel 在7月5日朝鲜导弹试验后声称「任何国家包括朝鲜都有权进行试验和开发武器」",
+    "查韦斯称联合国在现有构成下「无用」"
+   ],
+   "data": [
+    {
+     "metric": "美洲人权委员会访问请求被拒年限",
+     "value": "2002年至今",
+     "context": "美洲人权委员会多次请求"
+    },
+    {
+     "metric": "朝鲜导弹试验数量",
+     "value": "7枚",
+     "context": "2006年7月5日"
+    },
+    {
+     "metric": "安理会席位任期",
+     "value": "2年",
+     "context": "2007年1月1日起"
+    },
+    {
+     "metric": "拉美安理会轮值席位数",
+     "value": "2个",
+     "context": "联合国分配"
+    }
+   ],
+   "direction": "降级",
+   "horizon": "2007-2008安理会任期内",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Michael Knights",
+   "theater": "中东",
+   "source_url": "https://www.cfr.org/expert-roundup/interview-peter-khalil-and-michael-knights-iran-iraq-relations",
+   "source_title": "Interview with Peter Khalil and Michael Knights on Iran-Iraq Relations",
+   "published_on": "2026-08-28",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「michael knights」",
+   "topic": "伊朗对伊拉克南部什叶派民兵及地方政府的影响力渗透",
+   "claim": "伊朗在伊拉克南部的影响力正在通过长期政治渗透得到加强，但伊朗只是众多行为体之一，其直接控制南部叛乱的能力被严重高估",
+   "reasoning": "Michael Knights认为伊朗虽然在伊拉克南部有近二十年的渗透历史、对当地部落结构和心态有更深入的了解、且在战后恢复阶段准备比联军更充分，但他们仍然是外部势力，必须每天与联军和内部竞争对手争夺影响力。当地代理人是否配合伊朗取决于他们是否看到合作的好处，没有任何人作为无脑的自动机器受伊朗控制。他强调伊朗和联军一样，都在一片复杂的政治派系和教派决策的混乱海洋中游泳。",
+   "evidence": [
+    "伊朗安全部队在伊拉克南部已活动近二十年",
+    "伊朗对伊拉克南部的部落结构和心态有比联军更深入的了解",
+    "伊朗在战后恢复阶段的准备比多国联军更充分",
+    "当地代理人根据自身利益决定是否与伊朗合作，而非无条件服从",
+    "伊朗必须每天与联军和内部竞争对手争夺影响力"
+   ],
+   "data": [],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Dara Massicot",
+   "theater": "俄乌",
+   "source_url": "https://carnegieendowment.org/emissary/2026/08/russia-ukraine-war-vibe-shift-summer-offensive",
+   "source_title": "Is the Russia-Ukraine War Vibe Shift Real? | Carnegie ...",
+   "published_on": "2026-08-13",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 carnegieendowment.org",
+   "topic": "俄乌战争2026年夏季战场态势与僵局前景",
+   "claim": "未来6个月内俄乌双方都无法突破当前装甲机动僵局",
+   "reasoning": "Dara Massicot认为尽管夏季攻势达到高峰且全线激战，但双方在地面上已形成高度校准的对峙状态。无人机和第一人称视角弹药（FPV）饱和部署使「杀伤区」扩展至20-30公里，任何坦克或装甲车辆集结立即遭打击。俄军虽每天发动不同规模进攻且尝试营级机械化突击（约20-30辆坦克），但一旦集结即被定位摧毁。她明确表示在6个月视野内看不到任何能解决这一核心难题的因素。",
+   "evidence": [
+    "双方已无法使用坦克等装甲车辆进行机动，因无人机和FPV使环境过于复杂",
+    "俄军最近一次营级规模突击（约20-30辆坦克和装甲车）被击败",
+    "俄军试图以步兵渗透但持续被乌军无人机和火炮压制",
+    "杀伤区已扩展到20-25或30公里，双方无人机和FPV高度饱和",
+    "俄军一旦开始集结就会被锁定打击"
+   ],
+   "data": [
+    {
+     "metric": "杀伤区范围",
+     "value": "20-30公里",
+     "context": "当前双方无人机与FPV饱和部署条件下"
+    },
+    {
+     "metric": "俄军营级突击规模",
+     "value": "20-30辆坦克及装甲车",
+     "context": "最近一次被击败的机械化进攻"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "6个月内",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Christoph Vogel",
+   "theater": "非洲",
+   "source_url": "https://qoshe.com/e-international/christoph-vogel-discusses-his-recent-book/interview-christoph-vogel/189048626",
+   "source_title": "Interview – Christoph Vogel - Christoph Vogel ... - QOSHE",
+   "published_on": "2026-08-22",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「christoph vogel」",
+   "topic": "中非地区冲突研究的方法论与认识论转变",
+   "claim": "当前冲突研究正在从依赖西方宏大理论逐步向跨学科、协作式研究开放，但主流范式的主导地位仍然持续",
+   "reasoning": "Christoph Vogel 基于15年中非冲突研究经验指出，2000年代末冲突研究领域仍由 Collier、Rotberg、Fukuyama 等白人男性学者的宏大理论主导，这些学者几乎没有实地暴力情境的经验，而来自冲突地区的声音和异议理论缺乏空间。他通过跨学科学习（政治学、地理学、人类学）和作为人道主义工作者、联合国工作者的实地经验，认识到必须结合地面声音和本土概念来平衡主流研究范式。尽管目前正在缓慢开放，但主导范式依然存在。",
+   "evidence": [
+    "2000年代末全球冲突研究学术界仍主要依赖经典政治学、国际关系和某些经济学范式",
+    "Collier、Rotberg、Fukuyama 等作者的宏大理论对学生研究案例有不成比例的影响，但他们几乎没有长期危机和暴力情境的实证经验",
+    "来自冲突地区的声音和异议理论在教学大纲和公共话语中空间很小，这种情况持续至今",
+    "作者在刚果民主共和国和比利时根特大学之间开展协作项目 Insecure Livelihoods Series",
+    "作者曾担任联合国安理会刚果民主共和国问题专家、为世界银行和红十字国际委员会等机构工作"
+   ],
+   "data": [
+    {
+     "metric": "研究经验年限",
+     "value": "超过15年",
+     "context": "分析中非政治与冲突领域"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "source_url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+   "source_title": "How many Russian soldiers died in the war with Ukraine",
+   "published_on": "2026-08-28",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 en.zona.media",
+   "topic": "俄乌战争俄军阵亡总规模与结构变化",
+   "claim": "截至2025年12月底，俄军阵亡人数已达到需通过遗产登记超额死亡率估算的规模（已确认实名阵亡22.5万+），且志愿兵已成为伤亡主体，军官占比从战初10%降至2-3%",
+   "reasoning": "Mediazona通过公开信息确认了超过22.5万例实名阵亡（含22.8万年龄数据），并开发了基于遗产登记处超额男性死亡率的统计估算方法来弥补公开报道的局限性。伤亡结构的演变反映了兵源策略变化：2022年初空降兵和摩步损失最大，2023年3月囚犯成为最大阵亡群体（因Wagner在巴赫穆特的「突击群」战术），但2024年9月后志愿兵重新占据主导——这源于囚犯征募大幅减少、未宣布新动员、而志愿兵招募持续。军官占比下降则反映了战术演变和大规模步兵招募导致的分母效应",
+   "evidence": [
+    "截至2026年8月28日已确认7596名俄军及其他安全机构军官阵亡",
+    "2022年末至2023年初巴赫穆特战役中，囚犯被编入Wagner「突击群」，到2023年3月成为最大阵亡类别",
+    "2024年9月志愿兵再次成为阵亡最大群体，反映囚犯征募显著减少但志愿兵招募未停",
+    "2024年12月NBC防护部队中将、2025年4月总参作战总局中将、2025年12月总参作战训练局局长中将均在莫斯科遇袭身亡",
+    "2026年3月31日An-26运输机在克里米亚坠毁，北方舰队航空兵团司令中将等27名军人死亡"
+   ],
+   "data": [
+    {
+     "metric": "已确认实名阵亡",
+     "value": "225,000例",
+     "context": "截至统计时已知死亡日期的案例数"
+    },
+    {
+     "metric": "已确认年龄的阵亡",
+     "value": "228,450例",
+     "context": "报告中提及年龄的案例数"
+    },
+    {
+     "metric": "已确认军官阵亡",
+     "value": "7,596人",
+     "context": "截至2026年8月28日"
+    },
+    {
+     "metric": "战争初期军官占总伤亡比例",
+     "value": "高达10%",
+     "context": "职业合同兵为主的入侵初期"
+    },
+    {
+     "metric": "2024年11月军官占比",
+     "value": "2-3%",
+     "context": "反映志愿步兵大规模招募后的稀释效应"
+    },
+    {
+     "metric": "已确认中将及以上阵亡",
+     "value": "5名中将",
+     "context": "包括2023年7月南部军区副司令至2026年3月北方舰队航空兵团司令"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
+   "source_title": "FP Live: Tom Karako on Why America Is Running Out of Munitions",
+   "published_on": "2026-08-27",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国关键导弹弹药库存消耗与全球威慑能力",
+   "claim": "美国在伊朗冲突中消耗了大量关键弹药，严重削弱了其在印太地区的常规威慑能力和对台海冲突的应对能力",
+   "reasoning": "Tom Karako指出，美国为应对当前伊朗冲突从印太地区调走大量装备和弹药，导致该地区在进攻性和防御性导弹方面出现短缺。这直接损害了美国维持常规威慑、实施拒止战略或阻遏战略的能力——即阻止中国等侵略者在印太地区行动的能力。弹药短缺可能诱使对手采取行动，因为他们知道美国缺少远程常规打击导弹和防空系统来阻止他们。他明确表示这对美国整体威慑和防御目标是「坏消息」，且具有潜在挑衅性。",
+   "evidence": [
+    "美国今年在与伊朗的冲突中消耗了某些关键防御性和进攻性导弹库存的一半",
+    "据报道美国一直从印太地区调出大量装备和弹药用于伊朗冲突",
+    "在去年夏天为期12天的战争中，美国消耗了THAAD库存中的很大一部分",
+    "有时新闻报道中导弹突防成功，可能就是因为某些地方没有部署防御系统进行拦截",
+    "五角大楼官员在新闻发布会上表示「我们可能有足够的弹药应对这场冲突」，但仅限于当前冲突"
+   ],
+   "data": [
+    {
+     "metric": "爱国者导弹战前库存",
+     "value": "约2500枚",
+     "context": "根据预算申请的公开声明估算"
+    },
+    {
+     "metric": "爱国者导弹消耗量",
+     "value": "可能超过1200枚",
+     "context": "CSIS同事基于公开来源信息估算"
+    },
+    {
+     "metric": "爱国者导弹单价",
+     "value": "约400万美元/枚",
+     "context": "价格因采购批次而异"
+    },
+    {
+     "metric": "爱国者导弹生产周期",
+     "value": "约36个月",
+     "context": "从零开始到交付"
+    },
+    {
+     "metric": "爱国者导弹年产能",
+     "value": "从350枚增至650枚",
+     "context": "截至去年"
+    },
+    {
+     "metric": "爱国者导弹未来产能",
+     "value": "2020年代末达到至少2000枚/年",
+     "context": "预计产能提升目标"
+    }
+   ],
+   "direction": "降级",
+   "horizon": "近期至中期",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam",
+   "source_title": "Pentagon Demands Rapid Weapons Production Surge Amid Shortages",
+   "published_on": "2026-08-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国导弹防御系统补充生产与库存危机",
+   "claim": "美国导弹库存耗竭严重且补充合同尚未落实，这是当前国防采购的核心问题",
+   "reasoning": "Tom Karako 指出五角大楼与军工企业签署的大量框架协议本质上只是「同意去同意的协议」而非正式合同，几乎没有任何协议转化为实际采购合同，这导致尽管有采购意向但生产扩张无法启动，而导弹库存已因与伊朗冲突急剧下降，形成供应链断裂风险",
+   "evidence": [
+    "CSIS 分析显示全球爱国者拦截弹库存从 2200 枚降至上周不足 827 枚",
+    "THAAD 导弹库存从 452 枚降至 278 枚以下",
+    "冲突首月美军消耗超过 850 枚战斧巡航导弹、1000 枚爱国者和 THAAD 拦截弹及 1300 枚陆军战术弹道导弹",
+    "五角大楼上周向洛克希德·马丁授予潜在价值 586 亿美元的合同以在 2030 年前将 PAC-3 产能提升三倍",
+    "1.15 万亿美元国防开支法案因党派预算分歧陷入僵局"
+   ],
+   "data": [
+    {
+     "metric": "全球爱国者拦截弹库存",
+     "value": "2200 枚降至 827 枚以下",
+     "context": "截至上周 / CSIS 分析"
+    },
+    {
+     "metric": "THAAD 导弹库存",
+     "value": "452 枚降至 278 枚以下",
+     "context": "截至上周 / CSIS 分析"
+    },
+    {
+     "metric": "战斧巡航导弹消耗",
+     "value": "超过 850 枚",
+     "context": "冲突首月"
+    },
+    {
+     "metric": "爱国者与 THAAD 拦截弹消耗",
+     "value": "超过 1000 枚",
+     "context": "冲突首月"
+    },
+    {
+     "metric": "陆军战术弹道导弹消耗",
+     "value": "超过 1300 枚",
+     "context": "冲突首月"
+    },
+    {
+     "metric": "PAC-3 生产合同潜在价值",
+     "value": "586 亿美元",
+     "context": "上周授予洛克希德·马丁 / 2030 年前交付"
+    }
+   ],
+   "direction": "降级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Jack Watling",
+   "theater": "俄乌",
+   "source_url": "https://www.theguardian.com/commentisfree/2026/aug/14/patriot-missiles-ukraine-putin-kyiv-running-out-nato-danger",
+   "source_title": "Patriot missiles have been a godsend for Ukraine... | The Guardian",
+   "published_on": "2026-08-14",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「jack watling」",
+   "topic": "北约爱国者导弹产能不足与乌克兰防空危机",
+   "claim": "乌克兰今冬将无法获得足够的爱国者导弹来保护其关键基础设施，必须做好电力严重中断的准备",
+   "reasoning": "全球爱国者导弹年产能约840枚，而乌克兰理想需求量是全球产能的3-4倍。俄罗斯年产约750枚伊斯坎德尔导弹且在扩产，每次拦截需发射2-3枚爱国者导弹才能确保成功。美国打击伊朗后，伊朗向中东发射超170枚弹道导弹（曾有单枚伊朗导弹需17枚爱国者拦截的案例），导致全球爱国者导弹急性短缺。西方盟友在美国打击伊朗前就已对消耗库存向乌克兰供应感到紧张，现在即使有国家象征性释放少量库存也无济于事。",
+   "evidence": [
+    "美国及德国、日本的授权制造商年产约840枚爱国者拦截弹（240枚PAC-2和600枚PAC-3）",
+    "俄罗斯年产约750枚伊斯坎德尔导弹并计划增产，还使用空射匕首弹道导弹、改装防空导弹以及巡航导弹和无人机",
+    "2023年乌克兰获得爱国者系统后拦截率超70%，今年爱国者导弹耗尽后拦截率降至零，俄罗斯夜夜肆无忌惮打击乌克兰基础设施",
+    "美国打击伊朗后，伊朗在当前和去年的战争中单日发射超170枚弹道导弹，曾有一枚伊朗先进导弹需要17枚爱国者拦截弹才击败",
+    "北约成员国在2022年前就知晓这些数字，但未投资扩大爱国者产能或成熟替代系统（如法意SAMP-T）"
+   ],
+   "data": [
+    {
+     "metric": "爱国者导弹全球年产能",
+     "value": "约840枚",
+     "context": "美国及德国、日本授权制造商"
+    },
+    {
+     "metric": "PAC-2拦截弹年产量",
+     "value": "约240枚",
+     "context": "全球产能构成"
+    },
+    {
+     "metric": "PAC-3拦截弹年产量",
+     "value": "约600枚",
+     "context": "全球产能构成"
+    },
+    {
+     "metric": "伊斯坎德尔导弹俄罗斯年产量",
+     "value": "约750枚",
+     "context": "当前产能且在扩产"
+    },
+    {
+     "metric": "2023年乌克兰拦截率",
+     "value": "超70%",
+     "context": "获得爱国者系统后"
+    },
+    {
+     "metric": "伊朗单日弹道导弹发射量",
+     "value": "超170枚",
+     "context": "当前和去年战争期间"
+    }
+   ],
+   "direction": "降级",
+   "horizon": "今冬",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Damien Symon",
+   "theater": "南亚",
+   "source_url": "https://www.twz.com/news-features/chinas-area-51-is-undergoing-a-massive-expansion",
+   "source_title": "Massive Expansion At China’s ‘Area 51’",
+   "published_on": "2026-08-28",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「damien symon」",
+   "topic": "中国罗布泊核试验基地附近秘密空军试验场扩建与未来战略轰炸机测试",
+   "claim": "该基地正在准备接收更大翼展的战略平台（如H-20隐身轰炸机）进行测试，新建南侧机库的宽体设计表明PLA预期在不远的将来测试翼展远大于现役机型的飞机",
+   "reasoning": "Damien Symon基于卫星影像分析指出，南侧新建的三座大型机库（约80米×40米）具有宽体比例，类似于新疆另一秘密无人机测试基地马兰的机库设计。这些机库尺寸可容纳PLA所有现役战术和战略飞机，但其独特宽体设计并非针对现役装备，而是为未来测试中的特殊机型（如正在试飞的大型隐身飞翼无人机和尚未公开亮相的H-20隐身轰炸机）预留。考虑到该基地历史上专注于有人驾驶平台测试、地理位置极度隐蔽，以及H-20项目的高度敏感性，罗布泊成为其测试的理想场所，新机库很可能是为其到来做准备",
+   "evidence": [
+    "2026年8月27日Planet Labs卫星影像显示该基地规模和建设范围大幅扩张",
+    "南侧正在建设三座大型机库，每座约80米×40米（262英尺×131英尺），另有一座不同尺寸机库",
+    "这些机库宽体比例类似于新疆马兰无人机测试基地的新机库",
+    "两种大型隐身飞翼无人机正在试飞中，H-20隐身轰炸机尚未公开亮相但测试地点未明",
+    "该基地历史上更专注于有人驾驶平台而非无人机（与马兰基地不同）",
+    "北侧新建直径400英尺的圆形平台，评估为发动机运行和转场停机坪"
+   ],
+   "data": [
+    {
+     "metric": "主跑道长度",
+     "value": "16400英尺",
+     "context": "全球最长跑道之一"
+    },
+    {
+     "metric": "南侧新机库尺寸",
+     "value": "80米×40米",
+     "context": "三座机库各自尺寸"
+    },
+    {
+     "metric": "南侧新机库尺寸（英制）",
+     "value": "262英尺×131英尺",
+     "context": "三座机库各自尺寸"
+    },
+    {
+     "metric": "现役轰-6翼展",
+     "value": "约108英尺",
+     "context": "中国唯一现役战略轰炸机"
+    },
+    {
+     "metric": "北侧圆形停机坪直径",
+     "value": "400英尺",
+     "context": "北端新建结构"
+    },
+    {
+     "metric": "原始跑道长度",
+     "value": "3.1英里",
+     "context": "2020年时基地状态"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "不远的将来",
+   "confidence": "medium",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Stacie Pettyjohn",
+   "theater": "军工与战略",
+   "source_url": "https://www.npr.org/2026/08/19/nx-s1-5937516/why-does-the-u-s-military-seem-stymied-in-the-war-with-iran",
+   "source_title": "Why does the U.S. military seem stymied in the war with Iran? : NPR",
+   "published_on": "2026-08-19",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「stacie pettyjohn」",
+   "topic": "美国对伊朗战争的军事困境与前景",
+   "claim": "美国军方在对伊战争中受制于远程导弹短缺、基地撤离和伊朗的不对称优势，无法以可接受的成本实现战略目标",
+   "reasoning": "Stacie Pettyjohn认为，历史上单纯依靠空中打击很少产生持久政治成果，因为对方（伊朗政权）拥有更深的存在性利益。当前美国面临三重困境：一是远程精确武器（如JASSM、战斧）和防御性拦截弹（爱国者、萨德）库存不足且2-3年内无法补充；二是海湾大型基地因频繁遭袭已被放弃，美军被迫在分散地点作战，缺乏常规支援设施；三是伊朗掌握霍尔木兹海峡控制权并能持续报复，使得夺岛、护航或重启大规模空袭的成本过高。她指出，即使进攻性猎杀伊朗机动发射器有一定成效，但美军短程战机必须依赖易受攻击的前沿基地，而慢速巡航导弹不适合打击快速移动目标，形成战术悖论。",
+   "evidence": [
+    "美国已放弃卡塔尔、巴林、科威特、阿联酋的大型基地，因这些基地多次遭袭，目前在分散地点作战",
+    "亚伯拉罕·林肯号航母因超长部署出现食物短缺、厕所损坏、霉变淋浴等问题，正等待从东亚赶来的替换舰",
+    "沙特境内的加油机和预警机（AWACS）曾在地面被击中，这些装备短期内难以替换",
+    "美军曾获准前往英属查戈斯群岛的迪戈加西亚基地（距海湾2200英里），但该地缺乏常规补给储备，且伊朗曾向其发射导弹",
+    "伊朗关闭霍尔木兹海峡后「陶醉于其新获得的权力——它已关闭海峡并占据上风」"
+   ],
+   "data": [
+    {
+     "metric": "爱国者导弹单价",
+     "value": "约390万美元",
+     "context": "最新型号"
+    },
+    {
+     "metric": "远程武器补充时间",
+     "value": "2-3年",
+     "context": "库存不足的远程导弹和拦截弹"
+    },
+    {
+     "metric": "迪戈加西亚基地距离",
+     "value": "2200英里",
+     "context": "距波斯湾"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "_src_file": "thesis_all_2026-09-05.json"
+  },
+  {
+   "kol": "Todd Harrison",
+   "theater": "军工与战略",
+   "source_url": "https://yournews.com/2026/09/03/7184407/pentagon-timelines-show-critical-u-s-missile-stocks-may-not-recover/",
+   "source_title": "Pentagon Timelines Show Critical U.S. Missile Stocks May Not ...",
+   "published_on": "2026-09-03",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「todd harrison」",
+   "topic": "美国导弹库存补充与军工产能瓶颈",
+   "claim": "美国关键导弹库存的补充可能延续至2029-2030年，形成一个持续的脆弱窗口期",
+   "reasoning": "Todd Harrison在Defense One撰文指出，弹药短缺的核心制约因素是时间而非资金。即使国会批准数十亿美元拨款，工业基础也无法立即生产导弹发动机、制导系统等关键部件。他引用五角大楼采购数据显示，PAC-3拦截弹需31个月交付周期、THAAD需34个月、战斧Block Va需40个月，若2026年12月订购，最早交付将在2029-2030年。这种产能-资金时间差创造了「脆弱窗口」，美军需在库存低位下同时应对中东、欧洲和印太承诺。",
+   "evidence": [
+    "与伊朗冲突中美国前四周发射超过850枚战斧巡航导弹，消耗超过1000枚爱国者和THAAD拦截弹，发射超过1300枚ATACMS",
+    "五角大楼采购数据显示PAC-3 MSE拦截弹当前需约31个月交付周期，THAAD需34个月，战斧Block Va需40个月",
+    "国会若延迟至2027年3月才提供资金，交付日期将再推迟至少三个月",
+    "战略与国际研究中心CSIS单独警告称恢复多种关键导弹库存需要数年时间",
+    "涉及中国冲突的兵棋推演显示美国某些远程精确武器库存可能在持续高强度作战中迅速耗尽"
+   ],
+   "data": [
+    {
+     "metric": "战斧导弹消耗",
+     "value": "超过850枚",
+     "context": "与伊朗冲突前四周"
+    },
+    {
+     "metric": "爱国者和THAAD拦截弹消耗",
+     "value": "超过1000枚",
+     "context": "与伊朗冲突期间"
+    },
+    {
+     "metric": "ATACMS导弹消耗",
+     "value": "超过1300枚",
+     "context": "作战初期阶段"
+    },
+    {
+     "metric": "PAC-3 MSE交付周期",
+     "value": "约31个月",
+     "context": "当前采购数据"
+    },
+    {
+     "metric": "THAAD拦截弹交付周期",
+     "value": "34个月",
+     "context": "估算值"
+    },
+    {
+     "metric": "战斧Block Va交付周期",
+     "value": "40个月",
+     "context": "估算值"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "2029-2030年",
+   "confidence": "high",
+   "extracted_on": "2026-09-05",
+   "date_source": "url_path",
+   "_src_file": "thesis_all_2026-09-05.json"
+  }
+ ],
+ "stance_changes_detail": [],
+ "stance_changes_30d_detail": [
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "from": "僵持",
+   "to": "降级",
+   "cur_rows": [
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
+     "source_title": "FP Live: Tom Karako on Why America Is Running Out of Munitions",
+     "published_on": "2026-08-27",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国关键导弹弹药库存消耗与全球威慑能力",
+     "claim": "美国在伊朗冲突中消耗了大量关键弹药，严重削弱了其在印太地区的常规威慑能力和对台海冲突的应对能力",
+     "reasoning": "Tom Karako指出，美国为应对当前伊朗冲突从印太地区调走大量装备和弹药，导致该地区在进攻性和防御性导弹方面出现短缺。这直接损害了美国维持常规威慑、实施拒止战略或阻遏战略的能力——即阻止中国等侵略者在印太地区行动的能力。弹药短缺可能诱使对手采取行动，因为他们知道美国缺少远程常规打击导弹和防空系统来阻止他们。他明确表示这对美国整体威慑和防御目标是「坏消息」，且具有潜在挑衅性。",
+     "evidence": [
+      "美国今年在与伊朗的冲突中消耗了某些关键防御性和进攻性导弹库存的一半",
+      "据报道美国一直从印太地区调出大量装备和弹药用于伊朗冲突",
+      "在去年夏天为期12天的战争中，美国消耗了THAAD库存中的很大一部分",
+      "有时新闻报道中导弹突防成功，可能就是因为某些地方没有部署防御系统进行拦截",
+      "五角大楼官员在新闻发布会上表示「我们可能有足够的弹药应对这场冲突」，但仅限于当前冲突"
+     ],
+     "data": [
+      {
+       "metric": "爱国者导弹战前库存",
+       "value": "约2500枚",
+       "context": "根据预算申请的公开声明估算"
+      },
+      {
+       "metric": "爱国者导弹消耗量",
+       "value": "可能超过1200枚",
+       "context": "CSIS同事基于公开来源信息估算"
+      },
+      {
+       "metric": "爱国者导弹单价",
+       "value": "约400万美元/枚",
+       "context": "价格因采购批次而异"
+      },
+      {
+       "metric": "爱国者导弹生产周期",
+       "value": "约36个月",
+       "context": "从零开始到交付"
+      },
+      {
+       "metric": "爱国者导弹年产能",
+       "value": "从350枚增至650枚",
+       "context": "截至去年"
+      },
+      {
+       "metric": "爱国者导弹未来产能",
+       "value": "2020年代末达到至少2000枚/年",
+       "context": "预计产能提升目标"
+      }
+     ],
+     "direction": "降级",
+     "horizon": "近期至中期",
+     "confidence": "high",
+     "extracted_on": "2026-09-05",
+     "_src_file": "thesis_all_2026-09-05.json"
+    },
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam",
+     "source_title": "Pentagon Demands Rapid Weapons Production Surge Amid Shortages",
+     "published_on": "2026-08-09",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国导弹防御系统补充生产与库存危机",
+     "claim": "美国导弹库存耗竭严重且补充合同尚未落实，这是当前国防采购的核心问题",
+     "reasoning": "Tom Karako 指出五角大楼与军工企业签署的大量框架协议本质上只是「同意去同意的协议」而非正式合同，几乎没有任何协议转化为实际采购合同，这导致尽管有采购意向但生产扩张无法启动，而导弹库存已因与伊朗冲突急剧下降，形成供应链断裂风险",
+     "evidence": [
+      "CSIS 分析显示全球爱国者拦截弹库存从 2200 枚降至上周不足 827 枚",
+      "THAAD 导弹库存从 452 枚降至 278 枚以下",
+      "冲突首月美军消耗超过 850 枚战斧巡航导弹、1000 枚爱国者和 THAAD 拦截弹及 1300 枚陆军战术弹道导弹",
+      "五角大楼上周向洛克希德·马丁授予潜在价值 586 亿美元的合同以在 2030 年前将 PAC-3 产能提升三倍",
+      "1.15 万亿美元国防开支法案因党派预算分歧陷入僵局"
+     ],
+     "data": [
+      {
+       "metric": "全球爱国者拦截弹库存",
+       "value": "2200 枚降至 827 枚以下",
+       "context": "截至上周 / CSIS 分析"
+      },
+      {
+       "metric": "THAAD 导弹库存",
+       "value": "452 枚降至 278 枚以下",
+       "context": "截至上周 / CSIS 分析"
+      },
+      {
+       "metric": "战斧巡航导弹消耗",
+       "value": "超过 850 枚",
+       "context": "冲突首月"
+      },
+      {
+       "metric": "爱国者与 THAAD 拦截弹消耗",
+       "value": "超过 1000 枚",
+       "context": "冲突首月"
+      },
+      {
+       "metric": "陆军战术弹道导弹消耗",
+       "value": "超过 1300 枚",
+       "context": "冲突首月"
+      },
+      {
+       "metric": "PAC-3 生产合同潜在价值",
+       "value": "586 亿美元",
+       "context": "上周授予洛克希德·马丁 / 2030 年前交付"
+      }
+     ],
+     "direction": "降级",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-05",
+     "_src_file": "thesis_all_2026-09-05.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://www.notus.org/defense/trump-munitions-production-congress-funding",
+     "source_title": "Trump Wants to Scale Up Munitions Production, But Congress...",
+     "published_on": "2026-07-13",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国导弹与弹药产能扩张",
+     "claim": "五角大楼的弹药产能激增计划高度依赖国会通过和解法案拨款，但该法案在选举年通过前景不明朗，预计常规国防拨款在11月中期选举前进展甚微",
+     "reasoning": "Tom Karako指出，尽管今年1-2月有大量框架协议新闻稿，但截至目前只有两份合同公告（PAC-3和THAAD拦截弹），且都是未定价合同行动（UCA）。他明确表示「我们看不到更多合同、看不到合同锁定的原因是他们没有钱」。五角大楼将430亿美元强制性支出绑定在和解法案上，这种做法被拨款委员会批评为「冒险且不协调」。BNP Paribas分析师估算显示，五角大楼2027财年57%的导弹采购预算依赖和解法案，部分关键武器依赖度更高（PAC-3达90%、AMRAAM达88%）。Karako认为「他们把几乎所有东西都放进和解法案，这就是为什么这是一场赌博」",
+     "evidence": [
+      "截至目前只有两份合同公告（PAC-3和THAAD），且都是未定价合同行动（UCA），允许在政府和承包商完成最终条款和定价谈判前开始工作",
+      "众议院拨款委员会称超过434亿美元强制性资金与关键弹药工作挂钩，并批评这种方法「冒险且不协调」",
+      "五角大楼2027预算将弹药多年采购资金分为常规拨款和独立强制性支出包两部分",
+      "国会在2026财年拨款中授权了8项多年采购，但未提供五角大楼寻求的全额288亿美元"
+     ],
+     "data": [
+      {
+       "metric": "合同公告数量",
+       "value": "2份",
+       "context": "今年1-2月至今"
+      },
+      {
+       "metric": "强制性支出需求",
+       "value": "434亿美元以上",
+       "context": "与关键弹药工作挂钩"
+      },
+      {
+       "metric": "导弹采购预算依赖和解法案比例",
+       "value": "57%",
+       "context": "2027财年整体"
+      },
+      {
+       "metric": "PAC-3资金依赖和解法案比例",
+       "value": "90%",
+       "context": "BNP Paribas估算"
+      },
+      {
+       "metric": "AMRAAM资金依赖和解法案比例",
+       "value": "88%",
+       "context": "BNP Paribas估算"
+      },
+      {
+       "metric": "多年采购授权金额缺口",
+       "value": "288亿美元",
+       "context": "2026财年五角大楼寻求额"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "2025年11月中期选举前",
+     "confidence": "high",
+     "extracted_on": "2026-09-05",
+     "_src_file": "thesis_all_2026-09-05.json"
+    }
+   ]
+  }
+ ]
+}

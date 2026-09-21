@@ -1,0 +1,32 @@
+[
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://x.com/detresfa_/status/1921086480631419136?lang=en",
+  "source_title": "Damien Symon on X: \"In a response to overnight cross-border drone incursions & targeted attacks, India has struck multiple Pakistani military sites, suggesting significant damage, the LoC is also active with heavy-caliber fire on both sides - map below listing a few reported activity areas https://t",
+  "published_on": "2025-05-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台账号 x.com",
+  "topic": "印巴克什米尔实控线（LoC）跨境无人机袭击与报复性打击",
+  "claim": "印度已对多个巴基斯坦军事目标实施报复性打击并造成重大损毁，双方实控线处于重火力交战状态",
+  "reasoning": "Damien Symon 基于「隔夜跨境无人机入侵与定点攻击」这一前提事件，判断印度已采取报复行动打击巴方军事设施并造成「显著损伤」（significant damage），同时观察到实控线两侧正在进行重型火力对射，通过地图标注多个报告活动区域来支撑其对冲突升级态势的判断",
+  "evidence": [
+   "发生隔夜跨境无人机入侵与定点攻击事件",
+   "印度打击多个巴基斯坦军事地点",
+   "实控线（LoC）两侧正在进行重型火力交火",
+   "地图标注了若干报告活动区域"
+  ],
+  "data": [
+   {
+    "metric": "推文浏览量",
+    "value": "40.81万次",
+    "context": "截至2025年5月10日上午6:14"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "当前进行时（overnight至发文时点约6-12小时内）",
+  "confidence": "high",
+  "extracted_on": "2026-09-19"
+ }
+]

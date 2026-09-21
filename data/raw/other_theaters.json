@@ -1,0 +1,754 @@
+[
+  {
+    "name_en": "Christopher Clary",
+    "name_zh": "克里斯托弗·克拉里",
+    "affiliation": "University at Albany, SUNY / Stimson Center（非驻会研究员）",
+    "role": "政治学副教授、南亚核态势与印巴危机研究者",
+    "platforms": [
+      "X",
+      "学术论文",
+      "Stimson South Asian Voices"
+    ],
+    "x_handle": "@clary_co",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "印巴危机管理、南亚核威慑、美国对南亚政策；著有《The Difficult Politics of Peace》，长期研究印巴军事对峙的升级与降级机制。",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "学界与智库双重根基（Albany 教职 + Stimson 附属），著作与同行评议论文构成方法透明的证据链。2025年5月印巴冲突期间以克制、依据可核实信息的分析著称，避免了社媒上泛滥的战果吹嘘。一手性偏低（不做实地或影像采集），主要是二次分析。",
+    "controversies": "none",
+    "sources": [
+      "https://www.stimson.org/ppl/christopher-clary/",
+      "https://www.albany.edu/rockefeller/faculty/christopher-clary",
+      "https://southasianvoices.org/author/christopherclary/"
+    ]
+  },
+  {
+    "name_en": "Vipin Narang",
+    "name_zh": "维平·纳朗",
+    "affiliation": "MIT 政治学系（Frank Stanton 核安全教授）；曾任美国国防部代理助理部长（太空政策）",
+    "role": "核战略学者",
+    "platforms": [
+      "X",
+      "学术论文",
+      "期刊评论"
+    ],
+    "x_handle": "@NarangVipin",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "地区核大国的核态势理论（Nuclear Strategy in the Modern Era / Seeking the Bomb），巴基斯坦「不对称升级」态势的提出者，印巴核门槛分析权威。",
+    "score_A": 10,
+    "score_B": 5,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "MIT 讲席教授＋美国国防部政策实职经历，机构根基顶级；核态势分类框架被学界广泛采用，方法与数据来源公开可复核。一手性低（理论与文献分析为主）。危机期间发言谨慎、区分已证实与未证实信息。",
+    "controversies": "曾任拜登政府国防部官员，评论美国政策时存在立场倾向，需注意其官方经历带来的视角偏差。",
+    "sources": [
+      "https://polisci.mit.edu/people/vipin-narang",
+      "https://ssp.mit.edu/people/vipin-narang",
+      "https://en.wikipedia.org/wiki/Vipin_Narang"
+    ]
+  },
+  {
+    "name_en": "Ajai Shukla",
+    "name_zh": "阿贾伊·舒克拉",
+    "affiliation": "Broadsword（个人军事博客）；前 Business Standard 国防编辑；印度陆军退役上校",
+    "role": "国防记者、军事分析者",
+    "platforms": [
+      "个人博客 Broadsword",
+      "X",
+      "YouTube"
+    ],
+    "x_handle": "@ajaishukla",
+    "youtube": "Broadsword (Ajai Shukla)",
+    "language": "英语/印地语",
+    "theater": "南亚",
+    "specialty": "印度国防采购、装备项目（LCA、军舰、坦克）、印军作战能力评估；军旅背景使其对印度国防部内部流程有一手了解。",
+    "score_A": 6,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 6,
+    "rating_reason": "退役上校＋十余年国防口记者，一手信源（军方与国防部人脉）强，长期对印度国防采购的批评性报道多被后续事实印证。机构根基弱（无智库/大学附属），部分结论依赖匿名信源、可核验性有限。2025年5月冲突中相对克制，未随印度主流电视台传播虚假战果。",
+    "controversies": "因长期批评莫迪政府国防政策，被印度民族主义舆论指责「亲巴」；其独家消息多为匿名源，难以第三方复核。",
+    "sources": [
+      "https://www.ajaishukla.com/",
+      "https://en.wikipedia.org/wiki/Ajai_Shukla",
+      "https://www.ajaishukla.com/p/about-me.html"
+    ]
+  },
+  {
+    "name_en": "Sushant Singh",
+    "name_zh": "苏尚特·辛格",
+    "affiliation": "Yale University（南亚研究讲师）；Centre for Policy Research 前高级研究员；The Caravan 撰稿编辑；印度陆军退役上校",
+    "role": "军事事务记者与研究者",
+    "platforms": [
+      "X",
+      "The Caravan",
+      "Foreign Policy 专栏"
+    ],
+    "x_handle": "@SushantSin",
+    "youtube": "unknown",
+    "language": "英语/印地语",
+    "theater": "南亚",
+    "specialty": "印度军队与政治关系、实控线（LAC）中印对峙、印巴危机；对官方战报的独立核查见长。",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "耶鲁教职＋CPR 智库经历＋军旅与调查报道背景，兼具机构根基与一手信源。2020 年中印加勒万对峙、2025年5月印巴冲突期间对印方官方叙事的质疑多被后续披露证实，是当轮少数不传谣的印度评论者之一。",
+    "controversies": "被印度政府支持者指为「唱衰印军」，与官方叙事长期对立；部分批评者认为其立场先行。",
+    "sources": [
+      "https://macmillan.yale.edu/southasia/person/sushant-singh",
+      "https://caravanmagazine.in/author/38785",
+      "https://foreignpolicy.com/author/sushant-singh/"
+    ]
+  },
+  {
+    "name_en": "Ayesha Siddiqa",
+    "name_zh": "艾莎·西迪卡",
+    "affiliation": "SOAS University of London（南亚研究所研究员）；前巴基斯坦海军研究主管",
+    "role": "巴基斯坦军政关系研究者",
+    "platforms": [
+      "学术著作",
+      "专栏",
+      "X"
+    ],
+    "x_handle": "@iamthedrifter",
+    "youtube": "unknown",
+    "language": "英语/乌尔都语",
+    "theater": "南亚",
+    "specialty": "巴基斯坦军队的经济与政治权力结构（Military Inc.）、巴军决策逻辑、印巴关系；是理解巴方行为动机的少数独立来源。",
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "SOAS 学术根基＋曾任巴海军研究主管的内部经历，对巴军「军事经济」的实证研究（Military Inc.）为开创性一手研究。因其独立立场遭巴方压力、长期旅居英国。分析偏结构性，对具体战术事件的即时判断较少。",
+    "controversies": "《Military Inc.》在巴基斯坦遭封杀、本人受安全威胁被迫离境；巴官方指其数据不实，但未提出可核查反证。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ayesha_Siddiqa",
+      "https://www.plutobooks.com/product/military-inc",
+      "https://jacobin.com/author/ayesha-siddiqa"
+    ]
+  },
+  {
+    "name_en": "Frank O'Donnell",
+    "name_zh": "弗兰克·奥唐奈",
+    "affiliation": "Stimson Center 南亚项目（非驻会研究员）；Asia-Pacific Leadership Network",
+    "role": "南亚核与常规力量态势研究者",
+    "platforms": [
+      "Stimson 报告",
+      "South Asian Voices",
+      "学术论文"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "印度核指挥控制、南亚常规-核纠缠、海基核力量；产出以带引用的智库报告为主。",
+    "score_A": 8,
+    "score_B": 5,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "Stimson 与 APLN 双重智库根基，报告方法与数据来源标注清晰，可复核性强。缺点是一手性低、社媒存在感弱，对突发事件的实时判断贡献有限，更适合作为背景与基线数据来源。",
+    "controversies": "none",
+    "sources": [
+      "https://www.stimson.org/ppl/frank-odonnell/",
+      "https://www.apln.network/about-us/secretariat/frank-odonnell/bio",
+      "https://southasianvoices.org/author/frankodonnell/"
+    ]
+  },
+  {
+    "name_en": "Nathaniel A. Raymond",
+    "name_zh": "纳撒尼尔·A·雷蒙德",
+    "affiliation": "Yale School of Public Health, Humanitarian Research Lab（执行主任）",
+    "role": "人道主义卫星影像监测研究者",
+    "platforms": [
+      "X",
+      "Yale HRL 报告",
+      "国会作证"
+    ],
+    "x_handle": "@nattyray11",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "非洲",
+    "specialty": "用商业卫星影像判读苏丹（El Fasher、达尔富尔）、乌克兰等地的暴行与强迫迁移，是「人道主义遥感取证」方法学的开创者之一。",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "耶鲁公共卫生学院实验室执行主任，机构根基顶级；产出为带影像坐标、采集时间与判读逻辑的公开报告，方法透明度极高。其 El Fasher 影像证据被联合国用于认定 RSF 实施种族灭绝，历史命中率经外部机构验证。",
+    "controversies": "曾运营美国国务院资助的 Conflict Observatory，被批评者质疑资金来源影响选题；实验室在2025年一度因美方经费中断而运营受阻。",
+    "sources": [
+      "https://ysph.yale.edu/profile/nathaniel-raymond/",
+      "https://ysph.yale.edu/news-article/un-concludes-rsf-conducted-genocide-in-el-fasher-yale-lab-provided-key-evidence/",
+      "https://en.wikipedia.org/wiki/Nathaniel_Raymond",
+      "https://x.com/nattyray11"
+    ]
+  },
+  {
+    "name_en": "Alex de Waal",
+    "name_zh": "亚历克斯·德瓦尔",
+    "affiliation": "World Peace Foundation（执行主任）；Tufts University Fletcher School 研究教授",
+    "role": "苏丹/非洲之角冲突与饥荒研究者",
+    "platforms": [
+      "World Peace Foundation 博客",
+      "学术著作",
+      "Foreign Affairs 等专栏"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语（通阿拉伯语背景研究）",
+    "theater": "非洲",
+    "specialty": "苏丹政治市场理论、达尔富尔、饥荒作为战争手段（Mass Starvation）；四十年苏丹田野与调解一线经验。",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "塔夫茨 Fletcher 研究教授兼 WPF 执行主任，学术根基极强；长期实地与非盟调解参与提供一手洞察。「政治市场」框架对 SAF/RSF 权力交易的解释力被后续事件反复验证，对苏丹饥荒的早期预警领先主流机构。",
+    "controversies": "曾任非盟苏丹高级别小组顾问，被批评与部分苏丹政治人物过从过近、对某些行为体判断偏宽容。",
+    "sources": [
+      "https://facultyprofiles.tufts.edu/alex-dewaal",
+      "https://worldpeacefoundation.org/team-member/alex-de-waal/",
+      "https://en.wikipedia.org/wiki/Alex_de_Waal"
+    ]
+  },
+  {
+    "name_en": "Kholood Khair",
+    "name_zh": "胡卢德·哈伊尔",
+    "affiliation": "Confluence Advisory（创始主任，原驻喀土穆，现流亡）",
+    "role": "苏丹政治分析师",
+    "platforms": [
+      "X",
+      "国际媒体评论",
+      "美国国会作证"
+    ],
+    "x_handle": "@KholoodKhair",
+    "youtube": "unknown",
+    "language": "阿拉伯语/英语",
+    "theater": "非洲",
+    "specialty": "苏丹内战政治经济、SAF 与 RSF 的国际支持网络（阿联酋、埃及）、文官过渡进程；苏丹本土视角的第一线分析。",
+    "score_A": 7,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "自建智库 Confluence Advisory 主任、苏丹本地人，战前长驻喀土穆，一手网络与语言优势突出；曾在美国众议院外委会作证，专业性受官方场合认可。机构根基不如大学/国际智库，分析多为评论形式、数据链条不总公开。",
+    "controversies": "因公开批评 SAF 与 RSF 双方而受威胁被迫离开苏丹；部分亲军方阵营指其立场偏向文官力量。",
+    "sources": [
+      "https://www.congress.gov/119/meeting/house/118289/witnesses/HHRG-119-FA16-Bio-KhairK-20250522.pdf",
+      "https://dawnmena.org/experts/kholood-khair/",
+      "https://www.womenpeacesecurity.org/peacebuilder/kholood-khair/"
+    ]
+  },
+  {
+    "name_en": "Cameron Hudson",
+    "name_zh": "卡梅伦·哈德森",
+    "affiliation": "CSIS（Africa Program 高级研究员）；前美国国务院苏丹特使办公室幕僚长、CIA 分析员",
+    "role": "苏丹政策分析师",
+    "platforms": [
+      "CSIS 评论",
+      "X",
+      "国会作证"
+    ],
+    "x_handle": "@_hudsonc",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "非洲",
+    "specialty": "苏丹和平进程、美国对苏政策、RSF 与外部金主关系；前情报与外交实务经历带来的决策圈视角。",
+    "score_A": 9,
+    "score_B": 7,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "CSIS 非洲项目高级研究员＋国务院苏丹特使办公室与 CIA 履历，机构与政策圈根基强；多次在国会就苏丹作证。分析侧重政策与外交动态，非事件级数据采集，方法多为经验判断而非公开数据集。",
+    "controversies": "美国政府背景使其对华盛顿政策的评估被部分非洲学者认为存在体制内视角偏差。",
+    "sources": [
+      "https://www.csis.org/people/cameron-hudson",
+      "https://www.congress.gov/119/meeting/house/118289/witnesses/HHRG-119-FA16-Bio-HudsonC-20250522-U1.pdf"
+    ]
+  },
+  {
+    "name_en": "Wassim Nasr",
+    "name_zh": "瓦西姆·纳斯尔",
+    "affiliation": "France 24（资深记者）；The Soufan Center（高级研究员）",
+    "role": "圣战组织与萨赫勒安全记者/研究者",
+    "platforms": [
+      "X",
+      "France 24",
+      "CTC Sentinel 访谈"
+    ],
+    "x_handle": "@SimNasr",
+    "youtube": "France 24 报道",
+    "language": "法语/阿拉伯语/英语",
+    "theater": "非洲",
+    "specialty": "JNIM、ISSP 等萨赫勒圣战组织的内部结构与动态；与武装组织高层（含 JNIM 副手 Koufa）直接接触的少数记者之一。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "France 24 资深记者＋Soufan Center 研究员，双重根基；一手性极强——直接接触圣战组织高层、掌握原始宣传与内部通信，西点 CTC 多次以访谈形式引用其判断。方法为记者式信源核实，链条不总能公开验证。",
+    "controversies": "与武装组织直接沟通引发「给恐怖组织平台」的批评；部分萨赫勒政府指其报道有利于叛乱方。",
+    "sources": [
+      "https://www.france24.com/en/author/wassim-nasr/",
+      "https://ctc.westpoint.edu/developments-in-the-sahel-an-interview-with-wassim-nasr-journalist-france24-senior-research-fellow-soufan-center/",
+      "https://ctc.westpoint.edu/answers-from-the-sahel-wassim-nasr-journalist-france24-on-his-interview-with-deputy-jnim-leader-mohamed-amadou-koufa/"
+    ]
+  },
+  {
+    "name_en": "Héni Nsaibia",
+    "name_zh": "赫尼·恩塞比亚",
+    "affiliation": "ACLED（高级研究员）；MENASTREAM 创始人",
+    "role": "萨赫勒/北非武装冲突事件数据研究者",
+    "platforms": [
+      "X",
+      "ACLED 报告",
+      "MENASTREAM"
+    ],
+    "x_handle": "@MENASTREAM",
+    "youtube": "unknown",
+    "language": "法语/阿拉伯语/英语",
+    "theater": "非洲",
+    "specialty": "萨赫勒圣战组织（JNIM、ISSP）事件级数据编码、袭击模式与地理扩散、瓦格纳/非洲军团在马里的行动。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "ACLED 高级研究员，同时经营 MENASTREAM 做原始事件收集，兼具数据库机构根基与一手采集能力；产出附事件编码、地点与来源，方法透明度高，是萨赫勒袭击统计最常被引用的来源之一。",
+    "controversies": "none",
+    "sources": [
+      "https://acleddata.com/staff/heni-nsaibia",
+      "https://globalinitiative.net/profile/heni-nsaibia/",
+      "https://www.ispionline.it/en/bio/heni-nsaibia"
+    ]
+  },
+  {
+    "name_en": "Ibrahim Yahaya Ibrahim",
+    "name_zh": "易卜拉欣·亚哈亚·易卜拉欣",
+    "affiliation": "International Crisis Group（萨赫勒项目副主任/高级分析师，驻达喀尔）",
+    "role": "萨赫勒冲突分析师",
+    "platforms": [
+      "Crisis Group 报告",
+      "会议演讲",
+      "媒体评论"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "法语/豪萨语/英语",
+    "theater": "非洲",
+    "specialty": "马里、布基纳法索、尼日尔的圣战叛乱与社群冲突；与武装组织和地方社区的实地对话，尼日尔政变后的地区安全格局。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "ICG 萨赫勒项目副主任，机构根基强；本地出身、通法语与豪萨语，报告基于大量实地访谈，方法与访谈范围在 Crisis Group 报告中有明确说明。缺点是社媒产出少，不适合作日更快讯来源，更适合作深度背景与趋势判断。",
+    "controversies": "none",
+    "sources": [
+      "https://sn.linkedin.com/in/ibrahim-yahaya-ibrahim-bb539757",
+      "https://oslo3.org/speaker/ibrahim-yahaya-ibrahim/",
+      "https://www.crisisgroup.org/africa/sahel"
+    ]
+  },
+  {
+    "name_en": "Christoph Vogel",
+    "name_zh": "克里斯托夫·福格尔",
+    "affiliation": "Ghent University 冲突研究组 / University of Zurich 附属研究员；Centre on Armed Groups",
+    "role": "刚果东部武装团体研究者",
+    "platforms": [
+      "学术著作",
+      "Centre on Armed Groups 问答",
+      "X"
+    ],
+    "x_handle": "@ethuin",
+    "youtube": "unknown",
+    "language": "英语/法语/德语/斯瓦希里语",
+    "theater": "非洲",
+    "specialty": "刚果东部武装团体图谱、M23/AFC 危机、卢旺达介入；著有《Conflict Minerals, Inc.》，曾任联合国刚果专家组成员。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "根特大学与苏黎世大学双重学术根基，且有联合国刚果专家组的调查经历；长期在南北基伍田野工作、通斯瓦希里语，武装团体图谱是该领域的基准参考。对 M23 复起及卢旺达角色的早期判断被后续联合国报告证实。",
+    "controversies": "对西方「冲突矿产」治理路径的批评引发行业争论；曾与刚果/卢旺达双方官方叙事均有冲突。",
+    "sources": [
+      "https://www.armedgroupscentre.org/network/christoph-vogel",
+      "https://geo.uzh.ch/en/units/pgg/affiliated-researchers/christoph-vogel.html",
+      "https://www.armedgroupscentre.org/reports-and-articles/the-m23-crisis"
+    ]
+  },
+  {
+    "name_en": "Jason Stearns",
+    "name_zh": "贾森·斯特恩斯",
+    "affiliation": "Simon Fraser University（副教授）；Congo Research Group 创始人；Ebuteli 联合创始人",
+    "role": "刚果政治与武装冲突研究者",
+    "platforms": [
+      "学术著作",
+      "CRG/Ebuteli 报告",
+      "X",
+      "播客"
+    ],
+    "x_handle": "@jasonkstearns",
+    "youtube": "unknown",
+    "language": "英语/法语/斯瓦希里语",
+    "theater": "非洲",
+    "specialty": "刚果东部武装团体政治经济、M23 与地区代理战争、刚果选举政治；曾任联合国刚果专家组协调员。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "西蒙弗雷泽大学教职＋自建刚果研究机构（CRG/Ebuteli，含金萨沙本地团队），机构与一手兼备；前联合国专家组协调员，其对卢旺达支持 M23 的持续论证被联合国专家组报告反复印证。报告方法与信源类型公开说明。",
+    "controversies": "卢旺达政府长期指其研究有偏见；曾与部分刚果官方立场冲突。",
+    "sources": [
+      "https://www.sfu.ca/internationalstudies/people/profiles/stearns.html",
+      "https://theconversation.com/profiles/jason-stearns-1513432",
+      "https://foreignpolicy.com/author/jason-k-stearns"
+    ]
+  },
+  {
+    "name_en": "Ladd Serwat",
+    "name_zh": "拉德·瑟瓦特",
+    "affiliation": "ACLED（非洲区高级分析师）",
+    "role": "非洲武装冲突事件数据分析师",
+    "platforms": [
+      "ACLED 报告与专家评论",
+      "X"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "非洲",
+    "specialty": "尼日利亚、萨赫勒与非洲整体的冲突事件趋势统计、平民伤亡与武装团体活动模式。",
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "ACLED 非洲区分析师，产出基于该数据库逐事件编码，方法论与数据集完全公开可复核，透明度极高。个人品牌与判断性观点较弱，价值在于提供可引用的量化基线而非事件级独家判断。",
+    "controversies": "none",
+    "sources": [
+      "https://acleddata.com/staff/ladd-serwat",
+      "https://acleddata.com/expert-comment/ladd-serwat-suspected-suicide-attacks-nigeria",
+      "https://globalinitiative.net/profile/ladd-serwat/"
+    ]
+  },
+  {
+    "name_en": "Phil Gunson",
+    "name_zh": "菲尔·冈森",
+    "affiliation": "International Crisis Group（安地斯项目高级分析师，常驻加拉加斯）",
+    "role": "委内瑞拉政治与安全分析师",
+    "platforms": [
+      "Crisis Group 报告",
+      "国际媒体评论",
+      "NYT 观点版"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "西班牙语/英语",
+    "theater": "拉美",
+    "specialty": "委内瑞拉政治危机、马杜罗政权内部动态、美委对峙与军事施压的后果评估；数十年驻委记者与分析经历。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "ICG 安地斯项目高级分析师且长期常驻加拉加斯，是少数在委内瑞拉境内持续工作的国际分析师，一手性极高；ICG 报告方法（本地访谈网络）有制度化说明。对美方军事施压效果的判断在 2025 年美委对峙中被广泛引用。",
+    "controversies": "其对制裁与军事威胁效果的怀疑立场被部分反对派支持者指为「对马杜罗过于温和」。",
+    "sources": [
+      "https://www.crisisgroup.org/who-we-are/people/phil-gunson",
+      "https://www.nytimes.com/2025/11/21/opinion/venezuela-trump-maduro-machado-regime-change.html",
+      "https://ninetyone.com/en/latin-america/insights/venezuela-on-the-ground-in-caracas-with-crisis-group"
+    ]
+  },
+  {
+    "name_en": "Rocío San Miguel",
+    "name_zh": "罗西奥·圣米格尔",
+    "affiliation": "Control Ciudadano（委内瑞拉军队监督 NGO，创始人/主任）",
+    "role": "委内瑞拉军队与国防事务分析师",
+    "platforms": [
+      "Control Ciudadano 网站",
+      "媒体访谈"
+    ],
+    "x_handle": "@rociosanmiguel",
+    "youtube": "unknown",
+    "language": "西班牙语",
+    "theater": "拉美",
+    "specialty": "委内瑞拉武装力量编制、军官人事与晋升、军队政治化与国防预算；对 FANB 结构的公开数据追踪几乎独一无二。",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "自建 NGO 长期以公开档案追踪委内瑞拉军队人事与结构，一手数据在该领域无可替代，方法基于官方公报可复核。机构根基弱（非大学/国际智库）。2024 年被委政府以恐怖主义指控逮捕，本身佐证其工作触及政权敏感处。",
+    "controversies": "2024年2月遭委内瑞拉政府以「恐怖主义、叛国」指控拘押，被国际人权组织认定为任意拘留；官方指控无可信证据。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roc%C3%ADo_San_Miguel",
+      "https://www.controlciudadano.org/analisis",
+      "https://ifit-transitions.org/experts/rocio-san-miguel/"
+    ]
+  },
+  {
+    "name_en": "Jeremy McDermott",
+    "name_zh": "杰里米·麦克德莫特",
+    "affiliation": "InSight Crime（联合创始人兼联合主任）",
+    "role": "拉美有组织犯罪与武装团体调查记者",
+    "platforms": [
+      "InSight Crime 调查报告",
+      "X",
+      "媒体评论"
+    ],
+    "x_handle": "@JeremyMcDermot",
+    "youtube": "unknown",
+    "language": "英语/西班牙语",
+    "theater": "拉美",
+    "specialty": "哥伦比亚游击队与贩毒集团、委内瑞拉「太阳集团」与 Tren de Aragua、跨国犯罪网络的实地调查。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "InSight Crime 联合创始人，机构以拉美一线田野调查与文件取证著称；本人二十余年拉美冲突报道经验。其对 Tren de Aragua 规模与结构的实证评估，在 2025 年美国将其定性为国家支持组织的争论中提供了关键反证。",
+    "controversies": "InSight Crime 部分资金来自西方政府与基金会，被批评者质疑议题设置；对 Tren de Aragua 与马杜罗政权关联的谨慎结论与美方官方说法冲突。",
+    "sources": [
+      "https://insightcrime.org/the-organization/the-team/",
+      "https://insightcrime.org/author/jerry/",
+      "https://globalinitiative.net/profile/jeremy-mcdermott/"
+    ]
+  },
+  {
+    "name_en": "Ryan C. Berg",
+    "name_zh": "瑞安·C·伯格",
+    "affiliation": "CSIS（美洲项目主任、Future of Venezuela Initiative 负责人）",
+    "role": "西半球安全政策分析师",
+    "platforms": [
+      "CSIS 报告与播客",
+      "X",
+      "国会作证"
+    ],
+    "x_handle": "@RyanBergPhD",
+    "youtube": "CSIS 频道",
+    "language": "英语/西班牙语/葡萄牙语",
+    "theater": "拉美",
+    "specialty": "委内瑞拉政权过渡、美国对拉美安全政策、跨国犯罪组织与中俄在西半球的影响力。",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "CSIS 美洲项目主任，机构根基强、产出量大且面向政策圈；主持委内瑞拉专项倡议，是华盛顿对委政策辩论的核心声音之一。一手性有限（以政策分析为主），立场偏向对马杜罗强硬，对军事选项的评估需与 ICG 等对照阅读。",
+    "controversies": "对委内瑞拉施压/军事选项的偏鹰派立场被批评为低估外溢风险，与 Crisis Group 等实地机构结论分歧明显。",
+    "sources": [
+      "https://www.csis.org/people/ryan-c-berg",
+      "https://www.csis.org/programs/americas-program/future-venezuela-initiative",
+      "https://www.thecipherbrief.com/experts/ryan-c-berg"
+    ]
+  },
+  {
+    "name_en": "Andrei Serbin Pont",
+    "name_zh": "安德烈·塞尔宾·蓬特",
+    "affiliation": "CRIES（区域经济与社会研究协调机构，主席）；FIU Gordon Institute 非驻会学者",
+    "role": "拉美安全与国防分析师",
+    "platforms": [
+      "X",
+      "Just Security 等专栏",
+      "智库报告"
+    ],
+    "x_handle": "@ASerbinPont",
+    "youtube": "unknown",
+    "language": "西班牙语/英语",
+    "theater": "拉美",
+    "specialty": "拉美国防与军力平衡、委内瑞拉军事能力、区域武器采购与外部大国（俄、中、伊）影响。",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 7,
+    "score_D": 7,
+    "rating_reason": "CRIES 主席＋FIU 附属学者，拉美本土智库根基扎实；对委内瑞拉军力与装备状况的技术性评估在美委对峙期间是少数基于装备清单与可核实来源的分析。产出较分散在社媒与专栏，方法说明不总系统化。",
+    "controversies": "none",
+    "sources": [
+      "https://thedialogue.org/expert/andrei-serbin-pont",
+      "https://gordoninstitute.fiu.edu/our-impact/people/non-resident-scholars/profiles/andrei-serbin-pont.html",
+      "https://www.justsecurity.org/author/pontandreiserbin/"
+    ]
+  },
+  {
+    "name_en": "Clionadh Raleigh",
+    "name_zh": "克利奥娜·罗利",
+    "affiliation": "ACLED（创始人、总裁/CEO）；University of Sussex 政治地理学教授",
+    "role": "冲突事件数据库创始人与研究者",
+    "platforms": [
+      "ACLED 报告与 Raleigh Report 通讯",
+      "学术论文"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "拉美",
+    "specialty": "全球武装冲突事件数据库（ACLED）的方法论设计与全球暴力趋势分析；政治暴力的地理与政治经济学。",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "ACLED 创始人兼萨塞克斯大学教授，是全球最广泛使用的冲突事件数据库的方法论奠基者；ACLED 编码手册、来源清单与数据全部公开，方法透明度是行业最高标准。一手性体现在数据库自身的事件采集体系。",
+    "controversies": "ACLED 的媒体来源依赖与事件计数方法长期受学界方法论批评（报道偏差、编码一致性），罗利本人也曾就与其他数据库（如 UCDP）的口径差异公开辩论。",
+    "sources": [
+      "https://acleddata.com/board/clionadh-raleigh",
+      "https://profiles.sussex.ac.uk/p320441-clionadh-raleigh",
+      "https://en.wikipedia.org/wiki/Armed_Conflict_Location_and_Event_Data"
+    ]
+  },
+  {
+    "name_en": "Therése Pettersson",
+    "name_zh": "泰蕾丝·佩特松",
+    "affiliation": "Uppsala University 和平与冲突研究系，UCDP（项目负责人/高级分析师）",
+    "role": "冲突数据库项目负责人",
+    "platforms": [
+      "UCDP 数据集与年度报告",
+      "Journal of Peace Research 论文"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/瑞典语",
+    "theater": "拉美",
+    "specialty": "UCDP 全球有组织暴力年度统计（Organized violence 系列）、国家间与非国家冲突的分类与死亡人数估计。",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "UCDP 项目负责人，主导全球最权威、时间序列最长的冲突死亡数据集之一；年度统计以同行评议论文形式发表（JPR），定义、编码规则与不确定区间全部公开，透明度顶级。属基础设施型来源而非事件级评论者。",
+    "controversies": "UCDP 的「战斗死亡」严格定义常导致其数字显著低于其他机构（如苏丹、加沙的超额死亡估计），引发口径争议。",
+    "sources": [
+      "https://www.uu.se/en/department/peace-and-conflict-research/research/ucdp/about-ucdp/ucdp-team",
+      "https://ucdp.uu.se/",
+      "https://journals.sagepub.com/doi/full/10.1177/00223433231185169"
+    ]
+  },
+  {
+    "name_en": "Michael Kugelman",
+    "name_zh": "迈克尔·库格尔曼",
+    "affiliation": "前 Wilson Center 南亚研究所主任；Foreign Policy「South Asia Brief」专栏作者；Atlantic Council 相关专家",
+    "role": "南亚政策分析师",
+    "platforms": [
+      "X",
+      "Foreign Policy 专栏",
+      "电视评论"
+    ],
+    "x_handle": "@MichaelKugelman",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "美巴/美印关系、阿富汗与巴基斯坦政治、印巴危机中的美国角色；面向国际媒体的高频解读者。",
+    "score_A": 8,
+    "score_B": 5,
+    "score_C": 7,
+    "score_D": 6,
+    "rating_reason": "曾长期主持 Wilson Center 南亚研究所，机构根基好、媒体覆盖广，是国际媒体解释印巴危机的默认受访者。2025年5月冲突中保持不认领未证实战果的谨慎口径。但一手性低、以综述与政策解读为主，少有原创数据或方法说明。",
+    "controversies": "发言频率高、覆盖面广，被批评「万事通式」评论深度有限；印巴双方民族主义账号都曾指其偏袒对方。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Michael_Kugelman",
+      "https://foreignpolicy.com/author/michael-kugelman/",
+      "https://www.atlanticcouncil.org/expert/michael-kugelman/"
+    ]
+  },
+  {
+    "name_en": "Damien Symon",
+    "name_zh": "达米安·西蒙",
+    "affiliation": "The Intel Lab（地理空间情报研究员）",
+    "role": "卫星影像 OSINT 分析师",
+    "platforms": [
+      "X",
+      "The Intel Lab"
+    ],
+    "x_handle": "@detresfa_",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "南亚军事设施卫星影像判读：2025年5月印巴冲突中对 Nur Khan、Jacobabad、Bholari 等巴基斯坦空军基地及印方设施的战损评估。",
+    "score_A": 5,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "独立地理空间分析者，2025年5月印巴冲突中其影像判读被印度与国际主流媒体（HT、Firstpost 等）广泛引用，是当轮少数以可核验卫星图像（附日期与坐标）取代传言的来源，方法可复现。机构根基弱（非大学/大型智库），且选题与呈现被认为偏向印方视角。",
+    "controversies": "被巴方与部分观察者批评选择性发布（多披露巴方受损、少评估印方损失），需与其他影像分析者交叉验证。",
+    "sources": [
+      "https://www.hindustantimes.com/india-news/new-imagery-reveals-part-of-pakistani-base-razed-after-indian-airstrikes-101748197906733.html",
+      "https://www.firstpost.com/explainers/pakistan-nur-khan-airbase-operation-sindoor-13951731.html",
+      "https://x.com/detresfa_"
+    ]
+  },
+  {
+    "name_en": "Mohammed Zubair",
+    "name_zh": "穆罕默德·祖拜尔",
+    "affiliation": "Alt News（联合创始人，印度事实核查机构）",
+    "role": "事实核查者",
+    "platforms": [
+      "X",
+      "Alt News"
+    ],
+    "x_handle": "@zoo_bear",
+    "youtube": "unknown",
+    "language": "英语/印地语",
+    "theater": "南亚",
+    "specialty": "印巴冲突期间的虚假影像溯源与辟谣：识别旧视频、游戏画面、AI 生成图被当作 2025年5月战果传播的案例。",
+    "score_A": 6,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "Alt News 联合创始人，2025年5月「辛杜尔行动」期间高强度辟谣，被 Newslaundry、Deccan Herald 等专题报道；每条核查附原始素材出处与反向搜索链路，方法完全可复核。机构为独立核查组织而非研究智库，不产出军事分析本身，但对本战区信息卫生至关重要。",
+    "controversies": "2022年因旧推文遭印度警方逮捕（后获最高法院保释），被印度教民族主义阵营长期攻击为「亲巴/反印」，但其核查结论鲜有被实证推翻。",
+    "sources": [
+      "https://www.altnews.in/author/mzubair/",
+      "https://www.newslaundry.com/2025/05/07/zubair-vs-the-fake-news-machine-a-day-of-digital-warfare-after-operation-sindoor",
+      "https://www.deccanherald.com/india/mohammed-zubair-the-fact-checker-who-took-on-pakistan-over-misinformation-during-operation-sindoor-3530974"
+    ]
+  },
+  {
+    "name_en": "Sameer Lalwani",
+    "name_zh": "萨米尔·拉尔瓦尼",
+    "affiliation": "Stimson Center 南亚项目（曾任主任）；美国和平研究所（USIP）南亚高级专家；CSBA",
+    "role": "南亚安全与军事平衡研究者",
+    "platforms": [
+      "智库报告",
+      "X",
+      "学术论文"
+    ],
+    "x_handle": "@splalwani",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": "南亚",
+    "specialty": "印巴常规军力平衡与危机升级、印度军事现代化、南亚危机中的第三方斡旋；曾主持印巴危机行为的实证研究项目。",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "Stimson 南亚项目前主任＋USIP 高级专家，机构根基扎实；研究多以调查数据与结构化案例比较为方法，来源与设计公开。一手采集有限，实时事件判断不如 OSINT 类来源快，价值在于危机机制与军力对比的基线分析。",
+    "controversies": "none",
+    "sources": [
+      "https://www.stimson.org/ppl/sameer-lalwani",
+      "http://sameerlalwani.com/bio-cv",
+      "https://csbaonline.org/people/sameer-lalwani/"
+    ]
+  },
+  {
+    "name_en": "Sudan War Monitor (collective)",
+    "name_zh": "苏丹战争观察（团队账号）",
+    "affiliation": "独立 OSINT/记者协作平台（Substack）",
+    "role": "苏丹内战事件追踪与影像核实团队",
+    "platforms": [
+      "Substack 通讯（每周2-4期）",
+      "X（英/阿双语）",
+      "Facebook（阿语）",
+      "Reddit"
+    ],
+    "x_handle": "@sudanwarmonitor",
+    "youtube": "unknown",
+    "language": "英语/阿拉伯语",
+    "theater": "非洲",
+    "specialty": "苏丹 SAF vs RSF 战线变化制图、视频地理定位、战争罪记录与责任方识别；由苏丹本地与国际记者、OSINT 研究者、翻译与地理定位专家组成。",
+    "score_A": 5,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "非机构型协作平台但一手性极高：自建地理定位与视频核实流程，产出带地图与素材出处，是苏丹战线日更信息最系统的公开来源，被 NGO、新闻编辑部与智库订阅引用。机构根基弱、依赖订阅与志愿者，团队成员多匿名（安全考虑）导致个体问责性受限。",
+    "controversies": "核心成员多以匿名/机构名义发布，个体资历无法独立核实；作为付费订阅媒体，部分深度内容不公开。",
+    "sources": [
+      "https://sudanwarmonitor.com/about",
+      "https://sudanwarmonitor.com/",
+      "https://substack.com/@sudanwar"
+    ]
+  }
+]

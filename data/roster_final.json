@@ -1,0 +1,2310 @@
+[
+  {
+    "name_en": "Eric J. Labs",
+    "name_zh": "埃里克·J·拉布斯",
+    "affiliation": "美国国会预算办公室（CBO）国家安全司",
+    "role": "海军力量与武器资深分析师",
+    "platforms": [
+      "CBO 报告与国会证词",
+      "播客访谈"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "海军造船计划成本独立估算、造船工业基础产能瓶颈、舰艇采购长期负担能力分析",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "CBO 海军力量首席分析师，每年出具《An Analysis of the Navy's Shipbuilding Plan》独立成本估算，长期指出海军自估成本偏低；2025-03 就 2025 造船计划在国会作证，2026-01 发布《The 2026 Outlook for Navy Shipbuilding》分析国会拨款超申请对造船工业基础的影响。CBO 报告全文公开方法与模型。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cbo.gov/publication/61218",
+      "https://www.cbo.gov/publication/61947"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.7,
+    "stars": 5,
+    "percentile": 0.0081,
+    "rating_provisional": false,
+    "_pick_reason": "军工与战略战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Jeffrey Lewis",
+    "name_zh": "杰弗里·刘易斯",
+    "affiliation": "米德尔伯里国际研究学院 詹姆斯·马丁防扩散研究中心（CNS） ｜ 米德尔伯里国际研究学院 詹姆斯·马丁禁止核扩散研究中心 (CNS) ｜ Middlebury 国际研究学院 James Martin 防扩散研究中心（CNS）东亚防扩散项目主任、教授；Arms Control Wonk 创办人",
+    "role": "东亚防扩散项目主任、ArmsControlWonk 创办人 ｜ 东亚禁扩项目主任、教授 ｜ 核不扩散与导弹项目学者",
+    "platforms": [
+      "ArmsControlWonk.com 博客与播客",
+      "X",
+      "Foreign Policy 专栏"
+    ],
+    "x_handle": "@ArmsControlWonk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "中东",
+      "军工与战略",
+      "印太"
+    ],
+    "specialty": "卫星影像开源情报、朝鲜/中国/伊朗导弹与核设施定位、导弹型号识别、核政策 ｜ 朝鲜导弹与核设施卫星影像判读、中国核力量与发射井、开源核情报方法学教学 ｜ 用商业卫星影像+公开文件评估伊朗核计划（福尔多、纳坦兹、伊斯法罕）打击毁伤与浓缩铀去向、伊朗导弹试验场识别；对官方毁伤宣称提供独立技术反证。",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "ArmsControlWonk 创办人（2004 年至今），CNS 团队 2024-11 用开源影像定位四川乐山的中国大型水面舰艇陆上核反应堆原型，判定为核动力航母铺路；2026-04 据影像识别疑似 PrSM、2025-12 分析奥列什尼克在白俄部署。教授开源情报课程，方法公开可复现。 ｜ CNS 东亚禁扩项目负责人，其团队以商业卫星影像识别朝鲜未申报导弹基地、中国新建发射井群，成果多次先于官方披露并被 NYT 报道；Arms Control Wonk 博客与播客长期公开影像坐标与推理链，是 OSINT 核分析方法的教科书级来源。 ｜ CNS 团队的影像与技术分析长期作为主流媒体核查伊朗核设施说法的独立基准；坚持公布影像日期、坐标与推理链，也公开修正自身判断。缺点是对政治意图判断偏保守、时而与美以官方结论冲突。",
+    "controversies": "曾公开驳斥朝鲜 EMP 威胁论等主流恐慌叙事，与部分鹰派分析者长期论战。 ｜ 风格尖锐、对政策官员批评直白，偶有推文口径引发争论，但未见实质性事实被证伪记录。 ｜ none（其对伊朗核设施打击效果的保守评估被鹰派批评，属分歧非造假）",
+    "sources": [
+      "https://www.middlebury.edu/institute/people/jeffrey-lewis",
+      "https://www.armscontrolwonk.com/archive/author/jeffrey",
+      "https://nonproliferation.org/experts/jeffrey-lewis",
+      "https://en.wikipedia.org/wiki/Jeffrey_Lewis_(academic)",
+      "https://www.armscontrolwonk.com/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 3,
+    "weighted_score_recomputed": 9.55,
+    "stars": 5,
+    "percentile": 0.0244,
+    "rating_provisional": false,
+    "_pick_reason": "中东战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Conflict Armament Research (CAR)",
+    "name_zh": "冲突军备研究组织",
+    "affiliation": "英国注册的独立武器溯源调查机构（含也门、伊拉克、叙利亚现场调查队）",
+    "role": "实地武器取证与溯源机构",
+    "platforms": [
+      "conflictarm.com",
+      "iTrace 数据库",
+      "ArcGIS StoryMaps"
+    ],
+    "x_handle": "@conflictarm",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "胡塞武装导弹/无人机部件的实地取证与序列号溯源（《Powering the Houthis》系列）、也门地雷与 IED、叙伊战场缴获武器的供应链回溯至伊朗与第三国厂商。",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "极少数真正做战场实地取证的机构：调查员亲赴现场记录部件编号、厂商标识并回溯采购链，报告附照片与编号，可被独立复核；结论多次被联合国专家组与各国制裁清单采纳。属机构非个人。",
+    "controversies": "none",
+    "sources": [
+      "https://www.conflictarm.com/perspectives/powering-the-houthis/",
+      "https://www.conflictarm.com/publications/",
+      "https://storymaps.arcgis.com/stories/7c9e800562ab479c9382268bc75388eb"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.55,
+    "stars": 5,
+    "percentile": 0.0407,
+    "rating_provisional": false,
+    "_pick_reason": "中东战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Hans M. Kristensen",
+    "name_zh": "汉斯·M·克里斯滕森",
+    "affiliation": "美国科学家联盟（FAS）核信息项目",
+    "role": "核信息项目主任",
+    "platforms": [
+      "FAS Strategic Security Blog",
+      "X",
+      "Bulletin of the Atomic Scientists 核笔记",
+      "SIPRI 年鉴"
+    ],
+    "x_handle": "@nukestrat",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "全球核力量清点、核弹头数量估算、核部署与储存设施卫星影像分析、FOIA 解密文件挖掘",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "自 2001 年合著《核笔记》（Nuclear Notebook，1987 年至今 Bulletin 栏目）并撰写 SIPRI 年鉴世界核力量章节，是全球核弹头数量的事实标准来源。方法论核心是公开源 + 《信息自由法》申请解密文件，可复核；曾据卫星影像率先确认白俄罗斯核储存点建设进度。",
+    "controversies": "其估算数字常被有核国家官方否认，但迄今未有系统性证伪。",
+    "sources": [
+      "https://fas.org/expert/hans-kristensen/",
+      "https://fas.org/initiative/nuclear-information-project/",
+      "https://thebulletin.org/nuclear-notebook/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.55,
+    "stars": 5,
+    "percentile": 0.0163,
+    "rating_provisional": false,
+    "_pick_reason": "军工与战略战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Ronald O'Rourke",
+    "name_zh": "罗纳德·奥鲁尔克",
+    "affiliation": "美国国会研究服务部（CRS）",
+    "role": "海军事务专家",
+    "platforms": [
+      "CRS 报告",
+      "国会作证",
+      "USNI"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "海军舰艇项目逐项跟踪（DDG、SSN、护卫舰、无人舰艇）、造船产能、中国海军力量对比、国防采购立法议题",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "自 1984 年起任 CRS 海军事务分析员，四十余年持续更新的 CRS 舰艇项目报告是美国海军采购领域的事实基准文档，逐份列明预算数字、进度与国会争议点，全部公开可下载；定期向国会议员简报并多次作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.usni.org/people/ronald-orourke",
+      "https://www.congress.gov/119/meeting/house/118011/witnesses/HHRG-119-AS28-Bio-ORourkeR-20250311.pdf"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.55,
+    "stars": 5,
+    "percentile": 0.0325,
+    "rating_provisional": false,
+    "_pick_reason": "军工与战略战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Nathaniel A. Raymond",
+    "name_zh": "纳撒尼尔·A·雷蒙德",
+    "affiliation": "Yale School of Public Health, Humanitarian Research Lab（执行主任）",
+    "role": "人道主义卫星影像监测研究者",
+    "platforms": [
+      "X",
+      "Yale HRL 报告",
+      "国会作证"
+    ],
+    "x_handle": "@nattyray11",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "用商业卫星影像判读苏丹（El Fasher、达尔富尔）、乌克兰等地的暴行与强迫迁移，是「人道主义遥感取证」方法学的开创者之一。",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "耶鲁公共卫生学院实验室执行主任，机构根基顶级；产出为带影像坐标、采集时间与判读逻辑的公开报告，方法透明度极高。其 El Fasher 影像证据被联合国用于认定 RSF 实施种族灭绝，历史命中率经外部机构验证。",
+    "controversies": "曾运营美国国务院资助的 Conflict Observatory，被批评者质疑资金来源影响选题；实验室在2025年一度因美方经费中断而运营受阻。",
+    "sources": [
+      "https://ysph.yale.edu/profile/nathaniel-raymond/",
+      "https://ysph.yale.edu/news-article/un-concludes-rsf-conducted-genocide-in-el-fasher-yale-lab-provided-key-evidence/",
+      "https://en.wikipedia.org/wiki/Nathaniel_Raymond",
+      "https://x.com/nattyray11"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.55,
+    "stars": 5,
+    "percentile": 0.0488,
+    "rating_provisional": false,
+    "_pick_reason": "非洲战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Jack Watling",
+    "name_zh": "杰克·沃特林",
+    "affiliation": "英国皇家联合军种研究院（RUSI） ｜ 英国皇家联合军种研究院（RUSI）陆战（应用军事科学）高级研究员",
+    "role": "应用军事科学资深研究员 ｜ 陆战研究学者",
+    "platforms": [
+      "RUSI 官网与报告",
+      "Talking Strategy 播客",
+      "著作"
+    ],
+    "x_handle": "@Jack_Watling",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌",
+      "军工与战略"
+    ],
+    "specialty": "陆战与炮兵消耗率、俄乌双方弹药供应链、拦截弹全球库存与产能缺口、俄罗斯军工体系承受力 ｜ 陆战战术与火力/电子战/杀伤链分析、乌军适应性研究；多次赴乌实地调研并与乌军参谋部门访谈后写成 RUSI 特别报告",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "多次赴乌克兰前线做一手取证，与 Open Source Centre 合著《Ore to Ordnance: Disrupting Russia's Artillery Supply Chains》，从矿石到弹药逐环节追踪俄军炮弹供应链。2026-08-21 公开判断：能拦截俄弹道导弹的拦截弹全球库存已在乌克兰与中东大量耗尽、产能不足以补缺——正是本板块的核心命题。 ｜ RUSI应用军事科学高级研究员，与英军合作开发作战概念。其报告（如2022年《Ukraine at War: Paving the Road from Survival to Victory》）明确写明基于赴乌实地调研，方法与局限在报告中申明；对俄电子战压制乌方杀伤链、炮兵消耗等判断多被后续证实。",
+    "controversies": "部分报告基于乌方军方受访者的一手材料，外部无法独立复核；被批评偶有偏向乌方视角",
+    "sources": [
+      "https://www.rusi.org/people/jack-watling",
+      "https://static.opensourcecentre.org/assets/osc_ore_to_ordnance.pdf",
+      "https://www.rusi.org/podcasts/talking-strategy/episode-21-dr-jack-watling-ukrainian-adaptation-war",
+      "https://static.rusi.org/special-report-202207-ukraine-final-web_0.pdf"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 9.4,
+    "stars": 5,
+    "percentile": 0.0569,
+    "rating_provisional": false,
+    "_pick_reason": "俄乌战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Nan Tian",
+    "name_zh": "田楠",
+    "affiliation": "斯德哥尔摩国际和平研究所（SIPRI）",
+    "role": "军费开支与武器生产项目主任、资深研究员",
+    "platforms": [
+      "SIPRI 官网与数据库",
+      "SIPRI Yearbook",
+      "LinkedIn"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语、中文",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "全球军费数据库建设与年度趋势、军费与经济增长关系、SIPRI Top 100 军工企业榜",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "2016 年起负责 SIPRI 军费开支数据库，2023-12 起任军费与武器生产项目主任。SIPRI Military Expenditure Database 是全球唯一公开、口径一致的各国军费长序列数据源，方法说明与原始来源全部公开；2024 年全球军费 2.7 万亿美元这一被广泛引用的数字即出自该项目。",
+    "controversies": "SIPRI 军费口径与各国官方口径差异（尤其俄中）常被质疑，SIPRI 已公开方法论文回应。",
+    "sources": [
+      "https://www.sipri.org/about/bios/dr-nan-tian",
+      "https://www.sipri.org/publications/2025/policy-reports/rebalancing-military-spending-towards-achieving-sustainable-development",
+      "https://www.sipri.org/research/armament-and-disarmament/arms-and-military-expenditure"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.4,
+    "stars": 5,
+    "percentile": 0.065,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Siemon T. Wezeman",
+    "name_zh": "西蒙·T·韦泽曼",
+    "affiliation": "SIPRI 武器转让项目",
+    "role": "资深研究员",
+    "platforms": [
+      "SIPRI 官网与武器转让数据库",
+      "SIPRI Yearbook"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "国际武器转让追踪、亚太与前苏联地区军贸、许可证生产与转让透明度、印太自主生产能力测量",
+    "score_A": 10,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "1992 年起在 SIPRI 武器转让项目工作，是年度《Trends in International Arms Transfers》系列合著者（含 2025 年度版，2026-03 发布）。SIPRI 武器转让数据库只用可独立核查的公开源、覆盖几乎所有国家，是判断谁在给谁供弹的基础数据层；另著《Arms-production Capabilities in the Indo-Pacific: Measuring Self-reliance》。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sipri.org/about/bios/siemon-t-wezeman",
+      "https://www.sipri.org/databases/armstransfers"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.4,
+    "stars": 5,
+    "percentile": 0.0732,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Decker Eveleth",
+    "name_zh": "德克·埃夫莱斯",
+    "affiliation": "CNA Corporation ｜ CNA（海军分析中心）；曾属 Middlebury/CNS ｜ CNA（美国海军分析中心）副研究分析员；曾任 CNS/Middlebury 研究员",
+    "role": "副研究分析师（开源情报/核与导弹力量态势） ｜ 卫星影像与导弹/核力量部署分析师",
+    "platforms": [
+      "CNA",
+      "个人博客与 Substack",
+      "X",
+      "Foreign Policy / NK News 撰稿"
+    ],
+    "x_handle": "@dex_eve",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "中东",
+      "军工与战略",
+      "印太"
+    ],
+    "specialty": "商业卫星影像分析、中国火箭军战斗序列与发射井、朝鲜导弹试验、俄新型核系统部署点定位 ｜ 卫星影像发现中国洲际导弹发射井群、火箭军基地设施测绘、开源核力量分析 ｜ 商业卫星影像判读：伊朗地下导弹基地与发射井、核设施打击后毁伤评估、防空阵地部署识别；同类方法此前用于发现中国导弹发射井群，专业度获主流媒体验证。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "2021 年在 CNS 期间用商业卫星影像率先识别甘肃玉门约 120 个在建洲际导弹发射井，直接改写外界对中国核力量规模的判断（后续合计逾 300 个）；另建成含 600+ 火箭军弹道/巡航导弹发射车的开源部署数据库；2024 年定位俄「海燕」核动力巡航导弹疑似部署点。 ｜ 学生时期即用商业卫星影像发现中国玉门/哈密等地上百个新建 ICBM 发射井，成果被 NYT 报道并成为美国核态势辩论的基础事实；发布坐标与影像来源，方法可复现，命中率经后续官方评估确认。 ｜ 纯一手影像分析派，成果多以带坐标与影像日期的形式发布，可被他人独立复核；因发现新疆导弹发射井群而获国际主流媒体广泛引用，方法论公开。中东线主要贡献是伊朗核/导弹设施打击毁伤评估。",
+    "controversies": "对俄「海燕」等新型武器的公开质疑态度与俄官方宣传直接冲突。",
+    "sources": [
+      "https://www.cna.org/our-experts/eveleth-decker",
+      "https://en.wikipedia.org/wiki/Decker_Eveleth",
+      "https://foreignpolicy.com/author/decker-eveleth/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 3,
+    "weighted_score_recomputed": 9.25,
+    "stars": 5,
+    "percentile": 0.0813,
+    "rating_provisional": false,
+    "_pick_reason": "中东战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Michael Kofman",
+    "name_zh": "迈克尔·科夫曼",
+    "affiliation": "卡内基国际和平基金会 俄罗斯与欧亚项目 ｜ 卡内基国际和平基金会 俄罗斯与欧亚项目 高级研究员；War on the Rocks 特约编辑",
+    "role": "资深研究员；War on the Rocks 特约编辑、The Russia Contingency 播客主持 ｜ 俄军研究学者/播客主持人",
+    "platforms": [
+      "Carnegie 官网",
+      "War on the Rocks / The Russia Contingency 播客",
+      "X"
+    ],
+    "x_handle": "@KofmanMichael",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌",
+      "军工与战略"
+    ],
+    "specialty": "俄军战力与俄乌战场走势、俄罗斯军工产能与弹药消耗率、战争持久力评估、前线实地调研 ｜ 俄军编制、动员、军工再生产与战役层面消耗战分析；多次赴乌前线实地调研后写成结构化战场评估",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "卡内基俄罗斯与欧亚项目资深研究员，此前在美国国防大学任研究员与项目主管；主持双周播客 The Russia Contingency 做俄军军力与俄乌战争深度分析。多次赴乌前线实地调研，其对战线消耗率与俄军产能恢复的判断在 2022-2025 年多次先于共识。 ｜ 前CNA俄罗斯研究项目主任，现卡内基高级研究员，在Foreign Affairs、IISS《Survival》发表同行评审级文章（与Gady合著《Making Attrition Work》）。多次亲赴乌克兰前线取一手观察。对2023乌军反攻前景的谨慎判断被后续事实印证；他也公开承认早期对俄军战力评估过高。",
+    "controversies": "2022 年初对俄军战力的部分早期评估偏高，本人事后公开修正。 ｜ 曾被批评在开战初期高估俄军能力，本人在播客中公开承认并修正",
+    "sources": [
+      "https://carnegieendowment.org/people/michael-kofman",
+      "https://warontherocks.com/premium/therussiacontingency/",
+      "https://www.iiss.org/globalassets/media-library---content--migration/files/online-analysis/survival-online/2024/01/66-1-gady-and-kofman.pdf",
+      "https://en.wikipedia.org/wiki/Michael_Kofman"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 9.15,
+    "stars": 5,
+    "percentile": 0.0976,
+    "rating_provisional": false,
+    "_pick_reason": "俄乌战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Mark F. Cancian",
+    "name_zh": "马克·F·坎西安",
+    "affiliation": "CSIS 防务与安全部 ｜ CSIS 国际安全项目；退役美海军陆战队上校",
+    "role": "资深顾问（美国海军陆战队预备役退役上校） ｜ 高级顾问",
+    "platforms": [
+      "CSIS 官网",
+      "Defense One 专栏",
+      "CSIS 兵推报告"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": [
+      "军工与战略",
+      "印太"
+    ],
+    "specialty": "国防预算逐条拆解、部队结构与采购项目、战时补充拨款、对乌军援清单跟踪、台海兵推 ｜ 台海登陆战兵棋推演、美军弹药与产能缺口、国防预算与部队结构",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "加入 CSIS 前在白宫 OMB 任「部队结构与投资处」处长 7 年多，直接负责国防部预算战略、战争经费与采购项目审核，这是极罕见的预算一手经历。CSIS 期间持续做年度国防预算分项分析与对乌援助逐项清单，方法可核。 ｜ 2023 年 CSIS《下一场战争的第一战：中国入侵台湾兵推》主要作者，24 轮推演的规则、单位数据、损失模型与假设全部随报告公开，方法透明度在同类兵推中罕见；退役美海军陆战队上校、前 OMB 国防项目负责人，另长期做弹药库存与产能量化分析。",
+    "controversies": "兵推结论（美台胜但损失惨重）被部分学者批评对中方两栖能力与后勤假设保守，属方法论争议而非事实错误；CSIS 已公开回应假设依据。",
+    "sources": [
+      "https://www.csis.org/people/mark-f-cancian",
+      "https://www.dmi-ida.org/expert-details/mark-cancian",
+      "https://www.defenseone.com/voices/mark-cancian/11851",
+      "https://www.csis.org/analysis/first-battle-next-war-wargaming-chinese-invasion-taiwan",
+      "https://ssp.mit.edu/publications/2023/the-first-battle-of-the-next-war-wargaming-a-chinese-invasion-of-taiwan"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 9.15,
+    "stars": 5,
+    "percentile": 0.0894,
+    "rating_provisional": false,
+    "_pick_reason": "印太战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Clionadh Raleigh",
+    "name_zh": "克利奥娜·罗利",
+    "affiliation": "ACLED（创始人、总裁/CEO）；University of Sussex 政治地理学教授",
+    "role": "冲突事件数据库创始人与研究者",
+    "platforms": [
+      "ACLED 报告与 Raleigh Report 通讯",
+      "学术论文"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "拉美"
+    ],
+    "specialty": "全球武装冲突事件数据库（ACLED）的方法论设计与全球暴力趋势分析；政治暴力的地理与政治经济学。",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "ACLED 创始人兼萨塞克斯大学教授，是全球最广泛使用的冲突事件数据库的方法论奠基者；ACLED 编码手册、来源清单与数据全部公开，方法透明度是行业最高标准。一手性体现在数据库自身的事件采集体系。",
+    "controversies": "ACLED 的媒体来源依赖与事件计数方法长期受学界方法论批评（报道偏差、编码一致性），罗利本人也曾就与其他数据库（如 UCDP）的口径差异公开辩论。",
+    "sources": [
+      "https://acleddata.com/board/clionadh-raleigh",
+      "https://profiles.sussex.ac.uk/p320441-clionadh-raleigh",
+      "https://en.wikipedia.org/wiki/Armed_Conflict_Location_and_Event_Data"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.15,
+    "stars": 4,
+    "percentile": 0.1138,
+    "rating_provisional": false,
+    "_pick_reason": "拉美战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Alex de Waal",
+    "name_zh": "亚历克斯·德瓦尔",
+    "affiliation": "World Peace Foundation（执行主任）；Tufts University Fletcher School 研究教授",
+    "role": "苏丹/非洲之角冲突与饥荒研究者",
+    "platforms": [
+      "World Peace Foundation 博客",
+      "学术著作",
+      "Foreign Affairs 等专栏"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语（通阿拉伯语背景研究）",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "苏丹政治市场理论、达尔富尔、饥荒作为战争手段（Mass Starvation）；四十年苏丹田野与调解一线经验。",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "塔夫茨 Fletcher 研究教授兼 WPF 执行主任，学术根基极强；长期实地与非盟调解参与提供一手洞察。「政治市场」框架对 SAF/RSF 权力交易的解释力被后续事件反复验证，对苏丹饥荒的早期预警领先主流机构。",
+    "controversies": "曾任非盟苏丹高级别小组顾问，被批评与部分苏丹政治人物过从过近、对某些行为体判断偏宽容。",
+    "sources": [
+      "https://facultyprofiles.tufts.edu/alex-dewaal",
+      "https://worldpeacefoundation.org/team-member/alex-de-waal/",
+      "https://en.wikipedia.org/wiki/Alex_de_Waal"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.15,
+    "stars": 4,
+    "percentile": 0.1057,
+    "rating_provisional": false,
+    "_pick_reason": "非洲战区保底",
+    "active": true
+  },
+  {
+    "name_en": "M. Taylor Fravel",
+    "name_zh": "傅泰林",
+    "affiliation": "麻省理工学院 (MIT) 安全研究项目 (SSP)",
+    "role": "主任、政治学讲席教授",
+    "platforms": [
+      "学术专著与期刊",
+      "X"
+    ],
+    "x_handle": "@fravel",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "中国军事战略演变（历版《军事战略方针》）、中国领土与海洋争端行为、解放军战略文献解读",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "MIT 安全研究项目主任，《Active Defense: China's Military Strategy Since 1949》以中共军内战略文献、军科院教材与《战略学》历版为原始材料重建解放军战略方针演变，是英语学界解读中国官方军事文献的最高标准之一；论证均附中文出处，可逐条查证。",
+    "controversies": "在南海争端与中国边界谈判议题上持「中国并非一贯扩张」的经验性结论，被部分鹰派评论者批评为「淡化威胁」，但其史料与编码方法公开、未见被证伪。",
+    "sources": [
+      "https://ssp.mit.edu/people/m-taylor-fravel",
+      "https://en.wikipedia.org/wiki/Taylor_Fravel"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.0,
+    "stars": 4,
+    "percentile": 0.122,
+    "rating_provisional": false,
+    "_pick_reason": "印太战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Andrew S. Erickson",
+    "name_zh": "艾立信（安德鲁·埃里克森）",
+    "affiliation": "美国海军战争学院 中国海事研究所 (CMSI)；哈佛费正清中心研究员",
+    "role": "战略系教授",
+    "platforms": [
+      "CMSI China Maritime Report",
+      "Jamestown China Brief",
+      "个人网站 andrewerickson.com"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文（大量中文原始资料）",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "中国海军造舰与海事力量、海上民兵体系（三大主力民兵队伍考证）、中国国防工业与航天",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CMSI 创所骨干、海军战争学院教授、哈佛费正清中心研究员，以中文军内出版物、地方志与企业年报重建中国海上民兵编制与造舰产能，并在 Jamestown China Brief 长期供稿；个人网站公开全部原始中文出处与译文，可逐条核对。",
+    "controversies": "none",
+    "sources": [
+      "https://jamestown.org/analyst/andrew-s-erickson",
+      "https://cwp.sipa.columbia.edu/directory/andrew-erickson"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 9.0,
+    "stars": 4,
+    "percentile": 0.1301,
+    "rating_provisional": false,
+    "_pick_reason": "印太战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Aaron Y. Zelin",
+    "name_zh": "亚伦·泽林",
+    "affiliation": "Washington Institute for Near East Policy Gloria & Ken Levy 高级研究员；Jihadology.net 创办人",
+    "role": "圣战组织原始资料研究者",
+    "platforms": [
+      "Jihadology.net",
+      "Washington Institute",
+      "X"
+    ],
+    "x_handle": "@azelin",
+    "youtube": "unknown",
+    "language": "英语/阿拉伯语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "叙利亚与北非圣战组织原始宣传材料的收集、翻译与归档（Jihadology 为该领域标准资料库）、外国战斗人员流动、HTS 治理研究。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Jihadology 是圣战组织一手文件的公开标准档案库，学界与情报界普遍引用；其结论建立在可下载的原始材料上，读者可自行核验，方法透明度极高。",
+    "controversies": "none",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/aaron-y-zelin",
+      "https://jihadology.net/about/about-me/",
+      "https://aaronzelin.com/"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.95,
+    "stars": 4,
+    "percentile": 0.1626,
+    "rating_provisional": false,
+    "_pick_reason": "中东战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Matt Korda",
+    "name_zh": "马特·科尔达",
+    "affiliation": "FAS 核信息项目 / SIPRI 大规模杀伤性武器项目",
+    "role": "FAS 核信息项目副主任、SIPRI 副资深研究员",
+    "platforms": [
+      "FAS",
+      "X",
+      "SIPRI 年鉴",
+      "ICBM Information Project"
+    ],
+    "x_handle": "@mattkorda",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "开源核力量追踪、洲际弹道导弹基地卫星影像、核现代化项目进度、导弹防御与核态势交叉分析",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "《核笔记》与 SIPRI 年鉴核章节共同作者，主持 FAS 的 ICBM Information Project，用商业卫星影像逐个基地核实发射井状态并公开数据集；曾在 NATO 军控与防扩散中心工作。其开源发现（如中国新增发射井群）被全球主流媒体引用。",
+    "controversies": "none",
+    "sources": [
+      "https://fas.org/expert/matt-korda",
+      "https://fas.org/issues/icbm-information-project/",
+      "https://www.tandfonline.com/doi/abs/10.1080/00963402.2025.2494386"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.95,
+    "stars": 4,
+    "percentile": 0.1382,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Todd Harrison",
+    "name_zh": "托德·哈里森",
+    "affiliation": "美国企业研究所（AEI）",
+    "role": "资深研究员，Defense Budget Navigator 作者",
+    "platforms": [
+      "AEI 官网",
+      "Defense Budget Navigator 数据工具",
+      "X"
+    ],
+    "x_handle": "@ToddHarrisonDC",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "国防预算建模与长期趋势、国防工业基础、太空军与航天预算、军事人员与战备成本",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "美国最系统的国防预算量化分析者之一，在 AEI 维护「Defense Budget Navigator」——把国防部预算申请与国会拨款做成可查询数据集并公开来源与方法说明页，属于罕见的公开数据集+方法透明范例；此前在 CSIS 和 CSBA 做预算分析。",
+    "controversies": "none",
+    "sources": [
+      "https://www.aei.org/profile/todd-harrison/",
+      "https://www.defensepriorities.org/people/todd-harrison/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.95,
+    "stars": 4,
+    "percentile": 0.1463,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Ryan D. Martinson",
+    "name_zh": "unknown",
+    "affiliation": "美国海军战争学院 中国海事研究所 (CMSI)",
+    "role": "研究员/助理教授",
+    "platforms": [
+      "CMSI China Maritime Report",
+      "X",
+      "学术期刊"
+    ],
+    "x_handle": "@rdmartinson88",
+    "youtube": "unknown",
+    "language": "英文（大量引用中文原始资料）",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "中国海警与海上民兵、海洋调查船活动追踪、中文原始文献（军报、地方志、渔业公告）解读",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "CMSI 核心研究员，长期以中文一手资料（中国海警年鉴、渔业公告、地方党报）与 AIS 数据重构海上民兵编制，代表作 China Maritime Report No.46《中国渔民间谍》；论文附中文出处，可逐条回溯，是英语圈解读中国官方海上文献的标杆。",
+    "controversies": "none",
+    "sources": [
+      "https://www.usnwc.edu/Faculty-and-Departments/Directory/Ryan-D-Martinson",
+      "https://digital-commons.usnwc.edu/cmsi-maritime-reports/46"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.95,
+    "stars": 4,
+    "percentile": 0.1545,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Justin Bronk",
+    "name_zh": "贾斯汀·布朗克",
+    "affiliation": "RUSI 空权与技术高级研究员；《RUSI Defence Systems》编辑；挪威皇家空军学院副教授",
+    "role": "空权分析师",
+    "platforms": [
+      "RUSI",
+      "X"
+    ],
+    "x_handle": "@Justin_Br0nk",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "俄乌空战、地面防空对抗、战斗机与巡航导弹/拦截弹产能瓶颈分析；对F-16、爱国者供应链有细致技术拆解",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "RUSI空权高级研究员，KCL防务研究博士。2022年初关于「俄空天军为何未能取得制空权」的分析在当时属少数派，后被广泛接受为标准解释。技术判断（如爱国者拦截弹产能受制于分包件而非弹体）具体到供应链层级，可验证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.rusi.org/people/bronk",
+      "https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.9,
+    "stars": 4,
+    "percentile": 0.1789,
+    "rating_provisional": false,
+    "_pick_reason": "俄乌战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Therése Pettersson",
+    "name_zh": "泰蕾丝·佩特松",
+    "affiliation": "Uppsala University 和平与冲突研究系，UCDP（项目负责人/高级分析师）",
+    "role": "冲突数据库项目负责人",
+    "platforms": [
+      "UCDP 数据集与年度报告",
+      "Journal of Peace Research 论文"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/瑞典语",
+    "theater": [
+      "拉美"
+    ],
+    "specialty": "UCDP 全球有组织暴力年度统计（Organized violence 系列）、国家间与非国家冲突的分类与死亡人数估计。",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "UCDP 项目负责人，主导全球最权威、时间序列最长的冲突死亡数据集之一；年度统计以同行评议论文形式发表（JPR），定义、编码规则与不确定区间全部公开，透明度顶级。属基础设施型来源而非事件级评论者。",
+    "controversies": "UCDP 的「战斗死亡」严格定义常导致其数字显著低于其他机构（如苏丹、加沙的超额死亡估计），引发口径争议。",
+    "sources": [
+      "https://www.uu.se/en/department/peace-and-conflict-research/research/ucdp/about-ucdp/ucdp-team",
+      "https://ucdp.uu.se/",
+      "https://journals.sagepub.com/doi/full/10.1177/00223433231185169"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.9,
+    "stars": 4,
+    "percentile": 0.1707,
+    "rating_provisional": false,
+    "_pick_reason": "拉美战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Jason Stearns",
+    "name_zh": "贾森·斯特恩斯",
+    "affiliation": "Simon Fraser University（副教授）；Congo Research Group 创始人；Ebuteli 联合创始人",
+    "role": "刚果政治与武装冲突研究者",
+    "platforms": [
+      "学术著作",
+      "CRG/Ebuteli 报告",
+      "X",
+      "播客"
+    ],
+    "x_handle": "@jasonkstearns",
+    "youtube": "unknown",
+    "language": "英语/法语/斯瓦希里语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "刚果东部武装团体政治经济、M23 与地区代理战争、刚果选举政治；曾任联合国刚果专家组协调员。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "西蒙弗雷泽大学教职＋自建刚果研究机构（CRG/Ebuteli，含金萨沙本地团队），机构与一手兼备；前联合国专家组协调员，其对卢旺达支持 M23 的持续论证被联合国专家组报告反复印证。报告方法与信源类型公开说明。",
+    "controversies": "卢旺达政府长期指其研究有偏见；曾与部分刚果官方立场冲突。",
+    "sources": [
+      "https://www.sfu.ca/internationalstudies/people/profiles/stearns.html",
+      "https://theconversation.com/profiles/jason-stearns-1513432",
+      "https://foreignpolicy.com/author/jason-k-stearns"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.85,
+    "stars": 4,
+    "percentile": 0.1951,
+    "rating_provisional": false,
+    "_pick_reason": "非洲战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Tom Karako",
+    "name_zh": "汤姆·卡拉科",
+    "affiliation": "CSIS 战略与国际研究中心",
+    "role": "导弹防御项目主任、防务与安全部资深研究员",
+    "platforms": [
+      "CSIS 官网",
+      "X",
+      "CSIS Missile Defense Project (missilethreat.csis.org)"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "防空/导弹防御拦截弹经济学、固体火箭发动机产业基础、爱国者/PAC-3 与 THAAD 交战数据、导弹威胁数据库（Missile Threat）",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "2015 年起领导 CSIS 导弹防御项目，2026-06 发布《Solid Rocket Motors for Missile Defense》专门量化固体火箭发动机产能瓶颈；2025-07 主持 Al Udeid 史上最大规模爱国者交战复盘。其 missilethreat.csis.org 数据库是公开可核查的一手威胁清单。",
+    "controversies": "被批评长期主张扩大导弹防御预算，与国防承包商资助的智库立场重合。",
+    "sources": [
+      "https://www.csis.org/people/tom-karako",
+      "https://www.csis.org/news/csis-announces-new-missile-defense-project"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.85,
+    "stars": 4,
+    "percentile": 0.187,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Nick Waters",
+    "name_zh": "尼克·沃特斯",
+    "affiliation": "Bellingcat 开源调查员（2016 年起）；前英国陆军军官",
+    "role": "冲突开源调查记者",
+    "platforms": [
+      "X",
+      "Bellingcat"
+    ],
+    "x_handle": "@N_Waters89",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "叙利亚化学武器袭击、加沙关键事件（如医院爆炸、弹道判读）的影像地理定位与时间校验、商业卫星影像与视频交叉验证；也做伪造影像的辨伪。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 10,
+    "rating_reason": "Bellingcat 方法论标准做法：每一步地理定位与时间戳都在文中展示原始素材与推理，读者可完全复现；在加沙争议事件中常同时指出'哪些说法证据不足'，包括打脸各方。军事背景带来战术判读能力。",
+    "controversies": "none（Bellingcat 整体被亲俄/亲巴阵营指为西方资助，个人无公开证伪记录）",
+    "sources": [
+      "https://www.bellingcat.com/author/nick-waters/",
+      "https://www.europeanpressprize.com/laureate/nick-waters/"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2195,
+    "rating_provisional": false,
+    "_pick_reason": "中东战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Pavel Luzin",
+    "name_zh": "帕维尔·卢津",
+    "affiliation": "CEPA 高级研究员 / 弗莱彻学院访问学者 / 詹姆斯敦基金会 ｜ CEPA 高级研究员；塔夫茨大学弗莱彻学院访问学者；詹姆斯敦基金会高级研究员",
+    "role": "俄罗斯国防工业与军费分析师 ｜ 俄罗斯国防工业与军费研究者",
+    "platforms": [
+      "CEPA",
+      "FPRI",
+      "Riddle Russia",
+      "Jamestown"
+    ],
+    "x_handle": "@PavelLuzin",
+    "youtube": "unknown",
+    "language": "英语、俄语",
+    "theater": [
+      "俄乌",
+      "军工与战略"
+    ],
+    "specialty": "俄罗斯国防工业产能与效率、俄军费与国家武器计划、俄导弹与无人机产量估算、航天与电子战产业 ｜ 俄国防预算与国防工业产能拆解、导弹与航天工业、军工采购数据；擅长从俄联邦预算文件与企业报表反推真实产能",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "IMEMO 国际关系博士，长期用俄罗斯预算文件、企业财报与工资数据逐厂推算俄军工产能，代表作包括《Russia's Military Industry Forecast 2023-2025》《Russian Military Drones: Past, Present, and Future of the UAV Industry》。以俄语原始经济数据为底的推算在西方分析圈稀缺。 ｜ IMEMO国际关系博士（2012），CEPA高级研究员兼Fletcher访问学者、Jamestown高级研究员。其俄国防工业产能与预算分析基于俄官方预算行项与企业财报，可复核，被广泛引用为西方评估俄军工再生产的基础素材。",
+    "controversies": "曾为纳瓦尔尼 2017-2018 总统竞选团队做国防与军工议题顾问，被亲俄方指为立场先行。",
+    "sources": [
+      "https://cepa.org/author/pavel-luzin/",
+      "https://www.fpri.org/contributor/pavel-luzin/",
+      "https://www.fpri.org/article/2023/04/russias-military-industry-forecast-2023-2025/",
+      "https://sites.tufts.edu/fletcherrussia/visiting-scholars/current-visiting-scholars/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2033,
+    "rating_provisional": false,
+    "_pick_reason": "俄乌战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+    "name_zh": "美杜莎版《Mediazona》与 BBC 俄语部「俄罗斯200」阵亡者统计项目",
+    "affiliation": "Mediazona + BBC 俄语部 + 志愿者团队",
+    "role": "俄军阵亡人员实名统计",
+    "platforms": [
+      "zona.media",
+      "BBC Russian"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "俄语/英语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "从讣告、亲属社媒、地方媒体与地方政府公告中逐一确认俄军阵亡者姓名，并用遗产继承案卷等独立方法做总量外推",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "自2022年5月起维护俄军阵亡者实名清单，全部来自可核验公开来源；截至2026年2月已确认逾20万人。方法文档公开，明确区分「实名确认数」与「基于继承登记的总量估计」，是西方评估俄军伤亡最常引用的独立基准。",
+    "controversies": "Mediazona 在俄被列为「外国代理人」并遭封锁；实名确认数天然低于真实阵亡数，项目自身反复强调这一点",
+    "sources": [
+      "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+      "https://en.wikipedia.org/wiki/Russia_200"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2358,
+    "rating_provisional": false,
+    "_pick_reason": "俄乌战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Christoph Vogel",
+    "name_zh": "克里斯托夫·福格尔",
+    "affiliation": "Ghent University 冲突研究组 / University of Zurich 附属研究员；Centre on Armed Groups",
+    "role": "刚果东部武装团体研究者",
+    "platforms": [
+      "学术著作",
+      "Centre on Armed Groups 问答",
+      "X"
+    ],
+    "x_handle": "@ethuin",
+    "youtube": "unknown",
+    "language": "英语/法语/德语/斯瓦希里语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "刚果东部武装团体图谱、M23/AFC 危机、卢旺达介入；著有《Conflict Minerals, Inc.》，曾任联合国刚果专家组成员。",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "根特大学与苏黎世大学双重学术根基，且有联合国刚果专家组的调查经历；长期在南北基伍田野工作、通斯瓦希里语，武装团体图谱是该领域的基准参考。对 M23 复起及卢旺达角色的早期判断被后续联合国报告证实。",
+    "controversies": "对西方「冲突矿产」治理路径的批评引发行业争论；曾与刚果/卢旺达双方官方叙事均有冲突。",
+    "sources": [
+      "https://www.armedgroupscentre.org/network/christoph-vogel",
+      "https://geo.uzh.ch/en/units/pgg/affiliated-researchers/christoph-vogel.html",
+      "https://www.armedgroupscentre.org/reports-and-articles/the-m23-crisis"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2276,
+    "rating_provisional": false,
+    "_pick_reason": "非洲战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Tom Shugart",
+    "name_zh": "汤姆·舒加特",
+    "affiliation": "新美国安全中心（CNAS）",
+    "role": "防务项目兼职资深研究员（前美国海军潜艇军官）",
+    "platforms": [
+      "CNAS",
+      "X",
+      "卫星影像分析帖"
+    ],
+    "x_handle": "@tshugart3",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "中国造船产能与海军扩张、印太军事平衡、导弹打击下的基地脆弱性、卫星影像判读",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 8,
+    "rating_reason": "前美国海军潜艇军官，用商业卫星影像逐个船坞跟踪中国造船产能：2024 年就中国占全球商船建造过半、美国不足 1% 的产能落差做系统对比；2026-03 依据影像评估中国核动力航母在建情况并与福特级早期建造照对照。其影像判读+吨位统计的方法公开可复核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/tom-shugart",
+      "https://www.cnas.org/publications/video/how-chinas-100b-shipbuilding-empire-dominates-the-u-s-s"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2114,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Bellingcat (Eliot Higgins)",
+    "name_zh": "贝灵猫（埃利奥特·希金斯）",
+    "affiliation": "荷兰注册独立调查机构 Bellingcat",
+    "role": "开源调查机构",
+    "platforms": [
+      "bellingcat.com",
+      "X",
+      "Eyes on Russia 地图",
+      "Civilian Harm in Ukraine 数据库"
+    ],
+    "x_handle": "@bellingcat",
+    "youtube": "unknown",
+    "language": "英语/俄语/乌克兰语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "战争罪与打击事件的影像核证与责任归属调查，MH17 击落链路重建；维护 Eyes on Russia 地图与乌克兰平民伤害数据库",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 9,
+    "score_D": 10,
+    "rating_reason": "其MH17调查被荷兰联合调查组与法院大量引用，方法论公开可复现（地理定位、时序定位、原始素材存档），明确声明开源手段的边界。乌战后维护 Eyes on Russia 与平民伤害数据库，逐条附证据。",
+    "controversies": "因接受德国马歇尔基金、NED 等基金会资助，被批评资金链影响选题独立性；调查员本人遭俄方威胁与信息战攻击",
+    "sources": [
+      "https://www.bellingcat.com/",
+      "https://www.bellingcat.com/author/eliothiggins/"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.8,
+    "stars": 4,
+    "percentile": 0.2439,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Héni Nsaibia",
+    "name_zh": "赫尼·恩塞比亚",
+    "affiliation": "ACLED（高级研究员）；MENASTREAM 创始人",
+    "role": "萨赫勒/北非武装冲突事件数据研究者",
+    "platforms": [
+      "X",
+      "ACLED 报告",
+      "MENASTREAM"
+    ],
+    "x_handle": "@MENASTREAM",
+    "youtube": "unknown",
+    "language": "法语/阿拉伯语/英语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "萨赫勒圣战组织（JNIM、ISSP）事件级数据编码、袭击模式与地理扩散、瓦格纳/非洲军团在马里的行动。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "ACLED 高级研究员，同时经营 MENASTREAM 做原始事件收集，兼具数据库机构根基与一手采集能力；产出附事件编码、地点与来源，方法透明度高，是萨赫勒袭击统计最常被引用的来源之一。",
+    "controversies": "none",
+    "sources": [
+      "https://acleddata.com/staff/heni-nsaibia",
+      "https://globalinitiative.net/profile/heni-nsaibia/",
+      "https://www.ispionline.it/en/bio/heni-nsaibia"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.7,
+    "stars": 4,
+    "percentile": 0.2764,
+    "rating_provisional": false,
+    "_pick_reason": "非洲战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Fabian Hoffmann",
+    "name_zh": "法比安·霍夫曼",
+    "affiliation": "奥斯陆大学 Oslo Nuclear Project / 挪威国防大学 / CEPA ｜ 挪威国防大学学院高级研究员；前奥斯陆大学核项目博士研究员；Missile Matters 作者",
+    "role": "研究员、Missile Matters 简报作者 ｜ 导弹与核战略研究者",
+    "platforms": [
+      "Substack: frhoffmann.substack.com（Missile Matters）",
+      "X",
+      "CEPA",
+      "War on the Rocks"
+    ],
+    "x_handle": "@FRHoffmann1",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌",
+      "军工与战略"
+    ],
+    "specialty": "导弹技术与远程打击、防空拦截弹消耗与成本交换比、欧洲威慑与导弹产能、核战略 ｜ 俄乌远程打击与防空对抗的技术分析：导弹型号性能、产能与成本、深度打击战役效果评估；自建导弹数据集",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Substack「Missile Matters」订阅逾 1 万，专写导弹技术与拦截经济学；学术侧在 Journal of Strategic Studies 发表远程打击战略效应框架论文（2024，doi:10.1080/01402390.2024.2351500），曾在 IISS 任研究助理。既有同行评审底子又做高频公开拆解。 ｜ 挪威国防大学学院高级研究员，在《Journal of Strategic Studies》等同行评审期刊及CNA报告发表。Missile Matters 逾万订阅，附公开的 Missile Matters Dataset，分析给出型号级技术依据与来源，明确标注推断成分。",
+    "controversies": "none",
+    "sources": [
+      "https://www.sv.uio.no/isv/english/people/aca/fabiah/index.html",
+      "https://frhoffmann.substack.com/",
+      "https://cepa.org/author/fabian-hoffman",
+      "https://missilematters.substack.com/about",
+      "https://substack.com/@frhoffmann"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 8.7,
+    "stars": 4,
+    "percentile": 0.252,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Matthew P. Funaiole",
+    "name_zh": "unknown",
+    "affiliation": "CSIS Dracopoulos iDeas Lab / 中国实力项目 / Hidden Reach",
+    "role": "iDeas Lab 副总裁、高级研究员",
+    "platforms": [
+      "CSIS Hidden Reach",
+      "ChinaPower",
+      "features.csis.org 视觉调查"
+    ],
+    "x_handle": "@MFunaiole",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "中国造船业与海军扩张产能、第四艘航母建造追踪、军民融合供应链、卫星影像+航运数据视觉调查",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "主导 CSIS Hidden Reach 系列，用商业卫星影像+船舶/企业注册数据追踪中国第四艘航母、造船厂扩建；2025 年《Ship Wars》报告量化中国造船产能对美优势。报告公开数据来源与影像日期，属可复核的一手 OSINT 视觉调查。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/matthew-p-funaiole",
+      "https://www.csis.org/programs/hidden-reach",
+      "https://features.csis.org/hiddenreach/china-fourth-carrier/"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.7,
+    "stars": 4,
+    "percentile": 0.2602,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Fabian Hinz",
+    "name_zh": "法比安·欣茨",
+    "affiliation": "International Institute for Strategic Studies (IISS) 防务与军事分析研究员；曾为 CNS/Middlebury、FPRI 供稿",
+    "role": "中东导弹与火箭扩散研究员、开源分析师",
+    "platforms": [
+      "X",
+      "IISS",
+      "播客"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语/德语/波斯语/阿拉伯语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "伊朗弹道导弹与巡航导弹型号识别、伊朗向真主党/胡塞/伊拉克民兵的导弹技术转移路径；著有 IISS《Missile multinational: Iran's new approach to missile proliferation》研究报告。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "中东导弹扩散领域公认顶级开源分析者：IISS 机构背书，长期用残骸照片、阅兵影像、伊朗语原始文献做型号比对，报告标注证据与不确定性，方法可复核。伊朗导弹型号与射程判读在多轮伊以交火中被后续官方信息反复印证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.iiss.org/research-paper/2021/04/iran-missile-proliferation-strategy",
+      "https://europeanleadershipnetwork.org/person/fabian-hinz/",
+      "https://www.fpri.org/contributor/fabian-hinz",
+      "https://de.wikipedia.org/wiki/Fabian_Hinz"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.7,
+    "stars": 4,
+    "percentile": 0.2683,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Janis Kluge",
+    "name_zh": "扬尼斯·克鲁格",
+    "affiliation": "德国国际与安全事务研究所（SWP，柏林）研究员",
+    "role": "俄罗斯经济与制裁分析师",
+    "platforms": [
+      "X",
+      "SWP 出版物"
+    ],
+    "x_handle": "@jakluge",
+    "youtube": "unknown",
+    "language": "英语/德语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "俄联邦预算与战时财政、制裁效果、卢布与油气收入、影子船队；用俄财政部与海关高频数据做图表化跟踪",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "SWP研究员，专长俄国家预算、制裁与贸易，有Google Scholar可查的学术产出。X上按月发布俄财政部预算执行数据与油气收入图表，均注明原始数据源，可自行复算；对俄经济「即将崩溃」类夸张说法长期做纠偏。",
+    "controversies": "none",
+    "sources": [
+      "https://www.swp-berlin.org/en/researcher/janis-kluge",
+      "https://scholar.google.com/citations?user=CyiyfagAAAAJ&hl=en"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.7,
+    "stars": 4,
+    "percentile": 0.2846,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Rob Lee",
+    "name_zh": "罗布·李",
+    "affiliation": "美国外交政策研究所（FPRI）欧亚项目 高级研究员；前美海军陆战队步兵军官",
+    "role": "军事分析师/开源情报研究者",
+    "platforms": [
+      "X",
+      "FPRI",
+      "War on the Rocks"
+    ],
+    "x_handle": "@RALee85",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "逐条汇编并核验俄乌双方战场影像，追踪乌军与俄军战术演进、装备使用、无人机战法；与Kofman联合发布实地考察报告",
+    "score_A": 9,
+    "score_B": 10,
+    "score_C": 7,
+    "score_D": 9,
+    "rating_reason": "FPRI高级研究员、前陆战队步兵军官，曾在莫斯科任Alfa Fellow并在俄战略技术分析中心（CAST）访学。X上长期逐条转发并标注战场原始视频，注明来源与不确定性；与Kofman多次赴乌前线做一手访谈并公开发表考察报告。",
+    "controversies": "none",
+    "sources": [
+      "https://www.fpri.org/contributor/rob-lee/",
+      "https://www.fpri.org/news/2022/02/rob-lee-joins-fpris-eurasia-program-as-a-senior-fellow/",
+      "https://x.com/RALee85"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.65,
+    "stars": 4,
+    "percentile": 0.2927,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Uzi Rubin",
+    "name_zh": "乌兹·鲁宾",
+    "affiliation": "以色列导弹防御组织（IMDO）创始主任（1991-1999，'箭'式反导计划）；耶路撒冷战略与安全研究所（JISS）、BESA 中心高级研究员",
+    "role": "导弹防御工程师出身的资深分析者",
+    "platforms": [
+      "JISS",
+      "BESA",
+      "以色列媒体"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "以色列多层反导体系（箭-2/3、大卫投石索、铁穹）性能与拦截率评估、伊朗与真主党火箭/导弹威胁量化建模；对每轮弹道导弹袭击后的拦截率给出工程口径统计。",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "以色列反导体系奠基人，具备型号级工程知识，其战后拦截率与弹着分析常成为公开讨论的基准数据。局限是以色列官方背景、部分数据依赖军方口径无法独立核验。",
+    "controversies": "none（前以色列国防部官员，立场亲以）",
+    "sources": [
+      "https://jiss.org.il/en/author/urubin/",
+      "https://besacenter.org/author/urubin/",
+      "https://en.wikipedia.org/wiki/Uzi_Rubin"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.6,
+    "stars": 3,
+    "percentile": 0.3008,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Dara Massicot",
+    "name_zh": "达拉·马西科特",
+    "affiliation": "卡内基国际和平基金会 俄罗斯与欧亚项目 高级研究员；前 RAND 高级政策研究员、前美国防部俄军能力高级分析员",
+    "role": "俄军能力与人事制度分析师",
+    "platforms": [
+      "X",
+      "Carnegie",
+      "Foreign Affairs"
+    ],
+    "x_handle": "@massdara",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "俄乌"
+    ],
+    "specialty": "俄军兵员招募/留存、人事与后勤制度、部队再生成能力；基于俄方官方文件与合同数据做量化研究",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "美国防部俄军能力前高级分析员，RAND出版《Russian Military Wartime Personnel Recruiting and Retention 2022–2023》等实证报告。分析以俄方公开合同、征兵数据、法规文本为底稿，结论有据可查。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/people/dara-massicot",
+      "https://www.rand.org/pubs/authors/m/massicot_dara.html",
+      "https://www.defensepriorities.org/people/dara-massicot/"
+    ],
+    "_source_file": "ukraine.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.6,
+    "stars": 3,
+    "percentile": 0.3089,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Cynthia Cook",
+    "name_zh": "辛西娅·库克",
+    "affiliation": "CSIS 防务产业倡议小组（DIIG）",
+    "role": "DIIG 主任、防务与安全部资深研究员",
+    "platforms": [
+      "CSIS 官网",
+      "LinkedIn",
+      "CSIS 圆桌与报告"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "国防采购政策、国防工业基础、武器系统生产与保障、弹药产能扩产路径",
+    "score_A": 10,
+    "score_B": 9,
+    "score_C": 7,
+    "score_D": 8,
+    "rating_reason": "CSIS 防务产业倡议小组主任，DIIG 长期维护国防合同与采购数据分析（基于 FPDS/USAspending 类公开合同数据）。曾主持与陆军采购主管 ASA(ALT) 的弹药产能专题圆桌，直接对话产能决策者；此前在 RAND 做采购研究。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/cynthia-cook",
+      "https://www.csis.org/events/munitions-production-roundtable-featuring-asaalt-honorable-douglas-r-bush",
+      "https://www.dmi-ida.org/expert-details/cynthia-cook"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.55,
+    "stars": 3,
+    "percentile": 0.3171,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Gregory B. Poling",
+    "name_zh": "unknown",
+    "affiliation": "CSIS 东南亚项目 / 亚洲海事透明倡议 (AMTI)",
+    "role": "AMTI 主任、东南亚高级研究员",
+    "platforms": [
+      "AMTI",
+      "CSIS",
+      "X"
+    ],
+    "x_handle": "@GregPoling",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "南海争端、岛礁建设卫星影像判读、海上民兵、菲律宾—中国对峙、航行自由",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "AMTI 创办与主导者，运营 Island Tracker 岛礁数据库与 Maxar 商业卫星影像分析，是南海填海造岛证据链的公开来源之一；曾赴众院外委会亚太小组作证。著有《On Dangerous Ground: America's Century in the South China Sea》。产出以可核验影像与坐标为主。",
+    "controversies": "none",
+    "sources": [
+      "https://www.csis.org/people/gregory-b-poling",
+      "https://amti.csis.org/gpoling/",
+      "https://www.uscc.gov/sites/default/files/Poling+Bio.pdf"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.55,
+    "stars": 3,
+    "percentile": 0.3252,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Thomas H. Shugart III",
+    "name_zh": "unknown",
+    "affiliation": "新美国安全中心 (CNAS)；前美海军潜艇军官",
+    "role": "兼任高级研究员",
+    "platforms": [
+      "CNAS",
+      "X",
+      "War on the Rocks"
+    ],
+    "x_handle": "@tshugart3",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "解放军导弹对西太平洋基地的第一击威胁、卫星影像判读（模拟靶场、船厂、潜艇）、美军基地脆弱性建模",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "退役美海军潜艇艇长，以卫星影像发现解放军在新疆/内蒙古建造美舰与基地模拟靶标、以及 2024 年武昌船厂新型核潜艇沉没事件而受主流媒体广泛引用；建模作品《First Strike》公开假设与弹药量算法。曾赴美中经济与安全审查委员会作证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/tom-shugart",
+      "https://www.uscc.gov/sites/default/files/2024-03/Thomas_Shugart_Bio.pdf"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.55,
+    "stars": 3,
+    "percentile": 0.3333,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Ibrahim Yahaya Ibrahim",
+    "name_zh": "易卜拉欣·亚哈亚·易卜拉欣",
+    "affiliation": "International Crisis Group（萨赫勒项目副主任/高级分析师，驻达喀尔）",
+    "role": "萨赫勒冲突分析师",
+    "platforms": [
+      "Crisis Group 报告",
+      "会议演讲",
+      "媒体评论"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "法语/豪萨语/英语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "马里、布基纳法索、尼日尔的圣战叛乱与社群冲突；与武装组织和地方社区的实地对话，尼日尔政变后的地区安全格局。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "ICG 萨赫勒项目副主任，机构根基强；本地出身、通法语与豪萨语，报告基于大量实地访谈，方法与访谈范围在 Crisis Group 报告中有明确说明。缺点是社媒产出少，不适合作日更快讯来源，更适合作深度背景与趋势判断。",
+    "controversies": "none",
+    "sources": [
+      "https://sn.linkedin.com/in/ibrahim-yahaya-ibrahim-bb539757",
+      "https://oslo3.org/speaker/ibrahim-yahaya-ibrahim/",
+      "https://www.crisisgroup.org/africa/sahel"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.55,
+    "stars": 3,
+    "percentile": 0.3415,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Jeremy McDermott",
+    "name_zh": "杰里米·麦克德莫特",
+    "affiliation": "InSight Crime（联合创始人兼联合主任）",
+    "role": "拉美有组织犯罪与武装团体调查记者",
+    "platforms": [
+      "InSight Crime 调查报告",
+      "X",
+      "媒体评论"
+    ],
+    "x_handle": "@JeremyMcDermot",
+    "youtube": "unknown",
+    "language": "英语/西班牙语",
+    "theater": [
+      "拉美"
+    ],
+    "specialty": "哥伦比亚游击队与贩毒集团、委内瑞拉「太阳集团」与 Tren de Aragua、跨国犯罪网络的实地调查。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "InSight Crime 联合创始人，机构以拉美一线田野调查与文件取证著称；本人二十余年拉美冲突报道经验。其对 Tren de Aragua 规模与结构的实证评估，在 2025 年美国将其定性为国家支持组织的争论中提供了关键反证。",
+    "controversies": "InSight Crime 部分资金来自西方政府与基金会，被批评者质疑议题设置；对 Tren de Aragua 与马杜罗政权关联的谨慎结论与美方官方说法冲突。",
+    "sources": [
+      "https://insightcrime.org/the-organization/the-team/",
+      "https://insightcrime.org/author/jerry/",
+      "https://globalinitiative.net/profile/jeremy-mcdermott/"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.5,
+    "stars": 3,
+    "percentile": 0.374,
+    "rating_provisional": false,
+    "_pick_reason": "拉美战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Samuel Bendett",
+    "name_zh": "塞缪尔·本德特",
+    "affiliation": "CNA 战略、政策与计划中心（俄罗斯研究项目）/ CNAS 兼职资深研究员 ｜ CNA 俄罗斯研究项目顾问；CNAS 兼职高级研究员",
+    "role": "俄罗斯军事技术与无人系统顾问 ｜ 俄罗斯无人系统与军事AI分析师",
+    "platforms": [
+      "CNA",
+      "CNAS",
+      "X",
+      "俄语 Telegram 频道追踪"
+    ],
+    "x_handle": "@sambendett",
+    "youtube": "unknown",
+    "language": "英语、俄语",
+    "theater": [
+      "俄乌",
+      "军工与战略"
+    ],
+    "specialty": "俄罗斯无人机与反无人机产业、自主系统与军用 AI、俄军技术论坛与产业动员一手俄语信源 ｜ 俄乌无人机与无人地面/水面系统、俄军事AI与自主系统、俄军工技术论坛与志愿者造机生态；直接读俄语一手技术讨论",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "CNA 俄罗斯研究项目顾问、CNAS 兼职资深研究员、CSIS 欧俄欧亚项目非驻会高级研究员。核心一手性在于持续追踪俄语 Telegram 军工与志愿者无人机社群、俄国防工业展会与政府文件，是西方少数能实时读俄语无人机产业信源的分析者。 ｜ CNA俄罗斯研究项目顾问兼CNAS兼职高级研究员，专攻俄无人与自主系统。日常直接引用俄语Telegram技术圈与军工展会原始材料并附链接，对光纤无人机、FPV规模化等趋势的早期提示先于西方主流报道。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cna.org/our-experts/bendett-samuel",
+      "https://www.cnas.org/people/samuel-bendett"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 8.5,
+    "stars": 3,
+    "percentile": 0.3496,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Peter Makowsky",
+    "name_zh": "unknown",
+    "affiliation": "38 North（史汀生中心 Stimson Center）",
+    "role": "卫星影像分析师（常与 Jack Liu、Iliana Ragnone 合著）",
+    "platforms": [
+      "38 North"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英文",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "朝鲜宁边核设施、西海（东仓里）卫星发射场、导弹基地的逐期商业卫星影像变化判读",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "38 North 卫星影像分析主力之一，2025 年多篇报告以商业影像追踪宁边放射化学实验室扩建、东仓里新建海港，逐张标注日期与设施变化，是朝鲜核活动最稳定的开源监测来源。缺点是署名个人公开简历少、几乎不做社媒露出。",
+    "controversies": "none",
+    "sources": [
+      "https://www.38north.org/tag/peter-makowsky/",
+      "https://www.38north.org/topics/satellite-analysis/"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.5,
+    "stars": 3,
+    "percentile": 0.3577,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Avi Scharf",
+    "name_zh": "阿维·沙尔夫",
+    "affiliation": "Haaretz（《国土报》）国家安全、网络与 OSINT 主编；前 Haaretz 英文版总编",
+    "role": "以色列 OSINT 调查记者",
+    "platforms": [
+      "X",
+      "Haaretz"
+    ],
+    "x_handle": "@avischarf",
+    "youtube": "unknown",
+    "language": "希伯来语/英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "航班/船舶追踪与 ADS-B 数据分析：美军向中东的战略投送、以色列与伊朗方向的空中加油机与运输机活动、秘密航线识别；曾获欧洲新闻奖提名。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "以公开 ADS-B/AIS 数据做兵力调动判读的代表性记者，结论通常附航班号、时间与航迹，可被读者自行复核；其对美军中东最大规模部署的判读被后续事实印证。",
+    "controversies": "none",
+    "sources": [
+      "https://www.haaretz.com/ty-WRITER/0000017f-da25-d938-a17f-fe2f2c1f0000",
+      "https://www.europeanpressprize.com/laureate/avi-scharf/",
+      "https://muckrack.com/avi-scharf-1/articles"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.5,
+    "stars": 3,
+    "percentile": 0.3659,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Seth G. Jones",
+    "name_zh": "塞思·G·琼斯",
+    "affiliation": "CSIS 战略与国际研究中心",
+    "role": "防务与安全部主席、资深副总裁",
+    "platforms": [
+      "CSIS 官网",
+      "著作",
+      "国会作证"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/user/csisdc",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "国防工业基础与弹药库存、台海冲突弹药消耗兵推、大国军工产能对比",
+    "score_A": 10,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "2023-01《Empty Bins in a Wartime Environment》作者，用 CSIS 台海兵推给出量化结论：三周冲突消耗超 5000 枚远程导弹（4000 JASSM、450 LRASM、400 鱼叉、400 战斧），部分精导弹药不到一周耗尽；该报告被众议院听证直接引用。新著《The American Edge》比较各大国军工基础。",
+    "controversies": "兵推假设与消耗率被部分学者质疑偏向支持扩大采购预算。",
+    "sources": [
+      "https://www.csis.org/analysis/empty-bins-wartime-environment-challenge-us-defense-industrial-base",
+      "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2023-01/230119_Jones_Empty_Bins.pdf",
+      "https://www.csis.org/people/seth-g-jones"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.45,
+    "stars": 3,
+    "percentile": 0.3821,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Michael Knights",
+    "name_zh": "迈克尔·奈茨",
+    "affiliation": "Washington Institute for Near East Policy 高级研究员（Bernstein Fellow）；'Militia Spotlight'项目共同主持；AGSI 撰稿人",
+    "role": "伊拉克/也门/海湾军事安全研究员",
+    "platforms": [
+      "Washington Institute",
+      "X",
+      "播客"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "伊朗支持的伊拉克什叶派民兵（Kataib Hezbollah 等）袭击事件数据库、胡塞对沙特/以色列/航运的远程打击能力、海湾国家防空态势；'Militia Spotlight'逐次记录袭击并做归因。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "Militia Spotlight 是公开来源中最系统的伊朗代理人袭击事件数据集，逐条列出时间/地点/弹药/归因证据强度，方法透明可复核；本人有大量伊拉克实地调研经历。政策立场偏鹰派需注意。",
+    "controversies": "none",
+    "sources": [
+      "https://www.washingtoninstitute.org/experts/michael-knights",
+      "https://www.washingtoninstitute.org/policy-analysis/series/militia-spotlight",
+      "https://agsi.org/people/michael-knights/"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.45,
+    "stars": 3,
+    "percentile": 0.3902,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Phil Gunson",
+    "name_zh": "菲尔·冈森",
+    "affiliation": "International Crisis Group（安地斯项目高级分析师，常驻加拉加斯）",
+    "role": "委内瑞拉政治与安全分析师",
+    "platforms": [
+      "Crisis Group 报告",
+      "国际媒体评论",
+      "NYT 观点版"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "西班牙语/英语",
+    "theater": [
+      "拉美"
+    ],
+    "specialty": "委内瑞拉政治危机、马杜罗政权内部动态、美委对峙与军事施压的后果评估；数十年驻委记者与分析经历。",
+    "score_A": 9,
+    "score_B": 9,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "ICG 安地斯项目高级分析师且长期常驻加拉加斯，是少数在委内瑞拉境内持续工作的国际分析师，一手性极高；ICG 报告方法（本地访谈网络）有制度化说明。对美方军事施压效果的判断在 2025 年美委对峙中被广泛引用。",
+    "controversies": "其对制裁与军事威胁效果的怀疑立场被部分反对派支持者指为「对马杜罗过于温和」。",
+    "sources": [
+      "https://www.crisisgroup.org/who-we-are/people/phil-gunson",
+      "https://www.nytimes.com/2025/11/21/opinion/venezuela-trump-maduro-machado-regime-change.html",
+      "https://ninetyone.com/en/latin-america/insights/venezuela-on-the-ground-in-caracas-with-crisis-group"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.4,
+    "stars": 3,
+    "percentile": 0.3984,
+    "rating_provisional": false,
+    "_pick_reason": "拉美战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Open Source Centre (OSC) research team",
+    "name_zh": "开源中心（OSC）研究团队",
+    "affiliation": "Open Source Centre（英国非营利开源调查机构）",
+    "role": "机构级开源调查团队（与 RUSI 合作）",
+    "platforms": [
+      "opensourcecentre.org",
+      "与 RUSI 联合报告",
+      "X"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "俄罗斯炮弹与火炮供应链逐环节测绘（铁矿石、硫酸、CNC 机床）、制裁规避网络、船运与货运数据追踪",
+    "score_A": 7,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "英国非营利开源调查机构，2024-10 与 RUSI 合出《Ore to Ordnance: Disrupting Russia's Artillery Supply Chains》，把俄军火炮与弹药供应链从原材料（铁矿石、硫酸）一路测绘到 CNC 机床与前线交付，是「弹药经济学」最彻底的一份公开供应链拆解；报告 PDF 公开，方法与数据源可核。",
+    "controversies": "none",
+    "sources": [
+      "https://www.opensourcecentre.org/",
+      "https://www.opensourcecentre.org/research/ore-to-ordnance",
+      "https://www.rusi.org/explore-our-research/publications/external-publications/ore-ordnance-disrupting-russias-artillery-supply-chains"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.35,
+    "stars": 3,
+    "percentile": 0.4065,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Wassim Nasr",
+    "name_zh": "瓦西姆·纳斯尔",
+    "affiliation": "France 24（资深记者）；The Soufan Center（高级研究员）",
+    "role": "圣战组织与萨赫勒安全记者/研究者",
+    "platforms": [
+      "X",
+      "France 24",
+      "CTC Sentinel 访谈"
+    ],
+    "x_handle": "@SimNasr",
+    "youtube": "France 24 报道",
+    "language": "法语/阿拉伯语/英语",
+    "theater": [
+      "非洲"
+    ],
+    "specialty": "JNIM、ISSP 等萨赫勒圣战组织的内部结构与动态；与武装组织高层（含 JNIM 副手 Koufa）直接接触的少数记者之一。",
+    "score_A": 8,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "France 24 资深记者＋Soufan Center 研究员，双重根基；一手性极强——直接接触圣战组织高层、掌握原始宣传与内部通信，西点 CTC 多次以访谈形式引用其判断。方法为记者式信源核实，链条不总能公开验证。",
+    "controversies": "与武装组织直接沟通引发「给恐怖组织平台」的批评；部分萨赫勒政府指其报道有利于叛乱方。",
+    "sources": [
+      "https://www.france24.com/en/author/wassim-nasr/",
+      "https://ctc.westpoint.edu/developments-in-the-sahel-an-interview-with-wassim-nasr-journalist-france24-senior-research-fellow-soufan-center/",
+      "https://ctc.westpoint.edu/answers-from-the-sahel-wassim-nasr-journalist-france24-on-his-interview-with-deputy-jnim-leader-mohamed-amadou-koufa/"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.35,
+    "stars": 3,
+    "percentile": 0.4146,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Stacie Pettyjohn",
+    "name_zh": "斯泰西·佩蒂约翰",
+    "affiliation": "新美国安全中心（CNAS）",
+    "role": "资深研究员、防务项目主任",
+    "platforms": [
+      "CNAS 官网与报告",
+      "X",
+      "兵推简报"
+    ],
+    "x_handle": "@StaciePettyjohn",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略"
+    ],
+    "specialty": "精确制导弹药产能与库存、兵棋推演、兵力部署与国防战略、无人系统与「可消耗质量」",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "CNAS 防务项目主任，2023-06 与 Hannah Dennis 合著《'Production Is Deterrence': Investing in Precision-Guided Weapons to Meet Peer Challengers》，把「产能本身就是威慑」的命题量化成对具体弹种的采购建议；此前在 RAND 做兵力规划与兵推，兵推方法论有公开发表。",
+    "controversies": "none",
+    "sources": [
+      "https://www.cnas.org/people/stacie-pettyjohn",
+      "https://www.cnas.org/press/press-release/new-cnas-report-production-is-deterrence-investing-in-precision-guided-weapons-to-meet-peer-challengers"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.3,
+    "stars": 3,
+    "percentile": 0.4228,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Ankit Panda",
+    "name_zh": "安基特·潘达",
+    "affiliation": "卡内基国际和平基金会 核政策项目 / MIT 核安全政策中心",
+    "role": "斯坦顿资深研究员 ｜ Stanton 高级研究员",
+    "platforms": [
+      "Carnegie 官网",
+      "ankitpanda.com",
+      "X",
+      "The Diplomat 前编辑"
+    ],
+    "x_handle": "@nktpnd",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "军工与战略",
+      "印太"
+    ],
+    "specialty": "核战略与升级路径、导弹与导弹防御、朝鲜核与导弹项目、太空安全、美国同盟延伸威慑 ｜ 朝鲜导弹技术与核战略、延伸威慑、中美核态势；擅长从朝中社影像与弹道参数反推技术细节",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "卡内基核政策项目斯坦顿资深研究员、MIT 核安全政策中心附属研究员，专攻核战略、升级与导弹防御；著有关于朝鲜核力量的专著，长期基于朝方公开影像与试验数据做能力判读，在朝鲜固体燃料导弹与洲际能力的时间线判断上有可查记录。 ｜ 卡内基核政策 Stanton 高级研究员、MIT CIS 关联学者，著有《Kim Jong Un and the Bomb》。长期对朝鲜每次试射做技术复核（射程/弹道/发射车型号），推理依据（朝中社照片、日韩防卫省数据）逐条列明；亦为 NK News/Korea Pro 特约分析师。",
+    "controversies": "none",
+    "sources": [
+      "https://carnegieendowment.org/people/ankit-panda",
+      "https://cis.mit.edu/our-people/ankit-panda",
+      "https://www.ankitpanda.com/",
+      "https://koreapro.org/meet-the-team/ankit-panda-contributing-analyst/"
+    ],
+    "_source_file": "defense_industry.json",
+    "_merged_from": 2,
+    "weighted_score_recomputed": 8.3,
+    "stars": 3,
+    "percentile": 0.4309,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Raz Zimmt",
+    "name_zh": "拉兹·齐姆特",
+    "affiliation": "以色列国家安全研究所（INSS）'伊朗与什叶派轴心'研究项目主任；特拉维夫大学 Alliance 伊朗研究中心研究员",
+    "role": "伊朗研究学者",
+    "platforms": [
+      "X",
+      "INSS",
+      "个人网站 razzimmt.com"
+    ],
+    "x_handle": "unknown",
+    "youtube": "unknown",
+    "language": "希伯来语/波斯语/英语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "伊朗国内政治、IRGC 与'抵抗轴心'（真主党、胡塞、伊拉克民兵）的关系、伊朗媒体与社交媒体舆情监测；直接读波斯语一手材料。",
+    "score_A": 9,
+    "score_B": 8,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "INSS 伊朗项目负责人，长期以波斯语原始媒体与官方声明为素材做趋势判读，写作区分'已知/推测'。对伊朗在多轮对以冲突中的升级门槛判断被后续事态多次印证。立场为以色列建制派安全智库，需注意视角偏向。",
+    "controversies": "none（隶属以色列官方色彩智库，分析视角天然亲以，非造假争议）",
+    "sources": [
+      "https://www.inss.org.il/person/zimmtraz/",
+      "https://www.razzimmt.com/?page_id=20",
+      "https://en-humanities.tau.ac.il/ACIS-razimmt-eng-welcome"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.3,
+    "stars": 3,
+    "percentile": 0.439,
+    "rating_provisional": false,
+    "_pick_reason": "全局分数",
+    "active": true
+  },
+  {
+    "name_en": "Mohammed Zubair",
+    "name_zh": "穆罕默德·祖拜尔",
+    "affiliation": "Alt News（联合创始人，印度事实核查机构）",
+    "role": "事实核查者",
+    "platforms": [
+      "X",
+      "Alt News"
+    ],
+    "x_handle": "@zoo_bear",
+    "youtube": "unknown",
+    "language": "英语/印地语",
+    "theater": [
+      "南亚"
+    ],
+    "specialty": "印巴冲突期间的虚假影像溯源与辟谣：识别旧视频、游戏画面、AI 生成图被当作 2025年5月战果传播的案例。",
+    "score_A": 6,
+    "score_B": 9,
+    "score_C": 9,
+    "score_D": 9,
+    "rating_reason": "Alt News 联合创始人，2025年5月「辛杜尔行动」期间高强度辟谣，被 Newslaundry、Deccan Herald 等专题报道；每条核查附原始素材出处与反向搜索链路，方法完全可复核。机构为独立核查组织而非研究智库，不产出军事分析本身，但对本战区信息卫生至关重要。",
+    "controversies": "2022年因旧推文遭印度警方逮捕（后获最高法院保释），被印度教民族主义阵营长期攻击为「亲巴/反印」，但其核查结论鲜有被实证推翻。",
+    "sources": [
+      "https://www.altnews.in/author/mzubair/",
+      "https://www.newslaundry.com/2025/05/07/zubair-vs-the-fake-news-machine-a-day-of-digital-warfare-after-operation-sindoor",
+      "https://www.deccanherald.com/india/mohammed-zubair-the-fact-checker-who-took-on-pakistan-over-misinformation-during-operation-sindoor-3530974"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.1,
+    "stars": 3,
+    "percentile": 0.5041,
+    "rating_provisional": false,
+    "_pick_reason": "南亚战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Vipin Narang",
+    "name_zh": "维平·纳朗",
+    "affiliation": "MIT 政治学系（Frank Stanton 核安全教授）；曾任美国国防部代理助理部长（太空政策）",
+    "role": "核战略学者",
+    "platforms": [
+      "X",
+      "学术论文",
+      "期刊评论"
+    ],
+    "x_handle": "@NarangVipin",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "南亚"
+    ],
+    "specialty": "地区核大国的核态势理论（Nuclear Strategy in the Modern Era / Seeking the Bomb），巴基斯坦「不对称升级」态势的提出者，印巴核门槛分析权威。",
+    "score_A": 10,
+    "score_B": 5,
+    "score_C": 8,
+    "score_D": 9,
+    "rating_reason": "MIT 讲席教授＋美国国防部政策实职经历，机构根基顶级；核态势分类框架被学界广泛采用，方法与数据来源公开可复核。一手性低（理论与文献分析为主）。危机期间发言谨慎、区分已证实与未证实信息。",
+    "controversies": "曾任拜登政府国防部官员，评论美国政策时存在立场倾向，需注意其官方经历带来的视角偏差。",
+    "sources": [
+      "https://polisci.mit.edu/people/vipin-narang",
+      "https://ssp.mit.edu/people/vipin-narang",
+      "https://en.wikipedia.org/wiki/Vipin_Narang"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 8.0,
+    "stars": 3,
+    "percentile": 0.5366,
+    "rating_provisional": false,
+    "_pick_reason": "南亚战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Rocío San Miguel",
+    "name_zh": "罗西奥·圣米格尔",
+    "affiliation": "Control Ciudadano（委内瑞拉军队监督 NGO，创始人/主任）",
+    "role": "委内瑞拉军队与国防事务分析师",
+    "platforms": [
+      "Control Ciudadano 网站",
+      "媒体访谈"
+    ],
+    "x_handle": "@rociosanmiguel",
+    "youtube": "unknown",
+    "language": "西班牙语",
+    "theater": [
+      "拉美"
+    ],
+    "specialty": "委内瑞拉武装力量编制、军官人事与晋升、军队政治化与国防预算；对 FANB 结构的公开数据追踪几乎独一无二。",
+    "score_A": 6,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "自建 NGO 长期以公开档案追踪委内瑞拉军队人事与结构，一手数据在该领域无可替代，方法基于官方公报可复核。机构根基弱（非大学/国际智库）。2024 年被委政府以恐怖主义指控逮捕，本身佐证其工作触及政权敏感处。",
+    "controversies": "2024年2月遭委内瑞拉政府以「恐怖主义、叛国」指控拘押，被国际人权组织认定为任意拘留；官方指控无可信证据。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roc%C3%ADo_San_Miguel",
+      "https://www.controlciudadano.org/analisis",
+      "https://ifit-transitions.org/experts/rocio-san-miguel/"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 7.9,
+    "stars": 3,
+    "percentile": 0.5935,
+    "rating_provisional": false,
+    "_pick_reason": "拉美战区保底",
+    "active": true
+  },
+  {
+    "name_en": "Christopher Clary",
+    "name_zh": "克里斯托弗·克拉里",
+    "affiliation": "University at Albany, SUNY / Stimson Center（非驻会研究员）",
+    "role": "政治学副教授、南亚核态势与印巴危机研究者",
+    "platforms": [
+      "X",
+      "学术论文",
+      "Stimson South Asian Voices"
+    ],
+    "x_handle": "@clary_co",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "南亚"
+    ],
+    "specialty": "印巴危机管理、南亚核威慑、美国对南亚政策；著有《The Difficult Politics of Peace》，长期研究印巴军事对峙的升级与降级机制。",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "学界与智库双重根基（Albany 教职 + Stimson 附属），著作与同行评议论文构成方法透明的证据链。2025年5月印巴冲突期间以克制、依据可核实信息的分析著称，避免了社媒上泛滥的战果吹嘘。一手性偏低（不做实地或影像采集），主要是二次分析。",
+    "controversies": "none",
+    "sources": [
+      "https://www.stimson.org/ppl/christopher-clary/",
+      "https://www.albany.edu/rockefeller/faculty/christopher-clary",
+      "https://southasianvoices.org/author/christopherclary/"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 7.8,
+    "stars": 2,
+    "percentile": 0.6667,
+    "rating_provisional": false,
+    "_pick_reason": "南亚战区保底（放宽至 2★）",
+    "regional_representative": true,
+    "quality_flag": "区域代表·评分较低",
+    "active": true
+  },
+  {
+    "name_en": "Sushant Singh",
+    "name_zh": "苏尚特·辛格",
+    "affiliation": "Yale University（南亚研究讲师）；Centre for Policy Research 前高级研究员；The Caravan 撰稿编辑；印度陆军退役上校",
+    "role": "军事事务记者与研究者",
+    "platforms": [
+      "X",
+      "The Caravan",
+      "Foreign Policy 专栏"
+    ],
+    "x_handle": "@SushantSin",
+    "youtube": "unknown",
+    "language": "英语/印地语",
+    "theater": [
+      "南亚"
+    ],
+    "specialty": "印度军队与政治关系、实控线（LAC）中印对峙、印巴危机；对官方战报的独立核查见长。",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": 8,
+    "score_D": 7,
+    "rating_reason": "耶鲁教职＋CPR 智库经历＋军旅与调查报道背景，兼具机构根基与一手信源。2020 年中印加勒万对峙、2025年5月印巴冲突期间对印方官方叙事的质疑多被后续披露证实，是当轮少数不传谣的印度评论者之一。",
+    "controversies": "被印度政府支持者指为「唱衰印军」，与官方叙事长期对立；部分批评者认为其立场先行。",
+    "sources": [
+      "https://macmillan.yale.edu/southasia/person/sushant-singh",
+      "https://caravanmagazine.in/author/38785",
+      "https://foreignpolicy.com/author/sushant-singh/"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 7.6,
+    "stars": 2,
+    "percentile": 0.7886,
+    "rating_provisional": false,
+    "_pick_reason": "南亚战区保底（放宽至 2★）",
+    "regional_representative": true,
+    "quality_flag": "区域代表·评分较低",
+    "active": true
+  },
+  {
+    "name_en": "Damien Symon",
+    "name_zh": "达米安·西蒙",
+    "affiliation": "The Intel Lab（地理空间情报研究员）",
+    "role": "卫星影像 OSINT 分析师",
+    "platforms": [
+      "X",
+      "The Intel Lab"
+    ],
+    "x_handle": "@detresfa_",
+    "youtube": "unknown",
+    "language": "英语",
+    "theater": [
+      "南亚"
+    ],
+    "specialty": "南亚军事设施卫星影像判读：2025年5月印巴冲突中对 Nur Khan、Jacobabad、Bholari 等巴基斯坦空军基地及印方设施的战损评估。",
+    "score_A": 5,
+    "score_B": 10,
+    "score_C": 8,
+    "score_D": 8,
+    "rating_reason": "独立地理空间分析者，2025年5月印巴冲突中其影像判读被印度与国际主流媒体（HT、Firstpost 等）广泛引用，是当轮少数以可核验卫星图像（附日期与坐标）取代传言的来源，方法可复现。机构根基弱（非大学/大型智库），且选题与呈现被认为偏向印方视角。",
+    "controversies": "被巴方与部分观察者批评选择性发布（多披露巴方受损、少评估印方损失），需与其他影像分析者交叉验证。",
+    "sources": [
+      "https://www.hindustantimes.com/india-news/new-imagery-reveals-part-of-pakistani-base-razed-after-indian-airstrikes-101748197906733.html",
+      "https://www.firstpost.com/explainers/pakistan-nur-khan-airbase-operation-sindoor-13951731.html",
+      "https://x.com/detresfa_"
+    ],
+    "_source_file": "other_theaters.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 7.6,
+    "stars": 2,
+    "percentile": 0.7967,
+    "rating_provisional": false,
+    "_pick_reason": "南亚战区保底（放宽至 2★）",
+    "regional_representative": true,
+    "quality_flag": "区域代表·评分较低",
+    "active": true
+  },
+  {
+    "name_en": "Babak Taghvaee",
+    "name_zh": "巴巴克·塔格瓦伊",
+    "affiliation": "自由撰稿人；Middle East Forum Observer / Washington Institute 外部作者；Iran International 供稿人；AirForces Monthly、Key.Aero、CRFS 博客撰稿",
+    "role": "伊朗裔流亡防务与安全记者、航空史作者、自称 OSINT 专家",
+    "platforms": [
+      "X",
+      "Middle East Forum",
+      "Iran International",
+      "Key.Aero",
+      "AirForces Monthly"
+    ],
+    "x_handle": "@BabakTaghvaee1",
+    "youtube": "unknown",
+    "language": "英语/波斯语",
+    "theater": [
+      "中东"
+    ],
+    "specialty": "伊朗空军与航空工业、伊朗民航制裁规避（马汉航空购机路线）、IRGC 导弹与空袭战报速递；对伊朗-以色列-美国空战做即时战报式播报。",
+    "score_A": 6,
+    "score_B": 5,
+    "score_C": 3,
+    "score_D": 3,
+    "rating_reason": "机构履历确实存在（MEF Observer、Washington Institute 2024 文章、Iran International 作者页、Key.Aero），伊朗航空/制裁规避线索有独家性。但战时速报大量为不可核验的匿名'内部消息'，实时战报（如具体机型投弹数、拦截弹消耗量）几乎不给一手证据；连转载他的博主也公开表示无法判断其准确度。方法透明度低，故 C/D 压低。",
+    "controversies": "X 上多次被他人公开要求删帖/更正，例如 2026-03 有用户在其贴下称'Not true. Please remove your post it is giving false information'；亲以立场明显。转载者 BattleSwarm Blog 在引用其 B-1B/B-2 轰炸声明时明确写道'不知道是哪型轰炸机说明消息源缺乏一手信息'。他自述 2018 年账号曾被封。关于 2026-09-01 '伊朗对约旦美军基地发射 32 枚弹道导弹、美军消耗 96-128 枚 PAC-3、全球库存仅剩千余枚'的说法，公开检索未找到独立权威来源佐证，属单源未证实。",
+    "sources": [
+      "https://www.meforum.org/babak-taghvaee",
+      "https://www.washingtoninstitute.org/experts/babak-taghvaee",
+      "https://www.iranintl.com/en/author/babak-taghvaee",
+      "https://www.key.aero/author/babak-taghvaee",
+      "https://x.com/zeroDEIUSA/status/2040188594686431398",
+      "https://www.battleswarmblog.com/?tag=babak-taghvaee",
+      "https://x.com/babaktaghvaee1"
+    ],
+    "_source_file": "mideast.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 4.4,
+    "stars": 1,
+    "percentile": 0.9837,
+    "rating_provisional": false,
+    "watchlist": true,
+    "active": true,
+    "quality_flag": "低可信度·需交叉验证（Chao 指定纳入监测，不计入 3★ 名额）",
+    "_pick_reason": "Chao 点名纳入（监测对象）"
+  },
+  {
+    "name_en": "Zhu Weiyi (\"Ting Feng De Can\")",
+    "name_zh": "聽風的蠶（朱唯一）",
+    "affiliation": "独立自媒体（YouTube 频道 @zhuweiyi）",
+    "role": "中文军事时评 UP 主",
+    "platforms": [
+      "YouTube",
+      "YouTube Music/播客镜像"
+    ],
+    "x_handle": "unknown",
+    "youtube": "https://www.youtube.com/@zhuweiyi",
+    "language": "中文（简体）",
+    "theater": [
+      "印太"
+    ],
+    "specialty": "每日更新的全球战事（俄乌、中东、台海）口播时评，以「解读+判断」为主，素材几乎全部来自他人推文与外媒报道",
+    "score_A": 2,
+    "score_B": 2,
+    "score_C": 3,
+    "score_D": 2,
+    "rating_reason": "高频日更（单集约 3-15 分钟，单集播放量约 1.5-2.5 万），内容形态为二手转引再解读：实测 2026-09-01《9.1 32枚导弹只拦截了8枚？爱国者一次消耗128枚？》一期，核心数据全部转引自 Babak Taghvaee，本人只提供「我认为说得很对」式判断，无自采数据、无卫星影像、无来源清单，故 score_B 极低。",
+    "controversies": "中文自媒体圈存在公开批评其「造谣」的指控（如 YouTube 视频《大V怒批@听风的蚕，军事自媒体造谣没人管吗？》），另有频道被封/风波传闻；其身份传为河南漯河检察系统离职人员（仅见于内容农场类来源，未获权威证实，标 unknown）。转引源本身（如 Babak Taghvaee）准确度亦长期受质疑。",
+    "sources": [
+      "https://www.youtube.com/@zhuweiyi",
+      "https://music.youtube.com/@zhuweiyi",
+      "https://www.youtube.com/watch?v=ppzREW--vlM"
+    ],
+    "_source_file": "indopacific.json",
+    "_merged_from": 1,
+    "weighted_score_recomputed": 2.3,
+    "stars": 1,
+    "percentile": 1.0,
+    "rating_provisional": false,
+    "watchlist": true,
+    "active": true,
+    "quality_flag": "低可信度·需交叉验证（Chao 指定纳入监测，不计入 3★ 名额）",
+    "_pick_reason": "Chao 点名纳入（监测对象）"
+  }
+]
