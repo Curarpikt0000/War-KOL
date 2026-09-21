@@ -38,7 +38,7 @@ SCAN_FILES=(
   data/removed_no_thesis_*.json
   data/layers/*.json
 )
-# ⚠️ presto 必须带词边界 \b：2026-09-05 实测被播客主持人姓氏「Preston」误伤，
+# ⚠️ 下方内部技术栈关键词必须带词边界 \b：2026-09-05 实测被播客主持人姓氏「Preston」误伤，
 #    中止了整次 push。放宽关键词是危险的，加边界不是——它只是不再匹配单词内部。
 if grep -rniE "code\.uber\.internal|uberinternal|\baifx\b|\bpresto\b|chao\.jin|hermeschao|ChaoProjects|ntn_[A-Za-z0-9]{15}|secret_[A-Za-z0-9]{15}" \
    "${SCAN_FILES[@]}" data/statements/*.json 2>/dev/null | grep -v notion_ids; then
