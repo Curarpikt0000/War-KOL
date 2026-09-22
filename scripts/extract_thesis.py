@@ -440,7 +440,26 @@ def main():
         except Exception:
             body_cache = {}
 
-    need = [s for s in stage2 if s["source_url"] not in body_cache]
+    # ★ 2026-09-22 修：缓存把【瞬时失败】也永久固化了，与上方 403-404 行
+    #   「闸2 无正文仍会重试」的既定口径直接矛盾。实测 3475 条缓存里 635 条是
+    #   403/429/503/超时/SSL 等可恢复失败，因为 key 已在 cache 里而永不重抓，
+    #   当日新料名额被它们占死 → 合格数长期 0。
+    #   ⇒ 只把【成功且正文足够】视为终态缓存；瞬时失败每轮重试；
+    #     硬失败（404/410 等确定性状态）仍固化，不浪费请求。
+    HARD_ST = {"404", "410", "400", "401", "402", "405", "406", "412", "451"}
+
+    def _cache_final(entry):
+        st = str(entry.get("st"))
+        if st == "200":
+            return len(entry.get("body") or "") >= MIN_BODY
+        return st in HARD_ST
+
+    need = [s for s in stage2
+            if s["source_url"] not in body_cache
+            or not _cache_final(body_cache[s["source_url"]])]
+    n_retry = sum(1 for s in need if s["source_url"] in body_cache)
+    if n_retry:
+        print(f"  瞬时失败重试 {n_retry} 条（403/429/超时类，硬失败不重试）")
     t0 = time.time()
     if need:
         fetched = list(ThreadPoolExecutor(args.workers).map(
