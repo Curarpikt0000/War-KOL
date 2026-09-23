@@ -1,0 +1,290 @@
+[
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2025/09/12/casualties_eng-trl",
+  "source_title": "How many Russian soldiers died in the war with Ukraine",
+  "published_on": "2025-09-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争中俄军总死亡人数估算方法与公开验证名单",
+  "claim": "截至2025年12月底，俄军阵亡总数远超公开可验证的24万余人名单，需结合遗嘱登记处超额男性死亡率数据才能获得更完整的战争伤亡全貌",
+  "reasoning": "Mediazona与BBC俄语部合作维护的公开可验证阵亡名单（来自社交媒体、地方媒体、官方声明）截至2026年9月已收录24万余例，但这一名单「并不详尽，因为并非每例死亡都会公开报道」。为弥补仅依赖公开报道的局限性，项目团队与Meduza合作开发了基于国家遗嘱登记处数据的超额男性死亡率统计模型，用于估算战争真实伤亡规模。文中明确指出该统计方法「帮助解决仅依赖公开报道死亡的局限性」，暗示实际死亡人数显著高于已验证名单。",
+  "evidence": [
+   "截至2026年9月21日，已确认7692名俄军及其他安全机构军官死亡",
+   "已验证名单中包含15名将军级别军官阵亡（5名中将、7名少将、2名退役将军、1名逃往俄罗斯的乌克兰国家安全局少将）",
+   "已知死亡日期的案例达241600例，已知年龄的报告达244700例",
+   "2024年9月志愿兵重新成为阵亡者最大类别，反映监狱招募大幅减少但志愿者招募持续不减",
+   "2022年战争初期空降部队和摩托化步兵损失最大，2023年3月囚犯成为最大阵亡类别（主要用于巴赫穆特突击作战）",
+   "军官阵亡占比从战争初期的10%降至2024年11月的2-3%，反映战术演变和志愿步兵大规模招募"
+  ],
+  "data": [
+   {
+    "metric": "公开验证阵亡名单总数",
+    "value": "超过24万人",
+    "context": "截至2026年9月，包含已知死亡日期241600例、已知年龄244700例"
+   },
+   {
+    "metric": "已确认动员兵阵亡",
+    "value": "20500人",
+    "context": "截至2026年9月21日，项目组认为这是「显著低估」"
+   },
+   {
+    "metric": "已确认军官阵亡",
+    "value": "7692人",
+    "context": "截至2026年9月21日"
+   },
+   {
+    "metric": "已确认将军阵亡",
+    "value": "15人",
+    "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰叛逃将军"
+   },
+   {
+    "metric": "军官阵亡占比",
+    "value": "2-3%",
+    "context": "2024年11月数据，战争初期曾达10%"
+   },
+   {
+    "metric": "遗嘱登记处估算更新日期",
+    "value": "2026年5月9日",
+    "context": "估算截至2025年12月底数据"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "持续监测中（双周更新摘要，数据库实时更新）",
+  "confidence": "high",
+  "extracted_on": "2026-09-24"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://www.taylorfravel.com/2024/",
+  "source_title": "2024 - M. Taylor Fravel",
+  "published_on": "2024-10-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fravel」",
+  "topic": "中国全球安全倡议（GSI）的发展与实施前景",
+  "claim": "GSI 的前景与实施情况喜忧参半，内容仍然模糊宽泛，获得的正式支持有限，实施效果不均衡",
+  "reasoning": "M. Taylor Fravel 通过分析 GSI 推出两周年的发展情况，认为其内容刻意保持模糊以增加支持、寻求机会主义实施并削弱美国作为安全行为体的信誉。从其他国家的反应看，将 GSI 纳入联合文件的正式支持有限。在实施层面，尤其是在亚洲地区，很少有区域组织提供无条件支持或在该倡议旗帜下推进合作。基于这些观察，他判断 GSI 未来发展呈现复杂局面",
+  "evidence": [
+   "GSI 的内容保持模糊和宽泛",
+   "其他国家在联合文件中纳入 GSI 的正式支持有限",
+   "GSI 在亚洲地区的实施不均衡",
+   "很少有区域组织提供无条件支持",
+   "很少有区域组织在 GSI 旗帜下推进合作"
+  ],
+  "data": [
+   {
+    "metric": "GSI 推出时长",
+    "value": "2年",
+    "context": "截至分析时点的周年纪念"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-24"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://ssp.mit.edu/news/2026/fravel-assessing-xis-unprecedented-purges-of-chinas-military-key-developments-and",
+  "source_title": "Fravel: Assessing Xi's Unprecedented Purges of China's Military: Key ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ssp.mit.edu",
+  "topic": "习近平军队清洗对解放军领导层及台海作战能力的影响",
+  "claim": "解放军领导层重建需要时间，在空缺岗位或新晋军官经验不足的情况下，解放军难以执行针对台湾的大规模封锁或两栖攻击行动",
+  "reasoning": "M. Taylor Fravel通过量化分析指出，52%的解放军领导职位受到清洗影响，战区正职级38名军官被免职，战区副职级56名军官被免职使晋升人才池减少超过三分之一。军官晋升通常需在现职级服役3-5年，这进一步延缓领导层补充。在战区副职级被清洗军官中68%来自作战指挥序列，这直接削弱了解放军执行复杂军事行动的能力，因为关键作战岗位要么空缺，要么由经验不足的新晋军官担任",
+  "evidence": [
+   "2022年任命的6名中央军委委员中仅剩1人，且此人是政委而非作战军官",
+   "CSIS数据显示101名中央军委、战区正职或副职级别的高级军官被免职或失踪",
+   "解放军领导层约176个职位中，52%的职位受到清洗影响",
+   "所有军种（陆海空火箭军）和所有战区的司令员与政委均经历过清洗",
+   "战区正职级38名军官被免职，战区副职级56名军官被免职",
+   "战区副职级被清洗军官中68%来自作战指挥序列"
+  ],
+  "data": [
+   {
+    "metric": "中央军委2022年任命委员留任比例",
+    "value": "1/6",
+    "context": "截至报告发布时"
+   },
+   {
+    "metric": "解放军领导层职位总数",
+    "value": "约176个",
+    "context": "包括6个中央军委职位、25个战区正职、145个战区副职"
+   },
+   {
+    "metric": "被清洗高级军官人数",
+    "value": "101名",
+    "context": "中央军委、战区正职或副职级别"
+   },
+   {
+    "metric": "受影响领导职位比例",
+    "value": "52%",
+    "context": "经去重后的职位统计"
+   },
+   {
+    "metric": "战区副职级职位受影响比例",
+    "value": "38%",
+    "context": "所有战区副职级职位"
+   },
+   {
+    "metric": "战区正职级被清洗人数",
+    "value": "38名",
+    "context": "最高级别战区指挥官"
+   },
+   {
+    "metric": "战区副职级被清洗人数",
+    "value": "56名",
+    "context": "晋升候选人才池"
+   },
+   {
+    "metric": "晋升所需在职时间",
+    "value": "3-5年",
+    "context": "通常晋升规则"
+   },
+   {
+    "metric": "战区副职级被清洗军官中作战序列占比",
+    "value": "68%",
+    "context": "相比战区正职级的53%"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明具体时间，但强调「重建需要时间」且受3-5年晋升周期限制",
+  "confidence": "high",
+  "extracted_on": "2026-09-24"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://responsiblestatecraft.org/global-mafia-politics/",
+  "source_title": "Geo-kleptocracy and the rise of 'global mafia politics'",
+  "published_on": "2026-02-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "全球「地缘盗贼政治」(geo-kleptocracy)对国际秩序与弱国主权的侵蚀",
+  "claim": "「地缘盗贼政治」已吞并传统地缘战略，成为当前国际关系的主导逻辑，国家主权被降为次要地位",
+  "reasoning": "de Waal认为「政治市场」(political marketplace)从未消失,帝国时代遗留的金融与安全主权控制机制一直存在。2008年金融危机压缩了穷国公共财政、美国从中东撤出军事霸权后,海湾国家等行为体填补真空,使政治市场从个别国家扩展为区域乃至全球现象。特朗普时代将暗箱操作公开化——「不是会破坏规则,而是根本没有规则」,政治-商业集团通过政治资金+胁迫创造无限财富的体系已取代传统国家利益逻辑。",
+  "evidence": [
+   "苏丹政府代表团负责人在达尔富尔和谈中公开使用「政治预算」(sandouk alsiyasia)收买叛军代表,用「政治集市」(souq alsiyasia)术语描述权力交易",
+   "英法在去殖民化进程中试图保留前殖民地的金融主权与安全主权",
+   "2008年金融危机严重压缩穷国公共财政,使当权者无法兑现基本公共福利承诺",
+   "美国从大中东地区撤出军事霸权后,海湾国家等行为体填补真空",
+   "美国在阿富汗官方推行国家建设,CIA同时向军阀发放政治资金换取反恐合作,尽管这些军阀严重腐败并破坏制度建设",
+   "特朗普在委内瑞拉行动后公开宣称让美国大型石油公司投资数十亿美元修复石油基础设施并为该国赚钱"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "当前已发生",
+  "confidence": "high",
+  "extracted_on": "2026-09-24"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://sudanevents.com/index.php/2025/11/30/alex-de-waal-the-white-house-must-break-sudans-cycle-of-destruction/",
+  "source_title": "Alex de Waal: The White House Must Break Sudan's Cycle of Destruction",
+  "published_on": "2025-11-30",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "苏丹内战与美国斡旋前景",
+  "claim": "特朗普若真正对阿联酋施压使其停止支持RSF，可打破苏丹40年战争循环，否则停火难以实现",
+  "reasoning": "Alex de Waal认为特朗普对埃及、沙特、阿联酋领导人具有个人影响力，这是关键杠杆；但美国主导的四方计划（停火-人道准入-文官政府谈判）受制于沙特-阿联酋地区竞争，且苏丹在两国议程中优先级低于加沙和叙利亚。历史上苏丹领导人反复拒绝调停方案，当前双方（RSF领导人Hemedti与布尔汉将军及其伊斯兰盟友）均在占优时试图「完成任务」。他判断成败取决于美国是否愿意公开对阿联酋施压停止支持RSF，而特朗普政府目前看似不愿这样做。",
+  "evidence": [
+   "特朗普在白宫会见沙特王储穆罕默德·本·萨勒曼后承诺「我们将开始处理苏丹问题」，此前他表示苏丹冲突「完全不在其计划之内」",
+   "RSF在500天围攻后占领Al-Fashir，实施种族针对性屠杀，估计5000-6000人死亡，施暴者拍摄「战利品视频展示极端暴行」",
+   "美国主导的四方计划（美国、埃及、沙特、阿联酋）围绕停火、人道准入和文官政府谈判展开",
+   "沙特和阿联酋将加沙与叙利亚置于苏丹之前的优先级",
+   "苏丹公民「分裂、疲惫且不信任将军们」但仍寻求通向民主的公正和平"
+  ],
+  "data": [
+   {
+    "metric": "流离失所人口",
+    "value": "1200万人",
+    "context": "两年半战争累计"
+   },
+   {
+    "metric": "Al-Fashir围攻时长",
+    "value": "500天",
+    "context": "RSF占领前"
+   },
+   {
+    "metric": "Al-Fashir屠杀死亡人数",
+    "value": "5000-6000人",
+    "context": "估计值"
+   },
+   {
+    "metric": "所需人道援助资金",
+    "value": "30亿美元",
+    "context": "即使实现停火后"
+   },
+   {
+    "metric": "战争持续时间",
+    "value": "40年",
+    "context": "历史战争循环"
+   },
+   {
+    "metric": "和平倡议失败次数",
+    "value": "6次",
+    "context": "连续失败"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-24"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://hamedalghaithi.com/podcast/4-the-war-in-darfur-with-alex-de-waal/",
+  "source_title": "[#4] The War in Darfur with Alex de Waal - Hamed Al Ghaithi",
+  "published_on": "2025-12-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "苏丹达尔富尔战争及快速支援部队围攻法希尔城的性质与前景",
+  "claim": "法希尔城陷落后正在发生「种族灭绝式屠杀」，这场战争在机制上延续了20年前「廉价反叛乱」与「习惯性种族灭绝」的模式，只是执行主体从非正规民兵升格为快速支援部队",
+  "reasoning": "Alex de Waal 基于40年苏丹研究经验，认为快速支援部队围攻法希尔18个月造成饥荒与系统性屠杀，其手法（使用无人机攻击医院、对逃亡平民勒索或处决、占领后屠杀平民并摧毁医疗设施）与20年前政府雇佣 Janjaweed 民兵镇压达尔富尔叛乱的模式完全一致。他强调这并非「原始部落仇恨」，而是通过「政治市场」逻辑拼凑的利益联盟——快速支援部队虽以阿拉伯游牧部落为主，但内部也有被其屠杀的同族群成员，双方都有跨族群武装参与。他将当前冲突定性为「已被预告数月但未被阻止的种族灭绝」，本质是制度化暴力体系的延续而非族群宿命。",
+  "evidence": [
+   "法希尔被围困超过18个月，快速支援部队实施饥饿围城，饥荒状况持续一年以上",
+   "2025年1月26日法希尔陷落，快速支援部队使用火炮和无人机攻击平民目标包括医院",
+   "快速支援部队对试图逃离者进行勒索或杀害，占领地区后屠杀平民并摧毁医疗基础设施",
+   "快速支援部队前身是20年前政府雇佣的 Janjaweed 非正规民兵，后被前总统巴希尔正规化为快速支援部队以巩固权力",
+   "美国国务卿布林肯正推动由美国、埃及、沙特、阿联酋组成的「四方机制」介入，因这些外部赞助方提供的大规模武器与资金使当前战争强度成为可能"
+  ],
+  "data": [
+   {
+    "metric": "围困持续时间",
+    "value": "18个月以上",
+    "context": "针对法希尔城的围困"
+   },
+   {
+    "metric": "饥荒持续时间",
+    "value": "一年以上",
+    "context": "法希尔围城造成的饥荒状况"
+   },
+   {
+    "metric": "战争总持续时间",
+    "value": "两年半",
+    "context": "达尔富尔地区当前战争"
+   },
+   {
+    "metric": "Alex de Waal 研究苏丹年限",
+    "value": "40年以上",
+    "context": "其在苏丹及非洲之角的研究与实践经验"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "已发生且持续中（法希尔陷落后的种族灭绝仍在进行）",
+  "confidence": "high",
+  "extracted_on": "2026-09-24"
+ }
+]
