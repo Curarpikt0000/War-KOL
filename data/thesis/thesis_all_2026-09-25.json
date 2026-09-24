@@ -1,0 +1,69 @@
+[
+ {
+  "kol": "Mark F. Cancian",
+  "theater": "军工与战略",
+  "source_url": "https://dailycallernewsfoundation.org/2023/01/22/heres-how-long-it-will-take-to-replenish-us-weapons-stocks-sent-to-ukraine/",
+  "source_title": "Here’s How Long It Will Take To Replenish US Weapons Stocks Sent...",
+  "published_on": "2023-01-22",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mark f. cancian」",
+  "topic": "美国军援乌克兰后军火库存补充时间线",
+  "claim": "美国即便在应急生产速率下也需要数年才能补足援乌后的关键弹药库存，部分武器补充周期长达18年",
+  "reasoning": "Cancian基于生产速率与消耗量对比进行测算：以155mm炮弹为例，常规年产9.3万发无法抵消训练消耗，紧急产能24万发/年也需5年补足；GPS制导弹药年产仅1000发需7年；标枪导弹因库存告急已暂停对乌交付，需5.5-8年重建；毒刺导弹因国防部需求下降产能不足，补充周期可达18年。这些数据均假设不再继续对乌援助的前提下计算，实际情况更严峻。",
+  "evidence": [
+   "美国已向乌克兰提供110万发155mm炮弹，常规年产能9.3万发永远无法补足（因训练维护消耗），应急产能24万发/年需5年重建库存",
+   "GPS制导155mm弹药年产1000发，按此速率需7年补足库存，应急产能下仍需4年",
+   "标枪导弹库存紧张到国防部已暂停对乌交付以保留应对其他冲突的能力，常规产能下需8年补充，应急产能需5.5年",
+   "毒刺导弹补充时间可能长达18年，原因是国防部对该武器需求下降导致产能萎缩",
+   "美国仅提供20套海马斯系统，相对乌克兰需求极少，但该系统库存可在3年内重建",
+   "五角大楼承诺不让关键弹药库存低于国家安全最低需求，但已开始从以色列美军基地抽调数十万发155mm炮弹转运乌克兰"
+  ],
+  "data": [
+   {
+    "metric": "援乌155mm炮弹",
+    "value": "110万发",
+    "context": "截至报道发布时"
+   },
+   {
+    "metric": "155mm炮弹常规年产能",
+    "value": "9.3万发/年",
+    "context": "当前产能"
+   },
+   {
+    "metric": "155mm炮弹应急年产能",
+    "value": "24万发/年",
+    "context": "紧急扩产后"
+   },
+   {
+    "metric": "GPS制导弹药年产量",
+    "value": "1000发/年",
+    "context": "近期产能"
+   },
+   {
+    "metric": "标枪导弹补充周期",
+    "value": "5.5-8年",
+    "context": "应急/常规产能"
+   },
+   {
+    "metric": "毒刺导弹补充周期",
+    "value": "最长18年",
+    "context": "当前产能"
+   },
+   {
+    "metric": "海马斯系统援乌数量",
+    "value": "20套",
+    "context": "截至1月6日"
+   },
+   {
+    "metric": "乌克兰月均炮弹消耗",
+    "value": "9万发/月",
+    "context": "美国官员11月估计"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "5-18年（不同武器差异显著）",
+  "confidence": "high",
+  "extracted_on": "2026-09-25"
+ }
+]
