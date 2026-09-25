@@ -1,0 +1,26 @@
+[
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://twitter.com/RALee85/status/1546984621828710404",
+  "source_title": "Rob Lee on Twitter: \"Russian war correspondent Yevgeny Poddubny...\"",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "俄罗斯对乌克兰情报与军事指挥官的打击能力",
+  "claim": "俄罗斯未充分发挥打击乌克兰指挥层的能力，需要建立联合特遣队专门猎杀乌克兰情报和军事指挥官",
+  "reasoning": "Rob Lee引述俄罗斯战地记者Yevgeny Poddubny的观点，认为许多俄罗斯评论员感到俄方做得不够，暗示俄罗斯具备更强打击能力但未充分使用。这反映了俄方内部对当前作战效果不满，认为通过组建专门力量可以提升对乌克兰指挥体系的打击效果",
+  "evidence": [
+   "俄罗斯战地记者Yevgeny Poddubny呼吁俄罗斯建立联合特遣队猎杀乌克兰情报和军事指挥官",
+   "许多俄罗斯评论员认为俄罗斯做得不够",
+   "评论者指出乌克兰指挥官自战争开始就知道可能在任何地方被打击因此已采取大量预防措施",
+   "有观点认为俄罗斯可能不具备美国级别的信号情报能力来定位目标"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "low",
+  "extracted_on": "2026-09-26"
+ }
+]
