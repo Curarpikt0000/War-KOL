@@ -21,3 +21,7 @@ logs/
 
 # 重建脚本含红线扫描正则（必然含内网关键词），不进公网
 scripts/rebuild_public_repo.sh
+
+# wrangler 本地构建缓存，不进库
+.wrangler/
+scratch/cfdist/

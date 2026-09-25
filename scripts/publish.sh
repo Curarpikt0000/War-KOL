@@ -28,6 +28,9 @@ SCAN_FILES=(
   scripts/extract_thesis.py
   scripts/weekly_rollup.py scripts/write_weekly_to_notion.py
   scripts/propagate_dates_to_thesis.py scripts/patch_daily_cron_prompt.py
+  # ⚠️ publish_cloudflare.sh 与 publish.sh 【故意不列入扫描】：
+  #    这两个文件本身就含红线关键词的正则字面量，扫自己必然自伤，
+  #    会把整条发布链永久卡死。它们仍会被下面的 git add 单独收进版本库。
   docs/HANDOVER.md docs/PENDING_AGENTS_MD_UPDATE.md
   data/kol_registry.json data/roster_final.json
   data/candidates_rejected.json data/candidates_raw.json
@@ -47,6 +50,8 @@ fi
 
 # 3. 个人端 push（公网）
 git add "${SCAN_FILES[@]}" 2>/dev/null
+# 发布脚本自身：不进扫描清单（会自伤，见上），但必须进版本库
+git add scripts/publish.sh scripts/publish_cloudflare.sh .gitignore 2>/dev/null
 git add -A data/statements/ 2>/dev/null
 # 归属/同名清理留痕：删了就查不到「为什么这条消失了」
 git add -A data/removed_attribution_*.json data/removed_homonym_*.json 2>/dev/null
@@ -108,5 +113,13 @@ fi
 #    ⇒ 一律用 $ROOT 绝对路径，并显式切回。
 cd "$ROOT" || exit 1
 bash "$ROOT/scripts/publish_vibe_mirror.sh" || true
+
+# 6. 公网 Cloudflare Pages（★ 2026-09-25 补上的真正公网入口）
+#    GitHub Pages 已死：Curarpikt0000 账号被封，curarpikt0000.github.io/War-KOL/
+#    实测返回 404。git push 仍会成功（仓库还在），但【push 成功 ≠ 公网看得到】。
+#    Cloudflare 那份此前靠手工传，停在 09-19 五天没动，日报却一直贴 Pages 链接。
+#    ⇒ 固化进流程，幂等（线上 md5 相同就跳过），失败不连累已完成的 git push。
+cd "$ROOT" || exit 1
+bash "$ROOT/scripts/publish_cloudflare.sh" || echo "⚠ Cloudflare 发布未成功（详见 scratch/cloudflare.log）"
 
 echo "publish 完成"
