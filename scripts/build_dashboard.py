@@ -279,6 +279,85 @@ def region_pane(stmts, period):
 #     L3 再点一次 = 英文原文摘要 + 原始出处链接
 #   为什么原文放第三级而不是直接给链接：读者先看懂「他说了什么」，
 #   再决定要不要花时间读英文原文；出处始终可达，不牺牲可追溯性。
+def slice_fresh(stmts, period):
+    """按【收录日】切档（thesis.extracted_on = 本项目抽取入库的日子）。
+
+    ★ Chao 2026-09-25 要求页面最顶端做 KOL 日/周/月 section。按发表日切时
+      本日 0 / 本周 1 / 本月 27 —— 977 条里 625 条（64%）发表日查不到，进不了任何档。
+      收录日 100% 覆盖。这【不违反】「不用抓取日顶替发表日」：本档位明确标
+      「新收录」，卡片上显示的仍是真实发表日或「发表日未核实」，从不把收录日写成发表日。
+    """
+    cutoff = date.today() - timedelta(days=PERIOD_DAYS[period])
+    out = []
+    for s in stmts:
+        e = ((s.get("_th") or {}).get("extracted_on") or "")[:10]
+        try:
+            if e and date.fromisoformat(e) >= cutoff:
+                out.append(s)
+        except Exception:
+            continue
+    return out
+
+
+def _stmt_card(s, col):
+    """言论卡片（「KOL 最新观点」与「言论卡片」两个 section 共用，别再复制一份）。"""
+    dc = DIR_COLOR.get(s.get("direction"), MUTED)
+    dd = s.get("published_on") or "发表日未核实"
+    unv = "" if s.get("date_status") == "verified" else " sc-unv"
+    tcn = s.get("_title_cn") or s.get("title", "")
+    try:
+        dom = (s.get("source_url") or "").split("/")[2].replace("www.", "")
+    except Exception:
+        dom = ""
+    return (f'<div class="scard" data-si="{s.get("_si")}" style="border-top-color:{dc}">'
+            f'<div class="sc-top">'
+            f'<span class="sc-dir" style="background:{dc}22;color:{dc};'
+            f'border-color:{dc}66">{esc(s.get("direction"))}</span>'
+            f'<span class="sc-date{unv}">{esc(dd)}</span></div>'
+            f'<div class="sc-kol"><span class="tdot" style="background:{col}"></span>'
+            f'{esc(s.get("kol", "")[:32])}</div>'
+            f'<div class="sc-title" title="{esc(tcn)}">{esc(tcn)}</div>'
+            f'<div class="sc-dom">{esc(dom)}</div>'
+            f'<div class="sc-lv sc-lv1"></div>'
+            f'<button type="button" class="sc-step" data-step="2">'
+            f'展开详情 ▾</button></div>')
+
+
+def fresh_pane(stmts, period):
+    """页面最顶端「KOL 最新观点」：按收录日切档，按战区分组，组内最新在前。"""
+    pl = PERIOD_LABEL[period]
+    if not stmts:
+        return (f'<div class="kol-overview">{pl}没有新收录的言论。'
+                f'<br><span style="color:{MUTED}">可切到更长的档位；'
+                f'全部历史言论见下方「观点全景」。</span></div>')
+    by_t = defaultdict(list)
+    for s in stmts:
+        by_t[s.get("theater", "未分类")].append(s)
+    dirs = Counter(s.get("direction") for s in stmts)
+    head = (f'<div class="kol-overview">{pl}新收录 <b>{len(stmts)}</b> 条言论，'
+            f'来自 <b>{len({s["kol"] for s in stmts})}</b> 位 KOL，'
+            f'覆盖 <b>{len(by_t)}</b> 个战区。方向分布：'
+            + " ".join(f'<span class="badge" style="background:{DIR_COLOR[d]}22;'
+                       f'color:{DIR_COLOR[d]};border-color:{DIR_COLOR[d]}66">{d} {c}</span>'
+                       for d, c in dirs.most_common() if d in DIR_COLOR)
+            + '<br><span class="l3-tip">按收录日切档；卡片右上角是 KOL 实际发表日，'
+              '查不到的标「发表日未核实」</span></div>')
+    blocks = []
+    for t, items in sorted(by_t.items(), key=lambda kv: -len(kv[1])):
+        col = THEATER_COLOR.get(t, MUTED)
+        items.sort(key=lambda s: (((s.get("_th") or {}).get("extracted_on") or ""),
+                                  s.get("published_on") or ""), reverse=True)
+        more = (f'<div class="pmore">另有 {len(items)-12} 条，见下方观点全景</div>'
+                if len(items) > 12 else "")
+        blocks.append(
+            f'<div class="tgroup"><div class="thead" style="border-color:{col}">'
+            f'<span class="tdot" style="background:{col}"></span>{esc(t)}'
+            f'<span class="tn">{len(items)} 条</span></div>'
+            f'<div class="scard-grid">{"".join(_stmt_card(s, col) for s in items[:12])}</div>'
+            f'{more}</div>')
+    return head + "".join(blocks)
+
+
 def statements_pane(stmts, period):
     pl = PERIOD_LABEL[period]
     if not stmts:
@@ -641,6 +720,10 @@ def main():
         v.sort(key=lambda s: s.get("published_on") or "0000", reverse=True)
 
     periods = {p: slice_period(stmts, p) for p in ("day", "week", "month")}
+    # 页面最顶端「KOL 最新观点」用收录日切档（见 slice_fresh 注释）
+    periods_fresh = {p: slice_fresh(stmts, p) for p in ("day", "week", "month")}
+    print("[KOL 最新观点] 新收录 日/周/月 = "
+          + " / ".join(str(len(periods_fresh[p])) for p in ("day", "week", "month")))
 
     # ── 全局言论表：地图弹层、言论卡片、KOL 弹层共用同一份 ──
     #   行格式（定长数组，省体积）：
@@ -1149,6 +1232,10 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 <div class="wrap">
 <h1>War KOL</h1>
 <div class="sub">全球战争分析与走势预测 KOL 每日言论汇总 · 更新于 {now}</div>
+
+<div class="part-title"><span class="part-num">＋</span>KOL 最新观点
+  <span class="desc">按收录日切日/周/月，按战区分组；点卡片逐层展开总结、原文翻译与出处</span></div>
+{multi_period(fresh_pane, periods_fresh, "fresh", "week")}
 
 <div class="part-title"><span class="part-num">＋</span>总览
   <span class="desc">名册来自 Notion 单向镜像；言论经归属校验，抓不到即如实标注</span></div>
