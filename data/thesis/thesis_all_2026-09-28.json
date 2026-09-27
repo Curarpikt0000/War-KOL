@@ -1,0 +1,208 @@
+[
+ {
+  "kol": "Sushant Singh",
+  "theater": "南亚",
+  "source_url": "https://foreignpolicy.com/2025/05/15/india-pakistan-conflict-cease-fire-escalation-ladder/",
+  "source_title": "India-Pakistan Cease-Fire Cements a Dangerous Baseline",
+  "published_on": "2025-05-15",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 foreignpolicy.com",
+  "topic": "印巴停火协议与南亚核升级风险",
+  "claim": "此次印巴停火不是降级而是固化了更危险的基线，未来冲突将从更高烈度起步并更快升级至核风险",
+  "reasoning": "Sushant Singh 认为与1999年卡吉尔冲突后重置升级阶梯不同，本次停火跳过了传统升级步骤（外交威胁数日内直接跳至跨境打击、巴基斯坦召开核指挥会议），双方对胜负的解读完全对立（印度称打击迫使巴方求和、巴基斯坦称核信号奏效），技术进步（BrahMos超音速导弹压缩决策窗口、无人机蜂群降低冲突门槛）与社交媒体煽动的民族主义结合，使下次危机将以「跳过传统升级步骤的高烈度」形式快速爆发，而中国成为最大受益者（验证武器、印度分心）。",
+  "evidence": [
+   "印度在4月恐袭后暂停印度河水条约并实施经济制裁措施，停火后仍维持这些措施，制度化了新的平时敌对基线",
+   "BrahMos超音速巡航导弹首次打击巴基斯坦空军基地，以3马赫速度精准打击纵深目标，压缩决策窗口使巴军方「震惊」",
+   "停火数分钟后疑似巴基斯坦无人机即出现在印度北部上空，触发印度防空系统",
+   "巴基斯坦在冲突中部署中国雷达与防空导弹系统，据巴方称用中国战机击落法制阵风战机",
+   "特朗普公开宣称促成停火并提议进一步调停克什米尔问题，打破印度「严格双边接触」政策红线",
+   "印度前陆军参谋长对突然宣布停火感到失望，莫迪支持者在网上攻击外交秘书Vikram Misri全家但无政府部长批评"
+  ],
+  "data": [
+   {
+    "metric": "卡吉尔冲突印方死亡",
+    "value": "520+名士兵",
+    "context": "1999年夏"
+   },
+   {
+    "metric": "卡吉尔冲突巴方死亡",
+    "value": "2000-4000名士兵（估计）",
+    "context": "1999年夏"
+   },
+   {
+    "metric": "BrahMos导弹速度",
+    "value": "3马赫",
+    "context": "印俄联合产品"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明（但强调「下次危机」必然发生）",
+  "confidence": "high",
+  "extracted_on": "2026-09-28"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://timesofislamabad.com/13-01-2026/international-defence-analyst-dismisses-indian-claims-of-downing-pakistani-f-16-and-awacs-from-s400/",
+  "source_title": "International Defence Analyst Dismisses Indian Claims of Downing ...",
+  "published_on": "2026-01-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christopher clary」",
+  "topic": "印度声称 S-400 同时击落巴基斯坦 F-16 与 Saab Erieye 预警机",
+  "claim": "印度关于 S-400 系统在 Dinga 同时击落巴基斯坦 F-16 战斗机和 Saab Erieye 预警机的说法不可信且技术上不可能实现",
+  "reasoning": "Christopher Clary 指出该说法存在根本性技术矛盾：同一枚 S-400 拦截弹无法现实地同时攻击高空低速飞行的 Saab Erieye 预警机和快速机动的 F-16 战斗机。两种平台的飞行剖面、速度和高度截然不同，单一导弹类型在同一地点实现双重击杀高度不可能，除非动用多个发射单元或拦截弹。此外，印方提供的高度表碎片证据缺乏军事取证所需的严谨性，视觉匹配不足以构成决定性证明",
+  "evidence": [
+   "印度方面展示了据称从 Dinga 回收的高度表仪表作为击落 F-16 的证据",
+   "2019 年 Balakot 危机中印度曾声称击落巴基斯坦 F-16，后被美国官员否认并确认巴方 F-16 库存完整",
+   "巴基斯坦的 Saab Erieye 机队数量有限且受到地区观察者密切监控，未有中立来源独立确认损失",
+   "美国供应的 F-16 受严格出口管制，华盛顿对任何损耗具有潜在可见性",
+   "印度部署的俄制 S-400 系统被宣传为改变游戏规则的装备"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-28"
+ },
+ {
+  "kol": "Christopher Clary",
+  "theater": "南亚",
+  "source_url": "https://goodauthority.org/news/pakistan-is-waging-its-own-war-in-afghanistan/",
+  "source_title": "Pakistan is waging its own war in Afghanistan",
+  "published_on": "2026-03-18",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「christopher clary」",
+  "topic": "巴基斯坦对阿富汗塔利班军事施压效果评估",
+  "claim": "在持续压力下，巴基斯坦的多路径胁迫策略可能改变塔利班对反巴武装组织的支持立场，但成功概率取决于能否精准施压并提供清晰的下台阶。",
+  "reasoning": "Asfandyar Mir 认为巴基斯坦采取的是「战略瘫痪+拒止」组合模型，通过系统性打击塔利班军事能力、边境封锁造成经济挤压、以及公开羞辱削弱其政治合法性，三条路径同时施压。他援引 1999 年北约空袭塞尔维亚案例指出，在权力不对称、经济孤立、无外部救援的条件下，长期压力确实可能迫使塔利班改变立场。但他同时强调胁迫本身难度极高，塔利班有为盟友牺牲的历史（2001 年因保护基地组织失去政权），且当前领导层内部分裂、最高领袖缺席决策，使施压效果存在「民族主义反弹」或「进一步激进化」风险。他引用 Reid Pauly 观点提醒，成功胁迫需要「艺术化校准」——既要精准施压又要给目标国提供可信的退出通道。",
+  "evidence": [
+   "巴基斯坦自 2025 年 9-10 月起强制关闭边境，加之美伊战争导致伊朗贸易中断，对内陆国阿富汗形成双向经济挤压",
+   "巴基斯坦系统性打击塔利班边境哨所、军团/旅/营级指挥部、武器库、弹药库和无人机储存设施，意图建立事实缓冲区",
+   "塔利班 2 月 26 日威胁发动大规模袭击浪潮，多个塔利班盟友武装同时宣布对巴进行复杂攻击，但至今未实施",
+   "塔利班最高领袖在危机期间基本缺席且保持沉默，显示领导层内部坎大哈派系与喀布尔派系（Sirajuddin Haqqani、Mullah Yaqub）存在分裂",
+   "美国总统特朗普称赞巴基斯坦「干得非常好」，国务院官员表态巴有自卫权利，3 月 9 日将阿富汗列为「非法拘留支持国」并启动制裁",
+   "中国尝试调解但效果不明，巴基斯坦对第三方斡旋的接受度下降，仅在移交 TTP 领导层并解除武装条件下才愿谈判"
+  ],
+  "data": [
+   {
+    "metric": "北约对塞尔维亚空袭持续时间",
+    "value": "78天",
+    "context": "1999 年科索沃战争案例"
+   },
+   {
+    "metric": "塔利班重新掌权时间",
+    "value": "2021年",
+    "context": "美军撤离后继承国家结构"
+   },
+   {
+    "metric": "巴基斯坦空袭日期",
+    "value": "2月21-22日",
+    "context": "针对阿富汗东部 TTP 等恐怖组织"
+   },
+   {
+    "metric": "塔利班报复性攻击日期",
+    "value": "2月26日",
+    "context": "常规军事打击巴边境哨所"
+   },
+   {
+    "metric": "美国制裁阿富汗日期",
+    "value": "3月9日",
+    "context": "国务院指定为「非法拘留支持国」"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-28"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/",
+  "source_title": "The US’s $1.36 trillion phantom arsenal",
+  "published_on": "2026-09-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国国防工业基础与军火库存问题",
+  "claim": "美国国防工业当前面临严重的产能与交付问题，大型承包商的「未交付订单」达1.36万亿美元且增长速度超过实际交付速度，行业正经历结构性转型但尚未根本解决1993年以来的整合后遗症",
+  "reasoning": "Tom Karako 指出国防承包商近期公布的大量生产协议实际上是「agreements to agree」（待定协议）而非真正合同，这类协议不要求企业承担实际交付义务或资本支出，却能产生与真实生产承诺相同的宣传效果。他认为这反映了行业存在「大量拉拉队式宣传和过早庆祝」的现象，而非实质性产能扩张。这一判断基于合同与协议的本质区别：合同规定交付日期、价格及违约责任，而待定协议几乎不产生任何约束力",
+  "evidence": [
+   "五大国防制造商的未交付订单总额约1.36万亿美元，且该数字增长速度快于实际交付速度",
+   "国防承包商近期发布的关键弹药生产协议被 Tom Karako 定性为「agreements to agree」而非正式合同",
+   "这些待定协议对企业无资本支出要求，却能产生与真实生产承诺相同的新闻效应",
+   "美军在中东使用单价百万美元、生产周期长的 Patriot PAC-3 拦截弹对抗造价约3万美元的伊朗无人机",
+   "1993年「最后的晚餐」会议后国防工业整合导致供应商大幅减少，前国防部长 Les Aspin 后来称结果「令人失望」，形成更少、更大但创新与成本控制动力不足的企业"
+  ],
+  "data": [
+   {
+    "metric": "未交付订单总额",
+    "value": "1.36万亿美元",
+    "context": "五大国防制造商当前积压"
+   },
+   {
+    "metric": "伊朗无人机造价",
+    "value": "约3万美元",
+    "context": "用于对比拦截弹成本"
+   },
+   {
+    "metric": "Patriot PAC-3 拦截弹单价",
+    "value": "百万美元级",
+    "context": "美军在中东使用"
+   },
+   {
+    "metric": "国防初创企业数量",
+    "value": "约100家",
+    "context": "2021年以来新成立"
+   },
+   {
+    "metric": "投资金额",
+    "value": "超过1300亿美元",
+    "context": "2021年以来流入国防相关企业"
+   },
+   {
+    "metric": "Space Systems Command OTA 奖项",
+    "value": "20个",
+    "context": "2025年末至2026年初发放给12家企业"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-28"
+ },
+ {
+  "kol": "Tom Karako",
+  "theater": "军工与战略",
+  "source_url": "https://foreignpolicy.com/podcasts/foreign-policy-live/why-america-is-running-out-of-munitions/",
+  "source_title": "Why America Is Running Out of Munitions – Foreign Policy",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom karako」",
+  "topic": "美国高端防空导弹库存与补充能力评估",
+  "claim": "美国在与伊朗的战争中高端爱国者和萨德拦截弹库存可能已消耗高达80%，替换可能需要数年时间",
+  "reasoning": "Tom Karako作为CSIS导弹防御项目主任，通过追踪数据得出结论：美国在今年与伊朗的战争中大量消耗先进弹药，特别是Patriot和THAAD拦截弹的库存耗损严重。他认为在军事规划者担忧欧洲和印太地区需求的背景下，即使开始补充生产，也需要数年才能恢复到原有水平，这反映了美国军备储备的深层次短缺问题",
+  "evidence": [
+   "美国今年在与伊朗的战争中消耗了一些最先进的弹药",
+   "高端Patriot和THAAD拦截弹的库存可能已消耗多达80%",
+   "军事规划者正在担忧欧洲和印太地区的防空需求",
+   "Tom Karako担任CSIS导弹防御项目主任，专门追踪美国军备短缺的深度",
+   "Foreign Policy刊登了多篇相关文章讨论伊朗战争对美国军备和乌克兰防空的影响"
+  ],
+  "data": [
+   {
+    "metric": "Patriot和THAAD拦截弹库存消耗比例",
+    "value": "高达80%",
+    "context": "今年与伊朗战争期间，根据某些评估"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "数年",
+  "confidence": "high",
+  "extracted_on": "2026-09-28"
+ }
+]
