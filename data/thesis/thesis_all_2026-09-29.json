@@ -1,0 +1,213 @@
+[
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://militarnyi.com/en/news/recruitment-rates-for-russia-fell-by-2026/",
+  "source_title": "Study: Recruitment Rates for Russian Armed Forces Fell by 20% in First ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄军合同兵招募速度与财政可持续性",
+  "claim": "俄军招募速度已下降20%，每日约800人，虽能弥补损失但不足以大规模扩军，且财政压力日增",
+  "reasoning": "Janis Kluge 通过分析俄联邦财政部预算支出数据发现，2026年初俄每日招募约800名合同兵，较2025年一季度的1000-1200人下降约20%。月均招募3万人仅够抵消现有损失，无法支撑大规模扩军。同时地方政府为招募支出已占预算4-10%，相当于医疗或教育开支，财政模式不可持续",
+  "evidence": [
+   "2026年初俄罗斯每日招募约800名士兵，而2025年一季度该数字为1000-1200人",
+   "2026年第一季度俄地方政府资助招募约70500名士兵",
+   "联邦政府已将签约奖金翻倍至40万卢布，地方政府追加支付构成补偿大头",
+   "地方政府平均将预算的4%用于招募，某些情况下高达10%",
+   "俄当局官方宣称年招募40-50万合同兵，但基于预算支出的独立估算显示趋势更为温和"
+  ],
+  "data": [
+   {
+    "metric": "2026年初日招募量",
+    "value": "约800人",
+    "context": "2026年初"
+   },
+   {
+    "metric": "2025年一季度日招募量",
+    "value": "约1000-1200人",
+    "context": "2025年第一季度"
+   },
+   {
+    "metric": "招募速度降幅",
+    "value": "约20%",
+    "context": "相比2025年特定时期"
+   },
+   {
+    "metric": "月均招募量",
+    "value": "约30000人",
+    "context": "基于预算分析"
+   },
+   {
+    "metric": "联邦签约奖金",
+    "value": "400000卢布",
+    "context": "2024年后翻倍"
+   },
+   {
+    "metric": "2026年3月样本平均签约金额",
+    "value": "147万卢布（中位数155万卢布）",
+    "context": "2026年3月"
+   },
+   {
+    "metric": "地方预算招募支出占比",
+    "value": "平均4%，最高10%",
+    "context": "俄地方政府"
+   },
+   {
+    "metric": "2026年一季度地方资助招募总量",
+    "value": "约70500人",
+    "context": "2026年第一季度"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2025-2026年趋势",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.dagens.com/war/budget-data-indicates-300-russian-soldiers-die-every-day",
+  "source_title": "Budget data indicates 300 Russian soldiers die - Dagens.com",
+  "published_on": "2026-06-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯在乌克兰战场的月度阵亡人数与兵员补充能力",
+  "claim": "俄罗斯每月阵亡9000名士兵（2026年数据），且尽管官方声称招募顺利，但征兵压力实际正在上升，难以充分补充损失。",
+  "reasoning": "Janis Kluge通过分析俄罗斯地方预算中支付给阵亡士兵家属的补偿金数据，推算出2026年月均阵亡9000人，较2024年初的4000人翻倍。他注意到地方征兵奖金已达历史高位且持续上涨，同时存在大量地方招募压力运动的轶事证据，这些迹象表明俄罗斯实际面临兵员补充困难，而非官方宣称的「招募充足甚至超额」。",
+  "evidence": [
+   "通过分析俄罗斯地方预算中支付给阵亡家属的补偿金统计数据，计算出月均阵亡人数",
+   "2024年初俄军月度阵亡人数约为4000人",
+   "2026年俄军月度阵亡人数已升至约9000人，死亡人数翻倍",
+   "俄罗斯地方平均征兵奖金持续上涨并已达到历史最高水平",
+   "存在相当多的轶事证据显示某些地区正在开展征兵压力运动",
+   "俄罗斯国防部长 Belousov 曾声称招募率充足甚至超前完成"
+  ],
+  "data": [
+   {
+    "metric": "月均阵亡人数",
+    "value": "9000人",
+    "context": "2026年，基于 Janis Kluge 分析地方预算补偿金数据"
+   },
+   {
+    "metric": "月均阵亡人数",
+    "value": "4000人",
+    "context": "2024年初"
+   },
+   {
+    "metric": "累计伤亡总数（阵亡+受伤）",
+    "value": "119.8万人",
+    "context": "截至2026年初，CSIS 估算"
+   },
+   {
+    "metric": "累计阵亡总数",
+    "value": "最多32.5万人",
+    "context": "CSIS 数据"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2026年当前进行中",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://thepublic.info/en/news/for-the-second-month-running-russia-has-lost-more-than-40000-troops-on-the-front-line-in-ukraine",
+  "source_title": "The ISW has assessed the losses and advances of Russian forces in ...",
+  "published_on": "2026-09-03",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄军在乌克兰东部顿巴斯地区的攻势进展与人力损耗",
+  "claim": "俄军每月新征募的合同兵数量不足以弥补当前损失，若不进行某种形式的动员，俄军将无法长期维持当前攻势节奏",
+  "reasoning": "Janis Kluge基于预算支付数据的统计显示，2025年俄罗斯每月征募合同兵未能超过3万人，年初时更低至2.4万人，而同期俄军月损失已超过4万人（7-8月均超4.2万），征兵规模远低于损耗速度，形成人力缺口，因此判断俄军难以在不扩大动员的前提下持续当前作战强度",
+  "evidence": [
+   "2025年俄罗斯每月征募进军队的人数未能超过3万人",
+   "年初时俄罗斯月征兵数曾降至2.4万人",
+   "7月俄军前线损失估计为42860人",
+   "8月俄军前线损失估计为42020人",
+   "3月俄军损失估计为31960人，比8月少1万多人"
+  ],
+  "data": [
+   {
+    "metric": "俄军月征兵数上限",
+    "value": "30000人",
+    "context": "2025年全年未能突破此数字"
+   },
+   {
+    "metric": "俄军月征兵数",
+    "value": "24000人",
+    "context": "2025年初"
+   },
+   {
+    "metric": "俄军7月损失",
+    "value": "42860人",
+    "context": "ISW估计"
+   },
+   {
+    "metric": "俄军8月损失",
+    "value": "42020人",
+    "context": "ISW估计"
+   },
+   {
+    "metric": "俄军3月损失",
+    "value": "31960人",
+    "context": "估计值"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://english.nv.ua/business/why-western-sanctions-aren-t-stopping-putin-s-war-german-economist-janis-kluge-explains-50535686.html",
+  "source_title": "Janis Kluge: Western pressure alone won't cripple Russia's war machine",
+  "published_on": "2025-08-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "西方制裁对俄罗斯战争经济的实际影响",
+  "claim": "仅靠西方制裁无法摧毁俄罗斯战争机器，制裁效果受限且短期内不会产生重大影响",
+  "reasoning": "Janis Kluge认为经过三年半的制裁，已无「低垂果实」可摘，第18轮制裁包不会带来质变；俄罗斯拥有中国等友好国家支持，尤其中国深度融入西方供应链并向俄提供所需物资，使西方对俄直接施压效果有限；石油出口占俄出口40%、财政三分之一，但大幅削减俄油出口会推高国际油价，难以实施；特朗普关税威胁不现实，美国不会因俄罗斯问题对中国实施100%关税，因其已在今年春季意识到此举对美国自身经济伤害过大。",
+  "evidence": [
+   "全面入侵以来已实施制裁近三年半，第18轮制裁包不会成为「游戏改变者」，没有可轻易实施且对俄经济产生巨大影响的措施仍在选项中",
+   "俄罗斯石油价格折扣（因油价上限造成的收入损失）实际上已缩小，当前俄油价格已低于上限",
+   "中国基本上向俄罗斯提供其所需的一切，且中国深度融入西方供应链，拥有所有西方商品后直接交付给俄罗斯",
+   "俄罗斯石油出口占其总出口40%、占预算三分之一，即使削减四分之一出口量也会对世界油价产生剧烈影响",
+   "美国今年春季曾对华关税升级，但最终停止升级，因意识到对美国自身经济威胁过大",
+   "自拜登下台特朗普入主白宫以来，美国作为制裁实施者已「消失」，制裁仍在但执行不再积极，也没有新制裁措施"
+  ],
+  "data": [
+   {
+    "metric": "欧盟新油价上限",
+    "value": "47.60美元/桶",
+    "context": "自9月3日起生效"
+   },
+   {
+    "metric": "俄石油出口占总出口比例",
+    "value": "40%",
+    "context": "当前状态"
+   },
+   {
+    "metric": "俄石油收入占预算比例",
+    "value": "三分之一",
+    "context": "当前状态"
+   },
+   {
+    "metric": "美对印关税",
+    "value": "25%",
+    "context": "因印度进口俄油而实施"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ }
+]
