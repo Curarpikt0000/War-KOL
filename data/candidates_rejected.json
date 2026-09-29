@@ -2204,5 +2204,34 @@
       "https://www.kcl.ac.uk/one-year-on-how-did-air-power-fare-in-the-integrated-review"
     ],
     "revisit": "若其公开判断到期可核对，复评 C"
+  },
+  {
+    "name_en": "Anthony Aguilar",
+    "name_zh": "安东尼·阿吉拉尔",
+    "affiliation": "美国陆军退役中校、特种部队（绿色贝雷帽）；2026 美国众议院北卡第 13 选区绿党候选人",
+    "theater": [
+      "中东"
+    ],
+    "evaluated_on": "2026-09-29",
+    "requested_by": "Chao（中文评论摘要：ANONYMIZED_PERSON_0_26 播客《川普可能对伊朗使用战术核武》）",
+    "score_A": 7,
+    "score_B": 5,
+    "score_C": 2,
+    "score_D": 3,
+    "weighted_score": 4.4,
+    "weighted_score_if_C_null": 5.43,
+    "stars": 1,
+    "rating_provisional": false,
+    "rating_reason": "A=7：西点 BS + 陆军指挥参谋学院 MMAS（论文《On Insurgency》）、特种部队 20 年（伊拉克/阿富汗、铜星勋章·紫心勋章）；无智库/学术任职，现身份为竞选人与反战活动人士。B=5：GHF 加沙援助点的亲历证词属一手，但伊朗核武判断来自公开部署与人事变动的推演，无文件/影像证据。C=2：2026-03-11 公开预测『伊朗地面战：会发生；动用核武：很可能』——至 2026-09 已到期对照：4-08 停火，9 月仅空袭、联军撤至埃尔比勒，无地面入侵、无核使用，两条均未应验（judged=2，均 miss）。D=3：GHF 证词中的『男孩 Amir 被杀』被 GHF 2025-09-04 出示身份证据称人仍在世，其本人未更正；UG Solutions 指其伪造证据（他否认）。",
+    "controversies": "GHF/UG Solutions 指其证词不实、伪造证据；所称被射杀的男孩被证实在世（GHF 2025-09-04）；2026 竞选期间曾接受 AZAPAC 背书后撤回（The Intercept）；核武判断有竞选宣传语境。",
+    "decision": "1★，远低于 3★ 入库线，不进名册/Notion/dashboard（沿用 Chao 2026-09-25 甲口径：先打分，够 3★ 才加）",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anthony_Aguilar",
+      "https://url-media.com/u-s-president-trump-readies-ground-invasion-and-nuclear-strike-in-iran/",
+      "https://jinsa.org/wp-content/uploads/2026/09/Iran-War-Update-9.2.26.pdf",
+      "https://www.globalsecurity.org/military/ops/iran-war-oprep.htm",
+      "https://www.timesofisrael.com/gaza-aid-group-says-boy-reported-killed-at-site-is-actually-still-living-and-safe/"
+    ],
+    "revisit": "若日后有已到期预测应验，可复评 C"
   }
 ]
