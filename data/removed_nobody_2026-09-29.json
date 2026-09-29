@@ -2303,7 +2303,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「peter makowsky」",
-  "removed_reason": "正文不可得 http=200 chars=488",
+  "removed_reason": "正文不可得 http=200 chars=485",
   "removed_stage": "nobody"
  },
  {
@@ -3017,7 +3017,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=662",
+  "removed_reason": "正文不可得 http=200 chars=668",
   "removed_stage": "nobody"
  },
  {
@@ -4428,7 +4428,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=715",
+  "removed_reason": "正文不可得 http=200 chars=644",
   "removed_stage": "nobody"
  },
  {
@@ -5431,7 +5431,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=492",
+  "removed_reason": "正文不可得 http=200 chars=491",
   "removed_stage": "nobody"
  },
  {
@@ -5822,7 +5822,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 deccanherald.com",
-  "removed_reason": "正文不可得 http=200 chars=516",
+  "removed_reason": "正文不可得 http=500 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10875,6 +10875,142 @@
   "removed_stage": "nobody"
  },
  {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "How long can Russia keep up its massive drone attacks on... - YouTube",
+  "summary": "Thomas Withington, air defense expert from Royal United Services Institute. 2:50.",
+  "quote": "",
+  "source_url": "https://www.youtube.com/watch?v=aN2KMgNY8fo",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "升级",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas withington」",
+  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Interview w/ Thomas Withington - Armada Editor on Australian...",
+  "summary": "",
+  "quote": "",
+  "source_url": "https://www.youtube.com/watch?v=uaCy9CsClAA",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas withington」",
+  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Lunchtime Lecture (Midlands): Lightning SEADs – The... - crowdcast",
+  "summary": "On Thursday 13 August 2026 at 12pm, Dr Thomas Withington will deal with the current and future threats the RAF and its NATO allies face.",
+  "quote": "",
+  "source_url": "https://www.crowdcast.io/c/llm-2026-withington",
+  "published_on": "2026-08-13",
+  "date_status": "verified",
+  "direction": "升级",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas withington」",
+  "removed_reason": "正文不可得 http=200 chars=168",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Thomas Withington",
+  "summary": "Thomas Withington Dr. Thomas Withington is an award-winning analyst and writer specialising in electronic warfare, radar and military communications and a Research Associate at the Royal United Services Institute.",
+  "quote": "",
+  "source_url": "https://www.ndc.nato.int/download/bios/Withington_BIO.pdf",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ndc.nato.int",
+  "removed_reason": "正文不可得 http=200 chars=589",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Research – NATO Defense College",
+  "summary": "About Research Division. Researchers.Decoding the dragon – A language-based analysis of China’s vision of AI warfare 149-Insight-10-2026.",
+  "quote": "",
+  "source_url": "https://www.ndc.nato.int/research/",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ndc.nato.int",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "The Strategy Series – NATO Defense College",
+  "summary": "About Research Division. Researchers.Trade off: an economic analysis of North Korean-Russian relations. Narantsatsral Enkhbat. April 1, 2026.",
+  "quote": "",
+  "source_url": "https://www.ndc.nato.int/research/publications/the-strategy-series/",
+  "published_on": "2026-04-01",
+  "date_status": "verified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ndc.nato.int",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Decoding the dragon – A language-based analysis of China’s vision of...",
+  "summary": "About Research Division. Researchers.How ever, assessments of Beijing’s military AI trajectory often rest on anecdote. To fill this gap, this study conducts a large‑scale computational analysis of China’s own documentary record from 2000 to 2025, including",
+  "quote": "",
+  "source_url": "https://www.ndc.nato.int/decoding-the-dragon/",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ndc.nato.int",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "title": "Decoding the Modern Battlefield: Insights with Dr. Thomas Withington...",
+  "summary": "",
+  "quote": "",
+  "source_url": "https://www.youtube.com/watch?v=N2oIcZhpSb0",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-29",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas withington」",
+  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
   "kol": "Mohammed Zubair",
   "theater": "南亚",
   "title": "14 days judicial custody for Zubair, FCRA... - The Indian Express",
@@ -11831,7 +11967,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=200 chars=82",
   "removed_stage": "nobody"
  },
  {
@@ -13061,7 +13197,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「帕维尔·卢津」",
-  "removed_reason": "正文不可得 http=200 chars=470",
+  "removed_reason": "正文不可得 http=200 chars=324",
   "removed_stage": "nobody"
  },
  {
@@ -13470,7 +13606,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=494",
+  "removed_reason": "正文不可得 http=200 chars=495",
   "removed_stage": "nobody"
  },
  {
@@ -14414,7 +14550,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin_br0nk」",
-  "removed_reason": "正文不可得 http=200 chars=494",
+  "removed_reason": "正文不可得 http=200 chars=495",
   "removed_stage": "nobody"
  },
  {
@@ -14449,7 +14585,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「aaron y. zelin」",
   "date_source": "url_path",
-  "removed_reason": "正文不可得 http=200 chars=675",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15699,7 +15835,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「贾森·斯特恩斯」",
-  "removed_reason": "正文不可得 http=200 chars=41",
+  "removed_reason": "正文不可得 http=200 chars=500",
   "removed_stage": "nobody"
  },
  {
@@ -18831,7 +18967,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
