@@ -1147,3 +1147,48 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 - [x] ~~`publish.sh` 无 Cloudflare 发布步骤~~ → 09-25 已补 `scripts/publish_cloudflare.sh`（publish.sh 第 6 步）
 - 其余 09-21～09-22 待办（ddgs 凌晨 No results 根因、乙案无正文漏斗、SCAN_FILES 同步、
   vibe 镜像吞错、watchdog 竞态、AGENTS.md 待贴、改造前后 review）均无进展，沿用上条
+
+## 2026-09-29（候选 KOL 批量评估：6 人评分，仅 Withington 入册）
+
+### 决策
+- **Chao 指令**：转来 FP Live 节目简介，要求「这两个人加入 kol」（Ravi Agrawal / Tom Karako）。
+  agent 查实 Karako 已在名册（4★ CSIS，8.85）；Agrawal 给甲/乙/丙三选项。
+- **Chao 拍板「甲」**：先按四维体系正式打分，够 3★ 再加，不够写淘汰留痕。
+  此后同类加人请求 agent 均沿用「先打分、够 3★ 才加」。
+- **Chao 拍板「加」Thomas Withington（RUSI 电子战）**：7.64 分（B=7）差 0.26，B 判 8 即 8.0 过线；
+  agent 倾向不加（口径一致 + 名册超 60），Chao 选加 → 视为授权 agent 写 Notion。
+- **agent 判断（未请示）**：差距大的候选直接不加、告知 Chao「坚持加说一声」——
+  Anthony Aguilar 4.4（1★）、Saronic 联创 Mavrookas 4.64 / Altekar 4.21。
+  Mavrookas 若 Chao 要防务产业视角可按「监测对象」破例加，**待 Chao 表态**。
+
+### 改动
+- `data/candidates_rejected.json`（改前各留 `.bak_20260925*` / `.bak_20260929*`）新增淘汰留痕：
+  Ravi Agrawal 6.14（A8/B4/C空/D6；`ebb44de`）、Sophy Antrobus 7.71（B6，方向偏 RAF 组织文化+已任上议员；`d078325`）、
+  Anthony Aguilar 4.4（C2：2026-03-11「地面战会发生/核武很可能」到期均未应验；D3：GHF「Amir」事件未更正；`e41983a`）、
+  Mavrookas / Altekar（利益冲突 D=3、口播转引、无到期预测；`58f69be`）。均附复评条件与出处。
+- **Notion War KOL List**：新建 Withington 一行（3★ 暂定 8.0），读回 66 行、其余 65 行未动；
+  走现成写名册脚本 `--roster` 单行 upsert，先 dry-run 再实写。
+- `data/kol_registry.json`：镜像脚本从 Notion 拉回（先 dry-run 确认只新增 1 人），现 **63 人**；
+  备份 `.bak_20260925_withington`；同时从 `roster_candidates.json` 移除防重复（`da94d7b`）。
+- Withington 单独 backfill（名册第 0 位，`--limit 1`）：33 条原始 → 五要素门禁过 4 条 → 四层守护补齐 → 重建页面（共 997 条）。
+- 发布：首次被 pre-commit hook 拦；ussh 恢复后于 Aguilar 那轮补发成功，线上 md5 = 本地（`a8a67409d2e2`）。
+
+### 踩坑与教训
+- **ussh 证书过期 → 公司 pre-commit hook 拦 commit**（`no ssh cert is found, please run ussh first`，SSH agent 零身份）。
+  未用 `--no-verify` 绕过，请 Chao 在 VM 跑 `ussh`；判据：之后某次 commit 过了 hook 即说明已恢复，顺手补发布。
+- **手算分数出错**：Withington 首次提交写成 7.82/差 0.08，实为 7.64/差 0.26，汇报前自查改正。
+  教训：边界分数用脚本按权重算，不在提交信息里手写。
+- **搜索返回空**：先用必然有结果的对照查询验证后端，再下「查不到」结论。
+- **音译名需核正**：「湯姆·威瑟林頓」→ Thomas Withington；「索菲·安特羅布斯」→ Sophy Antrobus；
+  「Vib Alakar」→ Vibhav Altekar；节目简介「B63 战术核武」不存在（现役为 B61）。
+- **访谈主持人不入库**：观点属嘉宾，按归属铁律提问不算本人判断，加了只会成「零言论占位」。
+- **利益冲突压 D 维**：防务公司创始人的判断与卖产品/融资话术重合，D 给 3。
+- 新入册者会被**零言论门禁**挡在页面外，入册后应立即单人 backfill，不等次日 cron。
+
+### 待办
+- [ ] **Chao 表态**：Mavrookas 是否以「监测对象」破例入册（agent 已给建议，未获回复）
+- [ ] 名册 63 人，超 Chao 定的 60 上限 3 人——未讨论如何处理
+- [ ] Withington 标「暂定」，待有到期预测后复评 C；Agrawal/Antrobus 同样挂复评条件
+- [ ] agent 两次询问是否归档 ChaoWiki（回「收工」执行），Chao 未回复
+- [ ] `data/` 下累积大量未跟踪 `.bak*`（rescore 每日一份 + 本次候选备份）未清理；`data/prediction_verdicts.json` 有未提交改动（非本会话产生，未核）
+- 09-25 条目的待办（收录日口径确认、两组按钮合并等）本日无进展，沿用
