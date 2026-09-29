@@ -209,5 +209,240 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://x.com/detresfa_/status/2031293344081412279",
+  "source_title": "Imagery indicates the building struck by India during the May ...A video documenting Pakistan’s military activity during its ...2025 India–Pakistan crisis - WikipediaSocial media allegedly fuelled India–Pakistan tensions ...Conflict Between India and Pakistan | Global Conflict TrackerIndian - OSINT ",
+  "published_on": "2026-03-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台账号 x.com",
+  "topic": "2025年5月印巴冲突中印度空袭巴基斯坦Murid空军基地效果评估",
+  "claim": "印度空袭造成的内部结构损伤比最初评估更严重，导致建筑物无法修复而被拆除",
+  "reasoning": "Damien Symon通过卫星影像对比发现，被印度空袭的Murid空军基地建筑物已被拆除。他认为这一现象表明空袭造成的内部结构损伤程度超出了之前的评估——如果仅是轻微损坏，巴方应会选择修复而非拆除。建筑物的完全拆除说明其结构完整性已被破坏到无法经济性修复的程度，这从侧面证实了印度空袭的实际打击效果比公开报道的更显著。",
+  "evidence": [
+   "卫星影像显示Murid空军基地被空袭建筑物已被拆除",
+   "该建筑物在2025年5月印巴冲突期间遭印度空袭",
+   "建筑物拆除发生在空袭后约10个月（2026年3月观测到）",
+   "巴基斯坦方面选择拆除而非修复该建筑"
+  ],
+  "data": [
+   {
+    "metric": "观测时间",
+    "value": "2026年3月10日",
+    "context": "卫星影像拍摄日期"
+   },
+   {
+    "metric": "空袭发生时间",
+    "value": "2025年5月",
+    "context": "印巴冲突期间"
+   },
+   {
+    "metric": "拆除时滞",
+    "value": "约10个月",
+    "context": "从空袭到建筑拆除的时间间隔"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://www.cna.org/reports/2023/04/Russian-Combat-Air-Strengths-and-Limitations.pdf",
+  "source_title": "Unlimited distribution IOP-2023-U-035263-Final April 2023",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "俄罗斯航空航天部队（VKS）对乌克兰及北约的中长期威胁能力",
+  "claim": "俄罗斯VKS未能在乌克兰建立空中优势，其实战表现显著低于西方战前预期，但仍对乌克兰短期及北约中长期构成持续威胁",
+  "reasoning": "Justin Bronk基于在乌克兰实地调研（包括与乌空军高级指挥官访谈、检查缴获俄武器系统）得出判断：俄VKS在压制/摧毁敌防空（SEAD/DEAD）行动中失败，无法投送固定翼/旋翼打击任务覆盖乌大部分地区，乌克兰凭借自有S-300、Buk等防空系统及西方MANPADS持续拒止俄空中优势。俄虽具备多域协同远程精确打火能力（巡航导弹、弹道导弹、电子战），但其电子攻击对乌独立升级后的苏制防空系统造成的永久损害少于预期。该判断基于开源评估及实地验证，旨在重新评估俄VKS当前能力与中期威胁潜力",
+  "evidence": [
+   "2022年底乌克兰空军仍运作大量9M38M1（SA-11）、S-300PS/PT（SA-10）、S-300V1（SA-12）防空系统，陆军运作多套9K33（SA-8）",
+   "俄在2022年2月24日动用图-95MS和图-160战略轰炸机发射Kh-101/Kh-555巡航导弹，配合黑海舰艇发射3M-54 Kalibr及陆基伊斯坎德尔系统，实施多域协同远程精确打击",
+   "俄电子战攻击降级并损坏乌早期预警、目标捕获及火控雷达，部分系统需更换组件和多次重启才能恢复",
+   "乌克兰自独立以来对苏制防空系统进行独立硬件升级和软件现代化，导致俄电子攻击造成的永久性损害低于俄方预期",
+   "西方自2022年10月起向乌提供IRIS-T SLM、Gepard自行高炮、NASAMS等防空系统，用于城市和关键基础设施的巡航导弹与游荡弹药防御"
+  ],
+  "data": [
+   {
+    "metric": "乌S-300PS/PT火力单元数",
+    "value": "25个火力单元（每单元最多12具发射器）",
+    "context": "战前估算，来源：Alexander Mladenov/作者2022年10月访谈验证"
+   },
+   {
+    "metric": "乌Buk火力单元数",
+    "value": "至少11个火力单元",
+    "context": "战前配置"
+   },
+   {
+    "metric": "乌SA-8 Osa数量",
+    "value": "超过100辆",
+    "context": "战前陆军装备"
+   },
+   {
+    "metric": "俄2月24日发射导弹数",
+    "value": "数百枚",
+    "context": "首日巡航导弹/弹道导弹总量，低于俄库存及平台可发射量"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "中长期（medium and long term，报告发布为2023年4月）",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Jack Watling",
+  "theater": "俄乌",
+  "source_url": "https://static.rusi.org/emergent-approaches-combined-arms-manoeuvre-ukraine-oct-25.pdf",
+  "source_title": "Emergent Approaches to Combined Arms Manoeuvre in Ukraine",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 static.rusi.org",
+  "topic": "俄乌战场下联合兵种机动作战的新兴概念",
+  "claim": "2028年北约部队不应直接照搬乌军2025年三四梯队防御战术，而应学习乌军高效突击单位正在开发的联合兵种机动新概念",
+  "reasoning": "Jack Watling认为当前战场存在三大挑战：传感器网络导致的「战场透明化」使突然性难以实现；精确火力普及导致集中部队易遭快速消耗；后勤补给线持续遭打击致使进攻失去动能。因此乌军部分高效单位正在实验新的作战概念——不是简单集中装甲步兵炮兵，而是通过系统性压制敌方传感器、隔断补给、分阶段削弱敌方能力来实现机动，这种概念才是北约应借鉴的方向",
+  "evidence": [
+   "乌克兰2023年攻势采用的传统联合兵种突破概念在实战中遭遇失败",
+   "乌军部分突击团/营在实验新战法后取得了「不成比例的成功」disproportionate success",
+   "俄军已发展出系统性摧毁乌军无人机企业、电子战阵地、指挥所的火力整合战术",
+   "乌军利用情报主导的远程布雷技术，可在俄军集结时动态部署地雷",
+   "当前战场环境下，工程装备在接近接触线前就面临被摧毁风险",
+   "乌军高效单位正在实践「接触战区-中间战区-纵深战区」三层战场概念"
+  ],
+  "data": [
+   {
+    "metric": "北约战备时间节点",
+    "value": "2028年",
+    "context": "准备第一梯队对俄作战"
+   },
+   {
+    "metric": "乌军作战梯队层级",
+    "value": "第三或第四梯队",
+    "context": "2025年优化用于消耗俄军的区域防御"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Ronald O'Rourke",
+  "theater": "军工与战略",
+  "source_url": "https://premium.globalsecurity.org/military/library/congress/2007_hr/070308-orourke.pdf",
+  "source_title": "PDF Statement of Ronald O'Rourke Specialist in National Defense ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ronald o'rourke」",
+  "topic": "美国攻击型核潜艇（SSN）未来力量结构与弗吉尼亚级采购政策",
+  "claim": "按海军现行30年采购计划（FY2008-2037），SSN舰队将在2020-2033年间跌破48艘目标，于2028-2029年触底40艘，无法长期维持目标兵力",
+  "reasoning": "O'Rourke基于海军提交的30年造舰计划进行推演：该计划在2008-2011年每年采购1艘弗吉尼亚级、2012-2028年每年2艘、之后降为1.5艘的节奏，但由于洛杉矶级批量退役与新舰交付时间差，加上4艘改装的俄亥俄级SSGN将在2028年前全部退役且无替代计划，导致SSN存量在2020年代出现14年的结构性缺口，最低点比目标少8艘（17%缺口）",
+  "evidence": [
+   "海军313舰队计划中SSN目标为48艘，占舰队总数约15%",
+   "30年采购计划为FY2008-2011年年产1艘、FY2012-2028年年产2艘、FY2029-2037年年产1.5艘",
+   "海军预测SSN数量将在2020-2033年持续低于48艘目标",
+   "4艘改装的俄亥俄级SSGN计划在2028年前退役且无替代舰",
+   "自1995年以来CRS已持续讨论长期采购计划可能导致SSN缺口问题"
+  ],
+  "data": [
+   {
+    "metric": "当前SSN总数",
+    "value": "55艘",
+    "context": "2006财年末"
+   },
+   {
+    "metric": "SSN目标兵力",
+    "value": "48艘",
+    "context": "海军313舰队计划"
+   },
+   {
+    "metric": "预测最低兵力",
+    "value": "40艘",
+    "context": "2028-2029年"
+   },
+   {
+    "metric": "缺口持续年限",
+    "value": "14年",
+    "context": "2020-2033年"
+   },
+   {
+    "metric": "冷战末期峰值",
+    "value": "98艘",
+    "context": "1987财年末"
+   },
+   {
+    "metric": "当前SSN占舰队比例",
+    "value": "20%",
+    "context": "FY2006，55艘/281艘总舰队"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2028-2029年触底，缺口持续至2033年",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
+ },
+ {
+  "kol": "Ronald O'Rourke",
+  "theater": "军工与战略",
+  "source_url": "https://www.globalsecurity.org/military/library/congress/2007_hr/070308-orourke.pdf",
+  "source_title": "PDF Statement of Ronald O'Rourke Specialist in National Defense ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ronald o'rourke」",
+  "topic": "美国攻击型核潜艇（SSN）未来力量结构与弗吉尼亚级采购政策",
+  "claim": "按海军现行30年采购计划（FY2008-2037），SSN舰队将在2020-2033年间跌破48艘目标，于2028-2029年触底40艘，无法长期维持目标兵力",
+  "reasoning": "O'Rourke基于海军提交的30年造舰计划进行推演：该计划在2008-2011年每年采购1艘弗吉尼亚级、2012-2028年每年2艘、之后降为1.5艘的节奏，但由于洛杉矶级批量退役与新舰交付时间差，加上4艘改装的俄亥俄级SSGN将在2028年前全部退役且无替代计划，导致SSN存量在2020年代出现14年的结构性缺口，最低点比目标少8艘（17%缺口）",
+  "evidence": [
+   "海军313舰队计划中SSN目标为48艘，占舰队总数约15%",
+   "30年采购计划为FY2008-2011年年产1艘、FY2012-2028年年产2艘、FY2029-2037年年产1.5艘",
+   "海军预测SSN数量将在2020-2033年持续低于48艘目标",
+   "4艘改装的俄亥俄级SSGN计划在2028年前退役且无替代舰",
+   "自1995年以来CRS已持续讨论长期采购计划可能导致SSN缺口问题"
+  ],
+  "data": [
+   {
+    "metric": "当前SSN总数",
+    "value": "55艘",
+    "context": "2006财年末"
+   },
+   {
+    "metric": "SSN目标兵力",
+    "value": "48艘",
+    "context": "海军313舰队计划"
+   },
+   {
+    "metric": "预测最低兵力",
+    "value": "40艘",
+    "context": "2028-2029年"
+   },
+   {
+    "metric": "缺口持续年限",
+    "value": "14年",
+    "context": "2020-2033年"
+   },
+   {
+    "metric": "冷战末期峰值",
+    "value": "98艘",
+    "context": "1987财年末"
+   },
+   {
+    "metric": "当前SSN占舰队比例",
+    "value": "20%",
+    "context": "FY2006，55艘/281艘总舰队"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2028-2029年触底，缺口持续至2033年",
+  "confidence": "high",
+  "extracted_on": "2026-09-29"
  }
 ]
