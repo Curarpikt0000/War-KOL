@@ -2540,5 +2540,30 @@
     "stars": 3,
     "percentile": 0.5935,
     "rating_provisional": false
+  },
+  {
+    "name_en": "Thomas Withington",
+    "name_zh": "托马斯·威辛顿",
+    "affiliation": "RUSI 军事科学 Associate Fellow；NATO Defense College 高级非驻院研究员",
+    "theater": [
+      "军工与战略"
+    ],
+    "evaluated_on": "2026-09-25",
+    "requested_by": "Chao（Telegraph Battle Lines 播客《第六代战斗机》）",
+    "score_A": 8,
+    "score_B": 7,
+    "score_C": null,
+    "score_D": 8,
+    "weighted_score": 7.64,
+    "weighted_score_if_B8": 8.0,
+    "weighted_score_if_C8": 7.75,
+    "rating_provisional": true,
+    "status": "边界：7.64，距 3★ 线 7.9 差 0.26；B 若判 8 分即 8.0 过线，取决于一手性怎么判",
+    "rating_reason": "A=8：RUSI Associate Fellow + NATO 防务学院高级非驻院研究员、博士、获奖分析师，但偏撰稿人型；B=7：电子战/雷达技术解析，基于公开规格与泄露文件（如 RUSI《Jamming JDAM》），非自采数据或影像判读；C=空：未找到已到期可核对预测；D=8：行文逐条挂信源链接。",
+    "sources": [
+      "https://www.rusi.org/people/withington",
+      "https://www.ndc.nato.int/research/researchers/thomas-withington/",
+      "https://www.rusi.org/explore-our-research/publications/commentary/jamming-jdam-threat-us-munitions-russian-electronic-warfare"
+    ]
   }
 ]

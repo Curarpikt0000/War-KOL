@@ -2178,5 +2178,31 @@
       "https://foreignpolicy.com/2026/05/18/iran-war-trump-foreign-policy-failure-energy-crisis-military"
     ],
     "revisit": "其署名预测到期（伊朗战争结局等）后可复评 C 维度"
+  },
+  {
+    "name_en": "Sophy Antrobus",
+    "name_zh": "索菲·安特罗布斯",
+    "affiliation": "伦敦国王学院 Freeman 空天研究所附属高级研究员（前联席所长）；英国上议院工党议员（2026-01 起）",
+    "theater": [
+      "军工与战略"
+    ],
+    "evaluated_on": "2026-09-25",
+    "requested_by": "Chao（Telegraph Battle Lines 播客《第六代战斗机》）",
+    "score_A": 9,
+    "score_B": 6,
+    "score_C": null,
+    "score_D": 8,
+    "weighted_score": 7.71,
+    "weighted_score_if_C8": 7.8,
+    "stars": 2,
+    "rating_provisional": true,
+    "threshold": "3★（名册现 3★ 最低 7.9）",
+    "rating_reason": "A=9：KCL Freeman 空天研究所、剑桥 MA/MPhil + 埃克塞特博士、皇家空军服役 20 年（伊拉克/阿富汗）、议会作证；B=6：研究方向是 RAF 的组织与文化障碍、政策评析（如 2022《综合评估一年后空权表现》），非战场数据或影像判读；C=空：未找到已到期可核对预测；D=8：学术写作、出处规范。另：2026-01 起任上议院议员，产出预计转向议会发言，且聚焦英国空军体制而非战区走向。",
+    "decision": "未达 3★ 入库线，不进名册/Notion/dashboard（沿用 Chao 2026-09-25 甲口径）",
+    "sources": [
+      "https://www.kcl.ac.uk/people/sophy-antrobus",
+      "https://www.kcl.ac.uk/one-year-on-how-did-air-power-fare-in-the-integrated-review"
+    ],
+    "revisit": "若其公开判断到期可核对，复评 C"
   }
 ]
