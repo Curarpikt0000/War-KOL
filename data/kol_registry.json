@@ -1,5 +1,36 @@
 [
   {
+    "page_id": "3ea47eb5-fd3c-8168-b973-c0525a589f74",
+    "name_en": "Thomas Withington",
+    "name_zh": "托马斯·威辛顿",
+    "affiliation": "RUSI 军事科学 Associate Fellow；NATO Defense College 高级非驻院研究员",
+    "role": "电子战、雷达与军事通信分析师",
+    "theater": [
+      "军工与战略"
+    ],
+    "language": "en",
+    "specialty": "电子战 / 雷达 / 军事通信 / 电磁频谱作战",
+    "rating": "3★",
+    "weighted_score": 8,
+    "score_A": 8,
+    "score_B": 8,
+    "score_C": null,
+    "score_D": 8,
+    "rating_provisional": true,
+    "rating_reason": "A=8：RUSI Associate Fellow + NATO 防务学院高级非驻院研究员、博士、获奖分析师；B=8：电子战/雷达专业技术解析（Chao 2026-09-25 拍板按 8 计，原评 7 时总分 7.64）；C=空：无已到期可核对预测，暂定；D=8：逐条挂信源。Chao 2026-09-25 批准入库（来源：Telegraph Battle Lines 第六代战斗机一期）。",
+    "controversies": "",
+    "primary_url": "https://www.rusi.org/people/withington",
+    "x_handle": "unknown",
+    "youtube": "",
+    "platforms": "",
+    "search_terms_notion": "Thomas Withington | Dr Thomas Withington",
+    "active": true,
+    "watchlist": false,
+    "quality_flag": "",
+    "sources": "https://www.rusi.org/people/withington | https://www.ndc.nato.int/research/researchers/thomas-withington/",
+    "search_terms": "Thomas Withington | Dr Thomas Withington"
+  },
+  {
     "page_id": "3cf47eb5-fd3c-81cf-a53e-f472967b20f7",
     "name_en": "Zhu Weiyi (\"Ting Feng De Can\")",
     "name_zh": "聽風的蠶（朱唯一）",
