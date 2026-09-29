@@ -2233,5 +2233,55 @@
       "https://www.timesofisrael.com/gaza-aid-group-says-boy-reported-killed-at-site-is-actually-still-living-and-safe/"
     ],
     "revisit": "若日后有已到期预测应验，可复评 C"
+  },
+  {
+    "name_en": "Dino Mavrookas",
+    "name_zh": "迪诺·马夫鲁卡斯",
+    "affiliation": "Saronic Technologies 联合创始人兼 CEO；前海豹突击队 11 年（8 次战斗部署）",
+    "score_A": 6,
+    "score_B": 4,
+    "score_C": null,
+    "score_D": 3,
+    "rating_reason": "A=6：海豹突击队 11 年实战 + 防务科技 CEO，有一线作战与产业根基，但非智库/学术/情报分析岗；B=4：言论为访谈口播，数据（如 230:1 造船比）转引公开估算，无自采数据或文件解析；C=空：未找到已到期可核对预测；D=3：播客口播不挂信源，且 利益冲突：Saronic（估值约 90 亿美元的自主无人舰艇公司）联合创始人，公开言论（如 All-In 2026-08-06「中国造船能力是美国 230 倍」「无人艇蜂群 vs 30 亿美元驱逐舰」）同时是公司产品与融资叙事，判断与商业利益直接挂钩。",
+    "theater": [
+      "军工与战略"
+    ],
+    "evaluated_on": "2026-09-29",
+    "requested_by": "Chao（All-In 播客 Saronic 联合创始人访谈）",
+    "weighted_score": 4.64,
+    "stars": 1,
+    "rating_provisional": true,
+    "controversies": "利益冲突：Saronic（估值约 90 亿美元的自主无人舰艇公司）联合创始人，公开言论（如 All-In 2026-08-06「中国造船能力是美国 230 倍」「无人艇蜂群 vs 30 亿美元驱逐舰」）同时是公司产品与融资叙事，判断与商业利益直接挂钩。",
+    "decision": "未达 3★ 入库线，不进名册/Notion/dashboard（沿用甲口径）",
+    "sources": [
+      "https://www.saronic.com/team",
+      "https://singjupost.com/all-in-interview-w-saronic-co-founders-dino-mavrookas-vibhav-altekar-transcript/"
+    ],
+    "revisit": "若有独立于公司叙事、已到期可核对的战区预测，可复评"
+  },
+  {
+    "name_en": "Vibhav Altekar",
+    "name_zh": "维布哈夫·阿尔特卡",
+    "affiliation": "Saronic Technologies 联合创始人兼 CTO",
+    "score_A": 5,
+    "score_B": 4,
+    "score_C": null,
+    "score_D": 3,
+    "rating_reason": "A=5：自主系统/软件架构技术负责人，工程背景，无军方/智库/学术的战争分析履历；B=4：言论为访谈口播，偏产品技术而非战区判断；C=空：未找到已到期可核对预测；D=3：口播不挂信源，且 利益冲突：Saronic（估值约 90 亿美元的自主无人舰艇公司）联合创始人，公开言论（如 All-In 2026-08-06「中国造船能力是美国 230 倍」「无人艇蜂群 vs 30 亿美元驱逐舰」）同时是公司产品与融资叙事，判断与商业利益直接挂钩。",
+    "theater": [
+      "军工与战略"
+    ],
+    "evaluated_on": "2026-09-29",
+    "requested_by": "Chao（All-In 播客 Saronic 联合创始人访谈）",
+    "weighted_score": 4.21,
+    "stars": 1,
+    "rating_provisional": true,
+    "controversies": "利益冲突：Saronic（估值约 90 亿美元的自主无人舰艇公司）联合创始人，公开言论（如 All-In 2026-08-06「中国造船能力是美国 230 倍」「无人艇蜂群 vs 30 亿美元驱逐舰」）同时是公司产品与融资叙事，判断与商业利益直接挂钩。",
+    "decision": "未达 3★ 入库线，不进名册/Notion/dashboard（沿用甲口径）",
+    "sources": [
+      "https://www.saronic.com/team",
+      "https://singjupost.com/all-in-interview-w-saronic-co-founders-dino-mavrookas-vibhav-altekar-transcript/"
+    ],
+    "revisit": "若有独立于公司叙事、已到期可核对的战区预测，可复评"
   }
 ]
