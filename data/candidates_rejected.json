@@ -2149,5 +2149,34 @@
     "percentile": 0.9919,
     "rating_provisional": false,
     "reject_reason": "星级 1★ < 入库门槛 3★"
+  },
+  {
+    "name_en": "Ravi Agrawal",
+    "name_zh": "拉维·阿格拉瓦尔",
+    "affiliation": "Foreign Policy 主编 / FP Live 主持人",
+    "theater": [
+      "军工与战略",
+      "中东"
+    ],
+    "evaluated_on": "2026-09-25",
+    "requested_by": "Chao（FP Live 节目 Tom Karako 访谈）",
+    "score_A": 8,
+    "score_B": 4,
+    "score_C": null,
+    "score_D": 6,
+    "weighted_score": 6.14,
+    "weighted_score_if_C8": 6.7,
+    "stars": 1,
+    "threshold": "3★（名册现 3★ 最低 7.9）",
+    "rating_provisional": true,
+    "rating_reason": "A=8：FP 主编、前 CNN 11 年、Peabody 共享、Belfer 关联，机构根基强但非军事专业；B=4：产出为主持访谈 + 评论性署名文章，论据多转引（如 Patriot 消耗数据引自 CSIS），无自采数据/影像判读；C=空：署名预测（2026-05《伊朗战争或成特朗普最大外交失败》、2026-08《Trump Has Peaked》）均未到期，已到期可核对预测 0 条，按 MIN_JUDGED=3 口径置空；D=6：评论文体，信源标注中等，未见主动更正记录。",
+    "decision": "未达 3★ 入库线，不进名册/Notion/dashboard（Chao 2026-09-25 选甲：先打分，不够不加）",
+    "sources": [
+      "https://foreignpolicy.com/author/ravi-agrawal/",
+      "https://ravireport.substack.com/",
+      "https://foreignpolicy.com/2026/08/31/trump-peak-iran-war-foreign-policy/",
+      "https://foreignpolicy.com/2026/05/18/iran-war-trump-foreign-policy-failure-energy-crisis-military"
+    ],
+    "revisit": "其署名预测到期（伊朗战争结局等）后可复评 C 维度"
   }
 ]
