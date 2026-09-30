@@ -1192,3 +1192,50 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 - [ ] agent 两次询问是否归档 ChaoWiki（回「收工」执行），Chao 未回复
 - [ ] `data/` 下累积大量未跟踪 `.bak*`（rescore 每日一份 + 本次候选备份）未清理；`data/prediction_verdicts.json` 有未提交改动（非本会话产生，未核）
 - 09-25 条目的待办（收录日口径确认、两组按钮合并等）本日无进展，沿用
+
+## 2026-09-30（星级改固定分数线；Kavanagh / Grieco 入册 3★；Larry Johnson 1★ 留痕）
+
+### 决策
+- **Chao 提问**：昆西研究所节目的嘉宾（Jennifer Kavanagh / Kelly Grieco）能否加入 KOL。
+  agent 打分两人均 8.43（A9/B8/D8，C 空），但发现口径冲突：按 AGENTS.md 百分位规则，
+  09-30 晨间 rescore 后「无 C 组」3★ 线已抬到约 8.8，两人仅 2★（第 50/61 位），Withington（8.0）掉到 1★。
+  给甲（固定分数线）/乙（维持百分位）/丙（破例加）三选项，agent 倾向乙。
+- **Chao 拍板「甲」**：改为固定分数线。3★=7.9 为既有入库线；其余切点
+  **≥9.7=5★ / ≥9.3=4★ / ≥6.5=2★ 由 agent 按当前分布自定**，已告知 Chao 可调，未获回复。
+- **agent 判断**：主持人 Kelley Vlahos 不入库（观点属嘉宾，同 Agrawal 先例，粗估 4.7，未写留痕）。
+- **agent 判断**：ANONYMIZED_PERSON_0_48（前 CIA 分析员）打分 3.45（1★）不加，建议不破例。
+- **agent 判断（未请示）**：「命中率已核验」组（Massicot / Bronk 共 2 人）暂仍按组内排名给星——
+  直接套固定线 Massicot（6.89）会掉 2★，待 Chao 定。
+- **agent 判断**：6 位现有 KOL 在新线下 <3★（Babak 1★；Damien Symon、Rocío San Miguel 等 5 人 2★，7.43–7.86），
+  **未自动移出**，名册增删等 Chao 在 Notion 操作。
+
+### 改动
+- 评分脚本星级逻辑改固定分数线；重算写回名册，Withington 回到 3★（`4079416`）。
+- 页面底部 / KOL 详情里的「百分位」说明文字同步改为「固定分数线」。
+- `data/candidates_rejected.json`：先写入 Kavanagh/Grieco「待定」（`6094b5a`），后改为入库；
+  新增 Johnson 1★ 留痕（C2：2001-07 NYT《恐怖主义威胁正在下降》后两月 9·11、多次预言乌军崩溃；
+  D2：伊朗核密码说法经事实核查无据未更正；另记 FARA 登记与常上 RT/Sputnik）。
+- **Notion War KOL List**：新建 Kavanagh、Grieco 两行（卡片注明「克制派」立场倾向），读回 68 行；
+  镜像同步后 `data/kol_registry.json` **65 人**（dry-run 确认只多两人）。
+- 两人 backfill 365 天：55 条原始（Kavanagh 37 / Grieco 18），15 条有发表日、40 条留空未用抓取日顶替；
+  五要素门禁合格 13 条（Kavanagh 10 / Grieco 3）；四层补齐；另一新人 Thomas Withington 有 5 条。
+- `docs/PENDING_AGENTS_MD_UPDATE.md` 新增 E 节（星级规则改固定线），AGENTS.md 受保护未直接改（`d3f8ee9`）。
+- 发布：公网 war-kol.pages.dev 200，线上 md5 = 本地（`a5e06af4ab46`）；内网 vibe 镜像 v29。
+
+### 踩坑与教训
+- **百分位星级随名册漂移**：rescore 会让同一分数的星级来回跳，agent 前一天口头说的「7.9 过线」已失效，
+  须对 Chao 更正 Withington 结论。教训：引用门槛前先按当日名册重算，别凭上一轮记忆。
+- **前台工具 ~400–420s 超时**打断 extract_thesis / build_layers（EXIT=124），已完成部分落盘；
+  改后台 `timeout 1200–1500` + notify 续跑，脚本对已合格条目幂等跳过。长 LLM 批处理直接放后台。
+- **疑似进程撞车**：看到 `--workers 8` 抽取进程非本人启动，查工作目录与日志确认是 Politics-Checker 自己的
+  backfill，无数据冲突，但共用 LLM 代理会拖慢。教训：看到陌生进程先查 cwd/log 再判定。
+- Grieco 18 条仅 3 条合格——原始材料多为活动预告/访谈页，缺完整论证（推测，未逐条核）。
+
+### 待办
+- [ ] **Chao 定**：6 位 <3★ 现有 KOL（Babak 1★ + 5 位 2★）是否在 Notion 移出
+- [ ] **Chao 定**：命中率已核验组（Massicot / Bronk）是否也改固定线
+- [ ] **Chao 贴**：AGENTS.md 星级规则（PENDING 文档 E 节）；AGENTS.md 现仍写「百分位」
+- [ ] Chao 确认 5★/4★/2★ 切点（agent 自定）
+- [ ] 名册现 65 人，超 60 上限 5 人（09-29 待办延续，仍未讨论）
+- [ ] 09-29 的 Mavrookas 破例问题、ChaoWiki 归档（本日又问一次「收工」）均未获回复
+- [ ] `data/` 未跟踪 `.bak*` 仍未清理
