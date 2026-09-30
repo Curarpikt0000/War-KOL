@@ -733,5 +733,212 @@
   "horizon": "未指明",
   "confidence": "medium",
   "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Ibrahim Yahaya Ibrahim",
+  "theater": "非洲",
+  "source_url": "https://www.nytimes.com/2026/06/06/world/africa/mali-rebels-fighting-jnim-isis.html",
+  "source_title": "Mali Conflict Escalates as Rebel Alliance Seizes Key Cities ...",
+  "published_on": "2026-06-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ibrahim yahaya ibrahim」",
+  "topic": "马里军政府与圣战组织-叛军联盟冲突走向",
+  "claim": "马里军政府与叛乱组织双方都无法轻易取胜，开启对话渠道可能是唯一出路",
+  "reasoning": "该分析师观察到马里北部重镇已失守、国防部长遇刺、俄雇佣军战场溃败等一系列严重挫折，认为这些协同攻势是马里任何政权遭受的最严重打击；同时圣战组织力量比以往更强大且复杂，正在结盟横扫全国。在双方都难以速胜的僵持局面下，军政府除非先被推翻，否则将被迫与叛军谈判。",
+  "evidence": [
+   "马里北部一座关键城市已落入新的圣战组织-叛军联盟手中",
+   "马里国防部长近期在家中遇刺身亡",
+   "与军政府结盟的俄罗斯雇佣军在战斗中被迫撤退",
+   "这些协同攻击被专家描述为任何马里政权所遭受的最严重打击",
+   "圣战组织比以往任何时候都更强大和复杂，正在结盟横扫全国",
+   "冲突中无人机的使用日益增多"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Uzi Rubin",
+  "theater": "中东",
+  "source_url": "https://besacenter.org/wp-content/uploads/2020/06/1607-Israel-and-Precision-Guided-Missile-Threat-Rubin-English-final.pdf",
+  "source_title": "Israel and the Precision-Guided Missile Threat",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 besacenter.org",
+  "topic": "以色列面临的精确制导导弹威胁与战争形态转变",
+  "claim": "精确制导导弹已能替代空军实现空中优势，真主党一旦完成精确导弹项目将具备瘫痪以色列关键设施的能力，导弹确实能够赢得战争",
+  "reasoning": "Rubin 通过历史案例论证了战争形态的演变：二战时德国V型导弹因精度不足未能改变战局，但两伊战争中伊拉克用改进型飞毛腿导弹轰炸德黑兰迫使伊朗接受停火、导弹赢得了战争；现代智能手机级技术已使简易火箭弹能低成本改装为精确武器；2020年伊朗导弹精确打击伊拉克美军基地、切断光纤致无人机失控，证明了导弹可瘫痪空军基地；真主党若获得精确导弹将拥有空军级打击能力但无需承担大型机场这一致命弱点，主动防御（铁穹等）无法保证百分百拦截，泄漏的精确弹即可削弱以色列空军",
+  "evidence": [
+   "两伊战争中伊拉克发射近200枚Al-Hussein导弹打击德黑兰等四座城市，致数千人死亡、数百万人撤离，导弹攻击是迫使伊朗最高领袖霍梅尼「饮下毒酒」接受停火的最后一根稻草",
+   "2020年1月伊朗导弹袭击伊拉克Ein Assad美军空军基地，一枚导弹击中地下通信管道、切断光纤线路，导致美军无人机机队失去地面控制数小时",
+   "1982年黎巴嫩战争后叙利亚国防部长Mustafa Tlass指出「1982年是空战，下一场将是导弹战」，叙利亚随后采购大量飞毛腿导弹并配备国产化学弹头",
+   "真主党和哈马斯已用简易火箭弹袭击以色列本土，造成数百平民死亡及可观经济损失",
+   "现代智能手机包含了车辆精确制导所需的全部技术，约十年来已可将此类技术以适度成本整合进简易Grad火箭弹，将非制导火箭转化为精确打击导弹",
+   "伊朗正在将其所有老旧火箭弹和导弹改装为精确武器，并向地区盟友提供技术与材料以建设各自的精确导弹能力"
+  ],
+  "data": [
+   {
+    "metric": "两伊战争伊拉克发射导弹数",
+    "value": "近200枚",
+    "context": "针对德黑兰等四座伊朗城市"
+   },
+   {
+    "metric": "二战德国战略轰炸平民死亡数",
+    "value": "至少100万人",
+    "context": "盟军对德国城市的战略轰炸"
+   },
+   {
+    "metric": "伊朗无人机失控时长",
+    "value": "数小时",
+    "context": "2020年Ein Assad基地遭导弹袭击后"
+   },
+   {
+    "metric": "精确制导技术民用化时长",
+    "value": "约十年",
+    "context": "智能手机级技术整合进火箭弹的时间跨度"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://taylorfravel.com/documents/research/fravel.2013.CNA.competition.SCS.pdf",
+  "source_title": "The Long Littoral Project: South China Sea - M. Taylor Fravel",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「m. taylor fravel」",
+  "topic": "南海争端中的竞争态势与各方行为模式",
+  "claim": "自2007年以来南海竞争加剧，但紧张程度尚未达到1988-1995年的军事化水平，当前争端主要通过渔船、石油公司和海上执法机构等非军事手段展开",
+  "reasoning": "M. Taylor Fravel 通过对比历史时期和当前态势，指出尽管近年来南海竞争加剧且时有紧张局势，但争端尚未军事化。他认为领土争端本质上是零和博弈，各方对他国加强主权主张的行动高度敏感，形成互动性的不稳定螺旋。但关键行为主体已从军事力量转为渔船、石油公司和海上执法机构，通过外交和非军事手段竞争，因此紧张程度低于1988年中越武装冲突造成74名越南人死亡的历史时期",
+  "evidence": [
+   "2007年以来南海主权竞争国之间的竞争增加",
+   "1988年3月中国与越南发生重大武装冲突，74名越南人死亡",
+   "1988-1995年期间越南、菲律宾和马来西亚共占领22个南沙争议地物，中国占领7个",
+   "1995年中国外长Qian Qichen在东盟地区论坛承诺按国际法（包括UNCLOS）解决争端后紧张局势开始缓和",
+   "当前争端主要行为主体是渔船、石油公司和国家海上执法机构，而非军事力量直接介入",
+   "中国自1994年末占领美济礁后未再占领争议地物"
+  ],
+  "data": [
+   {
+    "metric": "1988年中越冲突越方死亡人数",
+    "value": "74人",
+    "context": "1988年3月"
+   },
+   {
+    "metric": "1988-1995年越南、菲律宾、马来西亚占领南沙地物数量",
+    "value": "22个",
+    "context": "1988-1995年期间"
+   },
+   {
+    "metric": "1988-1995年中国占领南沙地物数量",
+    "value": "7个",
+    "context": "1988-1995年期间"
+   },
+   {
+    "metric": "南沙群岛地物总数",
+    "value": "约230个",
+    "context": "包括小岛、珊瑚礁和浅滩"
+   },
+   {
+    "metric": "越南占领南沙地物数量",
+    "value": "27个",
+    "context": "超过其他所有声索国总和"
+   },
+   {
+    "metric": "菲律宾占领南沙地物数量",
+    "value": "8个",
+    "context": "现状"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Mark F. Cancian",
+  "theater": "军工与战略",
+  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-06/260624_Cancian_Epic_Fury.pdf",
+  "source_title": "The War May Be Ending. What Did Epic Fury Cost?",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mark f. cancian」",
+  "topic": "2026年美国对伊朗战争「史诗怒火行动」总成本估算",
+  "claim": "此次战争给美国国防部造成的额外成本约为400亿美元（区间340-420亿美元），其中弹药消耗是最大成本驱动因素",
+  "reasoning": "CSIS通过六大类成本分项（部署/撤离、弹药、高作战节奏、装备损失、基地损毁、燃料涨价）进行核算，严格只计入因战争产生的增量成本，排除已在预算内的开支。弹药成本高达261亿美元占比最大，因为美军发射了大量昂贵的远程导弹（战斧、JASSM、爱国者、THAAD、SM-3等）用于对地攻击和防空拦截。战争成本在时间上呈非线性分布：初期使用昂贵远程武器，在快速压制伊朗防空后转向廉价短程弹药，且伊朗导弹/无人机攻击在首周末下降80-90%，单日成本显著降低。该估算低于国防部800亿美元的战时补充拨款申请，因后者包含非直接战争成本如「启动」弹药采购流程的开支",
+  "evidence": [
+   "中央司令部司令Brad Cooper上将报告称，美军在停火前向超过13000个目标发射了13629枚打击弹药，6月10日停火期间仍发射49枚战斧导弹",
+   "美国在战区部署了两个航母打击群、数十架战斗机及大量支援和后勤资产，以及防空、野战炮兵和地面作战部队",
+   "联军拦截了伊朗来袭无人机及弹道/巡航导弹的40-60%，其余由联盟伙伴拦截，大幅降低美国成本和损失",
+   "国会研究服务处确认42架美军飞机损失或受损，大部分为无人机，另有倾转旋翼机和一部THAAD机动雷达",
+   "伊朗用导弹和无人机攻击美军基地，联军拦截率达90%，但10%漏网率在数千次攻击中仍造成大量损毁",
+   "美国防部官员最初称战争成本250亿美元后修正为290亿美元，但承认未包含基地损毁（CSIS估算此项为40-94亿美元）"
+  ],
+  "data": [
+   {
+    "metric": "战争总成本",
+    "value": "340-420亿美元",
+    "context": "CSIS估算，仅国防部增量成本"
+   },
+   {
+    "metric": "弹药成本",
+    "value": "261亿美元",
+    "context": "包括对地攻击和防空拦截弹药"
+   },
+   {
+    "metric": "战斧导弹消耗",
+    "value": "1000+枚",
+    "context": "单价260万美元，总成本28亿美元"
+   },
+   {
+    "metric": "JASSM消耗",
+    "value": "1100+枚",
+    "context": "单价190万美元，总成本23亿美元"
+   },
+   {
+    "metric": "爱国者导弹消耗",
+    "value": "1060-1430枚",
+    "context": "单价490万美元，总成本53-71亿美元"
+   },
+   {
+    "metric": "SM-3导弹消耗",
+    "value": "130-250枚",
+    "context": "单价2870万美元，总成本39-75亿美元"
+   },
+   {
+    "metric": "伊朗攻击下降幅度",
+    "value": "80-90%",
+    "context": "战争首周末之后"
+   },
+   {
+    "metric": "联军拦截率",
+    "value": "最高90%",
+    "context": "针对伊朗导弹和无人机"
+   },
+   {
+    "metric": "装备损失",
+    "value": "18-35亿美元",
+    "context": "主要为飞机，42架损失或受损"
+   },
+   {
+    "metric": "基地损毁",
+    "value": "40-94亿美元",
+    "context": "结构和内部设施"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
  }
 ]

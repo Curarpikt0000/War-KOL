@@ -100,25 +100,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clary_co」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=332",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Rocío San Miguel",
-  "theater": "拉美",
-  "title": "The Detention of Rocío San Miguel Raises Human Rights Concerns...",
-  "summary": "Rocío San Miguel, a Venezuelan security expert, speaking in 2011.“If this happened to Rocío San Miguel, then what’s left for everybody else?” said Laura Dib, who directs the Venezuela program at the Washington Office on Latin America.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2024/02/14/world/americas/rocio-san-miguel-detention-venezuela.html",
-  "published_on": "2024-02-14",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-09-02",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「rocío san miguel」",
-  "date_source": "url_path",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=330",
   "removed_stage": "nobody"
  },
  {
@@ -187,7 +169,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -256,7 +238,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「wassim nasr」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -429,7 +411,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「dara massicot」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -446,7 +428,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -549,7 +531,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -584,7 +566,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=296",
+  "removed_reason": "正文不可得 http=200 chars=412",
   "removed_stage": "nobody"
  },
  {
@@ -601,7 +583,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=521",
+  "removed_reason": "正文不可得 http=200 chars=501",
   "removed_stage": "nobody"
  },
  {
@@ -618,7 +600,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=627",
+  "removed_reason": "正文不可得 http=200 chars=587",
   "removed_stage": "nobody"
  },
  {
@@ -669,7 +651,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -703,7 +685,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「héni nsaibia」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -841,7 +823,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=143",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -875,7 +857,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -926,7 +908,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -943,7 +925,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1045,7 +1027,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1249,7 +1231,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「babak taghvaee」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1317,7 +1299,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台账号 x.com",
-  "removed_reason": "正文不可得 http=200 chars=696",
+  "removed_reason": "正文不可得 http=200 chars=632",
   "removed_stage": "nobody"
  },
  {
@@ -1334,7 +1316,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1385,7 +1367,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1402,7 +1384,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1470,7 +1452,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushantsin」",
-  "removed_reason": "正文不可得 http=200 chars=389",
+  "removed_reason": "正文不可得 http=200 chars=373",
   "removed_stage": "nobody"
  },
  {
@@ -1487,7 +1469,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1521,7 +1503,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clary_co」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1555,7 +1537,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christopher clary」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1565,23 +1547,6 @@
   "summary": "Jan 8, 2026 · “If this happened to Rocío San Miguel, then what’s left for everybody else?” Laura Dib, who directs the Venezuela program at the Washington Office on Latin America, said at the time.",
   "quote": "",
   "source_url": "https://www.nytimes.com/2026/01/08/world/americas/san-miguel-venezuela-prisoner-released.html",
-  "published_on": "2026-01-08",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「rocío san miguel」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Rocío San Miguel",
-  "theater": "拉美",
-  "title": "Rocío San Miguel fue una de las presas políticas liberadas en ...",
-  "summary": "Jan 8, 2026 · Una de las expertas en seguridad más conocidas de Venezuela fue puesta en libertad el jueves después de casi dos años de estar bajo custodia.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/es/2026/01/08/espanol/america-latina/rocio-san-miguel-liberada-presos-politicos-venezuela.html",
   "published_on": "2026-01-08",
   "date_status": "verified",
   "direction": "未表态",
@@ -1606,7 +1571,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rocío san miguel」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1725,7 +1690,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1742,7 +1707,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1793,7 +1758,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1878,7 +1843,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1929,7 +1894,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1980,7 +1945,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「wassim nasr」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2048,7 +2013,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2065,7 +2030,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2099,7 +2064,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2133,7 +2098,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael knights」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2184,7 +2149,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「seth g. jones」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2303,7 +2268,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「peter makowsky」",
-  "removed_reason": "正文不可得 http=200 chars=485",
+  "removed_reason": "正文不可得 http=200 chars=342",
   "removed_stage": "nobody"
  },
  {
@@ -2320,7 +2285,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「samuel bendett」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2337,7 +2302,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「samuel bendett」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2354,7 +2319,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2524,7 +2489,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas h. shugart iii」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2558,7 +2523,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「gregory b. poling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2592,7 +2557,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「gregory b. poling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2694,7 +2659,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「dara massicot」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2728,7 +2693,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「dara massicot」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2762,7 +2727,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2796,7 +2761,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2864,7 +2829,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2881,7 +2846,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2932,7 +2897,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ralee85」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2949,7 +2914,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2983,7 +2948,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=763",
+  "removed_reason": "正文不可得 http=200 chars=717",
   "removed_stage": "nobody"
  },
  {
@@ -3017,7 +2982,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=668",
+  "removed_reason": "正文不可得 http=200 chars=536",
   "removed_stage": "nobody"
  },
  {
@@ -3034,7 +2999,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3068,7 +3033,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3238,7 +3203,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom shugart」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3289,7 +3254,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christoph vogel」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3306,7 +3271,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christoph vogel」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3357,7 +3322,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「pavel luzin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3408,7 +3373,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=118",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3459,7 +3424,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3493,7 +3458,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3510,7 +3475,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3544,7 +3509,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3578,7 +3543,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3595,7 +3560,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=89",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3663,7 +3628,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=15",
   "removed_stage": "nobody"
  },
  {
@@ -3731,7 +3696,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3799,7 +3764,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「aaron y. zelin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3833,7 +3798,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「andrew s. erickson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3901,7 +3866,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3969,7 +3934,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4037,7 +4002,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4054,7 +4019,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4071,7 +4036,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4139,7 +4104,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clionadh raleigh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4156,7 +4121,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clionadh raleigh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4190,7 +4155,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clionadh raleigh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4241,7 +4206,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mark f. cancian」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4292,7 +4257,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4309,7 +4274,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4343,7 +4308,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4394,7 +4359,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「decker eveleth」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4428,7 +4393,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=598",
+  "removed_reason": "正文不可得 http=200 chars=627",
   "removed_stage": "nobody"
  },
  {
@@ -4445,7 +4410,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4479,7 +4444,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nan tian」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4496,7 +4461,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nan tian」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4513,7 +4478,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jack watling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4530,7 +4495,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jack watling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4547,7 +4512,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jack watling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4632,7 +4597,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「hans m. kristensen」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4751,7 +4716,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5227,7 +5192,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5261,7 +5226,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5295,7 +5260,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5329,7 +5294,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5380,7 +5345,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5431,7 +5396,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=494",
+  "removed_reason": "正文不可得 http=200 chars=493",
   "removed_stage": "nobody"
  },
  {
@@ -5618,7 +5583,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5635,7 +5600,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「zoo_bear」",
-  "removed_reason": "正文不可得 http=200 chars=673",
+  "removed_reason": "正文不可得 http=200 chars=601",
   "removed_stage": "nobody"
  },
  {
@@ -5652,7 +5617,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5890,7 +5855,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5975,7 +5940,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -6145,7 +6110,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「wassim nasr」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -6281,7 +6246,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -6791,7 +6756,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「avi scharf」",
-  "removed_reason": "正文不可得 http=200 chars=688",
+  "removed_reason": "正文不可得 http=200 chars=654",
   "removed_stage": "nobody"
  },
  {
@@ -6808,7 +6773,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「avi scharf」",
-  "removed_reason": "正文不可得 http=200 chars=263",
+  "removed_reason": "正文不可得 http=200 chars=249",
   "removed_stage": "nobody"
  },
  {
@@ -7012,7 +6977,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「peter makowsky」",
-  "removed_reason": "正文不可得 http=200 chars=381",
+  "removed_reason": "正文不可得 http=200 chars=374",
   "removed_stage": "nobody"
  },
  {
@@ -7029,7 +6994,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「samuel bendett」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7046,7 +7011,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「samuel bendett」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7063,7 +7028,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「samuel bendett」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7097,7 +7062,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7148,24 +7113,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
-  "removed_reason": "正文不可得 http=200 chars=146",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Ibrahim Yahaya Ibrahim",
-  "theater": "非洲",
-  "title": "Mali Conflict Escalates as Rebel Alliance Seizes Key Cities ...",
-  "summary": "Jun 6, 2026 · “Neither of them is going to win it easily,” said Ibrahim Yahaya Ibrahim, the deputy director of the Sahel Project at the International Crisis Group. “Maybe opening channels of dialogue is ...",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2026/06/06/world/africa/mali-rebels-fighting-jnim-isis.html",
-  "published_on": "2026-06-06",
-  "date_status": "verified",
-  "direction": "升级",
-  "collected_on": "2026-09-07",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「ibrahim yahaya ibrahim」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7335,7 +7283,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7420,7 +7368,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7539,7 +7487,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7590,7 +7538,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7607,7 +7555,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7624,7 +7572,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7641,7 +7589,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7658,7 +7606,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7675,7 +7623,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7692,7 +7640,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7743,7 +7691,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7998,7 +7946,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8015,7 +7963,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8032,7 +7980,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8049,7 +7997,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8066,7 +8014,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8083,7 +8031,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8100,7 +8048,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8185,7 +8133,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8253,7 +8201,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「bellingcat」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8355,7 +8303,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom shugart」",
-  "removed_reason": "正文不可得 http=200 chars=599",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8440,7 +8388,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=156",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8457,7 +8405,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8474,7 +8422,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8491,7 +8439,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8508,7 +8456,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8525,7 +8473,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8559,7 +8507,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8593,7 +8541,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8882,7 +8830,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=405",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9103,7 +9051,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9426,7 +9374,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「andrew s. erickson」",
-  "removed_reason": "正文不可得 http=200 chars=469",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9664,7 +9612,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9681,7 +9629,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -9732,7 +9680,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10123,7 +10071,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10174,7 +10122,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=326",
+  "removed_reason": "正文不可得 http=200 chars=320",
   "removed_stage": "nobody"
  },
  {
@@ -10259,7 +10207,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nan tian」",
-  "removed_reason": "正文不可得 http=200 chars=665",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10327,7 +10275,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10667,7 +10615,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10684,7 +10632,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10735,7 +10683,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「eric j. labs」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=341",
   "removed_stage": "nobody"
  },
  {
@@ -10888,7 +10836,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10905,7 +10853,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10939,7 +10887,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 ndc.nato.int",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=589",
   "removed_stage": "nobody"
  },
  {
@@ -11007,7 +10955,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11041,7 +10989,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11093,7 +11041,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 youtube.com",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11144,7 +11092,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11178,7 +11126,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11299,7 +11247,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「detresfa_」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11316,7 +11264,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「wassim nasr」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11350,7 +11298,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「pavel luzin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11384,7 +11332,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11419,7 +11367,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin_br0nk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11436,7 +11384,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -11504,7 +11452,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11539,7 +11487,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「wassim nasr」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11676,7 +11624,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11727,7 +11675,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=127",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11882,7 +11830,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12035,7 +11983,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「conflict armament research」",
-  "removed_reason": "正文不可得 http=200 chars=89",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12052,7 +12000,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12069,7 +12017,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12103,7 +12051,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12138,7 +12086,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=469",
+  "removed_reason": "正文不可得 http=200 chars=445",
   "removed_stage": "nobody"
  },
  {
@@ -12257,7 +12205,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12308,7 +12256,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12325,7 +12273,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12377,7 +12325,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13027,7 +12975,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13044,7 +12992,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13146,7 +13094,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13163,7 +13111,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13180,7 +13128,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13214,7 +13162,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13248,7 +13196,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13452,7 +13400,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ryan d. martinson」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -13521,7 +13469,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「傅泰林」",
-  "removed_reason": "正文不可得 http=200 chars=586",
+  "removed_reason": "正文不可得 http=200 chars=432",
   "removed_stage": "nobody"
  },
  {
@@ -13555,7 +13503,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13606,7 +13554,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=497",
+  "removed_reason": "正文不可得 http=200 chars=473",
   "removed_stage": "nobody"
  },
  {
@@ -13640,7 +13588,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14035,7 +13983,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14140,7 +14088,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=488",
+  "removed_reason": "正文不可得 http=200 chars=482",
   "removed_stage": "nobody"
  },
  {
@@ -14397,7 +14345,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14414,7 +14362,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14482,7 +14430,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14499,7 +14447,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14550,7 +14498,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin_br0nk」",
-  "removed_reason": "正文不可得 http=200 chars=497",
+  "removed_reason": "正文不可得 http=200 chars=473",
   "removed_stage": "nobody"
  },
  {
@@ -14654,7 +14602,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=429",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14671,7 +14619,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14739,7 +14687,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14756,7 +14704,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jack watling」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14895,7 +14843,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 sites.middlebury.edu",
   "date_source": "url_path",
-  "removed_reason": "正文不可得 http=200 chars=668",
+  "removed_reason": "正文不可得 http=ConnectTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14912,7 +14860,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15065,7 +15013,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15134,7 +15082,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15219,7 +15167,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15236,7 +15184,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15253,7 +15201,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15306,7 +15254,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15409,7 +15357,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael knights」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15545,7 +15493,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15562,7 +15510,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15733,7 +15681,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15767,7 +15715,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hoffmann」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15835,7 +15783,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「贾森·斯特恩斯」",
-  "removed_reason": "正文不可得 http=200 chars=41",
+  "removed_reason": "正文不可得 http=200 chars=500",
   "removed_stage": "nobody"
  },
  {
@@ -15869,7 +15817,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rdmartinson88」",
-  "removed_reason": "正文不可得 http=200 chars=455",
+  "removed_reason": "正文不可得 http=200 chars=437",
   "removed_stage": "nobody"
  },
  {
@@ -15886,24 +15834,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=200 chars=146",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Todd Harrison",
-  "theater": "军工与战略",
-  "title": "WEDDINGS; Elizabeth Mellen, Todd Harrison - The New York Times",
-  "summary": "Mrs. Mellen Harrison, 23, is a project analyst at the Boston law firm of Mintz, Levin, Cohn, Ferris, Glovsky & Popeo, where she provides research and technical assistance to lawyers. She graduated from Wellesley College, where she was elected to Phi Beta Kappa.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/1999/06/13/style/weddings-elizabeth-mellen-todd-harrison.html",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-10",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16022,7 +15953,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=710",
   "removed_stage": "nobody"
  },
  {
@@ -16073,7 +16004,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16230,7 +16161,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16299,7 +16230,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「zoo_bear」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=573",
+  "removed_reason": "正文不可得 http=200 chars=571",
   "removed_stage": "nobody"
  },
  {
@@ -16384,7 +16315,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16402,7 +16333,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16419,7 +16350,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=533",
   "removed_stage": "nobody"
  },
  {
@@ -16556,7 +16487,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=483",
   "removed_stage": "nobody"
  },
  {
@@ -16692,7 +16623,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -16882,24 +16813,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Matthew P. Funaiole",
-  "theater": "印太",
-  "title": "“Ship Wars: Confronting China’s Dual-Use Shipbuilding Empire ...",
-  "summary": "A short, spoken-word summary from CSIS’s Matthew P. Funaiole on his report with Brian Hart and Aidan Powers-Riggs, Ship Wars: Confronting China’s Dual-Use Shipbuilding Empire.",
-  "quote": "",
-  "source_url": "https://www.everand.com/podcast/838013135/Ship-Wars-Confronting-China-s-Dual-Use-Shipbuilding-Empire-Audio-Brief-with-Matthew-P-Funaiole-A-short-spoken-word-summary-from-CSIS-s-Matthew",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-12",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=209",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17019,7 +16933,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17140,7 +17054,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17191,7 +17105,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17362,7 +17276,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「aaron y. zelin」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17396,7 +17310,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17551,7 +17465,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeffrey lewis」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17619,7 +17533,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17688,7 +17602,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17757,7 +17671,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 cna.org",
-  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
+  "removed_reason": "正文不可得 http=200 chars=580",
   "removed_stage": "nobody"
  },
  {
@@ -17910,7 +17824,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17927,7 +17841,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17944,7 +17858,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -17978,7 +17892,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=621",
+  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18029,7 +17943,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18080,7 +17994,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18166,7 +18080,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18217,7 +18131,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=772",
   "removed_stage": "nobody"
  },
  {
@@ -18287,7 +18201,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18304,7 +18218,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18321,7 +18235,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18440,7 +18354,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「detresfa_」",
-  "removed_reason": "正文不可得 http=200 chars=657",
+  "removed_reason": "正文不可得 http=200 chars=613",
   "removed_stage": "nobody"
  },
  {
@@ -18576,7 +18490,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18610,7 +18524,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18644,7 +18558,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18661,7 +18575,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18729,7 +18643,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18865,7 +18779,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「clary_co」",
-  "removed_reason": "正文不可得 http=200 chars=114",
+  "removed_reason": "正文不可得 http=200 chars=102",
   "removed_stage": "nobody"
  },
  {
@@ -18916,7 +18830,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18950,7 +18864,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18967,7 +18881,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=81",
   "removed_stage": "nobody"
  },
  {
@@ -18984,7 +18898,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19018,7 +18932,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19137,7 +19051,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=621",
+  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19154,7 +19068,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ibrahim yahaya ibrahim」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19171,7 +19085,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=621",
+  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19273,7 +19187,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=621",
+  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19290,7 +19204,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=621",
+  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19546,7 +19460,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「unknown」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19667,7 +19581,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19684,7 +19598,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christopher clary」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19718,7 +19632,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19803,7 +19717,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19854,7 +19768,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「damien symon」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19888,7 +19802,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19905,7 +19819,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「phil gunson」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19974,7 +19888,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「avi scharf」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=154",
+  "removed_reason": "正文不可得 http=200 chars=140",
   "removed_stage": "nobody"
  },
  {
@@ -20009,7 +19923,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20030,23 +19944,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Uzi Rubin",
-  "theater": "中东",
-  "title": "Israel and the Precision-Guided Missile Threat",
-  "summary": "In the Middle East, Iran is leading the way; it is currently converting all its older rockets and missiles into precision weapons. It also supplies its allies in the region with expertise and materials with which to build their own precision missile capabilities—hence the Precision Project of Hezbollah and other Iranian proxies in the region.",
-  "quote": "",
-  "source_url": "https://besacenter.org/wp-content/uploads/2020/06/1607-Israel-and-Precision-Guided-Missile-Threat-Rubin-English-final.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 besacenter.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Rob Lee",
   "theater": "俄乌",
   "title": "Russia’s Next Move: The Front Line Right Now - fpri.org",
@@ -20060,7 +19957,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=117",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20077,7 +19974,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20111,24 +20008,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=146",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Matthew P. Funaiole",
-  "theater": "印太",
-  "title": "PDF Crossroads of Commerce - csis-website-prod.s3.amazonaws.com",
-  "summary": "AUTHORS Matthew P. Funaiole Brian Hart David Peng Bonny Lin Jasper Verschuur This CSIS report produces new estimates of the total value and volume of trade through the Taiwan Strait, as well as more granular data on the share of each country's maritime imports and exports that transit the strait.",
-  "quote": "",
-  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-10/ChinaPower_CrossroadsCommerce_TaiwanStrait_methodology.pdf?VersionId=ce6G_WI5O9O4L1XIiJA7wQtvWnuszUdV",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20151,24 +20031,6 @@
  {
   "kol": "Matthew P. Funaiole",
   "theater": "印太",
-  "title": "PDF Matthew P. Funaiole - docs.house.gov",
-  "summary": "Matthew P. Funaiole is vice president of the Andreas C. Dracopoulos iDeas Lab, Andreas C. Dracopoulos Chair in Innovation, and a senior fellow with the China Power Project at the Center for Strategic and International Studies (CSIS). His work applies data-driven policy research to understand and explain geopolitical developments, with particular attention to Chinese foreign policy, dual-use ...",
-  "quote": "",
-  "source_url": "https://docs.house.gov/meetings/FA/FA05/20260722/119432/HHRG-119-FA05-Bio-FunaioleM-20260722.pdf",
-  "published_on": "2026-07-22",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "date_source": "url_path",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Matthew P. Funaiole",
-  "theater": "印太",
   "title": "PDF Perspectives on Taiwan - JSTOR",
   "summary": "Perspectives on Taiwan Insights from the 2019 Taiwan-U.S. Policy Program EDITORS Bonnie S. Glaser Matthew P. Funaiole JANUARY 2020 A Report of the CSIS China Power Project Lanham • Boulder • New York • London AUTHORS",
   "quote": "",
@@ -20180,7 +20042,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20232,7 +20094,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=179",
+  "removed_reason": "正文不可得 http=200 chars=160",
   "removed_stage": "nobody"
  },
  {
@@ -20287,57 +20149,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Justin Bronk",
-  "theater": "俄乌",
-  "title": "Research Methodology",
-  "summary": "to their quality and assigning a related grading (high, medium or low quality); and 7) analysis · of the documents to diagnose common assumptions or theories of change underpinning each · thematic intervention, the validity of these assumptions and the effectiveness (or not) of the ... Eric continued for the duration of this project. For more information, see Organizing Against · Violent Extremism, ‘About the Prevention Project’, <https://organizingagainstve.org/about-the- ... Development Research’, Journal of Development Effectiveness (Vol.",
-  "quote": "",
-  "source_url": "https://static.rusi.org/pcve_methodology_final_web_version_0.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 static.rusi.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Justin Bronk",
-  "theater": "俄乌",
-  "title": "Annual Report 2021–22 cmxcix www.rusi.org Annual Report 2021–22",
-  "summary": "continued our research and analysis on the Iranian nuclear programme and the role",
-  "quote": "",
-  "source_url": "https://static.rusi.org/rusi-annual-report-2021-2022_0_0.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 static.rusi.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Justin Bronk",
-  "theater": "俄乌",
-  "title": "www.rusi.org Royal United Services Institute for Defence and Security Studies",
-  "summary": "a research-led institute, producing independent, practical and innovative analysis to address today’s complex ... Since its foundation in 1831, RUSI has relied on its members to support its activities. Together with revenue · from research, publications and conferences, RUSI has sustained its political independence for 192 years. ... RUSI is a registered charity (No. 210639) Published in 2023 by the Royal United Services Institute for Defence and Security Studies. RUSI Annual Report 2022–23.",
-  "quote": "",
-  "source_url": "https://static.rusi.org/RUSI-Annual-Report-2022-2023.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 static.rusi.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "M. Taylor Fravel",
   "theater": "印太",
   "title": "China's Strategy in the South China Sea - JSTOR",
@@ -20355,40 +20166,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "M. Taylor Fravel",
-  "theater": "印太",
-  "title": "The Long Littoral Project: South China Sea - M. Taylor Fravel",
-  "summary": "CNA ANALYSIS SOLUTIONS CHINA NES VIETNAM Gulf of LAOS Tonkin THAILAND CAMBODIA Gulfof Thailand ALA'S/ SINGAPORE Taiwan Hainan (China) PARACEL ISLANDS p Sect SPRATtY ISLANDS Sulu Sea Chinese Claim \"Nine Dash Line\" BRUNEI MALAYSI INDONESIA",
-  "quote": "",
-  "source_url": "https://taylorfravel.com/documents/research/fravel.2013.CNA.competition.SCS.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Mark F. Cancian",
-  "theater": "军工与战略",
-  "title": "The War May Be Ending. What Did Epic Fury Cost?",
-  "summary": "By Mark F. Cancian and Chris H. Park W ith a ceasefire agreement signed, negotiations ongoing, and the Strait of Hormuz open, the latest U.S. campaign against Iran that began in February 2026 may be ending. Congressional attention now turns to the war’s cost—it needs to be covered, as neither the FY 2026 Department of Defense (DOD) budget nor the president’s FY 2027 budget proposal ...",
-  "quote": "",
-  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-06/260624_Cancian_Epic_Fury.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "降级",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「mark f. cancian」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Michael Kofman",
   "theater": "俄乌",
   "title": "From the Russia-Ukraine Front (ft. Military Analyst Michael Kofman ...",
@@ -20402,7 +20179,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「michael kofman」",
-  "removed_reason": "正文不可得 http=200 chars=146",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20454,23 +20231,6 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 iiss.org",
   "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Decker Eveleth",
-  "theater": "中东",
-  "title": "The Oreshnik Comes to Belarus | CNA",
-  "summary": "When Nuclear Weapons Return to Belarus: Evolving Concepts in Russian Escalation Strategy. The ‘Zapad’ exercise and how Lukashenko learned to love the Bomb. Exclusive: Russia likely placing new hypersonic missiles at former airbase in Belarus, researchers find.",
-  "quote": "",
-  "source_url": "https://www.cna.org/our-media/podcasts/cna-talks/2026/01/the-oreshnik-comes-to-belarus",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 cna.org",
-  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
