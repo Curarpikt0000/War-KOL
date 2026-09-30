@@ -1,0 +1,39 @@
+[
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.pathwayreview.com/p/jennifer-kavanagh-on-restraint-retrenchment",
+  "source_title": "Jennifer Kavanagh on Restraint, Retrenchment, and the Limits of...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国全球军事承诺与战略收缩必要性",
+  "claim": "美国将被迫进行战略收缩，区别只在于是主动管理还是被物质约束倒逼",
+  "reasoning": "Jennifer Kavanagh基于对1898年以来美国军事干预的研究认为，美国本土因地理优势与核威慑已极为安全，但华盛顿将全球任何现状改变都视为威胁，导致承担了大量不必要的承诺。这些承诺不仅未提升安全反而制造风险（如诱使盟友行为激进），且美国已无法在经济和军力上持续支撑全球霸权——无法像冷战时拖垮苏联那样拖垮中国，而伊朗战争后弹药与资源短缺已使美国在亚洲「能否」（can）而非「应否」（should）保卫台湾成为现实问题。",
+  "evidence": [
+   "Jennifer Kavanagh在兰德公司研究了1898年西班牙-美国战争以来美国每次动武记录，结论是这些干预失败且未让美国更安全",
+   "美国在中东的基地本应保护美国本土，但实际上基地本身成为需要保护的对象，逻辑倒置",
+   "欧洲GDP与人口总量均超过俄罗斯，技术先进且富裕，完全有能力自主防卫",
+   "2023年拜登政府国防战略委员会报告承认，维持全球不优先排序需大幅增加国防预算，唯一资金来源是削减医保、社保或增税",
+   "伊朗战争后美国已无足够弹药、防空系统和进攻性武器在亚洲作战，且大量舰机仍困在中东",
+   "乌克兰战场长期僵持，美国已无多余物资持续供应乌克兰保护基础设施"
+  ],
+  "data": [
+   {
+    "metric": "美国驻欧洲军力",
+    "value": "7-8万人",
+    "context": "当前部署规模"
+   },
+   {
+    "metric": "美国海外基地",
+    "value": "约700个",
+    "context": "全球分布"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "10年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ }
+]
