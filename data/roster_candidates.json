@@ -2540,5 +2540,52 @@
     "stars": 3,
     "percentile": 0.5935,
     "rating_provisional": false
+  },
+  {
+    "evaluated_on": "2026-09-30",
+    "requested_by": "Chao（Quincy Institute / Responsible Statecraft 节目：中东短板推演台海）",
+    "score_C": null,
+    "rating_provisional": true,
+    "name_en": "Jennifer Kavanagh",
+    "name_zh": "詹妮弗·卡瓦纳",
+    "affiliation": "Defense Priorities 高级研究员兼军事分析主任；前卡内基 American Statecraft 高级研究员；前 RAND 高级政治学者、Arroyo Center 陆军战略项目主任",
+    "theater": [
+      "军工与战略",
+      "中东",
+      "印太"
+    ],
+    "score_A": 9,
+    "score_B": 8,
+    "score_D": 8,
+    "weighted_score": 8.43,
+    "status": "待 Chao 定口径：固定线 7.9 过线；现行百分位制排 50/61（约 2★）",
+    "rating_reason": "A=9：RAND 陆军战略项目主任 3 年 + 卡内基 + Defense Priorities，Foreign Affairs/JCR 等发表；B=8：兵力结构、国防预算、工业基础的定量研究（RAND 报告体例）；C=空：未找到已到期可核对预测；D=8：报告体例、出处规范。立场属克制派（restraint）。",
+    "sources": [
+      "https://www.defensepriorities.org/people/jennifer-kavanagh/",
+      "https://carnegieendowment.org/people/jennifer-kavanagh"
+    ]
+  },
+  {
+    "evaluated_on": "2026-09-30",
+    "requested_by": "Chao（Quincy Institute / Responsible Statecraft 节目：中东短板推演台海）",
+    "score_C": null,
+    "rating_provisional": true,
+    "name_en": "Kelly A. Grieco",
+    "name_zh": "凯莉·格里科",
+    "affiliation": "史汀生中心 Reimagining US Grand Strategy 高级研究员；乔治城大学安全研究兼职教授",
+    "theater": [
+      "印太",
+      "军工与战略"
+    ],
+    "score_A": 9,
+    "score_B": 8,
+    "score_D": 8,
+    "weighted_score": 8.43,
+    "status": "待 Chao 定口径：固定线 7.9 过线；现行百分位制排 50/61（约 2★）",
+    "rating_reason": "A=9：史汀生中心高级研究员 + 乔治城兼职教授，空中作战/兵力结构专长；B=8：台海后勤、空中拒止等作战层面分析（Lawfare《The Future of Airpower Is Denial》、Stimson《Fighting China, Fast and Slow》）；C=空；D=8。立场属克制派。",
+    "sources": [
+      "https://www.stimson.org/ppl/kelly-a-grieco/",
+      "https://www.lawfaremedia.org/article/the-future-of-airpower-is-denial"
+    ]
   }
 ]
