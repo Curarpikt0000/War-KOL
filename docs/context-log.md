@@ -1203,7 +1203,7 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 - **Chao 拍板「甲」**：改为固定分数线。3★=7.9 为既有入库线；其余切点
   **≥9.7=5★ / ≥9.3=4★ / ≥6.5=2★ 由 agent 按当前分布自定**，已告知 Chao 可调，未获回复。
 - **agent 判断**：主持人 Kelley Vlahos 不入库（观点属嘉宾，同 Agrawal 先例，粗估 4.7，未写留痕）。
-- **agent 判断**：ANONYMIZED_PERSON_0_48（前 CIA 分析员）打分 3.45（1★）不加，建议不破例。
+- **agent 判断**：Larry Johnson（前 CIA 分析员）打分 3.45（1★）不加，建议不破例。
 - **agent 判断（未请示）**：「命中率已核验」组（Massicot / Bronk 共 2 人）暂仍按组内排名给星——
   直接套固定线 Massicot（6.89）会掉 2★，待 Chao 定。
 - **agent 判断**：6 位现有 KOL 在新线下 <3★（Babak 1★；Damien Symon、Rocío San Miguel 等 5 人 2★，7.43–7.86），
@@ -1218,7 +1218,7 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 - **Notion War KOL List**：新建 Kavanagh、Grieco 两行（卡片注明「克制派」立场倾向），读回 68 行；
   镜像同步后 `data/kol_registry.json` **65 人**（dry-run 确认只多两人）。
 - 两人 backfill 365 天：55 条原始（Kavanagh 37 / Grieco 18），15 条有发表日、40 条留空未用抓取日顶替；
-  五要素门禁合格 13 条（Kavanagh 10 / Grieco 3）；四层补齐；另一新人 Thomas Withington 有 5 条。
+  五要素门禁合格 13 条（Kavanagh 10 / Grieco 3）；四层补齐；第三位新人（对话中名字被脱敏，按「比上次多 1 条」推断为 Withington，未核）现有 5 条。
 - `docs/PENDING_AGENTS_MD_UPDATE.md` 新增 E 节（星级规则改固定线），AGENTS.md 受保护未直接改（`d3f8ee9`）。
 - 发布：公网 war-kol.pages.dev 200，线上 md5 = 本地（`a5e06af4ab46`）；内网 vibe 镜像 v29。
 
