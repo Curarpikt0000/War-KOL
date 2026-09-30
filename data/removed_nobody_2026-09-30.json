@@ -2268,7 +2268,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「peter makowsky」",
-  "removed_reason": "正文不可得 http=200 chars=342",
+  "removed_reason": "正文不可得 http=200 chars=485",
   "removed_stage": "nobody"
  },
  {
@@ -2796,23 +2796,6 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
   "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Rob Lee",
-  "theater": "俄乌",
-  "title": "Interview With Rob Lee On Dragos At 10, OT Threat ... - Castbox",
-  "summary": "Apr 6, 2026 · Description Podcast: Unsolicited Response (LS 33 · TOP 5% what is this?) Episode: Interview With Rob Lee On Dragos At 10, OT Threat & Incidents, Ransomware & More Pub date: 2026-04-01 Get Podcast Transcript → powered by Listen411 - fast audio-to-text and summarization It's great to have my friend Rob Lee back on the podcast.",
-  "quote": "",
-  "source_url": "https://www.castbox.fm/episode/Interview-With-Rob-Lee-On-Dragos-At-10,-OT-Threat-&-Incidents,-Ransomware-&-More-id2055936-id929419909",
-  "published_on": "2026-04-01",
-  "date_status": "verified",
-  "direction": "升级",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4393,7 +4376,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=627",
+  "removed_reason": "正文不可得 http=200 chars=553",
   "removed_stage": "nobody"
  },
  {
@@ -4563,7 +4546,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=82",
   "removed_stage": "nobody"
  },
  {
@@ -4785,6 +4768,142 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「eric j. labs」",
   "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "title": "Home • Stimson Center",
+  "summary": "Farewell 2025, Hello 2026. The Net Assessment crew reflects on the year and considers what may come in 2026.",
+  "quote": "",
+  "source_url": "https://www.stimson.org/?id=74",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "title": "Top Ten Global Risks for 2025 • Stimson Center",
+  "summary": "2025 risks deeper strife, conflict, and uncertainty in an unsettled, contested world.The New START treaty expires in 2026 and both sides have an interest in avoiding an arms race.",
+  "quote": "",
+  "source_url": "https://www.stimson.org/2025/top-ten-global-risks-for-2025/",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "title": "Iran’s ‘Axis of Resistance’ Weakened But Still Dangerous • Stimson...",
+  "summary": "Iran enters 2025 with its large network of state and non-state allies – built up painstakingly over nearly half a century — severely damaged.North Africa Regional Outlook: September 9, 2026.",
+  "quote": "",
+  "source_url": "https://www.stimson.org/2025/irans-axis-of-resistance-weakened-but-still-dangerous/",
+  "published_on": "2026-09-09",
+  "date_status": "verified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "title": "Home • Stimson Center",
+  "summary": "Research, programs and projects, events, and institutional information.Analysis of Arms Trade Treaty (ATT) annual reports covering weapons imports and exports during the 2024 calendar year.",
+  "quote": "",
+  "source_url": "https://www.stimson.org/?id=217",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "title": "Kelly A. Grieco • Stimson Center",
+  "summary": "Kelly A. Grieco is a Senior Fellow with the Reimagining US Grand Strategy Program at the Stimson Center, where her work focuses on US foreign policy and defense policy, addressing questions about military strategy, force structure, military alliances, air operations, and the future of war.",
+  "quote": "",
+  "source_url": "https://www.stimson.org/ppl/kelly-a-grieco/",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 stimson.org",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "title": "Ukraine, Iran, and America’s Arms Overreach | Robert... - YouTube",
+  "summary": "Robert Wright and Jennifer Kavanagh, director of military analysis at Defense Priorities, discuss links between the two wars—including how the Iran conflict has left Ukraine more vulnerable to Russian strikes—and what all this means for the future of American power.",
+  "quote": "",
+  "source_url": "https://www.youtube.com/watch?v=0XNrVBS4E3U",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "升级",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "title": "Jennifer Kavanagh on Restraint, Retrenchment, and the Limits of...",
+  "summary": "Jennifer Kavanagh begins from a premise that still sounds almost heretical in Washington: the United States is already extraordinarily safe.This interview has been edited for clarity and length. From the Archive · originally published in The Pathway Blog, April 2026.",
+  "quote": "",
+  "source_url": "https://www.pathwayreview.com/p/jennifer-kavanagh-on-restraint-retrenchment",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_stage": "nobody"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "title": "Jennifer Kavanagh: A Historic Shift in Asia & Ukraine Is... - YouTube",
+  "summary": "Aug 2 2026. Jennifer Kavanagh discusses the weakening position of the U.S. in East Asia, and why it does not seem possible for Ukraine to \"turn the tide\". Kavanagh is a Senior Fellow and Director of Military Analysis at Defense Priorities and an Adjunct Professor at Georgetown...",
+  "quote": "",
+  "source_url": "https://www.youtube.com/watch?v=SJxup3Xx6aI",
+  "published_on": "2026-08-02",
+  "date_status": "verified",
+  "direction": "未表态",
+  "collected_on": "2026-09-30",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5396,7 +5515,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=493",
+  "removed_reason": "正文不可得 http=200 chars=491",
   "removed_stage": "nobody"
  },
  {
@@ -9374,7 +9493,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「andrew s. erickson」",
-  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=469",
   "removed_stage": "nobody"
  },
  {
@@ -10207,7 +10326,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nan tian」",
-  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=665",
   "removed_stage": "nobody"
  },
  {
@@ -12175,23 +12294,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Rob Lee",
-  "theater": "俄乌",
-  "title": "From Beats to Bars: The 83 Cutlass Interview",
-  "summary": "Hosted by Rob Lee, \"The Truth In This Art\" podcast dives into the heart of creativity and its influence on the community. This arts and culture podcast from Baltimore highlights artists discussing their ideas, sharing insights, and telling impactful stories.",
-  "quote": "",
-  "source_url": "https://castbox.fm/episode/83-Cutlass-id3753278-id348912265",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-07",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Janis Kluge",
   "theater": "俄乌",
   "title": "Ist Russlands Wirtschaft am Ende? | Janis Kluge - YouTube",
@@ -12222,7 +12324,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 chinapower.csis.org",
-  "removed_reason": "正文不可得 http=200 chars=452",
+  "removed_reason": "正文不可得 http=200 chars=442",
   "removed_stage": "nobody"
  },
  {
@@ -12342,7 +12444,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=81",
   "removed_stage": "nobody"
  },
  {
@@ -14843,7 +14945,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 sites.middlebury.edu",
   "date_source": "url_path",
-  "removed_reason": "正文不可得 http=ConnectTimeout chars=0",
+  "removed_reason": "正文不可得 http=200 chars=668",
   "removed_stage": "nobody"
  },
  {
@@ -16487,7 +16589,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=483",
+  "removed_reason": "正文不可得 http=200 chars=476",
   "removed_stage": "nobody"
  },
  {
@@ -17739,7 +17841,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
-  "removed_reason": "正文不可得 http=200 chars=360",
+  "removed_reason": "正文不可得 http=200 chars=374",
   "removed_stage": "nobody"
  },
  {
@@ -18626,7 +18728,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=482",
+  "removed_reason": "正文不可得 http=200 chars=219",
   "removed_stage": "nobody"
  },
  {
@@ -18881,7 +18983,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -19512,7 +19614,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=661",
+  "removed_reason": "正文不可得 http=200 chars=662",
   "removed_stage": "nobody"
  },
  {
@@ -20094,7 +20196,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=160",
+  "removed_reason": "正文不可得 http=200 chars=180",
   "removed_stage": "nobody"
  },
  {

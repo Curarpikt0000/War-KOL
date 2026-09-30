@@ -940,5 +940,494 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "source_url": "https://thediplomat.com/2024/11/kelly-grieco-on-indo-pacific-reactions-to-trumps-reelection/",
+  "source_title": "Kelly Grieco on Indo-Pacific Reactions to Trump’s Reelection",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「kelly a. grieco」",
+  "topic": "印太盟友对特朗普再次当选的反应与美国同盟关系前景",
+  "claim": "美国印太盟友已接受特朗普二次执政的现实，不会出现震惊或恐慌，但对贸易压力和政策不确定性保持警觉",
+  "reasoning": "Grieco 认为与 8 年前首次当选时不同，特朗普如今已是「已知实体」，其政策取向和个性特质都为盟友所熟知。日韩澳等国在过去一年已提前与特朗普核心圈接触对冲风险，韩国总统甚至重新练习高尔夫准备「高尔夫外交」。虽然盟友担忧贸易施压和对朝政策反复，但已做好准备，不存在 2016 年那种紧急会议和措手不及的局面。菲律宾情况较复杂，对南海承诺的延续性存在焦虑，但鹰派人事任命也可能强化同盟。",
+  "evidence": [
+   "2016 年特朗普首次当选时，美国盟友以震惊、沮丧和焦虑的心态召开紧急会议应对",
+   "日本前首相麻生太郎 2024 年 4 月在纽约特朗普大厦会见特朗普",
+   "澳大利亚 7 月派大使在共和党大会期间与特朗普顾问接触",
+   "韩国总统尹锡悦重新练习高尔夫挥杆，准备「高尔夫外交」",
+   "菲律宾马科斯政府过去两年对中国骚扰行为实施「点名羞辱」的透明度倡议，获拜登书面承诺美国安全保障延伸至南海",
+   "习近平在秘鲁 APEC 论坛上表示中国准备与新政府合作，但强调台湾问题等红线不可挑战"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "source_url": "https://www.lawfaremedia.org/article/the-future-of-airpower-is-denial",
+  "source_title": "The United States needs a new plan for fighting in contested skies.",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 lawfaremedia.org",
+  "topic": "美国在对华冲突中的空中作战策略调整",
+  "claim": "美国应在冲突初期采取「制空拒止」(air denial)而非传统的「夺取制空权」策略，待消耗中国军力后再转向阶段性制空优势",
+  "reasoning": "Kelly A. Grieco认为，面对中国先进的防空系统（如S-400、HQ-9）和庞大的战机机队，美国若沿用1991年或2003年伊拉克战争的进攻优先策略，将损失数百架战机却仍无法压制中国防空网络。她主张采用「基于消耗点的空中控制」(CBAC)分阶段策略：先用大量低成本系统（地对空导弹、无人机、电磁干扰）进行拒止作战，消耗中国弹药并迫使其难以建立制空权，再在有利时机转为夺取局部制空优势。这种防御优先方法避免了攻击中国本土防空设施带来的核升级风险，同时通过成本交换比优势（用廉价目标消耗中国昂贵弹药）增强威慑可信度",
+  "evidence": [
+   "美军印太司令部司令帕帕罗上将今年向国会证词表示，对华冲突中他的任务是「争夺制空权」并只提供「制空窗口期」——短暂的可作战时段",
+   "1991年海湾战争中，美军虽快速夺取制空权，却未能摧毁一枚伊拉克飞毛腿导弹发射器；科索沃战争中南斯拉夫的移动防空系统大部分幸存",
+   "中国部署了先进地基防空系统，包括俄制S-400和国产HQ-9地对空导弹，能在远程和高空打击飞机；中国空中预警与控制机数量超过美国",
+   "美国空军计划采购的新型战机F-47单价约3亿美元，协同作战无人机单价约3600万美元，高成本将限制采购数量并削弱威慑可信度",
+   "当今导弹时代，拒止制空权通常比夺取制空权更容易实现，乌克兰战争中双方均未能建立制空优势证明了这一点",
+   "攻击中国东南沿海的防空系统存在跨越核门槛风险，因为中国的常规与核指挥控制系统相互交织"
+  ],
+  "data": [
+   {
+    "metric": "F-47战机单价",
+    "value": "3亿美元",
+    "context": "美国空军采购计划"
+   },
+   {
+    "metric": "协同作战无人机单价",
+    "value": "3600万美元",
+    "context": "与F-47配合使用的先进无人机"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Kelly A. Grieco",
+  "theater": "印太",
+  "source_url": "https://warontherocks.com/in-defense-of-denial-why-deterring-china-requires-new-airpower-thinking/",
+  "source_title": "In Defense of Denial: Why Deterring China Requires New Airpower...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「kelly a. grieco」",
+  "topic": "对抗中国入侵台湾的空中拒止战略",
+  "claim": "采用空中拒止（air denial）战略比追求空中优势和纵深打击更能有效威慑中国入侵台湾，且不会引发核升级风险",
+  "reasoning": "Grieco认为空中拒止战略利用美国防御优势对抗中国进攻弱点，通过分层体积化防御（volumetric defense）使中国难以获得空优。这比对称性争夺制空权更可信——后者需要打击中国本土目标、面临重大损失风险、可能因盟友或国内反对而缺乏执行意愿。防御方的地基移动防空系统本身就比进攻方飞机更难被发现摧毁，现代技术进一步增强了防御优势。通过维持「存在舰队」式的防空力量，使台湾上空持续处于争夺状态，从而在习近平心中制造对能否获得空优的怀疑，这比试图快速击败中国入侵部队更符合「拒止威慑」逻辑",
+  "evidence": [
+   "中国军事文献一贯强调没有制空权的两栖作战不太可能成功，历史上现代两栖作战在无制空权情况下成功率仅14%",
+   "美国空军从未与装备一体化移动防空系统的近对等对手进行过空战，1991年「飞毛腿搜索」和1998-1999科索沃战争中都难以发现摧毁移动防空资产",
+   "获得空优的进攻方必须击败防御方每一层防空系统（覆盖不同射程和高度），而只要美国及盟友维持防空「存在舰队」，空域就会保持争夺状态",
+   "深入中国严密防御空域可能导致重大损失，下一代作战无人机不会是「可消耗的」，高昂代价可能引发盟友或国内政治反对",
+   "现代防空系统日益密集（更多类型和数量的武器系统），且比携带导弹的战斗机和轰炸机更便宜易造，防御方可承受高损失",
+   "地基移动防空系统天然比进攻飞机更难发现摧毁，因为地面比无特征的天空更有利于掩护和隐蔽"
+  ],
+  "data": [
+   {
+    "metric": "无制空权两栖作战成功率",
+    "value": "14%",
+    "context": "现代两栖作战历史数据"
+   },
+   {
+    "metric": "中国击沉入侵舰队时限要求",
+    "value": "72小时",
+    "context": "部分分析家认为需在第一岛链内达成目标"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.yahoo.com/news/politics/articles/us-munitions-sent-ukraine-compared-224742946.html",
+  "source_title": "US munitions sent to Ukraine compared to Iran war as Trump blames...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国对伊朗战争与乌克兰援助的弹药消耗对比及战备影响",
+  "claim": "美国目前无法支撑对华或对俄的大规模战争，持续的伊朗战争和乌克兰援助将进一步延长美军重获主要威胁防御能力的时间",
+  "reasoning": "Kavanagh 基于美国在伊朗战争中的弹药消耗速率和库存现状进行判断。他认为尽管美国有足够弹药在伊朗继续进行有限打击，但在防御性拦截弹方面面临更大约束——无法同时满足保护驻伊美军和向乌克兰提供冬季防空拦截弹的需求。更关键的是，伊朗战争消耗了大量战略稀缺的精确制导武器和防空拦截弹（如 Patriot、THAAD），这些武器的补充速度远低于消耗速度，直接削弱了美军应对中俄等「最具存在性威胁」的战备能力。",
+  "evidence": [
+   "伊朗战争前 39 天高强度冲突期间，美军发射约 1000 枚 Tomahawk 巡航导弹、1100 枚 JASSM 和 1500-2000 枚拦截弹（Patriot、THAAD、SM 系统）",
+   "伊朗战争前三天发射的 Patriot 拦截弹数量超过四年来向乌克兰提供的总量",
+   "美国在防御端无法同时满足保护驻伊美军和向乌克兰提供冬季拦截弹的需求",
+   "伊朗战争消耗的精确制导武器和防空拦截弹补充速度远低于向乌克兰的供应速度",
+   "美军在伊朗战争中损失超过 40 架航空资产，包括数十架无人机和数架战斗机及运输机"
+  ],
+  "data": [
+   {
+    "metric": "Tomahawk 巡航导弹发射量",
+    "value": "约 1000 枚",
+    "context": "伊朗战争前 39 天高强度冲突期间"
+   },
+   {
+    "metric": "JASSM 发射量",
+    "value": "1100 枚",
+    "context": "伊朗战争前 39 天高强度冲突期间"
+   },
+   {
+    "metric": "拦截弹发射量",
+    "value": "1500-2000 枚",
+    "context": "伊朗战争前 39 天，包括 Patriot、THAAD、SM 系统"
+   },
+   {
+    "metric": "航空资产损失",
+    "value": "超过 40 架",
+    "context": "伊朗战争期间，包括无人机、战斗机和运输机"
+   },
+   {
+    "metric": "Patriot 拦截弹单价",
+    "value": "300-400 万美元",
+    "context": "估算值"
+   },
+   {
+    "metric": "THAAD 拦截弹单价",
+    "value": "最高 1200 万美元",
+    "context": "估算值"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明具体时长，但暗示「更长时间」才能恢复对华俄战备",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.newsweek.com/us-munitions-sent-to-ukraine-compared-to-iran-war-as-trump-blames-biden-12401867",
+  "source_title": "US Munitions Sent to Ukraine Compared to Iran War as... - Newsweek",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国对伊朗战争与乌克兰援助的军火消耗对比及战备影响",
+  "claim": "美国目前无法支撑与中国或俄罗斯的大规模战争，对伊朗战争和乌克兰援助持续越久，美军重新准备好应对最严重威胁的时间线就越长",
+  "reasoning": "虽然美国有足够弹药继续在伊朗进行有限打击（通过JDAM套件将「哑弹」转化为精确武器），但在防御侧面临更大约束。美国无法同时满足防御需求并在冬季向乌克兰供应拦截弹。持续在伊朗消耗武器（加上对乌克兰的援助）会损害未来战备，延长美军为下一场冲突做好准备的时间。这种双重消耗使美国当前无力应对中俄等最严重的存在性威胁",
+  "evidence": [
+   "对伊朗战争39天高强度作战期间，美国发射约1000枚战斧巡航导弹、1100枚JASSM和1500-2000枚拦截弹",
+   "爱国者拦截弹在对伊朗战争前三天发射量超过四年来提供给乌克兰的总量",
+   "美国在对伊朗战争中损失超过40架航空资产，包括数十架无人机和数架战斗机及运输机",
+   "国防部长估计对伊朗战争迄今花费约375亿美元，政府寻求追加约700亿美元相关资金",
+   "对伊朗战争开始以来，五角大楼统计18名美军人员在直接攻击或飞机坠毁中死亡"
+  ],
+  "data": [
+   {
+    "metric": "战斧巡航导弹发射量",
+    "value": "约1000枚",
+    "context": "对伊朗战争首39天"
+   },
+   {
+    "metric": "JASSM导弹发射量",
+    "value": "1100枚",
+    "context": "对伊朗战争首39天"
+   },
+   {
+    "metric": "拦截弹发射量",
+    "value": "1500-2000枚",
+    "context": "对伊朗战争首39天，包括爱国者、THAAD和标准导弹系统"
+   },
+   {
+    "metric": "美军航空资产损失",
+    "value": "超过40架",
+    "context": "对伊朗战争期间"
+   },
+   {
+    "metric": "对伊朗战争成本",
+    "value": "约375亿美元",
+    "context": "截至7月下旬"
+   },
+   {
+    "metric": "美军人员阵亡",
+    "value": "18人",
+    "context": "对伊朗战争开始以来"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.rand.org/pubs/commentary/2017/05/how-rand-is-responding-to-truth-decay-qa-with-michael.html",
+  "source_title": "RAND's Michael Rich and Jennifer Kavanagh explain what",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国及西方民主国家的「真相衰退」现象与治理前景",
+  "claim": "「真相衰退」是一个可逆转的过程而非终局，通过公民教育改革、机构行为调整和跨领域协作能够有效应对",
+  "reasoning": "Jennifer Kavanagh 与 Michael Rich 认为「真相衰退」虽然受到认知偏见、社交媒体算法、政治极化等多重驱动因素影响，但其他领域（商业、医疗、体育）已成功建立数据驱动决策机制，证明社会有能力重建对事实的重视。历史上类似危机（如1890年代黄色新闻）曾被克服，且当前仍存在科学进步与循证决策的制度性基础。他们通过对比政治领域的事实争议与其他行业的事实依赖，论证解决方案在技术上可行，关键在于将科学方法与公民责任教育相结合。",
+  "evidence": [
+   "美国信任报纸和电视新闻「很大程度」或「相当多」的比例从 35% 降至 20%，对国会的信任从 22% 降至 9%",
+   "Edelman 研究显示全球范围内出现创纪录的不信任水平，包括马来西亚等非西方国家；欧洲对政治机构的信任也在下降",
+   "Politifact「真相测量仪」数据库显示，截至2月评估的国会四位最高领导人近半数陈述被评为部分或完全虚假",
+   "美国出现麻疹等几乎根除疾病的回归，部分原因是家长因疫苗虚假信息拒绝接种",
+   "RAND 研究显示俄罗斯在美国、前苏联和西欧使用虚假信息播撒混乱并削弱西方民主合法性",
+   "美国商业领袖比以往更依赖数据驱动决策，法律、医疗、广告行业也在将更多数据纳入决策，棒球队通过大数据分析改变运营方式"
+  ],
+  "data": [
+   {
+    "metric": "信任报纸和电视新闻「很大程度/相当多」的美国人比例",
+    "value": "从 35% 降至 20%",
+    "context": "过去20年"
+   },
+   {
+    "metric": "信任国会的美国人比例",
+    "value": "从 22% 降至 9%",
+    "context": "过去20年"
+   },
+   {
+    "metric": "信任书籍的美国人比例",
+    "value": "从 41%（1997年）降至 27%（2016年）",
+    "context": "Gallup 数据"
+   },
+   {
+    "metric": "国会四位最高领导人陈述中被评为部分或完全虚假的比例",
+    "value": "近50%",
+    "context": "Politifact 截至2月的评估"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://carnegieendowment.org/middle-east/diwan/2024/10/no-to-a-saudi-israeli-deal",
+  "source_title": "No to a Saudi-Israeli Deal | Carnegie Endowment for International Peace",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 carnegieendowment.org",
+  "topic": "美国推动沙特-以色列关系正常化协议",
+  "claim": "美国不应寻求推进沙特-以色列关系正常化，该协议对美国利益而言是糟糕的交易，会让美国付出过多代价和风险却几乎没有收益",
+  "reasoning": "Jennifer Kavanagh认为该协议无法实现其宣称的三大目标（结束加沙战争、阻止中国在中东的影响、对抗伊朗），反而会通过安全保障承诺使美国更深地卷入中东地区安全事务。在美军已经过度扩张、需要将注意力转向东亚的情况下，该协议将迫使美国在沙特部署更多前沿部队，并可能在沙特遭受外部攻击时被拖入代价高昂的战争。沙特王储已被证明是高风险盟友，获得美国安全保障后可能对伊朗或也门胡塞武装采取冒险挑衅行动，反而增加中东冲突风险。",
+  "evidence": [
+   "该协议将为沙特提供美国安全保障，承诺在外部攻击时保卫沙特王国",
+   "为支持这一保障并使承诺可信，华盛顿可能需要在沙特境内及附近部署更多前沿部队",
+   "中国在沙特没有现有或计划中的军事基地，中国武器只占沙特军购的极小部分",
+   "协议对中国的限制不涉及中国在沙特基础设施、港口和能源领域的广泛经济投资",
+   "美国已向沙特提供大量军事援助，包括针对伊朗弹道导弹和无人机的防空系统，以及反舰导弹等海上防护能力",
+   "拜登政府对该协议的全神贯注分散了华盛顿解决中东更重要冲突驱动因素的注意力，包括专制主义、腐败、人权侵犯、青年经济机会缺乏、气候变化"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/in-brief-how-to-improve-the-foreign-military-sales-process/",
+  "source_title": "In Brief: How to Improve the Foreign Military Sales Process",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国对外军售（FMS）流程改革与优先级策略",
+  "claim": "美国应减少对外军售客户数量，只向直接推进美国安全利益的伙伴国出售高需求低供给系统（如防空和精确弹药），以确保稀缺国防产能最优化配置",
+  "reasoning": "Jennifer Kavanagh 认为当前国防工业产能有限，需求远超供给。通过筛选客户，将高需求低供给的关键装备（防空系统、精确弹药）仅售予在美国防务战略中优先级高的国家——即承诺在突发事件中与美并肩作战或能通过自我防御减轻美国负担的伙伴国——可缩短高优先级客户等待时间，减少为营收而非战略利益进行的交易，并提升军售的战略价值。尽管会停止对低优先级客户的销售，但因需求持续超过供给，国防承包商利润不会受损",
+  "evidence": [
+   "2025年4月9日总统签署行政令，要求改善国防销售系统的速度与问责机制",
+   "行政令目标是建立快速透明的对外国防销售系统，既支持关键伙伴国又提振美国国防工业基础",
+   "当前防空系统和精确弹药等高需求低供给系统存在稀缺性",
+   "国防承包商面临需求远超供给的市场环境"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/armed-neutrality-for-ukraine-is-natos-least-poor-option/",
+  "source_title": "Armed Neutrality for Ukraine Is NATO’s Least Poor Option",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "乌克兰武装中立作为北约最优选项",
+  "claim": "武装中立是乌克兰最不坏的安全选项，北约成员国身份反而会带来不可靠的承诺并削弱联盟credibility",
+  "reasoning": "作者认为北约第5条款并非铁板一钉的保证，其措辞模糊给成员国留有决定如何及何时反应的自由度。西方在2014年和2022年拒绝派兵保卫乌克兰的先例，已经削弱了未来任何正式安全保证的可信度。仅靠文字承诺无法阻止威慑失败，而美国已排除部署绊线部队。相比之下，武装中立虽无外部安全保证，但通过北约协助乌克兰建立强大防御能力（反坦克地雷、防空系统、充足弹药），可在5-10年内打造出令俄罗斯难以入侵的「豪猪」，这是唯一真正可靠的自卫之道",
+  "evidence": [
+   "北约第5条款不要求成员国以军事力量回应侵略者，措辞刻意模糊，给予盟国决定如何及何时反应的自由",
+   "西方在2014年和2022年两次拒绝派军队保卫乌克兰，这削弱了未来北约国家向基辅提供正式安全保证的可信度",
+   "历届美国政府已排除在乌克兰部署美军绊线部队的可能性",
+   "芬兰在二战后通过武装中立保持了政治独立和强大战斗力，同时享有与西欧邻国相当的政治自由和高生活水平",
+   "乌克兰可利用其作为防务制造强国的历史，通过大力投资本土武器生产来实现自给自足",
+   "俄罗斯也需要时间重建才能考虑再次进攻，这给美国和北约盟国5-10年时间帮助乌克兰建立可靠威慑力"
+  ],
+  "data": [
+   {
+    "metric": "重建时间窗口",
+    "value": "5-10年",
+    "context": "俄罗斯重建到可再次进攻乌克兰及北约协助乌克兰建立威慑力所需时间"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "5-10年时间窗口",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/2025/10/no-cause-for-alarm-the-case-for-a-measured-response-to-russian-air-incursions/",
+  "source_title": "No Cause for Alarm: The Case for a Measured Response to Russian...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "俄罗斯无人机侵入北约东翼空域的应对策略",
+  "claim": "欧洲应采取克制的、从本国领土内防御的反无人机策略，而非建立禁飞区或直接参与乌克兰防空，这样既能有效应对威胁又可避免与俄罗斯直接冲突升级",
+  "reasoning": "作者认为俄罗斯的无人机入侵行为并非战争前奏，而是混合战争的延续，目的是惩罚欧洲对乌克兰的支持。历史数据显示自2022年以来类似事件已发生数十次但规模有限，说明普京在刻意避免触发北约直接介入。建立禁飞区或从北约领土拦截俄导弹会使北约成为冲突直接参与方，大幅提升核升级风险且缺乏可信度。相比之下，投资廉价反无人机技术、在边境内建立多层防御、加强前线国家的小多边协调，既能填补当前防御空白，又能以可持续方式应对俄罗斯可能持续的无人机骚扰，避免过度反应引发灾难性后果。",
+  "evidence": [
+   "9月10日约20架Gerbera侦察无人机从俄罗斯发射进入波兰领空，部分被北约战机击落",
+   "9月14日另一架无人机进入罗马尼亚领空后返回乌克兰",
+   "自2022年以来，无人机、导弹及其他碎片已在波兰和罗马尼亚降落数十次",
+   "普京在瓦尔代俱乐部年会上开玩笑说俄罗斯暂时不再用无人机瞄准欧洲",
+   "北约建立了东部哨兵行动（Operation Eastern Sentry），部署少量额外空中资产",
+   "美国在2025年6月为期12天的战争中为以色列提供了防空拦截支持"
+  ],
+  "data": [
+   {
+    "metric": "入侵无人机数量",
+    "value": "约20架",
+    "context": "9月10日波兰事件"
+   },
+   {
+    "metric": "俄战机滞留时间",
+    "value": "12分钟",
+    "context": "爱沙尼亚芬兰湾上空"
+   },
+   {
+    "metric": "无人机成本",
+    "value": "1万美元",
+    "context": "文中提及的俄侦察无人机单价"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://x.com/jekavanagh",
+  "source_title": "Jennifer Kavanagh (@jekavanagh) / X",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jekavanagh」",
+  "topic": "美国在亚洲军事部署与对俄乌战争政策",
+  "claim": "美国已过度扩张且浪费军事力量，无法继续为亚洲安全提供保障，亚洲必须转向更自主的安全秩序",
+  "reasoning": "Jennifer Kavanagh认为美国军事资源过度分散，在亚洲的承诺已不可持续。他通过质疑美国对波兰增兵的必要性（若波兰已能独自抗俄为何还需美军保证）、批评美国要求中国为俄罗斯天然气支付更高价格的政策逻辑（这反而会让俄罗斯获得更多资金），以及讽刺美国太空项目也面临与中国类似的挑战，来论证美国力量的衰退和政策的矛盾性，从而支持亚洲需要减少对美依赖的核心判断。",
+  "evidence": [
+   "美国计划在波兰部署大型基地，驻扎1万美军，波兰总理希望特朗普兑现承诺",
+   "第一岛链正在部署更多导弹（包括更远程导弹），且部署时间延长，通常先在日本或菲律宾演习后继续驻留",
+   "美国参议员Jeanne Shaheen主张中国若继续购买俄罗斯天然气以支持俄乌战争，应支付市场价格",
+   "前NASA局长Bill Nelson新书警告中国太空项目表面是探索实则是「激烈的太空霸权争夺」"
+  ],
+  "data": [
+   {
+    "metric": "美军驻波兰兵力",
+    "value": "1万人",
+    "context": "美波接近达成协议在大型基地部署"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://news.qq.com/rain/a/20260623A04UCP00",
+  "source_title": "news.qq.com/rain/a/20260623A04UCP00",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「詹妮弗·卡瓦纳」",
+  "topic": "乌克兰境内生产爱国者导弹的许可申请",
+  "claim": "美国不应批准乌克兰在其境内生产爱国者导弹的许可请求",
+  "reasoning": "卡瓦纳认为此举既无法解决乌克兰的防空缺口，又会对美国国家安全构成重大风险。理由包括：生产线建设周期长（德国建厂四年），在建成前会成为俄军优先打击目标；关键组件稀缺会从现有产线抽走资源，反而减少总产量；乌克兰被俄罗斯「广泛渗透」，敏感技术有泄露风险，可能通过逆向工程危及美国全球资产安全。",
+  "evidence": [
+   "美国每年仅生产约650枚爱国者导弹，即使全给乌克兰也不够拦截俄罗斯2026年预计发射的超过900枚弹道导弹",
+   "德国与RTX和MBDA在2024年初达成协议建立合资企业生产爱国者GEM-T导弹，建厂耗时约四年",
+   "乌克兰的爱国者生产设施将位于莫斯科打击清单前列，需要从稀缺库存中拨出拦截弹保护工厂",
+   "爱国者导弹依赖关键矿物、发动机和精密电子元件等稀缺投入品，在乌克兰开设新产线会加剧供应链瓶颈",
+   "乌克兰受到俄罗斯情报机构的广泛渗透，敏感技术信息可能落入俄罗斯手中",
+   "美国在对伊朗战争中消耗了多达一半的爱国者导弹库存"
+  ],
+  "data": [
+   {
+    "metric": "美国爱国者导弹年产量",
+    "value": "650枚",
+    "context": "当前产能"
+   },
+   {
+    "metric": "美国爱国者导弹扩产目标",
+    "value": "2000枚/年",
+    "context": "2030年前计划"
+   },
+   {
+    "metric": "俄罗斯对乌弹道导弹发射预估",
+    "value": "超过900枚",
+    "context": "2026年全年"
+   },
+   {
+    "metric": "美军爱国者导弹消耗比例",
+    "value": "多达一半",
+    "context": "美国对伊朗战争期间"
+   },
+   {
+    "metric": "德国爱国者生产线建设周期",
+    "value": "约4年",
+    "context": "2024年初启动至完工"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.voachinese.com/a/inside-trump-s-plan-to-take-over-gaza-20250219/7981060.html",
+  "source_title": "特朗普为什么想“接管”加沙？ 可行性又有多少 | 美国之音",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「詹妮弗·卡瓦纳」",
+  "topic": "美国接管加沙地带的战略可行性与国家利益评估",
+  "claim": "美国不应接管加沙，长期介入几乎肯定会导致美国在中东长期军事存在，这不符合美国利益",
+  "reasoning": "卡瓦纳认为美国应减少而非增加在中东的行动，因为以巴冲突本质是政治冲突需要政治解决方案，而美国几十年来试图改变中东的努力一直失败。她主张减少美国在中东军事存在，让地区参与者主导冲突解决，才最符合美国利益。这一判断基于对美国历史介入效果的评估以及战略资源分配的考量。",
+  "evidence": [
+   "美国自奥巴马政府时期致力于逐渐从中东撤出力量，转而关注印太地区",
+   "美国国安专家建议华盛顿需要继续减少在中东地区的军事存在，将更多资源和精力聚焦于印太以遏制中共战争威胁",
+   "美国几十年来一直努力改变中东但一直失败",
+   "特朗普的加沙计划可能会波及美国向印太战略转移"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-09-30"
  }
 ]
