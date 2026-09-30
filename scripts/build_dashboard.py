@@ -1278,7 +1278,7 @@ a{{color:{ACCENT};text-decoration:none}} a:hover{{text-decoration:underline}}
 <div class="foot">
 名册 SSOT = Notion「War KOL List」，本页为单向镜像产物。<br>
 评级口径：机构根基 30% · 一手性 25% · 历史命中率 30% · 方法透明度 15%，
-群体内百分位定星。入库门槛 3★，南亚战区因结构性原因放宽至 2★（标区域代表）。<br>
+固定分数线定星（加权分 ≥9.7=5★ / ≥9.3=4★ / ≥7.9=3★ / ≥6.5=2★）。入库门槛 3★（7.9 分），南亚战区因结构性原因放宽至 2★（标区域代表）。<br>
 标「监测对象」者为指定纳入的低可信度信源，其言论需交叉验证后方可采信。<br>
 数据纪律：每条锚 source_url；发表日按实际发表日，查不到留空不用抓取日顶替；
 抓不到内容如实标注，绝不编造。
@@ -1631,7 +1631,7 @@ function openKol(name) {{
   document.getElementById('kd-name').textContent = name;
   document.getElementById('kd-sub').textContent =
     d.t + ' · ' + '★'.repeat(d.star) + '☆'.repeat(5 - d.star) +
-    '（群体内百分位）· 加权 ' + (d.w || '—') + '/10（绝对分）';
+    '（固定分数线）· 加权 ' + (d.w || '—') + '/10';
   var bio = '';
   if (d.watch) bio += '<div class="kc-warn">监测对象 · 低可信度，需交叉验证后方可采信</div>';
   else if (d.flag) bio += '<div class="kc-flag">' + hesc(d.flag) + '</div>';

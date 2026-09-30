@@ -2283,5 +2283,34 @@
       "https://singjupost.com/all-in-interview-w-saronic-co-founders-dino-mavrookas-vibhav-altekar-transcript/"
     ],
     "revisit": "若有独立于公司叙事、已到期可核对的战区预测，可复评"
+  },
+  {
+    "name_en": "Larry C. Johnson",
+    "name_zh": "拉里·约翰逊",
+    "affiliation": "前 CIA 分析员（1985-89）；前国务院反恐办公室副主任（1989-93）；BERG Associates CEO；Sonar21 博客",
+    "theater": [
+      "中东",
+      "俄乌"
+    ],
+    "evaluated_on": "2026-09-30",
+    "requested_by": "Chao（伊朗和平协议深度访谈）",
+    "score_A": 6,
+    "score_B": 3,
+    "score_C": 2,
+    "score_D": 2,
+    "weighted_score": 3.45,
+    "weighted_score_if_C_null": 4.07,
+    "stars": 1,
+    "rating_provisional": true,
+    "rating_reason": "A=6：CIA 分析员 4 年 + 国务院反恐办副主任 4 年，但 1993 年起离开政府 30 余年，无智库/学术任职；B=3：博客与视频口播，常引匿名『消息源』，无文件/数据/影像；C=2：2001-07-10 NYT 评论《The Declining Terrorist Threat》称恐怖主义非美国最大安全挑战，两个月后 9·11——公认重大误判；2022 起多次预言乌军崩溃（Sonar21）；D=2：2026-04 称特朗普曾试图对伊朗启用核密码，Newsweek 等事实核查称无证据，未更正。",
+    "controversies": "FARA 登记外国代理人（编号 7487），2024 年为阿联酋 Alasriya Media Consultancy 工作，委托方为『未知外国主体』；2022 年起常驻 RT/Sputnik 等俄媒并公开支持俄方战争；2024 年应俄方邀请在联合国安理会就北溪发言；2017 年『英国 GCHQ 监听特朗普』说法被 GCHQ 斥为荒谬（Politico）；2026-04『特朗普欲对伊用核』说法经核查无证据。",
+    "decision": "1★，远低于 3★ 入库线（7.9），不进名册/Notion/dashboard；另有外国代理人登记与俄媒背景，建议不破例",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Larry_C._Johnson",
+      "https://sonar21.com/about/",
+      "https://www.nytimes.com/2001/07/10/opinion/the-declining-terrorist-threat.html",
+      "https://www.politico.com/story/2017/03/trump-gchq-spying-larry-johnson-intelligence-community-236220",
+      "https://www.newsweek.com/donald-trump-nuclear-codes-11857229"
+    ]
   }
 ]

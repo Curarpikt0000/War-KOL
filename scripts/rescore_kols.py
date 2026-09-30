@@ -187,6 +187,20 @@ def load_thesis():
     return out
 
 
+# ★ Chao 2026-09-30 选「甲」：暂定组改【固定分数线】定星，不再用群体内百分位。
+#   原因：百分位制下名册整体分数一上移，3★ 实际门槛从 7.9 漂到 ~8.8，
+#   同一个人（如 Withington 8.0）今天 3★、明天 1★，入库判断无法稳定。
+#   3★=7.9 是 Chao 拍板的入库线；5★/4★/2★ 由 agent 按当日分布设定，可调。
+FIXED_CUTS = ((9.7, 5), (9.3, 4), (7.9, 3), (6.5, 2))
+
+
+def fixed_star(score):
+    for cut, star in FIXED_CUTS:
+        if score >= cut:
+            return star
+    return 1
+
+
 def pct_star(rank, total):
     """群体内百分位 → 星级（AGENTS.md 口径）。rank 从 0 起（0 = 最高分）。"""
     if total <= 0:
@@ -324,7 +338,10 @@ def main():
     for group, verified in ((rated, True), (prov, False)):
         group.sort(key=lambda x: -x["weighted_score"])
         for i, k in enumerate(group):
-            k["rating"] = f"{pct_star(i, len(group))}★"
+            # 暂定组 → 固定线；已核验组（仅 2 人，C 走 Wilson 下界被小样本重罚）
+            # 暂保留百分位，待 Chao 定（2026-09-30）
+            star = fixed_star(k["weighted_score"]) if not verified else pct_star(i, len(group))
+            k["rating"] = f"{star}★"
             k["hit_verified"] = verified
             if not verified:
                 k["rating_label"] = "临时·未经命中率验证"
