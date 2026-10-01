@@ -2312,5 +2312,54 @@
       "https://www.politico.com/story/2017/03/trump-gchq-spying-larry-johnson-intelligence-community-236220",
       "https://www.newsweek.com/donald-trump-nuclear-codes-11857229"
     ]
+  },
+  {
+    "name_en": "Alex Karp",
+    "name_zh": "亚历克斯·卡普",
+    "affiliation": "Palantir Technologies 联合创始人兼 CEO；法兰克福大学社会理论博士",
+    "theater": [
+      "军工与战略"
+    ],
+    "score_A": 6,
+    "score_B": 4,
+    "score_D": 3,
+    "rating_reason": "A=6：Palantir CEO，社会理论博士，非军事/智库分析岗；B=4：言论为演讲、股东信、著作《The Technological Republic》中的价值主张，非战场数据或文件解析；C=空：未核到已到期可对照预测（即便 C=10 也仅 6.25，不过 7.9 线）；D=3：口播与宣言体，不挂信源。",
+    "controversies": "利益冲突：Palantir 主要收入来自美军、以色列国防军、乌克兰等国防/情报合同，其地缘政治主张（硅谷对美国负有『道德债务』、AI 军备竞赛）与公司营收直接挂钩；2026-04 公司 X 账号发布 22 条宣言引发国际争议。",
+    "score_C": null,
+    "weighted_score": 4.64,
+    "weighted_score_if_C10": 6.25,
+    "stars": 1,
+    "rating_provisional": true,
+    "evaluated_on": "2026-10-01",
+    "requested_by": "Chao（Karp + Emil Michael 节目：AI 时代美国科技与国防）",
+    "decision": "低于 3★ 固定线（7.9），不进名册/Notion/dashboard",
+    "sources": [
+      "https://blog.pebblous.ai/story/palantir-technological-republic/en/"
+    ]
+  },
+  {
+    "name_en": "Emil Michael",
+    "name_zh": "埃米尔·迈克尔",
+    "affiliation": "美国防部（战争部）研究与工程副部长兼首席技术官（2025-05 起）；前 Uber 首席商务官",
+    "theater": [
+      "军工与战略"
+    ],
+    "score_A": 7,
+    "score_B": 5,
+    "score_D": 4,
+    "rating_reason": "A=7：现任五角大楼 CTO，职位层级高，但履历为商业高管而非军事/研究背景；B=5：有一手内部信息，但公开发言是政策宣示与采购改革口径，非可核验的数据分析；C=空（即便 C=10 也仅 6.95，不过 7.9 线）；D=4：官方表态，不区分已证实/推测。",
+    "controversies": "现任政府官员：公开言论属官方政策立场（职务发言），并非独立分析判断，与本榜『独立分析者』定位不符。",
+    "score_C": null,
+    "weighted_score": 5.64,
+    "weighted_score_if_C10": 6.95,
+    "stars": 1,
+    "rating_provisional": true,
+    "evaluated_on": "2026-10-01",
+    "requested_by": "Chao（Karp + Emil Michael 节目：AI 时代美国科技与国防）",
+    "decision": "低于 3★ 固定线（7.9），不进名册/Notion/dashboard",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Emil_Michael",
+      "https://www.cto.mil/news/hon-emil-michael-sworn-in/"
+    ]
   }
 ]
