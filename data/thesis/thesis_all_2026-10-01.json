@@ -35,5 +35,36 @@
   "horizon": "10年内",
   "confidence": "high",
   "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+  "source_title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "俄乌战争空袭升级与持久战前景",
+  "claim": "俄罗斯在承受痛苦方面的能力远超乌克兰，这决定了战争将持续下去",
+  "reasoning": "Rob Lee 认为当前俄乌双方都无法通过空袭迫使对方屈服，战争的走向取决于双方承受痛苦的能力对比。他判断俄罗斯在人口、资源和社会承受力方面具有显著优势，能够承受比乌克兰更大规模、更长时间的损失，因此乌克兰难以通过消耗战迫使俄罗斯妥协，而俄罗斯也不愿意停战。",
+  "evidence": [
+   "前线基本冻结，双方使用不断增长的导弹和无人机武器库进行报复性打击",
+   "基辅在过去几天遭受俄罗斯无人机持续轰炸，居民经历近乎持续的空袭警报",
+   "没有证据表明空袭升级会削弱任何一方继续战斗的决心",
+   "双方都在打击对方远离前线的城市目标，包括仓库、港口、粮食运输船只和能源网络",
+   "乌克兰在6月下旬开启了为期40天的对俄打击行动"
+  ],
+  "data": [
+   {
+    "metric": "对俄打击行动持续时间",
+    "value": "40天",
+    "context": "乌克兰自6月下旬开始"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
  }
 ]
