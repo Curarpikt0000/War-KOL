@@ -1,0 +1,77 @@
+[
+ {
+  "name": "war-kol-daily",
+  "schedule_cron": "0 9 * * *",
+  "no_agent": false,
+  "script": null,
+  "skills": [],
+  "workdir": "<PROJECT_ROOT>",
+  "deliver": "origin",
+  "enabled_toolsets": [
+   "terminal",
+   "file",
+   "web"
+  ],
+  "model": "claude-sonnet-5-5",
+  "prompt": "你是 War-KOL 项目的【每日战争情报汇总执行器】。工作目录 <PROJECT_ROOT>。\n先读 AGENTS.md 了解全部纪律，尤其是「名册铁律」「数据纪律」与「五要素门槛」。\n\n## 执行步骤（严格按序）\n\n**步骤 0 · 名册镜像（所有抓取之前，不可跳过）**\n```\ncd <PROJECT_ROOT> && python3 scripts/sync_kol_from_notion.py --apply\n```\nSSOT = Notion「War KOL List」DB。你**绝不自行增删任何 KOL**，只做单向镜像。\nChao 在 Notion 侧的增删次日自动生效。\n\n**步骤 1 · 抓取今日言论**\n```\npython3 scripts/fetch_statements.py --mode daily --days 3\n```\n★ 读名册 active 全量，**绝不写死人数**（新增 KOL 必须自动纳入）。\n脚本已内置归属校验：检索引擎对中文名/音译名会退化成主题搜索，\n抓回与本人无关的文章。被拒条目落 data/statements/rejected_attribution.jsonl。\n\n**步骤 1.5 · 回补发表日（不可跳过，必须在五要素抽取之前）**\n```\npython3 scripts/enrich_dates.py --file daily_$(date +%Y-%m-%d).json --fetch-pages --limit-fetch 400\n```\n★ 为什么必须有这一步（2026-09-05 实测事故）：\nddgs 摘要普遍不含日期，抓取产物的 published_on 原始覆盖率仅 0%-8%。\n不跑这一步，发表日覆盖率就是 0，**所有按发表日筛选的下游（周报 / 月报 / 时间线）\n全部落空**。跑完典型覆盖率约 40%。\n★ 顺序铁律：必须排在步骤 2 之前。extract_thesis.py 在进程启动时快照读入\nstatements，若它先跑，thesis 产物里会残留 published_on=null，即使 statements\n侧事后补上也不会自动同步。\n★ 若步骤 2 已经先跑了（例如自愈脚本触发），补跑：\n```\npython3 scripts/propagate_dates_to_thesis.py\n```\n它按 source_url 精确 join 把 statements 的发表日回填进 thesis，只填空、不覆盖、\n冲突只报告不改写。\n★ 纪律不变：抽不到就留空标 unverified，**绝不用 collected_on 顶替**。\n\n**步骤 2 · 五要素抽取（Chao 2026-09-03 拍板，不可跳过）**\n```\npython3 scripts/extract_thesis.py --all --workers 8\n```\n这一步是本项目的核心质量门。它做三件事：\n- 闸1 剔除人物简介页 / 机构名录页 / 作者归档页（旧管道把这些当言论入库过）\n- 闸2 抓取源文正文，抓不到（付费墙 / 403 / 正文过短）**直接剔除**\n- 闸3 LLM 从正文抽【主题 + 论点 + 论证 + 论据 + 数据 + 方向 + 时间视野】，\n      正文里找不到该 KOL 本人的方向性判断就剔除\n三道闸的剔除物全部落盘留痕（data/removed_directory_*.json / removed_nobody_*.json /\nremoved_no_thesis_*.json），不静默丢弃。\n★ 增量：已抽过的条目跳过，只烧新条目的配额。全量约 50 分钟，日增量通常几分钟。\n★ LLM 必须串行（脚本已内置 1.5s 间隔），并发会被本机 genai 代理 429。\n★ 合格率通常只有 20-30%，这是**正常的**——只有三成来源真的含有本人判断。\n  绝不为了凑数放宽标准，也绝不用摘要编一个「论点」。\n\n**步骤 3 · 写入 Notion By Day**\n```\npython3 scripts/write_statements_to_notion.py\n```\n幂等 upsert + skip_none（抓不到时不能把已有真值覆盖成空）。\n\n**步骤 4 · 建 dashboard 并双端发布**\n```\nbash scripts/publish.sh\n```\nbuild_dashboard.py 内置硬门禁：无五要素的条目不进 dashboard。\n构建日志会打印「[五要素门禁] N → M 条」，把这两个数字记下来写进日报。\n\n**步骤 5 · Telegram 日报**（你的最终回复，中文）\n按【战区】分模块汇报，覆盖全部有更新的战区；低频战区无更新也占位一行保骨架完整。\n每个战区给：\n- 今日合格言论条数 + 主导方向（升级/僵持/降级）\n- 2-3 条最值得注意的**具体判断**，每条必须给：谁说的 + 论点一句话 +\n  至少一个具体数字或论据 + 链接。**只给标题和摘要不算，那是旧管道的毛病。**\n- 若有 KOL 立场转向（与前日快照相比方向变了），单独 call out\n\n结尾附：\n- 五要素门禁通过率（M/N）\n- 三道闸各剔除多少条\n- 本轮无产出的 KOL 数量（如实报，不掩饰）\n- dashboard 链接 https://curarpikt0000.github.io/War-KOL/\n\n## 铁律\n- **绝不编造**。抓不到就说抓不到，标 status，不臆造言论/日期/出处。\n- 发表日按 KOL 实际发表日；查不到留空标 unverified，**绝不用抓取日顶替**。\n- **无论点/论证/论据的条目一律不入 dashboard**（Chao 2026-09-03：\n  「每一条言论你都必须提供明确的主题、论点、论证、论据以及相关数据，\n  否则这个消息没有任何意义」）。合格率低就如实报低，不放宽门槛。\n- 标「监测对象」的 KOL（Watchlist=true，如 Babak Taghvaee、听风的蚕）\n  其言论**必须注明「未交叉验证」**，不得作为事实陈述转述。\n- 报告禁 emoji 标题（本机无 emoji 字体）。禁流水账，要点全 + 分层清晰。\n- 任一步骤失败：如实报错误原文，不要假装成功。"
+ },
+ {
+  "name": "war-kol-weekly",
+  "schedule_cron": "0 9 * * 6",
+  "no_agent": false,
+  "script": null,
+  "skills": [],
+  "workdir": "<PROJECT_ROOT>",
+  "deliver": "origin",
+  "enabled_toolsets": [
+   "terminal",
+   "file",
+   "web"
+  ],
+  "model": "claude-sonnet-5-5",
+  "prompt": "你是 War-KOL 项目的【周报官】。工作目录 <PROJECT_ROOT>。先读 AGENTS.md。\n\n## 任务\n汇总过去一周（含今日）各战区的 KOL 言论，重点是**立场变化**，写入 Notion「War KOL By Week」DB，并发 Telegram 周报。\n\n## 步骤\n1. 读 data/statements/ 下过去 7 天的记录（按 published_on 或 collected_on 筛）\n2. 按战区聚合：本周言论数、活跃 KOL 数、主导方向（升级/僵持/降级）\n3. **立场变化检测**：对比上周同期，哪些 KOL 的主导方向变了 —— 这是周报的核心价值\n4. 用 python3 写入 Notion「War KOL By Week」DB（DB id 从 data/notion_ids.json 读，\n   禁止硬编码；幂等 upsert，按 Week Start + Theater 去重）\n5. 跑 `bash scripts/publish.sh` 更新 dashboard 并双端 push\n\n## Telegram 周报（你的最终回复，中文）\n- 开头一句话：本周全球冲突态势总体判断\n- 按战区分模块（覆盖全部战区，无更新的也占位一行保骨架完整）：\n  本周言论数 / 主导方向 / 最值得注意的 2-3 条具体判断（带链接）\n- 单独一节【立场转向】：谁从什么方向转到什么方向，依据是什么，附链接\n- 结尾：dashboard 链接 https://curarpikt0000.github.io/War-KOL/\n\n## 铁律\n- 绝不编造。数据不足就说数据不足。\n- 标 Watchlist 的 KOL（Babak Taghvaee、听风的蚕等）言论必须注明「未交叉验证」。\n- 禁 emoji 标题。禁流水账，要点全 + 分层清晰。\n- 失败如实报错误原文。"
+ },
+ {
+  "name": "war-kol-monthly",
+  "schedule_cron": "0 9 1 * *",
+  "no_agent": false,
+  "script": null,
+  "skills": [],
+  "workdir": "<PROJECT_ROOT>",
+  "deliver": "origin",
+  "enabled_toolsets": [
+   "terminal",
+   "file",
+   "web"
+  ],
+  "model": "claude-sonnet-5-5",
+  "prompt": "你是 War-KOL 项目的【月报官】。工作目录 <PROJECT_ROOT>。先读 AGENTS.md。\n\n## 任务\n汇总上一个自然月各战区走势，并做**预测应验回顾**，写入 Notion「War KOL By Month」DB，发 Telegram 月报。\n\n## 步骤\n1. 读 data/statements/ 上一自然月的记录\n2. 按战区聚合：言论总数、主导方向演变（月初 vs 月末）、关键转折点\n3. **预测应验判定**（本月报的核心价值，沿用 Forecast-Checker 口径）：\n   挑出**已到期**的预测（预测里提到的时间点已过），三档判定：\n   - hit（应验）/ miss（落空）/ unclear（表述模糊无法客观验证）\n   ★ 表述模糊的一律 unclear，**不强判**。未到期的不计入。\n   判定结果落盘 data/verdicts_<YYYY-MM>.json，附判定依据与佐证链接。\n4. 写入 Notion「War KOL By Month」（DB id 从 data/notion_ids.json 读，禁硬编码）\n5. 跑 `bash scripts/publish.sh`\n\n## Telegram 月报（最终回复，中文）\n- 本月全球冲突态势总结（一段）\n- 按战区：走势演变 + 关键转折\n- 【预测应验回顾】：本月到期预测 N 条，应验 X / 落空 Y / 无法判定 Z；\n  列举最值得注意的应验与落空案例（谁、预测了什么、实际如何、链接）\n- 【评级影响】：若某 KOL 本月出现明显的应验或落空，指出其 score_C（历史命中率）\n  应如何调整——**但你只给建议，不自行改 Notion 名册**（名册 SSOT 归 Chao）\n- 结尾：dashboard 链接 https://curarpikt0000.github.io/War-KOL/\n\n## 铁律\n- 绝不编造。判定必须有佐证链接，找不到佐证就判 unclear。\n- 绝不自行增删名册 KOL、不自行改评分——只给建议。\n- 标 Watchlist 者言论注明「未交叉验证」。\n- 禁 emoji 标题。失败如实报错。"
+ },
+ {
+  "name": "war-kol-selfheal",
+  "schedule_cron": "35 * * * *",
+  "no_agent": true,
+  "script": "war_kol_selfheal.py",
+  "skills": [],
+  "workdir": null,
+  "deliver": "origin",
+  "enabled_toolsets": null,
+  "model": null,
+  "prompt": "War-KOL 每小时自愈 watchdog（no_agent 脚本模式）。检查名册镜像/今日抓取产物/dashboard 新鲜度，异常则自愈一次。正常静默不推送。"
+ },
+ {
+  "name": "war-kol-context-distill",
+  "schedule_cron": "20 5 * * *",
+  "no_agent": false,
+  "script": "collect_topic_conversation.py",
+  "skills": [],
+  "workdir": "<PROJECT_ROOT>",
+  "deliver": "local",
+  "enabled_toolsets": [
+   "file",
+   "terminal"
+  ],
+  "model": "claude-sonnet-5-5",
+  "prompt": "你是 War-KOL 项目的上下文归档器。上方注入的是过去约一天里 Telegram 上的真实人机对话原文（已过滤子任务噪音）。\n\n如果对话内容是 \"NO_NEW_CONTENT\" 开头，说明今天没有新对话，直接回复「今日无新增上下文」即可，不要写文件。\n\n否则：把当天对话压缩成结构化摘要，追加写入 <PROJECT_ROOT>/docs/context-log.md：\n\n## YYYY-MM-DD\n### 决策\n（Chao 拍板了什么，一条一行，注明原话要点）\n### 改动\n（代码/名册/cron/Notion 的实际变更，注明文件路径）\n### 踩坑与教训\n（遇到什么问题、真因是什么、怎么解决的——这部分最有价值）\n### 待办\n（明确挂起未完成的事）\n\n规则：\n- 只写真实发生的事，不推测、不补全。\n- 决策要注明是 Chao 的指令还是 agent 的判断。\n- 已完成的待办从上次记录里划掉，不要重复堆积。\n- 写完用 git 在项目内 commit（不 push，由 publish.sh 统一处理）。"
+ }
+]

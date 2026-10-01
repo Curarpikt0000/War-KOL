@@ -25,3 +25,6 @@ scripts/rebuild_public_repo.sh
 # wrangler 本地构建缓存，不进库
 .wrangler/
 scratch/cfdist/
+
+# 内网专有交接补充（含内网域名/证书说明），只随 rsync 进内部端，绝不进公网 repo
+HANDOVER_INTERNAL.md

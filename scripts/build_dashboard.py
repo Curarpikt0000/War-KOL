@@ -540,6 +540,10 @@ def changes_html():
             f'{"".join(rows)}{more}')
 
 
+SOURCE_CLASS_PREFIX = ("官方信源", "产业信源")
+SOURCE_CLASS_GROUP = "官方与产业信源"
+
+
 def kol_cards(roster, by_kol, idx_of, tr):
     """KOL 卡片网格。
 
@@ -555,10 +559,15 @@ def kol_cards(roster, by_kol, idx_of, tr):
         if k.get("tier") == "monitor" or not by_kol.get(nm):
             monitor.append(k)
             continue
+        # ★ Chao 2026-10-01「要加」：官方/产业信源单独成组，不混进战区分析者里。
+        #   这类人低于 3★ 入库线，按 Chao 指定纳入，卡片 flag 写明身份。
+        if (k.get("quality_flag") or "").startswith(SOURCE_CLASS_PREFIX):
+            groups[SOURCE_CLASS_GROUP].append(k)
+            continue
         groups[(k.get("theater") or ["未分类"])[0]].append(k)
     payload = {}
     out = []
-    for t in sorted(groups, key=lambda x: -len(groups[x])):
+    for t in sorted(groups, key=lambda x: (x == SOURCE_CLASS_GROUP, -len(groups[x]))):
         col = THEATER_COLOR.get(t, MUTED)
         people = sorted(groups[t], key=lambda k: -(k.get("weighted_score") or 0))
         cards = []
@@ -576,6 +585,8 @@ def kol_cards(roster, by_kol, idx_of, tr):
             flag = ""
             if k.get("watchlist"):
                 flag = '<div class="kc-warn">监测对象 · 需交叉验证</div>'
+            elif (k.get("quality_flag") or "").startswith(SOURCE_CLASS_PREFIX):
+                flag = f'<div class="kc-warn">{esc(k["quality_flag"])}</div>'
             elif k.get("quality_flag"):
                 flag = f'<div class="kc-flag">{esc(k["quality_flag"])}</div>'
             # ★ Chao 2026-09-07：星级必须标明命中率是否真的被验证过。
