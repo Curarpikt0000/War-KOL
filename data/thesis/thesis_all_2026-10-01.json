@@ -41,8 +41,8 @@
   "theater": "俄乌",
   "source_url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
   "source_title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2026-09-03",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
   "topic": "俄乌战争空袭升级与持久战前景",
@@ -65,7 +65,8 @@
   "direction": "僵持",
   "horizon": "未指明",
   "confidence": "high",
-  "extracted_on": "2026-10-01"
+  "extracted_on": "2026-10-01",
+  "date_source": "url_path"
  },
  {
   "kol": "Emil Michael",
