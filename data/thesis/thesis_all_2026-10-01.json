@@ -66,5 +66,799 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.govconwire.com/articles/emil-michael-michael-duffey-dow-keynotes-defense-rd-summit",
+  "source_title": "Emil Michael & Michael Duffey DOW Keynotes POC GovCon Summit",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部研发与采办体系改革",
+  "claim": "通过多层级资金机制和新型合同模式，可将传统「死亡谷」转变为「机会雨林」，实现防务技术快速落地与产能扩张",
+  "reasoning": "Emil Michael 认为当前私人资本对防务科技的投入达历史最高，政府已建立从 Defense Innovation Unit 快速合同、APFIT 规模化支持、战略资本办公室低息贷款到私人资本的完整通道。配合 PAC-3 MSE 这类「交付后付款」合同和对 L3Harris 的 10 亿美元股权投资模式,既激励企业快速履约又让资金未来回流国库,形成「零纳税人成本」的增产循环。他强调这是体系性颠覆冷战时期采办惯性,要求产业界主动承担风险前置投资,政府则提供明确路径与大额长期合同",
+  "evidence": [
+   "Defense Innovation Unit 可执行超快速合同,有充足资金帮初创企业完成首个原型",
+   "APFIT 机制可接续 DIU 成果并协助规模化生产",
+   "战略资本办公室提供低息贷款支持企业达成政府所需产能",
+   "与洛克希德·马丁的 PAC-3 MSE 合同采用「完工后付款」模式,理论上激励快速交付并将使爱国者导弹产量提升三倍",
+   "对 L3Harris 投资 10 亿美元股权用于扩大固体火箭发动机产业基地,未来收益将回流国库",
+   "战略资本办公室正释放 2000 亿美元优惠贷款授权用于关键矿物国内生产"
+  ],
+  "data": [
+   {
+    "metric": "防务科技私人资本投入",
+    "value": "历史最高水平",
+    "context": "当前时点,Emil Michael 表述"
+   },
+   {
+    "metric": "PAC-3 MSE 导弹产量增幅",
+    "value": "三倍",
+    "context": "新合同预期效果"
+   },
+   {
+    "metric": "L3Harris 股权投资额",
+    "value": "10 亿美元",
+    "context": "用于固体火箭发动机产业基地"
+   },
+   {
+    "metric": "战略资本办公室优惠贷款授权",
+    "value": "2000 亿美元",
+    "context": "用于关键矿物国内生产"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://techcrunch.com/2026/03/23/emil-michael-now-a-senior-pentagon-official-says-hell-never-forgive-uber-investors-who-ousted-him-and-kalanick/",
+  "source_title": "Emil Michael, now a senior Pentagon official, says he'll... | TechCrunch",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部与 Anthropic 的 AI 模型供应争端",
+  "claim": "国防部若使用受 Anthropic 自身政策限制的 AI 模型，将在对抗中国时处于「单臂被缚」的劣势，因为中国军方通过蒸馏技术已能获得功能等同于 Anthropic 完整模型的能力",
+  "reasoning": "Emil Michael 认为，中国科技公司已通过「蒸馏」技术（distillation）反复访问 Anthropic 模型并逆向工程其能力，根据中国的军民融合法律，解放军将获得功能上等同于 Anthropic 完整无限制模型的技术。与此同时，国防部却要使用被 Anthropic 自身准则约束的版本。他类比称这就像「如果你买了 Microsoft Office，微软不会告诉你能在 Word 里写什么、能发什么邮件」，国防部已受制于密集的法律法规，不能允许任何公司在此之上再强加自己的政策偏好，否则将在与对手的对抗中处于不对等劣势。",
+  "evidence": [
+   "Anthropic 是国防部批准的少数几家大语言模型供应商之一，部分通过与 Palantir 的合作获得批准",
+   "Anthropic 于上月（采访前）发布研究发现，中国科技公司一直在通过「蒸馏」技术反复访问其模型以逆向工程模型行为并复制能力",
+   "中国的军民融合法律将使解放军获得功能上等同于 Anthropic 完整模型的技术",
+   "国防部长 Pete Hegseth 于二月底将 Anthropic 认定为「供应链风险」",
+   "政府上周向加州北区联邦地方法院提交 40 页诉状，称给予 Anthropic 接入国防部作战基础设施将带来「不可接受的风险」，理由包括该公司理论上可在战时为自身利益而非国家利益禁用或更改其技术"
+  ],
+  "data": [
+   {
+    "metric": "国防部批准的大语言模型供应商数量",
+    "value": "少数几家（a handful）",
+    "context": "采访时点，未给出确切数字"
+   },
+   {
+    "metric": "政府诉状页数",
+    "value": "40 页",
+    "context": "上周提交至加州北区联邦地方法院"
+   },
+   {
+    "metric": "Waymo 运营城市数",
+    "value": "10 个美国城市",
+    "context": "文中提及当前运营状态"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://mezha.net/eng/bukvy/emil_michael_warns/",
+  "source_title": "Emil Michael warns DoD about Anthropic and recalls Uber... - #Mezha",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部与 Anthropic 的 AI 模型使用权限争议",
+  "claim": "如果对手能够不受限制地获取 Anthropic 完整模型能力，而国防部却受 Anthropic 自身准则限制，将形成不对称风险，导致美军在对抗中处于劣势",
+  "reasoning": "Emil Michael 认为，中国公司正在通过蒸馏技术复制 AI 模型能力，根据中国「军民融合」法律，解放军可以获得功能上等同于完整 Anthropic 模型的版本。而与此同时，国防部却因 Anthropic 施加的额外使用限制而无法充分利用该模型的全部能力。他将这种局面比作「一只手被绑在背后对抗拥有全能力 Anthropic 模型的对手」，强调这是不可接受的战略劣势。他主张 Anthropic 作为美国领先企业，不应在国防部已有的法律法规框架之上强加自己的政治偏好，而应帮助国防部使用最佳可用工具。",
+  "evidence": [
+   "Anthropic 上月发布的研究显示中国公司正在积极应用蒸馏技术来复制模型能力",
+   "根据中国「军民融合」法律，解放军能够获得功能上等同于完整 Anthropic 模型的版本",
+   "国防部在「严密的法律、法规和内部政策网络」内运作，而 Anthropic 试图在此之上叠加自己的要求",
+   "国防部长 Pete Hegseth 在二月份承认 Anthropic 构成「供应链风险」",
+   "政府上周向加州北区联邦地区法院提交 40 页简报，论证让 Anthropic 接入国防部作战系统将产生「不可估量的风险」",
+   "五角大楼向 Anthropic 发出最后通牒，要求在周五前放宽 AI 模型保护措施，否则将失去 2 亿美元国防合同并被列入黑名单"
+  ],
+  "data": [
+   {
+    "metric": "国防合同金额",
+    "value": "2 亿美元",
+    "context": "五角大楼对 Anthropic 的合同，面临取消风险"
+   },
+   {
+    "metric": "政府简报页数",
+    "value": "40 页",
+    "context": "政府上周向法院提交的简报"
+   },
+   {
+    "metric": "支持 Anthropic 的法官人数",
+    "value": "约 150 名",
+    "context": "前联邦和州法官提交的法庭之友意见书"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://digitalmarketreports.com/news/64147/dod-official-emil-michael-criticizes-anthropic-dispute-and-revisits-uber-exit-in-podcast-interview/",
+  "source_title": "DoD Official Emil Michael Criticizes Anthropic Dispute And Revisits...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部与 Anthropic 的 AI 模型供应争议及中国获取同类能力的风险",
+  "claim": "AI 公司不应在国防部既有法律框架之上附加额外的使用限制，否则会导致美国军方受限而中国通过蒸馏技术获得同等能力",
+  "reasoning": "Michael 认为国防部已在严格的法律和监管框架下运作，商业软件供应商不应干涉客户部署后的使用方式。他援引 Anthropic 自身报告指出中国企业已通过蒸馏技术复制模型行为，这意味着在中国军民融合体系下可不受限制地获取类似能力，而美方系统却因供应商附加的保障措施陷入束缚，形成不对称劣势。",
+  "evidence": [
+   "国防部作为大型语言模型批准供应商的监管机构，已在广泛的法律和监管约束下运作",
+   "Anthropic 的研究发现中国企业已使用蒸馏技术复制模型行为",
+   "中国的军民融合框架可能允许在无额外保障措施下获取同等 AI 能力",
+   "美国政府在法律文件中主张将 Anthropic 技术集成到军事系统可能引入风险，包括公司在关键行动中改变或限制工具的可能性",
+   "Anthropic 在法庭文件中反驳称政府论点依赖于技术误解，并声明无法以所述方式干预已部署系统"
+  ],
+  "data": [
+   {
+    "metric": "Uber 自动驾驶部门出售时间",
+    "value": "2020年",
+    "context": "出售给 Aurora"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.executivegov.com/articles/dod-emil-michael-critical-tech-areas",
+  "source_title": "DOD's Emil Michael Unveils 6 Critical Tech Areas to Advance Military...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部六大关键技术领域推进军事能力",
+  "claim": "这六大关键技术领域将使美军快速获得先进能力、应对新兴威胁并在现代战场取得作战优势",
+  "reasoning": "Emil Michael 认为通过在应用人工智能、生物制造、争夺环境后勤、量子与战场信息主导、规模化高超音速武器、规模化定向能等六个领域的技术突破，能够为作战人员快速交付先进能力，使其跟上威胁演进速度。他强调这些技术不仅是优先事项而是「必须要务」，将让美国作战人员掌握最先进技术以实现最大杀伤力",
+  "evidence": [
+   "国防部宣布这六大关键技术领域旨在快速向作战人员交付先进能力",
+   "应用人工智能领域目标是使国防部成为 AI 优先组织以增强决策和作战",
+   "生物制造技术利用生命系统规模化开发能力和材料，降低供应链风险",
+   "争夺环境后勤技术确保在后勤中断情况下维持补给和作战",
+   "量子与战场信息主导技术在降级或拒止环境中保持通信、精确导航定时和电磁频谱控制",
+   "规模化高超音速武器实现快速精确打击，规模化定向能克服成本和制造限制提供精确威胁中和能力"
+  ],
+  "data": [
+   {
+    "metric": "关键技术领域数量",
+    "value": "6个",
+    "context": "Emil Michael 于2026年宣布"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.podfolio.co/podcast/all-in-with-chamath-jason-sacks-friedberg/inside-the-iran-war-and-the-pentagons-feud-with-anthropic-with-under-secretary-of-war-emil-michael",
+  "source_title": "Inside the Iran War and the Pentagon's Feud with Anthropic with Under...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部 AI 军事应用与 Anthropic 合同争议",
+  "claim": "五角大楼将取消或限制与 Anthropic 等 AI 公司的军事合作，转向更可控的低成本自主系统开发",
+  "reasoning": "Emil Michael 主导的国防创新战略强调「可负担技术」与「风险投资模式」，同时因监控顾虑终止 Anthropic 2亿美元合同。他推动的无人机集群 AI 控制计划与降低航母成本目标，显示军方正从依赖大型 AI 供应商转向内部或初创企业开发「大规模可归因系统」，以规避商业 AI 的规则冲突（Anthropic AI 在模拟中违反19项军事准则）与供应链安全风险（中国关键部件依赖问题）。",
+  "evidence": [
+   "国防部因监控顾虑取消 Anthropic 的2亿美元合同",
+   "五角大楼在模拟演习中批评 Anthropic AI 违反19项规则",
+   "国防工业基础的关键部件依赖中国供应商，存在供应链脆弱性",
+   "军方寻求风险投资支持低成本弹药开发，采用初创企业式创新",
+   "五角大楼计划将航母舰船成本从200亿美元降至「大规模可归因系统」水平",
+   "Under Secretary Emil Michael 强调「可负担技术」与「风险投资」为国防创新焦点"
+  ],
+  "data": [
+   {
+    "metric": "合同金额",
+    "value": "2亿美元",
+    "context": "国防部取消与 Anthropic 的合同总额"
+   },
+   {
+    "metric": "规则违反数量",
+    "value": "19项",
+    "context": "Anthropic AI 在五角大楼模拟中违反的军事准则数"
+   },
+   {
+    "metric": "航母成本目标",
+    "value": "从200亿美元降低",
+    "context": "五角大楼计划通过大规模可归因系统削减的单舰成本基准"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.21cto.com/article/7910398450130973",
+  "source_title": "美五角大楼CTO：Mythos的介入使分手变得更加复杂，Anthropic...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部与Anthropic公司合作及Mythos模型的网络安全风险",
+  "claim": "五角大楼不会与Anthropic重启合作，该公司仍被视为供应链风险，不会在国防部系统中部署",
+  "reasoning": "迈克尔认为尽管Mythos模型展现出强大的网络安全能力，但正是这种「发现与修复网络漏洞的独特能力」构成了独立的国家安全问题。他强调Anthropic存在供应链风险，联邦政府其他部门对其态度与国防部一致，某些机构访问Mythos仅出于评估目的而非实际部署。他认为需要评估所有前沿模型的技术能力，并预期未来会有类似能力的模型出现，政府将研究如何与这些公司合作以理解能力并解决问题。",
+  "evidence": [
+   "五角大楼驳斥了与Anthropic关系缓和的报道，双方并未重启合作",
+   "Anthropic仍然是供应链风险，国防部不希望在其系统中部署Anthropic系统",
+   "一些机构访问Mythos系统仅出于评估目的而非实际部署目的",
+   "国家安全局和商务部会评估所有前沿模型，包括中国的前沿大语言模型",
+   "多家公司的AI领导者计划很快在白宫会面，讨论Mythos以及新兴AI模型带来的网络安全风险"
+  ],
+  "data": [
+   {
+    "metric": "获得Mythos访问权限的公司数量",
+    "value": "12家",
+    "context": "通过「玻璃之翼」计划提供"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未来一年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://everything-pr.com/alex-karp-wrote-the-defense-tech-playbook",
+  "source_title": "The Alex Karp Playbook: Palantir Defense Tech Machine",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "美国国防软件行业的AI可见度竞争与引用权威建构",
+  "claim": "Palantir在AI引擎的国防软件类别引用中占据结构性主导地位，其创始人驱动的传播模式比Anduril更早建立且更持久",
+  "reasoning": "Alex Karp通过长达十年以上的创始人知识分子化运营——包括高频长篇访谈、文明叙事框架的财报电话会、2025年出版的《技术共和国》专著、明确点名中国等对手的表态、以及将Palantir定位为硅谷异类的反主流叙事——在AI训练语料中积累了大量可引用的一手来源。这套操作模式早于Anduril（2017年成立）数年即已成型，形成了AI引擎在检索国防软件、决策智能、本体论平台等Palantir定义的类别时优先返回PLTR的结构性优势。传统防务巨头因CEO轮换和委员会式管理无法复制此模式，导致引用份额远低于收入仅为其1/20的新兴公司",
+  "evidence": [
+   "Palantir在ChatGPT、Claude、Gemini、Perplexity和Google AI Overviews中是被引用最多的美国国防软件公司",
+   "Palantir在2026年国防引用份额指数中排名第1",
+   "5W国防与航空航天AI可见度指数2026显示，Palantir与Anduril在国防软件编码提示中的引用量超过洛克希德、诺斯罗普、RTX、波音和通用动力的总和",
+   "Karp自2014-2016年即开始运营创始人作为国防知识分子的传播模式，早于Anduril 2017年成立",
+   "Karp与Nick Zamiska合著的《技术共和国》于2025年出版，为AI引擎提供了结构化的作者署名一手来源",
+   "传统防务巨头采用机构化、新闻稿驱动、委员会管理的传播系统，CEO轮换导致无法形成创始人式权威"
+  ],
+  "data": [
+   {
+    "metric": "AI可见度指数测试提示数量",
+    "value": "28400个",
+    "context": "5W国防与航空航天AI可见度指数2026，覆盖ChatGPT、Claude、Gemini、Perplexity、Google AI Overviews"
+   },
+   {
+    "metric": "Anduril成立年份",
+    "value": "2017年",
+    "context": "Palmer Luckey创立，晚于Karp建立传播模式的时间"
+   },
+   {
+    "metric": "Karp模式运营时长",
+    "value": "超过10年",
+    "context": "在上市公司规模层面运营"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://opentools.ai/news/palantirs-ceo-karp-sparks-debate-with-22-point-manifesto-on-ai-and-defense",
+  "source_title": "Palantir's CEO Karp Sparks Debate with 22-Point... | OpenTools",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "人工智能在美国国家安全领域的应用与科技产业转型",
+  "claim": "人工智能将在国家安全领域发挥关键作用，科技精英应当优先支持国防事业，美国可能需要重新审视兵役制度",
+  "reasoning": "Alex Karp通过其22点宣言阐述了对AI与国防关系的系统性看法，他认为当前硅谷的优先级存在偏差，科技产业应当更多投入国防领域。这一判断基于他对技术-国防产业融合趋势的观察，并将此上升到是否恢复征兵制的战略高度，显示其认为AI在国家安全中的重要性已达到需要动员全社会资源的程度",
+  "evidence": [
+   "Palantir CEO发布了22点宣言总结其著作",
+   "宣言强调人工智能在国家安全中的作用",
+   "宣言批评硅谷当前的优先事项安排",
+   "宣言呼吁科技精英培育国防事业",
+   "宣言提议重新审视美国兵役征召制度",
+   "这一转变标志着潜在的技术-国防产业交叉融合"
+  ],
+  "data": [
+   {
+    "metric": "宣言要点数量",
+    "value": "22点",
+    "context": "Alex Karp发布的最新宣言"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://observer.com/2025/02/elon-musk-doge-good-for-palantir-ceo-alex-karp/",
+  "source_title": "Elon Musk’s DOGE Is ‘Very Good’ for Palantir, Says CEO Alex Karp",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "DOGE政府效率改革对Palantir公司的影响",
+  "claim": "DOGE的政府效率改革将对Palantir「非常有利」，公司会在颠覆性变革中胜出",
+  "reasoning": "Alex Karp认为DOGE带来的颠覆会暴露政府中低效的系统和项目，这将为Palantir创造机会。他相信DOGE推动的精英制和透明度与Palantir的商业模式高度契合，砍掉昂贵、长期运行的低效软件项目将为Palantir的「深度运营、高价值」产品腾出空间。公司一直擅长应对颠覆性变化，且其价值观与DOGE使命一致。",
+  "evidence": [
+   "DOGE是一场「革命」，将暴露不起作用的事物",
+   "Palantir第四季度来自美国政府合同的收入同比激增45%达到3.43亿美元",
+   "公司12月与美国陆军续签超过4亿美元的四年软件合同",
+   "Palantir首席技术官称「政府缺乏问责制」是公司真正的竞争对手",
+   "DOGE将为政府带来精英制和透明度，这正是Palantir商业业务的核心"
+  ],
+  "data": [
+   {
+    "metric": "Q4收入",
+    "value": "8.27亿美元",
+    "context": "2024年10-12月季度，同比增长36%"
+   },
+   {
+    "metric": "Q4美国政府合同收入",
+    "value": "3.43亿美元",
+    "context": "2024年10-12月季度，同比增长45%"
+   },
+   {
+    "metric": "2024全年收入",
+    "value": "28亿美元",
+    "context": "同比增长29%"
+   },
+   {
+    "metric": "2024美国业务收入",
+    "value": "19亿美元",
+    "context": "其中政府业务12亿美元"
+   },
+   {
+    "metric": "陆军合同价值",
+    "value": "超过4亿美元",
+    "context": "2024年12月签署，为期4年"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "长期（未指明具体时间）",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://newsroomin.eu/en/alex-karp-calls-for-silicon-valley-to-arm-western-military/",
+  "source_title": "Alex Karp Calls for Silicon Valley to Arm Western Military",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "硅谷科技企业向西方军事提供AI武器化支持",
+  "claim": "人工智能威慑时代已经取代核威慑时代，西方必须率先武器化AI否则将被威权对手击败",
+  "reasoning": "Alex Karp认为核威慑与软实力时代已结束，现在的问题不是是否要创造AI武器，而是谁先造出来——西方还是威权对手。他强调对手「不会为道德戏剧性辩论而停步」，硅谷欠美国巨额财富债务，必须停止将人才浪费在社交媒体算法上，转而为国防开发武器。他将和平主义视为「用他人鲜血支付的奢侈品」，认为自由价值观只能在强大国家保护下存在，因此为CIA编写软件是高道德责任。",
+  "evidence": [
+   "Palantir在社交网络X上发布22点宣言，由CEO Alex Karp与法律顾问Nicholas Zamiska共同撰写",
+   "该宣言公开呼吁IT精英停止和平主义实践，开始开发武器以保卫西方民主国家",
+   "Palantir是五角大楼和北约通信与信息局的主要数字承包商",
+   "宣言提出结束欧洲和平主义、允许德国和日本完全重新军事化",
+   "建议美国考虑从合同制军队转向全民服役制",
+   "宣言批判现代左翼自由主义教条和取消文化"
+  ],
+  "data": [
+   {
+    "metric": "宣言要点数量",
+    "value": "22点",
+    "context": "在社交网络X发布的书籍摘要"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://ceoinsider.io/interview/alex-karp",
+  "source_title": "Interview with Alex Karp, CEO of Palantir | CEO Insider",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "美国国防软件与反建制商业战略",
+  "claim": "坚持反常规（反专家手册、扁平化、现场驱动工程）的长期主义路线能在国防与制造业软件市场建立不可复制的竞争优势，并最终获得财务回报",
+  "reasoning": "Alex Karp认为Palantir的成功源于三个相互强化的决策：（1）组织上采用极低层级、精英制与快速决策，保持初创公司的灵活性；（2）产品上拒绝标准SaaS模式，派工程师常驻前线（FDSE），以士兵和工厂工人的真实需求而非分析师意见驱动开发；（3）战略上押注美国国防、反恐、制造业回流等「使命导向」市场，即使前15年财务指标难看也不动摇。他强调这种反建制做法在当时被视为疯狂，但现在市值与利润证明「现实匹配了我们的世界观」，而扁平文化与一线数据优先的机制使竞争对手难以模仿",
+  "evidence": [
+   "Palantir采用极少层级（very few layers）和大量直接对话的组织结构，精英制项目（meritocracy program）决策可在数分钟而非数月内完成",
+   "公司实施FDSE（现场部署软件工程）模式，工程师常驻战区、工厂现场学习需求，尽管短期内软件利润率难看、出差成本高、估值倍数低",
+   "开发PG、Gaia、Foundry、Apollo、Maven等平台时，市场接受度滞后数年，但Karp坚持这些产品「捕捉世界发展方向」",
+   "公司战略性转向美国军方与美国商业客户，即使分析师称之为「insane」",
+   "前15年多数投资者认为Palantir财务失败（failing financially），但任务层面（mission）持续有效",
+   "艾森豪威尔奖（Eisenhower Award）等来自军方社群的认可，标志工具在生死场景中发挥作用"
+  ],
+  "data": [
+   {
+    "metric": "公司存续时间",
+    "value": "20年",
+    "context": "自2003年联合创立至今保留的部落知识（tribal knowledge from 20 years）"
+   },
+   {
+    "metric": "坚持任务导向的时长",
+    "value": "近20年",
+    "context": "尽管不断受批评，Karp坚持Palantir使命的时间（stick with Palantir's mission for nearly two decades）"
+   },
+   {
+    "metric": "财务被质疑期",
+    "value": "15+年",
+    "context": "许多投资者认为公司财务失败的时期（For 15-plus years many investors thought we were failing financially）"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://www.podfolio.co/podcast/a16z/palantir-ceo-alex-karp-on-the-zero-sum-ai-race",
+  "source_title": "Palantir CEO Alex Karp on the Zero-Sum AI Race Summary...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "中美人工智能竞争的地缘政治与军事应用",
+  "claim": "美国必须在对抗中国的人工智能竞赛中取得胜利，这不是零和博弈而是关乎国家安全的生存竞争",
+  "reasoning": "Alex Karp认为，美国军方使用Palantir技术体现了精英治理和国防需求，而中国AI主导将带来风险。他强调硅谷部分企业试图置身于地缘政治之外的观点是危险的，必须明确国家利益与硅谷视角的区别。他将Palantir定位为「反监控公司」，暗示其技术服务于国家安全而非威权监控，因此美国在AI领域的领先地位具有道德和战略双重正当性。",
+  "evidence": [
+   "美国国防部使用Palantir技术是精英治理和国防能力的体现",
+   "硅谷存在一种认为自身运作于地缘政治之外的版本观点",
+   "Palantir被定义为「反监控公司」以区别于监控性质的AI应用",
+   "美国需要确保在对抗中华人民共和国的竞赛中获胜",
+   "国防部被描述为最具精英治理特征的环境"
+  ],
+  "data": [
+   {
+    "metric": "Palantir为此刻准备的时间",
+    "value": "20年",
+    "context": "Alex Karp自述公司发展历程"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://www.ianwelsh.net/ai-bubble-burry-altman-friar-huang-karp/",
+  "source_title": "Did Burry, Altman, Friar, Huang, Karp and Sacks Just Pop the AI...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "AI股市泡沫与Palantir公司前景",
+  "claim": "做空AI芯片与本体论（Palantir核心技术）是「疯狂至极」的决策，Michael Burry对Palantir的空头押注将被证明错误",
+  "reasoning": "Alex Karp认为Palantir与Nvidia是AI领域「真正赚钱」的公司，做空这两家企业实质上等于做空AI整体趋势。他质疑Michael Burry的动机，暗示其可能只是在「不显得愚蠢的前提下平掉仓位」而非真实看空。作为Palantir CEO，他强调公司盈利能力与Nvidia芯片供应的战略价值，认为押注这两项核心资产失败属于对AI产业基本面的误判",
+  "evidence": [
+   "Michael Burry在2025年11月3日通过13F文件披露做空100万股Nvidia与500万股Palantir",
+   "Alex Karp在CNBC节目中称「他做空的两家公司正是赚到钱的那些」",
+   "Palantir与Nvidia被Alex Karp定性为AI领域的盈利核心企业",
+   "Alex Karp公开表示「等这个空头被证明错误时我会跳舞庆祝」"
+  ],
+  "data": [
+   {
+    "metric": "Nvidia被做空股数",
+    "value": "100万股",
+    "context": "Michael Burry 2025年11月3日13F文件"
+   },
+   {
+    "metric": "Palantir被做空股数",
+    "value": "500万股",
+    "context": "Michael Burry 2025年11月3日13F文件"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://fortune.com/2026/02/04/palantir-ceo-alex-karp-europe-canada-falling-behind-ai-adoption-haves-have-nots/",
+  "source_title": "Palantir CEO Karp: Trump has a point about AI... | Fortune",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "全球人工智能竞争格局与国家/企业采纳鸿沟",
+  "claim": "全球经济正在分裂为「AI拥有者」与「AI缺失者」两个阵营，美国和中国领先，加拿大与欧洲（尤其北欧）因犹豫不决已落后且难以追赶",
+  "reasoning": "Karp 以 Palantir 美国业务同比增长93%、占总营收77%为证，认为这种「爆炸式增长」反映出愿意围绕先进AI重组的机构与仅在边缘修补的机构之间的鸿沟正在扩大。他指出中东部分地区和中国在大规模采纳先进AI平台，而加拿大、北欧及欧洲普遍缺乏采纳；法国虽清楚问题但别无选择只能持续与Palantir续约（2025年12月续签三年合同）。他认为未采纳者寄望的「追赶机制」不现实，因Palantir的增长是「突破性函数」，价值创造规模巨大且不成比例，传统价值观已不适用。",
+  "evidence": [
+   "Palantir 第四季度营收同比增长70%至14.07亿美元，规则40分数达127",
+   "美国业务第四季度同比增长93%，美国现占总营收77%",
+   "Palantir 在中东部分地区和中国看到先进AI平台的采纳（有时是大规模采纳），但在加拿大、北欧及欧洲普遍缺乏采纳",
+   "法国2025年12月与法国情报部门续签三年合同",
+   "部分客户在数月内签署8000万至9600万美元初始合同并快速扩展使用，公用事业和能源客户年合同价值在2025年翻了四到五倍",
+   "Palantir 前20大客户过去12个月平均营收9400万美元，同比增长45%"
+  ],
+  "data": [
+   {
+    "metric": "第四季度营收同比增长",
+    "value": "70%",
+    "context": "2025年第四季度"
+   },
+   {
+    "metric": "第四季度营收绝对值",
+    "value": "14.07亿美元",
+    "context": "2025年第四季度"
+   },
+   {
+    "metric": "规则40分数",
+    "value": "127",
+    "context": "2025年第四季度"
+   },
+   {
+    "metric": "美国业务同比增长",
+    "value": "93%",
+    "context": "2025年第四季度"
+   },
+   {
+    "metric": "美国占总营收比重",
+    "value": "77%",
+    "context": "当前"
+   },
+   {
+    "metric": "前20大客户过去12个月平均营收",
+    "value": "9400万美元",
+    "context": "trailing 12个月，同比增长45%"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://rtrunews.com/news/642548-palantir-alex-karp-insane/",
+  "source_title": "AI industry is ‘effing insane’ – Palantir CEO — RT World News",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "西方政府与军方对OpenAI、Anthropic等AI公司的数据安全依赖",
+  "claim": "西方政府和军方不应将敏感数据托付给OpenAI和Anthropic等AI公司，将战场技术外包给硅谷共识观点是「疯狂的」",
+  "reasoning": "Alex Karp认为，当前主流AI公司采用的代币付费模式让客户在支付费用和交出数据的同时，无法控制模型权重（决定模型选择的关键参数），这导致客户被「敲诈」。他指责这些AI公司一边拒绝与本国军方合作（以道德为由），一边向美国对手出售技术。他主张应通过Palantir的软件层方案，让客户在AI模型与数据之间保持控制权和数据主权，而非将国家安全关键技术决策权让渡给商业公司的共识观点",
+  "evidence": [
+   "多数企业和政府向OpenAI和Anthropic购买代币以按需访问大语言模型",
+   "客户在这种安排下交出金钱和数据，却无法控制模型权重",
+   "AI公司向美国对手出售技术，同时以道德理由拒绝与本国军方合作",
+   "法国和德国已命令其国内情报机构不再续约Palantir",
+   "西班牙禁止所有国有企业使用Palantir产品",
+   "Palantir在2003年由Peter Thiel创立，种子资金来自CIA"
+  ],
+  "data": [
+   {
+    "metric": "Palantir创立时间",
+    "value": "2003年",
+    "context": "由Peter Thiel创立，CIA提供种子资金"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/in-war-and-society-large-language-models-are-what-we-make-of-them/",
+  "source_title": "In War and Society, Large Language Models Are What We Make of...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "大型语言模型在军事与国防领域的应用前景与风险",
+  "claim": "Palantir的人工智能平台是一种能够让使用者获胜的武器",
+  "reasoning": "Alex Karp作为Palantir公司的首席执行官，基于该公司新推出的人工智能平台的能力，认为这一技术工具能够为军事用户提供决定性优势。他将AI平台直接定位为「武器」，强调其在军事竞争中的制胜作用，体现了技术乐观主义立场——即通过综合海量信息流，军方可获得代际性相对优势，知识将成为新火力，算法将成为新的决定性要点。",
+  "evidence": [
+   "Alex Karp将Palantir的新人工智能平台称为「a weapon that will allow you to win」（一种能让你获胜的武器）",
+   "支持者指出综合海量信息流的能力将使军方获得相对对手的代际性优势",
+   "在支持者观点中，知识将成为新的火力，算法将成为新的决定性要点",
+   "文章将Alex Karp的表态归入advocates（倡导者）阵营，与批评者观点形成对照"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://fortune.com/2026/03/24/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice/",
+  "source_title": "Palantir’s billionaire CEO says only two kinds of people ... -...",
+  "published_on": "2026-03-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "人工智能时代劳动力市场与职业技能发展",
+  "claim": "AI时代只有两类人有职业前景：拥有职业技能培训者和神经多样性人群",
+  "reasoning": "Alex Karp认为AI将颠覆劳动力市场，传统高等教育（特别是人文学科）的价值将被削弱。职业技能工种（如电工、水暖工）难以自动化且需求增长；神经多样性人群因思维方式独特、敢于冒险、能从不同角度看问题并创造独特价值，将在AI驱动的世界中占据优势。他以自己的阅读障碍经历为例，强调认知差异可转化为竞争力。",
+  "evidence": [
+   "Palantir设立「神经多样性奖学金」专门招募此类人才，认为他们将在塑造美国和西方未来中发挥不成比例的重要作用",
+   "Palantir推出「精英制度奖学金」项目，面向未上大学的高中毕业生，首批录取22人，要求常春藤级别考试成绩",
+   "2026年秋季招募项目为参与者提供每月5400美元津贴，口号为「跳过债务，夺回人生年华，获得Palantir学位」",
+   "Alex Karp在达沃斯世界经济论坛表示AI将摧毁人文学科就业岗位",
+   "技术公司正在建设大规模数据中心，美国面临劳动力短缺，技能工种需求增加"
+  ],
+  "data": [
+   {
+    "metric": "Fortune 500企业销售组织招募神经多样性人才比例",
+    "value": "五分之一",
+    "context": "Gartner研究预测到2027年"
+   },
+   {
+    "metric": "精英制度奖学金首轮申请人数",
+    "value": "超过500人",
+    "context": "针对高中毕业生项目"
+   },
+   {
+    "metric": "精英制度奖学金首批录取人数",
+    "value": "22人",
+    "context": "首届项目"
+   },
+   {
+    "metric": "2026年秋季项目月度津贴",
+    "value": "5400美元",
+    "context": "精英制度奖学金参与者"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2027年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://www.thenationalnews.com/future/2025/05/06/palantir-earnings-alex-karp-palestine-protester/",
+  "source_title": "Palantir's Alex Karp tells pro-Palestine protester she is 'product of ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "美国AI军工企业向以色列提供技术的道德争议",
+  "claim": "西方拥有最强大、最精确的致命武器，从而强大到无人敢攻击，才是减少不必要死亡的最佳途径",
+  "reasoning": "Alex Karp认为战争的显而易见解决方案是让西方拥有最强且最精准的致命武器，以此威慑对手、避免冲突发生。他将抗议者定性为「哈马斯策略的无意识产物」，认为对方是被敌对力量利用。他在股东信中引用Richard Nixon的话强调「不能因仇恨而毁灭自己」，重申Palantir对美军软件开发的坚定承诺「无论这一承诺是否时髦或方便」。这套逻辑将技术优势与威慑力挂钩，把批评声音归因于敌方宣传，从而为军事合同辩护。",
+  "evidence": [
+   "Alex Karp在华盛顿技术政策论坛上被抗议者打断，抗议者指控Palantir的AI技术被用于以色列-加沙战争并导致巴勒斯坦人死亡",
+   "Alex Karp简短承认巴勒斯坦的死亡与悲剧规模，但随即转向为公司辩护",
+   "Alex Karp在股东信中引用Richard Nixon的话「那些恨你的人不会赢，除非你也恨他们，那样你就毁了自己」",
+   "Alex Karp在股东信中重申「我们对为美军构建软件、为那些踏入危险之地者构建软件的承诺坚定不移，无论这一承诺是否时髦或方便」",
+   "近期多个技术会议被抗议者打断，包括微软AI负责人Mustafa Suleyman在4月被指控与以色列军方有合同、被称为「战争牟利者」",
+   "Scale AI联合创始人兼CEO Alexandr Wang上周在CSIS表示与美军合作具有「道德责任」，称「美国保持领先地位至关重要」"
+  ],
+  "data": [
+   {
+    "metric": "哈马斯袭击导致以色列死亡人数",
+    "value": "约1200人",
+    "context": "2023年哈马斯主导的袭击"
+   },
+   {
+    "metric": "哈马斯袭击导致以色列人质数量",
+    "value": "240人",
+    "context": "2023年哈马斯主导的袭击"
+   },
+   {
+    "metric": "加沙地带巴勒斯坦人死亡数",
+    "value": "超过52567人",
+    "context": "以色列在加沙的军事行动"
+   },
+   {
+    "metric": "加沙地带巴勒斯坦人受伤数",
+    "value": "约118610人",
+    "context": "以色列在加沙的军事行动"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://gizmodo.com/palantirs-billionaire-ceo-just-cant-stop-talking-about-killing-people-2000560597",
+  "source_title": "Palantir’s Billionaire CEO Just Can’t Stop Talking About Killing People",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "Palantir 公司在美国防务领域的角色与商业模式",
+  "claim": "政治动荡与政府「颠覆」将有利于 Palantir 的业务增长和美国利益",
+  "reasoning": "Alex Karp 认为特朗普再次当选及随后的政策变化对 Palantir 股价有利，他将 Elon Musk 通过 DOGE 部门对联邦机构的「颠覆」视为积极因素，认为「颠覆会暴露不起作用的东西」，且「对美国有利的就对 Palantir 有利」。他反复强调公司致力于「服务西方和美国」，并对包括「杀敌」在内的工作感到自豪。",
+  "evidence": [
+   "Karp 在投资者电话会议上表示 Palantir 的使命包括「必要时吓阻敌人并偶尔杀死他们」",
+   "特朗普再次当选及随后实施的「警察国家式政策」对 Palantir 股价产生积极影响",
+   "Karp 明确支持 Elon Musk 通过 DOGE 部门拆解联邦机构、清洗公务员队伍的行动",
+   "Karp 称「我们热爱颠覆，对美国有利的事就对 Palantir 非常有利」",
+   "Karp 表示「会有革命，有些人的脑袋会被砍掉」并预期「赢得胜利」",
+   "Palantir 最初由美国政府资金孵化，目前大部分收入仍来自政府合同"
+  ],
+  "data": [
+   {
+    "metric": "Alex Karp 个人财富",
+    "value": "90 亿美元",
+    "context": "彭博亿万富翁指数数据"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://www.businessinsider.com/alex-karp-threats-palantir-woke-left-mamdani-right-wing-conspiracy-2025-11",
+  "source_title": "Alex Karp Says These Are the Biggest Threats to Palantir Right Now",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "Palantir Technologies面临的政治与市场威胁",
+  "claim": "Palantir最大的威胁不是竞争对手，而是左翼「觉醒派」和右翼阴谋论者的政治敌意，如果他们掌权将损害公司",
+  "reasoning": "Alex Karp认为公司面临的核心风险是政治性的而非商业性的。他判断民主党内以Zohran Mamdani为代表的「觉醒左翼」若执政会伤害Palantir，同时右翼阴谋论者对技术的妖魔化也构成威胁。他认为关于AI将取代劳动力的错误叙事正在驱动选举狂热，导致极端政治力量抬头，而这些力量一旦掌权将对Palantir采取敌对政策。",
+  "evidence": [
+   "Alex Karp在采访中明确表示「我们的竞争实际上是政治性的，觉醒左派和觉醒右派每天醒来都在想如何伤害Palantir，如果他们掌权就会伤害Palantir」",
+   "Alex Karp指出民主党内Mamdani派系若接管该党，他将不再认同这个他曾视为自己政党的组织",
+   "Alex Karp批评右翼「觉醒派」认为「任何技术应用实际上只会被用来攻击我们」的阴谋论思维",
+   "Alex Karp在11月财报电话会议上宣称Palantir是「第一家完全反觉醒的公司」",
+   "Alex Karp此前在Axios采访中表示「知道Mamdani所说内容永远行不通的民主党人比例非常高」"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-01"
  }
 ]
