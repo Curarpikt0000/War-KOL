@@ -1,0 +1,94 @@
+[
+ {
+  "kol": "Michael Kofman",
+  "theater": "俄乌",
+  "source_url": "https://www.nytimes.com/2022/06/02/opinion/russia-ukraine-war-nato.html",
+  "source_title": "Despite its failures in Ukraine, we shouldn’t write Russia off.",
+  "published_on": "2022-06-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael kofman」",
+  "topic": "俄罗斯在乌克兰战争失利后的综合国力评估",
+  "claim": "尽管俄罗斯在乌克兰遭受重大军事和经济损失，但其仍保留对美欧构成严重挑战的能力和意志，现在断言俄罗斯衰落为时过早",
+  "reasoning": "作者认为虽然俄军在乌克兰初期表现糟糕、遭受重大损失并面临制裁，但这些失败主要源于战略误判导致的准备不足。近期俄军已调整战略聚焦顿巴斯地区并开始纠正早期失误，取得渐进式进展。更重要的是，俄罗斯最具威胁性的军事能力（潜艇、防空导弹系统、电子战、反卫星系统和核武库）在此次战争中几乎未受影响，依然可供克里姆林宫使用，因此俄罗斯「倒下但未出局」。",
+  "evidence": [
+   "俄军从基辅撤退并犯下多次战术失误，严重损害其军队形象",
+   "制裁、出口管制及人才外流正冲击俄罗斯本已疲软的经济",
+   "近几周俄罗斯修正战争目标聚焦乌克兰东部顿巴斯地区，俄军已适应并开始纠正早期无能表现",
+   "俄罗斯正取得渐进式进展，乌克兰军事地位在某些地区岌岌可危",
+   "俄罗斯的潜艇、一体化防空导弹系统、电子战、反卫星系统和多样化核武库在战争中几乎完全未受触及"
+  ],
+  "data": [
+   {
+    "metric": "损失坦克比例",
+    "value": "约25%",
+    "context": "占俄罗斯现役坦克部队，过去三个月"
+   },
+   {
+    "metric": "损失飞机数量",
+    "value": "超过30架",
+    "context": "过去三个月"
+   },
+   {
+    "metric": "军队伤亡人数",
+    "value": "超过10,000人",
+    "context": "过去三个月"
+   },
+   {
+    "metric": "战争持续时间",
+    "value": "三个月",
+    "context": "文章写作时点"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-02"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://www.nytimes.com/live/2022/03/26/world/ukraine-russia-war?state=default&variant=show&block=storyline_levelup_swipe_recirc",
+  "source_title": "Here’s What Happened on Day 31 of the War in Ukraine - The New...",
+  "published_on": "2022-03-26",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「pavel luzin」",
+  "topic": "拜登对俄乌冲突持续时间与西方应对策略的判断",
+  "claim": "俄乌战争将是长期战斗，无法在数日或数月内结束，西方需要为长期对抗做好准备",
+  "reasoning": "拜登在华沙演讲中将俄乌冲突定性为「历史性考验」，是二战后民主与威权之间持续数十年斗争的最新前线。他强调这场冲突不会速战速决，需要「steel ourselves for the long fight ahead」（为前方的长期战斗做好心理准备）。这一判断基于俄罗斯对乌克兰主要城市和平民目标持续一个月的攻击态势，以及西方需要维持对乌克兰的长期军事和人道主义支持的现实需求。",
+  "evidence": [
+   "俄罗斯导弹在拜登演讲前数小时袭击了距波兰边境约50英里的利沃夫市，延续了对主要城市和平民的攻击",
+   "波兰已接收超过200万乌克兰难民，是欧洲接收难民最多的国家",
+   "马里乌波尔市已被俄罗斯炮击夷为平地，数十万居民被困在没有水、食物和电力的城市中",
+   "俄军进入切尔诺贝利核电站附近的斯拉武蒂奇小城，占领医院并短暂拘留市长",
+   "拜登在三天欧洲外交行程中参加了比利时的多场峰会，与30多个国家领导人讨论对俄策略"
+  ],
+  "data": [
+   {
+    "metric": "战争持续时间",
+    "value": "31天",
+    "context": "截至拜登演讲时"
+   },
+   {
+    "metric": "波兰接收难民数",
+    "value": "超过200万人",
+    "context": "俄乌战争开始以来"
+   },
+   {
+    "metric": "利沃夫距波兰边境距离",
+    "value": "约50英里",
+    "context": "导弹袭击发生地"
+   },
+   {
+    "metric": "利沃夫战前人口",
+    "value": "70万人",
+    "context": "许多人在战争中逃离前"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "数周、数月或更长时间",
+  "confidence": "high",
+  "extracted_on": "2026-10-02"
+ }
+]
