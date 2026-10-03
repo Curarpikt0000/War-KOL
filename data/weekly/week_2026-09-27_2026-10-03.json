@@ -1,0 +1,2357 @@
+{
+ "week_start": "2026-09-27",
+ "week_end": "2026-10-03",
+ "prev_start": "2026-09-20",
+ "prev_end": "2026-09-26",
+ "generated_on": "2026-10-03",
+ "n_thesis_total": 1058,
+ "n_statements_total": 5602,
+ "n_thesis_in_week": 0,
+ "n_thesis_prev_week": 2,
+ "n_statements_in_week": 2,
+ "n_thesis_undated": 697,
+ "theaters": {
+  "俄乌": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "中东": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "印太": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "南亚": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "非洲": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "拉美": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "军工与战略": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  }
+ },
+ "stance_changes": [],
+ "window30": {
+  "cur": [
+   "2026-09-04",
+   "2026-10-03"
+  ],
+  "prev": [
+   "2026-08-05",
+   "2026-09-03"
+  ],
+  "n_cur": 16,
+  "n_prev": 29
+ },
+ "stance_changes_30d": [
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "from": "升级",
+   "to": "僵持"
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "from": "未表态",
+   "to": "升级"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "from": "僵持",
+   "to": "降级"
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "from": "僵持",
+   "to": "升级"
+  }
+ ],
+ "trajectories": [
+  {
+   "kol": "Babak Taghvaee",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-03-18",
+     "dir": "升级",
+     "topic": "以色列空袭伊朗能源设施引发地区escalation风险",
+     "url": "https://x.com/BabakTaghvaee1/status/2034270012085583943"
+    },
+    {
+     "date": "2026-04-06",
+     "dir": "未表态",
+     "topic": "以色列空袭德黑兰附近伊朗革命卫队直升机设施",
+     "url": "https://www.globaldefensecorp.com/2026/04/07/israeli-air-force-destroys-mi-17-helicopter-fleet-near-iranian-capital/"
+    },
+    {
+     "date": "2026-05-27",
+     "dir": "僵持",
+     "topic": "伊朗获取美军JASSM-ER巡航导弹残骸的战略价值与逆向工程潜力",
+     "url": "https://www.armyrecognition.com/news/aerospace-news/2026/iran-recovers-us-jassm-er-missile-wreckage"
+    },
+    {
+     "date": "2026-08-31",
+     "dir": "未表态",
+     "topic": "美军在约旦使用爱国者PAC-3拦截伊朗弹道导弹的消耗比",
+     "url": "https://www.thedefensenews.com/US-Army-Uses-3-to-4-Patriot-PAC-3-Interceptors-to-Intercept-Each-Iranian-Ballistic-Missile-Over-Jordan-Raising-Questions-Over-Interceptor-Use/"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "升级",
+     "topic": "伊朗经济危机与社会稳定前景",
+     "url": "https://www.iranintl.com/en/202609035560"
+    }
+   ]
+  },
+  {
+   "kol": "Raz Zimmt",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-01-02",
+     "dir": "僵持",
+     "topic": "以色列与伊朗近期军事对抗前景与双方战备状态",
+     "url": "https://www.csmonitor.com/World/Middle-East/2026/0102/israel-netanyahu-trump-war-iran-protests"
+    },
+    {
+     "date": "2026-01-29",
+     "dir": "升级",
+     "topic": "伊朗与以色列直接战争风险",
+     "url": "https://reap.fsi.stanford.edu/news/iran-israel-and-risk-direct-war"
+    },
+    {
+     "date": "2026-05-25",
+     "dir": "降级",
+     "topic": "美伊协议对以色列战略利益的影响",
+     "url": "https://www.middleeasteye.net/news/israel-reacts-alarm-emerging-us-iran-deal-draws-criticism"
+    }
+   ]
+  },
+  {
+   "kol": "Phil Gunson",
+   "theater": "拉美",
+   "points": [
+    {
+     "date": "2026-01-04",
+     "dir": "僵持",
+     "topic": "美国对委内瑞拉政权的干预行动及其影响",
+     "url": "https://transcripts.cnn.com/show/fzgps/date/2026-01-04/segment/01"
+    },
+    {
+     "date": "2026-01-08",
+     "dir": "僵持",
+     "topic": "委内瘑拉政权权力结构与美国干预后的政治前景",
+     "url": "https://www.foreignaffairs.com/podcasts/what-comes-next-venezuela"
+    },
+    {
+     "date": "2026-01-08",
+     "dir": "僵持",
+     "topic": "委内瑞拉政权更迭后的民主转型前景",
+     "url": "https://www.npr.org/2026/01/08/nx-s1-5671115/venezuela-opposition"
+    },
+    {
+     "date": "2026-02-18",
+     "dir": "僵持",
+     "topic": "委内瑞拉代理总统Delcy Rodríguez在特朗普压力下的执政前景",
+     "url": "https://www.bbc.com/news/articles/cn87rv0jdy1o"
+    },
+    {
+     "date": "2026-08-04",
+     "dir": "降级",
+     "topic": "委内瑞拉马杜罗政府对边境安全的控制力",
+     "url": "https://www.163.com/dy/article/L1SPH7I2051492T3.html"
+    },
+    {
+     "date": "2026-08-29",
+     "dir": "降级",
+     "topic": "委内瑞拉竞选联合国安理会非常任理事国席位",
+     "url": "https://www.opendemocracy.net/en/venezuela-un-3997jsp/"
+    }
+   ]
+  },
+  {
+   "kol": "Michael Knights",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与区域影响",
+     "url": "https://www.rferl.org/a/michael-knights-gulf-change-us-israel-iran/33695982.html"
+    },
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与地区影响",
+     "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/03/iran-260305-rferl05.htm"
+    },
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与区域影响",
+     "url": "https://english.shabtabnews.com/2026/03/05/michael-knights-gulf-region-on-the-precipice-of-fundamental-change/"
+    },
+    {
+     "date": "2026-06-30",
+     "dir": "升级",
+     "topic": "伊拉克什叶派民兵组织在伊朗-美国冲突中的作用升级",
+     "url": "https://ctc.westpoint.edu/june-2026/"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "僵持",
+     "topic": "伊朗对伊拉克南部什叶派民兵及政治影响力",
+     "url": "https://www.cfr.org/expert-roundup/interview-peter-khalil-and-michael-knights-iran-iraq-relations"
+    }
+   ]
+  },
+  {
+   "kol": "Samuel Bendett",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-03-30",
+     "dir": "升级",
+     "topic": "乌克兰与海湾国家在反无人机领域的防务合作",
+     "url": "https://breakingdefense.com/2026/03/ukraine-inks-defense-agreements-with-qatar-and-saudi-arabia-with-uae-to-follow/"
+    },
+    {
+     "date": "2026-05-28",
+     "dir": "僵持",
+     "topic": "俄罗斯Shahed无人机加装电子战系统对抗乌克兰拦截无人机",
+     "url": "https://www.businessinsider.com/russia-arms-drones-with-new-electronic-defenses-fight-ukrainian-interceptors-2026-5"
+    },
+    {
+     "date": "2026-05-28",
+     "dir": "未表态",
+     "topic": "俄罗斯在Shahed攻击无人机上加装电子战系统对抗乌克兰拦截无人机",
+     "url": "https://www.businessinsider.com/russia-arms-drones-with-new-electronic-defenses-fight-ukrainian-interceptors-2026-5?op=1"
+    },
+    {
+     "date": "2026-06-08",
+     "dir": "僵持",
+     "topic": "乌克兰战场无人机产能与战术演化",
+     "url": "https://ciadrugs.substack.com/p/interview-drone-researcher-samuel"
+    }
+   ]
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "points": [
+    {
+     "date": "2026-01-06",
+     "dir": "降级",
+     "topic": "美国司法部对委内瑞拉「太阳卡特尔」的法律定性转变",
+     "url": "https://colombiaone.com/2026/01/06/doj-cartel-of-the-suns/"
+    },
+    {
+     "date": "2026-08-25",
+     "dir": "升级",
+     "topic": "拉美有组织犯罪集团对无人机与简易爆炸装置的军事化应用",
+     "url": "https://insightcrime.org/news/the-insight-take-organized-crime-adopts-the-latest-technologies-in-the-drone-ied-arms-race/"
+    },
+    {
+     "date": "2026-09-15",
+     "dir": "僵持",
+     "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+     "url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/"
+    }
+   ]
+  },
+  {
+   "kol": "Dara Massicot",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-07-03",
+     "dir": "升级",
+     "topic": "俄罗斯军队从1991年崩溃到2022年全面入侵乌克兰的军事重建路径",
+     "url": "https://en.hvylya.net/interview/2790-dara-massicot-how-russia-rebuilt-its-army-and-learned-all-the-wrong-lessons"
+    },
+    {
+     "date": "2026-07-23",
+     "dir": "降级",
+     "topic": "俄乌战争2026年夏季阶段态势与俄军作战能力评估",
+     "url": "https://en.hvylya.net/interview/2853-michael-kofman-and-dara-massicot-how-ukraine-put-russia-on-the-back-foot"
+    },
+    {
+     "date": "2026-08-03",
+     "dir": "升级",
+     "topic": "乌克兰对俄罗斯腹地的远程打击行动",
+     "url": "https://www.cnn.com/2026/08/03/tv/video/amanpour-russia-ukraine-dara-massicot"
+    },
+    {
+     "date": "2026-08-13",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年夏季战场态势与中期演变",
+     "url": "https://carnegieendowment.org/emissary/2026/08/russia-ukraine-war-vibe-shift-summer-offensive"
+    }
+   ]
+  },
+  {
+   "kol": "Janis Kluge",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-21",
+     "dir": "降级",
+     "topic": "俄罗斯针对乌克兰战争的兵员募集可持续性",
+     "url": "https://meduza.io/en/episodes/2026/02/21/russia-s-recruitment-machine-runs-on-cash-and-the-regions-bankrolling-it-are-starting-to-run-out-we-asked-researcher-janis-kluge-how-much-longer-putin-can-avoid-another-mobilization"
+    },
+    {
+     "date": "2026-02-23",
+     "dir": "僵持",
+     "topic": "俄罗斯军队志愿征募可持续性与动员风险",
+     "url": "https://meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge"
+    },
+    {
+     "date": "2026-02-23",
+     "dir": "僵持",
+     "topic": "俄罗斯军队募兵可持续性与动员可能性",
+     "url": "https://plugin-frontend.meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge"
+    },
+    {
+     "date": "2026-04-13",
+     "dir": "降级",
+     "topic": "俄罗斯在乌克兰战场的兵员募集与伤亡趋势（2026年一季度）",
+     "url": "https://www.understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-13-2026/"
+    },
+    {
+     "date": "2026-05-17",
+     "dir": "僵持",
+     "topic": "俄罗斯对乌克兰侵略战争的停火可能性",
+     "url": "https://x.com/jakluge/status/2055957017735410125"
+    },
+    {
+     "date": "2026-06-10",
+     "dir": "僵持",
+     "topic": "俄罗斯军队征募能力与人力储备状况",
+     "url": "https://novayagazeta.eu/en/articles/2026/06/10/russias-military-recruitment-rate-fell-to-three-year-low-in-first-quarter-of-2026-en-news"
+    },
+    {
+     "date": "2026-06-10",
+     "dir": "升级",
+     "topic": "俄罗斯在乌克兰战场的月度阵亡人数与兵员补充能力",
+     "url": "https://www.dagens.com/war/budget-data-indicates-300-russian-soldiers-die-every-day"
+    },
+    {
+     "date": "2026-06-13",
+     "dir": "升级",
+     "topic": "俄罗斯2026年一季度军费开支与战争财政负担",
+     "url": "https://united24media.com/war-in-ukraine/russia-spent-nearly-every-second-budget-ruble-on-war-in-early-2026-analysis-finds-19791"
+    },
+    {
+     "date": "2026-06-14",
+     "dir": "升级",
+     "topic": "俄罗斯2026年第一季度军费支出与经济可持续性",
+     "url": "https://ukrainetoday.org/russia-is-spending-900-million-a-day-on-the-war-against-ukraine-a-new-record/"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "升级",
+     "topic": "俄罗斯兵员招募能力与动员前景",
+     "url": "https://www.theguardian.com/world/2026/aug/14/russia-ukraine-putin-recruiters-mobilisation"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "降级",
+     "topic": "俄军在乌克兰东部顿巴斯地区的攻势进展与人力损耗",
+     "url": "https://thepublic.info/en/news/for-the-second-month-running-russia-has-lost-more-than-40000-troops-on-the-front-line-in-ukraine"
+    },
+    {
+     "date": "2026-09-10",
+     "dir": "升级",
+     "topic": "俄罗斯2026年上半年军费支出与战争可持续性",
+     "url": "https://meta-defense.fr/en/2026/09/10/kremlin-goes-all-in-strikes-ukraine/"
+    }
+   ]
+  },
+  {
+   "kol": "Héni Nsaibia",
+   "theater": "非洲",
+   "points": [
+    {
+     "date": "2026-04-13",
+     "dir": "僵持",
+     "topic": "贝宁选举与北部安全形势稳定前景",
+     "url": "https://acleddata.com/expert-comment/heni-nsaibia-benins-elections-after-deadliest-year-conflict"
+    },
+    {
+     "date": "2026-04-20",
+     "dir": "升级",
+     "topic": "萨赫勒地区圣战组织地理扩张与组织间冲突",
+     "url": "https://acleddata.com/expert-comment/heni-nsaibia-sahel-insurgency-expansion-jihadist-rivalry-intensifies-across-borders"
+    },
+    {
+     "date": "2026-05-26",
+     "dir": "升级",
+     "topic": "西非与中萨赫勒地区圣战组织扩张态势",
+     "url": "https://www.rfi.fr/en/podcasts/spotlight-on-africa/20260526-spotlight-on-africa-global-jihadism-s-growing-grip-on-africa"
+    },
+    {
+     "date": "2026-09-07",
+     "dir": "升级",
+     "topic": "萨赫勒地区圣战组织向几内亚湾沿岸国家扩张态势",
+     "url": "https://www.riotimesonline.com/sahel-security-crisis-2026/"
+    }
+   ]
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-24",
+     "dir": "升级",
+     "topic": "俄乌战争俄军死亡规模与地理分布",
+     "url": "https://en.zona.media/article/2026/02/24/mapofwar"
+    },
+    {
+     "date": "2026-03-02",
+     "dir": "僵持",
+     "topic": "2025年俄罗斯军队新兵招募与信贷延期数据",
+     "url": "https://en.zona.media/article/2026/03/02/loans"
+    },
+    {
+     "date": "2026-04-21",
+     "dir": "升级",
+     "topic": "俄罗斯当局对纳瓦利尼反腐基金会捐赠者的刑事起诉规模与趋势",
+     "url": "https://en.zona.media/article/2026/04/21/acf_donations"
+    },
+    {
+     "date": "2026-05-09",
+     "dir": "升级",
+     "topic": "俄乌战争俄方阵亡总数统计（2022-2025）",
+     "url": "https://en.zona.media/article/2026/05/09/losses"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2026/08/14/casualties_eng-trl"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2022/05/20/casualties_eng-trl"
+    },
+    {
+     "date": "2026-09-11",
+     "dir": "升级",
+     "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+     "url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl"
+    }
+   ]
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-02-03",
+     "dir": "升级",
+     "topic": "美国弹药生产扩张与国防预算增长前景",
+     "url": "https://www.defenseone.com/business/2026/02/primed-production/411145/"
+    },
+    {
+     "date": "2026-03-06",
+     "dir": "升级",
+     "topic": "美国导弹生产能力与中美潜在冲突准备",
+     "url": "https://www.cnbc.com/video/2026/03/06/tom-karako-the-biggest-concern-is-a-larger-conflict-with-china.html"
+    },
+    {
+     "date": "2026-04-20",
+     "dir": "升级",
+     "topic": "美国萨德/TPY-2雷达遭伊朗打击与综合防空反导能力",
+     "url": "https://breakingdefense.com/2026/04/irans-targeting-of-our-thaad-tpy-2-radars-is-a-big-freaking-deal/"
+    },
+    {
+     "date": "2026-06-18",
+     "dir": "降级",
+     "topic": "美国反导系统弹药储备及固体火箭发动机产能",
+     "url": "https://breakingdefense.com/2026/06/dwindling-stockpiles-of-solid-rocket-motors-highlight-industrial-base-challenges/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "僵持",
+     "topic": "美国弹药产能扩张与国会拨款前景",
+     "url": "https://www.notus.org/defense/trump-munitions-production-congress-funding"
+    },
+    {
+     "date": "2026-07-28",
+     "dir": "升级",
+     "topic": "日本爱国者导弹防御系统现代化与 LTAMDS 雷达采购决策",
+     "url": "https://breakingdefense.com/2026/07/time-to-decide-a-critical-moment-in-japan-us-missile-defense-cooperation/"
+    },
+    {
+     "date": "2026-08-09",
+     "dir": "僵持",
+     "topic": "美国导弹库存危机与军工产能扩张",
+     "url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam"
+    },
+    {
+     "date": "2026-08-21",
+     "dir": "僵持",
+     "topic": "美军弹药库存补充与低成本弹药方案的时间表",
+     "url": "https://www.defenseone.com/business/2026/08/theres-no-shortcut-replenish-us-munitions-stockpiles/415558/"
+    },
+    {
+     "date": "2026-08-27",
+     "dir": "降级",
+     "topic": "美国导弹弹药库存耗竭对全球威慑能力的影响",
+     "url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/"
+    },
+    {
+     "date": "2026-09-16",
+     "dir": "僵持",
+     "topic": "美国国防工业基础与军火库存问题",
+     "url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/"
+    },
+    {
+     "date": "2026-09-25",
+     "dir": "降级",
+     "topic": "美国导弹库存消耗与国防生产能力",
+     "url": "https://article.wn.com/view-scrap/2026/09/25/Tom_Karako_We_have_expended_a_very_significant_percentage_of/"
+    }
+   ]
+  },
+  {
+   "kol": "Ryan D. Martinson",
+   "theater": "印太",
+   "points": [
+    {
+     "date": "2026-02-04",
+     "dir": "升级",
+     "topic": "中国海警在台湾东部海域常态化部署及其战略影响",
+     "url": "https://www.andrewerickson.com/2026/07/cmsi-note-21-the-new-normal-east-of-taiwan/"
+    },
+    {
+     "date": "2026-04-25",
+     "dir": "僵持",
+     "topic": "中国军民融合(MCF)战略的隐蔽化转向",
+     "url": "https://thediplomat.com/2026/04/the-staged-death-of-chinas-military-civil-fusion/"
+    },
+    {
+     "date": "2026-06-02",
+     "dir": "升级",
+     "topic": "习近平领导下的中国海军转型与印太海权战略",
+     "url": "https://digital-commons.usnwc.edu/cmsi-maritime-reports/54/"
+    }
+   ]
+  },
+  {
+   "kol": "Alex de Waal",
+   "theater": "非洲",
+   "points": [
+    {
+     "date": "2026-01-08",
+     "dir": "升级",
+     "topic": "苏丹内战的区域化与国际化演变",
+     "url": "https://qoshe.com/foreign-affairs/alex-de-waal/the-war-that-outgrew-sudan/187205933"
+    },
+    {
+     "date": "2026-02-02",
+     "dir": "升级",
+     "topic": "全球「地缘盗贼政治」(geo-kleptocracy)对国际秩序与弱国主权的侵蚀",
+     "url": "https://responsiblestatecraft.org/global-mafia-politics/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "升级",
+     "topic": "加沙地带饥荒强度与规模的跨国比较分析",
+     "url": "https://worldpeacefoundation.org/blog/can-we-compare-famines-gaza-somalia-south-sudan-sudan-tigray-yemen/"
+    },
+    {
+     "date": "2026-07-28",
+     "dir": "升级",
+     "topic": "南苏丹独立与苏丹分裂的长期影响",
+     "url": "https://fronts.co/podcast/due-south-professor-alex-de-waal-on-sudan/"
+    },
+    {
+     "date": "2026-07-31",
+     "dir": "僵持",
+     "topic": "美国对苏丹快速支援部队(RSF)的恐怖组织认定及其对停火谈判的影响",
+     "url": "https://responsiblestatecraft.org/terrorist-sudan-rsf/"
+    },
+    {
+     "date": "2026-08-10",
+     "dir": "僵持",
+     "topic": "苏丹内战的性质、根源与国际维度",
+     "url": "https://www.e-ir.org/p/interview-alex-de-waal"
+    }
+   ]
+  },
+  {
+   "kol": "Michael Kofman",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-13",
+     "dir": "僵持",
+     "topic": "俄罗斯核力量现代化与军备竞赛前景",
+     "url": "https://warontherocks.com/running-to-stand-still-russian-nuclear-modernization-after-new-start/"
+    },
+    {
+     "date": "2026-02-16",
+     "dir": "降级",
+     "topic": "俄乌战争态势与乌克兰持久战战略",
+     "url": "https://qoshe.com/foreign-affairs/michael-kofman/ukraine-s-war-of-endurance/188012030"
+    },
+    {
+     "date": "2026-02-16",
+     "dir": "僵持",
+     "topic": "俄罗斯持续征兵能力与战争人力资源储备",
+     "url": "https://carnegieendowment.org/russia-eurasia/politika/2026/02/russia-internal-resources-war"
+    },
+    {
+     "date": "2026-02-22",
+     "dir": "僵持",
+     "topic": "2025年俄军在俄乌战场的战果与战略目标实现情况",
+     "url": "https://inkorr.com/en/vijskovij-analitik-kofman-comu-2025-rik-ne-stav-uspisnim-dla-rosijskoi-armii-305083"
+    },
+    {
+     "date": "2026-02-25",
+     "dir": "僵持",
+     "topic": "俄乌战争僵局与克里姆林宫的持久战意图",
+     "url": "https://meduza.io/en/brief/2026/02/26/this-was-russia-today"
+    },
+    {
+     "date": "2026-02-26",
+     "dir": "僵持",
+     "topic": "俄罗斯军方向普京虚报战场成果与克里姆林宫对乌克兰战争认知偏差",
+     "url": "https://en.hvylya.net/news/716-russian-generals-reported-successes-that-never-happened-kofman"
+    },
+    {
+     "date": "2026-03-19",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年态势演变",
+     "url": "https://english.nv.ua/russian-war/russia-unlikely-to-bounce-back-in-2026-50592991.html"
+    },
+    {
+     "date": "2026-05-25",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年战场态势与俄军攻势效果",
+     "url": "https://nymag.com/intelligencer/article/ukraine-russia-war-drones-iran.html"
+    },
+    {
+     "date": "2026-07-06",
+     "dir": "升级",
+     "topic": "俄乌战争中俄军重建能力与北约防御准备",
+     "url": "https://transcripts.cnn.com/show/ampr/date/2026-07-06/segment/01"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "升级",
+     "topic": "俄罗斯军事力量在乌克兰战争后的重建能力与对NATO威胁",
+     "url": "https://carnegieendowment.org/events/2026/07/the-next-russia-threat-moscows-military-power-after-ukraine"
+    }
+   ]
+  },
+  {
+   "kol": "Decker Eveleth",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-01-06",
+     "dir": "僵持",
+     "topic": "中国对台湾领导人定点清除行动的能力评估",
+     "url": "https://foreignpolicy.com/2026/01/06/venezuela-maduro-us-operation-china-russia-ukraine-taiwan/"
+    },
+    {
+     "date": "2026-02-06",
+     "dir": "未表态",
+     "topic": "乌克兰对俄罗斯卡普斯京亚尔导弹试验场打击评估",
+     "url": "https://hiwars.com/en/intel/us-analyst-denies-missile-damage-at-russias-oreshn"
+    },
+    {
+     "date": "2026-03-24",
+     "dir": "升级",
+     "topic": "伊朗导弹威慑能力与以色列/美国空袭",
+     "url": "https://foreignpolicy.com/2026/03/24/iran-israel-us-war-missile-nuclear-weapons-deterrence/"
+    },
+    {
+     "date": "2026-06-12",
+     "dir": "升级",
+     "topic": "中美台海冲突中的导弹防御有效性对比",
+     "url": "https://foreignpolicy.com/2026/06/12/iran-war-us-china-taiwan-missile-defense-radar-interceptors/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "未表态",
+     "topic": "中国潜射弹道导弹测试的战略意图分析",
+     "url": "https://foreignpolicy.com/2026/07/13/china-nuclear-missile-test-launch-slbm/"
+    }
+   ]
+  },
+  {
+   "kol": "Jack Watling",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-06-01",
+     "dir": "僵持",
+     "topic": "俄乌战争走向与停火可能性",
+     "url": "https://www.foreignaffairs.com/ukraine/ukraine-war-turns-tide"
+    },
+    {
+     "date": "2026-06-29",
+     "dir": "未表态",
+     "topic": "美国对伊朗战争的战略失败与治国之道改革",
+     "url": "https://warontherocks.com/the-art-of-statecraft-in-an-age-of-strategic-failure/"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "降级",
+     "topic": "爱国者导弹产能不足与乌克兰防空困境",
+     "url": "https://www.theguardian.com/commentisfree/2026/aug/14/patriot-missiles-ukraine-putin-kyiv-running-out-nato-danger"
+    }
+   ]
+  },
+  {
+   "kol": "Conflict Armament Research (CAR)",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-05-13",
+     "dir": "升级",
+     "topic": "胡塞武装在伊朗支持下重建武器库及其对红海航运威胁",
+     "url": "https://political.org/2026/05/13/houthis-rapidly-rebuilding-sophisticated-weapons-arsenal-with-iranian-support-new-report-finds/"
+    },
+    {
+     "date": "2026-05-13",
+     "dir": "僵持",
+     "topic": "胡塞武装在伊朗协助下重建先进武器库及其供应链脆弱性",
+     "url": "https://www.breitbart.com/middle-east/2026/05/13/report-houthis-with-iranian-help-building-sophisticated-weapons-arsenal/"
+    },
+    {
+     "date": "2026-05-13",
+     "dir": "升级",
+     "topic": "胡塞武装在伊朗支持下的武器制造能力提升",
+     "url": "https://www.breitbart.com/national-security/2026/05/13/report-houthis-with-iranian-help-building-sophisticated-weapons-arsenal/"
+    }
+   ]
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-05-26",
+     "dir": "僵持",
+     "topic": "乌克兰战场态势与无人机战力优势转变",
+     "url": "https://www.chinatalk.media/p/wartalk-ukraines-forward-drone-line"
+    },
+    {
+     "date": "2026-06-22",
+     "dir": "升级",
+     "topic": "乌克兰战场态势与纵深打击能力变化（2026年6月）",
+     "url": "https://podcasts.apple.com/us/podcast/ep-5-rob-lee-back-from-the-front-ukraine-closes-the/id1896914748?i=1000773783050"
+    },
+    {
+     "date": "2026-06-22",
+     "dir": "升级",
+     "topic": "俄乌战场态势与乌方中程打击能力的战役影响",
+     "url": "https://ukrainemilitaryhistory.org/episode-5/"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "僵持",
+     "topic": "俄乌战争空袭升级与持久战前景",
+     "url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html"
+    },
+    {
+     "date": "2026-09-11",
+     "dir": "升级",
+     "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+     "url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748"
+    }
+   ]
+  },
+  {
+   "kol": "Matt Korda",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-02-13",
+     "dir": "僵持",
+     "topic": "俄罗斯战略核力量现代化与新START到期后军备竞赛前景",
+     "url": "https://warontherocks.com/running-to-stand-still-russian-nuclear-modernization-after-new-start/"
+    },
+    {
+     "date": "2026-02-20",
+     "dir": "升级",
+     "topic": "美国核武器现代化计划与 ICBM 项目风险",
+     "url": "https://theanalysis.news/do-you-trust-epstein-elite-with-nuclear-weapons-matt-korda/"
+    },
+    {
+     "date": "2026-05-14",
+     "dir": "僵持",
+     "topic": "俄罗斯核武库规模与现代化进程评估",
+     "url": "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+    },
+    {
+     "date": "2026-09-09",
+     "dir": "升级",
+     "topic": "印度核武库规模与裂变材料产能评估",
+     "url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/"
+    }
+   ]
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-06",
+     "dir": "僵持",
+     "topic": "New START核武器条约到期后的俄美核军备竞赛风险",
+     "url": "https://www.ndr.de/nachrichten/info/neues-atomares-wettruesten-mit-fabian-hoffmann,audio-409584.html"
+    },
+    {
+     "date": "2026-02-06",
+     "dir": "僵持",
+     "topic": "美俄新核裁军条约谈判前景与核武竞赛风险",
+     "url": "https://www.ndr.de/nachrichten/info/hoffmann-verhandlungen-fuer-neues-atomabkommen-koennen-jahre-dauern,audio-409560.html"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "升级",
+     "topic": "俄乌战争中的弹道导弹与防空对抗态势",
+     "url": "https://www.handelsblatt.com/politik/international/ruestung-wer-mit-ballistischen-raketen-angreift-ist-immer-im-vorteil/100249388.html"
+    },
+    {
+     "date": "2026-09-07",
+     "dir": "升级",
+     "topic": "俄罗斯低成本涡喷巡航导弹大规模生产及对乌克兰防空体系的威胁",
+     "url": "https://x.com/FRHoffmann1/status/2096866395917295680"
+    },
+    {
+     "date": "2026-09-13",
+     "dir": "升级",
+     "topic": "乌克兰FP-7与FP-9弹道导弹对战局影响",
+     "url": "https://kyivindependent.com/ukraines-missile-gap-kyivs-struggle-to-close-the-ballistic-divide/"
+    },
+    {
+     "date": "2026-09-14",
+     "dir": "升级",
+     "topic": "乌克兰国产弹道导弹对俄乌战争影响",
+     "url": "https://www.19fortyfive.com/2026/09/ukraines-fire-point-is-building-2-ballistic-missiles-of-its-own-the-fp-7-reaches-200-kilometres-with-a-150-kilogram-warhead-the-longer-ranged-fp-9-could-strike-600-to-800-kilometres-into-russia-wi/"
+    },
+    {
+     "date": "2026-09-20",
+     "dir": "僵持",
+     "topic": "俄罗斯弹道导弹生产与乌克兰拦截能力对比",
+     "url": "https://x.com/FRHoffmann1/status/2101606678022307866"
+    }
+   ]
+  }
+ ],
+ "n_kol_active_week": 0,
+ "rows_in_week": [],
+ "rows_30d": [
+  {
+   "kol": "Matt Korda",
+   "theater": "军工与战略",
+   "source_url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/",
+   "source_title": "Indian nuclear weapons, 2026 - Bulletin of the Atomic Scientists",
+   "published_on": "2026-09-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「matt korda」",
+   "topic": "印度核武库规模与裂变材料产能评估",
+   "claim": "印度截至2026年初已生产约730公斤武器级钚，理论上足够制造140至225枚核弹头，实际可能已组装约190枚",
+   "reasoning": "该判断基于国际裂变材料专家组（IPFM）对印度武器级钚产量的估算（730±170公斤），结合每枚弹头约需4公斤钚的技术假设。考虑到印度不太可能耗尽所有钚储备、且弹头数量受运载系统限制，研究团队通过交叉验证印度现有9种核运载系统（2种飞机、6种陆基导弹、1种海基导弹）的投送能力，推算出约160枚可部署弹头加上在产导弹储备弹头，得出190枚的保守估计值。",
+   "evidence": [
+    "Dhruva钚生产反应堆（100兆瓦）和2010年前运行的CIRUS反应堆持续为印度提供武器级钚",
+    "原型快中子增殖反应堆（PFBR）于2024年4月达到首次临界，若以80%效率运行可年产约140公斤钚-239",
+    "2025年5月印巴爆发「辛杜尔行动」（Operation Sindoor）导弹袭击冲突，触发巴基斯坦国家指挥局召集会议",
+    "2022年3月印度误射一枚布拉莫斯巡航导弹落入巴基斯坦境内124公里，巴方暂停所有军民航班近6小时",
+    "2020年6月中印边境冲突导致双方士兵死亡，2021年1月再次发生军事摩擦"
+   ],
+   "data": [
+    {
+     "metric": "武器级钚产量",
+     "value": "730 ± 170 公斤",
+     "context": "截至2026年初，国际裂变材料专家组估算"
+    },
+    {
+     "metric": "单枚弹头钚需求",
+     "value": "约4公斤",
+     "context": "技术假设值"
+    },
+    {
+     "metric": "理论弹头产能上限",
+     "value": "140至225枚",
+     "context": "基于钚储量计算"
+    },
+    {
+     "metric": "实际组装弹头估算",
+     "value": "约190枚",
+     "context": "包含可部署160+枚及在产导弹储备"
+    },
+    {
+     "metric": "PFBR年钚产能",
+     "value": "约140公斤钚-239",
+     "context": "若以80%效率运行"
+    },
+    {
+     "metric": "现役核运载系统",
+     "value": "9种",
+     "context": "2种飞机、6种陆基导弹、1种海基导弹"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未来十年内",
+   "confidence": "medium",
+   "extracted_on": "2026-09-10",
+   "_src_file": "thesis_all_2026-09-10.json"
+  },
+  {
+   "kol": "Hans M. Kristensen",
+   "theater": "军工与战略",
+   "source_url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/",
+   "source_title": "Indian nuclear weapons, 2026 - Bulletin of the Atomic Scientists",
+   "published_on": "2026-09-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 thebulletin.org",
+   "topic": "印度核武库规模与钚生产能力（2026年）",
+   "claim": "印度核弹头库存将进一步增长，当前已组装约190枚，未来快中子增殖反应堆投产后可显著增加钚供应",
+   "reasoning": "基于印度已生产约730公斤武器级钚（可制造140-225枚弹头）、当前运作9种核投送系统（可携带超160枚弹头）、以及2026年4月新投产的500兆瓦快中子增殖反应堆（PFBR）年产能可达140公斤钚（足够制造35枚弹头），且有多座后续反应堆规划中，判断库存将持续扩大。",
+   "evidence": [
+    "印度当前运作9种核投送系统：2种飞机、6种陆基弹道导弹、1种海基弹道导弹，至少还有2种系统正在研发",
+    "截至2026年初国际裂变材料小组估算印度已生产约730公斤（±170公斤）武器级钚",
+    "500兆瓦原型快中子增殖反应堆（PFBR）于2026年4月达到首次临界",
+    "印度在Kalpakkam规划建设另外两座快中子增殖反应堆（FBR-1和FBR-2），位置紧邻PFBR",
+    "2025年5月印度与巴基斯坦发生「辛杜尔行动」导弹袭击冲突，巴基斯坦召开国家指挥局会议"
+   ],
+   "data": [
+    {
+     "metric": "武器级钚产量",
+     "value": "约730公斤（±170公斤）",
+     "context": "截至2026年初，国际裂变材料小组估算"
+    },
+    {
+     "metric": "理论弹头制造数量",
+     "value": "140-225枚",
+     "context": "基于已生产钚量，假设每枚弹头需4公斤钚"
+    },
+    {
+     "metric": "已组装弹头估算",
+     "value": "约190枚",
+     "context": "包括超160枚用于现役投送系统及在产导弹配套弹头"
+    },
+    {
+     "metric": "PFBR反应堆功率",
+     "value": "500兆瓦（热功率）",
+     "context": "2026年4月达到临界"
+    },
+    {
+     "metric": "PFBR年产钚能力",
+     "value": "约140公斤钚-239",
+     "context": "假设80%运行效率"
+    },
+    {
+     "metric": "PFBR产钚可制弹头数",
+     "value": "最多35枚/年",
+     "context": "基于年产140公斤钚-239"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未来数年内（快中子增殖反应堆FBR-1和FBR-2处于预规划阶段）",
+   "confidence": "medium",
+   "extracted_on": "2026-09-10",
+   "_src_file": "thesis_all_2026-09-10.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://x.com/FRHoffmann1/status/2096866395917295680",
+   "source_title": "Fabian Hoffmann, PhD on X: \"Since early 2026, Russia has ...",
+   "published_on": "2026-09-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "俄罗斯低成本涡喷巡航导弹大规模生产及对乌克兰防空体系的威胁",
+   "claim": "俄罗斯目前每月发射数百枚低成本巡航导弹，很快可能达到数千枚，这些导弹利用了乌克兰分层防空系统中无人机拦截器和高端地空导弹都无法经济有效填补的空白",
+   "reasoning": "Fabian Hoffmann 判断基于以下逻辑：自2026年初以来俄罗斯部署了低成本涡喷动力巡航导弹家族并大幅提升产能；在某些突袭中这类导弹已占来袭弹药的半数或更多；这些导弹针对的是乌克兰现有防空体系的成本效益缺口——既不能用低成本拦截无人机应对（可能因速度或数量），也不能用昂贵的防空导弹经济地拦截。他识别出该武器库目前依赖单一供应链脆弱点，暗示这是可被针对的战略弱点。",
+   "evidence": [
+    "自2026年初以来，俄罗斯已部署一个低成本涡喷动力巡航导弹家族并大幅扩大生产规模",
+    "俄罗斯目前每月发射数百枚低成本巡航导弹，很快可能达到数千枚",
+    "在某些突袭中，这些导弹已占来袭弹药的半数或更多",
+    "这些导弹利用了乌克兰分层防空系统中拦截无人机和高端地空导弹都无法经济有效填补的空白",
+    "该新兴武器库包含六种导弹系统",
+    "该武器库目前依赖单一供应链脆弱点"
+   ],
+   "data": [
+    {
+     "metric": "月发射量",
+     "value": "数百枚，很快可能数千枚",
+     "context": "2026年当前及近期预测"
+    },
+    {
+     "metric": "突袭中占比",
+     "value": "半数或更多",
+     "context": "某些突袭中该类导弹占来袭弹药比例"
+    },
+    {
+     "metric": "导弹系统数量",
+     "value": "6种",
+     "context": "俄罗斯新兴低成本巡航导弹武器库"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "当前进行中，近期（未来数月）将达到数千枚/月",
+   "confidence": "high",
+   "extracted_on": "2026-09-11",
+   "_src_file": "thesis_all_2026-09-11.json"
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "source_url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl",
+   "source_title": "How many Russian soldiers died in the war with Ukraine",
+   "published_on": "2026-09-11",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 en.zona.media",
+   "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+   "claim": "截至2026年9月，俄军已确认死亡超过23万人，且2026年初征召的囚犯部队在前三个月内伤亡率达20%，战争性质已转变为「灰色地带」消耗战，死亡登记延迟普遍达数月。",
+   "reasoning": "Mediazona与BBC俄语部通过公开来源（社交媒体、地方媒体、遗嘱登记数据库）核实死者姓名，发现2026年确认死亡数据严重滞后的原因在于：前线变为「灰色地带」导致遗体无法及时撤离，官方死亡登记延迟加剧（例如2026年1-3月死亡者直到9月仍在持续确认中），且志愿兵和囚犯等非正规军占比上升至伤亡主体。通过追踪乌方泄露的4000名囚犯征召名单，发现其中807人（20%）在半年内阵亡，且84.5%集中在前三个月，印证了「短训后即投入突击」的高消耗战术。",
+   "evidence": [
+    "截至2026年9月11日，已核实俄军死亡名单包含23.46万人（有年龄记录者）和23.13万人（有死亡日期记录者）",
+    "2024年俄军死亡9.56万人，2025年死亡5.97万人，2026年截至更新时仅确认6600人（数据严重滞后）",
+    "乌克兰「我想活下去」项目泄露的4000名囚犯征召名单中，807人已确认死亡（占20%），其中682人（84.5%）死于2026年1-3月",
+    "2026年初阵亡的囚犯被分配至第254摩步团、第15摩步旅、第5摩步旅等多个单位，表明非单一部队损失",
+    "2022年初战争阶段空降兵和摩步部队损失最大，2023年3月起囚犯成为最大阵亡群体（因瓦格纳在巴赫穆特使用囚犯突击队），2024年9月后志愿兵重新成为最大阵亡群体",
+    "军官阵亡比例从2022年初的10%降至2024年11月的2-3%，反映志愿步兵伤亡率远高于指挥官"
+   ],
+   "data": [
+    {
+     "metric": "已核实死亡人数（有死亡日期记录）",
+     "value": "231,300人",
+     "context": "截至2026年9月11日"
+    },
+    {
+     "metric": "2024年俄军死亡人数",
+     "value": "95,600人",
+     "context": "全年"
+    },
+    {
+     "metric": "2025年俄军死亡人数",
+     "value": "59,700人",
+     "context": "全年"
+    },
+    {
+     "metric": "2026年已确认死亡人数",
+     "value": "6,600人",
+     "context": "截至更新时（数据严重滞后）"
+    },
+    {
+     "metric": "泄露囚犯名单确认死亡率",
+     "value": "807人/4,000人 = 20%",
+     "context": "2026年1-9月追踪结果"
+    },
+    {
+     "metric": "泄露囚犯名单中2026年1-3月死亡占比",
+     "value": "682人/807人 = 84.5%",
+     "context": "1月81人，2月316人，3月285人"
+    },
+    {
+     "metric": "军官阵亡总数",
+     "value": "7,656人",
+     "context": "截至2026年9月11日"
+    },
+    {
+     "metric": "将军阵亡总数",
+     "value": "15人",
+     "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年全年（数据滞后需2年后完整呈现）",
+   "confidence": "high",
+   "extracted_on": "2026-09-13",
+   "_src_file": "thesis_all_2026-09-13.json"
+  },
+  {
+   "kol": "Sushant Singh",
+   "theater": "南亚",
+   "source_url": "https://foreignpolicy.com/2026/09/10/top-signs-youre-heading-for-a-quagmire/",
+   "source_title": "Top Signs You’re Heading for a Quagmire - Foreign Policy",
+   "published_on": "2026-09-10",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 foreignpolicy.com",
+   "topic": "美国外交政策中的战略泥潭规避能力",
+   "claim": "中国在避免陷入战略泥潭方面做得远好于美国和俄罗斯，这种战略克制使中国相对于两国的全体地位显著改善",
+   "reasoning": "Sushant Singh 认为，近几十年来中国专注于国内建设实力（南海造岛、扩大外交影响、储备关键资源、控制稀土和供应链），而美国陷入伊拉克、阿富汗等「永久战争」及与伊朗的对峙，俄罗斯则深陷乌克兰等冻结冲突，两国都因无知、糟糕建议、群体迷思和过度自信而浪费资源、削弱自身。中国领导层（尤其Xi Jinping）比美国决策者更理解「避免选择性战争」这一原则，从而获得战略优势。",
+   "evidence": [
+    "后冷战时代的傲慢导致美国承担了大量全球责任，其中许多毫无意义，伊拉克和阿富汗的「永久战争」是最明显例证",
+    "美国还卷入利比亚、也门、叙利亚和非洲部分地区的次要冲突，主要作为「全球反恐战争」的一部分",
+    "美国在以巴和平斡旋上的长期、无能和徒劳努力消耗了大量总统时间和注意力并最终失败，部分原因是华盛顿不是公正调解人而是「以色列的律师」",
+    "Donald Trump 总统主动走进与伊朗的自造泥潭，几乎没有任何好处、成本日益明显且除屈辱撤退外无明显出路",
+    "自2000年以来俄罗斯与多个邻国陷入一系列冻结冲突，未能支撑Viktor Yanukovych 或Bashar al-Assad 等客户政权，现在深陷乌克兰战争这个持续溃烂的伤口",
+    "这些行动不仅让俄罗斯经济和人民付出巨大代价，还毒化了与大部分欧洲的关系并使俄罗斯日益依赖中国",
+    "相比之下，中国避开了代价高昂的泥潭，专注于国内建设实力、在南海建造岛屿、扩大海外外交存在和影响力、通过建立储备和储量来隔绝外部压力、通过控制稀土和全球供应链其他部分获得杠杆",
+    "中国相对于俄罗斯和美国的整体地位已显著改善"
+   ],
+   "data": [
+    {
+     "metric": "美国在越南驻军峰值",
+     "value": "50万人",
+     "context": "Henry Kissinger 任内"
+    },
+    {
+     "metric": "黎巴嫩恐怖袭击中美军死亡",
+     "value": "240多人",
+     "context": "Ronald Reagan 任内"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "source_url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748",
+   "source_title": "Ukraine Military History - Podcast - Apple Podcasts",
+   "published_on": "2026-09-11",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rob lee」",
+   "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+   "claim": "2026年10月至11月将成为决定冬季战局的关键窗口期，俄军可能利用大雾天气突破乌军无人机防线，克拉马托尔斯克和斯洛维扬斯克面临严重威胁",
+   "reasoning": "Rob Lee认为虽然俄军推进速度慢于去年，但正在逼近顿涅茨克州最后的重要城市。他最担心的不是武器而是天气：去年10月波克罗夫斯克因四天大雾导致无人机失效，俄军两个连突入城内无法清除。今年10月即将到来，俄军离克拉马托尔斯克和斯洛维扬斯克更近。他指出「下个月决定是否还有机会窗口」，强调天气因素可能让乌军的技术优势失效，而俄军的步兵渗透战术在城市环境中依然有效。",
+   "evidence": [
+    "2025年10月，波克罗夫斯克因四天大雾导致无人机失明，俄军两个连进入城内且无法被清除",
+    "俄军推进速度慢于去年，但正在抵达最糟糕的位置——克拉马托尔斯克和斯洛维扬斯克的接近路线",
+    "在科斯坦季尼夫卡周边，步兵需要步行15至20公里到达阵地，这是实际「杀伤区」的度量标准",
+    "在争夺城市中，俄乌两军步兵在同一栋建筑使用不同入口，双方都被命令不交火，因为双方都想让无人机完成杀伤",
+    "多布罗皮利亚出现5比1的无人机劣势，是Francis Farrell见过的最被摧毁的城市，三小时内遭受12枚滑翔炸弹",
+    "斯洛维扬斯克是2014年4月战争开始的地方，今天防守该城的一些旅指挥官当时就在那里作战"
+   ],
+   "data": [
+    {
+     "metric": "步兵徒步距离",
+     "value": "15-20公里",
+     "context": "科斯坦季尼夫卡周边，步兵到达阵地的步行距离"
+    },
+    {
+     "metric": "无人机数量对比",
+     "value": "5:1劣势",
+     "context": "多布罗皮利亚地区乌军相对俄军的无人机数量劣势"
+    },
+    {
+     "metric": "滑翔炸弹袭击",
+     "value": "12枚/3小时",
+     "context": "多布罗皮利亚遭受的轰炸强度"
+    },
+    {
+     "metric": "大雾持续时间",
+     "value": "4天",
+     "context": "2025年10月波克罗夫斯克导致无人机失效的大雾天气"
+    },
+    {
+     "metric": "俄军突入兵力",
+     "value": "2个连",
+     "context": "2025年10月利用大雾进入波克罗夫斯克的俄军规模"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年10月至11月",
+   "confidence": "high",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://kyivindependent.com/ukraines-missile-gap-kyivs-struggle-to-close-the-ballistic-divide/",
+   "source_title": "Ukraine's missile gap — Kyiv's struggle to close the ballistic divide",
+   "published_on": "2026-09-13",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "乌克兰FP-7与FP-9弹道导弹对战局影响",
+   "claim": "如果乌克兰能以每月约50枚的速度量产FP-9弹道导弹且精度足够，将显著改变战争态势，使俄军处境更加困难",
+   "reasoning": "Fabian Hoffmann认为弹道导弹能让乌克兰快速打击高价值时敏目标（如俄军弹道导弹发射器），这是乌克兰当前迫切需要但缺乏的能力。FP-9射程855公里、速度2200米/秒、载重800公斤弹头，可在数分钟内打击俄境内600-800公里纵深目标，使猎杀弹道导弹发射器或压制防空系统更加成功。若月产50枚且精度可靠，能打击高价值军事资产和大型基础设施目标，将令俄军「更加不舒服」。他强调这需要达到有意义的数量规模才能产生重大影响。",
+   "evidence": [
+    "乌克兰2023年10月用ATACMS首次打击卢甘斯克和别尔江斯克直升机前进基地，摧毁14架俄军直升机（含8架Ka-52，约占该型号总数11%）",
+    "俄罗斯当前以每月约120枚弹道导弹的速度生产，而洛克希德·马丁爱国者拦截弹月产量仅约50枚",
+    "2026年中乌克兰情报机构评估俄军仍有130枚伊斯坎德尔、400枚S-400用RM-48U、120枚锆石、50枚匕首及50枚朝鲜弹道导弹库存",
+    "Fire Point的FP-1远程无人机已成为乌克兰深度打击行动关键部分，FP-2中程无人机成为中程打击主力",
+    "2026年6月三枚Flamingo巡航导弹击中伏尔加格勒Titan-Barrikady制造厂并造成损坏",
+    "Fire Point首席设计师称FP-7成本至少比ATACMS低一倍，强调必须大规模生产「每月两三枚毫无意义，不会影响前线」"
+   ],
+   "data": [
+    {
+     "metric": "FP-7射程",
+     "value": "200公里",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-7最高速度",
+     "value": "1500米/秒",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-7弹头重量",
+     "value": "150公斤",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9射程",
+     "value": "855公里",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9最高速度",
+     "value": "2200米/秒",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9弹头重量",
+     "value": "800公斤",
+     "context": "设计指标"
+    },
+    {
+     "metric": "俄罗斯弹道导弹月产量",
+     "value": "约120枚",
+     "context": "泽连斯基2026年6月3日北约-乌克兰理事会会议"
+    },
+    {
+     "metric": "洛马爱国者拦截弹月产量",
+     "value": "约50枚",
+     "context": "当前产能"
+    },
+    {
+     "metric": "乌克兰月产FP-9目标量",
+     "value": "约50枚",
+     "context": "Hoffmann假设的有意义产能"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年底前（FP-9服役时间）及此后数月若达到月产50枚规模",
+   "confidence": "medium",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Héni Nsaibia",
+   "theater": "非洲",
+   "source_url": "https://www.riotimesonline.com/sahel-security-crisis-2026/",
+   "source_title": "Sahel security crisis spreads as JNIM hits coast",
+   "published_on": "2026-09-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「héni nsaibia」",
+   "topic": "萨赫勒地区圣战组织向几内亚湾沿岸国家扩张态势",
+   "claim": "JNIM 和 ISSP 两大圣战组织将持续向尼日尔南部边境及尼日利亚扩张，恐怖主义正在区域化",
+   "reasoning": "Héni Nsaibia 基于 ACLED 数据库的监测指出，JNIM 和 ISSP 在 2026 年 4 月首次在尼日尔和尼日利亚发生交火，标志着两组织的跨境竞争加剧。他认为这两个组织都在继续向尼日尔南部边境地区和尼日利亚扩张，突破了传统萨赫勒腹地的地理限制，使得恐怖威胁从内陆向沿海国家蔓延，形成区域化趋势。这一判断基于对武装组织活动轨迹和交火事件的持续追踪",
+   "evidence": [
+    "ACLED 专家 Héni Nsaibia 报告称 2026 年 4 月 JNIM 和 ISSP 首次在尼日尔和尼日利亚发生交火",
+    "JNIM 占领了布基纳法索东南部和尼日尔西南部大片地区后，扩张至贝宁北部、多哥以及尼日利亚西北部",
+    "ISSP 在 2026 年初开始在尼日尔西南部的 Dosso 和 Tahoua 南部宣称发动攻击",
+    "ISSP 于 2026 年 1 月和 3 月分别袭击尼亚美和 Tahoua 的军事目标",
+    "贝宁北部的袭击从 2021 年的 22 起增加到 2024 年的 176 起"
+   ],
+   "data": [
+    {
+     "metric": "贝宁北部袭击次数",
+     "value": "22 起",
+     "context": "2021 年，ACLED 数据"
+    },
+    {
+     "metric": "贝宁北部袭击次数",
+     "value": "176 起",
+     "context": "2024 年，ACLED 数据"
+    },
+    {
+     "metric": "贝宁北部死亡人数",
+     "value": "52 人",
+     "context": "2022 年，ACLED 数据"
+    },
+    {
+     "metric": "贝宁北部死亡人数",
+     "value": "131 人",
+     "context": "2024 年，ACLED 数据"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "source_url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/",
+   "source_title": "Colombia’s Total Peace: What Went Wrong and What Comes Next?",
+   "published_on": "2026-09-15",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 insightcrime.org",
+   "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+   "claim": "哥伦比亚与武装组织的谈判本身并非不可行，Gustavo Petro总统「全面和平」计划的失败不能否定谈判途径的有效性，历史上哥伦比亚曾有成功的谈判先例",
+   "reasoning": "Jeremy McDermott认为尽管Gustavo Petro任期内非法武装组织成员从1.5万增至近2.9万（几乎翻倍），但这一失败源于执行层面的错误——包括未履行2016年FARC和平协议承诺、缺乏立法框架、过早实施停火、试图同时与所有组织谈判且准备不足。他强调哥伦比亚在2000年代初与AUC准军事组织及后来与FARC的谈判都取得过成功，这些先例证明谈判路径可行。当前Abelardo de la Espriella总统的军事化政策重复了Iván Duque时期的做法，而Iván Duque任内古柯种植面积从16.9万公顷增至23万公顷、可卡因产量从1100吨升至1700吨，即便实施了史无前例的13万公顷人工根除行动也未能遏制，这表明纯军事手段历史上并不有效",
+   "evidence": [
+    "哥伦比亚在2000年代初与准军事组织AUC以及2016年与FARC的和平谈判均取得成功，这些谈判中停火是在取得实质进展后才实施的",
+    "Iván Duque总统任期（2018-2022）采取军事化政策，实施13万公顷人工根除行动，但古柯种植面积仍从16.9万公顷增至23万公顷，可卡因产量从1100吨升至1700吨",
+    "在南部厄瓜多尔边境地区，ELN的一个单位和Walter Mendoza领导的FARC持不同政见者组织主动上交武器并准备进入集中区，麦德林和布埃纳文图拉等城市的帮派谈判也使勒索大幅减少",
+    "Catatumbo地区ELN在72小时内杀害近100人、导致5万人流离失所，Gustavo Petro因此中断与ELN的谈判，成为「全面和平」的分水岭时刻",
+    "Gustavo Petro未能通过立法框架，无法为犯罪组织提供免于引渡、减刑等法律保障，也未履行2016年FARC协议中的作物替代承诺"
+   ],
+   "data": [
+    {
+     "metric": "非法武装组织成员数",
+     "value": "从1.5万增至2.9万人",
+     "context": "Gustavo Petro任期2022年8月至2026年移交权力期间"
+    },
+    {
+     "metric": "古柯种植面积",
+     "value": "从16.9万公顷增至23万公顷",
+     "context": "Iván Duque任期2018-2022年"
+    },
+    {
+     "metric": "可卡因产量",
+     "value": "从1100吨增至1700吨",
+     "context": "Iván Duque任期2018-2022年"
+    },
+    {
+     "metric": "人工根除面积",
+     "value": "13万公顷",
+     "context": "Iván Duque任期实施，为史上最大规模"
+    },
+    {
+     "metric": "Catatumbo冲突伤亡",
+     "value": "72小时内近100人死亡",
+     "context": "ELN攻击FARC持不同政见者"
+    },
+    {
+     "metric": "Catatumbo流离失所人口",
+     "value": "5万人",
+     "context": "72小时冲突期间"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-17",
+   "_src_file": "thesis_all_2026-09-17.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://www.19fortyfive.com/2026/09/ukraines-fire-point-is-building-2-ballistic-missiles-of-its-own-the-fp-7-reaches-200-kilometres-with-a-150-kilogram-warhead-the-longer-ranged-fp-9-could-strike-600-to-800-kilometres-into-russia-wi/",
+   "source_title": "Ukraine's Fire Point Is Building 2 Ballistic Missiles of Its ...",
+   "published_on": "2026-09-14",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "乌克兰国产弹道导弹对俄乌战争影响",
+   "claim": "若乌克兰能月产约50枚FP-9导弹且精度足够，将显著改变俄乌战场态势，使俄方处境更加困难",
+   "reasoning": "霍夫曼认为乌克兰国产弹道导弹的关键在于「有意义的数量」。他指出FP-9射程可达600-800公里，飞行速度比现有巡航导弹快得多，能在数分钟内打击俄罗斯纵深目标，给俄防空系统更少反应时间。若月产50枚且精度可靠，能打击高价值军事资产和大型基础设施目标，将使「猎杀弹道导弹发射器或防空压制/摧毁行动成功率大幅提升」，从而在这场消耗战中改变力量对比",
+   "evidence": [
+    "俄罗斯国防工业每月可生产约120枚弹道导弹（泽连斯基在北约-乌克兰理事会演讲中披露）",
+    "乌克兰现有导弹库存几乎完全依赖外国来源且数量远少于俄方",
+    "乌克兰最近与土耳其达成协议获得70枚ATACMS和12套M270发射系统（2.8亿美元军售协议）",
+    "FP-9导弹射程和载荷均显著大于FP-7（FP-7射程200公里载荷150公斤）",
+    "FP-9飞行速度远快于现有FP-5 Flamingo巡航导弹，使俄防空系统更难拦截"
+   ],
+   "data": [
+    {
+     "metric": "俄罗斯弹道导弹月产量",
+     "value": "约120枚",
+     "context": "泽连斯基2024年夏季北约-乌克兰理事会演讲披露"
+    },
+    {
+     "metric": "FP-7导弹射程",
+     "value": "约200公里",
+     "context": "预期性能参数"
+    },
+    {
+     "metric": "FP-7导弹载荷",
+     "value": "150公斤",
+     "context": "预期性能参数"
+    },
+    {
+     "metric": "FP-9打击纵深",
+     "value": "600-800公里",
+     "context": "霍夫曼访谈估算「数分钟内可打击」"
+    },
+    {
+     "metric": "乌克兰从土耳其获ATACMS数量",
+     "value": "70枚",
+     "context": "最近一个月军售协议"
+    },
+    {
+     "metric": "关键月产量阈值",
+     "value": "约50枚FP-9",
+     "context": "霍夫曼认为达到此产能将产生显著影响"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明具体时间，但强调「必须先达到月产50枚」这一前提条件",
+   "confidence": "medium",
+   "extracted_on": "2026-09-20",
+   "_src_file": "thesis_all_2026-09-20.json"
+  },
+  {
+   "kol": "Vipin Narang",
+   "theater": "南亚",
+   "source_url": "https://nationalinterest.org/blog/buzz/billions-dead-thats-what-could-happen-if-india-and-pakistan-wage-nuclear-war-44682",
+   "source_title": "Billions Dead: That's What Could Happen if India and Pakistan Wage...",
+   "published_on": "2026-09-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「vipin narang」",
+   "topic": "印巴核战争升级风险与印度先发制人打击能力",
+   "claim": "印度正在获取对巴基斯坦核武库实施反力量打击的能力，这些技术变化增加了核战争的可能性",
+   "reasoning": "Narang 认为印度正在发展情报监视侦察能力来追踪巴基斯坦战略力量，同时部署导弹防御系统清理漏网导弹，并获取高精度导弹（如 BrahMos、MIRV、MARV）用于反力量任务。尽管印度官方仍坚持「不首先使用核武器」原则，但在遭遇类似孟买袭击的恐怖事件后，如果巴基斯坦率先使用战术核武器，印度可能被诱导发动全面先发制人打击以防止巴基斯坦大规模核反击，从而将冲突推向核战争边缘。",
+   "evidence": [
+    "印度正在发展 ISR 能力以追踪和定位巴基斯坦战略力量",
+    "印度部署导弹防御系统，可拦截首轮打击后幸存的巴基斯坦导弹",
+    "印度获取 MIRV、MARV 和 BrahMos 导弹等高精度反力量武器",
+    "印度前国家安全顾问 Shivshankar Menon 在回忆录中写道，巴基斯坦使用战术核武器后「印度不会冒险给巴基斯坦发动大规模核打击的机会」，即「巴基斯坦战术核武器使用将有效解放印度对巴基斯坦进行全面先发制人打击」",
+    "2001 年印度议会袭击和 2008 年孟买围攻造成超过 150 人死亡，但印度因无法确定巴基斯坦核门槛位置而未武力回应",
+    "巴基斯坦采用北约冷战时期的战略，利用战术核武器抵消印度常规军事优势，并故意模糊核门槛"
+   ],
+   "data": [
+    {
+     "metric": "孟买围攻死亡人数",
+     "value": "超过 150 人",
+     "context": "2008 年事件"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-23",
+   "date_source": "page_meta",
+   "_src_file": "thesis_all_2026-09-23.json"
+  },
+  {
+   "kol": "Vipin Narang",
+   "theater": "南亚",
+   "source_url": "https://nationalinterest.org/blog/buzz/billions-could-die-if-india-pakistan-start-nuclear-war-21623",
+   "source_title": "Billions Could Die If India and Pakistan Start... - The National Interest",
+   "published_on": "2026-09-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「vipin narang」",
+   "topic": "印巴核冲突风险与印度反击力打击能力",
+   "claim": "一旦巴基斯坦率先使用战术核武器，印度将可能对巴基斯坦实施全面反击力首次打击（counterforce first strike）",
+   "reasoning": "Vipin Narang 认为印度正在获得执行反击力打击的能力（包括先进 ISR、导弹防御、高精度导弹、MIRVs 和 MARVs），这使得在巴基斯坦使用战术核武器后，印度领导人可能被诱导发动先发制人的全面核打击以摧毁巴基斯坦战略核力量，避免后者发动大规模核反击。他引用前印度国家安全顾问的回忆录强化了这一逻辑：「巴基斯坦使用战术核武器将实际上使印度得以对巴基斯坦实施全面首次打击」。",
+   "evidence": [
+    "印度正在获取信息、监视与侦察能力以追踪和瞄准巴基斯坦战略部队",
+    "印度部署导弹防御系统以拦截首次打击未摧毁的导弹",
+    "印度正在追求多种高度适合反击力任务的导弹能力，包括 MIRVs、MARVs 和与俄罗斯联合开发的高精度 BrahMos 导弹",
+    "前印度国家安全顾问 Shivshankar Menon 在回忆录中写道：「巴基斯坦使用战术核武器将实际上使印度得以对巴基斯坦实施全面首次打击」",
+    "印度的不首先使用核武器政策在巴基斯坦引入核武器后将不再适用",
+    "印度领导人将面临巨大国内压力要求回应，且无法保证巴基斯坦不会在战术核武器后对印度城市发动战略打击"
+   ],
+   "data": [
+    {
+     "metric": "2008年孟买围攻死亡人数",
+     "value": "超过150人",
+     "context": "2008年"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-23",
+   "date_source": "page_meta",
+   "_src_file": "thesis_all_2026-09-23.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://x.com/FRHoffmann1/status/2101606678022307866",
+   "source_title": "Fabian Hoffmann, PhD on X: \" With Russian ballistic missile production ...",
+   "published_on": "2026-09-20",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "俄罗斯弹道导弹生产与乌克兰拦截能力对比",
+   "claim": "乌克兰别无选择，必须在俄军弹道导弹发射前进行拦截打击",
+   "reasoning": "由于俄罗斯弹道导弹产能持续上升且远超欧洲为乌提供拦截弹的能力，乌克兰虽然对俄导弹工业实施了打击并造成损失，但俄产能仍在增长。因此乌方需要转向野战猎杀移动发射装置这一现代战争中最艰难的任务之一，尽管困难但并非不可能，成败取决于杀伤链各要素的执行效果。",
+   "evidence": [
+    "俄罗斯弹道导弹生产正在上升",
+    "俄导弹产能增速远超欧洲向乌克兰供应拦截弹的能力",
+    "乌克兰对俄弹道导弹工业的打击已造成痛苦损失",
+    "尽管遭受打击，俄导弹产出仍在持续增长",
+    "野战猎杀俄移动导弹发射装置是现代战争中最难任务之一"
+   ],
+   "data": [],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-23",
+   "_src_file": "thesis_all_2026-09-23.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/",
+   "source_title": "The US’s $1.36 trillion phantom arsenal",
+   "published_on": "2026-09-16",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国国防工业基础与军火库存问题",
+   "claim": "美国国防工业当前面临严重的产能与交付问题，大型承包商的「未交付订单」达1.36万亿美元且增长速度超过实际交付速度，行业正经历结构性转型但尚未根本解决1993年以来的整合后遗症",
+   "reasoning": "Tom Karako 指出国防承包商近期公布的大量生产协议实际上是「agreements to agree」（待定协议）而非真正合同，这类协议不要求企业承担实际交付义务或资本支出，却能产生与真实生产承诺相同的宣传效果。他认为这反映了行业存在「大量拉拉队式宣传和过早庆祝」的现象，而非实质性产能扩张。这一判断基于合同与协议的本质区别：合同规定交付日期、价格及违约责任，而待定协议几乎不产生任何约束力",
+   "evidence": [
+    "五大国防制造商的未交付订单总额约1.36万亿美元，且该数字增长速度快于实际交付速度",
+    "国防承包商近期发布的关键弹药生产协议被 Tom Karako 定性为「agreements to agree」而非正式合同",
+    "这些待定协议对企业无资本支出要求，却能产生与真实生产承诺相同的新闻效应",
+    "美军在中东使用单价百万美元、生产周期长的 Patriot PAC-3 拦截弹对抗造价约3万美元的伊朗无人机",
+    "1993年「最后的晚餐」会议后国防工业整合导致供应商大幅减少，前国防部长 Les Aspin 后来称结果「令人失望」，形成更少、更大但创新与成本控制动力不足的企业"
+   ],
+   "data": [
+    {
+     "metric": "未交付订单总额",
+     "value": "1.36万亿美元",
+     "context": "五大国防制造商当前积压"
+    },
+    {
+     "metric": "伊朗无人机造价",
+     "value": "约3万美元",
+     "context": "用于对比拦截弹成本"
+    },
+    {
+     "metric": "Patriot PAC-3 拦截弹单价",
+     "value": "百万美元级",
+     "context": "美军在中东使用"
+    },
+    {
+     "metric": "国防初创企业数量",
+     "value": "约100家",
+     "context": "2021年以来新成立"
+    },
+    {
+     "metric": "投资金额",
+     "value": "超过1300亿美元",
+     "context": "2021年以来流入国防相关企业"
+    },
+    {
+     "metric": "Space Systems Command OTA 奖项",
+     "value": "20个",
+     "context": "2025年末至2026年初发放给12家企业"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-28",
+   "_src_file": "thesis_all_2026-09-28.json"
+  },
+  {
+   "kol": "Janis Kluge",
+   "theater": "俄乌",
+   "source_url": "https://meta-defense.fr/en/2026/09/10/kremlin-goes-all-in-strikes-ukraine/",
+   "source_title": "The Kremlin goes all in on strikes against Ukraine, according to ...",
+   "published_on": "2026-09-10",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「janis kluge」",
+   "topic": "俄罗斯2026年上半年军费支出与战争可持续性",
+   "claim": "俄罗斯军费占联邦支出比例接近苏联1980年代极端水平，正在接近导致严重经济失衡的临界点",
+   "reasoning": "Janis Kluge通过分析俄罗斯财政部数据发现，2026年上半年军费占联邦支出44%，占GDP的10.5%，这一比例接近导致苏联解体的1980年代水平。同时俄罗斯油气收入大幅下降，前线未取得决定性突破，乌克兰远程打击持续削弱俄后勤基础设施，表明战争成本不断上升而胜利前景不明朗，经济失衡风险正在累积",
+   "evidence": [
+    "2026年上半年俄罗斯联邦支出的44%用于军事需求，同期油气收入大幅下降",
+    "2026年1-6月直接军费支出达10.7万亿卢布（1250亿美元），较2025年同期增长30%",
+    "保密预算项目半年内消耗8.4万亿卢布（980亿美元），而全年预算仅为11.6万亿卢布",
+    "军费占联邦支出比例从2018年的24.5%持续上升至2023年29.6%、2024年36.6%、2025年39.3%",
+    "乌克兰远程打击命中俄罗斯炼油厂、能源基础设施和后勤枢纽",
+    "乌克兰前线未出现决定性突破"
+   ],
+   "data": [
+    {
+     "metric": "军费占联邦支出比例",
+     "value": "44%",
+     "context": "2026年上半年"
+    },
+    {
+     "metric": "直接军费支出",
+     "value": "10.7万亿卢布 / 1250亿美元",
+     "context": "2026年1-6月"
+    },
+    {
+     "metric": "军费占GDP比例",
+     "value": "10.5%",
+     "context": "2026年上半年"
+    },
+    {
+     "metric": "军费占联邦总收入比例",
+     "value": "57.3%",
+     "context": "2026年上半年"
+    },
+    {
+     "metric": "军费同比增长",
+     "value": "30%",
+     "context": "2026年上半年vs2025年同期"
+    },
+    {
+     "metric": "保密预算项目支出",
+     "value": "8.4万亿卢布 / 980亿美元",
+     "context": "2026年上半年，占全年预算11.6万亿的72%"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-30",
+   "_src_file": "thesis_all_2026-09-30.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://article.wn.com/view-scrap/2026/09/25/Tom_Karako_We_have_expended_a_very_significant_percentage_of/",
+   "source_title": "Tom Karako: We have expended a very significant percentage of our ...",
+   "published_on": "2026-09-25",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国导弹库存消耗与国防生产能力",
+   "claim": "美国已经消耗了极高比例的导弹库存，需要新的资金支持以恢复产能",
+   "reasoning": "作为CSIS导弹防御项目主任，Tom Karako指出美国在近期军事行动（可能包括对台军售延迟、以色列-伊朗冲突支援等）中大量使用了导弹储备，导致库存显著下降。这种消耗速度已达到需要国会紧急拨款重建生产线的程度，否则将影响美国及盟友的军事准备状态。",
+   "evidence": [
+    "美国已消耗了极高比例的导弹库存（very significant percentage of missiles expended）",
+    "存在对台军售延迟问题（Taiwan arms delays）",
+    "国防生产需要新的资金支持（need for new funding）",
+    "讨论涉及中国因素（discusses China）",
+    "涉及导弹防御生产问题（defense production）"
+   ],
+   "data": [],
+   "direction": "降级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-30",
+   "_src_file": "thesis_all_2026-09-30.json"
+  }
+ ],
+ "stance_changes_detail": [],
+ "stance_changes_30d_detail": [
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "from": "升级",
+   "to": "僵持",
+   "cur_rows": [
+    {
+     "kol": "Jeremy McDermott",
+     "theater": "拉美",
+     "source_url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/",
+     "source_title": "Colombia’s Total Peace: What Went Wrong and What Comes Next?",
+     "published_on": "2026-09-15",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 insightcrime.org",
+     "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+     "claim": "哥伦比亚与武装组织的谈判本身并非不可行，Gustavo Petro总统「全面和平」计划的失败不能否定谈判途径的有效性，历史上哥伦比亚曾有成功的谈判先例",
+     "reasoning": "Jeremy McDermott认为尽管Gustavo Petro任期内非法武装组织成员从1.5万增至近2.9万（几乎翻倍），但这一失败源于执行层面的错误——包括未履行2016年FARC和平协议承诺、缺乏立法框架、过早实施停火、试图同时与所有组织谈判且准备不足。他强调哥伦比亚在2000年代初与AUC准军事组织及后来与FARC的谈判都取得过成功，这些先例证明谈判路径可行。当前Abelardo de la Espriella总统的军事化政策重复了Iván Duque时期的做法，而Iván Duque任内古柯种植面积从16.9万公顷增至23万公顷、可卡因产量从1100吨升至1700吨，即便实施了史无前例的13万公顷人工根除行动也未能遏制，这表明纯军事手段历史上并不有效",
+     "evidence": [
+      "哥伦比亚在2000年代初与准军事组织AUC以及2016年与FARC的和平谈判均取得成功，这些谈判中停火是在取得实质进展后才实施的",
+      "Iván Duque总统任期（2018-2022）采取军事化政策，实施13万公顷人工根除行动，但古柯种植面积仍从16.9万公顷增至23万公顷，可卡因产量从1100吨升至1700吨",
+      "在南部厄瓜多尔边境地区，ELN的一个单位和Walter Mendoza领导的FARC持不同政见者组织主动上交武器并准备进入集中区，麦德林和布埃纳文图拉等城市的帮派谈判也使勒索大幅减少",
+      "Catatumbo地区ELN在72小时内杀害近100人、导致5万人流离失所，Gustavo Petro因此中断与ELN的谈判，成为「全面和平」的分水岭时刻",
+      "Gustavo Petro未能通过立法框架，无法为犯罪组织提供免于引渡、减刑等法律保障，也未履行2016年FARC协议中的作物替代承诺"
+     ],
+     "data": [
+      {
+       "metric": "非法武装组织成员数",
+       "value": "从1.5万增至2.9万人",
+       "context": "Gustavo Petro任期2022年8月至2026年移交权力期间"
+      },
+      {
+       "metric": "古柯种植面积",
+       "value": "从16.9万公顷增至23万公顷",
+       "context": "Iván Duque任期2018-2022年"
+      },
+      {
+       "metric": "可卡因产量",
+       "value": "从1100吨增至1700吨",
+       "context": "Iván Duque任期2018-2022年"
+      },
+      {
+       "metric": "人工根除面积",
+       "value": "13万公顷",
+       "context": "Iván Duque任期实施，为史上最大规模"
+      },
+      {
+       "metric": "Catatumbo冲突伤亡",
+       "value": "72小时内近100人死亡",
+       "context": "ELN攻击FARC持不同政见者"
+      },
+      {
+       "metric": "Catatumbo流离失所人口",
+       "value": "5万人",
+       "context": "72小时冲突期间"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "medium",
+     "extracted_on": "2026-09-17",
+     "_src_file": "thesis_all_2026-09-17.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Jeremy McDermott",
+     "theater": "拉美",
+     "source_url": "https://insightcrime.org/news/the-insight-take-organized-crime-adopts-the-latest-technologies-in-the-drone-ied-arms-race/",
+     "source_title": "The InSight Take: Organized Crime Adopts the Latest ...",
+     "published_on": "2026-08-25",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 insightcrime.org",
+     "topic": "拉美有组织犯罪集团对无人机与简易爆炸装置的军事化应用",
+     "claim": "拉美各国犯罪集团正在快速且创新地将商用无人机武器化，其技术应用已从简单侦察演变为复杂的军事打击能力，政府响应速度落后于威胁扩散速度",
+     "reasoning": "Jeremy McDermott 通过历史演进论证：从 Pablo Escobar 时代雇佣 ETA 专家制造爆炸物、到 FARC 从 IRA 学习简易爆炸装置技术，再到如今 CJNG 建立专门无人机部队并使用热成像设备，显示有组织犯罪集团始终利用巨额资源投资任何能带来优势的技术。他强调现在的犯罪集团不是自制无人机，而是「拿最先进的市售无人机技术进行高效快速改装」，并指出哥伦比亚投入 17 亿美元反无人机计划反映威胁已成为「哥伦比亚战场的常规组成部分」，墨西哥-美国签署无人机技术合作协议则是政府「试图追赶威胁」的表现。",
+     "evidence": [
+      "2024年8月17日美墨签署意向声明，美国首次同意向墨西哥国防部出售专门用于打击有组织犯罪的无人机技术",
+      "墨西哥简易爆炸装置缴获量从2020年的3件激增至2022年的1300多件",
+      "哥伦比亚非法无人机攻击在一年内从38起跃升至149起",
+      "CJNG 建立专门无人机部队，在米却肯州、瓜纳华托州、奇瓦瓦州、哈利斯科州、下加利福尼亚州作战，曾用无人机配合枪火击中陆军直升机",
+      "哥伦比亚 ELN 使用配备热成像的无人机进行夜间监视",
+      "哥伦比亚启动近17亿美元「国家反无人机盾牌」计划，建立军方专门部队"
+     ],
+     "data": [
+      {
+       "metric": "墨西哥简易爆炸装置缴获量",
+       "value": "从3件增至1300+件",
+       "context": "2020年至2022年"
+      },
+      {
+       "metric": "哥伦比亚非法无人机攻击",
+       "value": "从38起增至149起",
+       "context": "单年增长（ACLED数据另提到从12起增至41起的年度）"
+      },
+      {
+       "metric": "哥伦比亚反无人机投资",
+       "value": "近17亿美元",
+       "context": "「国家反无人机盾牌」计划总预算"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    }
+   ]
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "from": "未表态",
+   "to": "升级",
+   "cur_rows": [
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-09-11",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+     "claim": "截至2026年9月，俄军已确认死亡超过23万人，且2026年初征召的囚犯部队在前三个月内伤亡率达20%，战争性质已转变为「灰色地带」消耗战，死亡登记延迟普遍达数月。",
+     "reasoning": "Mediazona与BBC俄语部通过公开来源（社交媒体、地方媒体、遗嘱登记数据库）核实死者姓名，发现2026年确认死亡数据严重滞后的原因在于：前线变为「灰色地带」导致遗体无法及时撤离，官方死亡登记延迟加剧（例如2026年1-3月死亡者直到9月仍在持续确认中），且志愿兵和囚犯等非正规军占比上升至伤亡主体。通过追踪乌方泄露的4000名囚犯征召名单，发现其中807人（20%）在半年内阵亡，且84.5%集中在前三个月，印证了「短训后即投入突击」的高消耗战术。",
+     "evidence": [
+      "截至2026年9月11日，已核实俄军死亡名单包含23.46万人（有年龄记录者）和23.13万人（有死亡日期记录者）",
+      "2024年俄军死亡9.56万人，2025年死亡5.97万人，2026年截至更新时仅确认6600人（数据严重滞后）",
+      "乌克兰「我想活下去」项目泄露的4000名囚犯征召名单中，807人已确认死亡（占20%），其中682人（84.5%）死于2026年1-3月",
+      "2026年初阵亡的囚犯被分配至第254摩步团、第15摩步旅、第5摩步旅等多个单位，表明非单一部队损失",
+      "2022年初战争阶段空降兵和摩步部队损失最大，2023年3月起囚犯成为最大阵亡群体（因瓦格纳在巴赫穆特使用囚犯突击队），2024年9月后志愿兵重新成为最大阵亡群体",
+      "军官阵亡比例从2022年初的10%降至2024年11月的2-3%，反映志愿步兵伤亡率远高于指挥官"
+     ],
+     "data": [
+      {
+       "metric": "已核实死亡人数（有死亡日期记录）",
+       "value": "231,300人",
+       "context": "截至2026年9月11日"
+      },
+      {
+       "metric": "2024年俄军死亡人数",
+       "value": "95,600人",
+       "context": "全年"
+      },
+      {
+       "metric": "2025年俄军死亡人数",
+       "value": "59,700人",
+       "context": "全年"
+      },
+      {
+       "metric": "2026年已确认死亡人数",
+       "value": "6,600人",
+       "context": "截至更新时（数据严重滞后）"
+      },
+      {
+       "metric": "泄露囚犯名单确认死亡率",
+       "value": "807人/4,000人 = 20%",
+       "context": "2026年1-9月追踪结果"
+      },
+      {
+       "metric": "泄露囚犯名单中2026年1-3月死亡占比",
+       "value": "682人/807人 = 84.5%",
+       "context": "1月81人，2月316人，3月285人"
+      },
+      {
+       "metric": "军官阵亡总数",
+       "value": "7,656人",
+       "context": "截至2026年9月11日"
+      },
+      {
+       "metric": "将军阵亡总数",
+       "value": "15人",
+       "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "2026年全年（数据滞后需2年后完整呈现）",
+     "confidence": "high",
+     "extracted_on": "2026-09-13",
+     "_src_file": "thesis_all_2026-09-13.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-28",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2022/05/20/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-28",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/08/14/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-14",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    }
+   ]
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "from": "僵持",
+   "to": "降级",
+   "cur_rows": [
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/",
+     "source_title": "The US’s $1.36 trillion phantom arsenal",
+     "published_on": "2026-09-16",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国国防工业基础与军火库存问题",
+     "claim": "美国国防工业当前面临严重的产能与交付问题，大型承包商的「未交付订单」达1.36万亿美元且增长速度超过实际交付速度，行业正经历结构性转型但尚未根本解决1993年以来的整合后遗症",
+     "reasoning": "Tom Karako 指出国防承包商近期公布的大量生产协议实际上是「agreements to agree」（待定协议）而非真正合同，这类协议不要求企业承担实际交付义务或资本支出，却能产生与真实生产承诺相同的宣传效果。他认为这反映了行业存在「大量拉拉队式宣传和过早庆祝」的现象，而非实质性产能扩张。这一判断基于合同与协议的本质区别：合同规定交付日期、价格及违约责任，而待定协议几乎不产生任何约束力",
+     "evidence": [
+      "五大国防制造商的未交付订单总额约1.36万亿美元，且该数字增长速度快于实际交付速度",
+      "国防承包商近期发布的关键弹药生产协议被 Tom Karako 定性为「agreements to agree」而非正式合同",
+      "这些待定协议对企业无资本支出要求，却能产生与真实生产承诺相同的新闻效应",
+      "美军在中东使用单价百万美元、生产周期长的 Patriot PAC-3 拦截弹对抗造价约3万美元的伊朗无人机",
+      "1993年「最后的晚餐」会议后国防工业整合导致供应商大幅减少，前国防部长 Les Aspin 后来称结果「令人失望」，形成更少、更大但创新与成本控制动力不足的企业"
+     ],
+     "data": [
+      {
+       "metric": "未交付订单总额",
+       "value": "1.36万亿美元",
+       "context": "五大国防制造商当前积压"
+      },
+      {
+       "metric": "伊朗无人机造价",
+       "value": "约3万美元",
+       "context": "用于对比拦截弹成本"
+      },
+      {
+       "metric": "Patriot PAC-3 拦截弹单价",
+       "value": "百万美元级",
+       "context": "美军在中东使用"
+      },
+      {
+       "metric": "国防初创企业数量",
+       "value": "约100家",
+       "context": "2021年以来新成立"
+      },
+      {
+       "metric": "投资金额",
+       "value": "超过1300亿美元",
+       "context": "2021年以来流入国防相关企业"
+      },
+      {
+       "metric": "Space Systems Command OTA 奖项",
+       "value": "20个",
+       "context": "2025年末至2026年初发放给12家企业"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-28",
+     "_src_file": "thesis_all_2026-09-28.json"
+    },
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://article.wn.com/view-scrap/2026/09/25/Tom_Karako_We_have_expended_a_very_significant_percentage_of/",
+     "source_title": "Tom Karako: We have expended a very significant percentage of our ...",
+     "published_on": "2026-09-25",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国导弹库存消耗与国防生产能力",
+     "claim": "美国已经消耗了极高比例的导弹库存，需要新的资金支持以恢复产能",
+     "reasoning": "作为CSIS导弹防御项目主任，Tom Karako指出美国在近期军事行动（可能包括对台军售延迟、以色列-伊朗冲突支援等）中大量使用了导弹储备，导致库存显著下降。这种消耗速度已达到需要国会紧急拨款重建生产线的程度，否则将影响美国及盟友的军事准备状态。",
+     "evidence": [
+      "美国已消耗了极高比例的导弹库存（very significant percentage of missiles expended）",
+      "存在对台军售延迟问题（Taiwan arms delays）",
+      "国防生产需要新的资金支持（need for new funding）",
+      "讨论涉及中国因素（discusses China）",
+      "涉及导弹防御生产问题（defense production）"
+     ],
+     "data": [],
+     "direction": "降级",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-30",
+     "_src_file": "thesis_all_2026-09-30.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
+     "source_title": "FP Live: Tom Karako on Why America Is Running Out of Munitions",
+     "published_on": "2026-08-27",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国导弹弹药库存耗竭对全球威慑能力的影响",
+     "claim": "美国在与伊朗的冲突中已消耗掉关键进攻与防御导弹库存的一半左右，这显著削弱了美国在印太地区威慑中国、支援乌克兰以及维持全球常规威慑的能力",
+     "reasoning": "Tom Karako 基于 CSIS 的公开来源分析和五角大楼预算申请文件，估算美国已消耗超过半数爱国者导弹库存（约 1200 枚以上）及大量战斧、THAAD、标准导弹等关键弹药。他指出美国需在欧洲、中东、印太三个战区分配库存，当前消耗速度使得「要么薄撒胡椒面式分配，要么某些地区根本没有部署」。生产周期长达 2-3 年且产能爬坡缓慢（爱国者从年产 350 枚提升至 650 枚，计划本世纪末达 2000 枚），短中期内无法弥补缺口。他明确表示这对美国的常规威慑、拒止战略和阻遏中国在太平洋地区行动构成「相当大的挫折」，并可能诱使对手利用美国远程打击与防空能力的空窗期采取行动",
+     "evidence": [
+      "美国在今年与伊朗的冲突中消耗了某些关键防御与进攻导弹库存的多达一半",
+      "根据预算申请文件推测战前爱国者导弹库存约 2500 枚，目前已消耗 1200 枚以上",
+      "美国据报从印太地区抽调大量装备和弹药用于当前冲突",
+      "去年夏季 12 天战争期间消耗了「非常显著数量」的 THAAD 库存",
+      "爱国者导弹生产周期从签约到交付约需 36 个月",
+      "当前防御系统在某些地区缺位导致导弹突防成功"
+     ],
+     "data": [
+      {
+       "metric": "战前爱国者导弹库存",
+       "value": "约 2500 枚",
+       "context": "基于公开预算申请文件的估算"
+      },
+      {
+       "metric": "已消耗爱国者导弹数量",
+       "value": "1200 枚以上",
+       "context": "CSIS 同事基于公开来源的估算"
+      },
+      {
+       "metric": "单枚爱国者导弹成本",
+       "value": "约 400 万美元",
+       "context": "具体取决于采购批次规模"
+      },
+      {
+       "metric": "爱国者导弹生产周期",
+       "value": "约 36 个月",
+       "context": "从签约到交付的时间"
+      },
+      {
+       "metric": "爱国者导弹年产能（去年）",
+       "value": "从 350 枚提升至 650 枚",
+       "context": "2024 年的产能爬坡数据"
+      },
+      {
+       "metric": "爱国者导弹年产能目标",
+       "value": "本世纪末达到至少 2000 枚/年",
+       "context": "五角大楼计划目标"
+      }
+     ],
+     "direction": "降级",
+     "horizon": "短期至中期（未来 2-3 年内）",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam",
+     "source_title": "Pentagon Demands Rapid Weapons Production Surge Amid Shortages",
+     "published_on": "2026-08-09",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美国导弹库存危机与军工产能扩张",
+     "claim": "美国防务承包商尚未签署实际合同，仅有框架协议，这是当前军备短缺的核心问题",
+     "reasoning": "Tom Karako 指出五角大楼与军工企业达成的所谓采购协议实质上只是「同意去达成协议」的框架性文件，几乎没有任何内容已转化为正式合同。他认为这种未落实的承诺状态正是导弹供应危机的根本症结，因为没有合同约束，产能扩张无法真正启动。",
+     "evidence": [
+      "五角大楼与诺斯罗普·格鲁曼、洛克希德·马丁等企业签署的是非约束性框架协议（nonbinding framework agreements）",
+      "洛马获得的 586 亿美元 PAC-3 产能合同「潜在价值」（potential contract），实际执行取决于国会拨款",
+      "国会目前有 1.15 万亿美元国防预算法案因党派对立陷入僵局",
+      "所有采购机制完全依赖国会拨款（entirely contingent on congressional appropriations）",
+      "五角大楼要求承包商先行垫资扩建设施，等待政府后续资金"
+     ],
+     "data": [
+      {
+       "metric": "爱国者拦截弹全球库存",
+       "value": "从 2200 枚降至不足 827 枚",
+       "context": "截至上周，CSIS 分析数据"
+      },
+      {
+       "metric": "THAAD 导弹库存",
+       "value": "从 452 枚降至 278 枚以下",
+       "context": "同期"
+      },
+      {
+       "metric": "战争首月消耗",
+       "value": "战斧巡航导弹超 850 枚、爱国者和 THAAD 拦截弹超 1000 枚、陆军战术弹道导弹超 1300 枚",
+       "context": "与伊朗冲突初期一个月"
+      },
+      {
+       "metric": "洛马 PAC-3 合同潜在价值",
+       "value": "586 亿美元",
+       "context": "上周签署，目标 2030 年产能翻三倍"
+      },
+      {
+       "metric": "国防预算法案金额",
+       "value": "1.15 万亿美元",
+       "context": "当前因党争搁置"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Tom Karako",
+     "theater": "军工与战略",
+     "source_url": "https://www.defenseone.com/business/2026/08/theres-no-shortcut-replenish-us-munitions-stockpiles/415558/",
+     "source_title": "There’s no shortcut to replenish US munitions stockpiles",
+     "published_on": "2026-08-21",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「tom karako」",
+     "topic": "美军弹药库存补充与低成本弹药方案的时间表",
+     "claim": "低成本弹药方案短期内（2-3年）不会对伊朗战争产生实质性影响，但若战争拖至2027-2028年可能发挥作用，真正缓解库存问题需要数年时间",
+     "reasoning": "Tom Karako 认为问题的根源在于客户（五角大楼）的采购决策，而非技术本身。PAC-3 ACE等新型低成本方案虽然技术可行，但目前仍停留在概念阶段而非正式合同。即使签订合同，从首飞（2028年初）到量产仍需18个月。同时，五角大楼因极度规避风险而不愿使用现有的14万枚JDAM等低成本弹药，反而消耗战斧导弹等远程精确武器，这种战术选择限制了低成本方案的实际应用。因此真正的瓶颈是采购意愿和战术转变，而非生产能力。",
+     "evidence": [
+      "PAC-3 ACE预计2028年初首飞，首飞后18个月才能进入量产",
+      "美军拥有14万枚JDAM却因风险规避不愿使用，反而消耗远程战斧导弹",
+      "PAC-3 ACE目前只是概念而非正式合同",
+      "框架协议不是合同，国会仍需拨款、企业需签约并交付，这些都不确定",
+      "美军在伊朗上空只能获得局部制空权而非完全制空权，限制了JDAM等重力炸弹的使用",
+      "一架F-15E在伊朗被击落，显示美军未实现「压倒性空中优势」的官方说法与现实不符"
+     ],
+     "data": [
+      {
+       "metric": "JDAM库存",
+       "value": "14万枚",
+       "context": "当前美军拥有"
+      },
+      {
+       "metric": "PAC-3 ACE首飞时间",
+       "value": "2028年初",
+       "context": "预期时间"
+      },
+      {
+       "metric": "首飞到量产周期",
+       "value": "18个月",
+       "context": "PAC-3 ACE项目"
+      },
+      {
+       "metric": "X-Bow无人机摧毁系统单价",
+       "value": "10万美元",
+       "context": "范堡罗航展公布"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "2027-2028年可能见效，全面缓解需数年",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    }
+   ]
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "from": "僵持",
+   "to": "升级",
+   "cur_rows": [
+    {
+     "kol": "Rob Lee",
+     "theater": "俄乌",
+     "source_url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748",
+     "source_title": "Ukraine Military History - Podcast - Apple Podcasts",
+     "published_on": "2026-09-11",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rob lee」",
+     "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+     "claim": "2026年10月至11月将成为决定冬季战局的关键窗口期，俄军可能利用大雾天气突破乌军无人机防线，克拉马托尔斯克和斯洛维扬斯克面临严重威胁",
+     "reasoning": "Rob Lee认为虽然俄军推进速度慢于去年，但正在逼近顿涅茨克州最后的重要城市。他最担心的不是武器而是天气：去年10月波克罗夫斯克因四天大雾导致无人机失效，俄军两个连突入城内无法清除。今年10月即将到来，俄军离克拉马托尔斯克和斯洛维扬斯克更近。他指出「下个月决定是否还有机会窗口」，强调天气因素可能让乌军的技术优势失效，而俄军的步兵渗透战术在城市环境中依然有效。",
+     "evidence": [
+      "2025年10月，波克罗夫斯克因四天大雾导致无人机失明，俄军两个连进入城内且无法被清除",
+      "俄军推进速度慢于去年，但正在抵达最糟糕的位置——克拉马托尔斯克和斯洛维扬斯克的接近路线",
+      "在科斯坦季尼夫卡周边，步兵需要步行15至20公里到达阵地，这是实际「杀伤区」的度量标准",
+      "在争夺城市中，俄乌两军步兵在同一栋建筑使用不同入口，双方都被命令不交火，因为双方都想让无人机完成杀伤",
+      "多布罗皮利亚出现5比1的无人机劣势，是Francis Farrell见过的最被摧毁的城市，三小时内遭受12枚滑翔炸弹",
+      "斯洛维扬斯克是2014年4月战争开始的地方，今天防守该城的一些旅指挥官当时就在那里作战"
+     ],
+     "data": [
+      {
+       "metric": "步兵徒步距离",
+       "value": "15-20公里",
+       "context": "科斯坦季尼夫卡周边，步兵到达阵地的步行距离"
+      },
+      {
+       "metric": "无人机数量对比",
+       "value": "5:1劣势",
+       "context": "多布罗皮利亚地区乌军相对俄军的无人机数量劣势"
+      },
+      {
+       "metric": "滑翔炸弹袭击",
+       "value": "12枚/3小时",
+       "context": "多布罗皮利亚遭受的轰炸强度"
+      },
+      {
+       "metric": "大雾持续时间",
+       "value": "4天",
+       "context": "2025年10月波克罗夫斯克导致无人机失效的大雾天气"
+      },
+      {
+       "metric": "俄军突入兵力",
+       "value": "2个连",
+       "context": "2025年10月利用大雾进入波克罗夫斯克的俄军规模"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "2026年10月至11月",
+     "confidence": "high",
+     "extracted_on": "2026-09-14",
+     "_src_file": "thesis_all_2026-09-14.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Rob Lee",
+     "theater": "俄乌",
+     "source_url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+     "source_title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
+     "published_on": "2026-09-03",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rob lee」",
+     "topic": "俄乌战争空袭升级与持久战前景",
+     "claim": "俄罗斯在承受痛苦方面的能力远超乌克兰，这决定了战争将持续下去",
+     "reasoning": "Rob Lee 认为当前俄乌双方都无法通过空袭迫使对方屈服，战争的走向取决于双方承受痛苦的能力对比。他判断俄罗斯在人口、资源和社会承受力方面具有显著优势，能够承受比乌克兰更大规模、更长时间的损失，因此乌克兰难以通过消耗战迫使俄罗斯妥协，而俄罗斯也不愿意停战。",
+     "evidence": [
+      "前线基本冻结，双方使用不断增长的导弹和无人机武器库进行报复性打击",
+      "基辅在过去几天遭受俄罗斯无人机持续轰炸，居民经历近乎持续的空袭警报",
+      "没有证据表明空袭升级会削弱任何一方继续战斗的决心",
+      "双方都在打击对方远离前线的城市目标，包括仓库、港口、粮食运输船只和能源网络",
+      "乌克兰在6月下旬开启了为期40天的对俄打击行动"
+     ],
+     "data": [
+      {
+       "metric": "对俄打击行动持续时间",
+       "value": "40天",
+       "context": "乌克兰自6月下旬开始"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-10-01",
+     "date_source": "url_path",
+     "_src_file": "thesis_all_2026-10-01.json"
+    }
+   ]
+  }
+ ]
+}
