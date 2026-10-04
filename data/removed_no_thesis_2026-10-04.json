@@ -1,0 +1,37 @@
+[
+ {
+  "kol": "Phil Gunson",
+  "theater": "拉美",
+  "title": "Opinion | I’m in Venezuela. This Is the True Cost of Trump’s Gunboat...",
+  "summary": "Trump’s show of force toward Venezuela has created a disastrous political trap — for Venezuelans most of all.By Phil Gunson. Mr. Gunson is a senior analyst for the Andes region at International Crisis Group. He wrote from Caracas, Venezuela.",
+  "quote": "",
+  "source_url": "https://www.nytimes.com/2025/11/21/opinion/venezuela-trump-maduro-machado-regime-change.html",
+  "published_on": "2025-11-21",
+  "date_status": "verified",
+  "direction": "未表态",
+  "collected_on": "2026-09-02",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 nytimes.com",
+  "date_source": "url_path",
+  "removed_reason": "无本人判断：正文是一篇关于委内瑞拉局势的评论文章，Phil Gunson 仅作为文章作者署名出现在标题中，正文内容是对当前形势的描述和分析，但并未包含该 KOL 本人明确的、可证伪的方向性判断（如局势会升级/降级、何时发生变化等具体预测），主要是对现状的观察和对美国政策意图的推测性描述。",
+  "removed_stage": "no_thesis"
+ },
+ {
+  "kol": "Matt Korda",
+  "theater": "军工与战略",
+  "title": "I. United States nuclear forces - sipri.org",
+  "summary": "I. United States nuclear forces hans m. kristensen and matt korda* As of January 2023 the United States maintained a military stockpile of approxi mately 3708 nuclear warheads, the same number as the previous year.",
+  "quote": "",
+  "source_url": "https://www.sipri.org/sites/default/files/SIPRIYB23c07sI.pdf",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-10-04",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「matt korda」",
+  "removed_reason": "无本人判断：正文为SIPRI年鉴中关于美国核力量的技术性报告，由Hans M. Kristensen和Matt Korda撰写。文中未出现名为'Matt Korda'的KOL本人发表方向性判断，该人名仅在脚注2中作为合著者被提及，且上下文是关于估算方法的学术引用，并非其个人观点表述。",
+  "removed_stage": "no_thesis"
+ }
+]

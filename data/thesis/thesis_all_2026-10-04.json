@@ -1,0 +1,95 @@
+[
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/attachments/111128_Fravel_China_Behavior_Territorial_Disputes.pdf",
+  "source_title": "fravel_csis_oct2011.revised",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fravel」",
+  "topic": "中国在南海领土争端中的行为与assertiveness比较分析",
+  "claim": "中国在2009-2011年间的南海行为比其他当前领土争端更assertive，但比1988-1994年期间的南海行为less assertive，整体未构成dramatic departure",
+  "reasoning": "Fravel通过横向比较（南海vs印度边界、东海、钓鱼岛）和纵向比较（2009-2011 vs 1988-1994）得出结论。他认为当前中国虽综合运用外交、行政执法、海军巡逻等手段consolidate claims，但未militarize争端，且未占领新岛礁、未使用武力、未授予新勘探特许权，这三点关键行为均弱于1988-1994年期间（当时占领7个珊瑚礁、1988年武力冲突致74名越南水兵死亡、授予Crestone公司大型concession）。中国策略仍是delay settlement以consolidate自身claim并deter他国，符合其历史上领土争端的general approach。",
+  "evidence": [
+   "2006年起尤其2009-2011年，中国采用外交手段challenge hydrocarbon exploration合法性、威胁外国石油公司、challenge他国maritime rights声索",
+   "民事海上执法机构增加巡逻scope和frequency，2009年大量拘留越南渔民，2011年3月、5月、6月阻挠seismic surveys",
+   "海军增加disputed waters巡逻频率和演习scope与complexity，但作用secondary非primary，用于deter而非compel",
+   "1988年中国占领7个vacant coral reefs引发其他声索国占领额外13个features，1988年3月在Johnson Reef与越南冲突致74名越南水兵死亡",
+   "中国授予美国Crestone公司南海西南部large concession，但2009年后未授予任何新concession",
+   "2002年签署declaration on conduct，2011年达成implementing guidelines和与越南的basic principles协议"
+  ],
+  "data": [
+   {
+    "metric": "越南水兵死亡人数",
+    "value": "74人",
+    "context": "1988年3月Johnson Reef冲突"
+   },
+   {
+    "metric": "中国占领珊瑚礁数量",
+    "value": "7个",
+    "context": "1988年Spratlys"
+   },
+   {
+    "metric": "其他声索国占领features数量",
+    "value": "13个",
+    "context": "1988年后因中国占领引发的race"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-04"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://taylorfravel.com/documents/research/fravel.2012.CNAS.maritime.security.SCS.pdf",
+  "source_title": "CHAPTER II: MARITIME SECURITY IN THE SOUTH CHINA SEA AND THE ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fravel」",
+  "topic": "南海海洋权利竞争与武装冲突风险评估",
+  "claim": "南海武装冲突并非不可避免，当前紧张局势尚未达到1988-1995年的不稳定水平",
+  "reasoning": "Fravel认为尽管存在持续竞争，武装冲突可避免的原因包括：各国主要竞争海洋权利而非领土主权；海洋权利竞争尚未军事化；2011年7月东盟-中国《南海各方行为宣言》指导方针协议创造了外交缓冲空间；中国虽在加强执法但避免使用海军力量这类更具挑衅性的措施；中国主要是对其他国家挑战其长期主张做出回应，而非改变主张范围和内容。",
+  "evidence": [
+   "2011年7月东盟与中国就《南海各方行为宣言》实施指导方针达成协议，创造了可利用的外交缓冲空间",
+   "自1994年占据美济礁后，中国未再占领有争议地物，最后一次占领行动是1998-1999年由马来西亚和越南完成",
+   "中国使用民事海洋执法力量而非海军力量来执行主张，避免了更具挑衅性的措施",
+   "1988年中越在南沙约翰逊礁发生重大海上冲突造成74名越南水兵死亡后，1995年中国外长钱其琛承诺按国际法解决争端，紧张局势开始缓和",
+   "2009年以来的对抗主要涉及商业行为者和中国民事海洋执法机构，军事力量和海军扮演次要角色"
+  ],
+  "data": [
+   {
+    "metric": "南沙群岛地物数量",
+    "value": "约230个",
+    "context": "主要为小岛屿、礁岩和珊瑚礁"
+   },
+   {
+    "metric": "越南占领地物数量",
+    "value": "27个",
+    "context": "所有声索国中最多"
+   },
+   {
+    "metric": "1988年冲突伤亡",
+    "value": "74名越南水兵死亡",
+    "context": "1988年3月中越在约翰逊礁冲突"
+   },
+   {
+    "metric": "中国外交抗议次数",
+    "value": "18次",
+    "context": "2006-2007年针对参与越南石油项目的外国公司"
+   },
+   {
+    "metric": "越南海洋经济占GDP比重目标",
+    "value": "从2005年48%增至2020年55%",
+    "context": "越南海洋经济发展计划"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-04"
+ }
+]
