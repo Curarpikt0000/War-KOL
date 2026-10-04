@@ -1,0 +1,346 @@
+[
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://podcasttranscript.ai/library/emil-michael-iran-anthropic-and-the-future-of-ai",
+  "source_title": "AI Podcast Transcript & Summary - Emil Michael: Iran ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部AI应用与主权控制风险",
+  "claim": "商业AI模型嵌入军事指挥系统将造成不可接受的国家安全风险，美国必须以「战时速度」重建对基础AI技术的主权控制",
+  "reasoning": "Emil Michael认为当前国防部使用的商业AI模型受制于供应商的服务条款和内部「宪法」，这些条款可能在任务执行中关闭软件，使军事指挥控制权受私营公司价值观约束而非美国法律管辖。他强调冷战后的「和平时期速度」导致国防创新放缓和工业整合，使美国对外国（特别是中国）供应链产生依赖，必须转向「战时速度」重建国内关键能力，通过多供应商合作避免单一来源风险，确保AI技术基底符合民主监督和国家安全法律。",
+  "evidence": [
+   "国防部CTO上任后将14项模糊过时的技术优先事项精简为6项，应用AI列为首位",
+   "优先发展应用AI后90天内，使用人数从8万激增至120万（总计300万人员）",
+   "审计发现商业AI模型嵌入敏感军事指挥系统，供应商条款可能在行动中关闭软件",
+   "成功军事突袭行动后引发对AI模型中途失效的担忧",
+   "AI已用于情报分析（处理数十年卫星图像）、物流优化、战争推演和辅助决策"
+  ],
+  "data": [
+   {
+    "metric": "技术优先事项数量",
+    "value": "从14项精简至6项",
+    "context": "Emil Michael上任后"
+   },
+   {
+    "metric": "AI使用人数增长",
+    "value": "从8万增至120万人",
+    "context": "优先发展应用AI后90天内"
+   },
+   {
+    "metric": "国防部总人员",
+    "value": "300万人",
+    "context": "当前规模"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Rocío San Miguel",
+  "theater": "拉美",
+  "source_url": "https://www.infobae.com/venezuela/2026/10/02/luego-de-encarcelarla-y-forzarla-al-exilio-justicia-chavista-declara-inocente-a-rocio-san-miguel/",
+  "source_title": "Luego de encarcelarla y forzarla al exilio, justicia chavista ...",
+  "published_on": "2026-10-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rocío san miguel」",
+  "topic": "委内瑞拉马杜罗政权对人权活动家的政治迫害与司法操纵",
+  "claim": "委内瑞拉查韦斯主义政权系统性利用司法系统迫害异见人士，特别是针对监督军事事务的民间组织",
+  "reasoning": "Rocío San Miguel 因创建监督委内瑞拉武装力量的公民组织 Control Ciudadano 而成为政权打击目标。她在「白手环」案中被控阴谋推翻马杜罗，但检方最终承认无法证明暗杀、恐怖主义或叛国罪名。尽管她本人获判无罪，其他被告却被判最高18年监禁，暴露出该案系「司法拼凑」——当指控无法成立时，检方在结论中重新编造罪名以维持定罪。这证明委内瑞拉司法系统已成为压制监督军方活动的工具。",
+  "evidence": [
+   "San Miguel 在 El Helicoide 监狱被关押700天，该设施被多个人权组织认定为酷刑中心",
+   "她于2024年2月9日被捕，2026年1月8日获释后被迫流亡",
+   "Control Ciudadano 成立于2005年，宗旨是「对安全、国防和国家武装力量事务进行公民监督」",
+   "2018年美洲人权法院裁定委内瑞拉政府因政治歧视在2004年非法解雇她",
+   "检方在「白手环」案中承认无法证明暗杀、恐怖主义和叛国罪名，但仍在结论中重新编造罪名",
+   "其他被告在同案中被判最高18年监禁，尽管核心指控已崩溃"
+  ],
+  "data": [
+   {
+    "metric": "关押时长",
+    "value": "700天",
+    "context": "2024年2月9日至2026年1月8日在 El Helicoide"
+   },
+   {
+    "metric": "Control Ciudadano 成立时间",
+    "value": "2005年",
+    "context": "San Miguel 创办"
+   },
+   {
+    "metric": "其他被告刑期",
+    "value": "最高18年",
+    "context": "「白手环」案判决"
+   },
+   {
+    "metric": "美洲人权法院判决年份",
+    "value": "2018年",
+    "context": "谴责委内瑞拉政府对 San Miguel 的政治歧视"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://foreignpolicy.com/2011/10/24/welcome-to-the-shadow-war/",
+  "source_title": "Welcome to the Shadow War – Foreign Policy",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「michael knights」",
+  "topic": "美军撤离后伊拉克军队的内部分裂与伊朗影响",
+  "claim": "伊拉克军队民族主义核心仍希望建立强大独立的伊拉克，但只有政治地震才能改变巴格达现状，最终伊拉克会再次平衡伊朗——这是自然秩序",
+  "reasoning": "Michael Knights 通过三周的实地观察发现，伊拉克军队内部存在民族主义老军官与亲伊朗政治任命者的深刻对立。民族主义军官虽对美国态度复杂，但认识到美伊有共同问题——遏制伊朗影响。然而当前伊拉克政治瘫痪、司法系统薄弱、什叶派民兵受政治庇护，导致军队反恐能力受限。他基于伊拉克南部（伊朗影响最深地区）的观察和与军官的多次访谈，判断军队是受伊朗影响最小的政府机构，民族主义传统仍在，但需要强人领导和政治变革才能实现独立。",
+  "evidence": [
+   "自2008年11月16日美伊安全协议批准后，美军法律和政治影响力已被阉割，只有伊拉克逮捕令具有法律效力",
+   "2010年3月选举前，去复兴党化委员会列出70多名高级军官名单，指控他们涉嫌复兴党关系",
+   "伊朗革命卫队成员在电视上反对F-16采购计划一天后，伊拉克议会即投票否决该计划",
+   "2011年6月什叶派武装组织杀死14名美军后，美军被迫恢复单边巡逻和逮捕行动",
+   "伊拉克南部所有安全事件都被归咎于基地组织，情报分析师不敢在文件中写出Kataib Hezbollah和Asaib Ahl al-Haq等真实组织名称",
+   "民族主义老军官组成紧密指挥圈，将政治任命的demaj军官排除到次要岗位并鼓励他们长期休假"
+  ],
+  "data": [
+   {
+    "metric": "美伊安全协议批准日期",
+    "value": "2008年11月16日",
+    "context": "此后美军逮捕权失效"
+   },
+   {
+    "metric": "被指控的高级军官数量",
+    "value": "70多名",
+    "context": "2010年3月选举前"
+   },
+   {
+    "metric": "美军阵亡人数",
+    "value": "14名",
+    "context": "2011年6月被什叶派武装杀害"
+   },
+   {
+    "metric": "安全部长空缺时间",
+    "value": "14个月",
+    "context": "政府无法任命全权安全部长"
+   },
+   {
+    "metric": "实地观察时长",
+    "value": "3周",
+    "context": "作者在伊拉克南部军队总部"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Jeremy McDermott",
+  "theater": "拉美",
+  "source_url": "https://hechosnews.net/las-voces/como-entender-el-crimen-organizado-en-venezuela-jeremy-mcdermott-director-de-insight-crime-da-algunas-claves/",
+  "source_title": "¿Cómo entender el crimen organizado en Venezuela? Jeremy ...",
+  "published_on": "2025-11-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeremy mcdermott」",
+  "topic": "美国在加勒比海军事部署与委内瑞拉马杜罗政权稳定性",
+  "claim": "美国在加勒比的海军部署主要目标是削弱马杜罗政权，而非单纯打击毒品走私，且马杜罗政权依赖非法经济分配维持权力",
+  "reasoning": "McDermott认为美国部署的资源更像军事行动而非传统缉毒，因为高成本军事资源不是打击毒品的最佳方式。他指出美国策略已从缉获毒品转变为炸毁船只和杀死船员，这种做法主要效果是恐吓马杜罗政权，迫使毒品路线南移，但并未中断可卡因生产和流通。他强调马杜罗因经济管理不善、国际孤立和制裁而频临破产，只能通过让将军和高官获取犯罪收入（毒品走私、黄金开采）来维持忠诚，形成「犯罪混合政权」",
+  "evidence": [
+   "自2025年8月起，美军在加勒比摧毁了15艘船只，部分据称属于阿拉瓜列车组织",
+   "美国反毒策略已从缉获毒品和逮捕人员转变为炸毁海上船只和杀死船员",
+   "委内瑞拉本国货币玻利瓦尔几乎没有价值，国家无法充分资助医疗和教育等公共服务",
+   "马杜罗政权通过让高官进入哥伦比亚边境毒品走私和玻利瓦尔州金矿等犯罪收入来源维持忠诚",
+   "阿拉瓜列车组织自2023年9月托科龙监狱被占领后已大幅削弱，现在更多是「特许经营名称」而非集中领导的组织",
+   "民族解放军（ELN）在委内瑞拉至少8个州有重要存在，是马杜罗政权的主要犯罪盟友"
+  ],
+  "data": [
+   {
+    "metric": "美军摧毁船只数量",
+    "value": "15艘",
+    "context": "2025年8月以来在加勒比海"
+   },
+   {
+    "metric": "委内瑞拉移民人数",
+    "value": "800万人",
+    "context": "马杜罗执政期间被迫离境"
+   },
+   {
+    "metric": "ELN存在范围",
+    "value": "至少8个州",
+    "context": "在委内瑞拉境内"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Matthew P. Funaiole",
+  "theater": "印太",
+  "source_url": "https://chinapower.csis.org/podcasts/chinas-shipbuilding-dominance/",
+  "source_title": "China’s Shipbuilding Dominance | ChinaPower Project",
+  "published_on": "2025-05-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 chinapower.csis.org",
+  "topic": "中美造船工业产能差距对美军战时后勤能力的影响",
+  "claim": "中美造船能力差距扩大可能影响美国在长期冲突中的作战和后勤能力",
+  "reasoning": "Matthew P. Funaiole 认为当前中国造船工业产能因大规模国家补贴而大幅增长，而美国自1960年代起产能持续落后。更令人担忧的是，欧洲、日本、韩国、台湾的外国公司向中国船厂购买商船，这实际上抵消了中国海军造船的生产成本并促进了技术转移。这种双重用途的造船产能优势，将在持久冲突中转化为美国战时补给和作战能力的劣势",
+  "evidence": [
+   "中国造船工业产能因大规模国家补贴和政府支持而大幅增长",
+   "美国自1960年代起随着日韩造船业崛起和1980年代初建造差价补贴终止，生产能力持续落后",
+   "欧洲、日本、韩国、台湾的外国公司向中国船厂购买商船",
+   "商船订单有效抵消了中国海军造船的生产成本并促进技术转移",
+   "Matthew P. Funaiole 建议改变政策方法，将国家安全和经济成果结合，专门针对具有双重用途性质的中国船厂"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "长期冲突场景下",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Clionadh Raleigh",
+  "theater": "拉美",
+  "source_url": "https://www.mixcloud.com/environmentalchangeandsecurity/episode-253-clionadh-raleigh-on-reframing-climate-security/",
+  "source_title": "Episode 253: Clionadh Raleigh on Reframing “Climate Security”",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「clionadh raleigh」",
+  "topic": "气候变化与冲突关联性",
+  "claim": "气候议题不应被框定为安全议题，因为冲突动态与气候风险之间不存在直接关联",
+  "reasoning": "Raleigh 认为冲突本质是权力竞争，其根源并非来自资源分配、人口动态等要素。她的研究表明，许多冲突动态的演变独立于气候风险，与环境问题无直接关联。因此，将气候问题安全化这一框架缺乏实证基础，可能误导政策方向。",
+  "evidence": [
+   "全球约半数人口生活在活跃或潜在冲突地区",
+   "冲突的根源无法在「grievance、资源分配、人口动态」中找到",
+   "存在与气候风险无关、独立演变的冲突动态",
+   "Raleigh 研究发现冲突动态与环境问题之间仅存在「一些间接联系」"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Siemon T. Wezeman",
+  "theater": "军工与战略",
+  "source_url": "https://www.sipri.org/yearbook/2021/09",
+  "source_title": "9. International arms transfers and developments in arms ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 sipri.org",
+  "topic": "2016-20年全球主要武器转让趋势与供应商格局",
+  "claim": "2016-20年国际主要武器转让总量维持冷战后最高水平，美国份额上升至37%，俄罗斯份额从26%降至20%",
+  "reasoning": "Wezeman基于SIPRI数据库对2016-20年五年期武器转让量的系统追踪，通过对比2011-15年基期发现：尽管总量与上一周期持平且仍低于冷战高峰35%，但供应商格局出现显著分化——美国出口增长15%巩固霸主地位（对中东出口占其总量47%），俄罗斯出口下降22%份额缩水6个百分点，法德分别增长44%和21%填补空缺。他认为Covid-19疫情对2020年交付和新订单影响甚微，表明军贸具备抗周期韧性。",
+  "evidence": [
+   "2016-20年五年期武器转让总量与2011-15年几乎持平，维持冷战结束以来最高水平",
+   "美国、俄罗斯、法国、德国、中国五大供应商占全球出口总量76%",
+   "美国对中东地区武器出口占其总出口的47%",
+   "前25大武器供应国占全球出口的99%，北美和欧洲（含俄罗斯）合计占86%",
+   "中东地区武器进口量在2011-15至2016-20年间增长25%，欧洲增长12%",
+   "2019年全球军火贸易总值至少1180亿美元"
+  ],
+  "data": [
+   {
+    "metric": "美国武器出口占全球份额",
+    "value": "37%",
+    "context": "2016-20年"
+   },
+   {
+    "metric": "美国武器出口增幅",
+    "value": "+15%",
+    "context": "2016-20年相比2011-15年"
+   },
+   {
+    "metric": "俄罗斯武器出口份额",
+    "value": "20%",
+    "context": "2016-20年，从2011-15年的26%下降"
+   },
+   {
+    "metric": "俄罗斯武器出口降幅",
+    "value": "-22%",
+    "context": "2016-20年相比2011-15年"
+   },
+   {
+    "metric": "法国武器出口增幅",
+    "value": "+44%",
+    "context": "2016-20年相比2011-15年"
+   },
+   {
+    "metric": "德国武器出口增幅",
+    "value": "+21%",
+    "context": "2016-20年相比2011-15年"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://fas.org/wp-content/uploads/2023/11/Nuclear-weapons-sharing-2023.pdf",
+  "source_title": "Nuclear weapons sharing, 2023 - Federation of American Scientists",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 fas.org",
+  "topic": "北约核共享安排与美国B61-12核弹头在欧洲部署",
+  "claim": "未来几年内参与核相关安排的国家数量将增加，包括瑞典、芬兰加入北约核计划小组，波兰和韩国也在寻求参与美国核任务的角色",
+  "reasoning": "基于北约成员国的扩展动态和地缘政治变化，作者判断核共享机制的参与范围正在扩大。瑞典和芬兰作为新加入北约的成员国将加入核计划小组并可能参与年度核打击演习，同时波兰和韩国等国家已明确表达参与意愿，这些因素共同支撑了核共享安排参与国增加的趋势判断",
+  "evidence": [
+   "2022年瑞典和芬兰成为北约新成员国，将加入联盟核计划小组（Nuclear Planning Group）",
+   "瑞典和芬兰可能决定参与北约年度核打击演习（annual nuclear strike exercise）",
+   "波兰和韩国已倡导在美国核任务中发挥作用",
+   "俄罗斯在2022年入侵乌克兰后声称向白俄罗斯转移核能力运载系统并在白俄罗斯领土部署俄罗斯核武器",
+   "美国正在现代化其在欧洲核共享任务的基础设施，准备在欧洲空军基地部署新型B61-12重力炸弹"
+  ],
+  "data": [
+   {
+    "metric": "全球核弹头总数",
+    "value": "12512枚",
+    "context": "2023年全球估算"
+   },
+   {
+    "metric": "美国在欧洲部署的核武器数量",
+    "value": "约100枚",
+    "context": "当前部署在6个基地"
+   },
+   {
+    "metric": "美国在欧洲核武器峰值数量",
+    "value": "超过7000枚",
+    "context": "1971年峰值"
+   },
+   {
+    "metric": "核武器数量（1991-1992撤出后）",
+    "value": "700枚核重力炸弹",
+    "context": "撤出地面发射和海军战术核武器后"
+   },
+   {
+    "metric": "2000年欧洲核武器数量",
+    "value": "480枚",
+    "context": "2000年"
+   },
+   {
+    "metric": "2007年欧洲核武器数量",
+    "value": "约180枚",
+    "context": "2007年左右"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来几年（the coming years）",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ }
+]
