@@ -342,5 +342,482 @@
   "horizon": "未来几年（the coming years）",
   "confidence": "high",
   "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.video-translations.org/transcripts/5619_Diesen_2026_08_02.pdf",
+  "source_title": "Jennifer Kavanagh: A Historic Shift in Asia & Ukraine Is Defeated",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美国在东亚地位削弱与地区安全架构转型",
+  "claim": "美国在东亚的军事存在正在减弱，地区盟友将被迫建立不依赖美国的防务合作网络，但短期内缺乏对华外交对话将带来不稳定风险",
+  "reasoning": "Jennifer Kavanagh 认为特朗普政府虽声称聚焦中国竞争，但实际卷入中东战争导致军力分散，从韩国撤出 THAAD、减少印太演习等行动暴露美军实力下降。在导弹弹药库存因伊朗战争耗尽的情况下，美国无力与中国开战，只能对中国灰色地带施压采取更包容态度。日韩澳等盟友因担忧美国抛弃而加强军备并相互结盟，但若仅靠军事集团对抗中国而不建立包容性外交架构（如东南亚模式），将重蹈欧洲和中东的冲突覆辙，造成误判和意外升级风险",
+  "evidence": [
+   "特朗普政府卷入中东战争，THAAD 撤离韩国，印太司令部削减演习",
+   "美国导弹弹药库存因伊朗战争严重耗尽，无法同时应对对华战争",
+   "日本、澳大利亚、韩国因担忧美国抛弃而加强防务合作网络建设",
+   "中国在美国分心时于灰色地带加大施压，常态化新的军事巡逻活动",
+   "中日关系因美国后撤、历史恩怨和相互军事化认知而恶化",
+   "越南与中国、东盟模式展示了强军备与大国和平共处的可行性"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "短期内（near term）",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Michael Knights",
+  "theater": "中东",
+  "source_url": "https://www.washingtoninstitute.org/sites/default/files/pdf/PolicyFocus127_MKnights.pdf",
+  "source_title": "RISING TO IRAN’S CHALLENGE - washingtoninstitute.org",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 washingtoninstitute.org",
+  "topic": "海湾合作委员会军事能力建设与美国安全合作战略",
+  "claim": "海湾合作委员会国家正在成为日益有能力的美国军事伙伴，通过发展利基军事能力并在美国支持下积极遏制伊朗扩张主义，可以成本有效地维护地区稳定",
+  "reasoning": "Michael Knights 认为海湾国家军事力量正在经历转型升级，在防务投入、军事机构成熟度和技术应用方面进步显著。他强调通过「SWOT 分析」将海湾国家与美国欧洲及亚洲盟友比较（而非与美军直接对比），发现其在军事负担分摊指标上表现良好。关键判断基于：海湾国家已从「避免冲突」转向「主动威慑伊朗」；新技术放大了其优势并弱化了传统弱点；维持美国安全合作是保持这些国家决心的最具成本效益方式。他主张聚焦三大防御任务（内部安全、导弹防御、海域防卫）发展互补能力，同时通过多样化合作伙伴降低对单一盟友的依赖",
+  "evidence": [
+   "过去十年海湾阿拉伯领导人和军官已将重心从避免冲突转向威慑伊朗扩张主义，并在必要时与国际盟友积极防御地区",
+   "海湾国家正在投资远程空射巡航导弹等进攻性武器系统，这些导弹能够打击德黑兰及更近的战略目标，并考虑采购攻击潜艇",
+   "海湾国家在内部安全任务（反恐、边境安全、工业安全）方面高度熟练，正在提供更多昂贵的导弹和雷达系统来保护地区",
+   "美国持续参与外国军售、外国军事融资、超额防务物资和国际军事教育培训等项目，对海湾国家维护保养、备件和武器储备等可持续性问题提供建议",
+   "美国已与海湾国家开展海军作战协调演习，并运行类似 OPM-SANG 现代化计划的大规模海军训练项目"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未来十年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Seth G. Jones",
+  "theater": "军工与战略",
+  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2026-07/260701_Jones_Russian_Blood.pdf",
+  "source_title": "Russian Blood and Treasure",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 csis-website-prod.s3.amazonaws.com",
+  "topic": "俄罗斯在乌克兰战场的军事表现与代价",
+  "claim": "俄罗斯在乌克兰已失去军事主动权，战场成本持续攀升，2026年春季首次出现月度净领土损失",
+  "reasoning": "Seth G. Jones通过对俄军伤亡率、推进速度和领土控制三个核心指标的量化分析得出判断。他指出俄军月度伤亡（3万-3.4万）已超过征兵率（约2.7万），俄乌伤亡比从2-3:1恶化至近8:1，推进速度降至每日50-90米（百年来最慢），且2026年4-5月净损失约400平方公里领土——这是2024年8月以来首次月度净损失。乌克兰AI赋能的无人机和远程打击体系对俄军后勤、能源设施形成有效遏制",
+  "evidence": [
+   "俄军2022年2月至2026年6月伤亡约140万人，死亡40-45万人，超过二战后美军所有战争死亡总数的4倍",
+   "2026年俄军月度伤亡3万-3.4万人，超过每月约2.7万的新兵征募率",
+   "俄军在Kostiantynivka每日推进约50米，Pokrovsk约70米，Sloviansk约90米",
+   "2026年4月和5月俄军净损失约400平方公里领土，为2024年8月以来首次月度净损失",
+   "乌克兰使用成本6000美元、射程150公里的AI自主攻击无人机Hornet实施空中遮断战役",
+   "CSIS分析显示乌克兰打击了俄罗斯超过2万个目标，包括能源基础设施、军工生产设施和后勤节点"
+  ],
+  "data": [
+   {
+    "metric": "俄军战场伤亡",
+    "value": "约140万人",
+    "context": "2022年2月至2026年6月"
+   },
+   {
+    "metric": "俄军战场死亡",
+    "value": "40-45万人",
+    "context": "2022年2月至2026年6月"
+   },
+   {
+    "metric": "俄军月度伤亡率",
+    "value": "3万-3.4万人/月",
+    "context": "2026年"
+   },
+   {
+    "metric": "俄军月度征兵率",
+    "value": "约2.7万人/月",
+    "context": "2026年"
+   },
+   {
+    "metric": "俄乌伤亡比",
+    "value": "近8:1",
+    "context": "2026年上半年，早期为2-3:1"
+   },
+   {
+    "metric": "俄军推进速度",
+    "value": "50-90米/日",
+    "context": "2026年，Kostiantynivka/Pokrovsk/Sloviansk战线"
+   },
+   {
+    "metric": "俄军净领土损失",
+    "value": "约400平方公里",
+    "context": "2026年4-5月"
+   },
+   {
+    "metric": "乌军打击目标数",
+    "value": "超过2万个",
+    "context": "CSIS统计"
+   },
+   {
+    "metric": "Hornet无人机成本",
+    "value": "约6000美元",
+    "context": "射程达150公里"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2026年上半年",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Dara Massicot",
+  "theater": "俄乌",
+  "source_url": "https://assets.carnegieendowment.org/static/files/Massicot-Reconstitution-final_10-1.pdf",
+  "source_title": "Russian Military Reconstitution: 2030 Pathways and Prospects",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 assets.carnegieendowment.org",
+  "topic": "俄罗斯军队2030年重建能力与路径",
+  "claim": "俄罗斯军队到2030年能否完成重建扩军取决于克里姆林宫是否愿意启动更深层动员机制，目前的重建努力已经触及产能天花板，若不采取额外动员措施将面临关键装备库存在2026年左右耗尽的风险",
+  "reasoning": "Dara Massicot 判断俄军重建面临三重约束：其一，截至2024年初装备生产已达产能平台期，除无人机外其他装备产能无法显著提升；其二，若维持2024年初的损失率，某些类型装备的苏联时代库存可能在2026年耗尽；其三，扩大生产需要新建工厂或改造民用工厂，但这与战时生产需求不兼容且需启动更广泛动员权力。因此重建速度取决于克里姆林宫是否愿意承担动员对经济、劳动力市场和社会稳定的冲击，迄今政治意愿构成了主要制约。如果选择快速重建扩军路径，必须突破当前自我设限；如果优先国内稳定，只能接受风险并依赖翻新苏联旧装备缓慢扩产至2030年代初。",
+  "evidence": [
+   "截至2024年初，俄罗斯已损失超过15000件装备和超过35万人员伤亡（含伤亡）",
+   "除无人机生产外，装备生产能力在2024年初已经达到平台期",
+   "俄罗斯防务工厂空间需同时满足新装备生产、维修翻新和出口三重需求，难以在不做取舍的情况下扩大国内新装备产能",
+   "俄罗斯通过部分动员、翻新现有装备、从国外采购弹药武器、为志愿兵提供丰厚经济激励以及最大化现有防务工厂产能来重建军队，但未将经济完全转入战时状态",
+   "如果2024年初的损失率持续，俄罗斯某些类型装备的苏联时代库存可能在2026年耗尽",
+   "扩大防务工业产出需要扩大权力将民用工厂转换为战时生产工厂，这将是俄罗斯动员扩大的标志"
+  ],
+  "data": [
+   {
+    "metric": "装备损失",
+    "value": "超过15000件",
+    "context": "2022年全面入侵至2024年初"
+   },
+   {
+    "metric": "人员伤亡",
+    "value": "超过35万人",
+    "context": "2022年全面入侵至2024年初，含伤亡"
+   },
+   {
+    "metric": "军队规模上限",
+    "value": "130万人",
+    "context": "2024年当前水平"
+   },
+   {
+    "metric": "军队规模扩张目标",
+    "value": "最高150万人",
+    "context": "部分官员要求"
+   },
+   {
+    "metric": "库存耗尽时间",
+    "value": "可能2026年",
+    "context": "某些类型装备的苏联时代库存，按2024年初损失率推算"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2030年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Uzi Rubin",
+  "theater": "中东",
+  "source_url": "https://besacenter.org/wp-content/uploads/2015/02/111eng_web1.pdf",
+  "source_title": "Israel’s Air and Missile Defense During the 2014 Gaza War",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 besacenter.org",
+  "topic": "2014年加沙战争中以色列防空与导弹防御系统效能",
+  "claim": "铁穹系统在2014年加沙战争中对其防御区域内威胁目标实现了90%的拦截成功率，并且该系统与爱国者防空系统共同为以色列本土防御提供了决定性保护",
+  "reasoning": "Uzi Rubin的判断基于作战实战数据对比分析：通过将2014年加沙战争的伤亡损失数据与2006年黎巴嫩战争（当时无主动防御系统）的数据进行对比，证明主动防御系统显著降低了火箭弹造成的人员伤亡和财产损失。他强调铁穹系统不仅提供了技术拦截能力，更重要的是增强了公众信心，使以色列民众能够在火箭威胁下维持日常生活，保障了国际航空海运通道安全，从而支撑了本土民众韧性这一战争关键要素。他明确驳斥了美国和以色列国内对铁穹效能的质疑，认为低伤亡率主要归功于主动防御而非仅靠预警和掩体系统。",
+  "evidence": [
+   "部署的9个铁穹电池对瞄准其防御区域的火箭弹实现了十分之九的击落率",
+   "爱国者电池击落了巴勒斯坦武装无人机并完全阻止了其空中攻势",
+   "2014年加沙战争的伤亡和损失显著低于之前的火箭攻击",
+   "与2006年黎巴嫩战争（当时不存在主动防御系统）的损失对比，驳斥了批评者的指控",
+   "主动防御系统保障了以色列国际航空和海上港口的安全",
+   "以色列本土防御指挥部部署了由铁穹火箭防御系统和爱国者防空系统组成的高效主动防御阵列"
+  ],
+  "data": [
+   {
+    "metric": "铁穹拦截成功率",
+    "value": "9/10（90%）",
+    "context": "2014年加沙战争期间，针对防御区域内的威胁火箭"
+   },
+   {
+    "metric": "部署铁穹电池数量",
+    "value": "9个",
+    "context": "2014年加沙战争期间保护以色列平民区域"
+   },
+   {
+    "metric": "巴勒斯坦火箭弹库存",
+    "value": "超过10000枚",
+    "context": "战前巴勒斯坦派别在加沙积累"
+   },
+   {
+    "metric": "发射火箭弹和迫击炮弹总数",
+    "value": "超过4500枚",
+    "context": "作战期间从加沙发射"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Aaron Y. Zelin",
+  "theater": "中东",
+  "source_url": "https://www.washingtoninstitute.org/pdf/view/19760/en",
+  "source_title": "Syria Is Feeling the Fallout from the Iran Crisis | The ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 washingtoninstitute.org",
+  "topic": "叙利亚在美以-伊朗战争中的战略定位与面临的溢出风险",
+  "claim": "叙利亚新政府虽成功避免卷入美以-伊朗战争，但战争溢出效应（能源中断、经济项目搁置、边境渗透威胁）正在侵蚀其后阿萨德时代的稳定基础，需要美国加强协调以巩固这一「外交亮点」",
+  "reasoning": "Aaron Y. Zelin 认为阿萨德政权倒台使叙利亚不再是伊朗「陆桥」的一环，客观上减轻了美以军事压力（无代理人火箭发射、以色列获得空域优势），但战争仍通过三条路径冲击叙利亚：一是以色列暂停天然气出口导致电力恢复进程逆转；二是海湾国家可能因本国战后重建而削减对叙 600 亿美元重建承诺；三是伊朗及其代理人通过虚假组织（如「Hayat Ansar al-Tawhid al-Islamiyah」）和渗透行动试图将叙利亚拖入冲突。他强调叙利亚与以色列在黎巴嫩边境安全上存在「共同利益」，华盛顿应利用这一窗口期推动技术援助（预警系统、反虚假信息）、跨境协调打击伊拉克「人民动员」武装渗透，以及规划地中海替代贸易路线，从而在战争降温后为以叙边境安全协议奠定基础",
+  "evidence": [
+   "以色列于 2 月 28 日援引不可抗力条款无限期暂停向埃及和约旦出口天然气，导致埃及切断经约旦向叙利亚的转口供应",
+   "叙利亚去年与沙特等国签署的超过 600 亿美元多领域谅解备忘录可能因海湾国家优先本国战后重建而面临削减",
+   "伊朗及代理人网络炮制虚假组织「Hayat Ansar al-Tawhid al-Islamiyah」声称从戈兰高地向以色列发射火箭、「Ajnad Bayt al-Maqdis」声称袭击叙东北部 al-Shadadi 美军基地（实际美军早已撤离）",
+   "叙利亚国防部近期向黎巴嫩和伊拉克边境增派部队，防范真主党和伊拉克「人民动员」武装渗透；内政部在霍姆斯和代尔祖尔省边境地区破获武器走私",
+   "叙利亚总统 Ahmed al-Sharaa 在与黎巴嫩总统 Joseph Aoun 等地区领导人会晤中公开支持贝鲁特解除真主党武装的努力",
+   "Ahmed al-Sharaa 提议建立海湾与黎凡特国家联合军事行动室，既团结阿拉伯力量对抗伊朗，也防止以色列在德黑兰被永久削弱后对地区「强加意志」"
+  ],
+  "data": [
+   {
+    "metric": "叙利亚与海湾国家签署的重建项目谅解备忘录总额",
+    "value": "超过 600 亿美元",
+    "context": "去年（2025年）签署，涵盖多个部门"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "战后中期（未指明具体年份，涉及「中长期项目」与「战争降温后」的以叙外交）",
+  "confidence": "medium",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Andrew S. Erickson",
+  "theater": "印太",
+  "source_url": "https://www.uscc.gov/sites/default/files/2026-03/Andrew_Erickson_Statement_for_the_Record.pdf",
+  "source_title": "Andrew S. Erickson Statement for the Record - uscc.gov",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「andrew s. erickson」",
+  "topic": "中美印太海域水下战力对比及未来5年趋势",
+  "claim": "未来5年内中国海军在水下作战领域将显著提升，美国水下优势正在受到侵蚀，但美军在潜艇隐身、作战经验和全球水下监视网络方面仍保持重大优势",
+  "reasoning": "Erickson 基于中国在造船产能、核潜艇建造、海底传感器网络、无人水下平台等多维度的持续投资和快速进步，认为 PLAN 正在稳步缩小与美军的差距。他特别强调习近平作为「二战后最大海军主义国家元首」对核潜艇等力量发展的直接推动，以及中国通过军民融合、俄罗斯技术转让获得的技术突破。但他同时判断美军在关键技术领域（隐身性能、全球监视网络、盟友合作）的优势仍需数年才能被追平，因此未来5年呈现「美国优势缩窄但未逆转」的态势",
+  "evidence": [
+   "中国已部署巨浪-3 潜射弹道导弹于晋级核潜艇，射程约10,000公里，可从适当巡逻区域打击美国本土大部分地区",
+   "中国已在葫芦岛渤海造船厂大幅扩建基础设施，展示出增强的潜艇建造产能",
+   "PLAN 现运营世界最大的 AIP（不依赖空气推进）潜艇舰队，新型039C 型元级潜艇配备拖曳阵列声呐",
+   "中国通过与俄罗斯合作获得核推进和降噪关键技术，正在改善长期薄弱的推进系统和静音性能",
+   "中国正在第一岛链内部署分层探测架构，包括海床传感器、无人水下系统、海洋监视船和海上巡逻机的系统集成",
+   "习近平亲自影响 PLAN 力量结构决策，包括优先发展核动力弹道导弹潜艇"
+  ],
+  "data": [
+   {
+    "metric": "PLAN 战斗舰艇数量",
+    "value": "超过400艘",
+    "context": "当前"
+   },
+   {
+    "metric": "PLAN 潜艇数量",
+    "value": "超过60艘",
+    "context": "当前"
+   },
+   {
+    "metric": "中国核弹头数量",
+    "value": "超过600枚",
+    "context": "当前已部署"
+   },
+   {
+    "metric": "巨浪-3 导弹射程",
+    "value": "约10,000公里",
+    "context": "五角大楼2025中国军力报告评估"
+   },
+   {
+    "metric": "全球数据流通过海底电缆比例",
+    "value": "97%以上",
+    "context": "当前"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来5年",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://worldpeacefoundation.org/wp-content/uploads/2024/05/Thomas-and-de-Waal-Hunger-in-Sudans-Political-Marketplace-1.pdf",
+  "source_title": "Hunger in Sudan’s Political Marketplace",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 worldpeacefoundation.org",
+  "topic": "苏丹政治市场体系下的饥荒与权力交易机制",
+  "claim": "苏丹的政治市场体系（政治忠诚按供需规律交易）导致统治者将政治预算优先用于收买精英忠诚，系统性地将粮食安全边缘化，使大规模贫困化成为政治理性选择",
+  "reasoning": "de Waal 通过「政治市场框架」分析指出，在苏丹这种交易型政治体系中，权力精英的首要任务是获取政治资金和维系忠诚网络，其次才是应对关键选民诉求，粮食政策等公共物品被排在最末。2011年南苏丹独立导致石油收入骤减后，al-Bashir政府未能平衡政治预算与粮食安全，饥荒重新成为政治工具。2019-2021年Hamdok文官政府试图打破这一逻辑，但因无力控制军方的政治资金而失败，2021年10月政变恢复了旧优先级体系，加上国际援助中断和俄乌战争引发的粮价冲击，苏丹正滑向饥荒边缘",
+  "evidence": [
+   "2011年苏丹失去南部省份和石油储备后，经济遭受创伤性调整，饥荒再次获得政治功能",
+   "Hamdok政府在2019-2021年的26个月执政期间，既无物质手段也无协调的政治策略来替代政治市场逻辑",
+   "2021年10月政变重建了al-Bashir的旧优先级体系及其制造饥荒的政治经济结构",
+   "国际关键援助项目暂停，叠加俄罗斯入侵乌克兰引发的严重粮价冲击，正将苏丹推向饥荒边缘",
+   "2021年5月安全部队用催泪瓦斯和枪杀镇压生活成本抗议，Hamdok称之为「针对和平抗议者的罪行」但其内阁已陷入政治市场逻辑陷阱",
+   "Hamdok第二届内阁通过削减粮食和燃料补贴、货币贬值来吸引国际援助，但国际资金未充分到位，通胀飙升，改革成本主要由穷人承担"
+  ],
+  "data": [
+   {
+    "metric": "小麦进口依赖度",
+    "value": "80%",
+    "context": "来自俄罗斯和乌克兰"
+   },
+   {
+    "metric": "危机级食物不安全人口比例",
+    "value": "16%",
+    "context": "2021年5月"
+   },
+   {
+    "metric": "压力级食物不安全人口比例",
+    "value": "32%",
+    "context": "2021年5月"
+   },
+   {
+    "metric": "预测危机级人口比例",
+    "value": "21%",
+    "context": "11月主要收获季前的青黄不接月份"
+   },
+   {
+    "metric": "预测压力级人口比例",
+    "value": "36%",
+    "context": "11月主要收获季前的青黄不接月份"
+   },
+   {
+    "metric": "Hamdok过渡政府执政时长",
+    "value": "26个月",
+    "context": "2019-2021年"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明（但暗示2021年10月政变后至2022年4月论文发表期间持续恶化）",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Alex de Waal",
+  "theater": "非洲",
+  "source_url": "https://journals.tufts.edu/index.php/hemispheres/article/download/18/9/19",
+  "source_title": "Conict, Humanitarianism, and Global Rivalry: An Interview ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex de waal」",
+  "topic": "苏丹与南苏丹冲突及东北非地区和平前景",
+  "claim": "苏丹与南苏丹的内战是可预见且不可避免的，根源在于经济危机和多元化治理失败，区域整体已陷入「全面燃烧」状态并持续恶化",
+  "reasoning": "Alex de Waal 认为，2011年南北苏丹独立谈判时未能解决经济可行性问题（石油财富分配、债务分摊）导致经济危机，直接引发2013年南苏丹内战；2013-2018年和平协议建立在虚假的资源充裕前提上，注定失败；北苏丹2019年民主革命后遭遇同样经济困境，重演南苏丹轨迹导致2023年内战。同时，埃塞俄比亚从「稳定锚」沦为「不稳定源」，非盟与联合国多边和平架构在特朗普第一任期崩溃，失去国际支持，最终导致整个东北非（苏丹、南苏丹、埃塞俄比亚、索马里）同时陷入冲突。",
+  "evidence": [
+   "2009年非盟达尔富尔高级别小组成立，Mbeki主导深入社区调研但美国与联合国未采纳优先事项建议",
+   "2011年独立谈判时高级别实施小组提出「经济可行性与多元化治理」双重定义，但双方未达成石油财富与债务分配协议，南苏丹关闭石油导致双方经济危机",
+   "2013-2018年和平协议采用标准模板但缺乏资源支撑，2019年喀土穆宣言与朱巴协议存在根本性缺陷，仅「推迟问题」而非真正和平",
+   "埃塞俄比亚在2020年总理Abiy Ahmed领导下发动多场战争（包括针对提格雷的种族灭绝性攻击与饥饿武器化），从稳定锚变为不稳定源",
+   "索马里联邦体系解体，al-Shabaab在首都摩加迪沙发动袭击，可能接管城市",
+   "阿拉伯国家（埃及、沙特、阿联酋、卡塔尔、土耳其）将整个地区纳入其安全范围并积极介入"
+  ],
+  "data": [
+   {
+    "metric": "非盟高级别小组社区调研时长",
+    "value": "40天",
+    "context": "2009年在达尔富尔政府控制区、叛军区、流离失所者营地举行市政厅会议"
+   },
+   {
+    "metric": "《全面和平协议》签署年份",
+    "value": "2005年",
+    "context": "高级别小组2009年任务是实施该协议但协议未包含南苏丹分离后条款"
+   },
+   {
+    "metric": "南苏丹独立年份",
+    "value": "2011年",
+    "context": "独立后立即引发经济与政治危机"
+   },
+   {
+    "metric": "南苏丹内战时段",
+    "value": "2013-2018年",
+    "context": "经济危机导致，以《振兴和平协议》结束"
+   },
+   {
+    "metric": "苏丹民主革命年份",
+    "value": "2019年",
+    "context": "非暴力公民革命后民主政府面临无法克服的经济危机"
+   },
+   {
+    "metric": "北苏丹内战爆发年份",
+    "value": "2023年",
+    "context": "遵循与南苏丹相同的危机轨迹"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://www.wagingpeace.org/wp-content/uploads/2016/11/hans_kristensen.pdf",
+  "source_title": "The State of Nuclear Dangers: Nuclear Reducons, Modernizaons ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「hans m. kristensen」",
+  "topic": "全球核武库削减趋势与现代化进程",
+  "claim": "美俄核裁军步伐正在放缓并趋于停滞，双方库存量将在当前水平长期维持，重心已转向现代化而非继续削减",
+  "reasoning": "Hans M. Kristensen通过对比历史数据指出，美国2010-2014年仅削减400枚弹头（而2005-2009年削减3500枚），俄罗斯同期削减1100枚（而前五年削减2600枚），削减速度显著下降。他认为双方没有延续或加快削减进程，反而将核武库稳定在当前规模并强调现代化计划，若无新军控倡议介入，裁军进程将彻底停滞。",
+  "evidence": [
+   "美国核武库在2010-2014年仅削减400枚弹头，而2005-2009年削减了3500枚",
+   "俄罗斯在2010-2014年削减约1100枚弹头，而2005-2009年削减2600枚",
+   "美俄双方目前各拥有全球核武库总量的90%，部署战略弹头从1989年约23000枚降至2016年3700枚",
+   "奥巴马政府削减核武库数量是冷战后历届美国政府中最少的",
+   "俄罗斯自2013年起增加部署战略弹头数量，美国保留大量弹头上载能力和「温存」ICBM发射井",
+   "美俄双方均在进行全面核武库现代化，包括ICBM、SSBN/SLBM、轰炸机及战术核武器升级换代"
+  ],
+  "data": [
+   {
+    "metric": "冷战以来生产核弹头总数",
+    "value": "超过125000枚",
+    "context": "自1945年以来"
+   },
+   {
+    "metric": "全球核武库峰值",
+    "value": "64500枚",
+    "context": "1986年库存（含退役待拆解则为70300枚）"
+   },
+   {
+    "metric": "自峰值以来削减数量",
+    "value": "约54000枚库存削减，47000+枚已拆解",
+    "context": "截至2016年"
+   },
+   {
+    "metric": "当前全球核武库存",
+    "value": "约10000枚（含退役待拆解约15000枚）",
+    "context": "2016年"
+   },
+   {
+    "metric": "美国近期削减速度",
+    "value": "400枚",
+    "context": "2010-2014年"
+   },
+   {
+    "metric": "俄罗斯近期削减速度",
+    "value": "约1100枚",
+    "context": "2010-2014年"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-05"
  }
 ]
