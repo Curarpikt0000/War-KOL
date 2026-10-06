@@ -1239,3 +1239,24 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 - [ ] 名册现 65 人，超 60 上限 5 人（09-29 待办延续，仍未讨论）
 - [ ] 09-29 的 Mavrookas 破例问题、ChaoWiki 归档（本日又问一次「收工」）均未获回复
 - [ ] `data/` 未跟踪 `.bak*` 仍未清理
+
+## 2026-10-07
+（注：窗口内后台任务文件名带 2026-10-01，实际发生日未核。）
+### 决策
+- Chao 指令：「加入kol」Larry Johnson（前 CIA 分析员）；此前 1★（3.45 分）已在 candidates_rejected，Chao 再点名，agent 按 Karp / Michael 先例以「普通名册行」入册（1★、临时·未经命中率验证、无监测标签）。
+- agent 判断：不加醒目「低可信度」标签，争议字段照实显示。
+- agent 提议（待 Chao 确认）：Notion 该行 sources 改为只含 sonar21.com，重同步后用修正归属规则重滤 57 条，再跑五要素筛选。
+### 改动
+- Notion War KOL List 70→71 行新增 Johnson；首次漏星级（临时 roster 文件字段名误用 rating，脚本读 stars），补写为 PATCH 已有行，无重复。
+- 本地名册同步后 68 人（改前备份）。
+- 回补：`scripts/fetch_statements.py --mode backfill --days 365 --limit 1` → `data/statements/backfill_johnson_2026-10-01.json`，日志 `scratch/fetch_johnson.log`，57 条原料。
+- sources 修正 PATCH 仅干跑，未写入。
+### 踩坑与教训
+- **sources 字段被归属脚本当「自有平台域名」白名单**：建行时填了评估引用出处（维基/NYT/Politico/Newsweek），导致这些域名全站被判自有，57 条中 26 条（46%）未验证作者即放行（含无关的 Newsweek 医院榜、NYT 年度预测）。与此前听风的蚕 youtube.com 同类漏洞。教训：sources 只放真自有平台；评估引文放 candidates_rejected。
+- sonar21.com（他的博客）抽 8 条中 7 条正文不含 Johnson（首页/分页/读者留言），自有域名也须过五要素门禁。
+- 其余 31 条多为第三方转载/视频搬运站，按归属规则大概率不收。
+- 后台任务启动后没读日志首行；通知到后才查 FETCH_EXIT。一条回复里人名写错，已更正。
+- 与名册内 Michael Knights 名字相近，抓取需防混淆。
+### 待办
+- [ ] **Chao 确认**：sources 修正 PATCH → 重同步 → 重过滤 57 条 → 五要素 → 四层 → 重建发布 → 读回线上核对
+- [ ] 旧待办延续：<3★ 现有 KOL 是否移出；已核验组是否改固定线；AGENTS.md 星级规则（PENDING E 节）；5★/4★/2★ 切点；名册现 68 人超 60 上限；`data/` 的 .bak* 未清；ChaoWiki 归档未获回复
