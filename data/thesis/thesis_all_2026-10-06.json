@@ -384,5 +384,458 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://toda.org/wp-content/uploads/2025/11/t-pb-25-hans-kristensen_inf-weapons.pdf",
+  "source_title": "T-PB_26-Hans Kristensen_INF Weapons - toda.org",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「hans m. kristensen」",
+  "topic": "全球中导条约（INF）扩展前景与各国中程导弹现代化",
+  "claim": "美俄双方均通过发展先进常规海空基远程导弹来满足安全需求，有可能在不废除INF条约、不启动新一轮陆基中导军备竞赛的前提下实现战略平衡",
+  "reasoning": "Kristensen指出，尽管美俄陆基中导受条约限制，但两国过去十年均大幅扩充了不受INF管辖的海基和空基中程打击力量（俄罗斯至少部署6种新型海空发射巡航导弹，美国正研发LRSO核巡航导弹和高超音速武器）。这些非陆基平台的快速现代化表明，双方实际上已通过技术路径规避找到了满足中程打击需求的替代方案，理论上可降低对陆基中导的依赖，从而为条约存续创造技术条件——前提是双方政治意愿回归军控。",
+  "evidence": [
+   "俄罗斯过去十年内fielded了6种新型中程导弹系统，包括AS-23A/B（Kh-101/102）空射巡航导弹正整合到图-160和图-95轰炸机，SS-N-30 Kalibr海基巡航导弹正装备到Severodvinsk级攻击潜艇、Kilo级常规潜艇及多型水面舰艇",
+   "美国正研发LRSO核空射巡航导弹将装备B-52和B-21轰炸机，JASSM-ER常规巡航导弹adding to所有轰炸机和多型战斗机，海军通过为30艘Virginia级潜艇增加导弹舱段来扩大潜射巡航导弹携载量",
+   "美国国防部正开发「下一代陆攻武器」（NGLAW），计划2028-2030财年部署到SSGN和SSN潜艇，以及未来5艘「大型载荷潜艇」；2017年11月从夏威夷试射中程常规快速打击导弹以测试高超音速助推滑翔技术",
+   "中国拥有最多INF射程武器类型，超过90%的陆基导弹射程在500-5000公里之间，可能包括1400-1800枚导弹（其中1000-1200枚SRBM，200-300枚巡航导弹），若加入INF条约12/14种导弹将被禁止",
+   "全球九个核武国家中八个共运作61种核/常规中程导弹，其中41种（68%）为陆基会受全球INF条约管辖，其余22种海空基导弹为双方提供重要INF射程打击能力但不受条约限制"
+  ],
+  "data": [
+   {
+    "metric": "俄罗斯INF射程导弹类型数",
+    "value": "至少10种",
+    "context": "当前运作状态，包括4种ALCM、4种SLCM、1种ALBM、1种GLCM"
+   },
+   {
+    "metric": "美国INF射程导弹类型数",
+    "value": "7种",
+    "context": "当前运作，包括4种ALCM和3种SLCM变型"
+   },
+   {
+    "metric": "中国陆基中程导弹总数",
+    "value": "可能1400-1800枚",
+    "context": "其中1000-1200枚SRBM，200-300枚巡航导弹"
+   },
+   {
+    "metric": "Virginia级潜艇增加导弹舱数量",
+    "value": "30艘",
+    "context": "美国海军扩充潜射巡航导弹携载量计划"
+   },
+   {
+    "metric": "全球INF射程导弹类型总数",
+    "value": "61种",
+    "context": "八个核武国家运作，其中41种（68%）陆基，22种海空基"
+   },
+   {
+    "metric": "30年军控条约销毁核弹头数",
+    "value": "超过50000枚",
+    "context": "过去30年，绝大多数为俄美武器"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://bpb-us-e1.wpmucdn.com/blogs.gwu.edu/dist/2/672/files/2025/12/Emil-Michael-DWG-transcript.pdf",
+  "source_title": "Emil Michael Undersecretary of War for Research & Engineering ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国防务工业转型与新技术采购战略",
+  "claim": "美国国防部必须从「全部依赖昂贵精品武器」转向「大规模可消耗低成本武器+新型制造商参与」的混合架构，才能应对中国军事崛起和现代战场变化",
+  "reasoning": "Emil Michael 认为战争形态已根本改变：乌克兰战场出现「机器人对机器人前线」和大规模低成本无人机消耗战，这与反恐战争时期完全不同；中国过去10-15年完成「世界历史上最重大的军备建设」；AI 技术将颠覆传统分析能力；这些因素叠加要求五角大楼打破现有采购体系，引入新供应商，建立国内无人机产能（目标数十万架 FPV 小型无人机），同时通过 Office of Strategic Capital 的2000亿美元低成本贷款（一半给关键矿产、一半给国防工业基础）解除供应链瓶颈。他强调现有高超音速项目属于「昂贵且复杂的低速率精品武器」，如果从零开始设计需对标中国成本和规模。",
+  "evidence": [
+   "乌克兰-俄罗斯战争中出现「从未见过的机器人对机器人前线」，大规模可消耗低成本武器正在以前所未有的方式使用",
+   "中国在过去10-15年完成「世界历史上最重大的军事建设」，构成近对等对手威胁",
+   "国防部已将 Chief Digital AI Officer 和国防创新单元（DIU）整合进研究与工程部门（R&E），扩大首席技术官对新技术实施的管辖范围",
+   "乌克兰正在生产数百万架无人机并全部投入使用，美国目前没有国内激增产能",
+   "美国在关键矿产供应上严重依赖对手国家，这些矿产既用于武器系统也用于电动车电池等民用品",
+   "Office of Strategic Capital 的国会拨款已允许补贴规模达到约2000亿美元贷款价值，私人资本正在围绕其低成本贷款项目聚集"
+  ],
+  "data": [
+   {
+    "metric": "OSC 低成本贷款总规模",
+    "value": "约2000亿美元",
+    "context": "最新国会拨款授权，一半用于关键矿产、一半用于国防工业基础"
+   },
+   {
+    "metric": "中国军事建设时间跨度",
+    "value": "10-15年",
+    "context": "Emil Michael 评估的世界历史上最重大军备建设周期"
+   },
+   {
+    "metric": "美国国内小型无人机目标产能",
+    "value": "数十万架",
+    "context": "无人机主导计划（Drone Dominance Program）针对 FPV 第一人称视角小型无人机的国内生产目标"
+   },
+   {
+    "metric": "陆军远程高超音速武器当前产量",
+    "value": "数十枚",
+    "context": "Emil Michael 提到现有 LRHW 项目未来将扩展到「dozens」的规模"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时限，但多次强调「当前特殊时刻」「新总统和国防部长推动变革」暗示未来2-4年内需完成转型",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://www.nytimes.com/live/2022/03/26/world/ukraine-russia-war?referringSource=articleShare",
+  "source_title": "Here’s What Happened on Day 31 of the War in Ukraine - The New...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「pavel luzin」",
+  "topic": "俄乌战争持久化趋势与西方对俄战略",
+  "claim": "俄乌战争将演变为长期消耗战，不会在数日或数月内结束",
+  "reasoning": "Pavel Luzin 在华沙演讲中明确将俄乌冲突定性为二战后民主与专制长期斗争的「终极考验」，强调这场战斗的时间尺度超出短期预期。他呼吁公众「为漫长战斗做好准备」，表明他判断当前局势已进入僵持阶段，需西方持续投入资源支撑乌克兰而非寻求速胜。这一判断基于俄军在补给与战术上的困境、乌克兰反攻初见成效但未形成决定性突破、以及俄方开始调整战略目标转向顿巴斯地区等多重信号，预示战争将从闪电战转为阵地拉锯。",
+  "evidence": [
+   "Pavel Luzin 宣称「这场战斗不会在数日或数月内取胜，我们需要为前方的长期战斗做好准备」",
+   "俄军在开战31天后仍未能夺取基辅等主要城市，且在后勤补给上遭遇困难",
+   "乌克兰两周前发起的反攻取得成功，促使俄方领导层开始考虑谈判",
+   "俄军高级将领 Sergei Rudskoi 暗示莫斯科可能重新定义战争目标，从夺取主要城市转向集中控制顿巴斯地区",
+   "西方情报机构近几周侦测到俄军高级指挥官之间讨论放弃夺取基辅及北部、西部关键地区的企图",
+   "演讲当天俄军导弹仍在袭击距波兰边境仅50英里的利沃夫，延续对主要城市和平民目标的攻击"
+  ],
+  "data": [
+   {
+    "metric": "战争持续时间",
+    "value": "31天",
+    "context": "截至 Pavel Luzin 演讲时（开战第31天）"
+   },
+   {
+    "metric": "波兰接收难民数量",
+    "value": "超过200万人",
+    "context": "欧洲各国中接收乌克兰难民最多"
+   },
+   {
+    "metric": "利沃夫与波兰边境距离",
+    "value": "约50英里",
+    "context": "演讲当天俄军导弹袭击利沃夫时"
+   },
+   {
+    "metric": "利沃夫战前人口",
+    "value": "70万人",
+    "context": "战争前该市常住人口，后大量居民逃离"
+   },
+   {
+    "metric": "乌克兰反攻持续时间",
+    "value": "2周",
+    "context": "Volodymyr Zelensky 提及的反攻开始时间"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "数月或更长",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://political.org/2026/08/27/pentagon-cto-emil-michael-reveals-full-reasoning-behind-anthropic-removal-in-candid-podcast-interview/",
+  "source_title": "Pentagon CTO Emil Michael Reveals Full Reasoning Behind Anthropic ...",
+  "published_on": "2026-08-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部与 Anthropic 公司军用 AI 合同争议",
+  "claim": "Anthropic 的合同限制条款（禁止 AI 用于战场管理和导弹防御）从根本上不可接受，构成供应链风险，必须在 180 天内从五角大楼系统中移除",
+  "reasoning": "Emil Michael 认为 AI 供应商不应对军方如何部署其工具保留运营否决权。他将此类比为购买波音或洛克希德飞机——军方决定如何使用，而非供应商限定用途。他指出这些限制条款源自拜登政府通过计算法规将 Anthropic 指定为「选定的 AI 公司」，而当前政府继承了一份在战略上站不住脚的合同。此外，Anthropic 在委内瑞拉独裁者突袭行动后询问其 AI 是否被使用，被五角大楼和 Palantir 解读为潜在威胁。他认为当 Anthropic 将争议公开化时，已构成供应链风险。",
+  "evidence": [
+   "合同条款明确写明「不能将 AI 用于战场管理」和「不能用 AI 防御导弹攻击」",
+   "2026 年 1 月初美军突袭行动抓获委内瑞拉独裁者 Nicolás Maduro 后，Anthropic 向 Palantir 询问其 AI 是否在行动中被使用",
+   "3 月 6 日正式内部备忘录将 Anthropic 指定为「不可接受的供应链风险」，要求 180 天内从五角大楼系统移除",
+   "五角大楼今年春季冻结与 Anthropic 的关系，同时与 SpaceX、OpenAI、Google、Nvidia、Reflection、Microsoft 和 AWS 签署新合同",
+   "拜登政府通过计算法规将 Anthropic 指定为「选定的 AI 公司」",
+   "3 月 10 日 Emil Michael 接受采访时表示「当你把这变成公关事件时，你就是供应链风险」"
+  ],
+  "data": [
+   {
+    "metric": "合同移除时限",
+    "value": "180 天",
+    "context": "3 月 6 日备忘录要求承包商在此期限内停止在国防部相关工作中使用 Anthropic 产品"
+   },
+   {
+    "metric": "新签约 AI 供应商数量",
+    "value": "7 家",
+    "context": "包括 Google、Microsoft、AWS、Nvidia、OpenAI、Reflection 和 SpaceX"
+   },
+   {
+    "metric": "技术优先事项削减",
+    "value": "从 14 项减至 6 项",
+    "context": "Emil Michael 上任后对国防部技术优先级的重组"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "180 天内（2026 年 8 月前完成移除）",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://www.palantir.com/assets/xrfr7uokpv1b/2inl87zghZHVlEeiwitnTT/2b1f5ea527fc6c19c242ce988685c460/12996_Tim_PalantirTechnologies_15032025_B-72-.pdf",
+  "source_title": "NATHAN WEYLAND FOR THE TIMES Palantir’s PQuality Supply Chain",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 palantir.com",
+  "topic": "英国在人工智能革命中的战略地位与Palantir的全球扩张",
+  "claim": "英国应当保持在「美国轨道」上而非「欧陆轨道」，因英语母语优势和文化特质，英国在大语言模型时代具有战略优势，能在AI革命中表现远优于欧陆",
+  "reasoning": "Karp认为AI时代的核心语言已从代码转变为英语，英国作为主要英语母语国拥有天然优势；伦敦是全球人才灯塔；英国的「为爱结婚」文化与艺术激情导向的社会氛围，比欧陆更适应需要创造力的AI革命；欧陆因政府和企业「袖手旁观」而面临「毁灭」风险，英国必须避免同样命运",
+  "evidence": [
+   "Palantir四分之一员工在伦敦，第二大办公室设在伦敦不是出于商业原因，而是因为英国尤其伦敦是「全球人才灯塔」",
+   "在过去美国占优是因为技术卓越中心更大且主要语言是代码，但现在主要语言是英语，编程能力重要性大幅下降",
+   "Karp在11月致股东信中声称欧洲因企业和政府在AI竞赛中「袖手旁观」而面临「毁灭」风险",
+   "英国文化中「为爱结婚而非宗族联姻」「为激情而建设」「对事物有深刻艺术鉴赏力」的特质，使其在AI革命中会表现「好得多得多」",
+   "Palantir的NHS和国防部合同显示英国政府已在采用其技术"
+  ],
+  "data": [
+   {
+    "metric": "Palantir伦敦员工占比",
+    "value": "25%",
+    "context": "全公司员工分布"
+   },
+   {
+    "metric": "Palantir第四季度营收",
+    "value": "8.28亿美元",
+    "context": "2024年第四季度，超预期7.76亿"
+   },
+   {
+    "metric": "政府业务营收增长",
+    "value": "40%",
+    "context": "同比增长至4.55亿美元"
+   },
+   {
+    "metric": "商业业务营收增长",
+    "value": "31%",
+    "context": "同比增长至3.72亿美元"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时间，隐含中期视野（AI革命进程）",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Sushant Singh",
+  "theater": "南亚",
+  "source_url": "https://cprindia.org/wp-content/uploads/2023/09/Sushant-TMC-Decoding-the-US-role-in-India-Canada-diplomatic-row.pdf",
+  "source_title": "Decoding the US role in India-Canada diplomatic row",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「sushant singh」",
+  "topic": "美国在印加外交争端中的角色及对印度情报活动的态度转变",
+  "claim": "拜登政府已公开警告莫迪政府，要求印度情报机构改变在西方国家的运作方式，美国选择了价值观与盟友关系而非印太地区的地缘政治利益",
+  "reasoning": "Sushant Singh认为美国不仅仅是在印加争端中支持加拿大，更是借此向印度发出严重警告。虽然拜登政府此前为了印太战略需要而容忍印度的民主倒退和与俄罗斯的关系，但印度情报机构在西方国家（尤其是针对锡克教分离主义者）的激进活动已引起美英德等国情报部门的普遍不满。尼贾尔谋杀案触及了主权和不干涉这条红线，促使华盛顿调动沙利文和布林肯等亲印官员公开施压，表明美方对印度情报机构行为的严重关切已超越单一事件本身",
+  "evidence": [
+   "美国国家安全顾问沙利文在白宫媒体简报中明确表示印度不会因此类行动获得「特殊豁免」，拜登政府将与加拿大密切磋商",
+   "美国国务卿布林肯在纽约发表更强硬声明称「我们希望看到问责」并期待印度朋友配合加拿大调查",
+   "美国驻加拿大大使科恩几乎直接表明关于印度参与尼贾尔谋杀的情报来自美国",
+   "纽约时报确认美国情报机构向加拿大提供了「定制化的情报包」帮助得出印度参与结论",
+   "2020年以来印度情报机构在德国英国等西方国家的激进活动引发冲突，德国曾驱逐RAW站长，英国对时任伦敦站长施压",
+   "印度提名的新任华盛顿RAW站长数月未获美国东道国批准，显示美方对印度情报活动的不满",
+   "特鲁多访问纽约时报总部时表示希望「一些人被投入监狱」并要求印度情报部门改变运作方式"
+  ],
+  "data": [
+   {
+    "metric": "RAW在欧洲招募卧底时间",
+    "value": "2015年开始",
+    "context": "2020年媒体报道引述印度情报消息"
+   },
+   {
+    "metric": "德国RAW站长任期",
+    "value": "不足6个月",
+    "context": "因从事与外交官身份不符活动被要求离境"
+   },
+   {
+    "metric": "RAW前局长退休时间",
+    "value": "2023年6月",
+    "context": "尼贾尔被谋杀数天后"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来数周至数月",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Gregory B. Poling",
+  "theater": "印太",
+  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/140728_Poling_TrendsSouthChinaSea_Web.pdf",
+  "source_title": "Recent Trends in the South China Sea and U.S. Policy",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「gregory b. poling」",
+  "topic": "南海局势演变趋势与美国政策选项（2013-2014）",
+  "claim": "中国在南海的单边行动自2009年以来持续升级，2013-2014年间局势进一步恶化，需要美国通过一系列军事、外交和法律措施来遏制这一趋势并支持盟友",
+  "reasoning": "Poling基于2013-2014年间一系列具体事件（中国在越南声索海域部署钻井平台、在第二托马斯礁封锁菲律宾补给船、宣布东海防空识别区、在黄岩岛持续占领），认为中国的assertive pattern自2009年以来稳步发展，传统外交手段（如越中海军热线、领导人会晤）未能阻止局势恶化。他判断需要美国采取综合性应对：发布南海法律分析、推动东盟冻结争议区活动、批准UNCLOS、考虑放宽对越武器禁运、明确美菲共同防御条约在争议区的适用性等，以恢复区域稳定并维持美国在印太的影响力",
+  "evidence": [
+   "中国2013年5月起在第二托马斯礁部署3艘船只（含1艘护卫舰）持续巡逻，多次骚扰和阻拦菲律宾补给船",
+   "中国2013年11月23日宣布东海防空识别区，一周后中国驻菲大使表示保留在南海建立类似区域的权利",
+   "中国2014年5月2日在西沙群岛以南越南声索海域部署深水钻井平台，伴随80余艘船只（含至少7艘海军舰艇）",
+   "中国2014年3月9日用海警船驱离菲律宾向第二托马斯礁运送补给的民用船只，导致菲方被迫空投物资",
+   "海南省2014年1月1日实施新渔业法规要求外国渔船在九段线内作业需向中方申请许可，省委书记称海警以每周至少一次频率执法驱离渔船",
+   "中国辽宁号航母2013年12月6日首次停靠西沙永兴岛三亚基地"
+  ],
+  "data": [
+   {
+    "metric": "第二托马斯礁距菲律宾距离",
+    "value": "120海里",
+    "context": "该礁位于斯普拉特利群岛"
+   },
+   {
+    "metric": "第二托马斯礁菲律宾驻军规模",
+    "value": "8-12名海军陆战队员",
+    "context": "驻扎在1999年搁浅的BRP Sierra Madre号"
+   },
+   {
+    "metric": "中国钻井平台周边船只数量",
+    "value": "初期80余艘，6月超过100艘",
+    "context": "2014年5月起部署在西沙以南"
+   },
+   {
+    "metric": "钻井平台价值",
+    "value": "10亿美元",
+    "context": "中国唯一深水钻井平台"
+   },
+   {
+    "metric": "曾母暗沙距马来西亚距离",
+    "value": "50英里",
+    "context": "该暗沙位于水下70英尺"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Gregory B. Poling",
+  "theater": "印太",
+  "source_url": "https://repec.viet-studies.com/kinhte/USInvestSCS_FP.pdf",
+  "source_title": "The United States Is Deeply Invested in the South China Sea",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「gregory b. poling」",
+  "topic": "美国在南海的长期利益与战略承诺",
+  "claim": "中国在南海的行为首次构成致命威胁，可能迫使美国放弃其长期利益，美国必须更审慎地捍卫航行自由和同盟网络以维护印太战略成功",
+  "reasoning": "Gregory B. Poling认为美国在南海有两大核心利益——航行自由/海洋法与同盟信誉——已维系两个世纪，且帮助确保了美国及伙伴的安全与繁荣。但中国过去十年的军事化和胁迫行动，尤其是九段线主张对《联合国海洋法公约》的挑战，首次让美国被迫放弃这些利益成为真实可能。若美国在南海被视为抛弃菲律宾，将引发盟友对美国能力和意愿的质疑，导致同盟网络在最需要时刻陷入信心与能力双重危机，进而危及整个印太大战略。",
+  "evidence": [
+   "中国国防部长Wei Fenghe在香格里拉对话发表威胁台湾、警告美国不要干涉、忽视第三国主体性的演讲",
+   "美国国防部长Austin强调美国「无与伦比的同盟与伙伴网络」是印太稳定的「深刻来源」，并多次提及南海相关议题",
+   "北京的九段线主张威胁《联合国海洋法公约》，该公约是数十年谈判成果，具有全球合法性",
+   "1970年代美国废除与台湾条约、西贡陷落后，菲律宾成为美国在南海争端中唯一盟友，引发同盟信誉担忧",
+   "过去四十年华盛顿逐步明确《美菲共同防御条约》适用于菲律宾军队在南海遭受的任何攻击",
+   "若美国失去进入菲律宾领土的权限，其在东南亚投射力量和应对危机的能力将严重受损"
+  ],
+  "data": [
+   {
+    "metric": "美国海军在亚洲持续存在时长",
+    "value": "自1835年起至今（除南北战争短暂中断）",
+    "context": "东印度中队创建标志美国海军进入太平洋"
+   },
+   {
+    "metric": "美国在南海争端涉入时长",
+    "value": "近一个世纪",
+    "context": "从美国殖民菲律宾时期开始"
+   },
+   {
+    "metric": "《美菲军事基地协定》签订年份",
+    "value": "1947年",
+    "context": "菲律宾1946年独立后次年签订"
+   },
+   {
+    "metric": "《美菲共同防御条约》签订年份",
+    "value": "1951年",
+    "context": "美国在太平洋的第一个安全同盟"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://thebulletin.org/wp-content/uploads/2011/02/066003008.pdf",
+  "source_title": "066003008_NukeNote.indd - Bulletin of the Atomic Scientists",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 thebulletin.org",
+  "topic": "美国2010年核武库配置与核态势评估",
+  "claim": "美国可以在约1,550枚战略弹头的部署规模下维持稳定核威慑，该力量水平将在《新削减战略武器条约》批准后七年内实现",
+  "reasoning": "Hans M. Kristensen与Robert S. Norris基于奥巴马政府2010年《核态势评估报告》(NPR)和《新削减战略武器条约》(New START)的框架分析得出：美国核力量可从现有的约2,468枚作战弹头降至1,550枚战略弹头，部署在700枚陆基与海基弹道导弹及远程轰炸机上；非战略弹头与储备弹头将显著削减但继续保留部分以应对技术问题或国际局势变化；按照当前削减速度，美国可能在2010年内就达到条约限制；同时核武器生产政策明确「不开发新核弹头」，优先通过翻新或重用核部件延长寿命，仅在总统授权且国会批准下才更换核部件",
+  "evidence": [
+   "五角大楼2010年5月3日首次披露核武库总规模为5,113枚弹头，与作者估算基本一致",
+   "2010年1月美国实际维持约2,468枚作战弹头，包括1,968枚战略弹头部署于798个战略投送载具和500枚非战略弹头，另有约2,600枚储备弹头",
+   "《核态势评估报告》明确结论：美国可以用约1,550枚战略弹头维持稳定核威慑，部署在三位一体的700枚陆基和海基弹道导弹及远程轰炸机上",
+   "《新削减战略武器条约》规定该力量水平必须在条约批准后七年内实现",
+   "按照当前削减速度，美国可能在2010年内就达到《新削减战略武器条约》的1,550枚限制",
+   "《核态势评估报告》确定美国将「不开发新核弹头」，寿命延长项目将「仅使用基于先前测试设计的核部件，不支持新的军事任务或提供新的军事能力」",
+   "核弹头生产计划包括：在2017财年前全额资助W76-1弹头项目，从2017财年开始生产B61-12，在2010财年启动W78寿命延长项目研究"
+  ],
+  "data": [
+   {
+    "metric": "美国核弹头总库存",
+    "value": "5,113枚",
+    "context": "五角大楼2010年5月3日披露"
+   },
+   {
+    "metric": "作战弹头",
+    "value": "2,468枚",
+    "context": "2010年1月估算"
+   },
+   {
+    "metric": "战略弹头部署规模",
+    "value": "1,968枚",
+    "context": "部署于798个战略投送载具"
+   },
+   {
+    "metric": "非战略弹头",
+    "value": "500枚",
+    "context": "2010年1月"
+   },
+   {
+    "metric": "储备弹头",
+    "value": "约2,600枚",
+    "context": "2010年1月"
+   },
+   {
+    "metric": "待拆解退役弹头",
+    "value": "3,500-4,500枚",
+    "context": "2010年估算"
+   },
+   {
+    "metric": "《新削减战略武器条约》战略弹头限制",
+    "value": "1,550枚",
+    "context": "条约批准后七年内实现"
+   },
+   {
+    "metric": "《新削减战略武器条约》投送载具限制",
+    "value": "700枚",
+    "context": "陆基与海基弹道导弹及轰炸机"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "《新削减战略武器条约》批准后七年内（约2017年前）",
+  "confidence": "high",
+  "extracted_on": "2026-10-06"
  }
 ]

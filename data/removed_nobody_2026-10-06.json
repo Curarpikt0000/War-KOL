@@ -787,7 +787,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=143",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1556,23 +1556,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Vipin Narang",
-  "theater": "南亚",
-  "title": "A Nuclear World with Vipin Narang | Interpreting India Podcast",
-  "summary": "Description Vipin Narang joins Srinath Raghavan sits to discuss India's evolving nuclear strategy and the impact of nuclear weapons around the world.References:Nuclear Strategy in the Modern Era: Regional Powers and International Conflict by Vipin NarangIndia's Counterforce Temptations: Strategic Dilemmas, Doctrine, and Capabilities by Christopher Clary and Vipin NarangStopping the Bomb: The ...",
-  "quote": "",
-  "source_url": "https://www.everand.com/podcast/463575471/A-Nuclear-World-with-Vipin-Narang-Vipin-Narang-joins-Srinath-Raghavan-to-discuss-India-s-evolving-nuclear-strategy-and-the-impact-of-nuclear-weapons",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=200 chars=209",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Mohammed Zubair",
   "theater": "南亚",
   "title": "The mother of all ironies: TIME Magazine thinks Mohammed Zubair...",
@@ -1790,7 +1773,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2895,7 +2878,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=534",
+  "removed_reason": "正文不可得 http=200 chars=536",
   "removed_stage": "nobody"
  },
  {
@@ -3167,7 +3150,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christoph vogel」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=SSLError chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3258,23 +3241,6 @@
  {
   "kol": "Pavel Luzin",
   "theater": "俄乌",
-  "title": "Here’s What Happened on Day 31 of the War in Ukraine - The New...",
-  "summary": "Pavel Luzin, a Russian military analyst, cautioned that the public pronouncements of Russian military commanders should be regarded skeptically.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/live/2022/03/26/world/ukraine-russia-war?referringSource=articleShare",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「pavel luzin」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Pavel Luzin",
-  "theater": "俄乌",
   "title": "Russia's Military Industry Forecast 2023-2025 - Foreign Policy...",
   "summary": "Pavel Luzin.Consequently, the Russian defense industry should produce as many arms as possible in 2023 instead of maintaining a relatively balanced schedule by 2025.",
   "quote": "",
@@ -3286,7 +3252,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=118",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3343,23 +3309,6 @@
  {
   "kol": "Tom Karako",
   "theater": "军工与战略",
-  "title": "Lawfare Daily: The Golden Dome… - The Lawfare... - Apple Podcasts",
-  "summary": "For today's episode, Lawfare Foreign Policy Editor Daniel Byman interviewed Tom Karako, the Director of the Missile Defense Program at CSIS, to discuss the Trum.",
-  "quote": "",
-  "source_url": "https://podcasts.apple.com/us/podcast/lawfare-daily-the-golden-dome-missile-defense-program/id498897343?i=1000703133582",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=660",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Tom Karako",
-  "theater": "军工与战略",
   "title": "The Remnant with Jonah Goldberg Podcast: Tom Karako",
   "summary": "Missile defense expert Tom Karako joins The Remnant to answer these and other important questions.",
   "quote": "",
@@ -3371,7 +3320,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3473,7 +3422,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=429 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3541,7 +3490,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=15",
   "removed_stage": "nobody"
  },
  {
@@ -4306,7 +4255,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=548",
+  "removed_reason": "正文不可得 http=200 chars=559",
   "removed_stage": "nobody"
  },
  {
@@ -4446,23 +4395,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Nathaniel A. Raymond",
-  "theater": "非洲",
-  "title": "Donald Trump Faces Obstacles to Resuming Waterboarding - The New...",
-  "summary": "Nathaniel A. Raymond, director of the Signal Program on Human Security and Technology at Harvard University’s Humanitarian Initiative, said of the C.I.A.: “The location shell game they used before has collapsed.”",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2016/11/28/us/politics/trump-waterboarding-torture.html",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「nathaniel a. raymond」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Ronald O'Rourke",
   "theater": "军工与战略",
   "title": "Murder suspect admits attack in video",
@@ -4476,7 +4408,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=82",
   "removed_stage": "nobody"
  },
  {
@@ -4833,7 +4765,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「emil michael」",
-  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
+  "removed_reason": "正文不可得 http=SSLError chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5768,7 +5700,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=497",
+  "removed_reason": "正文不可得 http=200 chars=476",
   "removed_stage": "nobody"
  },
  {
@@ -6346,7 +6278,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=489",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7825,7 +7757,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7842,7 +7774,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7859,7 +7791,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7876,7 +7808,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7893,7 +7825,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7910,7 +7842,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7927,7 +7859,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8199,7 +8131,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8216,7 +8148,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8233,7 +8165,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8250,7 +8182,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8267,7 +8199,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8284,7 +8216,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8301,7 +8233,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8556,7 +8488,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom shugart」",
-  "removed_reason": "正文不可得 http=200 chars=599",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8641,7 +8573,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=156",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8658,7 +8590,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8675,7 +8607,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8692,7 +8624,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8709,7 +8641,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8726,7 +8658,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8760,7 +8692,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8794,7 +8726,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9083,7 +9015,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=405",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9882,7 +9814,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -10919,7 +10851,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「eric j. labs」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=341",
   "removed_stage": "nobody"
  },
  {
@@ -11123,7 +11055,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 ndc.nato.int",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=589",
   "removed_stage": "nobody"
  },
  {
@@ -11602,7 +11534,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -11688,7 +11620,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=748",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -11893,7 +11825,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=127",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12525,7 +12457,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=83",
   "removed_stage": "nobody"
  },
  {
@@ -13277,7 +13209,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13294,7 +13226,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13311,7 +13243,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13583,7 +13515,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ryan d. martinson」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -14528,7 +14460,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14545,7 +14477,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14613,7 +14545,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14785,7 +14717,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=429",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16136,7 +16068,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=710",
   "removed_stage": "nobody"
  },
  {
@@ -16498,7 +16430,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16516,7 +16448,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16533,7 +16465,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=533",
   "removed_stage": "nobody"
  },
  {
@@ -16670,7 +16602,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=476",
   "removed_stage": "nobody"
  },
  {
@@ -16806,7 +16738,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -16996,7 +16928,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17237,7 +17169,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17288,7 +17220,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18297,7 +18229,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=772",
   "removed_stage": "nobody"
  },
  {
@@ -18792,7 +18724,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=482",
+  "removed_reason": "正文不可得 http=200 chars=219",
   "removed_stage": "nobody"
  },
  {
@@ -20023,23 +19955,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Phil Gunson",
-  "theater": "拉美",
-  "title": "Turning Points 2026 - The New York Times",
-  "summary": "Turning Points 2026 What critical moments from this year might mean for the year ahead. Looking at 2026 Through the Eyes of 1926",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/column/turning-points-2026",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-09-30",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 nytimes.com",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Avi Scharf",
   "theater": "中东",
   "title": "avi scharf",
@@ -20089,7 +20004,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20123,7 +20038,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=117",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20208,7 +20123,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20260,7 +20175,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=198",
+  "removed_reason": "正文不可得 http=200 chars=215",
   "removed_stage": "nobody"
  },
  {
@@ -20553,7 +20468,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20655,7 +20570,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=162",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20883,40 +20798,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Jeremy McDermott",
-  "theater": "拉美",
-  "title": "2024 Global Safety Report - InSight Crime",
-  "summary": "Gallup annually tracks this indicator worldwide, and we highlight its findings in our 2024 Global Safety Report. This year’s report offers encouraging insights: Global perceptions of safety and confidence in police have risen compared with a decade ago, largely due to increasing confidence in local law enforcement.",
-  "quote": "",
-  "source_url": "https://insightcrime.org/wp-content/uploads/2024/10/Gallup_Global-Safety-Report-2024.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 insightcrime.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Jeremy McDermott",
-  "theater": "拉美",
-  "title": "The Prison Dilemma - InSight Crime",
-  "summary": "Latin America’s Incubators of Organized Crime. This series of five case studies and one policy report explores how government mismanagement, neglect and corruption have made the jails in the region powerful incubators of organized crime.",
-  "quote": "",
-  "source_url": "https://insightcrime.org/wp-content/uploads/2023/08/The-Prison-Dilemma-Latin-America_s-Incubators-of-Organized-Crime-Full-report-InSight-Crime.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 insightcrime.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Thomas H. Shugart III",
   "theater": "印太",
   "title": "2024 Annual Report to Congress | U.S.- CHINA | ECONOMIC and ...",
@@ -20982,23 +20863,6 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 rand.org",
   "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Dara Massicot",
-  "theater": "俄乌",
-  "title": "Russian Military Reconstitution: 2030 Pathways and Prospects",
-  "summary": "Dara Massicot with Richard Connolly This publication was funded by the Russia Strategic Initiative, U.S. European Command. The views expressed in this publication do not necessarily represent the views of the Department of Defense, or the United States government. he information in this study is current as of June",
-  "quote": "",
-  "source_url": "https://www.jstor.org/stable/resrep63145.1",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「dara massicot」",
-  "removed_reason": "正文不可得 http=200 chars=209",
   "removed_stage": "nobody"
  },
  {
@@ -21135,7 +20999,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=231",
+  "removed_reason": "正文不可得 http=200 chars=248",
   "removed_stage": "nobody"
  },
  {
@@ -21305,7 +21169,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -21344,23 +21208,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Hans M. Kristensen",
-  "theater": "军工与战略",
-  "title": "T-PB_26-Hans Kristensen_INF Weapons - toda.org",
-  "summary": "Hans M. Kristensen is Director of the Nuclear Information Project at the Federation of American Scientists in Washington, D.C., where he is responsible for researching and documenting the status and operations of nuclear forces of the nine nuclear-armed states.",
-  "quote": "",
-  "source_url": "https://toda.org/wp-content/uploads/2025/11/t-pb-25-hans-kristensen_inf-weapons.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「hans m. kristensen」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Emil Michael",
   "theater": "军工与战略",
   "title": "Pentagon Official Emil Michael Sold Perplexity AI Stocks for Up to $25M",
@@ -21391,24 +21238,6 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「emil michael」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Emil Michael",
-  "theater": "军工与战略",
-  "title": "Pentagon CTO Emil Michael Reveals Full Reasoning Behind Anthropic ...",
-  "summary": "Emil Michael, the Under Secretary of War for Research and Engineering and Department of War Chief Technology Officer, has gone on the record to explain the Pentagon's decision to sever ties with AI company Anthropic — a split that has redrawn the landscape of military artificial intelligence procurement in the United States. In a wide-ranging interview released Thursday morning, August 27 ...",
-  "quote": "",
-  "source_url": "https://political.org/2026/08/27/pentagon-cto-emil-michael-reveals-full-reasoning-behind-anthropic-removal-in-candid-podcast-interview/",
-  "published_on": "2026-08-27",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「emil michael」",
-  "date_source": "url_path",
   "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
@@ -21499,57 +21328,6 @@
   "attribution_reason": "正文含姓名「emil michael」",
   "date_source": "url_path",
   "removed_reason": "正文不可得 http=406 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Emil Michael",
-  "theater": "军工与战略",
-  "title": "Emil Michael Undersecretary of War for Research & Engineering ...",
-  "summary": "R&E. We consolidated DIU, Defense Innovation . it, into R&E. So that the Chief Tec. ology Officer role that I also. hold has greater purview on the new technologies that we’re trying to.",
-  "quote": "",
-  "source_url": "https://bpb-us-e1.wpmucdn.com/blogs.gwu.edu/dist/2/672/files/2025/12/Emil-Michael-DWG-transcript.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「emil michael」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Emil Michael",
-  "theater": "军工与战略",
-  "title": "Letter from Senator Warren to Emil Michael on His Ethics ...",
-  "summary": "Dear Mr. Emil Michael: Congratulations on your nomination to serve as Under Secretary of Defense for Research and Engineering (USD(R&E)).",
-  "quote": "",
-  "source_url": "https://www.warren.senate.gov/wp-content/uploads/media/doc/final_-_warren_letter_to_emil_michael_on_ethics_commitment.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「emil michael」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Emil Michael",
-  "theater": "军工与战略",
-  "title": "TO CONSIDER THE NOMINATIONS OF: DR. TROY - GovInfo",
-  "summary": "PREPARED STATEMENT BY MR. EMIL MICHAEL Chairman Wicker, Ranking Member Reed, and distinguished Members of the Committee. It is the honor of a lifetime to be here today seeking your advice and consent as President Trump’s nominee for the Under Secretary of Defense for Re-search and Engineering.",
-  "quote": "",
-  "source_url": "https://www.govinfo.gov/content/pkg/CHRG-119shrg63037/pdf/CHRG-119shrg63037.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「emil michael」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21671,7 +21449,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex karp」",
   "date_source": "url_path",
-  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
+  "removed_reason": "正文不可得 http=SSLError chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21710,40 +21488,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Alex Karp",
-  "theater": "军工与战略",
-  "title": "Technology Thiel’s Palantir, Israel Agree Strategic ...",
-  "summary": "The agreement followed a Thursday meeting between Israeli defense officials and Palantir co-founders Peter Thiel and Alex Karp in Tel Aviv, according to Executive Vice President Josh Harris, who was also in attendance.",
-  "quote": "",
-  "source_url": "https://www.palantir.com/assets/xrfr7uokpv1b/3MuEeA8MLbLDAyxixTsiIe/9e4a11a7fb058554a8a1e3cd83e31c09/C134184_finaleprint.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "降级",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 palantir.com",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Alex Karp",
-  "theater": "军工与战略",
-  "title": "NATHAN WEYLAND FOR THE TIMES Palantir’s PQuality Supply Chain",
-  "summary": "Alex Karp is doing a victory lap. Preaching to a room full of corporate believers in Palo Alto, California, the American billionaire riffs on topics chief executives of publicly listed companies aren't supposed to talk about.",
-  "quote": "",
-  "source_url": "https://www.palantir.com/assets/xrfr7uokpv1b/2inl87zghZHVlEeiwitnTT/2b1f5ea527fc6c19c242ce988685c460/12996_Tim_PalantirTechnologies_15032025_B-72-.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 palantir.com",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Jennifer Kavanagh",
   "theater": "军工与战略",
   "title": "Jennifer Kavanagh: A Historic Shift in Asia & Ukraine Is ...",
@@ -21759,23 +21503,6 @@
   "attribution_reason": "自有平台域名 defensepriorities.org",
   "date_source": "page_meta",
   "removed_reason": "正文不可得 http=200 chars=422",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Sushant Singh",
-  "theater": "南亚",
-  "title": "Decoding the US role in India-Canada diplomatic row",
-  "summary": "Sushant Singh Weeks before Canadian Prime Minister Justin Trudeau made that explosive statement on the floor of the House of Commons in Ottawa on 18 September, Command Post had explored the fraying nature of ties between India and Canada.",
-  "quote": "",
-  "source_url": "https://cprindia.org/wp-content/uploads/2023/09/Sushant-TMC-Decoding-the-US-role-in-India-Canada-diplomatic-row.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「sushant singh」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21798,23 +21525,6 @@
  {
   "kol": "Gregory B. Poling",
   "theater": "印太",
-  "title": "Recent Trends in the South China Sea and U.S. Policy",
-  "summary": "Gregory B. Poling Tensions in the South China Sea have continued to build over the last year, with the Philippines submitting its evidence against Chinese claims to an arbitration tribunal, Beijing parking an oil rig in waters claimed by Vietnam, and Malaysia growing increasingly anxious about Chinese displays of sovereignty at the disputed James Shoal. These and other developments underscore ...",
-  "quote": "",
-  "source_url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/legacy_files/files/publication/140728_Poling_TrendsSouthChinaSea_Web.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「gregory b. poling」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Gregory B. Poling",
-  "theater": "印太",
   "title": "Avoiding the False China-U.S. Narrative in the South China Sea",
   "summary": "Gregory B. Poling* ABSTRACT The South China Sea disputes are ultimately about the way the mari- time realm will be governed in the twenty-first century- either ac- cording to the strictures of the United Nations Convention on the Law of the Sea and customary international law, as most nations",
   "quote": "",
@@ -21827,23 +21537,6 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「gregory b. poling」",
   "removed_reason": "正文不可得 http=200 chars=209",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Gregory B. Poling",
-  "theater": "印太",
-  "title": "The United States Is Deeply Invested in the South China Sea",
-  "summary": "The United States Is Deeply Invested in the South China Sea As China postures, Washington remains committed. By Gregory B. Poling, a senior fellow and the director of the Southeast Asia Program and the Asia Maritime Transparency Initiative at the Center for Strategic and International Studies. This article is adapted from On Dangerous Ground: America’s Century in the South China Sea by ...",
-  "quote": "",
-  "source_url": "https://repec.viet-studies.com/kinhte/USInvestSCS_FP.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「gregory b. poling」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21895,40 +21588,6 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 journals.sagepub.com",
   "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Nan Tian",
-  "theater": "军工与战略",
-  "title": "The SIPRI Top 100 Arms-producing and Military Services ...",
-  "summary": "Russian arms production remained at a high level in 2024, more than two years after the full-scale Russian invasion of Ukraine, especially in sectors such as ammunition, armoured vehicles, artillery, missiles and uncrewed aerial vehicles (UAVs).",
-  "quote": "",
-  "source_url": "https://www.sipri.org/sites/default/files/2025-11/fs_2512_top_100_2024.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 sipri.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Hans M. Kristensen",
-  "theater": "军工与战略",
-  "title": "066003008_NukeNote.indd - Bulletin of the Atomic Scientists",
-  "summary": "Nuclear Notebook is prepared by Robert S. Norris of the Natural Re-sources Defense Council and Hans M. Kristensen of the Federation of American Scientists. Direct inquiries to NRDC, 1200 New York Av-enue, N.W., Suite 400, Washington, D.C., 20005 (or 202-289-6868).",
-  "quote": "",
-  "source_url": "https://thebulletin.org/wp-content/uploads/2011/02/066003008.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 thebulletin.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
