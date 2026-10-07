@@ -1,0 +1,129 @@
+[
+ {
+  "kol": "Aaron Y. Zelin",
+  "theater": "中东",
+  "source_url": "https://ctc.westpoint.edu/wp-content/uploads/2026/08/CTC-SENTINEL-082026.pdf",
+  "source_title": "Foreign Fighters LTCR y - ctc.westpoint.edu",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「aaron y. zelin」",
+  "topic": "叙利亚外国战士的整合管理与解除武装政策",
+  "claim": "美国2027财年国防授权法案（NDAA）中要求叙利亚解除所有外国战士武装的条款误判了问题本质，该条款所依据的三个假设均不成立，其强制解除武装的框架无法应对实际威胁",
+  "reasoning": "Aaron Y. Zelin认为该法案误诊的核心在于：阿萨德政权倒台后，大马士革已采取「整合或逮捕」策略，将大部分外国战士吸纳进国家指挥体系而非让其持武器游离在外。法案假设危险与武器数量成正比、武器在国家体系之外、缴械能消除能力，但在武器泛滥、边境多孔、装备易获取的叙利亚，缴械是可逆的交易，且对跨国阴谋最关键的简易爆炸装置和商用无人机技能最不受缴械影响。实际威胁（对整合战士的暗杀、意识形态再包装、新入境人员）不是持武器外国战士的数量问题。他通过波黑先例论证：外部强加的驱逐输出了威胁，而整合与锚定反而使其退役",
+  "evidence": [
+   "2024年12月阿萨德政权倒台后，Ahmed al-Sharaa总统政府系统性地将大部分外国战士吸收进自身安全部队，同时选择性拘留被判定为负债者",
+   "2026年8月前两周，大马士革逮捕了4个伊斯兰国细胞组织，其中2个包含外国战士，表明政府在打击伊斯兰国",
+   "2025年12月13日在巴尔米拉附近袭击美叙联合巡逻队、造成2名美军士兵和1名美国翻译死亡的凶手是叙利亚人而非外国人，系渗透进叙利亚安全部队的疑似伊斯兰国成员",
+   "外国战士人口内部分化，关键分界线在于那些加入国家体系者与寻求保持独立者之间",
+   "美国参议院2026财年NDAA已要求叙利亚政府从高级职位移除外国战士，2027财年版本将范围扩展至全部外国战士人口并增加解除武装和监控指标"
+  ],
+  "data": [
+   {
+    "metric": "叙利亚战争期间赴叙外国战士数量",
+    "value": "数万人",
+    "context": "战争全程"
+   },
+   {
+    "metric": "2024年12月后留在叙利亚的外国战士数量",
+    "value": "数千人",
+    "context": "阿萨德政权倒台后"
+   },
+   {
+    "metric": "2026年8月前两周逮捕的伊斯兰国细胞数量",
+    "value": "4个",
+    "context": "大马士革行动"
+   },
+   {
+    "metric": "2025年12月13日巴尔米拉袭击中美方死亡人数",
+    "value": "2名士兵+1名翻译",
+    "context": "美叙联合巡逻遇袭"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Rocío San Miguel",
+  "theater": "拉美",
+  "source_url": "https://eltiempove.com/rocio-san-miguel-reflexiona-sobre-su-detencion-y-exige-reformas-en-el-sistema-judicial-venezolano/",
+  "source_title": "Rocío San Miguel reflexiona sobre su detención y exige ...",
+  "published_on": "2026-10-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rocío san miguel」",
+  "topic": "委内瑞拉情报机构、军事司法与监狱系统改革",
+  "claim": "委内瑞拉的情报机构、军事司法系统和监狱中心迫切需要进行变革",
+  "reasoning": "Rocío San Miguel 在被拘留期间亲身经历了委内瑞拉国家机器的运作，特别是在军事反情报总局（DGCIM）的遭遇让她承受了严重的心理暴力。这段「从内部体验系统」的经历使她直接观察到国家机构的缺陷，增强了她对改革紧迫性的认知。她强调这些机构存在系统性问题，需要根本性改变。",
+  "evidence": [
+   "San Miguel 在军事反情报总局（DGCIM）与家人一起出庭是她被监禁期间遭受最严重心理暴力的事件",
+   "她在拘留设施中的经历让她能够第一手见证国家机器的缺陷",
+   "她表示「从内部体验系统」使她对变革的紧迫性有了更深刻的认识",
+   "她重申继续在法律框架内要求国家承担责任的承诺"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Mark F. Cancian",
+  "theater": "军工与战略",
+  "source_url": "https://www.csis.org/analysis/six-reasons-why-united-states-low-munitions",
+  "source_title": "Six Reasons Why the United States Is Low on Munitions",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 csis.org",
+  "topic": "美国高端弹药库存短缺的成因与未来战争风险",
+  "claim": "美国关键弹药库存不足主要源于战略转型、工业基地萎缩和预算优先级问题，而非对乌援助，这将在未来与中国的冲突中造成脆弱窗口期",
+  "reasoning": "Mark F. Cancian 认为弹药短缺是多重因素叠加的结果：冷战后战略从大国对抗转向有限地区冲突，导致采购需求大幅缩减；1993年「最后的晚餐」后国防工业大规模整合，航空国防主承包商从51家减至5家，失去了激增产能；弹药在预算博弈中输给平台装备；伊朗战争消耗了爱国者、THAAD、PrSM等导弹一半至三分之一库存。他强调对乌援助仅在爱国者导弹（约600枚）和毒刺导弹上造成显著影响，但主要问题是产能建设需要2-4年交付周期，当前资金已到位但时间不足，未来数年存在脆弱期。",
+  "evidence": [
+   "CSIS 数据显示美国已消耗爱国者、THAAD、PrSM 三类弹药初始库存的约一半，其余四类（JASSM、SM-2/3/6、战斧）消耗约三分之一",
+   "1993年「最后的晚餐」后航空国防主承包商数量从51家降至5家，次级承包商同比例减少，整个国防工业基地为和平时期高效生产而非激增能力设计",
+   "拜登政府「波塞冬射手行动」对胡塞武装作战中使用数百枚 SM-2/3/6 舰载拦截弹，特朗普政府「十二日战争」期间发射150枚 THAAD 拦截弹",
+   "美国向乌克兰提供约600枚爱国者拦截弹、「数百枚」ATACMS（乌方报道为50枚）、大部分毒刺导弹库存",
+   "当前交付反映的是2024财年前的拨款，弹药从签订合同到交付需要2-4年时间",
+   "2024年俄罗斯入侵乌克兰后，大规模弹药库存需求才变得清晰且紧迫"
+  ],
+  "data": [
+   {
+    "metric": "航空国防主承包商数量",
+    "value": "从51家减至5家",
+    "context": "1993年「最后的晚餐」后"
+   },
+   {
+    "metric": "爱国者/THAAD/PrSM 消耗比例",
+    "value": "约50%初始库存",
+    "context": "伊朗战争期间"
+   },
+   {
+    "metric": "JASSM/SM-2/3/6/战斧消耗比例",
+    "value": "约33%初始库存",
+    "context": "伊朗战争期间"
+   },
+   {
+    "metric": "THAAD 拦截弹消耗",
+    "value": "150枚",
+    "context": "「十二日战争」期间"
+   },
+   {
+    "metric": "战斧导弹消耗",
+    "value": "至少135枚",
+    "context": "拜登政府对胡塞武装作战"
+   },
+   {
+    "metric": "对乌援助爱国者拦截弹",
+    "value": "约600枚",
+    "context": "战争开始至今"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未来数年",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ }
+]
