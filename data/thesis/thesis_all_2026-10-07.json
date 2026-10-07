@@ -525,8 +525,8 @@
   "theater": "拉美",
   "source_url": "https://confirmado.com.ve/rocio-san-miguel-relata-los-detalles-de-su-detencion-por-la-dgcim-su-paso-por-prision-y-la-intervencion-diplomatica-que-facilito-su-libertad/",
   "source_title": "Rocío San Miguel relata los detalles de su detención por la ...",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2026-10-05",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rocío san miguel」",
   "topic": "委内瑞拉人权活动人士Rocío San Miguel被军事情报机关拘押案",
@@ -575,7 +575,8 @@
   "direction": "未表态",
   "horizon": "未指明",
   "confidence": "medium",
-  "extracted_on": "2026-10-07"
+  "extracted_on": "2026-10-07",
+  "date_source": "page_meta"
  },
  {
   "kol": "Rocío San Miguel",
@@ -743,6 +744,255 @@
   "direction": "升级",
   "horizon": "2030年达到1000枚，2035年可能达到1500枚",
   "confidence": "medium",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://www.nytimes.com/interactive/2025/08/14/world/europe/putin-russia-ukraine-war-resurgence.html",
+  "source_title": "Why Putin Thinks Russia Has the Upper Hand (Published 2025)",
+  "published_on": "2025-08-14",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯军事招募策略与经济支撑能力",
+  "claim": "俄罗斯通过高额薪酬与志愿兵制度维持每日约1000人的招募规模，这一策略在经济上可持续且政治上避免了大规模征兵引发的社会动荡",
+  "reasoning": "Janis Kluge 通过分析俄罗斯财政部数据指出，俄罗斯自2023年起稳定维持每日约1000人的招募速度（是乌克兰的两倍），这依赖于大幅提高的军人薪酬、签约奖金及各类经济激励措施。他认为这种以金钱为驱动的志愿兵制度让俄罗斯避免了2022年动员令引发的社会不满，中产阶级因无需担心普遍征兵而对战争保持冷漠，从而消除了最大的抗议威胁。但他同时指出，为维持招募配额，地方政府不断增加奖金支出正在挤压地方预算并破坏经济稳定",
+  "evidence": [
+   "俄罗斯自2023年起每日招募约1000名士兵，这一数字保持基本稳定且约为乌克兰的两倍",
+   "2022年9月普京宣布的动员令引发俄罗斯多年来最大的社会不满浪潮，数十万男性逃离俄罗斯",
+   "监狱招募计划成功后，克里姆林宫转向基于金钱和男性气概诉求的招募策略",
+   "中产阶级俄罗斯人因征兵恐惧消退而基本对战争不再关注",
+   "鞑靼斯坦北部的Mari El地区今年支付给新兵的奖金超过了医疗保健支出"
+  ],
+  "data": [
+   {
+    "metric": "日均招募人数",
+    "value": "约1000人/日",
+    "context": "自2023年起保持稳定"
+   },
+   {
+    "metric": "招募速度对比",
+    "value": "约为乌克兰的2倍",
+    "context": "基于俄罗斯财政部数据分析"
+   },
+   {
+    "metric": "2022年动员令规模",
+    "value": "30万人",
+    "context": "官方数据"
+   },
+   {
+    "metric": "监狱招募人数",
+    "value": "约10万人",
+    "context": "估算数据"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Larry C. Johnson",
+  "theater": "中东",
+  "source_url": "https://www.video-translations.org/transcripts/4284_Pascal_2026_05_28.pdf",
+  "source_title": "Russia Goes After NATO Centers in Kiev, Iran Winning Big | Larry...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「larry c. johnson」",
+  "topic": "俄罗斯对乌克兰战争战略转变与基辅目标打击",
+  "claim": "俄罗斯已决定将战争升级至新阶段，将持续打击基辅的情报与军事目标，并可能在今年夏末前用地面部队夺取基辅",
+  "reasoning": "俄方高层外交官（Dmitry Polyansky、Sergei Ryabkov、外长 Lavrov）近期连续发出明确警告要求西方外交官撤离基辅，这是俄罗斯按指令行事的标志；卢甘斯克平民遭袭事件成为转折点；俄方已完成导弹、火炮与兵力储备；此前俄未打击基辅是为避免杀伤西方人员触发北约第五条款升级，但现在俄方已做好准备承担这一风险；普京从此前落后于民意转为主动升级，体现「不再做好人」的战略转向",
+  "evidence": [
+   "三至四周前俄驻联合国大使 Dmitry Polyansky 在播客中表示因俄境内遭无人机袭击，欧洲目标已列入打击范围",
+   "俄副外长 Sergei Ryabkov 数日后重申相同信息，且其发言经外交部授权",
+   "本周俄外长 Lavrov 与美国务卿 Marco Rubio 通话，俄方会议记录明确警告西方外交官撤离基辅",
+   "俄方对基辅的大规模报复性打击仅造成四名平民死亡（乌方声称数字），显示精确打击军事与情报基础设施的意图",
+   "Sergei Karaganov 就对欧洲使用核武器发表评论"
+  ],
+  "data": [
+   {
+    "metric": "俄对基辅报复性打击后平民伤亡",
+    "value": "4人",
+    "context": "乌方次日上午公布数字"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "今年夏末前",
+  "confidence": "high",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://armedservices.house.gov/uploadedfiles/2026-05-14_michael_testimony.pdf",
+  "source_title": "PDF Statement by The Honorable Emil Michael Under Secretary of War for ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部人工智能应用与技术现代化战略",
+  "claim": "美国国防部能够且正在以前所未有的速度大规模部署AI等关键技术，在战场决策优势和创新速度上超越对手",
+  "reasoning": "Emil Michael作为国防部首席技术官，通过将14个关键技术领域压缩至6个核心领域（包括应用AI、量子技术、高超音速等），采用「技术冲刺」方法论，已在5个月内让GenAI.mil平台获得140万用户、6500万次使用，并将XVIII空降军作战命令生成时间从6-9个月缩短至6周。他认为这种聚焦资源、快速迭代、对接产业界的模式能让美军保持技术代差，因为美国拥有对手无法复制的创新生态系统（顶尖研究型大学、风险投资、资本市场、灵活小企业）。",
+  "evidence": [
+   "国防部将关键技术领域从14个削减至6个，包括应用AI、生物制造、竞争性后勤技术、量子与战场信息主导、规模化定向能、规模化高超音速",
+   "GenAI.mil平台在5个月内获得超140万独立用户，累计生成超6500万次提示，成为美国联邦政府历史上最快、最广泛采用的先进AI平台",
+   "陆军XVIII空降军使用GenAI.mil将一份军级作战命令(OPORD)的生成时间从传统的6-9个月（需数百名高级参谋专家、2000多页文件）缩短至6周（9人小团队完成）",
+   "国防部已与8家美国公司签订协议，将在Secret和Top Secret级别分类网络中部署AI能力，覆盖所有作战责任区",
+   "测试资源管理中心(TRMC)自X-15项目以来首次成功回收可重复使用高超音速测试飞行器，并在24天内完成两次可回收飞行",
+   "国防部发布AI加速战略，聚焦三大领域：直接作战应用以提升杀伤力和决策速度、情报综合、企业运营效率提升"
+  ],
+  "data": [
+   {
+    "metric": "GenAI.mil独立用户数",
+    "value": "140万人",
+    "context": "部署5个月内（至2026年5月）"
+   },
+   {
+    "metric": "GenAI.mil累计提示生成数",
+    "value": "6500万次",
+    "context": "部署5个月内"
+   },
+   {
+    "metric": "XVIII空降军OPORD生成时间",
+    "value": "6周",
+    "context": "使用GenAI.mil后，原需6-9个月"
+   },
+   {
+    "metric": "XVIII空降军OPORD生成团队规模",
+    "value": "9人",
+    "context": "使用GenAI.mil后，原需复制数百名参谋专家工作"
+   },
+   {
+    "metric": "OPORD文件页数",
+    "value": "2000多页",
+    "context": "军级作战命令规模"
+   },
+   {
+    "metric": "国防部关键技术领域数量",
+    "value": "从14个压缩至6个",
+    "context": "Emil Michael上任后调整"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "当前已实现（2026年5月证词时点），未来持续扩展至分类网络",
+  "confidence": "high",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.defensepriorities.org/wp-content/uploads/2026/09/DEFP_A_second_island_chain_strategy_for_Asia.pdf",
+  "source_title": "DEFP_A_second_island_chain_strategy_for_Asia",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 defensepriorities.org",
+  "topic": "美国亚太地区第二岛链战略调整",
+  "claim": "美国应将军事存在从第一岛链（日韩台菲）退缩至第二岛链（关岛、北马里亚纳群岛等），在2030年前完成主要调整、2035年前全部完成，这样既能保护美国核心利益，又能降低与中国战争风险并减少军事需求",
+  "reasoning": "Jennifer Kavanagh 认为美国在亚洲只有两项核心利益值得用军事力量保护：本土防御和经济市场通道安全。前者几乎不需要前沿部署，后者只需适度空海力量即可对冲威胁。她判断中国对日韩的征服能力有限且短期内不具备，这些国家因民族主义强烈和地理优势不太可能倒向中国，即使没有美军支持也会保持独立。同时中国物理封锁贸易航线违背自身利益且不太可能发生，美国可用更小的军力在第二岛链保障关键航道。因此大规模前沿驻军既不必要也不安全，退守第二岛链更可持续",
+  "evidence": [
+   "美国目前在亚太地区保持约9万军事人员，主要分布在日本、韩国、菲律宾、澳大利亚和关岛等美属领地",
+   "中国目前是美国地缘政治平等对手，GDP几乎相当，军事力量强大",
+   "日本和韩国正在投资自身军事能力以确保自主性，具有强烈民族主义",
+   "中国缺乏征服日本、菲律宾或韩国的军事能力，且在可预见未来内不会具备这种能力",
+   "日本和菲律宾的群岛地理特征提供额外防御优势，这些国家依靠水域保护且易于使用非对称能力防御",
+   "即使南海和台湾海峡通道受限，贸易可改道通过日本以东的菲律宾海和印尼群岛水域，这些区域中国难以主导"
+  ],
+  "data": [
+   {
+    "metric": "美军亚太驻军人数",
+    "value": "约9万人",
+    "context": "当前（2026年文章发表时）"
+   },
+   {
+    "metric": "主要调整完成时限",
+    "value": "2030年",
+    "context": "建议的分阶段撤军计划"
+   },
+   {
+    "metric": "全部调整完成时限",
+    "value": "2035年",
+    "context": "建议的分阶段撤军计划"
+   },
+   {
+    "metric": "调整实施周期",
+    "value": "3至8年",
+    "context": "分阶段变革期"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2030年前完成主要调整，2035年前全部完成",
+  "confidence": "high",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Sushant Singh",
+  "theater": "南亚",
+  "source_url": "https://cartercentee50c07c05.blob.core.windows.net/blobcartercentee50c07c05/wp-content/uploads/2023/02/indian-democracy-in-strategic-perspective-with-sushant-singh.pdf",
+  "source_title": "Indian Democracy in Strategic Perspective - Carter Center",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「sushant singh」",
+  "topic": "印度民主倒退对南亚地缘政治与中印关系的影响",
+  "claim": "印度的民主倒退正在削弱其在南亚的软实力，增加了印度与巴基斯坦发生核对抗的风险，并可能促使印度向中国靠拢而疏远美国",
+  "reasoning": "Sushant Singh 认为印度的民主倒退从三个层面产生战略影响：首先，它验证了北京「大国无法实现自由民主」的意识形态主张，并使中国能利用「不批评人权」这一优势吸引新德里；其次，专制统治导致反馈机制失灵和软实力下降，使印度在克什米尔和新疆问题上失去批评中国的道德基础；第三，印度与巴基斯坦双双走向威权使核对抗风险高于以往数十年，而民主倒退削弱了印度作为美国制衡中国的吸引力",
+  "evidence": [
+   "印度国防部公关官员因发布庆祝斋月活动的推文遭Hindu nationalist网络攻击后删除推文，这是军事机构屈服于外部压力的罕见案例",
+   "印度在新疆问题上不太可能批评中国，实际上对香港镇压采取了非常温和的立场",
+   "中国曾在2002年Gujarat骚乱后西方国家拒签时欢迎时任古吉拉特邦首席部长Modi访华",
+   "2019年Balakot空袭事件凸显了印度-巴基斯坦核对抗风险，印度政府官员也强调了这一点",
+   "公民身份修正法案通过后，印度执政党政客公开指责巴基斯坦、阿富汗、孟加拉国等穆斯林占多数国家迫害宗教少数群体",
+   "印度民主倒退使邻国对印度感到不友好，削弱了印度应对中国挑战的能力"
+  ],
+  "data": [
+   {
+    "metric": "Sushant Singh 在印度军队服役年限",
+    "value": "20余年",
+    "context": "成为政策分析师之前"
+   },
+   {
+    "metric": "获奖年份",
+    "value": "2017年和2018年",
+    "context": "Ramnath Goenka新闻卓越奖"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时间，但强调「今天的风险高于过去数十年」",
+  "confidence": "high",
+  "extracted_on": "2026-10-07"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://s3.amazonaws.com/files.cnas.org/CNAS+Report-Dangerous+Straits-Defense-Jun+2022-FINAL-print.pdf",
+  "source_title": "JUNE 2022 Dangerous Straits - Amazon Web Services, Inc.",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "中美台海冲突推演及美军未来威慑能力建设",
+  "claim": "美国及其盟友有机会显著强化对华威慑、确保中国永不将侵台视为有利可图的选项，但必须在关键领域立即采取行动",
+  "reasoning": "Stacie Pettyjohn 基于 CNAS 2027 台海冲突推演结果，认为双方均无法速胜、冲突将走向持久化，且中国面临「保持有限战还是先发制人打击美军目标」的两难；推演显示美日澳盟友可提供显著战力深度，这些不对称优势若经适当投资（远程精确打击、水下能力、前沿基地、联合作战计划）和国会支持，能从根本改变印太军事平衡，使中国认为侵台成本大于收益。",
+  "evidence": [
+   "推演显示双方在冲突第一周后均无明显优势，预示冲突将持久化",
+   "中国面临两难：保持战争有限性希望美国不介入，或先发制人打击美军目标以提高成功率但代价是延长冲突",
+   "推演证明冲突可能迅速升级，中美双方均会跨越红线，且中国可能挥舞核武器或进行有限核展示以阻止美国介入",
+   "美国盟友（日本、澳大利亚）可为台海防御行动增加显著战斗力、纵深和战略意义",
+   "俄乌战争后，中国正从俄罗斯失误中吸取教训并评估自身部队、计划和战略的缺陷"
+  ],
+  "data": [
+   {
+    "metric": "推演设定时间",
+    "value": "2027年",
+    "context": "虚构台海冲突情景设定"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
   "extracted_on": "2026-10-07"
  }
 ]
