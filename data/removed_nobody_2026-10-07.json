@@ -82,7 +82,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 macmillan.yale.edu",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -2843,7 +2843,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fabian hinz」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -4770,23 +4770,6 @@
  {
   "kol": "Larry C. Johnson",
   "theater": "中东",
-  "title": "Opinion - The New York Times",
-  "summary": "New York Times Opinion columnists, editorials and guest essays. Analysis from David Brooks, Maureen Dowd, Charles Blow, Paul Krugman and others.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/section/opinion",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-06",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 nytimes.com",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Larry C. Johnson",
-  "theater": "中东",
   "title": "Guess the hidden word in 6 tries. A new puzzle is available each day.",
   "summary": "Guess the hidden word in 6 tries. A new puzzle is available each day.",
   "quote": "",
@@ -5937,7 +5920,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 macmillan.yale.edu",
-  "removed_reason": "正文不可得 http=200 chars=728",
+  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -6056,7 +6039,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=481",
+  "removed_reason": "正文不可得 http=200 chars=477",
   "removed_stage": "nobody"
  },
  {
@@ -12403,7 +12386,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=82",
+  "removed_reason": "正文不可得 http=200 chars=81",
   "removed_stage": "nobody"
  },
  {
@@ -13598,7 +13581,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「帕维尔·卢津」",
-  "removed_reason": "正文不可得 http=200 chars=324",
+  "removed_reason": "正文不可得 http=200 chars=361",
   "removed_stage": "nobody"
  },
  {
@@ -13922,7 +13905,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「傅泰林」",
-  "removed_reason": "正文不可得 http=200 chars=670",
+  "removed_reason": "正文不可得 http=200 chars=534",
   "removed_stage": "nobody"
  },
  {
@@ -15501,7 +15484,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 macmillan.yale.edu",
-  "removed_reason": "正文不可得 http=200 chars=53",
+  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16236,7 +16219,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「贾森·斯特恩斯」",
-  "removed_reason": "正文不可得 http=200 chars=41",
+  "removed_reason": "正文不可得 http=200 chars=500",
   "removed_stage": "nobody"
  },
  {
@@ -19272,23 +19255,6 @@
  {
   "kol": "Vipin Narang",
   "theater": "南亚",
-  "title": "India, Long at Odds With Pakistan, May Be Rethinking Nuclear First...",
-  "summary": "Pakistan could feel compelled to expand its arsenal to better survive a pre-emptive strike, in turn setting off an Indian buildup. This would be more than an arms race, said Vipin Narang, a Massachusetts Institute of Technology professor who studies nuclear powers.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2017/03/31/world/asia/india-long-at-odds-with-pakistan-may-be-rethinking-nuclear-first-strikes.html",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-09-21",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「vipin narang」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Vipin Narang",
-  "theater": "南亚",
   "title": "Rajnath Singh on India's No First Use doctrine, nuclear... - YouTube",
   "summary": "Pakistan's \"First Use \" & India's \"No First Use\" Nuclear Doctrine Need Change!? | PSIR Optional UPSC Optionals StudyIQ84K • 1y agoLivePlaylist ()Mix (50+). 32:46.India needs to escape its strategic paralysis : Vipin Narang. 15:00.",
   "quote": "",
@@ -20000,7 +19966,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 macmillan.yale.edu",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=15",
+  "removed_reason": "正文不可得 http=ReadTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20513,7 +20479,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=187",
+  "removed_reason": "正文不可得 http=200 chars=206",
   "removed_stage": "nobody"
  },
  {
@@ -21337,7 +21303,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=220",
+  "removed_reason": "正文不可得 http=200 chars=239",
   "removed_stage": "nobody"
  },
  {
