@@ -1260,3 +1260,24 @@ Lyme Disease 起源、炭疽、生物安全）。返回 `choices: null` + `compl
 ### 待办
 - [ ] **Chao 确认**：sources 修正 PATCH → 重同步 → 重过滤 57 条 → 五要素 → 四层 → 重建发布 → 读回线上核对
 - [ ] 旧待办延续：<3★ 现有 KOL 是否移出；已核验组是否改固定线；AGENTS.md 星级规则（PENDING E 节）；5★/4★/2★ 切点；名册现 68 人超 60 上限；`data/` 的 .bak* 未清；ChaoWiki 归档未获回复
+
+## 2026-10-07（续，承接上段 Johnson 事项）
+### 决策
+- Chao「可以」：批准 agent 方案——Notion sources 改为只含 sonar21.com、重同步、重过滤、五要素筛选。
+- Chao「乙」：Johnson 的 7 条（含 5 条第三方转述/节目页/搬运站）**全收**。agent 推荐甲（只收 2 条）；Chao 选乙，明知违反「第三方转述不收」。例外只限 Johnson 一人，规则不改。
+- agent 判断：不加「第三方转述」额外标注（除非 Chao 要）。
+### 改动
+- Notion Johnson 行 sources 改为仅 sonar21.com（读回确认只更新 1 行、无重复）；本地同步后自有域名 5→1。
+- 归属预览过滤：57 条保留 40、剔除 17（Newsweek 8、NYT 6、Politico 3），仅预览未落盘。
+- `extract_thesis.py --all --workers 4`：96 条送模型，25 合格，EXIT=0，其中 Johnson 7 条。
+- 新增 `data/attribution_exceptions_johnson.json`（记录 Chao 2026-10-07 例外决定及逐条来源核对）。
+- `build_layers.py` 后台跑完（通知 exit 0；EXIT 值与 Johnson 四层条数窗口内未核）；发布与线上读回窗口内未见。
+### 踩坑与教训
+- 五要素门禁只验「正文有无方向性判断」，不验「是否本人所说」；归属一道只看标题/摘要有无人名。节目简介、第三人称转述、嘉宾页均过闸。尚无「署名核验」硬门禁。
+- 7 条中 braveneweurope、emma 两条署名在标题/摘要而非正文，「本人所写」依据是页面标题摘要，非逐字。greanvillepost 读取超时、video-translations 正文为 0，会标「无正文」。
+- 通知写 completed normally 仍须看日志 EXIT 值。
+### 待办
+- [ ] 核对 Johnson 四层（7 条）完整性 → 重建看板 → publish → 读回线上确认
+- [ ] 日报待办：`write_statements_to_notion.py` 全量版（读入 21,911、去重 5,896）7 分钟跑不完，需改增量；`propagate_dates_to_thesis.py` 是否跑完、发表日是否回填 thesis 未验证（先只读查）
+- [ ] 可选：把「署名核验」写成硬门禁并回扫全库
+- [ ] 延续：<3★ 的 6 位是否移出；已核验组是否改固定线；AGENTS.md 星级规则 PENDING E 节；名册 68 超 60 上限；`data/` .bak* 未清；ChaoWiki 归档未获回复
