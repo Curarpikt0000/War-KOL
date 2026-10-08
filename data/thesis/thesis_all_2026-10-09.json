@@ -1,0 +1,278 @@
+[
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://podcastaddict.com/podcast/ukraine-military-history/7107959",
+  "source_title": "Ukraine Military History Podcast by Samuel Cook, Rob Lee",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "俄乌战争俄军学习速度与战术演进",
+  "claim": "俄罗斯军队正在以超出预期的速度学习并改进战术，虽然推进速度慢于一年前，但仍掌握主动权",
+  "reasoning": "Rob Lee 通过对 2026 年 8 月前线态势的分析指出，俄军采用了新型「老鼠战术」（rat tactics）——2-3 人小组渗透、只进不退的战术，配合大规模无人机使用（双方至少 80% 伤亡来自无人机），以及对单个士兵投放多达 12 架 FPV 无人机的饱和打击。这些战术创新使俄军能够在顿涅茨克州持续施压，逼近克拉马托尔斯克和斯洛维扬斯克防线，展现出系统性的学习能力和战术适应性",
+  "evidence": [
+   "俄军采用「老鼠战术」（rat tactics）——2-3 人小组在阵地间渗透，不撤退，只有一个命令：前进或死亡",
+   "杀伤区内双方至少 80% 的伤亡来自无人机，单个士兵可能遭受多达 12 架 FPV 无人机攻击",
+   "俄军推进速度慢于 2025 年但仍保持主动权，正逼近克拉马托尔斯克、斯洛维扬斯克和德鲁日基夫卡防线",
+   "俄军在扎波罗热前线对平民车辆和巴士发动 FPV 恐怖袭击",
+   "无人机战争已使狙击手效能降至 10%，迫击炮「像狙击手一样」被边缘化，FPV 小队价值超过反坦克系统"
+  ],
+  "data": [
+   {
+    "metric": "无人机造成伤亡占比",
+    "value": "至少 80%",
+    "context": "2026 年扎波罗热前线双方伤亡统计"
+   },
+   {
+    "metric": "单目标 FPV 投放量",
+    "value": "最多 12 架",
+    "context": "针对单个士兵的无人机攻击"
+   },
+   {
+    "metric": "狙击手效能下降幅度",
+    "value": "降至 10%",
+    "context": "无人机主导战场后的狙击手作用"
+   },
+   {
+    "metric": "俄军渗透小组规模",
+    "value": "2-3 人",
+    "context": "「老鼠战术」标准配置"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2026 年 10-11 月",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Larry C. Johnson",
+  "theater": "中东",
+  "source_url": "https://greatreporter.com/2026/10/07/former-cia-analyst-says-us-soldiers-parents-told-him-nuclear-defence-units-are-d/",
+  "source_title": "Former CIA Analyst Says US Soldiers' Parents Told Him Nuclear Defence ...",
+  "published_on": "2026-10-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「larry c. johnson」",
+  "topic": "美军CBRN部队据称部署至科威特及美伊核对抗风险",
+  "claim": "美军专门处理化学、生物、辐射和核威胁的CBRN部队正被部署到科威特，这可能与特朗普对伊朗的「歼灭」威胁有关，但具体任务尚不明确",
+  "reasoning": "Larry C. Johnson根据在役美军人员家属的告知，称特朗普或国防部长下令将CBRN专业部队部署到科威特。他将此信息与特朗普在联合国大会上威胁「歼灭伊朗伊斯兰共和国」、在TIME采访中确认「可能会这么做」的公开表态相联系。但Johnson本人也表示「如果属实会觉得奇怪」，因为科威特美军基地易受伊朗攻击。他强调这不是大规模部队增兵（约10000人主要是航母打击群和两栖部队），CBRN部署是单独事项，且未声称已授权核打击",
+  "evidence": [
+   "在役美军人员的家属（主要是儿子在部队服役的父母）告诉Johnson有CBRN部队被部署到科威特的命令",
+   "特朗普在2026年9月22日联合国大会上威胁要「歼灭伊朗伊斯兰共和国」，问「我是否要把他们送入地狱，没有生存机会、没有未来伟大或后代的希望」",
+   "特朗普在10月1日发表的TIME采访中，被问及是否会歼灭伊朗时回答「是的，我会这么做，这是可能的」",
+   "美联社10月5日调查报道了伊朗无人机3月1日袭击科威特Shuaiba港口，造成6名美军士兵死亡、数十人受伤，幸存者和军官称对该地点脆弱性的警告被忽视",
+   "美联社10月1日报道约9000人（主要是西奥多·罗斯福号航母打击群和马金岛号两栖戒备群）正前往中东地区",
+   "历史上美军CBRN部队曾部署科威特：2014年9月71st Chemical Company准备10月部署进行场地勘察和采样；2019年2月俄亥俄国民警卫队637th Chemical Company在Arifjan营地担任美国中央司令部责任区的CBRN防御反应部队"
+  ],
+  "data": [
+   {
+    "metric": "前往中东的美军海军和陆战队人员",
+    "value": "约9000人",
+    "context": "美联社2026年10月1日报道，包括航母打击群和两栖戒备群"
+   },
+   {
+    "metric": "伊朗袭击科威特港口造成美军死亡",
+    "value": "6名士兵",
+    "context": "2026年3月1日Shuaiba港口无人机袭击"
+   },
+   {
+    "metric": "伊朗袭击科威特港口造成美军受伤",
+    "value": "数十人",
+    "context": "2026年3月1日Shuaiba港口无人机袭击"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "low",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.breitbart.com/politics/2026/08/26/under-secretaryofwar-emil-michael-placing-ai-peoples-hands/",
+  "source_title": "Under Secretary of War Emil Michael: War Department Placing AI 'into ...",
+  "published_on": "2026-08-26",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部人工智能加速战略实施进展",
+  "claim": "国防部AI使用规模将从7万人快速扩展至170万人，并深化至战斗指挥和情报综合应用层面",
+  "reasoning": "Emil Michael认为国防部此前AI渗透率极低（350万人中仅7万人使用），主要是可访问性问题而非需求问题。通过建立GenAI.mil平台提供桌面和移动端访问，结合多模型选择机制（Gemini/Grok/ChatGPT），可在6-8个月内实现24倍的用户增长，并逐步从企业效率工具演进为作战指挥和实时情报综合的核心能力",
+  "evidence": [
+   "2025年1月前国防部350万人中仅7万人使用AI，且仅限基础业务功能",
+   "过去6-8个月内AI用户数增长至170万人",
+   "GenAI.mil平台已部署Google Gemini，即将接入Grok和ChatGPT",
+   "现阶段开始培训人员将AI用于冲突作战和实时情报综合",
+   "平台需适配机密系统环境，不同于民用互联网访问方式"
+  ],
+  "data": [
+   {
+    "metric": "国防部总人力",
+    "value": "350万人",
+    "context": "前任政府时期基数"
+   },
+   {
+    "metric": "初始AI用户数",
+    "value": "7万人",
+    "context": "2025年1月前仅限基础业务用途"
+   },
+   {
+    "metric": "当前AI用户数",
+    "value": "170万人",
+    "context": "过去6-8个月增长结果"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "6-8个月内已实现第一阶段，深化应用进行中",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Rocío San Miguel",
+  "theater": "拉美",
+  "source_url": "https://elpais.com/america/2026-10-07/rocio-san-miguel-expresa-politica-venezolana-mi-sentencia-ratifica-el-derecho-de-los-civiles-de-exigir-transparencia-a-la-fuerza-armada.html",
+  "source_title": "Rocío San Miguel, expresa política venezolana: “Mi sentencia ...",
+  "published_on": "2026-10-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rocío san miguel」",
+  "topic": "委内瑞拉军事体制改革与民主转型前景",
+  "claim": "委内瑞拉武装力量需要进行去政党化和宪政化重构，若把握当前历史窗口期并与美国合作推进安全改革，民主转型可以成功",
+  "reasoning": "San Miguel基于其被捕经历和对军事体制的长期研究认为，委内瑞拉军事情报机关存在系统性违法问题（如DGCIM设有监狱、军事系统凌驾于司法之上），2025年1月3日马杜罗被美军带走后的政治变局为改革创造了机会，她观察到军方「叙事转变的积极迹象」，判断若能借助美国在安全领域的合作完成武装力量的去政党化和职能重构，同时避免谈判进程受阻，委内瑞拉可进入民主轨道",
+  "evidence": [
+   "2025年1月3日凌晨马杜罗被美军带走，1月8日她与其他政治犯及西班牙籍囚犯一同被释放并送往西班牙",
+   "军事情报总局（DGCIM）设有监狱，15名被捕者均遭任意拘留和强迫失踪，部分人受酷刑，普通检察官和法官服从军事系统决定",
+   "她的案件中军方人员被问及被拘留者权利时无法回答「打电话、有律师、不受酷刑」等基本内容",
+   "美国在安全事务上的合作「为重审（武装力量的）理念、规模和运作性开启了希望」",
+   "她观察到武装力量「某种叙事变化」和「去政党化方面的积极迹象」"
+  ],
+  "data": [
+   {
+    "metric": "被捕时长",
+    "value": "2年零9个月",
+    "context": "2024年2月至2026年释放前"
+   },
+   {
+    "metric": "未治疗骨折期",
+    "value": "8个月",
+    "context": "在El Helicoide监狱期间"
+   },
+   {
+    "metric": "首次通话时间",
+    "value": "被捕后1年10个月",
+    "context": "拘留期间"
+   },
+   {
+    "metric": "案件涉案人数",
+    "value": "15人",
+    "context": "Brazalete Blanco阴谋案"
+   },
+   {
+    "metric": "检方求刑年限",
+    "value": "30年",
+    "context": "2025年8月4日庭审时六项罪名合计"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "短期内（未指明具体时间）",
+  "confidence": "medium",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Vipin Narang",
+  "theater": "南亚",
+  "source_url": "https://southasianvoices.org/voices-this-week-nuclear-strategy/",
+  "source_title": "Voices this Week – Nuclear Strategy – South Asian Voices",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「vipin narang」",
+  "topic": "南亚地区核国家核战略选择与威慑效果",
+  "claim": "只有采取不对称升级姿态的国家才能成功威慑常规攻击，催化型和确保报复型姿态做不到这一点",
+  "reasoning": "Vipin Narang通过对巴基斯坦、印度、中国、法国、以色列、南非的案例研究发现，核武器的获得并不产生统一的威慑效果。催化型和确保报复型姿态之所以威慑失败，是因为即使在激烈常规冲突中核使用风险也极低，不足以阻止对手攻击核大国。只有发展出能在常规攻击情况下可信地快速首先使用核武器的能力和程序，才能显著威慑常规进攻。",
+  "evidence": [
+   "核武器的获得不会对对手产生统一的威慑效果",
+   "催化型姿态旨在强制第三方干预",
+   "确保报复型姿态采取二次打击策略",
+   "不对称姿态涉及在常规攻击情况下可信地快速首先使用核武器的能力和程序开发",
+   "催化型和确保报复型姿态在激烈常规冲突中核使用风险极低，无法阻止对手攻击"
+  ],
+  "data": [
+   {
+    "metric": "核姿态类型数量",
+    "value": "3种",
+    "context": "地区核大国可能采取的姿态"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Therése Pettersson",
+  "theater": "拉美",
+  "source_url": "https://www.npr.org/2026/06/09/nx-s1-5847687/global-violence-reaches-record-levels-due-to-war-and-attacks-on-civilians",
+  "source_title": "Global violence reaches record levels due to war and attacks on ...",
+  "published_on": "2026-06-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「therése pettersson」",
+  "topic": "全球武装冲突与针对平民暴力的总体趋势",
+  "claim": "当前世界正处于更加暴力的时期，国家间武装冲突数量达到历史最高水平，且这一趋势表明「美国治下的和平」和自由世界秩序正在走向终结",
+  "reasoning": "Pettersson 基于 Uppsala 冲突数据项目（UCDP）自1946年以来的长期数据收集，发现2025年涉及国家的武装冲突数量创历史新高，国家间冲突（双方都有国家参与）连续第二年翻倍，达到数据收集以来的最高水平。死亡人数也创下自1994年卢旺达种族屠杀以来的第二高纪录。她指出，冷战后期待国家间冲突减少的预期并未实现，反而冲突变得更加普遍，这可能反映出全球地缘政治竞争加剧、美国不再扮演「世界警察」角色的格局转变",
+  "evidence": [
+   "2025年涉及国家的武装冲突数量达到 UCDP 自1946年数据收集开始以来的历史最高",
+   "国家间武装冲突（双方都有国家参与）连续第二年翻倍，达到有记录以来的最高水平",
+   "2025年是自1994年卢旺达种族屠杀以来死亡人数第二高的年份",
+   "俄乌战争占全球国家武装冲突死亡人数的约62%",
+   "苏丹的快速支援部队（RSF）主导了针对平民的单方面暴力类别",
+   "叙利亚政府在阿萨德政权倒台后处理国内族裔紧张局势时，在沿海地区和南部地区发生多起平民屠杀事件",
+   "坦桑尼亚在2025年10月选举后针对抗议者实施了大量暴力"
+  ],
+  "data": [
+   {
+    "metric": "俄乌战争占全球国家武装冲突死亡人数比例",
+    "value": "约62%",
+    "context": "2025年数据"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "当前及未来（需后续评估）",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Ryan D. Martinson",
+  "theater": "印太",
+  "source_url": "https://cimsec.org/exposed-undersea-pla-navy-officer-reflections-on-chinas-not-so-silent-service/",
+  "source_title": "Exposed Undersea: PLA Navy Officer Reflections on China's Not-So-Silent ...",
+  "published_on": "2025-06-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ryan d. martinson」",
+  "topic": "中国潜艇部队在美军水下监视体系下的作战效能",
+  "claim": "中国潜艇出港即被发现的概率非常大，近海航渡被发现拦截概率较大，战略威慑力受到严重削弱",
+  "reasoning": "美军在第一岛链内外部署了海陆空天一体化的水下监视体系，综合运用固定海底声呐、无人水下航行器、海洋监视船、反潜机和侦察卫星等节点。该体系能追踪中国潜艇从港口出发、水面航行到浅水活动的全过程，对重要港口和海峡实施「封锁监控」，在远海部署固定传感器和监视船实现远程探测。这导致中国潜艇和平时期行动高度暴露，海基核力量威慑能力被削弱，增加了中国遭受突然攻击的脆弱性。",
+  "evidence": [
+   "美军卫星可追踪中国潜艇在港内、水面和浅水区的活动",
+   "美军海军舰艇配合水下监视系统对中国重要港口和海峡实施「封锁监控」，收集水下环境数据并追踪潜艇目标",
+   "美军在距中国较远水域部署海底固定声呐系统，海洋监视船在最有利于水下声音传输的位置作业实现远程探测",
+   "美军水文测量船持续追踪水柱关键特征（洋流、温度、盐度、深度）为反潜作战提供强大数据支撑",
+   "美军潜艇紧密跟踪解放军水面行动群收集声学特征数据并「检验」其防御性反潜能力",
+   "近年来美军有人平台在中国沿海附近实施侦察变得越来越困难，第一岛链内美军有人和无人系统的「生存空间」不断缩小"
+  ],
+  "data": [
+   {
+    "metric": "Yuan级潜艇数量",
+    "value": "25艘（预计年底前）",
+    "context": "截至本年底可能拥有"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "当前状态描述，未指明未来时间节点",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ }
+]
