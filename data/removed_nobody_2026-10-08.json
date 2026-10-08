@@ -769,7 +769,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=143",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1625,23 +1625,6 @@
  {
   "kol": "Raz Zimmt",
   "theater": "中东",
-  "title": "Iran Issues List of Demands, Complicating Efforts to Reopen Strait",
-  "summary": "Raz Zimmt, an Iran expert at the Institute for National Security Studies, an Israeli research institute, said the comments by Mr. Mohebbi and Mr. Araghchi reflected Iran’s view that its negotiations with Oman were intended “at most” to work out how the waterway will be reopened in the future.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2026/08/08/world/middleeast/iran-us-oman-strait-of-hormuz.html",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "降级",
-  "collected_on": "2026-09-05",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「raz zimmt」",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Raz Zimmt",
-  "theater": "中东",
   "title": "Iran’s Next Move - With Raz Zimmt Call Me Back - With Dan Senor...",
   "summary": "Raz Zimmt is a senior researcher at the Institute for National Security Studies (INSS) and a research fellow at the Center for Iranian Studies at Tel Aviv University. He is the author of the book \"Iran From Within: State and Society in the Islamic Republic\" published (in Hebrew) in 2022.",
   "quote": "",
@@ -1755,7 +1738,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3132,7 +3115,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christoph vogel」",
-  "removed_reason": "正文不可得 http=200 chars=287",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3234,7 +3217,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=118",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3302,7 +3285,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3404,7 +3387,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=89",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3472,7 +3455,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=15",
   "removed_stage": "nobody"
  },
  {
@@ -4237,7 +4220,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=577",
+  "removed_reason": "正文不可得 http=200 chars=511",
   "removed_stage": "nobody"
  },
  {
@@ -4883,7 +4866,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「larry c. johnson」",
-  "removed_reason": "正文不可得 http=522 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -6039,7 +6022,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=200 chars=485",
+  "removed_reason": "正文不可得 http=200 chars=482",
   "removed_stage": "nobody"
  },
  {
@@ -6617,7 +6600,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=489",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8096,7 +8079,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8113,7 +8096,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8130,7 +8113,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8147,7 +8130,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8164,7 +8147,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8181,7 +8164,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8198,7 +8181,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8470,7 +8453,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8487,7 +8470,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8504,7 +8487,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8521,7 +8504,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8538,7 +8521,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8555,7 +8538,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8572,7 +8555,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8827,7 +8810,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom shugart」",
-  "removed_reason": "正文不可得 http=200 chars=599",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8912,7 +8895,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=156",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8929,7 +8912,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8946,7 +8929,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8963,7 +8946,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8980,7 +8963,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8997,7 +8980,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9031,7 +9014,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9065,7 +9048,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9354,7 +9337,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=405",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10153,7 +10136,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -11190,7 +11173,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「eric j. labs」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=341",
   "removed_stage": "nobody"
  },
  {
@@ -11394,7 +11377,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 ndc.nato.int",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=589",
   "removed_stage": "nobody"
  },
  {
@@ -11873,7 +11856,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -11959,7 +11942,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=748",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12164,7 +12147,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=127",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -12454,7 +12437,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「conflict armament research」",
-  "removed_reason": "正文不可得 http=200 chars=89",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13530,7 +13513,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13547,7 +13530,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13564,7 +13547,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13836,7 +13819,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ryan d. martinson」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -14781,7 +14764,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14798,7 +14781,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14866,7 +14849,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15038,7 +15021,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=429",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16202,7 +16185,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=ConnectTimeout chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16219,7 +16202,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「贾森·斯特恩斯」",
-  "removed_reason": "正文不可得 http=200 chars=500",
+  "removed_reason": "正文不可得 http=200 chars=41",
   "removed_stage": "nobody"
  },
  {
@@ -16389,7 +16372,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=710",
   "removed_stage": "nobody"
  },
  {
@@ -16751,7 +16734,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16769,7 +16752,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16786,7 +16769,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=533",
   "removed_stage": "nobody"
  },
  {
@@ -16923,7 +16906,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=476",
   "removed_stage": "nobody"
  },
  {
@@ -17059,7 +17042,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17218,24 +17201,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Phil Gunson",
-  "theater": "拉美",
-  "title": "Here’s what to know about the report. - The New York Times",
-  "summary": "15 hours ago · Add The New York Times on Google All eyes are on Friday’s inflation report for a key reason: It could prompt officials at the Federal Reserve to raise interest rates.",
-  "quote": "",
-  "source_url": "https://www.nytimes.com/2026/09/11/business/economy/inflation-cpi-august.html",
-  "published_on": "2026-09-11",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-09-12",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 nytimes.com",
-  "date_source": "url_path",
-  "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Uzi Rubin",
   "theater": "中东",
   "title": "Table of Contents - JSTOR",
@@ -17249,7 +17214,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17490,7 +17455,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17541,7 +17506,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18550,7 +18515,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=772",
   "removed_stage": "nobody"
  },
  {
@@ -19283,7 +19248,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=81",
   "removed_stage": "nobody"
  },
  {
@@ -20308,7 +20273,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20342,7 +20307,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=117",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20427,7 +20392,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20479,7 +20444,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=206",
+  "removed_reason": "正文不可得 http=200 chars=192",
   "removed_stage": "nobody"
  },
  {
@@ -20721,7 +20686,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台账号 x.com",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=723",
+  "removed_reason": "正文不可得 http=200 chars=725",
   "removed_stage": "nobody"
  },
  {
@@ -20772,7 +20737,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20874,7 +20839,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=162",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21303,7 +21268,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=239",
+  "removed_reason": "正文不可得 http=200 chars=225",
   "removed_stage": "nobody"
  },
  {
@@ -21473,7 +21438,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -22305,41 +22270,6 @@
   "removed_stage": "nobody"
  },
  {
-  "kol": "Todd Harrison",
-  "theater": "军工与战略",
-  "title": "Build Your Own Golden Dome: A Framework for Understanding ...",
-  "summary": "Shortly after beginning his second term, President Trump issued an executive order directing the Department of Defense (DOD) to develop a homeland air and missile defense system.",
-  "quote": "",
-  "source_url": "https://www.aei.org/wp-content/uploads/2025/09/WP-Estimating-the-Cost-of-Golden-Dome.pdf?x85095",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 aei.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Todd Harrison",
-  "theater": "军工与战略",
-  "title": "Todd Harrison",
-  "summary": "He teaches classes on military space systems and the defense budget at the Johns Hopkins School of Advanced International Studies. Mr. Harrison joined CSIS from the Center for Strategic and Budgetary Assessments, where he was a senior fellow for defense budget studies.",
-  "quote": "",
-  "source_url": "https://docs.house.gov/meetings/AS/AS29/20210223/111218/HHRG-117-AS29-Bio-HarrisonT-20210223.pdf",
-  "published_on": "2021-02-23",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「todd harrison」",
-  "date_source": "url_path",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
   "kol": "Mark F. Cancian",
   "theater": "军工与战略",
   "title": "US Boots On The Ground In Iran Soon? US War Veteran Col. Mark F ...",
@@ -22405,91 +22335,6 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
   "removed_reason": "正文不可得 http=429 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Conflict Armament Research (CAR)",
-  "theater": "中东",
-  "title": "INITIAL REFLECTIONS ON IRANIAN SMALL ARMS ... - Conflict Arm",
-  "summary": "In 2019, a Conflict Armament Research (CAR) field investigation team disassembled and documented a recovered AM-50 rifle. In September 2021, CAR will release a Technical Report of its findings on the AM-50 rifle. This technical report seeks to:",
-  "quote": "",
-  "source_url": "https://www.conflictarm.com/wp-content/uploads/2021/09/AM-50-event-invitation.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 conflictarm.com",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Conflict Armament Research (CAR)",
-  "theater": "中东",
-  "title": "CAR’S OPERATIO - الأمم المتحدة",
-  "summary": "CAR has operated in more than 25 conflict zones around the world. Our evidence does not come from open sources or social media, but through in-person fieldwork carried out by CAR...",
-  "quote": "",
-  "source_url": "https://www.un.org/securitycouncil/ctc/sites/www.un.org.securitycouncil.ctc/files/new_delhi_-_uas_-_pp_slides_talking_points_for_conflict_armament_research.car_.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「car」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Conflict Armament Research (CAR)",
-  "theater": "中东",
-  "title": "Global Report on the Acquisition, Weaponization related Purposes",
-  "summary": "INS is the Head of Research at Conflict Armament Research (CAR). Prior to joining CAR in February 2018, he worked with several non-governmental organizations in the field of arms control...",
-  "quote": "",
-  "source_url": "https://www.un.org/counterterrorism/sites/default/files/2024_unoct_car_global_report_web.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「car」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Conflict Armament Research (CAR)",
-  "theater": "中东",
-  "title": "WEAPONS OF THE ISLAMIC STATE - freebasenews.com",
-  "summary": "In the three years between July 2014 and November 2017, Conflict Armament Research (CAR) deployed its field investigation teams across Islamic State (IS) forces’ frontline positions.",
-  "quote": "",
-  "source_url": "https://freebasenews.com/wp-content/uploads/2025/02/Weapons-of-the-Islamic-State.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「car」",
-  "removed_reason": "正文不可得 http=200 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Conflict Armament Research (CAR)",
-  "theater": "中东",
-  "title": "THE ARMS TRADE TREATY: MEASURES TO PREVENT, DETECT, ADDRESS ...",
-  "summary": "ABOUT THE RESEARCH research endeavor by UNIDIR, Conflict Armament Research (CAR), the Small Arms Survey and the Stimson Center. The objective of the research is to enhance knowledge and facilitate dialogue among States to strengthen shared understanding on the impact of the Arms Trade Treaty in addressing risks of diversion in arms transfers, a",
-  "quote": "",
-  "source_url": "https://www.stimson.org/wp-content/uploads/2020/10/ATT-Issues-Brief-2-Formatted-v4.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-08",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「car」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  }
 ]

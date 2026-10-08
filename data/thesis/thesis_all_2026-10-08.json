@@ -125,5 +125,191 @@
   "horizon": "未来数年",
   "confidence": "high",
   "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://www.aei.org/wp-content/uploads/2025/09/WP-Estimating-the-Cost-of-Golden-Dome.pdf?x85095",
+  "source_title": "Build Your Own Golden Dome: A Framework for Understanding ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 aei.org",
+  "topic": "美国「金色穹顶」(Golden Dome) 本土导弹防御系统成本与架构选择",
+  "claim": "金色穹顶系统的总成本高度依赖于覆盖范围、威胁类型数量和韧性要求等参数设定，即使这些参数的微小变化也会导致成本差异达数千亿美元",
+  "reasoning": "Todd Harrison 通过分析系统各组成部分的成本，指出金色穹顶不是单一武器系统而是复杂的「系统之系统」(system of systems)。其成本取决于四个关键选择维度：需应对的威胁类型（从小型无人机到洲际弹道导弹）、地理覆盖范围（从主要军事设施到全球盟友基地）、拦截器容量需求（从应对朝鲜少量导弹到同时击败中俄全面攻击）、以及系统韧性水平（在遭受攻击时保持功能的能力）。他强调，只要这些需求参数未明确定义，系统成本可以是决策者愿意支付的任何金额。",
+  "evidence": [
+   "特朗普总统发布行政命令，要求国防部开发本土空中和导弹防御系统，防范弹道导弹、高超音速导弹、先进巡航导弹等威胁",
+   "金色穹顶将整合现有和未来能力，形成多层防御的复杂系统",
+   "美国情报机构估计到2035年中俄两国合计可用超过16000枚导弹打击美国本土",
+   "拦截器有效性直接影响所需数量：50%杀伤概率的拦截器需要4枚才能达到94%总体杀伤概率，而75%杀伤概率的拦截器只需2枚",
+   "当前地基中段防御系统(GMD)仅设计拦截不到12枚来自朝鲜的弹道导弹，对其他对手能力有限"
+  ],
+  "data": [
+   {
+    "metric": "中国当前陆攻巡航导弹数量",
+    "value": "1000枚",
+    "context": "DIA当前估计"
+   },
+   {
+    "metric": "中国2035年陆攻巡航导弹预估",
+    "value": "5000枚",
+    "context": "DIA预测"
+   },
+   {
+    "metric": "俄罗斯当前高超音速武器数量",
+    "value": "200-300枚",
+    "context": "DIA当前估计"
+   },
+   {
+    "metric": "中俄2035年合计导弹总数",
+    "value": "超过16000枚",
+    "context": "DIA预测可打击美国本土"
+   },
+   {
+    "metric": "朝鲜2035年ICBM预估",
+    "value": "50枚",
+    "context": "DIA预测"
+   },
+   {
+    "metric": "伊朗导弹助推段时间",
+    "value": "固体燃料3分钟/液体燃料4分钟",
+    "context": "从伊朗向美国东海岸发射"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://www.conflictarm.com/wp-content/uploads/2021/09/AM-50-event-invitation.pdf",
+  "source_title": "INITIAL REFLECTIONS ON IRANIAN SMALL ARMS ... - Conflict Arm",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 conflictarm.com",
+  "topic": "伊朗AM-50反器材步枪生产能力与中东地区扩散",
+  "claim": "伊朗已具备无授权复制西方先进轻武器的工业能力，并通过直接或间接渠道向中东地区非国家行为体持续提供此类武器",
+  "reasoning": "CAR在2019年实地调查中拆解并记录了缴获的AM-50步枪，发现该枪是对奥地利Steyr Mannlicher公司HS .50步枪的无授权仿制品。自2004年伊朗合法购买800支HS .50后，仿制型AM-50在十多年间持续出现在伊拉克及更广泛的中东冲突区，且被非国家行为体使用和缴获。通过对武器系统的构造分析，CAR试图评估伊朗轻武器产业的生产能力与局限性，以及其向地区伙伴和其他行为体提供武器供应的网络机制",
+  "evidence": [
+   "2004年奥地利Steyr Mannlicher公司向伊朗出售800支HS .50反器材步枪",
+   "此后伊朗制造的无授权仿制品AM-50开始出现在冲突区",
+   "AM-50步枪在十多年间被伊拉克及中东地区非国家行为体使用和缴获",
+   "2019年CAR实地调查团队拆解并记录了一支缴获的AM-50步枪",
+   "CAR于2021年9月发布关于AM-50步枪调查结果的技术报告"
+  ],
+  "data": [
+   {
+    "metric": "合法采购数量",
+    "value": "800支",
+    "context": "2004年奥地利向伊朗出售HS .50步枪"
+   },
+   {
+    "metric": "口径",
+    "value": "12.7×99毫米",
+    "context": "AM-50反器材步枪规格"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "持续十多年（2004年至今）",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://www.un.org/securitycouncil/ctc/sites/www.un.org.securitycouncil.ctc/files/new_delhi_-_uas_-_pp_slides_talking_points_for_conflict_armament_research.car_.pdf",
+  "source_title": "CAR’S OPERATIO - الأمم المتحدة",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「car」",
+  "topic": "非国家武装组织获取、武器化和部署无人机系统的全球趋势",
+  "claim": "恐怖组织和非国家武装力量已具备通过国际在线市场和多层供应链系统性获取无人机技术及关键部件的能力，现有商业管控措施存在重大漏洞",
+  "reasoning": "CAR通过在25个以上冲突区的实地调查发现，从伊斯兰国到也门胡塞武装等非国家行为体，能够利用商业现货系统（COTS）改装、采购关键部件自研定制无人机、并通过化名注册空壳公司等手段规避监管。不同地区武装组织使用的关键部件存在一致性，表明存在跨区域的扩散网络。供应链下游（零售商、分销商）普遍缺乏客户记录和序列号追踪，使调查中断。这些证据指向控制措施的系统性失效而非个案。",
+  "evidence": [
+   "CAR在伊拉克和叙利亚记录了28架同一制造商同一型号的四旋翼商用无人机被伊斯兰国改装用于投掷弹药",
+   "伊斯兰国建立了使用化名个人、虚构董事和股东注册公司的国际采购网络在线购买无人机技术和设计图",
+   "CAR在伊拉克访问的伊斯兰国无人机生产设施显示其试图自研大型系统，需采购微型喷气涡轮、高度计、伺服电机等国际硬件",
+   "也门冲突中记录的多种无人机型号使用的关键部件与该地区其他地方扩散的部件相同，包括与也门和巴林非国家武装简易爆炸装置中观察到的部件匹配",
+   "CAR追踪这些四旋翼无人机至亚洲和中东的独立分销商，但因涉及公司通常不保存客户或序列号记录而无法确定如何转移至伊斯兰国",
+   "常规弹药转移在无人机武器化中发挥关键作用，安理会第2664号决议强调了这一点"
+  ],
+  "data": [
+   {
+    "metric": "CAR记录的伊拉克和叙利亚四旋翼无人机数量",
+    "value": "28架",
+    "context": "伊斯兰国使用，同一制造商同一型号"
+   },
+   {
+    "metric": "CAR行动覆盖的冲突区数量",
+    "value": "25个以上",
+    "context": "全球范围，CAR成立于2011年以来"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
+ },
+ {
+  "kol": "Conflict Armament Research (CAR)",
+  "theater": "中东",
+  "source_url": "https://freebasenews.com/wp-content/uploads/2025/02/Weapons-of-the-Islamic-State.pdf",
+  "source_title": "WEAPONS OF THE ISLAMIC STATE - freebasenews.com",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「car」",
+  "topic": "伊斯兰国（IS）在伊拉克与叙利亚的武器弹药来源与转移路径",
+  "claim": "IS武器的主要来源是战场缴获与未授权转移，其中美国和沙特向叙利亚反对派提供的华约制式装备在2个月内即可转手至IS，外部供应间接导致IS获得大量反装甲弹药并持续威胁联军",
+  "reasoning": "CAR通过三年田野调查追踪超过4万件IS装备的序列号与生产批次，结合各国政府与制造商档案还原供应链条。发现IS武器90%为华约口径（主要来自中俄及东欧），但北约制式装备虽占比仅3%却通过2014年对伊拉克政府军的初期攻势大量缴获。关键证据是追溯到一枚先进反坦克导弹从欧盟工厂出厂、售予美国、转供叙利亚某方、再流入伊拉克IS手中的完整链条仅耗时2个月，且美沙供应的东欧采购华约装备中包含串联战斗部火箭等现代反应装甲克制武器。俄中合计制造IS武器弹药50%以上，前华约现欧盟成员国占30%武器与20%弹药，且IS在伊叙两国使用的武器产地分布恰好映射当地政府军装备体系，印证其通过战场缴获获取主要库存的假设",
+  "evidence": [
+   "2014年7月至2017年11月期间，CAR田野调查队在从叙利亚科巴尼到伊拉克巴格达南部的IS前线阵地部署，记录超过4万件装备",
+   "CAR追踪到一枚欧盟制造的先进反坦克导弹，从工厂发货到被IS使用并由CAR在伊拉克现场记录，整个转移链条（欧盟→美国→叙利亚某方→IS）在2个月内完成",
+   "845件武器的序列号彼此接近，可归类为240组同批次生产并可能在同一或连续批次出口的装备",
+   "IS在伊拉克与叙利亚部署的武器产地存在差异：在叙利亚，俄制武器数量超过中国制武器，反映俄罗斯对叙政府的供应；两国IS武器产地分布均与当地政府军装备体系高度吻合",
+   "外部向叙利亚冲突各方供应物资（notably美国与沙特）使IS间接获得大量反装甲弹药，包括ATGW和多种串联战斗部火箭",
+   "IS弹药库存中超过15%制造于2010-2017年间，而同期武器占比不足2%；超过60%的武器制造于1990年前"
+  ],
+  "data": [
+   {
+    "metric": "华约口径武器占比",
+    "value": "97%",
+    "context": "IS武器总数中"
+   },
+   {
+    "metric": "华约口径弹药占比",
+    "value": "87%",
+    "context": "IS弹药总数中"
+   },
+   {
+    "metric": "北约口径武器占比",
+    "value": "3%",
+    "context": "IS武器总数中"
+   },
+   {
+    "metric": "中俄合计制造占比",
+    "value": "50%以上",
+    "context": "IS武器与弹药总量"
+   },
+   {
+    "metric": "前华约现欧盟国制造占比",
+    "value": "武器30%以上，弹药20%以上",
+    "context": "IS武器弹药总量中"
+   },
+   {
+    "metric": "记录装备总数",
+    "value": "超过4万件",
+    "context": "2014年7月至2017年11月"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-08"
  }
 ]
