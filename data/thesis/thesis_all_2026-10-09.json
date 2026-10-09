@@ -274,5 +274,107 @@
   "horizon": "当前状态描述，未指明未来时间节点",
   "confidence": "high",
   "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Thomas Withington",
+  "theater": "军工与战略",
+  "source_url": "https://www.diacc.ae/assets/diacc_airspace-journal_english_051125-thomas-withington.pdf",
+  "source_title": "BELIEVE THE HYPE: HYPERSONIC WEAPONS AND RADAR-ELECTRONIC ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「thomas withington」",
+  "topic": "高超音速导弹的雷达与电子战探测技术挑战",
+  "claim": "单一技术无法充分探测、识别和跟踪所有高超音速导弹威胁，必须依靠雷达、电子支援措施（ESM）、红外和声学探测等多种传感器的网络化整合",
+  "reasoning": "Withington 基于高超音速导弹的三大技术特性进行论证：其飞行速度（超过 Mach 5）导致预警时间极短（例如 3M22 Zircon 以 5,334 节速度飞行 1,000 公里仅需 6 分 4 秒）；低雷达截面（RCS 可能仅 0.05 平方米）使雷达回波信号强度极弱（从 -5.84 dB 降至 -38.85 dB）；等离子体隐身理论上可吸收雷达信号但实践中需匹配频率且难以应对跳频雷达，同时等离子体产生的高热特征可被红外传感器捕获。他通过物理计算和技术分析指出，雷达探测受限于视距和信号衰减，ESM 虽能提前 0.217 毫秒探测到导弹主动雷达导引头信号但灵敏度要求极高，红外传感器可探测热羽但易受云层遮挡，因此得出必须多传感器协同的结论。",
+  "evidence": [
+   "俄罗斯 3M22 Zircon 导弹射程 540 海里（1,000 公里），测试中速度达约 5,334 节（9,878 公里/小时），以此速度覆盖全程仅需 6 分 4 秒",
+   "3M22 巡航高度约 65,617 英尺（20,000 米），地基雷达在 314 海里（582 公里）距离探测到该高度目标后，仅有 3 分 32 秒处理窗口",
+   "高超音速导弹的雷达截面可能为 0.05 平方米或更小，导致雷达回波信号强度从波音 747（100 平方米 RCS）的 -5.84 dB 降至 -38.85 dB",
+   "ESM 探测导弹主动雷达导引头（通常工作在 X 波段、Ku 波段或 Ka 波段）信号的时间比雷达探测目标快一半（0.217 毫秒 vs 0.434 毫秒）",
+   "等离子体隐身需要等离子体频率与雷达信号频率精确匹配，但雷达可每秒跳频数千次，使等离子体生成设备难以预测伪随机跳频模式",
+   "天基红外传感器可探测高超音速导弹产生的等离子体热羽和发动机尾焰，但导弹热特征明显低于弹道导弹火箭发动机，且云层可能遮挡卫星视线"
+  ],
+  "data": [
+   {
+    "metric": "高超音速定义速度",
+    "value": "超过 Mach 5（3,334 节 / 6,174 公里/小时）",
+    "context": "标准定义"
+   },
+   {
+    "metric": "3M22 射程",
+    "value": "540 海里（1,000 公里）",
+    "context": "公开资料"
+   },
+   {
+    "metric": "3M22 测试速度",
+    "value": "约 5,334 节（9,878 公里/小时）",
+    "context": "测试数据"
+   },
+   {
+    "metric": "3M22 巡航高度",
+    "value": "约 65,617 英尺（20,000 米）",
+    "context": "估算值"
+   },
+   {
+    "metric": "地基雷达视距探测距离",
+    "value": "314 海里（582 公里）",
+    "context": "针对 65,617 英尺高度目标"
+   },
+   {
+    "metric": "波音 747 RCS",
+    "value": "100 平方米",
+    "context": "示例对比"
+   },
+   {
+    "metric": "高超音速导弹 RCS",
+    "value": "0.05 平方米或更小",
+    "context": "估算值"
+   },
+   {
+    "metric": "ESM 探测时间优势",
+    "value": "0.217 毫秒（雷达往返时间的一半）",
+    "context": "基于 65 公里距离计算"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-09"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://info.breakingdefense.com/hubfs/eBRIEF_CUAS_CACI_Breaking_Defense.pdf",
+  "source_title": "Expanding the counter-UAS envelope",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国反无人机防御体系的规模化挑战与技术演进方向",
+  "claim": "未来伊朗可能在中东发动类似俄罗斯规模的大规模无人机/导弹袭击（800架无人机+15-20枚巡航/弹道导弹），几乎不可能拦截每一枚来袭武器",
+  "reasoning": "基于俄乌战争中俄罗斯无人机战术的快速迭代演进（从Shahed无人机到喷气式Geran-3），以及俄伊之间的深度双向技术合作正在加速扩散。俄罗斯已将从乌克兰战场学到的经验显著改进了伊朗提供的Shahed型号，这种技术转移将使伊朗获得发动更大规模攻击的能力，而传统防御体系难以应对如此密集的饱和攻击",
+  "evidence": [
+   "俄罗斯与伊朗的合作「并非完全利他，但现在非常深入且是双向的」，伊朗最初向俄罗斯提供Shahed无人机，现在俄罗斯已对这些型号进行了重大改进",
+   "俄罗斯在乌克兰战场经历了无人机战术的快速对抗演化：乌克兰用移动炮车击落Shahed后，俄罗斯提高飞行高度；乌克兰用小型四旋翼撞击Shahed后，俄罗斯转向使用喷气动力的Geran-3无人机以超越四旋翼速度",
+   "俄罗斯目前能发动包含800架无人机、15-20枚巡航或弹道导弹的大规模攻击包",
+   "中国在印太地区传统上拥有大量弹道和巡航导弹库存，并正在开发高超音速武器"
+  ],
+  "data": [
+   {
+    "metric": "俄罗斯单次攻击规模（无人机）",
+    "value": "800架",
+    "context": "当前俄罗斯对乌克兰发动的大规模攻击包"
+   },
+   {
+    "metric": "俄罗斯单次攻击规模（导弹）",
+    "value": "15-20枚",
+    "context": "巡航或弹道导弹，配合无人机使用"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "不远的未来（not really a very distant future）",
+  "confidence": "medium",
+  "extracted_on": "2026-10-09"
  }
 ]
