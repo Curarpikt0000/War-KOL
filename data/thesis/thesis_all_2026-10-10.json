@@ -1,0 +1,1001 @@
+[
+ {
+  "kol": "Larry C. Johnson",
+  "theater": "中东",
+  "source_url": "https://shows.acast.com/dialogue-works/episodes/larry-c-johnson-pepe-escobar-irans-ultimate-defense-plan-the",
+  "source_title": "Larry C. Johnson & Pepe Escobar: Iran's Ultimate Defense Plan: The End ...",
+  "published_on": "2026-01-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「larry c. johnson」",
+  "topic": "美国对伊朗军事打击与中东地区冲突升级",
+  "claim": "美国将在中期选举日前对伊朗发动新的军事打击，但这只会导致油价飙升并引发全球经济灾难",
+  "reasoning": "Larry Johnson 判断美国政府正准备在选举前对伊朗采取军事行动，以制造政治效应。但他认为这种打击会适得其反：不仅无法达成战略目标，反而会引发波斯湾危机，导致硫磺、尿素、LNG等关键工业化学品和化肥严重短缺，触发全球粮食危机、通胀飙升和严重衰退。他强调仅关注石油价格忽略了这场地缘政治灾难的更大图景，包括伊朗在霍尔木兹海峡的持续影响力以及美国误导性叙述背后的沉重代价",
+  "evidence": [
+   "2026年1月美国支持的伊朗政权更迭行动失败，涉及经济破坏、Starlink协调的动乱和外国支持的暴力活动",
+   "伊朗通过互联网关闭和反情报努力挫败了该阴谋，阻止了即将发生的美国军事打击",
+   "美国B-1轰炸机从英国重新部署，预期冲突升级",
+   "波斯湾危机导致硫磺、尿素和LNG严重短缺",
+   "沙特阿美石油设施卫星图像显示遭受大规模破坏",
+   "美国关于控制霍尔木兹海峡的声明与伊朗实际影响力存在矛盾"
+  ],
+  "data": [
+   {
+    "metric": "空袭次数",
+    "value": "100+次",
+    "context": "沙特领导的联军在也门发动的轰炸"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "中期选举日前（2026年内）",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Larry C. Johnson",
+  "theater": "中东",
+  "source_url": "https://dialogueworks.substack.com/p/larry-c-johnson-us-attacks-iran-and",
+  "source_title": "Larry C. Johnson: U.S. Attacks Iran And Triggers MASSIVE RESPONSE!",
+  "published_on": "2025-06-23",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「larry c. johnson」",
+  "topic": "美国对伊朗核设施的打击及后续影响",
+  "claim": "美国声称摧毁伊朗核设施的说法被夸大，实际损害极小，以色列将因导弹防御和经济压力而被迫结束战争",
+  "reasoning": "Larry C. Johnson 认为从卫星图像看美国打击造成的实际破坏很小，伊朗可能提前得到预警。他判断持续的伊朗导弹打击将给以色列造成防御和经济上的消耗，这种消耗战会在以色列国内形成政治压力，最终迫使战争结束。他还指出伊朗现在可能会寻求俄罗斯和中国的防空系统支持，而封锁霍尔木兹海峡的可能性较低，因为会损害伊朗与亚洲国家的贸易",
+  "evidence": [
+   "卫星图像显示美国打击伊朗核设施造成的损害极小",
+   "伊朗可能提前获得了打击预警",
+   "伊朗此前拒绝过但现在可能寻求俄罗斯和中国提供 S-400 等防空系统",
+   "以色列在伊朗导弹打击下面临导弹防御和经济可持续性困难",
+   "战争在以色列造成日益增长的痛苦，可能导致内部政治转变"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://www.guampdn.com/news/analyst-pull-troops-away-from-china-and-taiwan-toward-guam-to-reduce-chance-of-war/article_be4edcfc-fc4c-43d4-87de-674263c62c8c.html",
+  "source_title": "Analyst: Pull troops away from China and Taiwan, toward Guam ...",
+  "published_on": "2026-09-14",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "美军在亚太地区部署调整——撤向第二岛链",
+  "claim": "美军应从第一岛链（台湾、日韩、菲律宾）大幅撤军，收缩至第二岛链（关岛及密克罗尼西亚），可降低美中战争风险且成本更低",
+  "reasoning": "Jennifer Kavanagh 认为当前美国在亚洲的核心利益是保卫本土和维护经济市场准入，而非需要与日韩菲保持冷战式军事同盟。她主张用「临时性安全伙伴关系」取代常驻驻军，理由是：1) 台湾的美军教官只是「绊索」而无战略价值；2) 韩国可保留情报支援和轮换部队即可；3) 冲绳海军陆战队已计划移往关岛；4) 第二岛链基地足以应对「中国干扰商业航线」等突发威胁，且当前此类威胁并不存在。她计算显示该方案可削减70%战机和人员、50%水面舰艇，同时潜艇数量可能翻倍，总体更可持续。",
+  "evidence": [
+   "美国目前在亚洲部署9万人，远低于冷战高峰时的70万人",
+   "美军已计划将冲绳的1.8万名海军陆战队员迁往关岛",
+   "中国「窃取」菲律宾多个礁滩并宣称主权，每日侵入日本尖阁列岛领海，「意外损坏」台湾海底通信电缆并威胁武统",
+   "第二岛链调整后关岛及周边岛屿将驻扎约5000人、2个战斗机中队、5艘攻击核潜艇和轮换海军力量",
+   "美国与日本、韩国、菲律宾的防务同盟是其在该地区军事影响力的「核心支柱」",
+   "亚洲是美国重要贸易伙伴聚集地，包括中国、台湾、日本，是制造业与技术发展中心及关键贸易航线所在地"
+  ],
+  "data": [
+   {
+    "metric": "亚太驻军总数（当前）",
+    "value": "9万人",
+    "context": "分散在亚洲各地，主要在日本"
+   },
+   {
+    "metric": "冷战高峰驻军数",
+    "value": "70万人以上",
+    "context": "历史对比"
+   },
+   {
+    "metric": "冲绳海军陆战队规模",
+    "value": "1.8万人",
+    "context": "计划2030年前全部撤回美国"
+   },
+   {
+    "metric": "关岛现有驻军",
+    "value": "约8000人",
+    "context": "当前水平"
+   },
+   {
+    "metric": "第二岛链调整后人员",
+    "value": "5000人",
+    "context": "分布于关岛及密克罗尼西亚岛链"
+   },
+   {
+    "metric": "战机削减比例",
+    "value": "70%",
+    "context": "相比当前部署"
+   },
+   {
+    "metric": "水面舰艇削减比例",
+    "value": "50%",
+    "context": "相比当前部署"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2030年前",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/no-cause-for-alarm-the-case-for-a-measured-response-to-russian-air-incursions/",
+  "source_title": "No Cause for Alarm: The Case for a Measured Response to Russian Air ...",
+  "published_on": "2025-10-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "北约东翼空域防御与俄罗斯无人机入侵应对策略",
+  "claim": "俄罗斯近期无人机入侵北约领空并非战争前奏，而是混合战役的延续，欧洲应采取克制性的分层防御策略而非激进措施",
+  "reasoning": "Robert Hamilton 认为俄罗斯的无人机活动不应被解读为「第零阶段战争」的开端。他的论证基于三点：一是2022年以来类似事件已发生数十次但未显著升级，显示普京在避免与北约直接冲突；二是若真想测试北约防御，几十架无人机和短暂领空侵入的规模远远不够；三是这些行动更符合俄罗斯对欧洲持续施加的混合战役模式（破坏、网络攻击等低于常规战争门槛的手段），旨在惩罚欧洲对乌克兰的支持。因此他主张欧洲应聚焦低成本反无人机技术的分层部署和边境国家的区域协调，而非设立禁飞区或直接参与乌克兰防空等可能引发北约-俄罗斯直接军事冲突的激进方案。",
+  "evidence": [
+   "自2022年以来，无人机、导弹和其他碎片已在波兰和罗马尼亚降落数十次",
+   "9月10日约20架Gerbera侦察无人机从俄罗斯发射进入波兰领空，部分被北约战机击落",
+   "9月14日另一架无人机在罗马尼亚上空被探测追踪后返回乌克兰",
+   "9月下旬三架俄罗斯战斗机进入爱沙尼亚芬兰湾上空停留12分钟后被北约战机拦截",
+   "俄罗斯自2022年全面入侵乌克兰以来对欧洲持续实施破坏、网络攻击等混合战役战术",
+   "北约在爱沙尼亚事件中成功拦截俄方战机，显示现有协议可应对有人驾驶飞机入侵"
+  ],
+  "data": [
+   {
+    "metric": "Gerbera无人机数量",
+    "value": "约20架",
+    "context": "2025年9月10日进入波兰领空"
+   },
+   {
+    "metric": "俄战机在爱沙尼亚领空停留时间",
+    "value": "12分钟",
+    "context": "9月下旬芬兰湾上空事件"
+   },
+   {
+    "metric": "2022年以来无人机/导弹落入波兰罗马尼亚次数",
+    "value": "数十次",
+    "context": "2022年至2025年9月期间"
+   },
+   {
+    "metric": "廉价无人机成本",
+    "value": "约1万美元",
+    "context": "文中提及用昂贵导弹击落此类无人机不可持续"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Jennifer Kavanagh",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/understanding-the-russo-ukrainian-war-a-guide-from-war-on-the-rocks/",
+  "source_title": "Understanding the Russo-Ukrainian War: A Guide From War on the Rocks",
+  "published_on": "2022-02-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jennifer kavanagh」",
+  "topic": "乌克兰武装中立方案作为北约对乌政策选项",
+  "claim": "武装中立是北约对乌克兰最不差的选项（Armed Neutrality for Ukraine is NATO's Least Poor Option）",
+  "reasoning": "Jennifer Kavanagh认为，在俄乌冲突持续、乌克兰无法完全收复失地且北约直接介入风险极高的情况下，让乌克兰保持武装中立地位——即不加入北约但获得充分军事援助以自卫——是北约面对诸多困境时的「最不差」务实方案。这一判断基于对当前战场僵持态势、北约成员国分歧、以及长期安全架构设计需求的综合评估。该方案试图在避免北约俄罗斯直接冲突、维持乌克兰防御能力、以及为未来外交解决保留空间之间寻找平衡点。",
+  "evidence": [
+   "Jennifer Kavanagh参与题为「Making the Case for Armed Neutrality in Ukraine」的播客讨论（2025年5月）",
+   "Jennifer Kavanagh与Christopher McCallion共同发表文章「Armed Neutrality for Ukraine Is NATO's Least Poor Option」（2025年2月）",
+   "文章明确主张武装中立是北约当前「最不差选项」，暗示其他选项（如北约扩员或放弃乌克兰）风险更高或不可行",
+   "该立场在2025年初俄乌战争进入第三年、战线相对僵持、西方援乌政治意愿面临考验的背景下提出"
+  ],
+  "data": [
+   {
+    "metric": "战争持续时间",
+    "value": "第三年",
+    "context": "2025年2-5月发表观点时，战争已进入第三年（2022年2月开战）"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Rocío San Miguel",
+  "theater": "拉美",
+  "source_url": "https://abc17news.com/cnn-spanish/2026/10/09/rocio-san-miguel-tras-su-absolucion-se-ratifico-el-derecho-de-los-civiles-a-seguir-auditando-a-la-fuerza-armada/",
+  "source_title": "Rocío San Miguel tras su absolución: “Se ratificó el derecho ...",
+  "published_on": "2026-10-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rocío san miguel」",
+  "topic": "委内瑞拉军队监督与公民社会审查权",
+  "claim": "对委内瑞拉武装力量进行民间监督和审查是公民基本权利，应当继续合法存在",
+  "reasoning": "San Miguel认为其被控「白手环」阴谋案后获无罪释放的判决，实质上是对平民审查军队权力的法律确认。她强调这不仅关乎个人，而是确立了记者、分析师、研究者和大学继续监督「掌握国家武装的人」的合法性。她将此视为在威权环境下捍卫言论自由和异见权利的象征性胜利，认为在民主社会中批评公共政策不应导致失踪或拘禁",
+  "evidence": [
+   "San Miguel通过「公民监督」组织披露委内瑞拉军方内部运作信息，并记录被拘押军人的人权状况及酷刑指控",
+   "她于2024年在迈凯蒂亚机场试图离境时被捕，被控恐怖主义、叛国罪及参与暗杀马杜罗的「白手环」阴谋",
+   "委内瑞拉法院在2026年10月宣判其无罪，法律上确认其无刑事责任",
+   "在押期间她被禁止打电话和指定信任律师，直到被捕1年10个月后才首次与家人通话",
+   "其兄弟因她被捕导致无法前往西班牙接受已安排好的器官移植治疗，最终错过移植时机"
+  ],
+  "data": [
+   {
+    "metric": "关押时长",
+    "value": "23个月",
+    "context": "San Miguel被监禁总时长"
+   },
+   {
+    "metric": "司法程序总时长",
+    "value": "2年8个月",
+    "context": "从逮捕到宣判无罪的完整诉讼周期"
+   },
+   {
+    "metric": "首次家人通话时间",
+    "value": "被捕后1年10个月",
+    "context": "她在押期间首次获准与兄长电话联系的时间点"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://threadreaderapp.com/thread/1736404060297699404.html",
+  "source_title": "Thread by @jakluge on Thread Reader App",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jakluge」",
+  "topic": "俄乌战争谈判前景与普京动机演变",
+  "claim": "克里姆林宫不会同意在乌克兰问题上达成妥协，因为普京的战争动机已从帝国主义扩张演变为必须摧毁乌克兰并羞辱西方",
+  "reasoning": "普京在全面入侵后遭遇军事挫败，在世界舞台上被羞辱，其战争动机发生根本转变。作为长期通过摧毁和羞辱挑战者来维系权力的独裁者，普京不能让乌克兰「逃脱惩罚」，必须进行震撼性的报复以挽回颜面和巩固统治。这种残酷性在纳瓦尔尼和普里戈津案例中已有体现，因此任何妥协的暗示对普京而言都是致命的",
+  "evidence": [
+   "乌克兰军队在全面入侵开始后暴露了普京政权的软弱，俄罗斯在世界舞台上遭到羞辱",
+   "普京在掌权期间精心培养了摧毁和羞辱公开挑战者的声誉，且这种摧毁必须是震撼性和令人沮丧的公开展示",
+   "纳瓦尔尼本应在飞机上死得壮观痛苦，但因运气和FSB的无能而幸存",
+   "普里戈津的处决同样具有戏剧性",
+   "几乎所有俄罗斯国内政治专家都不相信谈判解决的可能性，并推动对乌克兰的更多支持",
+   "克里姆林宫的动机在2022年2月24日后几天内就从统治演变为完全摧毁乌克兰"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Tom Shugart",
+  "theater": "军工与战略",
+  "source_url": "https://x.com/tshugart3/status/2107896809448484886",
+  "source_title": "Tom Shugart on X: \"Nor is Guam a sanctuary. China’s DF-26 and ...",
+  "published_on": "2026-10-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom shugart」",
+  "topic": "美军第一岛链前沿部署与对华威慑战略",
+  "claim": "美军不应从第一岛链撤退，而应通过分散部署、加固设施和建立跨两条岛链的韧性网络来应对中国威胁",
+  "reasoning": "Tom Shugart认为威慑的核心是「拒止」（denial）而非成本施加，即让北京相信军事行动会失败。他主张第一岛链（日本、菲律宾）拥有更多可分散部署的基地和民用设施，能够支撑空军敏捷作战部署（ACE）；相比之下第二岛链（关岛、天宁岛等）可用地产太少、后勤线过长、出动架次率低，反而削弱了在台海冲突实际发生地的作战能力。他强调失去台湾将使中国获得深水港、深海传感器等战略地形，威胁日本海上交通线并向菲律宾海投射力量。后撤会让北京更相信能在美国有效干预前完成目标，反而增加战争风险。",
+  "evidence": [
+   "日本和菲律宾提供大量军用与民用机场、港口等设施用于分散部署，正是空军敏捷作战部署（ACE）设计利用的对象",
+   "第二岛链（关岛、天宁岛、塞班、帕劳等）可用作战地产远少于第一岛链，地图上绿色区域明显稀缺",
+   "中国东风-26和东风-27导弹射程覆盖关岛，且数量更多",
+   "中国控制台湾后可利用深水港支持潜艇、部署深海传感器、防空力量和其他兵力向菲律宾海投射，威胁日本海上交通线",
+   "美国自1979年以来未在台湾保持作战军事存在，驻台少量人员为训练和顾问",
+   "驻韩美军的核心任务仍是威慑和防御朝鲜，而非主要针对中国"
+  ],
+  "data": [
+   {
+    "metric": "美军撤离台湾时间",
+    "value": "1979年",
+    "context": "美国自该年起未在台湾保持作战军事存在"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Tom Shugart",
+  "theater": "军工与战略",
+  "source_url": "https://x.com/tshugart3/status/2107896802741547292",
+  "source_title": "Tom Shugart on X: \"A quick look at the map shows the SIC has ...",
+  "published_on": "2026-10-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「tom shugart」",
+  "topic": "美军第一岛链前沿部署与对华威慑战略",
+  "claim": "美军应当保持第一岛链前沿部署并加强分散能力，而非后撤至第二岛链",
+  "reasoning": "Tom Shugart认为威慑拒止的核心是让北京相信军事行动会失败，而非仅提高成本。撤至第二岛链虽减少近距离脆弱性，但会面临可用基地更少、后勤线更长、出动架次更低等问题，且关岛等地仍在东风-26/27射程内并非绝对安全。日本和菲律宾提供的众多军民用机场港口足以支撑分散部署，第一岛链的地理纵深远超第二岛链。失去台湾将使中国获得深水港、传感器网络等战略地形，威胁日本海上交通线并向菲律宾海投射力量。物理距离增加可能降低摩擦但若北京认为能在美军有效干预前达成目标反而增加动武诱因",
+  "evidence": [
+   "日本和菲律宾提供众多军民用机场、港口等设施可供分散部署，这正是空军「敏捷作战部署」(Agile Combat Employment)设计利用的对象",
+   "第二岛链仅有关岛、天宁岛、塞班岛、帕劳等地，可用地产远少于日本菲律宾，地图显示「绿色区域不多」",
+   "中国东风-26和东风-27导弹射程覆盖关岛且数量更多，后撤只是降低武器密度而非绝对安全",
+   "中国控制台湾后可通过深水港支援潜艇、部署深海传感器、防空力量向菲律宾海投射，威胁日本海上交通线",
+   "美国自1979年以来未在台湾保持作战军事存在，目前仅有少量训练/顾问人员",
+   "驻韩美军的核心任务仍是威慑和防御朝鲜而非对华威慑"
+  ],
+  "data": [
+   {
+    "metric": "美军撤离台湾年份",
+    "value": "1979年",
+    "context": "美国最后一次在台湾保持作战军事存在"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://sites.tufts.edu/fletcherrussia/russias-manned-space-program-disrupted-by-war-in-ukraine/",
+  "source_title": "Russia’s Manned Space Program Disrupted by War in Ukraine",
+  "published_on": "2023-11-11",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 sites.tufts.edu",
+  "topic": "俄罗斯轨道站(ROS)建设与乌克兰战争对俄航天计划的冲击",
+  "claim": "俄罗斯无法同时支撑对乌战争和多舱段轨道站开发，ROS项目大概率无法按2028-2030时间表实现，甚至可能完全无法完成",
+  "reasoning": "俄罗斯航天预算在2021年前后大幅下降，联邦航天计划未来几年需「追赶」才能恢复到此前支出水平，而NEM舱段需从2024年开始重新设计和生产。同时Angara-5运载火箭需升级、新载人飞船尚未生产、联盟号飞船难以适配ROS技术规格。即便克服所有研发和生产挑战，莫斯科也必须要么大幅增加预算，要么砍掉其他项目全力投入ROS。在对乌战争和西方对抗的双重压力下，这些技术、工业和财政弱点使ROS完全实现的可能性极低",
+  "evidence": [
+   "Roscosmos官方数据显示ROS到2030年需3500亿卢布（约40亿美元），延至2035年成本升至6000亿卢布（近70亿美元）",
+   "「俄罗斯航天活动」国家计划2024-2026年预算相比上一个十年未显著增长",
+   "联邦航天计划2021年前后支出下降，未来几年需追赶才能达到类似支出水平",
+   "NEM舱段此前年度资金不足以完成项目，需在2024年开始重新设计和生产",
+   "Angara-5运载火箭需升级以发射NEM及未来舱段，俄罗斯尚未生产新载人飞船替代苏联时代的联盟号",
+   "俄罗斯对乌侵略摧毁了其参与美国「Gateway」月球站项目的机会",
+   "与中国、其他金砖国家及非洲国家的航天合作前景不佳且难以长期维持"
+  ],
+  "data": [
+   {
+    "metric": "ROS到2030年所需资金",
+    "value": "3500亿卢布（约40亿美元）",
+    "context": "Roscosmos官方数据"
+   },
+   {
+    "metric": "ROS延至2035年成本",
+    "value": "6000亿卢布（近70亿美元）",
+    "context": "估算值"
+   },
+   {
+    "metric": "ISS俄罗斯舱段当前维护成本",
+    "value": "350亿卢布（约5亿美元）/年",
+    "context": "用于成本对比"
+   },
+   {
+    "metric": "ROS首批舱段计划发射时间",
+    "value": "2028-2030年",
+    "context": "首席设计师Vladimir Kozhevnikov声明2028年如期"
+   },
+   {
+    "metric": "ROS设计服役寿命",
+    "value": "50年",
+    "context": "载人航天系统总设计师Vladimir Solovyov于11月7日宣布"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "2028-2035年",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Therése Pettersson",
+  "theater": "拉美",
+  "source_url": "https://www.klcc.org/npr-world-news/2026-06-09/global-violence-reaches-record-levels-due-to-war-and-attacks-on-civilians",
+  "source_title": "Global violence reaches record levels due to war and attacks on ... - KLCC",
+  "published_on": "2026-06-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「therése pettersson」",
+  "topic": "全球暴力冲突水平与国家间武装冲突趋势",
+  "claim": "国家间武装冲突正变得更加频繁，这可能标志着美国主导的世界秩序正在终结",
+  "reasoning": "Pettersson基于Uppsala冲突数据项目的长期数据观察到：冷战后国家间冲突会减少的预期并未实现，反而国家间战争越来越普遍。这种趋势与地缘政治竞争加剧、美国不再扮演「世界警察」角色的现象相吻合，因此推断传统的Pax Americana和自由世界秩序可能正在瓦解。",
+  "evidence": [
+   "涉及国家的武装冲突数量在2023年达到自1946年数据采集开始以来的历史最高水平",
+   "国家间冲突（双方都有国家参与）数量连续第二年翻倍，创UCDP记录新高",
+   "2023年是自1994年卢旺达大屠杀以来第二致命的年份",
+   "冷战后时代国家间冲突会减少的预期未能在数据中得到印证",
+   "当前世界呈现地缘政治竞争加剧的特征"
+  ],
+  "data": [
+   {
+    "metric": "俄乌战争占全球国家武装冲突死亡人数比例",
+    "value": "约62%",
+    "context": "2023年"
+   },
+   {
+    "metric": "数据采集起始年份",
+    "value": "1946年",
+    "context": "UCDP数据库"
+   },
+   {
+    "metric": "致命程度排名",
+    "value": "第2位",
+    "context": "自1994年以来"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://defense.info/williams-foundation/2026/04/air-and-missile-defense-precision-strike-and-the-indo-pacific-lessons-from-ukraine-and-the-gulf/",
+  "source_title": "Air and Missile Defense, Precision Strike, and the Indo-Pacific ...",
+  "published_on": "2026-04-29",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "乌克兰战场防空与精确打击效能及成本平衡",
+  "claim": "乌克兰局势正在好转，俄方损失已回到不可持续轨迹，而乌方通过补充PAC-3拦截弹和天气改善扭转了1月低谷",
+  "reasoning": "Justin Bronk认为乌克兰自1月以来每月兵力小幅增长（得益于动员改革），而俄方只能通过强征义务兵转合同兵维持兵力规模，这使俄方重新进入不可持续的损失轨迹。防空方面，1月中下旬曾因PAC-3库存耗尽和反无人机系统全天候能力不足导致拦截率暴跌，但后续少量PAC-3补充和天气好转即扭转局面。他还指出俄罗斯被迫对Geran无人机持续升级（加装预警传感器、FPV相机、组网能力、规避航线）以应对乌方反制，导致生产成本上升但数量未增，这是「非决定性的进化博弈」。",
+  "evidence": [
+   "乌克兰自1月以来每月兵力小幅增长，此前长期未能做到",
+   "俄方只能通过强征义务兵转合同兵维持兵力规模",
+   "1月中下旬乌克兰PAC-3拦截弹库存耗尽，且多数反无人机系统全天候能力不足",
+   "针对无人机和巡航导弹的拦截率急剧下降，弹道导弹也出现突防",
+   "新一批PAC-3拦截弹到货后（数量小于海湾国家后续在Epic Fury行动中的消耗量）扭转局面",
+   "俄罗斯被迫对Geran-2和Geran-3持续升级（加装电子预警传感器、FPV相机、网格组网、规避航线），导致系统更复杂、成本更高但产量大致不变",
+   "一架乌克兰F-16在拦截一个目标后转弯时撞上未发现的第二个目标而损失"
+  ],
+  "data": [
+   {
+    "metric": "乌克兰一次打击任务所需一次性攻击无人机数量",
+    "value": "250-400架",
+    "context": "针对有意义目标以确保效果"
+   },
+   {
+    "metric": "一次性攻击无人机单价",
+    "value": "3-5万美元",
+    "context": "当前成本区间"
+   },
+   {
+    "metric": "无人机战斗部重量",
+    "value": "3-6磅",
+    "context": "典型载荷范围"
+   },
+   {
+    "metric": "海湾国家在Epic Fury行动中发射的PAC-3拦截弹",
+    "value": "超过2000枚",
+    "context": "整个战役期间"
+   },
+   {
+    "metric": "PAC-3拦截弹FMS价格",
+    "value": "约600万美元/枚",
+    "context": "对外军售定价"
+   },
+   {
+    "metric": "乌克兰某机场遭受攻击次数",
+    "value": "超过100次",
+    "context": "仍能保持出动能力的机场案例"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://defense.info/williams-foundation/2025/09/the-air-defence-reality-check-why-australia-has-less-time-than-it-thinks/",
+  "source_title": "The Air Defence Reality Check: Why Australia Has Less Time Than It ...",
+  "published_on": "2025-09-19",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "澳大利亚综合防空体系建设时间窗口与威胁应对",
+  "claim": "澳大利亚面临2-5年准备窗口期而非常规假设的5-10年，必须在此期间完成防空体系转型",
+  "reasoning": "Bronk认为多重因素压缩了准备时间：到2030年美国新平台（B-21轰炸机、先进导弹）将上线，中国领导层可能在美军能力成熟前行动；当前美国政治功能失调削弱情报综合能力；俄罗斯在乌克兰的常规优势虽暂时存在但3-5年后经济不可持续，形成行动压力；潜在冲突相互关联（中国对台行动可能吸引美军离开欧洲，反之亦然），这些因素共同构成紧迫的时间压力",
+  "evidence": [
+   "中国每年生产120架五代机歼-20，预计2030年机队达1000架",
+   "中国PL-15导弹在巴印冲突中创造史上最远空空交战记录，且该技术已有11年历史",
+   "中国正同步扩产歼-16远程打击机、舰载歼-15变体、电子战平台和加油机群",
+   "六代机歼-36项目已在试飞测试阶段",
+   "俄罗斯在乌部队规模已是2022年入侵时的3倍，尽管伤亡惨重",
+   "以色列承认在多向量攻击中将放弃城市防御，集中保护反攻作战必需的军事基地",
+   "乌克兰每月面对5000-6000架无人机加200枚巡航/弹道导弹攻击"
+  ],
+  "data": [
+   {
+    "metric": "歼-20年产量",
+    "value": "120架",
+    "context": "当前中国产能"
+   },
+   {
+    "metric": "歼-20机队规模预测",
+    "value": "1000架",
+    "context": "2030年预计"
+   },
+   {
+    "metric": "俄乌战场俄军规模增长倍数",
+    "value": "3倍",
+    "context": "相比2022年入侵时"
+   },
+   {
+    "metric": "乌克兰月均遭受无人机攻击数量",
+    "value": "5000-6000架",
+    "context": "当前"
+   },
+   {
+    "metric": "乌克兰月均遭受导弹攻击数量",
+    "value": "200枚",
+    "context": "巡航导弹+弹道导弹，当前"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2-5年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://www.mitchellaerospacepower.org/podcast/episode-110-russian-airpower-in-ukraine-lessons-for-the-west/",
+  "source_title": "Russian Airpower in Ukraine: Lessons for the West",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "俄乌战争中的空中战役与俄罗斯空军表现",
+  "claim": "媒体评论员对俄乌空战得出了完全错误的结论",
+  "reasoning": "Justin Bronk 认为尽管俄乌冲突开战阶段出现了激烈空战且至今仍在持续，挑战了人们对俄罗斯空军和现代空战的诸多假设，但许多评论人士（pundits）正在从这场战斗中得出「完全错误的结论」（exact wrong conclusion）。他强调需要分析交战双方采用的策略战术、投入的装备硬件及其对更广泛战争的意义，并从中为 NATO 和美国提炼经验教训",
+  "evidence": [
+   "媒体报道主要聚焦地面战争，但冲突开局阶段发生了激烈空战",
+   "空战至今仍在持续展开",
+   "这场空战挑战了关于俄罗斯空军的诸多假设",
+   "这场空战挑战了针对先进系统和坚定敌人的现代空战样貌的假设",
+   "全球对手正在评估西方对俄乌战争的反应"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Justin Bronk",
+  "theater": "俄乌",
+  "source_url": "https://warhappens.org/the-ukraine-air-war-in-2024-interviewing-professor-justin-bronk/",
+  "source_title": "The Ukraine Air-War in 2024 - Interviewing Professor Justin Bronk",
+  "published_on": "2024-02-26",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「justin bronk」",
+  "topic": "2024年俄乌空战态势与西方平台转换影响",
+  "claim": "俄罗斯将在2024年利用其在战机数量和滑翔炸弹等弹药方面的显著优势获取更多战果，而乌克兰正在向西方平台转换",
+  "reasoning": "经过两年全面作战，空战呈现出与地面战相同的特征——适应、消耗以及补给维持的重要性。俄方拥有战机和弹药的数量优势，特别是滑翔炸弹，而乌方正在进行平台转换。这种力量对比的不对称性将在2024年进一步显现，俄方会试图将装备优势转化为实际战果",
+  "evidence": [
+   "空战展现出与地面战相同的特征：适应、消耗以及补给维持的重要性",
+   "空战的不对称程度远超地面战斗",
+   "乌克兰正在向西方平台转换",
+   "俄罗斯在战机数量和滑翔炸弹等弹药方面拥有显著优势",
+   "俄罗斯正努力从其装备优势中获取更多收益"
+  ],
+  "data": [
+   {
+    "metric": "全面战争持续时间",
+    "value": "2年",
+    "context": "截至2024年"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2024年内",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://www.lexpress.eu/world/if-china-were-to-overtake-the-united-states-in-lunar-exploration-the-warning-from-researcher-todd-05-12-2026-SV5EUGEVKZGMHDTN3SCKV64QQY/",
+  "source_title": "\"If China were to overtake the United States in lunar exploration ...",
+  "published_on": "2026-05-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "中美月球探索竞赛及资源开发主导权",
+  "claim": "如果中国在月球探索上超越美国及其盟友，将构成经济威胁，因为这会让中国在开发月球本地资源上占据先机",
+  "reasoning": "Todd Harrison 将月球探索竞赛的核心从单纯的大国威望提升到经济层面。他认为月球探索的领先地位会直接转化为资源开发的时间优势，而资源开发才是实质性的经济利益来源。这一判断基于「先到者优先」的逻辑——率先抵达并建立基础设施的一方，将在月球资源（如稀有金属、氦-3、水冰）的勘探、开采、利用规则制定上掌握主动权，从而形成长期经济优势",
+  "evidence": [
+   "美国计划在2028年重新登月",
+   "中国计划在2030年实现载人登月",
+   "Artemis II任务标志着美国宇航员在半个多世纪后重返月球轨道",
+   "这场竞赛是华盛顿和北京这两个世界主要大国之间的战略议题，远超单纯的威望之争"
+  ],
+  "data": [
+   {
+    "metric": "美国载人登月目标年份",
+    "value": "2028年",
+    "context": "美国计划时间表"
+   },
+   {
+    "metric": "中国载人登月目标年份",
+    "value": "2030年",
+    "context": "中国计划时间表"
+   },
+   {
+    "metric": "Artemis II任务时长",
+    "value": "10天",
+    "context": "2025年4月初任务"
+   },
+   {
+    "metric": "美国宇航员重返月球轨道间隔",
+    "value": "半个多世纪",
+    "context": "距上次载人月球轨道任务"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2030年前后",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://fasterplease.substack.com/p/my-chat-transcript-with-defense-policy",
+  "source_title": "My chat (+transcript) with defense policy analyst Todd Harrison on ...",
+  "published_on": "2024-02-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美国太空军的战略定位与军事任务演变",
+  "claim": "美国太空军正从单纯的空间能力支持转向主动反制，需要在冲突前的竞争阶段对对手的灰色地带攻击实施反击，以维持太空领域优势",
+  "reasoning": "Todd Harrison认为美国在太空领域「坐享优势」数十年后已落后，对手每天都在实施非动能攻击（网络、电磁、激光致盲），而美国过去不愿在公开冲突前反制。太空军的成立为发展太空防御理论和反制能力提供了专业组织基础，新发布的白皮书明确提出要在竞争阶段「让对手感受后果」，通过对等反制或展示克服能力来「击退」（brush back）对手，这标志着从被动防御到主动竞争的战略转变",
+  "evidence": [
+   "2007年中国反卫星武器测试产生超过2600块太空碎片至今仍在轨道，标志着太空成为竞争性环境",
+   "俄罗斯入侵乌克兰初期首先发动空间攻击，利用ViaSat调制解调器漏洞锁定乌军和欧洲大量卫星通信终端",
+   "俄军持续干扰GPS信号使武器和无人机失效，太空军需用加密军用GPS和增强信号强度对抗",
+   "2017年众议院已通过「太空军团」法案（共和党Mike Rogers和民主党Jim Cooper推动），体现两党共识",
+   "太空军参谋长白皮书首次明确提出「竞争持久性理论」，强调在冲突前阶段反制灰色地带攻击",
+   "GPS卫星群每天遭受攻击，太空军负责防御各种形式攻击包括动能和非动能手段"
+  ],
+  "data": [
+   {
+    "metric": "2023年新发射卫星数量",
+    "value": "约2800颗",
+    "context": "单年使在轨卫星总数增长22%"
+   },
+   {
+    "metric": "中国2007年反卫星测试产生碎片",
+    "value": "超过2600块",
+    "context": "至今仍在轨道"
+   },
+   {
+    "metric": "首次反卫星测试时间",
+    "value": "1959年",
+    "context": "标志太空成为作战域的起点"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未来数年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://x.com/ToddHarrisonDC/status/2087579542969885075",
+  "source_title": "Todd Harrison on X: \"Discontinuity #1: Allocation. Modernization ...",
+  "published_on": "2026-08-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美国2027财年国防预算的现代化转型",
+  "claim": "2027财年1.5万亿美元国防预算将实现自朝鲜战争以来最大规模的现代化资金配置转变，但能否兑现取决于国会拨款、监督力度和工业产能三大未知数",
+  "reasoning": "Todd Harrison认为FY27预算呈现四大断裂性特征：现代化支出占比升至52%（朝鲜战争后最高）、五条国防级资金线集中控制近四分之一预算、导弹弹药采购在未来年度将达1999-2025均值3倍、PAC-3 MSE等装备采购量达历史均值14-17倍且交付期延至2029年后。这些指标显示预算不仅增长规模而且结构性重组，但长交付周期与超常采购率使执行面临国会拨款方式、监督强度、工业扩产能力三重不确定性",
+  "evidence": [
+   "FY27国防预算1.5万亿美元，是朝鲜战争以来最大单年增幅（百分比与绝对值）",
+   "现代化支出（采购+研发测试评估）占FY27预算52%，为朝鲜战争结束以来最高比例",
+   "仅五条国防级资金线占FY27全部现代化预算近四分之一，且国会获得的具体用途信息相对较少",
+   "未来财年计划中，导弹与弹药资金在FY2028-31将达到FY1999-2025年均值近3倍（按不变价格）",
+   "FY27计划采购的PAC-3 MSE数量为历史均值14倍，THAAD为17倍",
+   "许多武器的长交付周期意味着直到2029年或更晚才能交付，超出当前政府任期"
+  ],
+  "data": [
+   {
+    "metric": "FY27国防预算",
+    "value": "1.5万亿美元",
+    "context": "2027财年"
+   },
+   {
+    "metric": "现代化支出占预算比例",
+    "value": "52%",
+    "context": "FY27，朝鲜战争结束以来最高"
+   },
+   {
+    "metric": "五条国防级资金线占现代化预算比例",
+    "value": "近25%",
+    "context": "FY27"
+   },
+   {
+    "metric": "FY2028-31导弹弹药资金与历史均值比",
+    "value": "近3倍",
+    "context": "相对FY1999-2025均值，按不变价格"
+   },
+   {
+    "metric": "FY27 PAC-3 MSE采购量与历史均值比",
+    "value": "14倍",
+    "context": "相对历史平均采购率"
+   },
+   {
+    "metric": "FY27 THAAD采购量与历史均值比",
+    "value": "17倍",
+    "context": "相对历史平均采购率"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "2029年或更晚（交付期）；跨越当前政府任期",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://www.cfr.org/podcasts/presidents-inbox/golden-dome-missile-defense-system-todd-harrison",
+  "source_title": "The Golden Dome Missile Defense System, With Todd Harrison",
+  "published_on": "2025-09-16",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美国「金色穹顶」天基助推段反导系统可行性",
+  "claim": "针对俄罗斯或中国的大规模齐射攻击，天基助推段拦截系统在未来20年需要数万亿美元投入，技术可行但成本不可承受",
+  "reasoning": "Todd Harrison认为助推段拦截窗口极短（固体燃料导弹仅约3分钟），需要大量卫星覆盖全球。按500:1的卫星-拦截器配置比，拦截100枚导弹需20万枚在轨拦截器。虽然缩减为仅防御朝鲜/伊朗可降低成本（通过倾斜轨道覆盖北纬45度至南纬45度），但若要应对大国威胁，规模经济无法抵消天文数字级的系统成本",
+  "evidence": [
+   "特朗普行政令要求系统能击败「同级、近同级和流氓对手」的攻击，明确针对俄罗斯和中国",
+   "固体燃料洲际导弹助推段燃烧时间约3分钟，探测与跟踪需30秒，人工决策需15-30秒，留给拦截的时间仅约2分钟",
+   "低轨卫星相对地球表面持续移动，需500枚在轨拦截器才能始终保证1枚在射程内",
+   "若采用双发拦截方案，拦截100枚导弹需20万枚在轨拦截器",
+   "针对朝鲜/伊朗的缩减方案可用倾斜轨道覆盖北纬45度至南纬45度，但无法覆盖俄罗斯和中国大部分地区",
+   "CBO早期研究仅评估了「一次拦截一枚导弹且仅针对朝鲜/伊朗」的有限场景"
+  ],
+  "data": [
+   {
+    "metric": "助推段燃烧时间",
+    "value": "约3分钟",
+    "context": "固体燃料洲际导弹"
+   },
+   {
+    "metric": "探测与跟踪耗时",
+    "value": "约30秒",
+    "context": "从发射到建立弹道追踪"
+   },
+   {
+    "metric": "人工决策耗时",
+    "value": "15-30秒",
+    "context": "预授权情况下的最快决策"
+   },
+   {
+    "metric": "拦截器飞出时间",
+    "value": "约2分钟（120秒）",
+    "context": "从发射信号到助推段结束"
+   },
+   {
+    "metric": "卫星配置比",
+    "value": "500:1",
+    "context": "500枚在轨拦截器保证1枚始终在射程内"
+   },
+   {
+    "metric": "总成本预估",
+    "value": "数万亿美元",
+    "context": "未来20年应对俄中同时发射场景"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未来20年",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Aaron Y. Zelin",
+  "theater": "中东",
+  "source_url": "https://www.washingtoninstitute.org/policy-analysis/examining-terrorism-and-insurgency-links-between-afpak-and-iran",
+  "source_title": "Examining the Terrorism and Insurgency Links Between AfPak and Iran",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 washingtoninstitute.org",
+  "topic": "阿富汗-巴基斯坦与伊朗地区恐怖主义和叛乱活动的关联风险",
+  "claim": "阿富汗-巴基斯坦战区与伊朗冲突将进一步融合，基地组织和伊斯兰国呼罗珊省等恐怖组织将利用地区不稳定扩大活动，对区域和全球安全构成升级威胁",
+  "reasoning": "Aaron Y. Zelin认为两场冲突存在多重联系：基地组织在伊朗建有基地并为塔利班和TTP提供支持，ISKP已在伊朗发动多次重大袭击，伊朗内战可能激化分离主义运动并成为恐怖主义温床。他援引美国撤军后TTP袭击数量从2021年2月的15次激增至2026年3月的352次，以及ISKP利用阿富汗-巴基斯坦-土耳其网络在伊朗执行袭击的事实，论证恐怖组织正利用权力真空扩张。他警告若美国不协调反恐政策、不阻止伊朗国家分裂，将重蹈阿富汗、伊拉克、利比亚、叙利亚的覆辙",
+  "evidence": [
+   "TTP在巴基斯坦的袭击次数从2021年2月的15次增至2022年2月22次、2023年2月29次、2024年2月64次、2025年2月147次，2026年3月达352次",
+   "基地组织领导人Saif al-Adel驻伊朗，该组织自塔利班重新掌权后恢复类似9·11前的活动模式，为初创圣战组织提供资金并担任军事承包商",
+   "ISKP近年在伊朗发动三次重大袭击致数百人死亡，并利用阿富汗-巴基斯坦和土耳其网络执行袭击",
+   "伊朗代理组织对巴林、伊拉克库尔德斯坦、约旦、科威特、叙利亚发动高调导弹袭击，并袭击美国驻巴林、伊拉克、巴基斯坦外交设施",
+   "2024年1月伊朗与巴基斯坦因俾路支叛乱指控进行导弹互射",
+   "比利时一伊朗代理组织声称对犹太会堂袭击负责，2026年3月奥斯汀枪击案致4死15伤"
+  ],
+  "data": [
+   {
+    "metric": "TTP袭击次数",
+    "value": "15次",
+    "context": "2021年2月"
+   },
+   {
+    "metric": "TTP袭击次数",
+    "value": "22次",
+    "context": "2022年2月"
+   },
+   {
+    "metric": "TTP袭击次数",
+    "value": "29次",
+    "context": "2023年2月"
+   },
+   {
+    "metric": "TTP袭击次数",
+    "value": "64次",
+    "context": "2024年2月"
+   },
+   {
+    "metric": "TTP袭击次数",
+    "value": "147次",
+    "context": "2025年2月"
+   },
+   {
+    "metric": "TTP袭击次数",
+    "value": "352次",
+    "context": "2026年3月"
+   },
+   {
+    "metric": "ISKP在伊朗袭击致死人数",
+    "value": "数百人",
+    "context": "近年三次重大袭击"
+   },
+   {
+    "metric": "奥斯汀枪击案伤亡",
+    "value": "4死15伤",
+    "context": "2026年3月"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Aaron Y. Zelin",
+  "theater": "中东",
+  "source_url": "https://www.thelevantfiles.org/2025/12/washington-institute-report-assesses.html",
+  "source_title": "Washington Institute Report Assesses Syria’s Fragile ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「aaron y. zelin」",
+  "topic": "叙利亚阿萨德政权垮台后的过渡政府治理与稳定前景",
+  "claim": "叙利亚过渡政府虽取得初步成功，但「影子政府」和不透明经济实践威胁长期稳定，最终走向仍是开放性问题",
+  "reasoning": "Aaron Y. Zelin 基于两次实地考察和多方资料，认为过渡政府在恢复基础设施、外交关系和吸引投资方面取得了显著成果，但将「伊德利卜模式」复制到全国导致正式机构掩盖了更深层、缺乏问责的权力结构。前 Hayat Tahrir al-Sham (HTS) 组织的「影子政府」仍对决策施加重大影响，加之经济不透明和对前政权及现任者罪行缺乏问责，这些结构性缺陷将侵蚀公众信任。他强调从省级叛乱组织转型为全国政府在该地区史无前例，领导层需要超凡自律以避免内战后国家常见的陷阱",
+  "evidence": [
+   "过渡政府恢复了关键基础设施，包括可靠的电力供应和学校教育",
+   "al-Sharaa 政府成功重开外交渠道并吸引外国投资，特别是与沙特阿拉伯等地区强国建立经济伙伴关系",
+   "正式机构往往掩盖更深层、缺乏问责的权力结构，这种「影子政府」源于前 Hayat Tahrir al-Sham (HTS) 的组织历史",
+   "报告指出不透明的经济实践和对前政权及现任者所犯罪行缺乏明确问责是主要障碍",
+   "从叛乱组织治理一个省份转型为全国政府在该地区史无前例"
+  ],
+  "data": [
+   {
+    "metric": "阿萨德政权垮台时间",
+    "value": "1年前",
+    "context": "报告发布时距政权垮台已过去一年"
+   },
+   {
+    "metric": "实地考察次数",
+    "value": "2次",
+    "context": "Aaron Y. Zelin 近期对叙利亚的访问"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "M. Taylor Fravel",
+  "theater": "印太",
+  "source_url": "https://ssp.mit.edu/news/2025/m-taylor-fravel-in-competing-visions-of-international-order-responses-to-us-power-in-a",
+  "source_title": "M. Taylor Fravel in \"Competing visions of international order ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 ssp.mit.edu",
+  "topic": "中国对美国主导的国际秩序的平衡战略",
+  "claim": "中国正在积极平衡美国权力并最大化自身国际影响力，在近中期内寻求削弱美国的物质力量和自由主义理念的相对地位",
+  "reasoning": "M. Taylor Fravel认为中国的国际秩序愿景包含三个核心要素：基于威斯特伐利亚原则的国家主权体系、减少美国影响力以降低其对华制约能力、以及随着国力增长和中美竞争加剧而更积极地推进这一愿景。他判断中国将美国视为最大威胁，通过强调主权和不干涉原则来对冲美国的物质与规范权力，从而增加自身行动自由度和国际影响力。这一战略自冷战结束以来持续演进，在过去十年尤为强化。",
+  "evidence": [
+   "Xi Jinping在2021年初将美国描述为「中国发展和安全的最大威胁」",
+   "苏联解体后中国开始通过「新国际秩序」概念表达对美国权力增强的担忧",
+   "中国将美国的物质力量（包括军事联盟网络）和规范力量（基于自由主义规范和价值观）视为威胁",
+   "中国在过去十年随着国家能力大幅增长和中美竞争加剧，更加积极主动地推进其秩序愿景",
+   "中国通过深度外交接触和全球倡议来利用对美国主导世界秩序日益增长的不安",
+   "中国强调威斯特伐利亚主权、领土完整、不干涉原则，以对比自由主义的开放、自由市场和普世价值原则"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "近中期",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Jack Watling",
+  "theater": "俄乌",
+  "source_url": "https://warontherocks.com/understanding-the-russo-ukrainian-war-a-guide-from-war-on-the-rocks/",
+  "source_title": "Understanding the Russo-Ukrainian War: A Guide From War on ...",
+  "published_on": "2022-02-24",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jack watling」",
+  "topic": "欧洲在乌克兰部署维和部队的意愿与能力",
+  "claim": "欧洲派遣维和部队进入乌克兰的主要限制是政治意愿而非兵力规模",
+  "reasoning": "Jack Watling 认为欧洲国家缺乏足够政治决心向乌克兰派驻维和力量，这是核心障碍。虽然标题提到「意愿而非兵力」是主要限制，但文中未展开具体论证逻辑，仅通过文章标题表明其立场——即欧洲技术上有能力组建部队，但政治层面不愿承担风险或承诺。",
+  "evidence": [
+   "Jack Watling 与 Michael Kofman 共同撰写文章「Willpower, Not Manpower, is Europe's Main Limitation for a Force in Ukraine」(2025年3月)",
+   "该文发表于俄乌战争进入第三年后，正值西方讨论对乌长期支持方案的关键时期",
+   "文章聚焦欧洲在乌克兰部署武装力量的可行性分析"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10",
+  "date_source": "page_meta"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://thebulletin.org/premium/2023-03/nuclear-notebook-chinese-nuclear-weapons-2023/",
+  "source_title": "Nuclear Notebook: Chinese nuclear weapons, 2023 - Bulletin of the ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 thebulletin.org",
+  "topic": "中国核武库规模增长预测与裂变材料生产能力",
+  "claim": "中国核弹头库存到2030年将达约1000枚，到2035年可能增至约1500枚，但这取决于导弹井建设数量、MIRV装载方案及裂变材料产量等不确定因素",
+  "reasoning": "Hans M. Kristensen团队基于五角大楼2022年报告做出此判断，但明确指出这些预测尚未完全实现，且美国过去对中国核武库的估算曾多次出错。增长速度取决于钚、高浓铀和氚的库存及生产能力。当前库存可支撑库存翻倍，但超过1000枚额外弹头需要生产更多材料。中国正建设快中子增殖反应堆和后处理厂，理论上每年可生产超330公斤武器级钚，但这些设施主要服务于民用核燃料循环，是否用于武器扩充存在不确定性。",
+  "evidence": [
+   "截至2023年，中国核弹头库存约410枚，用于陆基弹道导弹、海基弹道导弹和轰炸机",
+   "五角大楼2022年报告估计，到2030年中国将拥有约1000枚operational核弹头，其中大部分能覆盖美国本土",
+   "中国正在福建霞浦建设两座CFR-600钠冷快中子增殖反应堆，计划2023年和2026年投运",
+   "中国在甘肃金塔核技术产业园建设首座民用「示范」后处理厂，预计2025年投运，同地第二座厂将于2030年前建成",
+   "中国持续推进三个新导弹发射井场的建设，用于固体燃料ICBM，并扩建DF-5液体燃料ICBM的发射井",
+   "中国自2017年起未向IAEA报告分离钚库存，核材料生产透明度下降"
+  ],
+  "data": [
+   {
+    "metric": "当前核弹头库存",
+    "value": "约410枚",
+    "context": "2023年估算"
+   },
+   {
+    "metric": "2030年预测核弹头数",
+    "value": "约1000枚",
+    "context": "五角大楼2022年报告"
+   },
+   {
+    "metric": "2035年预测核弹头数",
+    "value": "约1500枚",
+    "context": "五角大楼2022年按当前增速推算"
+   },
+   {
+    "metric": "快中子增殖反应堆年产武器级钚潜力",
+    "value": "超过330公斤",
+    "context": "CFR-600投运后理论值"
+   },
+   {
+    "metric": "CFR-600反应堆投运时间",
+    "value": "2023年和2026年",
+    "context": "福建霞浦两座反应堆"
+   },
+   {
+    "metric": "甘肃后处理厂投运时间",
+    "value": "2025年",
+    "context": "首座示范厂"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2035年内",
+  "confidence": "medium",
+  "extracted_on": "2026-10-10"
+ }
+]
