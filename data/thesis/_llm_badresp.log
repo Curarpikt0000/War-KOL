@@ -4824,3 +4824,22 @@
 }
 
 
+=== M. Taylor Fravel | Chinas Strategy in the South China Sea (1)
+{
+  "id": "41ad2c28-7018-4a06-8ab1-b53f2936ee7e",
+  "object": "chat.completion",
+  "created": 0,
+  "model": "claude-sonnet-4-5-20250929",
+  "choices": null,
+  "usage": {
+    "prompt_tokens": 17196,
+    "completion_tokens": 0,
+    "total_tokens": 17196,
+    "prompt_tokens_details": null,
+    "completion_tokens_details": null
+  },
+  "system_fingerprint": "",
+  "service_tier": ""
+}
+
+

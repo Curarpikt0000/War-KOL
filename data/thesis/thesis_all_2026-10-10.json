@@ -946,8 +946,8 @@
   "theater": "军工与战略",
   "source_url": "https://thebulletin.org/premium/2023-03/nuclear-notebook-chinese-nuclear-weapons-2023/",
   "source_title": "Nuclear Notebook: Chinese nuclear weapons, 2023 - Bulletin of the ...",
-  "published_on": null,
-  "date_status": "unverified",
+  "published_on": "2023-03-13",
+  "date_status": "verified",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 thebulletin.org",
   "topic": "中国核武库规模增长预测与裂变材料生产能力",
@@ -996,6 +996,213 @@
   "direction": "升级",
   "horizon": "2035年内",
   "confidence": "medium",
+  "extracted_on": "2026-10-10",
+  "date_source": "page_meta"
+ },
+ {
+  "kol": "Samuel Bendett",
+  "theater": "俄乌",
+  "source_url": "https://www.cna.org/reports/2023/11/Role-of-Space-in-Russias-Operations-in-Ukraine.pdf",
+  "source_title": "The Role of Space in Russia’s Operations in Ukraine - CNA",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 cna.org",
+  "topic": "美军与北约太空基础设施的脆弱性及反太空作战威胁",
+  "claim": "俄军将在战争初期阶段对美国/北约的太空基础设施发动先发制人的反卫星打击，以瘫痪对手的C4ISR系统",
+  "reasoning": "文章指出俄军总参谋学院院长Goremykin明确表示，反太空作战将聚焦于「通过摧毁支撑太空力量行动的地面基础设施来瓦解敌人控制系统」，并认为这是美国和北约「最脆弱的地方之一」。这一判断基于俄军对美军作战模式的观察（巴尔干到中东的历次战争）及其战略航空航天作战（SVKO）理论——即太空作战将在其他域作战之前展开，通过先发「信息打击」夺取近地空间主导权，从而为后续空中、海上、陆地攻势创造条件。此逻辑暗示俄军视太空战为战争初期的关键杠杆。",
+  "evidence": [
+   "Goremykin称「主要打击将集中在通过摧毁支撑太空力量行动的地面基础设施来瓦解敌人控制系统，这是美国和北约最脆弱的地方之一」",
+   "俄军航空航天部队学院文章明确「太空作战将先于空中、海上和陆地攻势作战展开，目标是获得近地空间主导权以确保俄轨道星座运作」",
+   "俄军理论将战争初期定义为「大规模航空航天和导弹攻击、航空航天防御及反制行动」阶段",
+   "俄军观察美军在巴尔干到中东的作战模式后认为，对手会在冲突初期发动C4ISR打击，因此需要通过反太空作战进行预先打击",
+   "俄分析家Vorobyov和Kiryushin指出「有效威慑必须包括从被动伪装到在轨摧毁敌方太空星座（动能及信息手段）以及瓦解其地面和太空配套基础设施的全面对抗」"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "战争初期阶段（未指明具体时长）",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://aei.org/wp-content/uploads/2025/05/Working-Paper-Prioritizing-the-Nations-Defense.pdf",
+  "source_title": "Prioritizing the Nation’s Defense - AEI",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 aei.org",
+  "topic": "美国国防预算优先级重组与资源配置方向",
+  "claim": "美国国防预算将从停滞轨迹转向可持续增长路径，重点向威慑中国夺台、本土防御和印太部署倾斜，同时通过削减8%低优先级项目和裁减高级将领职位实现内部资源再分配。",
+  "reasoning": "Todd Harrison 基于当前国防预算数据和特朗普政府战略备忘录，认为现行预算（2026财年7735亿美元）呈现停滞态势，但国会预算和解法案可能一次性注入1500亿美元。她判断政府正通过三条路径重塑优先级：一是Hegseth部长要求各军种内部削减8%预算转向高优先级项目（保护17个重点领域），二是陆军启动「接触式转型」计划淘汰AH-64D、灰鹰无人机等过时装备，三是行政命令强制加速采办改革和本土造船业重建。她强调这些措施需与2025年8月前完成的国防战略对齐，才能在2027财年预算中体现为可预测的长期资金计划。",
+  "evidence": [
+   "Hegseth部长2025年3月内部备忘录明确战略优先级为威慑中国夺台、保卫本土、支持反非法移民，同时扩充核力量和本土导弹防御（Golden Dome）",
+   "国防部长2月中旬指令各军种识别8%节约额度从低优先级项目转向高优先级，并削减20%三星四星军官职位",
+   "陆军2025年4月备忘录列出淘汰计划包括AH-64D直升机、联合轻型战术车、多余悍马车和灰鹰无人机，同时加速远程导弹和电磁主导能力交付",
+   "空军正在评估是否将E-7 Wedgetail预警机任务提前转移至天基能力，LGM-35A洲际导弹和F-47下一代空中优势战斗机列为优先现代化项目",
+   "2025年4月9日行政命令「恢复美国海事主导地位」要求重振本土造船业和劳动力，已在众议院预算和解法案中获得优先拨款",
+   "副部长2025年4月7日备忘录要求全面审查五角大楼组织结构以削减冗余功能，5月27日后续备忘录限制承包商执行IT等特定任务"
+  ],
+  "data": [
+   {
+    "metric": "拜登政府2026财年国防预算基线",
+    "value": "7735亿美元",
+    "context": "表1所列Biden Administration FY2026数据"
+   },
+   {
+    "metric": "特朗普政府声称的国防预算规模",
+    "value": "1万亿美元",
+    "context": "含预算和解法案一次性注资1500亿美元，文中指出该说法具误导性"
+   },
+   {
+    "metric": "军种预算削减目标幅度",
+    "value": "8%",
+    "context": "2025年2月Hegseth部长指令要求从低优先级项目节约的比例"
+   },
+   {
+    "metric": "高级将领职位裁减目标",
+    "value": "20%",
+    "context": "三星和四星军官职位削减比例"
+   },
+   {
+    "metric": "国防战略完成期限",
+    "value": "2025年8月底前",
+    "context": "Hegseth部长指示政策副部长完成NDS的时间节点"
+   },
+   {
+    "metric": "受保护预算重点领域数量",
+    "value": "17个",
+    "context": "8%削减演练中被排除在外的优先项目数"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2027财年及以后",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "http://defense360.csis.org/wp-content/uploads/2021/02/Harrison_T46_Formatted_FINAL_v2.pdf",
+  "source_title": "Rethinking Military Roles and FEBRUARY 2021 Missions in a New ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美军角色与任务分配改革——聚焦陆基核力量与联合全域指挥控制体系",
+  "claim": "拜登政府应启动范围明确的角色与任务战略审查，重点解决太空军组建、新技术进步和新军事任务带来的服务间空白、冗余与模糊地带，并考虑将陆基洲际弹道导弹（ICBM）转移至陆军、指定联合全域指挥控制（JADC2）整体架构与接口标准的牵头军种",
+  "reasoning": "Todd Harrison 认为美军正处于类似1948年「基韦斯特协议」的关键拐点：太空军的成立导致各军种「重复建设」太空力量（国防部5100.01指令现列陆海空天四军均为太空作战提供方，与国会设立太空军初衷矛盾）；高超音速武器、人工智能等新技术快速演进使各军种重新构想作战方式；伊拉克和阿富汗战争催生的新任务（如无人机持续监视打击）需明确责任归属。他主张通过即将出台的国防战略审查进行「有针对性的窄范围审查」而非全面检讨，避免引发新争议，同时强调需国防部长强势领导、白宫背书与国会参与才能实现重大调整",
+  "evidence": [
+   "国防部5100.01指令更新后将陆海空天四军均列为「独立的太空力量提供方、负责太空作战」，可能导致资源浪费性冗余",
+   "海军计划将大量资源转向无人舰艇和潜艇以扩大舰队规模并在更多样化平台上分散作战",
+   "2014年研究显示ICBM职业领域长期士气低落、晋升机会不足，2013年无一名预备役军官训练团学员将其列入前三志愿",
+   "ICBM部队近年从450枚削减至400枚作战导弹，进一步压缩人员经验积累和晋升空间",
+   "陆军在阿拉斯加格里利堡和加州范登堡基地运行的陆基中段防御系统（GMD）是美军唯一的另一种井基武器系统",
+   "空军同时负担核三位一体中的两条腿（ICBM与战略轰炸机），两者均需在未来数十年内现代化升级将使该军种预算紧张"
+  ],
+  "data": [
+   {
+    "metric": "作战导弹数量变化",
+    "value": "450枚→400枚",
+    "context": "近年ICBM削减"
+   },
+   {
+    "metric": "2013年ROTC学员选择ICBM职业领域比例",
+    "value": "0人列入前三志愿",
+    "context": "反映职业吸引力低"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-10"
+ },
+ {
+  "kol": "Nan Tian",
+  "theater": "军工与战略",
+  "source_url": "https://www.sipri.org/sites/default/files/SIPRIYB17c10sV.pdf",
+  "source_title": "V. Arms production and military services",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 sipri.org",
+  "topic": "全球军工产业销售趋势与区域格局演变（2002-2015）",
+  "claim": "全球军工百强企业总销售额在2010年达到峰值后连续5年下降，但行业集中度在降低且底部企业规模在扩大，表明市场正在从「顶部主导」向「多极扩散」转变。",
+  "reasoning": "Nan Tian 通过分析2002-2015年的SIPRI百强数据发现：尽管2015年总销售额较2014年下降0.6%且连续5年缩水，但百强门槛从2002年的3.95亿美元升至2015年的6.4亿美元（增长62%），同时前10大企业占比从2002年的60%降至2015年的52%。这种「底部抬升+顶部份额收缩」的结构变化，叠加新兴生产国（韩国、印度、土耳其）销售额显著增长（韩国2015年同比增32%），说明军工市场正在从美欧寡头垄断向多极化竞争演变，尽管总量收缩但参与者能力在普遍增强。",
+  "evidence": [
+   "SIPRI百强总销售额2015年为3710亿美元，较2014年下降0.6%，较2010年峰值4330亿美元下降14%，标志连续第5年实际下降",
+   "2002-2015年间占据前10位的公司只有12家，其中9家位于美国、3家位于西欧，显示顶部排名的高度稳定性",
+   "前10大企业占百强总销售额的份额从2002年的60%稳步下降至2015年的52%，14年间侵蚀8个百分点",
+   "百强门槛从2002年的3.95亿美元上升至2015年的6.4亿美元，增长62%；榜首企业销售额从310亿美元增至364亿美元，增长17%",
+   "韩国军工企业2015年销售额同比增长32%，印度增长9.3%，土耳其增长10%，而巴西因国内危机暴跌28%",
+   "美国公司2015年销售额下降2.9%，占百强总额57%但降幅略低于2014年的4.3%；法国企业增长13%、德国增长7.4%、俄罗斯增长6.2%"
+  ],
+  "data": [
+   {
+    "metric": "SIPRI百强总销售额",
+    "value": "3710亿美元",
+    "context": "2015年名义价格"
+   },
+   {
+    "metric": "总销售额年度变化",
+    "value": "-0.6%",
+    "context": "2015年相比2014年，不变价格"
+   },
+   {
+    "metric": "较峰值下降幅度",
+    "value": "-14%",
+    "context": "2015年相比2010年峰值4330亿美元"
+   },
+   {
+    "metric": "前10企业份额",
+    "value": "52%",
+    "context": "2015年占百强总额"
+   },
+   {
+    "metric": "前10企业份额历史高点",
+    "value": "60%",
+    "context": "2002年"
+   },
+   {
+    "metric": "百强门槛",
+    "value": "6.4亿美元",
+    "context": "2015年第100名企业销售额"
+   },
+   {
+    "metric": "百强门槛历史低点",
+    "value": "3.95亿美元",
+    "context": "2002年第100名"
+   },
+   {
+    "metric": "榜首企业销售额",
+    "value": "364亿美元",
+    "context": "2015年"
+   },
+   {
+    "metric": "美国企业份额",
+    "value": "57%",
+    "context": "2015年占百强总额，含39家公司"
+   },
+   {
+    "metric": "美国企业销售额变化",
+    "value": "-2.9%",
+    "context": "2015年同比，不变价格"
+   },
+   {
+    "metric": "韩国企业增长",
+    "value": "+32%",
+    "context": "2015年同比，不变价格"
+   },
+   {
+    "metric": "巴西企业下降",
+    "value": "-28%",
+    "context": "2015年同比，不变价格"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
   "extracted_on": "2026-10-10"
  }
 ]
