@@ -1,0 +1,237 @@
+[
+ {
+  "kol": "Phil Gunson",
+  "theater": "拉美",
+  "source_url": "https://theworld.org/stories/2026/06/17/strike-on-venezuela-gang-leader-may-open-door-to-mineral-wealth",
+  "source_title": "Strike on Venezuela gang leader may open... - The World from PRX",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「phil gunson」",
+  "topic": "美国打击委内瑞拉阿拉瓜列车帮(Tren de Aragua)及其对南部矿区影响",
+  "claim": "消灭Guerrero可能是让南部矿区向美国利益开放的「第一步、小步」",
+  "reasoning": "Phil Gunson认为，美军空袭击毙隐藏在委内瑞拉南部黄金钴矿富集地带的帮派头目Niño Guerrero，可能并非单纯反恐行动，而是为美国在该矿区拓展利益创造条件的初步尝试。他强调这只是「第一步、小步」，暗示后续可能有更大动作。",
+  "evidence": [
+   "Guerrero隐藏在委内瑞拉南部一片广阔地带多年，该地区富含黄金和钴矿",
+   "美国南方司令部上周对委内瑞拉境内设施实施空袭，击毙Tren de Aragua帮派头目Niño Guerrero(别名「Niño Guerrero」)",
+   "该空袭行动系与委内瑞拉当局合作执行",
+   "此次打击令拉美多国紧张，担心美国可能在区域内其他地方设立空袭先例",
+   "智利等国正加强对境内疑似Tren de Aragua分支的打击行动"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "low",
+  "extracted_on": "2026-10-11"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://observer.com/2026/10/alex-karp-palmer-luckey-pentagon-tech/",
+  "source_title": "Alex Karp, Palmer Luckey and the Pentagon’s Defense Deals ...",
+  "published_on": "2026-10-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "美国国防部与 Palantir、Anduril 的军工采购合同",
+  "claim": "Palantir 的美国政府业务增长将至少持续18个月",
+  "reasoning": "Alex Karp 基于 Palantir 截至2026年6月30日的季度财报数据作出判断——该季度美国政府收入达8.09亿美元，同比增长90%。他认为这种高速增长态势具有延续性，明确表示「这种增长看起来将至少再持续18个月」，暗示公司已获得的陆军企业协议（上限100亿美元）及 TITAN、弹药管理系统等新订单将支撑收入持续扩张。",
+  "evidence": [
+   "Palantir 与陆军签订的企业协议有效期长达10年，上限100亿美元",
+   "2026年8月31日陆军将 TITAN 系统转入生产，向 Palantir 支付1.27亿美元",
+   "2026年9月17日陆军另外向 Palantir 授予4810万美元弹药管理软件合同",
+   "截至2026年6月30日的三个月内，Palantir 美国政府收入达8.09亿美元，同比增长90%",
+   "Palantir 的企业协议已将75份合同整合为一个框架，简化采购流程"
+  ],
+  "data": [
+   {
+    "metric": "美国政府季度收入",
+    "value": "8.09亿美元",
+    "context": "截至2026年6月30日的三个月"
+   },
+   {
+    "metric": "美国政府收入同比增速",
+    "value": "90%",
+    "context": "2026财年第三季度 vs 2025财年同期"
+   },
+   {
+    "metric": "TITAN 生产订单金额（Palantir 部分）",
+    "value": "1.27亿美元",
+    "context": "2026年8月31日授予"
+   },
+   {
+    "metric": "弹药管理系统合同金额",
+    "value": "2026年9月17日授予"
+   },
+   {
+    "metric": "陆军企业协议上限",
+    "value": "100亿美元",
+    "context": "2025年7月31日签署，有效期10年"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "至少18个月",
+  "confidence": "high",
+  "extracted_on": "2026-10-11"
+ },
+ {
+  "kol": "Jeremy McDermott",
+  "theater": "拉美",
+  "source_url": "https://cesarmiguelrondon.com/intereses/tambien-sucede/entrevista-a-jeremy-mcdermott/",
+  "source_title": "Entrevista a Jeremy Mcdermott - César Miguel Rondón",
+  "published_on": "2024-02-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeremy mcdermott」",
+  "topic": "委内瑞拉马杜罗政权与有组织犯罪的混合治理体系在2024年选举中的巩固",
+  "claim": "马杜罗政权将在2024年选举中进一步巩固其与有组织犯罪的混合治理体系，利用犯罪组织的资源和暴力手段赢得选举",
+  "reasoning": "自2017年大规模抗议后，马杜罗因国库枯竭无法维持传统的贪腐盗窃体系，不得不与犯罪组织建立共生关系以获取非法租金。2020年控制国民议会后，他开始更严格地监管和控制这些非法经济，目的是最大化查韦斯政权成员的收益并控制管理这些经济的犯罪组织。在选举年，马杜罗将需要所有可用工具包括有组织犯罪的支持和非法租金来赢得选举，犯罪组织不仅提供资金还在其势力范围内帮助镇压反对派。",
+  "evidence": [
+   "2017年大规模抗议后，马杜罗因国家财政枯竭不得不深度介入非法经济以获取犯罪租金",
+   "2020年马杜罗夺回国民议会控制权后开始更严格地监管和控制非法经济",
+   "ELN（哥伦比亚民族解放军）已在哥伦比亚-委内瑞拉边境建立霸权并向玻利瓦尔州和大西洋海岸扩张",
+   "ELN在其势力范围内与当局紧密合作，承担了部分国家职能包括提供安全、司法管理、通过勒索征税",
+   "ELN在其控制区域阻止反对派竞选活动并为PSUV（统一社会主义党）竞选活动提供资金",
+   "犯罪组织如colectivos（集体组织）将试图阻止和破坏反对派在其区域的任何活动"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "2024年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-11"
+ },
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2026/10/09/casualties_eng-trl",
+  "source_title": "How many Russian soldiers died in the war with Ukraine",
+  "published_on": "2026-10-09",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争俄军总伤亡人数与结构演变",
+  "claim": "俄军官兵死亡比例自战争开始以来持续下降，从早期的10%降至2024年11月的2-3%，志愿兵已成为2024年9月起阵亡人员最大类别，反映战术演变与志愿兵持续涌入",
+  "reasoning": "该项目通过公开来源（社交媒体、地方媒体、地区当局声明）建立实名阵亡名单，并结合遗产登记处超额男性死亡率进行统计估算。分析显示：战争初期职业军人为主力时军官占比高达10%；2022年末至2023年初Wagner PMC招募囚犯在巴赫穆特形成「突击组」导致囚犯类别激增；巴赫穆特攻占后囚犯招募显著减少，但志愿兵持续涌入且无新一轮动员，累积效应使志愿兵在2024年9月重新成为最大阵亡类别。军官死亡比例下降至2-3%反映志愿步兵伤亡率远高于指挥官的战术现实。",
+  "evidence": [
+   "2022年夏季至秋季中期志愿兵承受主要损失，与战争初期空降部队和摩托化步兵遭受最大损失形成鲜明对比",
+   "2022年底至2023年初Wagner PMC招募囚犯在巴赫穆特附近形成「突击组」，2023年3月囚犯成为阵亡人员最大类别",
+   "巴赫穆特攻占后迄今无大规模使用囚犯的案例，监狱招募显著减弱且未宣布新一轮动员",
+   "2024年9月志愿兵再次成为阵亡人员最大类别，反映志愿兵流持续不断的累积效应",
+   "战争初期职业合同兵为主力时军官占阵亡总数高达10%，2024年11月该比例降至2-3%",
+   "截至2026年10月9日确认7833名俄军及其他安全机构军官死亡，15名将军阵亡（5名中将、7名少将、2名退役将军、1名逃至俄罗斯的乌克兰SBU将军）"
+  ],
+  "data": [
+   {
+    "metric": "自2022年9月21日新增确认阵亡人数",
+    "value": "17000+人",
+    "context": "截至本次更新"
+   },
+   {
+    "metric": "2024年8月26日顿涅茨克导弹袭击确认军官死亡",
+    "value": "20人",
+    "context": "单次事件"
+   },
+   {
+    "metric": "确认军官死亡总数",
+    "value": "7833人",
+    "context": "截至2026年10月9日"
+   },
+   {
+    "metric": "确认将军死亡总数",
+    "value": "15人",
+    "context": "战争开始至2026年10月9日，含5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+   },
+   {
+    "metric": "战争初期军官阵亡占比",
+    "value": "高达10%",
+    "context": "职业合同兵为主力阶段"
+   },
+   {
+    "metric": "2024年11月军官阵亡占比",
+    "value": "2-3%",
+    "context": "志愿步兵大量涌入后"
+   },
+   {
+    "metric": "已知死亡日期案例数",
+    "value": "259800例",
+    "context": "截至本次更新"
+   },
+   {
+    "metric": "已知年龄案例数",
+    "value": "261300例",
+    "context": "截至本次更新"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-11"
+ },
+ {
+  "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+  "theater": "俄乌",
+  "source_url": "https://en.zona.media/article/2026/09/21/casualties_eng-trl",
+  "source_title": "How many Russian soldiers died in the war with Ukraine",
+  "published_on": "2026-09-21",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 en.zona.media",
+  "topic": "俄乌战争俄军总伤亡人数与结构演变",
+  "claim": "俄军官兵死亡比例自战争开始以来持续下降，从早期的10%降至2024年11月的2-3%，志愿兵已成为2024年9月起阵亡人员最大类别，反映战术演变与志愿兵持续涌入",
+  "reasoning": "该项目通过公开来源（社交媒体、地方媒体、地区当局声明）建立实名阵亡名单，并结合遗产登记处超额男性死亡率进行统计估算。分析显示：战争初期职业军人为主力时军官占比高达10%；2022年末至2023年初Wagner PMC招募囚犯在巴赫穆特形成「突击组」导致囚犯类别激增；巴赫穆特攻占后囚犯招募显著减少，但志愿兵持续涌入且无新一轮动员，累积效应使志愿兵在2024年9月重新成为最大阵亡类别。军官死亡比例下降至2-3%反映志愿步兵伤亡率远高于指挥官的战术现实。",
+  "evidence": [
+   "2022年夏季至秋季中期志愿兵承受主要损失，与战争初期空降部队和摩托化步兵遭受最大损失形成鲜明对比",
+   "2022年底至2023年初Wagner PMC招募囚犯在巴赫穆特附近形成「突击组」，2023年3月囚犯成为阵亡人员最大类别",
+   "巴赫穆特攻占后迄今无大规模使用囚犯的案例，监狱招募显著减弱且未宣布新一轮动员",
+   "2024年9月志愿兵再次成为阵亡人员最大类别，反映志愿兵流持续不断的累积效应",
+   "战争初期职业合同兵为主力时军官占阵亡总数高达10%，2024年11月该比例降至2-3%",
+   "截至2026年10月9日确认7833名俄军及其他安全机构军官死亡，15名将军阵亡（5名中将、7名少将、2名退役将军、1名逃至俄罗斯的乌克兰SBU将军）"
+  ],
+  "data": [
+   {
+    "metric": "自2022年9月21日新增确认阵亡人数",
+    "value": "17000+人",
+    "context": "截至本次更新"
+   },
+   {
+    "metric": "2024年8月26日顿涅茨克导弹袭击确认军官死亡",
+    "value": "20人",
+    "context": "单次事件"
+   },
+   {
+    "metric": "确认军官死亡总数",
+    "value": "7833人",
+    "context": "截至2026年10月9日"
+   },
+   {
+    "metric": "确认将军死亡总数",
+    "value": "15人",
+    "context": "战争开始至2026年10月9日，含5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+   },
+   {
+    "metric": "战争初期军官阵亡占比",
+    "value": "高达10%",
+    "context": "职业合同兵为主力阶段"
+   },
+   {
+    "metric": "2024年11月军官阵亡占比",
+    "value": "2-3%",
+    "context": "志愿步兵大量涌入后"
+   },
+   {
+    "metric": "已知死亡日期案例数",
+    "value": "259800例",
+    "context": "截至本次更新"
+   },
+   {
+    "metric": "已知年龄案例数",
+    "value": "261300例",
+    "context": "截至本次更新"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-11"
+ }
+]
