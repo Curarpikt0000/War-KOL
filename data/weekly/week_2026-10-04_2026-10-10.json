@@ -1,0 +1,2845 @@
+{
+ "week_start": "2026-10-04",
+ "week_end": "2026-10-10",
+ "prev_start": "2026-09-27",
+ "prev_end": "2026-10-03",
+ "generated_on": "2026-10-10",
+ "n_thesis_total": 1161,
+ "n_statements_total": 6155,
+ "n_thesis_in_week": 7,
+ "n_thesis_prev_week": 1,
+ "n_statements_in_week": 27,
+ "n_thesis_undated": 758,
+ "theaters": {
+  "俄乌": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "中东": {
+   "n_statements": 1,
+   "n_kol": 1,
+   "dominant": "升级",
+   "dir_counts": {
+    "升级": 1
+   }
+  },
+  "印太": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "南亚": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "非洲": {
+   "n_statements": 0,
+   "n_kol": 0,
+   "dominant": "-",
+   "dir_counts": {}
+  },
+  "拉美": {
+   "n_statements": 4,
+   "n_kol": 1,
+   "dominant": "未表态",
+   "dir_counts": {
+    "未表态": 4
+   }
+  },
+  "军工与战略": {
+   "n_statements": 2,
+   "n_kol": 1,
+   "dominant": "僵持",
+   "dir_counts": {
+    "僵持": 2
+   }
+  }
+ },
+ "stance_changes": [
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "from": "僵持",
+   "to": "未表态"
+  }
+ ],
+ "window30": {
+  "cur": [
+   "2026-09-11",
+   "2026-10-10"
+  ],
+  "prev": [
+   "2026-08-12",
+   "2026-09-10"
+  ],
+  "n_cur": 19,
+  "n_prev": 36
+ },
+ "stance_changes_30d": [
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "from": "僵持",
+   "to": "升级"
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "from": "升级",
+   "to": "僵持"
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "from": "未表态",
+   "to": "升级"
+  }
+ ],
+ "trajectories": [
+  {
+   "kol": "Babak Taghvaee",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-03-18",
+     "dir": "升级",
+     "topic": "以色列空袭伊朗能源设施引发地区escalation风险",
+     "url": "https://x.com/BabakTaghvaee1/status/2034270012085583943"
+    },
+    {
+     "date": "2026-04-06",
+     "dir": "未表态",
+     "topic": "以色列空袭德黑兰附近伊朗革命卫队直升机设施",
+     "url": "https://www.globaldefensecorp.com/2026/04/07/israeli-air-force-destroys-mi-17-helicopter-fleet-near-iranian-capital/"
+    },
+    {
+     "date": "2026-05-27",
+     "dir": "僵持",
+     "topic": "伊朗获取美军JASSM-ER巡航导弹残骸的战略价值与逆向工程潜力",
+     "url": "https://www.armyrecognition.com/news/aerospace-news/2026/iran-recovers-us-jassm-er-missile-wreckage"
+    },
+    {
+     "date": "2026-08-31",
+     "dir": "未表态",
+     "topic": "美军在约旦使用爱国者PAC-3拦截伊朗弹道导弹的消耗比",
+     "url": "https://www.thedefensenews.com/US-Army-Uses-3-to-4-Patriot-PAC-3-Interceptors-to-Intercept-Each-Iranian-Ballistic-Missile-Over-Jordan-Raising-Questions-Over-Interceptor-Use/"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "升级",
+     "topic": "伊朗经济危机与社会稳定前景",
+     "url": "https://www.iranintl.com/en/202609035560"
+    }
+   ]
+  },
+  {
+   "kol": "Raz Zimmt",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-01-02",
+     "dir": "僵持",
+     "topic": "以色列与伊朗近期军事对抗前景与双方战备状态",
+     "url": "https://www.csmonitor.com/World/Middle-East/2026/0102/israel-netanyahu-trump-war-iran-protests"
+    },
+    {
+     "date": "2026-01-29",
+     "dir": "升级",
+     "topic": "伊朗与以色列直接战争风险",
+     "url": "https://reap.fsi.stanford.edu/news/iran-israel-and-risk-direct-war"
+    },
+    {
+     "date": "2026-03-27",
+     "dir": "升级",
+     "topic": "美伊战争走向与伊朗核武动机",
+     "url": "https://podcastaddict.com/the-times-of-israel-daily-briefing/episode/220246753"
+    },
+    {
+     "date": "2026-05-25",
+     "dir": "降级",
+     "topic": "美伊协议对以色列战略利益的影响",
+     "url": "https://www.middleeasteye.net/news/israel-reacts-alarm-emerging-us-iran-deal-draws-criticism"
+    }
+   ]
+  },
+  {
+   "kol": "Phil Gunson",
+   "theater": "拉美",
+   "points": [
+    {
+     "date": "2026-01-04",
+     "dir": "僵持",
+     "topic": "美国对委内瑞拉政权的干预行动及其影响",
+     "url": "https://transcripts.cnn.com/show/fzgps/date/2026-01-04/segment/01"
+    },
+    {
+     "date": "2026-01-08",
+     "dir": "僵持",
+     "topic": "委内瘑拉政权权力结构与美国干预后的政治前景",
+     "url": "https://www.foreignaffairs.com/podcasts/what-comes-next-venezuela"
+    },
+    {
+     "date": "2026-01-08",
+     "dir": "僵持",
+     "topic": "委内瑞拉政权更迭后的民主转型前景",
+     "url": "https://www.npr.org/2026/01/08/nx-s1-5671115/venezuela-opposition"
+    },
+    {
+     "date": "2026-02-18",
+     "dir": "僵持",
+     "topic": "委内瑞拉代理总统Delcy Rodríguez在特朗普压力下的执政前景",
+     "url": "https://www.bbc.com/news/articles/cn87rv0jdy1o"
+    },
+    {
+     "date": "2026-08-04",
+     "dir": "降级",
+     "topic": "委内瑞拉马杜罗政府对边境安全的控制力",
+     "url": "https://www.163.com/dy/article/L1SPH7I2051492T3.html"
+    },
+    {
+     "date": "2026-08-29",
+     "dir": "降级",
+     "topic": "委内瑞拉竞选联合国安理会非常任理事国席位",
+     "url": "https://www.opendemocracy.net/en/venezuela-un-3997jsp/"
+    }
+   ]
+  },
+  {
+   "kol": "Michael Knights",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与区域影响",
+     "url": "https://www.rferl.org/a/michael-knights-gulf-change-us-israel-iran/33695982.html"
+    },
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与地区影响",
+     "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/03/iran-260305-rferl05.htm"
+    },
+    {
+     "date": "2026-03-05",
+     "dir": "升级",
+     "topic": "美以对伊朗军事行动的战略目标与区域影响",
+     "url": "https://english.shabtabnews.com/2026/03/05/michael-knights-gulf-region-on-the-precipice-of-fundamental-change/"
+    },
+    {
+     "date": "2026-06-30",
+     "dir": "升级",
+     "topic": "伊拉克什叶派民兵组织在伊朗-美国冲突中的作用升级",
+     "url": "https://ctc.westpoint.edu/june-2026/"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "僵持",
+     "topic": "伊朗对伊拉克南部什叶派民兵及政治影响力",
+     "url": "https://www.cfr.org/expert-roundup/interview-peter-khalil-and-michael-knights-iran-iraq-relations"
+    }
+   ]
+  },
+  {
+   "kol": "Samuel Bendett",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-03-30",
+     "dir": "升级",
+     "topic": "乌克兰与海湾国家在反无人机领域的防务合作",
+     "url": "https://breakingdefense.com/2026/03/ukraine-inks-defense-agreements-with-qatar-and-saudi-arabia-with-uae-to-follow/"
+    },
+    {
+     "date": "2026-05-28",
+     "dir": "僵持",
+     "topic": "俄罗斯Shahed无人机加装电子战系统对抗乌克兰拦截无人机",
+     "url": "https://www.businessinsider.com/russia-arms-drones-with-new-electronic-defenses-fight-ukrainian-interceptors-2026-5"
+    },
+    {
+     "date": "2026-05-28",
+     "dir": "未表态",
+     "topic": "俄罗斯在Shahed攻击无人机上加装电子战系统对抗乌克兰拦截无人机",
+     "url": "https://www.businessinsider.com/russia-arms-drones-with-new-electronic-defenses-fight-ukrainian-interceptors-2026-5?op=1"
+    },
+    {
+     "date": "2026-06-08",
+     "dir": "僵持",
+     "topic": "乌克兰战场无人机产能与战术演化",
+     "url": "https://ciadrugs.substack.com/p/interview-drone-researcher-samuel"
+    }
+   ]
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "points": [
+    {
+     "date": "2026-01-06",
+     "dir": "降级",
+     "topic": "美国司法部对委内瑞拉「太阳卡特尔」的法律定性转变",
+     "url": "https://colombiaone.com/2026/01/06/doj-cartel-of-the-suns/"
+    },
+    {
+     "date": "2026-08-25",
+     "dir": "升级",
+     "topic": "拉美有组织犯罪集团对无人机与简易爆炸装置的军事化应用",
+     "url": "https://insightcrime.org/news/the-insight-take-organized-crime-adopts-the-latest-technologies-in-the-drone-ied-arms-race/"
+    },
+    {
+     "date": "2026-09-15",
+     "dir": "僵持",
+     "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+     "url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/"
+    }
+   ]
+  },
+  {
+   "kol": "Dara Massicot",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-07-03",
+     "dir": "升级",
+     "topic": "俄罗斯军队从1991年崩溃到2022年全面入侵乌克兰的军事重建路径",
+     "url": "https://en.hvylya.net/interview/2790-dara-massicot-how-russia-rebuilt-its-army-and-learned-all-the-wrong-lessons"
+    },
+    {
+     "date": "2026-07-23",
+     "dir": "降级",
+     "topic": "俄乌战争2026年夏季阶段态势与俄军作战能力评估",
+     "url": "https://en.hvylya.net/interview/2853-michael-kofman-and-dara-massicot-how-ukraine-put-russia-on-the-back-foot"
+    },
+    {
+     "date": "2026-08-03",
+     "dir": "升级",
+     "topic": "乌克兰对俄罗斯腹地的远程打击行动",
+     "url": "https://www.cnn.com/2026/08/03/tv/video/amanpour-russia-ukraine-dara-massicot"
+    },
+    {
+     "date": "2026-08-13",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年夏季战场态势与中期演变",
+     "url": "https://carnegieendowment.org/emissary/2026/08/russia-ukraine-war-vibe-shift-summer-offensive"
+    }
+   ]
+  },
+  {
+   "kol": "Janis Kluge",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-21",
+     "dir": "降级",
+     "topic": "俄罗斯针对乌克兰战争的兵员募集可持续性",
+     "url": "https://meduza.io/en/episodes/2026/02/21/russia-s-recruitment-machine-runs-on-cash-and-the-regions-bankrolling-it-are-starting-to-run-out-we-asked-researcher-janis-kluge-how-much-longer-putin-can-avoid-another-mobilization"
+    },
+    {
+     "date": "2026-02-23",
+     "dir": "僵持",
+     "topic": "俄罗斯军队志愿征募可持续性与动员风险",
+     "url": "https://meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge"
+    },
+    {
+     "date": "2026-02-23",
+     "dir": "僵持",
+     "topic": "俄罗斯军队募兵可持续性与动员可能性",
+     "url": "https://plugin-frontend.meduza.io/en/feature/2026/02/23/russia-s-military-recruitment-numbers-remain-steady-but-how-long-can-the-regions-foot-the-bill-meduza-asks-researcher-janis-kluge"
+    },
+    {
+     "date": "2026-04-13",
+     "dir": "降级",
+     "topic": "俄罗斯在乌克兰战场的兵员募集与伤亡趋势（2026年一季度）",
+     "url": "https://www.understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-april-13-2026/"
+    },
+    {
+     "date": "2026-05-17",
+     "dir": "僵持",
+     "topic": "俄罗斯对乌克兰侵略战争的停火可能性",
+     "url": "https://x.com/jakluge/status/2055957017735410125"
+    },
+    {
+     "date": "2026-06-10",
+     "dir": "僵持",
+     "topic": "俄罗斯军队征募能力与人力储备状况",
+     "url": "https://novayagazeta.eu/en/articles/2026/06/10/russias-military-recruitment-rate-fell-to-three-year-low-in-first-quarter-of-2026-en-news"
+    },
+    {
+     "date": "2026-06-10",
+     "dir": "升级",
+     "topic": "俄罗斯在乌克兰战场的月度阵亡人数与兵员补充能力",
+     "url": "https://www.dagens.com/war/budget-data-indicates-300-russian-soldiers-die-every-day"
+    },
+    {
+     "date": "2026-06-13",
+     "dir": "升级",
+     "topic": "俄罗斯2026年一季度军费开支与战争财政负担",
+     "url": "https://united24media.com/war-in-ukraine/russia-spent-nearly-every-second-budget-ruble-on-war-in-early-2026-analysis-finds-19791"
+    },
+    {
+     "date": "2026-06-14",
+     "dir": "升级",
+     "topic": "俄罗斯2026年第一季度军费支出与经济可持续性",
+     "url": "https://ukrainetoday.org/russia-is-spending-900-million-a-day-on-the-war-against-ukraine-a-new-record/"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "升级",
+     "topic": "俄罗斯兵员招募能力与动员前景",
+     "url": "https://www.theguardian.com/world/2026/aug/14/russia-ukraine-putin-recruiters-mobilisation"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "降级",
+     "topic": "俄军在乌克兰东部顿巴斯地区的攻势进展与人力损耗",
+     "url": "https://thepublic.info/en/news/for-the-second-month-running-russia-has-lost-more-than-40000-troops-on-the-front-line-in-ukraine"
+    },
+    {
+     "date": "2026-09-10",
+     "dir": "升级",
+     "topic": "俄罗斯2026年上半年军费支出与战争可持续性",
+     "url": "https://meta-defense.fr/en/2026/09/10/kremlin-goes-all-in-strikes-ukraine/"
+    }
+   ]
+  },
+  {
+   "kol": "Héni Nsaibia",
+   "theater": "非洲",
+   "points": [
+    {
+     "date": "2026-04-13",
+     "dir": "僵持",
+     "topic": "贝宁选举与北部安全形势稳定前景",
+     "url": "https://acleddata.com/expert-comment/heni-nsaibia-benins-elections-after-deadliest-year-conflict"
+    },
+    {
+     "date": "2026-04-20",
+     "dir": "升级",
+     "topic": "萨赫勒地区圣战组织地理扩张与组织间冲突",
+     "url": "https://acleddata.com/expert-comment/heni-nsaibia-sahel-insurgency-expansion-jihadist-rivalry-intensifies-across-borders"
+    },
+    {
+     "date": "2026-05-26",
+     "dir": "升级",
+     "topic": "西非与中萨赫勒地区圣战组织扩张态势",
+     "url": "https://www.rfi.fr/en/podcasts/spotlight-on-africa/20260526-spotlight-on-africa-global-jihadism-s-growing-grip-on-africa"
+    },
+    {
+     "date": "2026-09-07",
+     "dir": "升级",
+     "topic": "萨赫勒地区圣战组织向几内亚湾沿岸国家扩张态势",
+     "url": "https://www.riotimesonline.com/sahel-security-crisis-2026/"
+    }
+   ]
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-24",
+     "dir": "升级",
+     "topic": "俄乌战争俄军死亡规模与地理分布",
+     "url": "https://en.zona.media/article/2026/02/24/mapofwar"
+    },
+    {
+     "date": "2026-03-02",
+     "dir": "僵持",
+     "topic": "2025年俄罗斯军队新兵招募与信贷延期数据",
+     "url": "https://en.zona.media/article/2026/03/02/loans"
+    },
+    {
+     "date": "2026-04-21",
+     "dir": "升级",
+     "topic": "俄罗斯当局对纳瓦利尼反腐基金会捐赠者的刑事起诉规模与趋势",
+     "url": "https://en.zona.media/article/2026/04/21/acf_donations"
+    },
+    {
+     "date": "2026-05-09",
+     "dir": "升级",
+     "topic": "俄乌战争俄方阵亡总数统计（2022-2025）",
+     "url": "https://en.zona.media/article/2026/05/09/losses"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2026/08/14/casualties_eng-trl"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "未表态",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "url": "https://en.zona.media/article/2022/05/20/casualties_eng-trl"
+    },
+    {
+     "date": "2026-09-11",
+     "dir": "升级",
+     "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+     "url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl"
+    }
+   ]
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-02-03",
+     "dir": "升级",
+     "topic": "美国弹药生产扩张与国防预算增长前景",
+     "url": "https://www.defenseone.com/business/2026/02/primed-production/411145/"
+    },
+    {
+     "date": "2026-03-06",
+     "dir": "升级",
+     "topic": "美国导弹生产能力与中美潜在冲突准备",
+     "url": "https://www.cnbc.com/video/2026/03/06/tom-karako-the-biggest-concern-is-a-larger-conflict-with-china.html"
+    },
+    {
+     "date": "2026-04-20",
+     "dir": "升级",
+     "topic": "美国萨德/TPY-2雷达遭伊朗打击与综合防空反导能力",
+     "url": "https://breakingdefense.com/2026/04/irans-targeting-of-our-thaad-tpy-2-radars-is-a-big-freaking-deal/"
+    },
+    {
+     "date": "2026-06-18",
+     "dir": "降级",
+     "topic": "美国反导系统弹药储备及固体火箭发动机产能",
+     "url": "https://breakingdefense.com/2026/06/dwindling-stockpiles-of-solid-rocket-motors-highlight-industrial-base-challenges/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "僵持",
+     "topic": "美国弹药产能扩张与国会拨款前景",
+     "url": "https://www.notus.org/defense/trump-munitions-production-congress-funding"
+    },
+    {
+     "date": "2026-07-28",
+     "dir": "升级",
+     "topic": "日本爱国者导弹防御系统现代化与 LTAMDS 雷达采购决策",
+     "url": "https://breakingdefense.com/2026/07/time-to-decide-a-critical-moment-in-japan-us-missile-defense-cooperation/"
+    },
+    {
+     "date": "2026-08-09",
+     "dir": "僵持",
+     "topic": "美国导弹库存危机与军工产能扩张",
+     "url": "https://clashreport.com/defense/articles/pentagon-demands-rapid-weapons-production-surge-amid-shortages-vtqk8w1bqam"
+    },
+    {
+     "date": "2026-08-21",
+     "dir": "僵持",
+     "topic": "美军弹药库存补充与低成本弹药方案的时间表",
+     "url": "https://www.defenseone.com/business/2026/08/theres-no-shortcut-replenish-us-munitions-stockpiles/415558/"
+    },
+    {
+     "date": "2026-08-27",
+     "dir": "降级",
+     "topic": "美国导弹弹药库存耗竭对全球威慑能力的影响",
+     "url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/"
+    },
+    {
+     "date": "2026-09-16",
+     "dir": "僵持",
+     "topic": "美国国防工业基础与军火库存问题",
+     "url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/"
+    },
+    {
+     "date": "2026-09-25",
+     "dir": "降级",
+     "topic": "美国导弹库存消耗与国防生产能力",
+     "url": "https://article.wn.com/view-scrap/2026/09/25/Tom_Karako_We_have_expended_a_very_significant_percentage_of/"
+    }
+   ]
+  },
+  {
+   "kol": "Ryan D. Martinson",
+   "theater": "印太",
+   "points": [
+    {
+     "date": "2026-02-04",
+     "dir": "升级",
+     "topic": "中国海警在台湾东部海域常态化部署及其战略影响",
+     "url": "https://www.andrewerickson.com/2026/07/cmsi-note-21-the-new-normal-east-of-taiwan/"
+    },
+    {
+     "date": "2026-04-25",
+     "dir": "僵持",
+     "topic": "中国军民融合(MCF)战略的隐蔽化转向",
+     "url": "https://thediplomat.com/2026/04/the-staged-death-of-chinas-military-civil-fusion/"
+    },
+    {
+     "date": "2026-06-02",
+     "dir": "升级",
+     "topic": "习近平领导下的中国海军转型与印太海权战略",
+     "url": "https://digital-commons.usnwc.edu/cmsi-maritime-reports/54/"
+    }
+   ]
+  },
+  {
+   "kol": "Alex de Waal",
+   "theater": "非洲",
+   "points": [
+    {
+     "date": "2026-01-08",
+     "dir": "升级",
+     "topic": "苏丹内战的区域化与国际化演变",
+     "url": "https://qoshe.com/foreign-affairs/alex-de-waal/the-war-that-outgrew-sudan/187205933"
+    },
+    {
+     "date": "2026-02-02",
+     "dir": "升级",
+     "topic": "全球「地缘盗贼政治」(geo-kleptocracy)对国际秩序与弱国主权的侵蚀",
+     "url": "https://responsiblestatecraft.org/global-mafia-politics/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "升级",
+     "topic": "加沙地带饥荒强度与规模的跨国比较分析",
+     "url": "https://worldpeacefoundation.org/blog/can-we-compare-famines-gaza-somalia-south-sudan-sudan-tigray-yemen/"
+    },
+    {
+     "date": "2026-07-28",
+     "dir": "升级",
+     "topic": "南苏丹独立与苏丹分裂的长期影响",
+     "url": "https://fronts.co/podcast/due-south-professor-alex-de-waal-on-sudan/"
+    },
+    {
+     "date": "2026-07-31",
+     "dir": "僵持",
+     "topic": "美国对苏丹快速支援部队(RSF)的恐怖组织认定及其对停火谈判的影响",
+     "url": "https://responsiblestatecraft.org/terrorist-sudan-rsf/"
+    },
+    {
+     "date": "2026-08-10",
+     "dir": "僵持",
+     "topic": "苏丹内战的性质、根源与国际维度",
+     "url": "https://www.e-ir.org/p/interview-alex-de-waal"
+    }
+   ]
+  },
+  {
+   "kol": "Michael Kofman",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-13",
+     "dir": "僵持",
+     "topic": "俄罗斯核力量现代化与军备竞赛前景",
+     "url": "https://warontherocks.com/running-to-stand-still-russian-nuclear-modernization-after-new-start/"
+    },
+    {
+     "date": "2026-02-16",
+     "dir": "降级",
+     "topic": "俄乌战争态势与乌克兰持久战战略",
+     "url": "https://qoshe.com/foreign-affairs/michael-kofman/ukraine-s-war-of-endurance/188012030"
+    },
+    {
+     "date": "2026-02-16",
+     "dir": "僵持",
+     "topic": "俄罗斯持续征兵能力与战争人力资源储备",
+     "url": "https://carnegieendowment.org/russia-eurasia/politika/2026/02/russia-internal-resources-war"
+    },
+    {
+     "date": "2026-02-22",
+     "dir": "僵持",
+     "topic": "2025年俄军在俄乌战场的战果与战略目标实现情况",
+     "url": "https://inkorr.com/en/vijskovij-analitik-kofman-comu-2025-rik-ne-stav-uspisnim-dla-rosijskoi-armii-305083"
+    },
+    {
+     "date": "2026-02-25",
+     "dir": "僵持",
+     "topic": "俄乌战争僵局与克里姆林宫的持久战意图",
+     "url": "https://meduza.io/en/brief/2026/02/26/this-was-russia-today"
+    },
+    {
+     "date": "2026-02-26",
+     "dir": "僵持",
+     "topic": "俄罗斯军方向普京虚报战场成果与克里姆林宫对乌克兰战争认知偏差",
+     "url": "https://en.hvylya.net/news/716-russian-generals-reported-successes-that-never-happened-kofman"
+    },
+    {
+     "date": "2026-03-19",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年态势演变",
+     "url": "https://english.nv.ua/russian-war/russia-unlikely-to-bounce-back-in-2026-50592991.html"
+    },
+    {
+     "date": "2026-05-25",
+     "dir": "僵持",
+     "topic": "俄乌战争2026年战场态势与俄军攻势效果",
+     "url": "https://nymag.com/intelligencer/article/ukraine-russia-war-drones-iran.html"
+    },
+    {
+     "date": "2026-07-06",
+     "dir": "升级",
+     "topic": "俄乌战争中俄军重建能力与北约防御准备",
+     "url": "https://transcripts.cnn.com/show/ampr/date/2026-07-06/segment/01"
+    },
+    {
+     "date": "2026-07-09",
+     "dir": "升级",
+     "topic": "俄罗斯军事力量在乌克兰战争后的重建能力与对NATO威胁",
+     "url": "https://carnegieendowment.org/events/2026/07/the-next-russia-threat-moscows-military-power-after-ukraine"
+    }
+   ]
+  },
+  {
+   "kol": "Decker Eveleth",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-01-06",
+     "dir": "僵持",
+     "topic": "中国对台湾领导人定点清除行动的能力评估",
+     "url": "https://foreignpolicy.com/2026/01/06/venezuela-maduro-us-operation-china-russia-ukraine-taiwan/"
+    },
+    {
+     "date": "2026-02-06",
+     "dir": "未表态",
+     "topic": "乌克兰对俄罗斯卡普斯京亚尔导弹试验场打击评估",
+     "url": "https://hiwars.com/en/intel/us-analyst-denies-missile-damage-at-russias-oreshn"
+    },
+    {
+     "date": "2026-03-24",
+     "dir": "升级",
+     "topic": "伊朗导弹威慑能力与以色列/美国空袭",
+     "url": "https://foreignpolicy.com/2026/03/24/iran-israel-us-war-missile-nuclear-weapons-deterrence/"
+    },
+    {
+     "date": "2026-06-12",
+     "dir": "升级",
+     "topic": "中美台海冲突中的导弹防御有效性对比",
+     "url": "https://foreignpolicy.com/2026/06/12/iran-war-us-china-taiwan-missile-defense-radar-interceptors/"
+    },
+    {
+     "date": "2026-07-13",
+     "dir": "未表态",
+     "topic": "中国潜射弹道导弹测试的战略意图分析",
+     "url": "https://foreignpolicy.com/2026/07/13/china-nuclear-missile-test-launch-slbm/"
+    }
+   ]
+  },
+  {
+   "kol": "Jack Watling",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-06-01",
+     "dir": "僵持",
+     "topic": "俄乌战争走向与停火可能性",
+     "url": "https://www.foreignaffairs.com/ukraine/ukraine-war-turns-tide"
+    },
+    {
+     "date": "2026-06-29",
+     "dir": "未表态",
+     "topic": "美国对伊朗战争的战略失败与治国之道改革",
+     "url": "https://warontherocks.com/the-art-of-statecraft-in-an-age-of-strategic-failure/"
+    },
+    {
+     "date": "2026-08-14",
+     "dir": "降级",
+     "topic": "爱国者导弹产能不足与乌克兰防空困境",
+     "url": "https://www.theguardian.com/commentisfree/2026/aug/14/patriot-missiles-ukraine-putin-kyiv-running-out-nato-danger"
+    }
+   ]
+  },
+  {
+   "kol": "Conflict Armament Research (CAR)",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-05-13",
+     "dir": "升级",
+     "topic": "胡塞武装在伊朗支持下重建武器库及其对红海航运威胁",
+     "url": "https://political.org/2026/05/13/houthis-rapidly-rebuilding-sophisticated-weapons-arsenal-with-iranian-support-new-report-finds/"
+    },
+    {
+     "date": "2026-05-13",
+     "dir": "僵持",
+     "topic": "胡塞武装在伊朗协助下重建先进武器库及其供应链脆弱性",
+     "url": "https://www.breitbart.com/middle-east/2026/05/13/report-houthis-with-iranian-help-building-sophisticated-weapons-arsenal/"
+    },
+    {
+     "date": "2026-05-13",
+     "dir": "升级",
+     "topic": "胡塞武装在伊朗支持下的武器制造能力提升",
+     "url": "https://www.breitbart.com/national-security/2026/05/13/report-houthis-with-iranian-help-building-sophisticated-weapons-arsenal/"
+    }
+   ]
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-05-26",
+     "dir": "僵持",
+     "topic": "乌克兰战场态势与无人机战力优势转变",
+     "url": "https://www.chinatalk.media/p/wartalk-ukraines-forward-drone-line"
+    },
+    {
+     "date": "2026-06-22",
+     "dir": "升级",
+     "topic": "乌克兰战场态势与纵深打击能力变化（2026年6月）",
+     "url": "https://podcasts.apple.com/us/podcast/ep-5-rob-lee-back-from-the-front-ukraine-closes-the/id1896914748?i=1000773783050"
+    },
+    {
+     "date": "2026-06-22",
+     "dir": "升级",
+     "topic": "俄乌战场态势与乌方中程打击能力的战役影响",
+     "url": "https://ukrainemilitaryhistory.org/episode-5/"
+    },
+    {
+     "date": "2026-09-03",
+     "dir": "僵持",
+     "topic": "俄乌战争空袭升级与持久战前景",
+     "url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html"
+    },
+    {
+     "date": "2026-09-11",
+     "dir": "升级",
+     "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+     "url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748"
+    }
+   ]
+  },
+  {
+   "kol": "Todd Harrison",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-05-12",
+     "dir": "升级",
+     "topic": "中美月球探索竞赛及资源开发主导权",
+     "url": "https://www.lexpress.eu/world/if-china-were-to-overtake-the-united-states-in-lunar-exploration-the-warning-from-researcher-todd-05-12-2026-SV5EUGEVKZGMHDTN3SCKV64QQY/"
+    },
+    {
+     "date": "2026-08-12",
+     "dir": "未表态",
+     "topic": "美国2027财年国防预算及国防现代化转型",
+     "url": "https://x.com/ToddHarrisonDC/status/2087579540851769473"
+    },
+    {
+     "date": "2026-08-12",
+     "dir": "未表态",
+     "topic": "美国2027财年国防预算的现代化转型",
+     "url": "https://x.com/ToddHarrisonDC/status/2087579542969885075"
+    },
+    {
+     "date": "2026-08-31",
+     "dir": "降级",
+     "topic": "美军弹药短缺与生产时间线危机",
+     "url": "https://www.defenseone.com/ideas/2026/08/we-can-buy-more-weapons-we-cant-buy-more-time/415740/"
+    }
+   ]
+  },
+  {
+   "kol": "Matt Korda",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-02-13",
+     "dir": "僵持",
+     "topic": "俄罗斯战略核力量现代化与新START到期后军备竞赛前景",
+     "url": "https://warontherocks.com/running-to-stand-still-russian-nuclear-modernization-after-new-start/"
+    },
+    {
+     "date": "2026-02-20",
+     "dir": "升级",
+     "topic": "美国核武器现代化计划与 ICBM 项目风险",
+     "url": "https://theanalysis.news/do-you-trust-epstein-elite-with-nuclear-weapons-matt-korda/"
+    },
+    {
+     "date": "2026-05-14",
+     "dir": "僵持",
+     "topic": "俄罗斯核武库规模与现代化进程评估",
+     "url": "https://thebulletin.org/premium/2026-05/russian-nuclear-weapons-2026/"
+    },
+    {
+     "date": "2026-09-09",
+     "dir": "升级",
+     "topic": "印度核武库规模与裂变材料产能评估",
+     "url": "https://thebulletin.org/premium/2026-09/indian-nuclear-weapons-2026/"
+    }
+   ]
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "points": [
+    {
+     "date": "2026-02-06",
+     "dir": "僵持",
+     "topic": "New START核武器条约到期后的俄美核军备竞赛风险",
+     "url": "https://www.ndr.de/nachrichten/info/neues-atomares-wettruesten-mit-fabian-hoffmann,audio-409584.html"
+    },
+    {
+     "date": "2026-02-06",
+     "dir": "僵持",
+     "topic": "美俄新核裁军条约谈判前景与核武竞赛风险",
+     "url": "https://www.ndr.de/nachrichten/info/hoffmann-verhandlungen-fuer-neues-atomabkommen-koennen-jahre-dauern,audio-409560.html"
+    },
+    {
+     "date": "2026-08-28",
+     "dir": "升级",
+     "topic": "俄乌战争中的弹道导弹与防空对抗态势",
+     "url": "https://www.handelsblatt.com/politik/international/ruestung-wer-mit-ballistischen-raketen-angreift-ist-immer-im-vorteil/100249388.html"
+    },
+    {
+     "date": "2026-09-07",
+     "dir": "升级",
+     "topic": "俄罗斯低成本涡喷巡航导弹大规模生产及对乌克兰防空体系的威胁",
+     "url": "https://x.com/FRHoffmann1/status/2096866395917295680"
+    },
+    {
+     "date": "2026-09-13",
+     "dir": "升级",
+     "topic": "乌克兰FP-7与FP-9弹道导弹对战局影响",
+     "url": "https://kyivindependent.com/ukraines-missile-gap-kyivs-struggle-to-close-the-ballistic-divide/"
+    },
+    {
+     "date": "2026-09-14",
+     "dir": "升级",
+     "topic": "乌克兰国产弹道导弹对俄乌战争影响",
+     "url": "https://www.19fortyfive.com/2026/09/ukraines-fire-point-is-building-2-ballistic-missiles-of-its-own-the-fp-7-reaches-200-kilometres-with-a-150-kilogram-warhead-the-longer-ranged-fp-9-could-strike-600-to-800-kilometres-into-russia-wi/"
+    },
+    {
+     "date": "2026-09-20",
+     "dir": "僵持",
+     "topic": "俄罗斯弹道导弹生产与乌克兰拦截能力对比",
+     "url": "https://x.com/FRHoffmann1/status/2101606678022307866"
+    }
+   ]
+  },
+  {
+   "kol": "Alex Karp",
+   "theater": "军工与战略",
+   "points": [
+    {
+     "date": "2026-03-13",
+     "dir": "未表态",
+     "topic": "美国国防部使用 Anthropic AI 模型的伦理边界与对外作战授权",
+     "url": "https://fortune.com/2026/03/13/palantir-ceo-alex-karp-interview-anthropic-pentagon-never-a-sense-ai-used-for-domestic-surveillance/"
+    },
+    {
+     "date": "2026-03-24",
+     "dir": "升级",
+     "topic": "人工智能时代劳动力市场与职业技能发展",
+     "url": "https://fortune.com/2026/03/24/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice/"
+    },
+    {
+     "date": "2026-06-06",
+     "dir": "僵持",
+     "topic": "Palantir Technologies 在 AI 平台领域的市场主导地位",
+     "url": "https://usabusinesstimes.com/palantirs-alex-karp-bets-the-company-on-ai-dominance/"
+    }
+   ]
+  },
+  {
+   "kol": "Larry C. Johnson",
+   "theater": "中东",
+   "points": [
+    {
+     "date": "2026-01-20",
+     "dir": "升级",
+     "topic": "美国对伊朗军事打击与中东地区冲突升级",
+     "url": "https://shows.acast.com/dialogue-works/episodes/larry-c-johnson-pepe-escobar-irans-ultimate-defense-plan-the"
+    },
+    {
+     "date": "2026-02-28",
+     "dir": "降级",
+     "topic": "美伊紧张局势与美国对伊朗军事行动可能性",
+     "url": "https://shows.acast.com/dialogue-works/episodes/larry-c-johnson-col-larry-wilkerson-iran-us-talks-on-the-edg"
+    },
+    {
+     "date": "2026-10-07",
+     "dir": "升级",
+     "topic": "美军CBRN部队据称部署至科威特及美伊核对抗风险",
+     "url": "https://greatreporter.com/2026/10/07/former-cia-analyst-says-us-soldiers-parents-told-him-nuclear-defence-units-are-d/"
+    }
+   ]
+  }
+ ],
+ "n_kol_active_week": 3,
+ "rows_in_week": [
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://confirmado.com.ve/rocio-san-miguel-relata-los-detalles-de-su-detencion-por-la-dgcim-su-paso-por-prision-y-la-intervencion-diplomatica-que-facilito-su-libertad/",
+   "source_title": "Rocío San Miguel relata los detalles de su detención por la ...",
+   "published_on": "2026-10-05",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉人权活动人士Rocío San Miguel被军事情报机关拘押案",
+   "claim": "该案件中仍有被定罪人员尚未获释，包括被判18年的军人和被判3年的两名女性，她们应当被释放",
+   "reasoning": "Rocío San Miguel本人已于2026年1月8日获得完全自由，但她强调同案中其他被告——包括被判18年监禁的军人（含Macías将军）和两名被判3年、育有幼童的母亲——仍在服刑。她认为这些人与她一样是政治犯，应当获释是「全国呼声」，并表示自己虽获自由但「内心悲伤」因其他人仍被关押",
+   "evidence": [
+    "Rocío San Miguel于2024年2月9日在迈克蒂亚国际机场被军事反情报总局（Dgcim）以「静默警报」为由拘留，当时无逮捕令",
+    "她在拘押期间遭受近两年监禁，包括8个月骨折未获治疗、系统性侵犯和强迫家人出庭",
+    "2026年1月8日她获释，释放令编号为2026年001号，系人道外交斡旋结果",
+    "同案中两名女性被判3年徒刑且为幼童母亲，多名军人被判18年徒刑仍在服刑",
+    "前西班牙首相萨帕特罗在她监禁期间进行人道斡旋，促成她两次狱中手术及其兄弟转往西班牙治疗癌症",
+    "她表示「对同案其他人及所有政治犯必须获释是全国呼声」"
+   ],
+   "data": [
+    {
+     "metric": "拘押起始时间",
+     "value": "2024年2月9日上午6时",
+     "context": "在迈克蒂亚机场被拦截"
+    },
+    {
+     "metric": "释放令编号",
+     "value": "2026年001号",
+     "context": "2026年1月8日获释文件"
+    },
+    {
+     "metric": "骨折未治疗时长",
+     "value": "8个月",
+     "context": "监禁期间"
+    },
+    {
+     "metric": "失联时长",
+     "value": "1年10个月",
+     "context": "获释前与兄长无电话联系"
+    },
+    {
+     "metric": "同案女性刑期",
+     "value": "3年",
+     "context": "两名育有幼童的母亲"
+    },
+    {
+     "metric": "同案军人刑期",
+     "value": "18年",
+     "context": "包括Macías将军在内的多名军人"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-10-07",
+   "date_source": "page_meta",
+   "_src_file": "thesis_all_2026-10-07.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://eltiempove.com/rocio-san-miguel-reflexiona-sobre-su-detencion-y-exige-reformas-en-el-sistema-judicial-venezolano/",
+   "source_title": "Rocío San Miguel reflexiona sobre su detención y exige ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉情报机构、军事司法与监狱系统改革",
+   "claim": "委内瑞拉的情报机构、军事司法系统和监狱中心迫切需要进行变革",
+   "reasoning": "Rocío San Miguel 在被拘留期间亲身经历了委内瑞拉国家机器的运作，特别是在军事反情报总局（DGCIM）的遭遇让她承受了严重的心理暴力。这段「从内部体验系统」的经历使她直接观察到国家机构的缺陷，增强了她对改革紧迫性的认知。她强调这些机构存在系统性问题，需要根本性改变。",
+   "evidence": [
+    "San Miguel 在军事反情报总局（DGCIM）与家人一起出庭是她被监禁期间遭受最严重心理暴力的事件",
+    "她在拘留设施中的经历让她能够第一手见证国家机器的缺陷",
+    "她表示「从内部体验系统」使她对变革的紧迫性有了更深刻的认识",
+    "她重申继续在法律框架内要求国家承担责任的承诺"
+   ],
+   "data": [],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-08",
+   "_src_file": "thesis_all_2026-10-08.json"
+  },
+  {
+   "kol": "Larry C. Johnson",
+   "theater": "中东",
+   "source_url": "https://greatreporter.com/2026/10/07/former-cia-analyst-says-us-soldiers-parents-told-him-nuclear-defence-units-are-d/",
+   "source_title": "Former CIA Analyst Says US Soldiers' Parents Told Him Nuclear Defence ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「larry c. johnson」",
+   "topic": "美军CBRN部队据称部署至科威特及美伊核对抗风险",
+   "claim": "美军专门处理化学、生物、辐射和核威胁的CBRN部队正被部署到科威特，这可能与特朗普对伊朗的「歼灭」威胁有关，但具体任务尚不明确",
+   "reasoning": "Larry C. Johnson根据在役美军人员家属的告知，称特朗普或国防部长下令将CBRN专业部队部署到科威特。他将此信息与特朗普在联合国大会上威胁「歼灭伊朗伊斯兰共和国」、在TIME采访中确认「可能会这么做」的公开表态相联系。但Johnson本人也表示「如果属实会觉得奇怪」，因为科威特美军基地易受伊朗攻击。他强调这不是大规模部队增兵（约10000人主要是航母打击群和两栖部队），CBRN部署是单独事项，且未声称已授权核打击",
+   "evidence": [
+    "在役美军人员的家属（主要是儿子在部队服役的父母）告诉Johnson有CBRN部队被部署到科威特的命令",
+    "特朗普在2026年9月22日联合国大会上威胁要「歼灭伊朗伊斯兰共和国」，问「我是否要把他们送入地狱，没有生存机会、没有未来伟大或后代的希望」",
+    "特朗普在10月1日发表的TIME采访中，被问及是否会歼灭伊朗时回答「是的，我会这么做，这是可能的」",
+    "美联社10月5日调查报道了伊朗无人机3月1日袭击科威特Shuaiba港口，造成6名美军士兵死亡、数十人受伤，幸存者和军官称对该地点脆弱性的警告被忽视",
+    "美联社10月1日报道约9000人（主要是西奥多·罗斯福号航母打击群和马金岛号两栖戒备群）正前往中东地区",
+    "历史上美军CBRN部队曾部署科威特：2014年9月71st Chemical Company准备10月部署进行场地勘察和采样；2019年2月俄亥俄国民警卫队637th Chemical Company在Arifjan营地担任美国中央司令部责任区的CBRN防御反应部队"
+   ],
+   "data": [
+    {
+     "metric": "前往中东的美军海军和陆战队人员",
+     "value": "约9000人",
+     "context": "美联社2026年10月1日报道，包括航母打击群和两栖戒备群"
+    },
+    {
+     "metric": "伊朗袭击科威特港口造成美军死亡",
+     "value": "6名士兵",
+     "context": "2026年3月1日Shuaiba港口无人机袭击"
+    },
+    {
+     "metric": "伊朗袭击科威特港口造成美军受伤",
+     "value": "数十人",
+     "context": "2026年3月1日Shuaiba港口无人机袭击"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "low",
+   "extracted_on": "2026-10-09",
+   "_src_file": "thesis_all_2026-10-09.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://elpais.com/america/2026-10-07/rocio-san-miguel-expresa-politica-venezolana-mi-sentencia-ratifica-el-derecho-de-los-civiles-de-exigir-transparencia-a-la-fuerza-armada.html",
+   "source_title": "Rocío San Miguel, expresa política venezolana: “Mi sentencia ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉军事体制改革与民主转型前景",
+   "claim": "委内瑞拉武装力量需要进行去政党化和宪政化重构，若把握当前历史窗口期并与美国合作推进安全改革，民主转型可以成功",
+   "reasoning": "San Miguel基于其被捕经历和对军事体制的长期研究认为，委内瑞拉军事情报机关存在系统性违法问题（如DGCIM设有监狱、军事系统凌驾于司法之上），2025年1月3日马杜罗被美军带走后的政治变局为改革创造了机会，她观察到军方「叙事转变的积极迹象」，判断若能借助美国在安全领域的合作完成武装力量的去政党化和职能重构，同时避免谈判进程受阻，委内瑞拉可进入民主轨道",
+   "evidence": [
+    "2025年1月3日凌晨马杜罗被美军带走，1月8日她与其他政治犯及西班牙籍囚犯一同被释放并送往西班牙",
+    "军事情报总局（DGCIM）设有监狱，15名被捕者均遭任意拘留和强迫失踪，部分人受酷刑，普通检察官和法官服从军事系统决定",
+    "她的案件中军方人员被问及被拘留者权利时无法回答「打电话、有律师、不受酷刑」等基本内容",
+    "美国在安全事务上的合作「为重审（武装力量的）理念、规模和运作性开启了希望」",
+    "她观察到武装力量「某种叙事变化」和「去政党化方面的积极迹象」"
+   ],
+   "data": [
+    {
+     "metric": "被捕时长",
+     "value": "2年零9个月",
+     "context": "2024年2月至2026年释放前"
+    },
+    {
+     "metric": "未治疗骨折期",
+     "value": "8个月",
+     "context": "在El Helicoide监狱期间"
+    },
+    {
+     "metric": "首次通话时间",
+     "value": "被捕后1年10个月",
+     "context": "拘留期间"
+    },
+    {
+     "metric": "案件涉案人数",
+     "value": "15人",
+     "context": "Brazalete Blanco阴谋案"
+    },
+    {
+     "metric": "检方求刑年限",
+     "value": "30年",
+     "context": "2025年8月4日庭审时六项罪名合计"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "短期内（未指明具体时间）",
+   "confidence": "medium",
+   "extracted_on": "2026-10-09",
+   "_src_file": "thesis_all_2026-10-09.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://abc17news.com/cnn-spanish/2026/10/09/rocio-san-miguel-tras-su-absolucion-se-ratifico-el-derecho-de-los-civiles-a-seguir-auditando-a-la-fuerza-armada/",
+   "source_title": "Rocío San Miguel tras su absolución: “Se ratificó el derecho ...",
+   "published_on": "2026-10-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉军队监督与公民社会审查权",
+   "claim": "对委内瑞拉武装力量进行民间监督和审查是公民基本权利，应当继续合法存在",
+   "reasoning": "San Miguel认为其被控「白手环」阴谋案后获无罪释放的判决，实质上是对平民审查军队权力的法律确认。她强调这不仅关乎个人，而是确立了记者、分析师、研究者和大学继续监督「掌握国家武装的人」的合法性。她将此视为在威权环境下捍卫言论自由和异见权利的象征性胜利，认为在民主社会中批评公共政策不应导致失踪或拘禁",
+   "evidence": [
+    "San Miguel通过「公民监督」组织披露委内瑞拉军方内部运作信息，并记录被拘押军人的人权状况及酷刑指控",
+    "她于2024年在迈凯蒂亚机场试图离境时被捕，被控恐怖主义、叛国罪及参与暗杀马杜罗的「白手环」阴谋",
+    "委内瑞拉法院在2026年10月宣判其无罪，法律上确认其无刑事责任",
+    "在押期间她被禁止打电话和指定信任律师，直到被捕1年10个月后才首次与家人通话",
+    "其兄弟因她被捕导致无法前往西班牙接受已安排好的器官移植治疗，最终错过移植时机"
+   ],
+   "data": [
+    {
+     "metric": "关押时长",
+     "value": "23个月",
+     "context": "San Miguel被监禁总时长"
+    },
+    {
+     "metric": "司法程序总时长",
+     "value": "2年8个月",
+     "context": "从逮捕到宣判无罪的完整诉讼周期"
+    },
+    {
+     "metric": "首次家人通话时间",
+     "value": "被捕后1年10个月",
+     "context": "她在押期间首次获准与兄长电话联系的时间点"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  },
+  {
+   "kol": "Tom Shugart",
+   "theater": "军工与战略",
+   "source_url": "https://x.com/tshugart3/status/2107896809448484886",
+   "source_title": "Tom Shugart on X: \"Nor is Guam a sanctuary. China’s DF-26 and ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom shugart」",
+   "topic": "美军第一岛链前沿部署与对华威慑战略",
+   "claim": "美军不应从第一岛链撤退，而应通过分散部署、加固设施和建立跨两条岛链的韧性网络来应对中国威胁",
+   "reasoning": "Tom Shugart认为威慑的核心是「拒止」（denial）而非成本施加，即让北京相信军事行动会失败。他主张第一岛链（日本、菲律宾）拥有更多可分散部署的基地和民用设施，能够支撑空军敏捷作战部署（ACE）；相比之下第二岛链（关岛、天宁岛等）可用地产太少、后勤线过长、出动架次率低，反而削弱了在台海冲突实际发生地的作战能力。他强调失去台湾将使中国获得深水港、深海传感器等战略地形，威胁日本海上交通线并向菲律宾海投射力量。后撤会让北京更相信能在美国有效干预前完成目标，反而增加战争风险。",
+   "evidence": [
+    "日本和菲律宾提供大量军用与民用机场、港口等设施用于分散部署，正是空军敏捷作战部署（ACE）设计利用的对象",
+    "第二岛链（关岛、天宁岛、塞班、帕劳等）可用作战地产远少于第一岛链，地图上绿色区域明显稀缺",
+    "中国东风-26和东风-27导弹射程覆盖关岛，且数量更多",
+    "中国控制台湾后可利用深水港支持潜艇、部署深海传感器、防空力量和其他兵力向菲律宾海投射，威胁日本海上交通线",
+    "美国自1979年以来未在台湾保持作战军事存在，驻台少量人员为训练和顾问",
+    "驻韩美军的核心任务仍是威慑和防御朝鲜，而非主要针对中国"
+   ],
+   "data": [
+    {
+     "metric": "美军撤离台湾时间",
+     "value": "1979年",
+     "context": "美国自该年起未在台湾保持作战军事存在"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  },
+  {
+   "kol": "Tom Shugart",
+   "theater": "军工与战略",
+   "source_url": "https://x.com/tshugart3/status/2107896802741547292",
+   "source_title": "Tom Shugart on X: \"A quick look at the map shows the SIC has ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom shugart」",
+   "topic": "美军第一岛链前沿部署与对华威慑战略",
+   "claim": "美军应当保持第一岛链前沿部署并加强分散能力，而非后撤至第二岛链",
+   "reasoning": "Tom Shugart认为威慑拒止的核心是让北京相信军事行动会失败，而非仅提高成本。撤至第二岛链虽减少近距离脆弱性，但会面临可用基地更少、后勤线更长、出动架次更低等问题，且关岛等地仍在东风-26/27射程内并非绝对安全。日本和菲律宾提供的众多军民用机场港口足以支撑分散部署，第一岛链的地理纵深远超第二岛链。失去台湾将使中国获得深水港、传感器网络等战略地形，威胁日本海上交通线并向菲律宾海投射力量。物理距离增加可能降低摩擦但若北京认为能在美军有效干预前达成目标反而增加动武诱因",
+   "evidence": [
+    "日本和菲律宾提供众多军民用机场、港口等设施可供分散部署，这正是空军「敏捷作战部署」(Agile Combat Employment)设计利用的对象",
+    "第二岛链仅有关岛、天宁岛、塞班岛、帕劳等地，可用地产远少于日本菲律宾，地图显示「绿色区域不多」",
+    "中国东风-26和东风-27导弹射程覆盖关岛且数量更多，后撤只是降低武器密度而非绝对安全",
+    "中国控制台湾后可通过深水港支援潜艇、部署深海传感器、防空力量向菲律宾海投射，威胁日本海上交通线",
+    "美国自1979年以来未在台湾保持作战军事存在，目前仅有少量训练/顾问人员",
+    "驻韩美军的核心任务仍是威慑和防御朝鲜而非对华威慑"
+   ],
+   "data": [
+    {
+     "metric": "美军撤离台湾年份",
+     "value": "1979年",
+     "context": "美国最后一次在台湾保持作战军事存在"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  }
+ ],
+ "rows_30d": [
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "source_url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl",
+   "source_title": "How many Russian soldiers died in the war with Ukraine",
+   "published_on": "2026-09-11",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 en.zona.media",
+   "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+   "claim": "截至2026年9月，俄军已确认死亡超过23万人，且2026年初征召的囚犯部队在前三个月内伤亡率达20%，战争性质已转变为「灰色地带」消耗战，死亡登记延迟普遍达数月。",
+   "reasoning": "Mediazona与BBC俄语部通过公开来源（社交媒体、地方媒体、遗嘱登记数据库）核实死者姓名，发现2026年确认死亡数据严重滞后的原因在于：前线变为「灰色地带」导致遗体无法及时撤离，官方死亡登记延迟加剧（例如2026年1-3月死亡者直到9月仍在持续确认中），且志愿兵和囚犯等非正规军占比上升至伤亡主体。通过追踪乌方泄露的4000名囚犯征召名单，发现其中807人（20%）在半年内阵亡，且84.5%集中在前三个月，印证了「短训后即投入突击」的高消耗战术。",
+   "evidence": [
+    "截至2026年9月11日，已核实俄军死亡名单包含23.46万人（有年龄记录者）和23.13万人（有死亡日期记录者）",
+    "2024年俄军死亡9.56万人，2025年死亡5.97万人，2026年截至更新时仅确认6600人（数据严重滞后）",
+    "乌克兰「我想活下去」项目泄露的4000名囚犯征召名单中，807人已确认死亡（占20%），其中682人（84.5%）死于2026年1-3月",
+    "2026年初阵亡的囚犯被分配至第254摩步团、第15摩步旅、第5摩步旅等多个单位，表明非单一部队损失",
+    "2022年初战争阶段空降兵和摩步部队损失最大，2023年3月起囚犯成为最大阵亡群体（因瓦格纳在巴赫穆特使用囚犯突击队），2024年9月后志愿兵重新成为最大阵亡群体",
+    "军官阵亡比例从2022年初的10%降至2024年11月的2-3%，反映志愿步兵伤亡率远高于指挥官"
+   ],
+   "data": [
+    {
+     "metric": "已核实死亡人数（有死亡日期记录）",
+     "value": "231,300人",
+     "context": "截至2026年9月11日"
+    },
+    {
+     "metric": "2024年俄军死亡人数",
+     "value": "95,600人",
+     "context": "全年"
+    },
+    {
+     "metric": "2025年俄军死亡人数",
+     "value": "59,700人",
+     "context": "全年"
+    },
+    {
+     "metric": "2026年已确认死亡人数",
+     "value": "6,600人",
+     "context": "截至更新时（数据严重滞后）"
+    },
+    {
+     "metric": "泄露囚犯名单确认死亡率",
+     "value": "807人/4,000人 = 20%",
+     "context": "2026年1-9月追踪结果"
+    },
+    {
+     "metric": "泄露囚犯名单中2026年1-3月死亡占比",
+     "value": "682人/807人 = 84.5%",
+     "context": "1月81人，2月316人，3月285人"
+    },
+    {
+     "metric": "军官阵亡总数",
+     "value": "7,656人",
+     "context": "截至2026年9月11日"
+    },
+    {
+     "metric": "将军阵亡总数",
+     "value": "15人",
+     "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年全年（数据滞后需2年后完整呈现）",
+   "confidence": "high",
+   "extracted_on": "2026-09-13",
+   "_src_file": "thesis_all_2026-09-13.json"
+  },
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "source_url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748",
+   "source_title": "Ukraine Military History - Podcast - Apple Podcasts",
+   "published_on": "2026-09-11",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rob lee」",
+   "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+   "claim": "2026年10月至11月将成为决定冬季战局的关键窗口期，俄军可能利用大雾天气突破乌军无人机防线，克拉马托尔斯克和斯洛维扬斯克面临严重威胁",
+   "reasoning": "Rob Lee认为虽然俄军推进速度慢于去年，但正在逼近顿涅茨克州最后的重要城市。他最担心的不是武器而是天气：去年10月波克罗夫斯克因四天大雾导致无人机失效，俄军两个连突入城内无法清除。今年10月即将到来，俄军离克拉马托尔斯克和斯洛维扬斯克更近。他指出「下个月决定是否还有机会窗口」，强调天气因素可能让乌军的技术优势失效，而俄军的步兵渗透战术在城市环境中依然有效。",
+   "evidence": [
+    "2025年10月，波克罗夫斯克因四天大雾导致无人机失明，俄军两个连进入城内且无法被清除",
+    "俄军推进速度慢于去年，但正在抵达最糟糕的位置——克拉马托尔斯克和斯洛维扬斯克的接近路线",
+    "在科斯坦季尼夫卡周边，步兵需要步行15至20公里到达阵地，这是实际「杀伤区」的度量标准",
+    "在争夺城市中，俄乌两军步兵在同一栋建筑使用不同入口，双方都被命令不交火，因为双方都想让无人机完成杀伤",
+    "多布罗皮利亚出现5比1的无人机劣势，是Francis Farrell见过的最被摧毁的城市，三小时内遭受12枚滑翔炸弹",
+    "斯洛维扬斯克是2014年4月战争开始的地方，今天防守该城的一些旅指挥官当时就在那里作战"
+   ],
+   "data": [
+    {
+     "metric": "步兵徒步距离",
+     "value": "15-20公里",
+     "context": "科斯坦季尼夫卡周边，步兵到达阵地的步行距离"
+    },
+    {
+     "metric": "无人机数量对比",
+     "value": "5:1劣势",
+     "context": "多布罗皮利亚地区乌军相对俄军的无人机数量劣势"
+    },
+    {
+     "metric": "滑翔炸弹袭击",
+     "value": "12枚/3小时",
+     "context": "多布罗皮利亚遭受的轰炸强度"
+    },
+    {
+     "metric": "大雾持续时间",
+     "value": "4天",
+     "context": "2025年10月波克罗夫斯克导致无人机失效的大雾天气"
+    },
+    {
+     "metric": "俄军突入兵力",
+     "value": "2个连",
+     "context": "2025年10月利用大雾进入波克罗夫斯克的俄军规模"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年10月至11月",
+   "confidence": "high",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://kyivindependent.com/ukraines-missile-gap-kyivs-struggle-to-close-the-ballistic-divide/",
+   "source_title": "Ukraine's missile gap — Kyiv's struggle to close the ballistic divide",
+   "published_on": "2026-09-13",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "乌克兰FP-7与FP-9弹道导弹对战局影响",
+   "claim": "如果乌克兰能以每月约50枚的速度量产FP-9弹道导弹且精度足够，将显著改变战争态势，使俄军处境更加困难",
+   "reasoning": "Fabian Hoffmann认为弹道导弹能让乌克兰快速打击高价值时敏目标（如俄军弹道导弹发射器），这是乌克兰当前迫切需要但缺乏的能力。FP-9射程855公里、速度2200米/秒、载重800公斤弹头，可在数分钟内打击俄境内600-800公里纵深目标，使猎杀弹道导弹发射器或压制防空系统更加成功。若月产50枚且精度可靠，能打击高价值军事资产和大型基础设施目标，将令俄军「更加不舒服」。他强调这需要达到有意义的数量规模才能产生重大影响。",
+   "evidence": [
+    "乌克兰2023年10月用ATACMS首次打击卢甘斯克和别尔江斯克直升机前进基地，摧毁14架俄军直升机（含8架Ka-52，约占该型号总数11%）",
+    "俄罗斯当前以每月约120枚弹道导弹的速度生产，而洛克希德·马丁爱国者拦截弹月产量仅约50枚",
+    "2026年中乌克兰情报机构评估俄军仍有130枚伊斯坎德尔、400枚S-400用RM-48U、120枚锆石、50枚匕首及50枚朝鲜弹道导弹库存",
+    "Fire Point的FP-1远程无人机已成为乌克兰深度打击行动关键部分，FP-2中程无人机成为中程打击主力",
+    "2026年6月三枚Flamingo巡航导弹击中伏尔加格勒Titan-Barrikady制造厂并造成损坏",
+    "Fire Point首席设计师称FP-7成本至少比ATACMS低一倍，强调必须大规模生产「每月两三枚毫无意义，不会影响前线」"
+   ],
+   "data": [
+    {
+     "metric": "FP-7射程",
+     "value": "200公里",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-7最高速度",
+     "value": "1500米/秒",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-7弹头重量",
+     "value": "150公斤",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9射程",
+     "value": "855公里",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9最高速度",
+     "value": "2200米/秒",
+     "context": "设计指标"
+    },
+    {
+     "metric": "FP-9弹头重量",
+     "value": "800公斤",
+     "context": "设计指标"
+    },
+    {
+     "metric": "俄罗斯弹道导弹月产量",
+     "value": "约120枚",
+     "context": "泽连斯基2026年6月3日北约-乌克兰理事会会议"
+    },
+    {
+     "metric": "洛马爱国者拦截弹月产量",
+     "value": "约50枚",
+     "context": "当前产能"
+    },
+    {
+     "metric": "乌克兰月产FP-9目标量",
+     "value": "约50枚",
+     "context": "Hoffmann假设的有意义产能"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "2026年底前（FP-9服役时间）及此后数月若达到月产50枚规模",
+   "confidence": "medium",
+   "extracted_on": "2026-09-14",
+   "_src_file": "thesis_all_2026-09-14.json"
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "source_url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/",
+   "source_title": "Colombia’s Total Peace: What Went Wrong and What Comes Next?",
+   "published_on": "2026-09-15",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "自有平台域名 insightcrime.org",
+   "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+   "claim": "哥伦比亚与武装组织的谈判本身并非不可行，Gustavo Petro总统「全面和平」计划的失败不能否定谈判途径的有效性，历史上哥伦比亚曾有成功的谈判先例",
+   "reasoning": "Jeremy McDermott认为尽管Gustavo Petro任期内非法武装组织成员从1.5万增至近2.9万（几乎翻倍），但这一失败源于执行层面的错误——包括未履行2016年FARC和平协议承诺、缺乏立法框架、过早实施停火、试图同时与所有组织谈判且准备不足。他强调哥伦比亚在2000年代初与AUC准军事组织及后来与FARC的谈判都取得过成功，这些先例证明谈判路径可行。当前Abelardo de la Espriella总统的军事化政策重复了Iván Duque时期的做法，而Iván Duque任内古柯种植面积从16.9万公顷增至23万公顷、可卡因产量从1100吨升至1700吨，即便实施了史无前例的13万公顷人工根除行动也未能遏制，这表明纯军事手段历史上并不有效",
+   "evidence": [
+    "哥伦比亚在2000年代初与准军事组织AUC以及2016年与FARC的和平谈判均取得成功，这些谈判中停火是在取得实质进展后才实施的",
+    "Iván Duque总统任期（2018-2022）采取军事化政策，实施13万公顷人工根除行动，但古柯种植面积仍从16.9万公顷增至23万公顷，可卡因产量从1100吨升至1700吨",
+    "在南部厄瓜多尔边境地区，ELN的一个单位和Walter Mendoza领导的FARC持不同政见者组织主动上交武器并准备进入集中区，麦德林和布埃纳文图拉等城市的帮派谈判也使勒索大幅减少",
+    "Catatumbo地区ELN在72小时内杀害近100人、导致5万人流离失所，Gustavo Petro因此中断与ELN的谈判，成为「全面和平」的分水岭时刻",
+    "Gustavo Petro未能通过立法框架，无法为犯罪组织提供免于引渡、减刑等法律保障，也未履行2016年FARC协议中的作物替代承诺"
+   ],
+   "data": [
+    {
+     "metric": "非法武装组织成员数",
+     "value": "从1.5万增至2.9万人",
+     "context": "Gustavo Petro任期2022年8月至2026年移交权力期间"
+    },
+    {
+     "metric": "古柯种植面积",
+     "value": "从16.9万公顷增至23万公顷",
+     "context": "Iván Duque任期2018-2022年"
+    },
+    {
+     "metric": "可卡因产量",
+     "value": "从1100吨增至1700吨",
+     "context": "Iván Duque任期2018-2022年"
+    },
+    {
+     "metric": "人工根除面积",
+     "value": "13万公顷",
+     "context": "Iván Duque任期实施，为史上最大规模"
+    },
+    {
+     "metric": "Catatumbo冲突伤亡",
+     "value": "72小时内近100人死亡",
+     "context": "ELN攻击FARC持不同政见者"
+    },
+    {
+     "metric": "Catatumbo流离失所人口",
+     "value": "5万人",
+     "context": "72小时冲突期间"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-17",
+   "_src_file": "thesis_all_2026-09-17.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://www.19fortyfive.com/2026/09/ukraines-fire-point-is-building-2-ballistic-missiles-of-its-own-the-fp-7-reaches-200-kilometres-with-a-150-kilogram-warhead-the-longer-ranged-fp-9-could-strike-600-to-800-kilometres-into-russia-wi/",
+   "source_title": "Ukraine's Fire Point Is Building 2 Ballistic Missiles of Its ...",
+   "published_on": "2026-09-14",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "乌克兰国产弹道导弹对俄乌战争影响",
+   "claim": "若乌克兰能月产约50枚FP-9导弹且精度足够，将显著改变俄乌战场态势，使俄方处境更加困难",
+   "reasoning": "霍夫曼认为乌克兰国产弹道导弹的关键在于「有意义的数量」。他指出FP-9射程可达600-800公里，飞行速度比现有巡航导弹快得多，能在数分钟内打击俄罗斯纵深目标，给俄防空系统更少反应时间。若月产50枚且精度可靠，能打击高价值军事资产和大型基础设施目标，将使「猎杀弹道导弹发射器或防空压制/摧毁行动成功率大幅提升」，从而在这场消耗战中改变力量对比",
+   "evidence": [
+    "俄罗斯国防工业每月可生产约120枚弹道导弹（泽连斯基在北约-乌克兰理事会演讲中披露）",
+    "乌克兰现有导弹库存几乎完全依赖外国来源且数量远少于俄方",
+    "乌克兰最近与土耳其达成协议获得70枚ATACMS和12套M270发射系统（2.8亿美元军售协议）",
+    "FP-9导弹射程和载荷均显著大于FP-7（FP-7射程200公里载荷150公斤）",
+    "FP-9飞行速度远快于现有FP-5 Flamingo巡航导弹，使俄防空系统更难拦截"
+   ],
+   "data": [
+    {
+     "metric": "俄罗斯弹道导弹月产量",
+     "value": "约120枚",
+     "context": "泽连斯基2024年夏季北约-乌克兰理事会演讲披露"
+    },
+    {
+     "metric": "FP-7导弹射程",
+     "value": "约200公里",
+     "context": "预期性能参数"
+    },
+    {
+     "metric": "FP-7导弹载荷",
+     "value": "150公斤",
+     "context": "预期性能参数"
+    },
+    {
+     "metric": "FP-9打击纵深",
+     "value": "600-800公里",
+     "context": "霍夫曼访谈估算「数分钟内可打击」"
+    },
+    {
+     "metric": "乌克兰从土耳其获ATACMS数量",
+     "value": "70枚",
+     "context": "最近一个月军售协议"
+    },
+    {
+     "metric": "关键月产量阈值",
+     "value": "约50枚FP-9",
+     "context": "霍夫曼认为达到此产能将产生显著影响"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明具体时间，但强调「必须先达到月产50枚」这一前提条件",
+   "confidence": "medium",
+   "extracted_on": "2026-09-20",
+   "_src_file": "thesis_all_2026-09-20.json"
+  },
+  {
+   "kol": "Fabian Hoffmann",
+   "theater": "俄乌",
+   "source_url": "https://x.com/FRHoffmann1/status/2101606678022307866",
+   "source_title": "Fabian Hoffmann, PhD on X: \" With Russian ballistic missile production ...",
+   "published_on": "2026-09-20",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「fabian hoffmann」",
+   "topic": "俄罗斯弹道导弹生产与乌克兰拦截能力对比",
+   "claim": "乌克兰别无选择，必须在俄军弹道导弹发射前进行拦截打击",
+   "reasoning": "由于俄罗斯弹道导弹产能持续上升且远超欧洲为乌提供拦截弹的能力，乌克兰虽然对俄导弹工业实施了打击并造成损失，但俄产能仍在增长。因此乌方需要转向野战猎杀移动发射装置这一现代战争中最艰难的任务之一，尽管困难但并非不可能，成败取决于杀伤链各要素的执行效果。",
+   "evidence": [
+    "俄罗斯弹道导弹生产正在上升",
+    "俄导弹产能增速远超欧洲向乌克兰供应拦截弹的能力",
+    "乌克兰对俄弹道导弹工业的打击已造成痛苦损失",
+    "尽管遭受打击，俄导弹产出仍在持续增长",
+    "野战猎杀俄移动导弹发射装置是现代战争中最难任务之一"
+   ],
+   "data": [],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-09-23",
+   "_src_file": "thesis_all_2026-09-23.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://www.washingtonexaminer.com/op-eds/4728737/us-defense-industrial-base-backlog-reform-less-competition/",
+   "source_title": "The US’s $1.36 trillion phantom arsenal",
+   "published_on": "2026-09-16",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国国防工业基础与军火库存问题",
+   "claim": "美国国防工业当前面临严重的产能与交付问题，大型承包商的「未交付订单」达1.36万亿美元且增长速度超过实际交付速度，行业正经历结构性转型但尚未根本解决1993年以来的整合后遗症",
+   "reasoning": "Tom Karako 指出国防承包商近期公布的大量生产协议实际上是「agreements to agree」（待定协议）而非真正合同，这类协议不要求企业承担实际交付义务或资本支出，却能产生与真实生产承诺相同的宣传效果。他认为这反映了行业存在「大量拉拉队式宣传和过早庆祝」的现象，而非实质性产能扩张。这一判断基于合同与协议的本质区别：合同规定交付日期、价格及违约责任，而待定协议几乎不产生任何约束力",
+   "evidence": [
+    "五大国防制造商的未交付订单总额约1.36万亿美元，且该数字增长速度快于实际交付速度",
+    "国防承包商近期发布的关键弹药生产协议被 Tom Karako 定性为「agreements to agree」而非正式合同",
+    "这些待定协议对企业无资本支出要求，却能产生与真实生产承诺相同的新闻效应",
+    "美军在中东使用单价百万美元、生产周期长的 Patriot PAC-3 拦截弹对抗造价约3万美元的伊朗无人机",
+    "1993年「最后的晚餐」会议后国防工业整合导致供应商大幅减少，前国防部长 Les Aspin 后来称结果「令人失望」，形成更少、更大但创新与成本控制动力不足的企业"
+   ],
+   "data": [
+    {
+     "metric": "未交付订单总额",
+     "value": "1.36万亿美元",
+     "context": "五大国防制造商当前积压"
+    },
+    {
+     "metric": "伊朗无人机造价",
+     "value": "约3万美元",
+     "context": "用于对比拦截弹成本"
+    },
+    {
+     "metric": "Patriot PAC-3 拦截弹单价",
+     "value": "百万美元级",
+     "context": "美军在中东使用"
+    },
+    {
+     "metric": "国防初创企业数量",
+     "value": "约100家",
+     "context": "2021年以来新成立"
+    },
+    {
+     "metric": "投资金额",
+     "value": "超过1300亿美元",
+     "context": "2021年以来流入国防相关企业"
+    },
+    {
+     "metric": "Space Systems Command OTA 奖项",
+     "value": "20个",
+     "context": "2025年末至2026年初发放给12家企业"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-28",
+   "_src_file": "thesis_all_2026-09-28.json"
+  },
+  {
+   "kol": "Tom Karako",
+   "theater": "军工与战略",
+   "source_url": "https://article.wn.com/view-scrap/2026/09/25/Tom_Karako_We_have_expended_a_very_significant_percentage_of/",
+   "source_title": "Tom Karako: We have expended a very significant percentage of our ...",
+   "published_on": "2026-09-25",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom karako」",
+   "topic": "美国导弹库存消耗与国防生产能力",
+   "claim": "美国已经消耗了极高比例的导弹库存，需要新的资金支持以恢复产能",
+   "reasoning": "作为CSIS导弹防御项目主任，Tom Karako指出美国在近期军事行动（可能包括对台军售延迟、以色列-伊朗冲突支援等）中大量使用了导弹储备，导致库存显著下降。这种消耗速度已达到需要国会紧急拨款重建生产线的程度，否则将影响美国及盟友的军事准备状态。",
+   "evidence": [
+    "美国已消耗了极高比例的导弹库存（very significant percentage of missiles expended）",
+    "存在对台军售延迟问题（Taiwan arms delays）",
+    "国防生产需要新的资金支持（need for new funding）",
+    "讨论涉及中国因素（discusses China）",
+    "涉及导弹防御生产问题（defense production）"
+   ],
+   "data": [],
+   "direction": "降级",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-09-30",
+   "_src_file": "thesis_all_2026-09-30.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://www.infobae.com/venezuela/2026/10/02/luego-de-encarcelarla-y-forzarla-al-exilio-justicia-chavista-declara-inocente-a-rocio-san-miguel/",
+   "source_title": "Luego de encarcelarla y forzarla al exilio, justicia chavista ...",
+   "published_on": "2026-10-02",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉马杜罗政权对人权活动家的政治迫害与司法操纵",
+   "claim": "委内瑞拉查韦斯主义政权系统性利用司法系统迫害异见人士，特别是针对监督军事事务的民间组织",
+   "reasoning": "Rocío San Miguel 因创建监督委内瑞拉武装力量的公民组织 Control Ciudadano 而成为政权打击目标。她在「白手环」案中被控阴谋推翻马杜罗，但检方最终承认无法证明暗杀、恐怖主义或叛国罪名。尽管她本人获判无罪，其他被告却被判最高18年监禁，暴露出该案系「司法拼凑」——当指控无法成立时，检方在结论中重新编造罪名以维持定罪。这证明委内瑞拉司法系统已成为压制监督军方活动的工具。",
+   "evidence": [
+    "San Miguel 在 El Helicoide 监狱被关押700天，该设施被多个人权组织认定为酷刑中心",
+    "她于2024年2月9日被捕，2026年1月8日获释后被迫流亡",
+    "Control Ciudadano 成立于2005年，宗旨是「对安全、国防和国家武装力量事务进行公民监督」",
+    "2018年美洲人权法院裁定委内瑞拉政府因政治歧视在2004年非法解雇她",
+    "检方在「白手环」案中承认无法证明暗杀、恐怖主义和叛国罪名，但仍在结论中重新编造罪名",
+    "其他被告在同案中被判最高18年监禁，尽管核心指控已崩溃"
+   ],
+   "data": [
+    {
+     "metric": "关押时长",
+     "value": "700天",
+     "context": "2024年2月9日至2026年1月8日在 El Helicoide"
+    },
+    {
+     "metric": "Control Ciudadano 成立时间",
+     "value": "2005年",
+     "context": "San Miguel 创办"
+    },
+    {
+     "metric": "其他被告刑期",
+     "value": "最高18年",
+     "context": "「白手环」案判决"
+    },
+    {
+     "metric": "美洲人权法院判决年份",
+     "value": "2018年",
+     "context": "谴责委内瑞拉政府对 San Miguel 的政治歧视"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-05",
+   "_src_file": "thesis_all_2026-10-05.json"
+  },
+  {
+   "kol": "Emil Michael",
+   "theater": "军工与战略",
+   "source_url": "https://www.cnbc.com/2026/09/16/emil-michael-ai-regulation-trump.html",
+   "source_title": "Pentagon CTO says Trump admin shouldn't take stakes in AI giants - CNBC",
+   "published_on": "2026-09-16",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「emil michael」",
+   "topic": "美国政府对人工智能巨头企业的监管与股权政策",
+   "claim": "特朗普政府不应该国有化AI公司或获取其股份，也不应加强对AI行业的监管",
+   "reasoning": "Emil Michael认为政府介入会阻碍创新，美国AI领军企业已是「世界历史上最大的公司」，现有法律框架（如联邦贸易委员会法规）已足够，而欧洲式的预监管模式不适合美国。他主张让企业自行负责产品安全与对齐，而非通过政府监管干预。他同时警告不应将所有信任寄托在少数AI高管手中，但反对通过新增监管来应对风险。",
+   "evidence": [
+    "特朗普政府已持有英特尔10%股份和美国钢铁公司「黄金股」，但Michael明确表示AI领域不应采取类似做法",
+    "Michael将要求AI减速的呼声描述为「有协调的运动，旨在吓唬人们做出非理性决策以利于某些现有企业」",
+    "他提到Hugging Face的AI黑客事件令人担忧，但表示不知道何种监管能阻止此类事件",
+    "Michael批评「灭绝论、死亡崇拜式哲学的推动者」是这种恐慌运动的一部分",
+    "联邦贸易委员会已有「大量现行法律」可用于监管AI行业"
+   ],
+   "data": [
+    {
+     "metric": "政府持股比例",
+     "value": "10%",
+     "context": "特朗普政府在英特尔的股份"
+    },
+    {
+     "metric": "企业规模",
+     "value": "世界历史上最大",
+     "context": "Michael对美国AI领军企业的描述"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-07",
+   "_src_file": "thesis_all_2026-10-07.json"
+  },
+  {
+   "kol": "Emil Michael",
+   "theater": "军工与战略",
+   "source_url": "http://www.singularitymoments.com/content/the-pentagons-ai-fracture-inside-emil-michaels-defense-overhaul/",
+   "source_title": "The Pentagon's AI Fracture: Inside Emil Michael's Defense Overhaul",
+   "published_on": "2026-09-11",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「emil michael」",
+   "topic": "美国国防部AI采购与前沿AI实验室关系重构",
+   "claim": "五角大楼将在未来数月内彻底转向未设防护栏的AI模型部署，排除拒绝提供无限制军事使用权限的前沿AI公司",
+   "reasoning": "Emil Michael认为，在对抗环境下，模型防护栏造成的任务犹豫或模型投毒会危及整个国防软件栈的作战完整性。同时中国情报机构已在主动窃取西方模型权重并剥离安全对齐层用于军事系统，美国自我设限将在实战中造成不可接受的战术劣势。因此国防部必须优先采用无意识形态干预、支持所有合法国防用例的AI架构（如xAI的Grok），通过问题导向采购、固定价格合同和战略资本办公室的2000亿美元贷款授权，系统性绕过传统防务承包商，转向软件优先的新兴国防科技公司",
+   "evidence": [
+    "国防部正式通知Anthropic已被列为国内供应链风险实体，这是美国科技先驱首次获得历史上专用于华为、中兴、卡巴斯基等敌对外国实体的安全分类",
+    "国防情报确认中国国家支持的情报单位正在主动从西方前沿实验室窃取模型权重，剥离安全对齐层后部署未经审查的架构到军事系统",
+    "国防部已在分类网络(SIPRNet/JWICS)和非分类军事网络部署Grok，看重xAI对所有合法国防用例的承诺",
+    "战略资本办公室(OSC)拥有2000亿美元直接贷款授权，以国债利率加100个基点向国内制造商提供非稀释性资本",
+    "国防部正从成本加成合同转向固定价格结构，对提前交付给予绩效奖金、对延迟执行施加财务处罚",
+    "现代空中、海上和地面作战越来越依赖在受争夺电磁频谱环境中运行的AI指挥无人机群，在对手电子战干扰切断卫星链路时，机载自主推理必须在无人在环连接情况下执行导航、目标识别和动能打击授权"
+   ],
+   "data": [
+    {
+     "metric": "伊朗和委内瑞拉占中国进口原油比例",
+     "value": "19%-20%",
+     "context": "通过山东省独立「茶壶」炼厂处理的账外折扣原油交易"
+    },
+    {
+     "metric": "中国海运石油进口依赖度",
+     "value": "超过70%",
+     "context": "日常石油消费"
+    },
+    {
+     "metric": "中国全年GDP增长目标",
+     "value": "4.5%-5.0%",
+     "context": "北京官方发布，三十年来最低结构性增长基准"
+    },
+    {
+     "metric": "尼米兹级和福特级航母单位成本",
+     "value": "超过200亿美元",
+     "context": "代表高成本、低产出精致武器平台"
+    },
+    {
+     "metric": "OSC贷款授权规模",
+     "value": "2000亿美元",
+     "context": "战略资本办公室直接贷款权限"
+    },
+    {
+     "metric": "OSC贷款利率",
+     "value": "国债利率+100基点",
+     "context": "向国内制造商提供非稀释性资本"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未来数月内（通过4月总统峰会前的结构性改革窗口隐含）",
+   "confidence": "high",
+   "extracted_on": "2026-10-07",
+   "_src_file": "thesis_all_2026-10-07.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://confirmado.com.ve/rocio-san-miguel-relata-los-detalles-de-su-detencion-por-la-dgcim-su-paso-por-prision-y-la-intervencion-diplomatica-que-facilito-su-libertad/",
+   "source_title": "Rocío San Miguel relata los detalles de su detención por la ...",
+   "published_on": "2026-10-05",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉人权活动人士Rocío San Miguel被军事情报机关拘押案",
+   "claim": "该案件中仍有被定罪人员尚未获释，包括被判18年的军人和被判3年的两名女性，她们应当被释放",
+   "reasoning": "Rocío San Miguel本人已于2026年1月8日获得完全自由，但她强调同案中其他被告——包括被判18年监禁的军人（含Macías将军）和两名被判3年、育有幼童的母亲——仍在服刑。她认为这些人与她一样是政治犯，应当获释是「全国呼声」，并表示自己虽获自由但「内心悲伤」因其他人仍被关押",
+   "evidence": [
+    "Rocío San Miguel于2024年2月9日在迈克蒂亚国际机场被军事反情报总局（Dgcim）以「静默警报」为由拘留，当时无逮捕令",
+    "她在拘押期间遭受近两年监禁，包括8个月骨折未获治疗、系统性侵犯和强迫家人出庭",
+    "2026年1月8日她获释，释放令编号为2026年001号，系人道外交斡旋结果",
+    "同案中两名女性被判3年徒刑且为幼童母亲，多名军人被判18年徒刑仍在服刑",
+    "前西班牙首相萨帕特罗在她监禁期间进行人道斡旋，促成她两次狱中手术及其兄弟转往西班牙治疗癌症",
+    "她表示「对同案其他人及所有政治犯必须获释是全国呼声」"
+   ],
+   "data": [
+    {
+     "metric": "拘押起始时间",
+     "value": "2024年2月9日上午6时",
+     "context": "在迈克蒂亚机场被拦截"
+    },
+    {
+     "metric": "释放令编号",
+     "value": "2026年001号",
+     "context": "2026年1月8日获释文件"
+    },
+    {
+     "metric": "骨折未治疗时长",
+     "value": "8个月",
+     "context": "监禁期间"
+    },
+    {
+     "metric": "失联时长",
+     "value": "1年10个月",
+     "context": "获释前与兄长无电话联系"
+    },
+    {
+     "metric": "同案女性刑期",
+     "value": "3年",
+     "context": "两名育有幼童的母亲"
+    },
+    {
+     "metric": "同案军人刑期",
+     "value": "18年",
+     "context": "包括Macías将军在内的多名军人"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-10-07",
+   "date_source": "page_meta",
+   "_src_file": "thesis_all_2026-10-07.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://eltiempove.com/rocio-san-miguel-reflexiona-sobre-su-detencion-y-exige-reformas-en-el-sistema-judicial-venezolano/",
+   "source_title": "Rocío San Miguel reflexiona sobre su detención y exige ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉情报机构、军事司法与监狱系统改革",
+   "claim": "委内瑞拉的情报机构、军事司法系统和监狱中心迫切需要进行变革",
+   "reasoning": "Rocío San Miguel 在被拘留期间亲身经历了委内瑞拉国家机器的运作，特别是在军事反情报总局（DGCIM）的遭遇让她承受了严重的心理暴力。这段「从内部体验系统」的经历使她直接观察到国家机构的缺陷，增强了她对改革紧迫性的认知。她强调这些机构存在系统性问题，需要根本性改变。",
+   "evidence": [
+    "San Miguel 在军事反情报总局（DGCIM）与家人一起出庭是她被监禁期间遭受最严重心理暴力的事件",
+    "她在拘留设施中的经历让她能够第一手见证国家机器的缺陷",
+    "她表示「从内部体验系统」使她对变革的紧迫性有了更深刻的认识",
+    "她重申继续在法律框架内要求国家承担责任的承诺"
+   ],
+   "data": [],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-08",
+   "_src_file": "thesis_all_2026-10-08.json"
+  },
+  {
+   "kol": "Larry C. Johnson",
+   "theater": "中东",
+   "source_url": "https://greatreporter.com/2026/10/07/former-cia-analyst-says-us-soldiers-parents-told-him-nuclear-defence-units-are-d/",
+   "source_title": "Former CIA Analyst Says US Soldiers' Parents Told Him Nuclear Defence ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「larry c. johnson」",
+   "topic": "美军CBRN部队据称部署至科威特及美伊核对抗风险",
+   "claim": "美军专门处理化学、生物、辐射和核威胁的CBRN部队正被部署到科威特，这可能与特朗普对伊朗的「歼灭」威胁有关，但具体任务尚不明确",
+   "reasoning": "Larry C. Johnson根据在役美军人员家属的告知，称特朗普或国防部长下令将CBRN专业部队部署到科威特。他将此信息与特朗普在联合国大会上威胁「歼灭伊朗伊斯兰共和国」、在TIME采访中确认「可能会这么做」的公开表态相联系。但Johnson本人也表示「如果属实会觉得奇怪」，因为科威特美军基地易受伊朗攻击。他强调这不是大规模部队增兵（约10000人主要是航母打击群和两栖部队），CBRN部署是单独事项，且未声称已授权核打击",
+   "evidence": [
+    "在役美军人员的家属（主要是儿子在部队服役的父母）告诉Johnson有CBRN部队被部署到科威特的命令",
+    "特朗普在2026年9月22日联合国大会上威胁要「歼灭伊朗伊斯兰共和国」，问「我是否要把他们送入地狱，没有生存机会、没有未来伟大或后代的希望」",
+    "特朗普在10月1日发表的TIME采访中，被问及是否会歼灭伊朗时回答「是的，我会这么做，这是可能的」",
+    "美联社10月5日调查报道了伊朗无人机3月1日袭击科威特Shuaiba港口，造成6名美军士兵死亡、数十人受伤，幸存者和军官称对该地点脆弱性的警告被忽视",
+    "美联社10月1日报道约9000人（主要是西奥多·罗斯福号航母打击群和马金岛号两栖戒备群）正前往中东地区",
+    "历史上美军CBRN部队曾部署科威特：2014年9月71st Chemical Company准备10月部署进行场地勘察和采样；2019年2月俄亥俄国民警卫队637th Chemical Company在Arifjan营地担任美国中央司令部责任区的CBRN防御反应部队"
+   ],
+   "data": [
+    {
+     "metric": "前往中东的美军海军和陆战队人员",
+     "value": "约9000人",
+     "context": "美联社2026年10月1日报道，包括航母打击群和两栖戒备群"
+    },
+    {
+     "metric": "伊朗袭击科威特港口造成美军死亡",
+     "value": "6名士兵",
+     "context": "2026年3月1日Shuaiba港口无人机袭击"
+    },
+    {
+     "metric": "伊朗袭击科威特港口造成美军受伤",
+     "value": "数十人",
+     "context": "2026年3月1日Shuaiba港口无人机袭击"
+    }
+   ],
+   "direction": "升级",
+   "horizon": "未指明",
+   "confidence": "low",
+   "extracted_on": "2026-10-09",
+   "_src_file": "thesis_all_2026-10-09.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://elpais.com/america/2026-10-07/rocio-san-miguel-expresa-politica-venezolana-mi-sentencia-ratifica-el-derecho-de-los-civiles-de-exigir-transparencia-a-la-fuerza-armada.html",
+   "source_title": "Rocío San Miguel, expresa política venezolana: “Mi sentencia ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉军事体制改革与民主转型前景",
+   "claim": "委内瑞拉武装力量需要进行去政党化和宪政化重构，若把握当前历史窗口期并与美国合作推进安全改革，民主转型可以成功",
+   "reasoning": "San Miguel基于其被捕经历和对军事体制的长期研究认为，委内瑞拉军事情报机关存在系统性违法问题（如DGCIM设有监狱、军事系统凌驾于司法之上），2025年1月3日马杜罗被美军带走后的政治变局为改革创造了机会，她观察到军方「叙事转变的积极迹象」，判断若能借助美国在安全领域的合作完成武装力量的去政党化和职能重构，同时避免谈判进程受阻，委内瑞拉可进入民主轨道",
+   "evidence": [
+    "2025年1月3日凌晨马杜罗被美军带走，1月8日她与其他政治犯及西班牙籍囚犯一同被释放并送往西班牙",
+    "军事情报总局（DGCIM）设有监狱，15名被捕者均遭任意拘留和强迫失踪，部分人受酷刑，普通检察官和法官服从军事系统决定",
+    "她的案件中军方人员被问及被拘留者权利时无法回答「打电话、有律师、不受酷刑」等基本内容",
+    "美国在安全事务上的合作「为重审（武装力量的）理念、规模和运作性开启了希望」",
+    "她观察到武装力量「某种叙事变化」和「去政党化方面的积极迹象」"
+   ],
+   "data": [
+    {
+     "metric": "被捕时长",
+     "value": "2年零9个月",
+     "context": "2024年2月至2026年释放前"
+    },
+    {
+     "metric": "未治疗骨折期",
+     "value": "8个月",
+     "context": "在El Helicoide监狱期间"
+    },
+    {
+     "metric": "首次通话时间",
+     "value": "被捕后1年10个月",
+     "context": "拘留期间"
+    },
+    {
+     "metric": "案件涉案人数",
+     "value": "15人",
+     "context": "Brazalete Blanco阴谋案"
+    },
+    {
+     "metric": "检方求刑年限",
+     "value": "30年",
+     "context": "2025年8月4日庭审时六项罪名合计"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "短期内（未指明具体时间）",
+   "confidence": "medium",
+   "extracted_on": "2026-10-09",
+   "_src_file": "thesis_all_2026-10-09.json"
+  },
+  {
+   "kol": "Jennifer Kavanagh",
+   "theater": "军工与战略",
+   "source_url": "https://www.guampdn.com/news/analyst-pull-troops-away-from-china-and-taiwan-toward-guam-to-reduce-chance-of-war/article_be4edcfc-fc4c-43d4-87de-674263c62c8c.html",
+   "source_title": "Analyst: Pull troops away from China and Taiwan, toward Guam ...",
+   "published_on": "2026-09-14",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「jennifer kavanagh」",
+   "topic": "美军在亚太地区部署调整——撤向第二岛链",
+   "claim": "美军应从第一岛链（台湾、日韩、菲律宾）大幅撤军，收缩至第二岛链（关岛及密克罗尼西亚），可降低美中战争风险且成本更低",
+   "reasoning": "Jennifer Kavanagh 认为当前美国在亚洲的核心利益是保卫本土和维护经济市场准入，而非需要与日韩菲保持冷战式军事同盟。她主张用「临时性安全伙伴关系」取代常驻驻军，理由是：1) 台湾的美军教官只是「绊索」而无战略价值；2) 韩国可保留情报支援和轮换部队即可；3) 冲绳海军陆战队已计划移往关岛；4) 第二岛链基地足以应对「中国干扰商业航线」等突发威胁，且当前此类威胁并不存在。她计算显示该方案可削减70%战机和人员、50%水面舰艇，同时潜艇数量可能翻倍，总体更可持续。",
+   "evidence": [
+    "美国目前在亚洲部署9万人，远低于冷战高峰时的70万人",
+    "美军已计划将冲绳的1.8万名海军陆战队员迁往关岛",
+    "中国「窃取」菲律宾多个礁滩并宣称主权，每日侵入日本尖阁列岛领海，「意外损坏」台湾海底通信电缆并威胁武统",
+    "第二岛链调整后关岛及周边岛屿将驻扎约5000人、2个战斗机中队、5艘攻击核潜艇和轮换海军力量",
+    "美国与日本、韩国、菲律宾的防务同盟是其在该地区军事影响力的「核心支柱」",
+    "亚洲是美国重要贸易伙伴聚集地，包括中国、台湾、日本，是制造业与技术发展中心及关键贸易航线所在地"
+   ],
+   "data": [
+    {
+     "metric": "亚太驻军总数（当前）",
+     "value": "9万人",
+     "context": "分散在亚洲各地，主要在日本"
+    },
+    {
+     "metric": "冷战高峰驻军数",
+     "value": "70万人以上",
+     "context": "历史对比"
+    },
+    {
+     "metric": "冲绳海军陆战队规模",
+     "value": "1.8万人",
+     "context": "计划2030年前全部撤回美国"
+    },
+    {
+     "metric": "关岛现有驻军",
+     "value": "约8000人",
+     "context": "当前水平"
+    },
+    {
+     "metric": "第二岛链调整后人员",
+     "value": "5000人",
+     "context": "分布于关岛及密克罗尼西亚岛链"
+    },
+    {
+     "metric": "战机削减比例",
+     "value": "70%",
+     "context": "相比当前部署"
+    },
+    {
+     "metric": "水面舰艇削减比例",
+     "value": "50%",
+     "context": "相比当前部署"
+    }
+   ],
+   "direction": "降级",
+   "horizon": "2030年前",
+   "confidence": "high",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  },
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "source_url": "https://abc17news.com/cnn-spanish/2026/10/09/rocio-san-miguel-tras-su-absolucion-se-ratifico-el-derecho-de-los-civiles-a-seguir-auditando-a-la-fuerza-armada/",
+   "source_title": "Rocío San Miguel tras su absolución: “Se ratificó el derecho ...",
+   "published_on": "2026-10-09",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「rocío san miguel」",
+   "topic": "委内瑞拉军队监督与公民社会审查权",
+   "claim": "对委内瑞拉武装力量进行民间监督和审查是公民基本权利，应当继续合法存在",
+   "reasoning": "San Miguel认为其被控「白手环」阴谋案后获无罪释放的判决，实质上是对平民审查军队权力的法律确认。她强调这不仅关乎个人，而是确立了记者、分析师、研究者和大学继续监督「掌握国家武装的人」的合法性。她将此视为在威权环境下捍卫言论自由和异见权利的象征性胜利，认为在民主社会中批评公共政策不应导致失踪或拘禁",
+   "evidence": [
+    "San Miguel通过「公民监督」组织披露委内瑞拉军方内部运作信息，并记录被拘押军人的人权状况及酷刑指控",
+    "她于2024年在迈凯蒂亚机场试图离境时被捕，被控恐怖主义、叛国罪及参与暗杀马杜罗的「白手环」阴谋",
+    "委内瑞拉法院在2026年10月宣判其无罪，法律上确认其无刑事责任",
+    "在押期间她被禁止打电话和指定信任律师，直到被捕1年10个月后才首次与家人通话",
+    "其兄弟因她被捕导致无法前往西班牙接受已安排好的器官移植治疗，最终错过移植时机"
+   ],
+   "data": [
+    {
+     "metric": "关押时长",
+     "value": "23个月",
+     "context": "San Miguel被监禁总时长"
+    },
+    {
+     "metric": "司法程序总时长",
+     "value": "2年8个月",
+     "context": "从逮捕到宣判无罪的完整诉讼周期"
+    },
+    {
+     "metric": "首次家人通话时间",
+     "value": "被捕后1年10个月",
+     "context": "她在押期间首次获准与兄长电话联系的时间点"
+    }
+   ],
+   "direction": "未表态",
+   "horizon": "未指明",
+   "confidence": "medium",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  },
+  {
+   "kol": "Tom Shugart",
+   "theater": "军工与战略",
+   "source_url": "https://x.com/tshugart3/status/2107896809448484886",
+   "source_title": "Tom Shugart on X: \"Nor is Guam a sanctuary. China’s DF-26 and ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom shugart」",
+   "topic": "美军第一岛链前沿部署与对华威慑战略",
+   "claim": "美军不应从第一岛链撤退，而应通过分散部署、加固设施和建立跨两条岛链的韧性网络来应对中国威胁",
+   "reasoning": "Tom Shugart认为威慑的核心是「拒止」（denial）而非成本施加，即让北京相信军事行动会失败。他主张第一岛链（日本、菲律宾）拥有更多可分散部署的基地和民用设施，能够支撑空军敏捷作战部署（ACE）；相比之下第二岛链（关岛、天宁岛等）可用地产太少、后勤线过长、出动架次率低，反而削弱了在台海冲突实际发生地的作战能力。他强调失去台湾将使中国获得深水港、深海传感器等战略地形，威胁日本海上交通线并向菲律宾海投射力量。后撤会让北京更相信能在美国有效干预前完成目标，反而增加战争风险。",
+   "evidence": [
+    "日本和菲律宾提供大量军用与民用机场、港口等设施用于分散部署，正是空军敏捷作战部署（ACE）设计利用的对象",
+    "第二岛链（关岛、天宁岛、塞班、帕劳等）可用作战地产远少于第一岛链，地图上绿色区域明显稀缺",
+    "中国东风-26和东风-27导弹射程覆盖关岛，且数量更多",
+    "中国控制台湾后可利用深水港支持潜艇、部署深海传感器、防空力量和其他兵力向菲律宾海投射，威胁日本海上交通线",
+    "美国自1979年以来未在台湾保持作战军事存在，驻台少量人员为训练和顾问",
+    "驻韩美军的核心任务仍是威慑和防御朝鲜，而非主要针对中国"
+   ],
+   "data": [
+    {
+     "metric": "美军撤离台湾时间",
+     "value": "1979年",
+     "context": "美国自该年起未在台湾保持作战军事存在"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  },
+  {
+   "kol": "Tom Shugart",
+   "theater": "军工与战略",
+   "source_url": "https://x.com/tshugart3/status/2107896802741547292",
+   "source_title": "Tom Shugart on X: \"A quick look at the map shows the SIC has ...",
+   "published_on": "2026-10-07",
+   "date_status": "verified",
+   "attribution": "verified",
+   "attribution_reason": "正文含姓名「tom shugart」",
+   "topic": "美军第一岛链前沿部署与对华威慑战略",
+   "claim": "美军应当保持第一岛链前沿部署并加强分散能力，而非后撤至第二岛链",
+   "reasoning": "Tom Shugart认为威慑拒止的核心是让北京相信军事行动会失败，而非仅提高成本。撤至第二岛链虽减少近距离脆弱性，但会面临可用基地更少、后勤线更长、出动架次更低等问题，且关岛等地仍在东风-26/27射程内并非绝对安全。日本和菲律宾提供的众多军民用机场港口足以支撑分散部署，第一岛链的地理纵深远超第二岛链。失去台湾将使中国获得深水港、传感器网络等战略地形，威胁日本海上交通线并向菲律宾海投射力量。物理距离增加可能降低摩擦但若北京认为能在美军有效干预前达成目标反而增加动武诱因",
+   "evidence": [
+    "日本和菲律宾提供众多军民用机场、港口等设施可供分散部署，这正是空军「敏捷作战部署」(Agile Combat Employment)设计利用的对象",
+    "第二岛链仅有关岛、天宁岛、塞班岛、帕劳等地，可用地产远少于日本菲律宾，地图显示「绿色区域不多」",
+    "中国东风-26和东风-27导弹射程覆盖关岛且数量更多，后撤只是降低武器密度而非绝对安全",
+    "中国控制台湾后可通过深水港支援潜艇、部署深海传感器、防空力量向菲律宾海投射，威胁日本海上交通线",
+    "美国自1979年以来未在台湾保持作战军事存在，目前仅有少量训练/顾问人员",
+    "驻韩美军的核心任务仍是威慑和防御朝鲜而非对华威慑"
+   ],
+   "data": [
+    {
+     "metric": "美军撤离台湾年份",
+     "value": "1979年",
+     "context": "美国最后一次在台湾保持作战军事存在"
+    }
+   ],
+   "direction": "僵持",
+   "horizon": "未指明",
+   "confidence": "high",
+   "extracted_on": "2026-10-10",
+   "_src_file": "thesis_all_2026-10-10.json"
+  }
+ ],
+ "stance_changes_detail": [
+  {
+   "kol": "Rocío San Miguel",
+   "theater": "拉美",
+   "from": "僵持",
+   "to": "未表态",
+   "cur_rows": [
+    {
+     "kol": "Rocío San Miguel",
+     "theater": "拉美",
+     "source_url": "https://confirmado.com.ve/rocio-san-miguel-relata-los-detalles-de-su-detencion-por-la-dgcim-su-paso-por-prision-y-la-intervencion-diplomatica-que-facilito-su-libertad/",
+     "source_title": "Rocío San Miguel relata los detalles de su detención por la ...",
+     "published_on": "2026-10-05",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rocío san miguel」",
+     "topic": "委内瑞拉人权活动人士Rocío San Miguel被军事情报机关拘押案",
+     "claim": "该案件中仍有被定罪人员尚未获释，包括被判18年的军人和被判3年的两名女性，她们应当被释放",
+     "reasoning": "Rocío San Miguel本人已于2026年1月8日获得完全自由，但她强调同案中其他被告——包括被判18年监禁的军人（含Macías将军）和两名被判3年、育有幼童的母亲——仍在服刑。她认为这些人与她一样是政治犯，应当获释是「全国呼声」，并表示自己虽获自由但「内心悲伤」因其他人仍被关押",
+     "evidence": [
+      "Rocío San Miguel于2024年2月9日在迈克蒂亚国际机场被军事反情报总局（Dgcim）以「静默警报」为由拘留，当时无逮捕令",
+      "她在拘押期间遭受近两年监禁，包括8个月骨折未获治疗、系统性侵犯和强迫家人出庭",
+      "2026年1月8日她获释，释放令编号为2026年001号，系人道外交斡旋结果",
+      "同案中两名女性被判3年徒刑且为幼童母亲，多名军人被判18年徒刑仍在服刑",
+      "前西班牙首相萨帕特罗在她监禁期间进行人道斡旋，促成她两次狱中手术及其兄弟转往西班牙治疗癌症",
+      "她表示「对同案其他人及所有政治犯必须获释是全国呼声」"
+     ],
+     "data": [
+      {
+       "metric": "拘押起始时间",
+       "value": "2024年2月9日上午6时",
+       "context": "在迈克蒂亚机场被拦截"
+      },
+      {
+       "metric": "释放令编号",
+       "value": "2026年001号",
+       "context": "2026年1月8日获释文件"
+      },
+      {
+       "metric": "骨折未治疗时长",
+       "value": "8个月",
+       "context": "监禁期间"
+      },
+      {
+       "metric": "失联时长",
+       "value": "1年10个月",
+       "context": "获释前与兄长无电话联系"
+      },
+      {
+       "metric": "同案女性刑期",
+       "value": "3年",
+       "context": "两名育有幼童的母亲"
+      },
+      {
+       "metric": "同案军人刑期",
+       "value": "18年",
+       "context": "包括Macías将军在内的多名军人"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "medium",
+     "extracted_on": "2026-10-07",
+     "date_source": "page_meta",
+     "_src_file": "thesis_all_2026-10-07.json"
+    },
+    {
+     "kol": "Rocío San Miguel",
+     "theater": "拉美",
+     "source_url": "https://eltiempove.com/rocio-san-miguel-reflexiona-sobre-su-detencion-y-exige-reformas-en-el-sistema-judicial-venezolano/",
+     "source_title": "Rocío San Miguel reflexiona sobre su detención y exige ...",
+     "published_on": "2026-10-07",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rocío san miguel」",
+     "topic": "委内瑞拉情报机构、军事司法与监狱系统改革",
+     "claim": "委内瑞拉的情报机构、军事司法系统和监狱中心迫切需要进行变革",
+     "reasoning": "Rocío San Miguel 在被拘留期间亲身经历了委内瑞拉国家机器的运作，特别是在军事反情报总局（DGCIM）的遭遇让她承受了严重的心理暴力。这段「从内部体验系统」的经历使她直接观察到国家机构的缺陷，增强了她对改革紧迫性的认知。她强调这些机构存在系统性问题，需要根本性改变。",
+     "evidence": [
+      "San Miguel 在军事反情报总局（DGCIM）与家人一起出庭是她被监禁期间遭受最严重心理暴力的事件",
+      "她在拘留设施中的经历让她能够第一手见证国家机器的缺陷",
+      "她表示「从内部体验系统」使她对变革的紧迫性有了更深刻的认识",
+      "她重申继续在法律框架内要求国家承担责任的承诺"
+     ],
+     "data": [],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-10-08",
+     "_src_file": "thesis_all_2026-10-08.json"
+    },
+    {
+     "kol": "Rocío San Miguel",
+     "theater": "拉美",
+     "source_url": "https://elpais.com/america/2026-10-07/rocio-san-miguel-expresa-politica-venezolana-mi-sentencia-ratifica-el-derecho-de-los-civiles-de-exigir-transparencia-a-la-fuerza-armada.html",
+     "source_title": "Rocío San Miguel, expresa política venezolana: “Mi sentencia ...",
+     "published_on": "2026-10-07",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rocío san miguel」",
+     "topic": "委内瑞拉军事体制改革与民主转型前景",
+     "claim": "委内瑞拉武装力量需要进行去政党化和宪政化重构，若把握当前历史窗口期并与美国合作推进安全改革，民主转型可以成功",
+     "reasoning": "San Miguel基于其被捕经历和对军事体制的长期研究认为，委内瑞拉军事情报机关存在系统性违法问题（如DGCIM设有监狱、军事系统凌驾于司法之上），2025年1月3日马杜罗被美军带走后的政治变局为改革创造了机会，她观察到军方「叙事转变的积极迹象」，判断若能借助美国在安全领域的合作完成武装力量的去政党化和职能重构，同时避免谈判进程受阻，委内瑞拉可进入民主轨道",
+     "evidence": [
+      "2025年1月3日凌晨马杜罗被美军带走，1月8日她与其他政治犯及西班牙籍囚犯一同被释放并送往西班牙",
+      "军事情报总局（DGCIM）设有监狱，15名被捕者均遭任意拘留和强迫失踪，部分人受酷刑，普通检察官和法官服从军事系统决定",
+      "她的案件中军方人员被问及被拘留者权利时无法回答「打电话、有律师、不受酷刑」等基本内容",
+      "美国在安全事务上的合作「为重审（武装力量的）理念、规模和运作性开启了希望」",
+      "她观察到武装力量「某种叙事变化」和「去政党化方面的积极迹象」"
+     ],
+     "data": [
+      {
+       "metric": "被捕时长",
+       "value": "2年零9个月",
+       "context": "2024年2月至2026年释放前"
+      },
+      {
+       "metric": "未治疗骨折期",
+       "value": "8个月",
+       "context": "在El Helicoide监狱期间"
+      },
+      {
+       "metric": "首次通话时间",
+       "value": "被捕后1年10个月",
+       "context": "拘留期间"
+      },
+      {
+       "metric": "案件涉案人数",
+       "value": "15人",
+       "context": "Brazalete Blanco阴谋案"
+      },
+      {
+       "metric": "检方求刑年限",
+       "value": "30年",
+       "context": "2025年8月4日庭审时六项罪名合计"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "短期内（未指明具体时间）",
+     "confidence": "medium",
+     "extracted_on": "2026-10-09",
+     "_src_file": "thesis_all_2026-10-09.json"
+    },
+    {
+     "kol": "Rocío San Miguel",
+     "theater": "拉美",
+     "source_url": "https://abc17news.com/cnn-spanish/2026/10/09/rocio-san-miguel-tras-su-absolucion-se-ratifico-el-derecho-de-los-civiles-a-seguir-auditando-a-la-fuerza-armada/",
+     "source_title": "Rocío San Miguel tras su absolución: “Se ratificó el derecho ...",
+     "published_on": "2026-10-09",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rocío san miguel」",
+     "topic": "委内瑞拉军队监督与公民社会审查权",
+     "claim": "对委内瑞拉武装力量进行民间监督和审查是公民基本权利，应当继续合法存在",
+     "reasoning": "San Miguel认为其被控「白手环」阴谋案后获无罪释放的判决，实质上是对平民审查军队权力的法律确认。她强调这不仅关乎个人，而是确立了记者、分析师、研究者和大学继续监督「掌握国家武装的人」的合法性。她将此视为在威权环境下捍卫言论自由和异见权利的象征性胜利，认为在民主社会中批评公共政策不应导致失踪或拘禁",
+     "evidence": [
+      "San Miguel通过「公民监督」组织披露委内瑞拉军方内部运作信息，并记录被拘押军人的人权状况及酷刑指控",
+      "她于2024年在迈凯蒂亚机场试图离境时被捕，被控恐怖主义、叛国罪及参与暗杀马杜罗的「白手环」阴谋",
+      "委内瑞拉法院在2026年10月宣判其无罪，法律上确认其无刑事责任",
+      "在押期间她被禁止打电话和指定信任律师，直到被捕1年10个月后才首次与家人通话",
+      "其兄弟因她被捕导致无法前往西班牙接受已安排好的器官移植治疗，最终错过移植时机"
+     ],
+     "data": [
+      {
+       "metric": "关押时长",
+       "value": "23个月",
+       "context": "San Miguel被监禁总时长"
+      },
+      {
+       "metric": "司法程序总时长",
+       "value": "2年8个月",
+       "context": "从逮捕到宣判无罪的完整诉讼周期"
+      },
+      {
+       "metric": "首次家人通话时间",
+       "value": "被捕后1年10个月",
+       "context": "她在押期间首次获准与兄长电话联系的时间点"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "medium",
+     "extracted_on": "2026-10-10",
+     "_src_file": "thesis_all_2026-10-10.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Rocío San Miguel",
+     "theater": "拉美",
+     "source_url": "https://www.infobae.com/venezuela/2026/10/02/luego-de-encarcelarla-y-forzarla-al-exilio-justicia-chavista-declara-inocente-a-rocio-san-miguel/",
+     "source_title": "Luego de encarcelarla y forzarla al exilio, justicia chavista ...",
+     "published_on": "2026-10-02",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rocío san miguel」",
+     "topic": "委内瑞拉马杜罗政权对人权活动家的政治迫害与司法操纵",
+     "claim": "委内瑞拉查韦斯主义政权系统性利用司法系统迫害异见人士，特别是针对监督军事事务的民间组织",
+     "reasoning": "Rocío San Miguel 因创建监督委内瑞拉武装力量的公民组织 Control Ciudadano 而成为政权打击目标。她在「白手环」案中被控阴谋推翻马杜罗，但检方最终承认无法证明暗杀、恐怖主义或叛国罪名。尽管她本人获判无罪，其他被告却被判最高18年监禁，暴露出该案系「司法拼凑」——当指控无法成立时，检方在结论中重新编造罪名以维持定罪。这证明委内瑞拉司法系统已成为压制监督军方活动的工具。",
+     "evidence": [
+      "San Miguel 在 El Helicoide 监狱被关押700天，该设施被多个人权组织认定为酷刑中心",
+      "她于2024年2月9日被捕，2026年1月8日获释后被迫流亡",
+      "Control Ciudadano 成立于2005年，宗旨是「对安全、国防和国家武装力量事务进行公民监督」",
+      "2018年美洲人权法院裁定委内瑞拉政府因政治歧视在2004年非法解雇她",
+      "检方在「白手环」案中承认无法证明暗杀、恐怖主义和叛国罪名，但仍在结论中重新编造罪名",
+      "其他被告在同案中被判最高18年监禁，尽管核心指控已崩溃"
+     ],
+     "data": [
+      {
+       "metric": "关押时长",
+       "value": "700天",
+       "context": "2024年2月9日至2026年1月8日在 El Helicoide"
+      },
+      {
+       "metric": "Control Ciudadano 成立时间",
+       "value": "2005年",
+       "context": "San Miguel 创办"
+      },
+      {
+       "metric": "其他被告刑期",
+       "value": "最高18年",
+       "context": "「白手环」案判决"
+      },
+      {
+       "metric": "美洲人权法院判决年份",
+       "value": "2018年",
+       "context": "谴责委内瑞拉政府对 San Miguel 的政治歧视"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-10-05",
+     "_src_file": "thesis_all_2026-10-05.json"
+    }
+   ]
+  }
+ ],
+ "stance_changes_30d_detail": [
+  {
+   "kol": "Rob Lee",
+   "theater": "俄乌",
+   "from": "僵持",
+   "to": "升级",
+   "cur_rows": [
+    {
+     "kol": "Rob Lee",
+     "theater": "俄乌",
+     "source_url": "https://podcasts.apple.com/us/podcast/ukraine-military-history/id1896914748",
+     "source_title": "Ukraine Military History - Podcast - Apple Podcasts",
+     "published_on": "2026-09-11",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rob lee」",
+     "topic": "俄乌战争2026年冬季战局走向与俄罗斯再次动员可能性",
+     "claim": "2026年10月至11月将成为决定冬季战局的关键窗口期，俄军可能利用大雾天气突破乌军无人机防线，克拉马托尔斯克和斯洛维扬斯克面临严重威胁",
+     "reasoning": "Rob Lee认为虽然俄军推进速度慢于去年，但正在逼近顿涅茨克州最后的重要城市。他最担心的不是武器而是天气：去年10月波克罗夫斯克因四天大雾导致无人机失效，俄军两个连突入城内无法清除。今年10月即将到来，俄军离克拉马托尔斯克和斯洛维扬斯克更近。他指出「下个月决定是否还有机会窗口」，强调天气因素可能让乌军的技术优势失效，而俄军的步兵渗透战术在城市环境中依然有效。",
+     "evidence": [
+      "2025年10月，波克罗夫斯克因四天大雾导致无人机失明，俄军两个连进入城内且无法被清除",
+      "俄军推进速度慢于去年，但正在抵达最糟糕的位置——克拉马托尔斯克和斯洛维扬斯克的接近路线",
+      "在科斯坦季尼夫卡周边，步兵需要步行15至20公里到达阵地，这是实际「杀伤区」的度量标准",
+      "在争夺城市中，俄乌两军步兵在同一栋建筑使用不同入口，双方都被命令不交火，因为双方都想让无人机完成杀伤",
+      "多布罗皮利亚出现5比1的无人机劣势，是Francis Farrell见过的最被摧毁的城市，三小时内遭受12枚滑翔炸弹",
+      "斯洛维扬斯克是2014年4月战争开始的地方，今天防守该城的一些旅指挥官当时就在那里作战"
+     ],
+     "data": [
+      {
+       "metric": "步兵徒步距离",
+       "value": "15-20公里",
+       "context": "科斯坦季尼夫卡周边，步兵到达阵地的步行距离"
+      },
+      {
+       "metric": "无人机数量对比",
+       "value": "5:1劣势",
+       "context": "多布罗皮利亚地区乌军相对俄军的无人机数量劣势"
+      },
+      {
+       "metric": "滑翔炸弹袭击",
+       "value": "12枚/3小时",
+       "context": "多布罗皮利亚遭受的轰炸强度"
+      },
+      {
+       "metric": "大雾持续时间",
+       "value": "4天",
+       "context": "2025年10月波克罗夫斯克导致无人机失效的大雾天气"
+      },
+      {
+       "metric": "俄军突入兵力",
+       "value": "2个连",
+       "context": "2025年10月利用大雾进入波克罗夫斯克的俄军规模"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "2026年10月至11月",
+     "confidence": "high",
+     "extracted_on": "2026-09-14",
+     "_src_file": "thesis_all_2026-09-14.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Rob Lee",
+     "theater": "俄乌",
+     "source_url": "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+     "source_title": "For Russia and Ukraine, an Escalating Spiral With No End in Sight",
+     "published_on": "2026-09-03",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "正文含姓名「rob lee」",
+     "topic": "俄乌战争空袭升级与持久战前景",
+     "claim": "俄罗斯在承受痛苦方面的能力远超乌克兰，这决定了战争将持续下去",
+     "reasoning": "Rob Lee 认为当前俄乌双方都无法通过空袭迫使对方屈服，战争的走向取决于双方承受痛苦的能力对比。他判断俄罗斯在人口、资源和社会承受力方面具有显著优势，能够承受比乌克兰更大规模、更长时间的损失，因此乌克兰难以通过消耗战迫使俄罗斯妥协，而俄罗斯也不愿意停战。",
+     "evidence": [
+      "前线基本冻结，双方使用不断增长的导弹和无人机武器库进行报复性打击",
+      "基辅在过去几天遭受俄罗斯无人机持续轰炸，居民经历近乎持续的空袭警报",
+      "没有证据表明空袭升级会削弱任何一方继续战斗的决心",
+      "双方都在打击对方远离前线的城市目标，包括仓库、港口、粮食运输船只和能源网络",
+      "乌克兰在6月下旬开启了为期40天的对俄打击行动"
+     ],
+     "data": [
+      {
+       "metric": "对俄打击行动持续时间",
+       "value": "40天",
+       "context": "乌克兰自6月下旬开始"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-10-01",
+     "date_source": "url_path",
+     "_src_file": "thesis_all_2026-10-01.json"
+    }
+   ]
+  },
+  {
+   "kol": "Jeremy McDermott",
+   "theater": "拉美",
+   "from": "升级",
+   "to": "僵持",
+   "cur_rows": [
+    {
+     "kol": "Jeremy McDermott",
+     "theater": "拉美",
+     "source_url": "https://insightcrime.org/news/the-insight-take-colombias-total-peace-what-went-wrong-and-what-comes-next/",
+     "source_title": "Colombia’s Total Peace: What Went Wrong and What Comes Next?",
+     "published_on": "2026-09-15",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 insightcrime.org",
+     "topic": "哥伦比亚「全面和平」计划成效与未来军事化转向",
+     "claim": "哥伦比亚与武装组织的谈判本身并非不可行，Gustavo Petro总统「全面和平」计划的失败不能否定谈判途径的有效性，历史上哥伦比亚曾有成功的谈判先例",
+     "reasoning": "Jeremy McDermott认为尽管Gustavo Petro任期内非法武装组织成员从1.5万增至近2.9万（几乎翻倍），但这一失败源于执行层面的错误——包括未履行2016年FARC和平协议承诺、缺乏立法框架、过早实施停火、试图同时与所有组织谈判且准备不足。他强调哥伦比亚在2000年代初与AUC准军事组织及后来与FARC的谈判都取得过成功，这些先例证明谈判路径可行。当前Abelardo de la Espriella总统的军事化政策重复了Iván Duque时期的做法，而Iván Duque任内古柯种植面积从16.9万公顷增至23万公顷、可卡因产量从1100吨升至1700吨，即便实施了史无前例的13万公顷人工根除行动也未能遏制，这表明纯军事手段历史上并不有效",
+     "evidence": [
+      "哥伦比亚在2000年代初与准军事组织AUC以及2016年与FARC的和平谈判均取得成功，这些谈判中停火是在取得实质进展后才实施的",
+      "Iván Duque总统任期（2018-2022）采取军事化政策，实施13万公顷人工根除行动，但古柯种植面积仍从16.9万公顷增至23万公顷，可卡因产量从1100吨升至1700吨",
+      "在南部厄瓜多尔边境地区，ELN的一个单位和Walter Mendoza领导的FARC持不同政见者组织主动上交武器并准备进入集中区，麦德林和布埃纳文图拉等城市的帮派谈判也使勒索大幅减少",
+      "Catatumbo地区ELN在72小时内杀害近100人、导致5万人流离失所，Gustavo Petro因此中断与ELN的谈判，成为「全面和平」的分水岭时刻",
+      "Gustavo Petro未能通过立法框架，无法为犯罪组织提供免于引渡、减刑等法律保障，也未履行2016年FARC协议中的作物替代承诺"
+     ],
+     "data": [
+      {
+       "metric": "非法武装组织成员数",
+       "value": "从1.5万增至2.9万人",
+       "context": "Gustavo Petro任期2022年8月至2026年移交权力期间"
+      },
+      {
+       "metric": "古柯种植面积",
+       "value": "从16.9万公顷增至23万公顷",
+       "context": "Iván Duque任期2018-2022年"
+      },
+      {
+       "metric": "可卡因产量",
+       "value": "从1100吨增至1700吨",
+       "context": "Iván Duque任期2018-2022年"
+      },
+      {
+       "metric": "人工根除面积",
+       "value": "13万公顷",
+       "context": "Iván Duque任期实施，为史上最大规模"
+      },
+      {
+       "metric": "Catatumbo冲突伤亡",
+       "value": "72小时内近100人死亡",
+       "context": "ELN攻击FARC持不同政见者"
+      },
+      {
+       "metric": "Catatumbo流离失所人口",
+       "value": "5万人",
+       "context": "72小时冲突期间"
+      }
+     ],
+     "direction": "僵持",
+     "horizon": "未指明",
+     "confidence": "medium",
+     "extracted_on": "2026-09-17",
+     "_src_file": "thesis_all_2026-09-17.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Jeremy McDermott",
+     "theater": "拉美",
+     "source_url": "https://insightcrime.org/news/the-insight-take-organized-crime-adopts-the-latest-technologies-in-the-drone-ied-arms-race/",
+     "source_title": "The InSight Take: Organized Crime Adopts the Latest ...",
+     "published_on": "2026-08-25",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 insightcrime.org",
+     "topic": "拉美有组织犯罪集团对无人机与简易爆炸装置的军事化应用",
+     "claim": "拉美各国犯罪集团正在快速且创新地将商用无人机武器化，其技术应用已从简单侦察演变为复杂的军事打击能力，政府响应速度落后于威胁扩散速度",
+     "reasoning": "Jeremy McDermott 通过历史演进论证：从 Pablo Escobar 时代雇佣 ETA 专家制造爆炸物、到 FARC 从 IRA 学习简易爆炸装置技术，再到如今 CJNG 建立专门无人机部队并使用热成像设备，显示有组织犯罪集团始终利用巨额资源投资任何能带来优势的技术。他强调现在的犯罪集团不是自制无人机，而是「拿最先进的市售无人机技术进行高效快速改装」，并指出哥伦比亚投入 17 亿美元反无人机计划反映威胁已成为「哥伦比亚战场的常规组成部分」，墨西哥-美国签署无人机技术合作协议则是政府「试图追赶威胁」的表现。",
+     "evidence": [
+      "2024年8月17日美墨签署意向声明，美国首次同意向墨西哥国防部出售专门用于打击有组织犯罪的无人机技术",
+      "墨西哥简易爆炸装置缴获量从2020年的3件激增至2022年的1300多件",
+      "哥伦比亚非法无人机攻击在一年内从38起跃升至149起",
+      "CJNG 建立专门无人机部队，在米却肯州、瓜纳华托州、奇瓦瓦州、哈利斯科州、下加利福尼亚州作战，曾用无人机配合枪火击中陆军直升机",
+      "哥伦比亚 ELN 使用配备热成像的无人机进行夜间监视",
+      "哥伦比亚启动近17亿美元「国家反无人机盾牌」计划，建立军方专门部队"
+     ],
+     "data": [
+      {
+       "metric": "墨西哥简易爆炸装置缴获量",
+       "value": "从3件增至1300+件",
+       "context": "2020年至2022年"
+      },
+      {
+       "metric": "哥伦比亚非法无人机攻击",
+       "value": "从38起增至149起",
+       "context": "单年增长（ACLED数据另提到从12起增至41起的年度）"
+      },
+      {
+       "metric": "哥伦比亚反无人机投资",
+       "value": "近17亿美元",
+       "context": "「国家反无人机盾牌」计划总预算"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    }
+   ]
+  },
+  {
+   "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+   "theater": "俄乌",
+   "from": "未表态",
+   "to": "升级",
+   "cur_rows": [
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/09/11/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-09-11",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争中俄军总死亡人数及伤亡趋势（2022-2026年）",
+     "claim": "截至2026年9月，俄军已确认死亡超过23万人，且2026年初征召的囚犯部队在前三个月内伤亡率达20%，战争性质已转变为「灰色地带」消耗战，死亡登记延迟普遍达数月。",
+     "reasoning": "Mediazona与BBC俄语部通过公开来源（社交媒体、地方媒体、遗嘱登记数据库）核实死者姓名，发现2026年确认死亡数据严重滞后的原因在于：前线变为「灰色地带」导致遗体无法及时撤离，官方死亡登记延迟加剧（例如2026年1-3月死亡者直到9月仍在持续确认中），且志愿兵和囚犯等非正规军占比上升至伤亡主体。通过追踪乌方泄露的4000名囚犯征召名单，发现其中807人（20%）在半年内阵亡，且84.5%集中在前三个月，印证了「短训后即投入突击」的高消耗战术。",
+     "evidence": [
+      "截至2026年9月11日，已核实俄军死亡名单包含23.46万人（有年龄记录者）和23.13万人（有死亡日期记录者）",
+      "2024年俄军死亡9.56万人，2025年死亡5.97万人，2026年截至更新时仅确认6600人（数据严重滞后）",
+      "乌克兰「我想活下去」项目泄露的4000名囚犯征召名单中，807人已确认死亡（占20%），其中682人（84.5%）死于2026年1-3月",
+      "2026年初阵亡的囚犯被分配至第254摩步团、第15摩步旅、第5摩步旅等多个单位，表明非单一部队损失",
+      "2022年初战争阶段空降兵和摩步部队损失最大，2023年3月起囚犯成为最大阵亡群体（因瓦格纳在巴赫穆特使用囚犯突击队），2024年9月后志愿兵重新成为最大阵亡群体",
+      "军官阵亡比例从2022年初的10%降至2024年11月的2-3%，反映志愿步兵伤亡率远高于指挥官"
+     ],
+     "data": [
+      {
+       "metric": "已核实死亡人数（有死亡日期记录）",
+       "value": "231,300人",
+       "context": "截至2026年9月11日"
+      },
+      {
+       "metric": "2024年俄军死亡人数",
+       "value": "95,600人",
+       "context": "全年"
+      },
+      {
+       "metric": "2025年俄军死亡人数",
+       "value": "59,700人",
+       "context": "全年"
+      },
+      {
+       "metric": "2026年已确认死亡人数",
+       "value": "6,600人",
+       "context": "截至更新时（数据严重滞后）"
+      },
+      {
+       "metric": "泄露囚犯名单确认死亡率",
+       "value": "807人/4,000人 = 20%",
+       "context": "2026年1-9月追踪结果"
+      },
+      {
+       "metric": "泄露囚犯名单中2026年1-3月死亡占比",
+       "value": "682人/807人 = 84.5%",
+       "context": "1月81人，2月316人，3月285人"
+      },
+      {
+       "metric": "军官阵亡总数",
+       "value": "7,656人",
+       "context": "截至2026年9月11日"
+      },
+      {
+       "metric": "将军阵亡总数",
+       "value": "15人",
+       "context": "包括5名中将、7名少将、2名退役将军、1名乌克兰SBU叛逃将军"
+      }
+     ],
+     "direction": "升级",
+     "horizon": "2026年全年（数据滞后需2年后完整呈现）",
+     "confidence": "high",
+     "extracted_on": "2026-09-13",
+     "_src_file": "thesis_all_2026-09-13.json"
+    }
+   ],
+   "prev_rows": [
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/08/28/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-28",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2022/05/20/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-28",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    },
+    {
+     "kol": "Mediazona / BBC Russian \"Russia 200\" casualty project",
+     "theater": "俄乌",
+     "source_url": "https://en.zona.media/article/2026/08/14/casualties_eng-trl",
+     "source_title": "How many Russian soldiers died in the war with Ukraine",
+     "published_on": "2026-08-14",
+     "date_status": "verified",
+     "attribution": "verified",
+     "attribution_reason": "自有平台域名 en.zona.media",
+     "topic": "俄乌战争俄军总阵亡人数估算（基于遗嘱登记超额死亡率模型）",
+     "claim": "截至2025年12月下旬，俄军真实阵亡总数远高于22.8万具名确认死亡数，需依靠国家遗嘱登记处（Probate Registry）的男性超额死亡率数据才能建立更完整的伤亡图景",
+     "reasoning": "Mediazona与BBC俄语部及志愿者团队承认，仅依赖公开可验证来源（社交媒体、地方媒体、地区当局声明）编制的具名死亡名单「并非详尽无遗，因为并非每一例死亡都会被公开报告」。为弥补这一局限，他们与Meduza合作开发了基于遗嘱登记处男性超额死亡率的统计估算方法，认为这种方法能「帮助解决仅依赖公开报告死亡的局限性」，从而揭示战争的真实代价。截至2026年5月9日的最新更新仍在使用该模型。",
+     "evidence": [
+      "截至2026年8月28日，已确认228,450例俄军死亡的年龄信息，225,000例具有确切死亡日期",
+      "Mediazona维护的具名死亡名单「建立在公开可验证来源之上，例如亲属的社交媒体帖子、地方媒体报道和地区当局声明」",
+      "项目组明确指出「当然，这份名单并非详尽无遗，因为并非每一例死亡都会被公开报告」",
+      "为构建更完整图景，团队「开发了基于男性超额死亡率的估算方法，使用来自国家遗嘱登记处（Probate Registry）的数据」",
+      "该统计方法「与Meduza合作创建，有助于解决仅依赖公开报告死亡的局限性」",
+      "遗嘱登记处估算数据的详细方法描述可在专门链接查阅，最后更新时间为2026年5月9日，估算截至2025年12月下旬"
+     ],
+     "data": [
+      {
+       "metric": "已确认具名死亡总数",
+       "value": "228,450人（有年龄信息）",
+       "context": "截至文章发布时（2026年8月前后）"
+      },
+      {
+       "metric": "已知死亡日期案例",
+       "value": "225,000例",
+       "context": "截至文章发布时"
+      },
+      {
+       "metric": "已确认军官阵亡",
+       "value": "7,596人",
+       "context": "截至2026年8月28日"
+      },
+      {
+       "metric": "遗嘱登记处估算覆盖时间",
+       "value": "截至2025年12月下旬",
+       "context": "最后更新2026年5月9日"
+      }
+     ],
+     "direction": "未表态",
+     "horizon": "未指明",
+     "confidence": "high",
+     "extracted_on": "2026-09-09",
+     "_src_file": "thesis_all_2026-09-09.json"
+    }
+   ]
+  }
+ ]
+}
