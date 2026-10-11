@@ -769,7 +769,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=143",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -1687,7 +1687,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=522 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=564",
   "removed_stage": "nobody"
  },
  {
@@ -1738,7 +1738,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ankit panda」",
-  "removed_reason": "正文不可得 http=200 chars=290",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3098,7 +3098,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「christoph vogel」",
-  "removed_reason": "正文不可得 http=200 chars=290",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3200,7 +3200,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=118",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -3438,7 +3438,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「todd harrison」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=15",
   "removed_stage": "nobody"
  },
  {
@@ -4203,7 +4203,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=612",
+  "removed_reason": "正文不可得 http=200 chars=631",
   "removed_stage": "nobody"
  },
  {
@@ -4849,7 +4849,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「larry c. johnson」",
-  "removed_reason": "正文不可得 http=522 chars=0",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -5988,7 +5988,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「苏尚特·辛格」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=ConnectionError chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -7790,7 +7790,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas h. shugart iii」",
-  "removed_reason": "正文不可得 http=200 chars=694",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8045,7 +8045,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「rob lee」",
-  "removed_reason": "正文不可得 http=200 chars=754",
+  "removed_reason": "正文不可得 http=200 chars=714",
   "removed_stage": "nobody"
  },
  {
@@ -8062,7 +8062,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8079,7 +8079,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8096,7 +8096,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8113,7 +8113,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8130,7 +8130,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8147,7 +8147,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8164,7 +8164,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8181,7 +8181,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=74",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8436,7 +8436,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8453,7 +8453,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8470,7 +8470,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8487,7 +8487,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8504,7 +8504,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8521,7 +8521,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8538,7 +8538,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8555,7 +8555,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=74",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8793,7 +8793,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom shugart」",
-  "removed_reason": "正文不可得 http=200 chars=599",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8878,7 +8878,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=156",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8895,7 +8895,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=92",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8912,7 +8912,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8929,7 +8929,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8946,7 +8946,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=81",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8963,7 +8963,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=119",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8980,7 +8980,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=124",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -8997,7 +8997,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9014,7 +9014,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=74",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9031,7 +9031,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -9320,7 +9320,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jason stearns」",
-  "removed_reason": "正文不可得 http=200 chars=405",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -10119,7 +10119,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -11156,7 +11156,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「eric j. labs」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=341",
   "removed_stage": "nobody"
  },
  {
@@ -11360,7 +11360,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 ndc.nato.int",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=589",
   "removed_stage": "nobody"
  },
  {
@@ -11839,7 +11839,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -12130,7 +12130,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=127",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13496,7 +13496,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13513,7 +13513,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=95",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13530,7 +13530,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=85",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -13547,7 +13547,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「帕维尔·卢津」",
-  "removed_reason": "正文不可得 http=200 chars=370",
+  "removed_reason": "正文不可得 http=200 chars=359",
   "removed_stage": "nobody"
  },
  {
@@ -13802,7 +13802,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「ryan d. martinson」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -14747,7 +14747,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=83",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14764,7 +14764,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -14832,7 +14832,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -15004,7 +15004,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「alex de waal」",
-  "removed_reason": "正文不可得 http=200 chars=429",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16355,7 +16355,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「m. taylor fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=710",
   "removed_stage": "nobody"
  },
  {
@@ -16717,7 +16717,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=132",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16735,7 +16735,7 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=90",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -16752,7 +16752,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「janis kluge」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=533",
   "removed_stage": "nobody"
  },
  {
@@ -16889,7 +16889,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「justin bronk」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=476",
   "removed_stage": "nobody"
  },
  {
@@ -17025,7 +17025,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matt korda」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17197,7 +17197,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「uzi rubin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17438,7 +17438,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「stacie pettyjohn」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -17489,7 +17489,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=109",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -18498,7 +18498,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「tom karako」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=772",
   "removed_stage": "nobody"
  },
  {
@@ -20256,7 +20256,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「jeremy mcdermott」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20290,7 +20290,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=117",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -20375,7 +20375,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「matthew p. funaiole」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20720,7 +20720,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「fravel」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -20822,7 +20822,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「thomas withington」",
-  "removed_reason": "正文不可得 http=200 chars=162",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -21421,7 +21421,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「siemon t. wezeman」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -22352,7 +22352,7 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「emil michael」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=89",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -22370,24 +22370,6 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「emil michael」",
   "date_source": "page_meta",
-  "removed_reason": "正文不可得 http=200 chars=89",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Rocío San Miguel",
-  "theater": "拉美",
-  "title": "La Justicia de Venezuela absuelve a la activista Rocío San Miguel",
-  "summary": "6 days ago · La Justicia de Venezuela ha absuelto a la activista hispanovenezolana Rocío San Miguel, quien había sido acusada de traición a la patria.",
-  "quote": "",
-  "source_url": "https://efe.com/mundo/2026-10-02/venezuela-rocio-san-miguel-absuelta-justicia/",
-  "published_on": "2026-10-02",
-  "date_status": "verified",
-  "direction": "未表态",
-  "collected_on": "2026-10-09",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「rocío san miguel」",
-  "date_source": "url_path",
   "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
@@ -22593,7 +22575,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「seth g. jones」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -22888,7 +22870,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「aaron y. zelin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=84",
   "removed_stage": "nobody"
  },
  {
@@ -22922,7 +22904,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「aaron y. zelin」",
-  "removed_reason": "正文不可得 http=200 chars=0",
+  "removed_reason": "正文不可得 http=200 chars=1",
   "removed_stage": "nobody"
  },
  {
@@ -23110,7 +23092,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "正文含姓名「mohammed zubair」",
-  "removed_reason": "正文不可得 http=403 chars=0",
+  "removed_reason": "正文不可得 http=429 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -23145,7 +23127,7 @@
   "status": "ok",
   "attribution": "verified",
   "attribution_reason": "自有平台域名 fpri.org",
-  "removed_reason": "正文不可得 http=200 chars=102",
+  "removed_reason": "正文不可得 http=403 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -23163,23 +23145,6 @@
   "attribution": "verified",
   "attribution_reason": "正文含姓名「nick waters」",
   "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Justin Bronk",
-  "theater": "俄乌",
-  "title": "Mass Precision Strike: Designing UAV Complexes for Land Forces",
-  "summary": "Russia’s full-scale invasion of Ukraine has led to the extensive employment of UAVs to deliver precision effects at scale. Militaries observing the conflict are assessing how they can integrate these capabilities into their own forces and mitigate the threat from them.",
-  "quote": "",
-  "source_url": "https://static.rusi.org/mass-precision-strike-final.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "升级",
-  "collected_on": "2026-10-11",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "自有平台域名 static.rusi.org",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {
@@ -23231,23 +23196,6 @@
   "attribution": "verified",
   "attribution_reason": "自有平台域名 congress.gov",
   "removed_reason": "正文不可得 http=403 chars=0",
-  "removed_stage": "nobody"
- },
- {
-  "kol": "Ronald O'Rourke",
-  "theater": "军工与战略",
-  "title": "“Building the Fleets of the Future: Coast Guard and NOAA ...",
-  "summary": "10 CRS Report R41909, Multiyear Procurement (MYP) and Block Buy Contracting in Defense Acquisition: Background and Issues for Congress, by Ronald O'Rourke and Moshe Schwartz.",
-  "quote": "",
-  "source_url": "https://www.commerce.senate.gov/wp-content/uploads/media/doc/10.11.18_ORourke_Testimony.pdf",
-  "published_on": null,
-  "date_status": "unverified",
-  "direction": "未表态",
-  "collected_on": "2026-10-11",
-  "status": "ok",
-  "attribution": "verified",
-  "attribution_reason": "正文含姓名「ronald o'rourke」",
-  "removed_reason": "正文不可得 http=200 chars=0",
   "removed_stage": "nobody"
  },
  {

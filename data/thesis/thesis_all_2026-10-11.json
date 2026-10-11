@@ -233,5 +233,76 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-10-11"
+ },
+ {
+  "kol": "Ronald O'Rourke",
+  "theater": "军工与战略",
+  "source_url": "https://www.commerce.senate.gov/wp-content/uploads/media/doc/10.11.18_ORourke_Testimony.pdf",
+  "source_title": "“Building the Fleets of the Future: Coast Guard and NOAA ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「ronald o'rourke」",
+  "topic": "美国海岸警卫队舰船采购计划与预算充足性",
+  "claim": "海岸警卫队91艘舰船的计划采购量仅能满足其法定任务需求的61%，需要149艘才能完全履行未来使命",
+  "reasoning": "Ronald O'Rourke根据海岸警卫队2011年舰队组合分析（FMA Phase 2）的结论进行判断。该分析显示，按现有采购计划（8艘NSC、25艘OPC、58艘FRC共91艘），与完全履行法定任务所需的149艘相比存在显著缺口。他强调这一差距部分源于未来任务需求预计将超过过去水平，且在NSC和FRC项目即将结束采购的当下，这一问题尤为紧迫",
+  "evidence": [
+   "海岸警卫队的91艘舰船采购记录（POR）可追溯至2004年，计划建造8艘NSC、25艘OPC和58艘FRC",
+   "海岸警卫队2011年舰队组合分析第二阶段（FMA Phase 2）是最后一次公开发布的未来舰队结构需求综合分析",
+   "该分析得出结论：完全履行海岸警卫队未来法定任务需要总计149艘NSC、OPC和FRC（具体为9艘NSC、49艘OPC、91艘FRC）",
+   "按现有计划采购的91艘舰船将提供比其替换的旧一代舰艇更强大的能力",
+   "海岸警卫队任务需求预计在未来几年将大于过去"
+  ],
+  "data": [
+   {
+    "metric": "现有采购计划NSC数量",
+    "value": "8艘",
+    "context": "Program of Record"
+   },
+   {
+    "metric": "现有采购计划OPC数量",
+    "value": "25艘",
+    "context": "Program of Record"
+   },
+   {
+    "metric": "现有采购计划FRC数量",
+    "value": "58艘",
+    "context": "Program of Record"
+   },
+   {
+    "metric": "现有采购计划总量",
+    "value": "91艘",
+    "context": "Program of Record"
+   },
+   {
+    "metric": "完全履行任务所需NSC数量",
+    "value": "9艘",
+    "context": "2011年FMA Phase 2分析"
+   },
+   {
+    "metric": "完全履行任务所需OPC数量",
+    "value": "49艘",
+    "context": "2011年FMA Phase 2分析"
+   },
+   {
+    "metric": "完全履行任务所需FRC数量",
+    "value": "91艘",
+    "context": "2011年FMA Phase 2分析"
+   },
+   {
+    "metric": "完全履行任务所需总量",
+    "value": "149艘",
+    "context": "2011年FMA Phase 2分析"
+   },
+   {
+    "metric": "现有计划满足任务需求比例",
+    "value": "61%",
+    "context": "91艘相对149艘"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未来数年（coming years）",
+  "confidence": "high",
+  "extracted_on": "2026-10-11"
  }
 ]
