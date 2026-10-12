@@ -1,0 +1,197 @@
+[
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.govconwire.com/articles/emil-michael-defense-research-tech-summit",
+  "source_title": "Pentagon CTO Emil Michael to Keynote 2026 Defense R&D Summit",
+  "published_on": "2025-12-01",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部2026年研发方向与技术投资重点",
+  "claim": "国防部将在36个月内通过聚焦六大核心技术领域实现快速能力交付，重塑与新兴科技企业的合作关系",
+  "reasoning": "Emil Michael将国防部原有的14个关键技术领域精简为6个优先事项，强调「14个优先事项实际等于没有优先事项」，通过缩小优先范围、加速原型开发、促进技术转化及与产业界共担风险，推动国防部在3年内完成能力部署。其商业背景（Uber首席商务官、50余家科技公司投资/顾问经验）与国防战略经验的结合，使其具备重构国防部与科技产业关系的独特优势",
+  "evidence": [
+   "Emil Michael于2025年5月经参议院54-43票确认就任国防部首席技术官",
+   "2025年8月起兼任国防创新单元(DIU)代理主任",
+   "将国防部14个「关键技术领域」削减为6个快速执行的技术优先事项",
+   "强调通过速度、原型开发、转化及与产业界共担风险作为核心主题",
+   "曾任Uber首席商务官(2013-2017)，参与超过50家科技公司的投资、顾问或运营工作",
+   "早年曾在Robert Gates领导下担任国防部长特别助理"
+  ],
+  "data": [
+   {
+    "metric": "技术优先领域数量变化",
+    "value": "14减至6个",
+    "context": "Emil Michael上任后结构性改革"
+   },
+   {
+    "metric": "能力交付时间目标",
+    "value": "36个月或更短",
+    "context": "精简优先事项后的执行目标"
+   },
+   {
+    "metric": "参议院确认票数",
+    "value": "54-43",
+    "context": "2025年5月确认投票"
+   },
+   {
+    "metric": "商业科技公司参与数量",
+    "value": "50余家",
+    "context": "Emil Michael作为投资人/顾问/运营者的经历"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2026年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-13"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.podchemy.com/notes/misunderstood-power-emil-michael-on-the-truth-about-the-dow-defense-tech-46704697425",
+  "source_title": "Podcast Notes /// Misunderstood Power: Emil Michael on the Truth About ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国与中国军事竞争中的高超音速导弹能力差距",
+  "claim": "中美之间在「成本可控的规模化高超音速导弹」领域存在显著能力差距，这是当前美军最需关注的战略短板",
+  "reasoning": "Emil Michael 指出，冷战时期美苏有核裁军条约和相互确保摧毁机制约束，但美中之间不存在类似协议。在此背景下，中国已在特定高超音速导弹能力上实现了美国尚未达到的规模化生产和成本控制。他认为这种不受冷战式军控约束的新型军备竞赛，使「规模化且成本可控的高超音速武器」成为美国必须优先弥补的能力缺口，并将其列为国防部六大关键技术领域之一。",
+  "evidence": [
+   "美国在反恐战争期间，中国一直在投资高度复杂的军事能力，导致美国需要在太空和高超音速导弹等领域追赶",
+   "国防部将关键技术领域从14项缩减到6项，其中第二项即为「规模化高超音速武器」",
+   "高超音速导弹可以超过5倍音速飞行，能在30分钟内从中国抵达美国",
+   "美苏之间存在核裁军条约和相互确保摧毁概念，但美中之间不存在此类协议",
+   "中国已在特定高超音速导弹能力上达到美国尚未实现的规模和成本水平"
+  ],
+  "data": [
+   {
+    "metric": "高超音速导弹飞行速度",
+    "value": "超过5倍音速",
+    "context": "技术定义标准"
+   },
+   {
+    "metric": "中国到美国飞行时间",
+    "value": "30分钟",
+    "context": "高超音速导弹投送时间"
+   },
+   {
+    "metric": "关键技术领域数量",
+    "value": "从14项缩减到6项",
+    "context": "国防部优先事项调整"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-13"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.cityairnews.com/content/satellite-evidence-india-destroyed-15-terrorist-camps-including-let-headquarter",
+  "source_title": "Satellite evidence: India destroyed 15 terrorist camps, including LeT ...",
+  "published_on": "2025-05-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度Operation Sindoor跨境空袭巴基斯坦恐怖营地",
+  "claim": "印度在Operation Sindoor行动中摧毁了15个恐怖营地，包括LeT总部Markaz Taiba和JeM主要基地Markaz Subhan Allah，并对9个巴基斯坦空军基地造成重大破坏",
+  "reasoning": "Damien Symon通过卫星图像分析验证了印度空袭的实际效果。他基于LANDSAT等开源卫星影像，识别出多个巴基斯坦军事设施的打击痕迹，包括Sargodha空军基地跑道14/32的多处撞击区、Rahim Yar Khan Airbase机场停运、以及Bholari和Jacobabad等基地的机库、雷达站损毁。同时他揭露巴基斯坦散布的虚假宣传，证明所谓印度基地受损照片实为过时图片造假，从技术层面佐证了印度单方面军事优势和行动精准度",
+  "evidence": [
+   "LANDSAT卫星图像显示Sargodha空军基地跑道14/32存在多处撞击区域",
+   "Rahim Yar Khan Airbase机场完全停运，NOTAM（航行通告）有效期至5月17日",
+   "Bholari和Jacobabad空军基地的机库、作战区和雷达站遭到打击",
+   "巴基斯坦散布doctored images虚假声称印度基地受损，包括使用过时的Jammu机场照片",
+   "印度打击目标包括Bahawalpur的Markaz Subhan Allah（JeM主基地）、Muridke的Markaz Taiba（LeT总部）、Sialkot的Mehmoona Joya（HM据点）"
+  ],
+  "data": [
+   {
+    "metric": "摧毁恐怖营地数量",
+    "value": "15个",
+    "context": "Operation Sindoor行动总计"
+   },
+   {
+    "metric": "空袭恐怖中心数量",
+    "value": "9个",
+    "context": "三天军事行动期间，巴基斯坦境内及巴控克什米尔"
+   },
+   {
+    "metric": "消灭恐怖分子数量",
+    "value": "100人",
+    "context": "印度国防官员5月10日通报，9个地点"
+   },
+   {
+    "metric": "停火协商时间",
+    "value": "5月10日下午3:30",
+    "context": "巴基斯坦DGMO联系印度方面"
+   },
+   {
+    "metric": "NOTAM有效期",
+    "value": "至5月17日",
+    "context": "Rahim Yar Khan Airbase机场停运"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-13"
+ },
+ {
+  "kol": "Todd Harrison",
+  "theater": "军工与战略",
+  "source_url": "https://x.com/ToddHarrisonDC/status/2087579549827555753",
+  "source_title": "Todd Harrison on X: \"Discontinuity #4: Execution. Many planned ...",
+  "published_on": "2026-08-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「todd harrison」",
+  "topic": "美国2027财年国防预算的武器采购执行能力",
+  "claim": "FY27预算中许多武器的计划采购量远超历史平均水平，且交付时间滞后，执行面临重大挑战",
+  "reasoning": "Todd Harrison指出FY27预算在采购执行层面存在「断层」：部分关键武器系统的采购量是历史均值的10倍以上（PAC-3 MSE达14倍、THAAD达17倍），但由于生产周期长，许多武器要到2029年或更晚才能交付——已超出本届政府任期。他认为这种激增的采购计划在实际执行中不现实，因为主承包商及次级供应商需要看到实际拨款到位后才会扩建产能，而国防部所需的预算调节规模不太可能获批",
+  "evidence": [
+   "FY27预算规模达1.5万亿美元，是朝鲜战争以来最大的单年增幅（按百分比和绝对金额）",
+   "现代化支出（采购+研发测试评估）占FY27国防预算的52%，为朝鲜战争结束以来最高占比",
+   "仅五个国防部范围的资金条目就占FY27现代化预算总额的近四分之一",
+   "FY2028-31年的导弹与弹药资金预测按不变价格计算几乎是FY1999-2025年平均水平的3倍",
+   "许多武器因生产周期长要到2029年或更晚才能交付，超出现任政府任期"
+  ],
+  "data": [
+   {
+    "metric": "FY27国防预算总额",
+    "value": "1.5万亿美元",
+    "context": "2027财年"
+   },
+   {
+    "metric": "现代化支出占比",
+    "value": "52%",
+    "context": "FY27预算中采购+研发测试评估"
+   },
+   {
+    "metric": "PAC-3 MSE采购量倍数",
+    "value": "14倍",
+    "context": "FY27相对于历史平均"
+   },
+   {
+    "metric": "THAAD采购量倍数",
+    "value": "17倍",
+    "context": "FY27相对于历史平均"
+   },
+   {
+    "metric": "导弹弹药资金增幅",
+    "value": "3倍",
+    "context": "FY2028-31相对于FY1999-2025年均（不变价格）"
+   },
+   {
+    "metric": "五项国防部资金条目集中度",
+    "value": "占现代化预算近25%",
+    "context": "FY27预算"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2029年及以后",
+  "confidence": "high",
+  "extracted_on": "2026-10-13"
+ }
+]
