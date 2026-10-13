@@ -193,5 +193,31 @@
   "horizon": "2029年及以后",
   "confidence": "high",
   "extracted_on": "2026-10-13"
+ },
+ {
+  "kol": "Janis Kluge",
+  "theater": "俄乌",
+  "source_url": "https://twitter.com/jakluge/status/1629180638900244480",
+  "source_title": "Janis Kluge on Twitter: \"So Russia is willing to end its war on Ukraine...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「janis kluge」",
+  "topic": "俄罗斯对乌克兰战争的停战条件与谈判立场",
+  "claim": "俄罗斯提出的停战条件实质上要求乌克兰完全投降，包括政权更迭、军队解散和领土割让，这不是真正的「妥协」",
+  "reasoning": "Janis Kluge通过讽刺性陈述俄方的四项「温和条件」，揭示其本质是要求乌克兰政权更迭（去纳粹化）、军事能力被摧毁（去军事化）、承认所有被占领土归俄、剩余国土「中立化」。他用「modest conditions」（温和条件）的反讽修辞，暗示这些要求根本不是谈判而是单方面的投降书，并特别点名德国知识分子，批评其对俄乌冲突中「妥协」概念的误解",
+  "evidence": [
+   "俄罗斯要求基辅政权更迭，即「去纳粹化」(denatsifikatsia)",
+   "俄罗斯要求摧毁乌克兰军队，即「去军事化」(demilitarisatsia)",
+   "俄罗斯要求所有被吞并领土归属俄罗斯",
+   "俄罗斯要求乌克兰剩余部分保持「中立」地位",
+   "Wojtek Janicki @WojtekJanicki回应称这让西方人清楚看到俄罗斯所谓「妥协」的真实含义",
+   "Robert Bor评论指出德国知识分子未能正确评估俄罗斯要求被满足的可能性、乌克兰抵抗意志及西方支持的坚定性"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-13"
  }
 ]

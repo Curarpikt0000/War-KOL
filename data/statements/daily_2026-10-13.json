@@ -2189,13 +2189,14 @@
     "summary": "3 days ago · Insights & Analysis Timely analysis for policy impact in a rapidly evolving world.",
     "quote": "",
     "source_url": "https://cepa.org/insights-analysis/",
-    "published_on": null,
-    "date_status": "unverified",
+    "published_on": "2022-09-07",
+    "date_status": "verified",
     "direction": "未表态",
     "collected_on": "2026-10-13",
     "status": "ok",
     "attribution": "verified",
-    "attribution_reason": "自有平台域名 cepa.org"
+    "attribution_reason": "自有平台域名 cepa.org",
+    "date_source": "page_meta"
   },
   {
     "kol": "Fabian Hoffmann",
@@ -2204,13 +2205,14 @@
     "summary": "The Center for European Policy Analysis strengthens the transatlantic alliance through cutting-edge research, analysis, and programs.",
     "quote": "",
     "source_url": "https://cepa.org/",
-    "published_on": null,
-    "date_status": "unverified",
+    "published_on": "2024-03-28",
+    "date_status": "verified",
     "direction": "未表态",
     "collected_on": "2026-10-13",
     "status": "ok",
     "attribution": "verified",
-    "attribution_reason": "自有平台域名 cepa.org"
+    "attribution_reason": "自有平台域名 cepa.org",
+    "date_source": "page_meta"
   },
   {
     "kol": "Héni Nsaibia",
