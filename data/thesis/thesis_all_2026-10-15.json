@@ -1,0 +1,84 @@
+[
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.timesnownews.com/world/pakistan-murid-airbase-covered-in-big-red-tarpaulin-satellite-photo-damien-symon-india-operation-sindoor-iaf-pahalgam-terror-attack-article-153313662",
+  "source_title": "Satellite Image Shows Pakistan's Murid Airbase, Bombed by India During ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度对巴基斯坦Murid与Nur Khan空军基地的打击修复进展",
+  "claim": "巴基斯坦在印度2025年5月「辛杜尔行动」打击后8个月仍在修复Murid空军基地，防御基础设施尚未完全恢复运作",
+  "reasoning": "Damien Symon通过最新卫星影像观察到Murid空军基地被打击的军事指挥建筑屋顶覆盖着巨型红色防水布，表明该设施仍在维修中；此前他在11月发布的卫星图像还显示巴基斯坦正在重建Nur Khan空军基地的仓库和跑道。这些持续修复迹象证明印度打击造成的损毁程度较深，巴方需要数月时间才能恢复基础设施。",
+  "evidence": [
+   "最新卫星照片显示Murid空军基地一座军事指挥建筑整个屋顶被新的覆盖物遮盖，此前仅撞击区域被覆盖",
+   "2024年11月卫星图像显示巴基斯坦正在重建Nur Khan空军基地被摧毁的仓库和跑道",
+   "印度2025年5月7日发起的「辛杜尔行动」打击了9个主要恐怖营地和11个巴基斯坦军事设施",
+   "被打击目标包括Nur Khan、Chaklala、Rafiqui、Rahim Yar Khan和Jacobabad等空军基地"
+  ],
+  "data": [
+   {
+    "metric": "行动持续时间",
+    "value": "88小时",
+    "context": "辛杜尔行动，2025年5月7日开始"
+   },
+   {
+    "metric": "打击恐怖营地数量",
+    "value": "9个",
+    "context": "印度武装部队在辛杜尔行动中"
+   },
+   {
+    "metric": "打击军事设施数量",
+    "value": "11个",
+    "context": "巴基斯坦军事设施"
+   },
+   {
+    "metric": "修复持续时间",
+    "value": "约8个月",
+    "context": "从2025年5月打击至报道发布时"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-15"
+ },
+ {
+  "kol": "Mohammed Zubair",
+  "theater": "南亚",
+  "source_url": "https://x.com/zoo_bear/status/2109987247831523360",
+  "source_title": "Mohammed Zubair on X: \"Godi media @IndiaToday must stop ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「mohammed zubair」",
+  "topic": "印度反对党抗议活动与巴基斯坦阴谋论叙事",
+  "claim": "印度主流媒体将反对党抗议归咎于巴基斗坦阴谋缺乏证据支撑，这种叙事是选择性执法和双重标准的产物",
+  "reasoning": "该KOL指出单一巴基斯坦账号传播虚假信息不足以证明存在「工具包」或巴基斯坦与反对党之间的协调。他质疑印度当局对该巴基斯坦宣传账号长期不作为，而对批评BJP的印度账号却迅速处理，认为这种双重标准说明当局直到该账号内容可用于攻击反对党时才变得「便利」。他要求媒体追问政府为何忽视多次警告而不是指责反对党。",
+  "evidence": [
+   "自2025年以来该KOL一直举报@indiantiwari01账号传播虚假信息",
+   "该巴基斯坦账号发布的内容几乎全是假新闻但在印度仍可访问",
+   "批评BJP的印度账号会被迅速标记和屏蔽",
+   "德里警方和内政部未对该巴基斯坦宣传账号采取行动",
+   "India Today等媒体将反对党抗议归因于巴基斯坦阴谋",
+   "该巴基斯坦账号至今在印度仍处于活跃状态"
+  ],
+  "data": [
+   {
+    "metric": "涉事巴基斯坦账号数量",
+    "value": "1个",
+    "context": "India Today报道中提及的@indiantiwari01"
+   },
+   {
+    "metric": "举报时长",
+    "value": "自2025年起",
+    "context": "该KOL持续举报该账号的时间跨度"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-15"
+ }
+]
