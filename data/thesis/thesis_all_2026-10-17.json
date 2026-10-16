@@ -1,0 +1,49 @@
+[
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://fortune.com/article/palantir-ceo-alex-karp-two-people-successful-in-ai-era-vocational-skills-neurodivergence-gen-z-career-advice-billionaire/",
+  "source_title": "Palantir CEO says only trade workers or those with ... - Fortune",
+  "published_on": "2026-10-10",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "AI时代下劳动力市场的职业前景与人才招聘策略",
+  "claim": "AI时代只有两类人有职业前景：接受过职业技能培训的技术工人，或神经多样性人群",
+  "reasoning": "Karp认为技术工人难以被自动化取代且需求增长，而神经多样性人群（如阅读障碍、ADHD、自闭症患者）因思维方式独特、敢于冒险、能从不同角度看问题并创造独特价值，在AI驱动的世界中具有认知优势。他对传统高等教育持怀疑态度，认为人文学科就业将被AI摧毁，单纯的名校学位不再是成功保障。Palantir通过设立神经多样性奖学金和择优奖学金（面向高中毕业生），将这一理念转化为招聘实践。",
+  "evidence": [
+   "Palantir设立专门的Neurodivergent Fellowship招募神经多样性人才",
+   "Palantir招聘启事称「神经多样性个体将在塑造美国和西方未来中发挥不成比例的作用」",
+   "Palantir推出Meritocracy Fellowship项目，专门面向未上大学的高中毕业生，要求达到常春藤级别考试成绩",
+   "该奖学金项目首批吸引超500名申请者，录取22名学生，提供月薪5400美元",
+   "Karp在达沃斯论坛表示AI将摧毁人文学科就业",
+   "Gartner研究预测到2027年财富500强中五分之一的销售组织将主动招募神经多样性人才"
+  ],
+  "data": [
+   {
+    "metric": "神经多样性人才招聘比例",
+    "value": "五分之一",
+    "context": "到2027年财富500强销售组织预期值/Gartner研究"
+   },
+   {
+    "metric": "Meritocracy Fellowship申请人数",
+    "value": "超过500人",
+    "context": "首批申请/华尔街日报报道"
+   },
+   {
+    "metric": "Meritocracy Fellowship录取人数",
+    "value": "22人",
+    "context": "首批录取/华尔街日报报道"
+   },
+   {
+    "metric": "奖学金月度津贴",
+    "value": "5400美元",
+    "context": "2026年秋季班提供标准"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-17"
+ }
+]
