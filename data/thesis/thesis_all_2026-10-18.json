@@ -158,5 +158,29 @@
   "horizon": "2026年夏季",
   "confidence": "high",
   "extracted_on": "2026-10-18"
+ },
+ {
+  "kol": "Fabian Hinz",
+  "theater": "中东",
+  "source_url": "https://x.com/fab_hinz/status/2067159805559476683",
+  "source_title": "Fabian Hinz on X: \"Just published my new OSINT investigation ...",
+  "published_on": "2026-06-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「fabian hinz」",
+  "topic": "俄罗斯 Zircon 导弹技术特征与作战使用",
+  "claim": "Zircon 并非高超音速巡航导弹，而是准弹道系统",
+  "reasoning": "Fabian Hinz 通过开源情报（OSINT）调查，分析了 2026 年俄罗斯 Zircon 导弹战斗使用急剧上升后的现有证据，得出其飞行特性更符合准弹道弹道而非高超音速巡航导弹的技术判断",
+  "evidence": [
+   "Zircon 导弹在 2026 年的战斗使用急剧上升",
+   "现有证据显示其飞行轨迹特征不符合巡航导弹定义",
+   "Fabian Hinz 发布了针对该导弹的开源情报调查报告",
+   "调查结论认为其属于准弹道系统而非高超音速巡航导弹"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-18"
  }
 ]
