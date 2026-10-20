@@ -544,5 +544,47 @@
   "horizon": "未指明",
   "confidence": "high",
   "extracted_on": "2026-10-20"
+ },
+ {
+  "kol": "Andrew S. Erickson",
+  "theater": "印太",
+  "source_url": "http://www.andrewerickson.com/wp-content/uploads/2025/05/PLA-as-An-Instrument-of-National-Power-Force-Preparation-toward-Taiwan_PLA-in-a-Complex-Security-Environment_NBR_2025_149–74.pdf",
+  "source_title": "PDF The PLA in a Complex Security Environment: Preparing for High Winds and ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「andrew s. erickson」",
+  "topic": "解放军对台军事准备与2027百年建军目标",
+  "claim": "解放军将在2027年前具备武力统一台湾的全部能力选项，美台政策走向促使北京可能采取更强硬手段甚至可信的战争威胁",
+  "reasoning": "Andrew S. Erickson认为习近平通过「2027百年建军目标」正快速投入巨量国家资源，使解放军获得前任领导人所不具备的对台军事选项。他指出解放军的力量、训练和行动正急剧增长，当前正实施全域压力行动和预备性演习。他强调中国军方消息源暗示华盛顿和台北的政策走向不可接受，反映北京和解放军迄今未能完全遏制，但解放军正走在能够提供必要威慑或强制力的轨道上，可能通过中共授权采取更严厉、更具强制性的方法，甚至可信地威胁战争。基于解放军自1995-96台海危机以来针对台湾的能力建设和习近平感知的机会窗口正在关闭，他判断台湾面临日益严重的危险",
+  "evidence": [
+   "五角大楼评估中国2022年约2300亿美元的国防预算「约为台湾国防预算的12倍」且主要「专注于发展以武力统一台湾的能力」",
+   "2020年10月中共十九届五中全会颁布「2027百年建军目标」，作为习近平建设世界一流军队努力的一部分",
+   "美国印太司令部司令John Aquilino上将在最后证词中指出「所有迹象表明解放军将在2027年前做好入侵台湾的准备」且「解放军的行动表明其有能力满足习近平以武力统一台湾的首选时间表」",
+   "解放军自1995-96台海危机和1999年贝尔格莱德使馆被炸后一直专注投资、发展和部署针对台湾及反制美军介入的多种军事能力",
+   "中国2022年军演和白皮书《台湾问题与新时代中国统一事业》将北京的「战略模糊」转变为「战略清晰」，明确表示不会无限期等待台湾回归",
+   "解放军当前正实施全域压力行动和预备性演习，部分演习时机有意惩罚台湾或其支持者的行动"
+  ],
+  "data": [
+   {
+    "metric": "中国国防预算",
+    "value": "约2300亿美元",
+    "context": "2022年官方数据"
+   },
+   {
+    "metric": "中国国防预算相对台湾倍数",
+    "value": "约12倍",
+    "context": "五角大楼2023年评估"
+   },
+   {
+    "metric": "关键时间节点",
+    "value": "2027年",
+    "context": "百年建军目标年份、解放军建军100周年、习近平第四任期开始的21大"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "2027年前",
+  "confidence": "high",
+  "extracted_on": "2026-10-20"
  }
 ]
