@@ -1,0 +1,141 @@
+[
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://www.cnas.org/publications/podcast/hellscape-taiwan-drones-deterrence-and-the-future-of-asymmetric-defense",
+  "source_title": "Hellscape Taiwan: Drones, Deterrence, and the Future of Asymmetric ...",
+  "published_on": "2026-05-20",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 cnas.org",
+  "topic": "台湾利用无人机与非对称防御威慑中国两栖入侵",
+  "claim": "台湾可通过将台湾海峡变成「无人地狱景观」(unmanned hellscape)，以大量廉价消耗型无人机对解放军两栖渡海部队施加巨大成本，从而威慑甚至击败中国入侵",
+  "reasoning": "该论点基于CNAS报告「台湾地狱景观：重新思考非对称防御」，核心逻辑是借鉴乌克兰战争经验，认为廉价可消耗的无人机、自主系统和机动防御正在重塑印太战争形态，能够强化台湾长期坚持的「豪猪战略」，在解放军进行危险的台海两栖跨越阶段通过无人集群作战大幅提高其作战成本，从而达到威慑或战场击败的效果",
+  "evidence": [
+   "CNAS发布了名为「Hellscape for Taiwan: Rethinking Asymmetric Defense」的专题报告",
+   "乌克兰战争中廉价消耗型无人机的实战经验被作为参考案例",
+   "无人机、自主系统和机动防御系统正在重塑印太地区的战争形态",
+   "台湾已有长期坚持的「豪猪战略」(porcupine strategy)作为防御基础",
+   "解放军两栖部队在跨越台湾海峡阶段面临高危险性和脆弱性"
+  ],
+  "data": [],
+  "direction": "僵持",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-22"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://centerformaritimestrategy.org/publications/use-the-defense-production-act-to-jump-start-navy-munitions-production/",
+  "source_title": "Use the Defense Production Act to Jump-start Navy Munitions Production ...",
+  "published_on": "2024-06-05",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国海军弹药生产能力与红海作战消耗",
+  "claim": "美国必须通过《国防生产法》快速扩大海军弹药采购规模和产能，以应对红海冲突等长期作战需求和未来台海冲突",
+  "reasoning": "红海作战已使海军弹药库存严重透支（发射超100枚标准导弹但年采购仅142枚），现有采购体制按和平时期标准运作且受「繁荣-萧条」周期侵蚀，无法满足大国竞争时代需求。多次兵棋推演显示台海冲突中关键武器库存将在数日内耗尽，而当前采购预算持续被挪用支付固定成本。胡塞武装及其背后伊朗不会放弃对国际贸易动脉的控制权，红海作战可能长期持续，必须建立更高的年度采购基线并扩大产能储备",
+  "evidence": [
+   "2023年10月至2024年2月期间，美国海军舰艇在红海发射了超过100枚标准导弹拦截胡塞武装无人机和导弹",
+   "海军2024年仅采购17枚SM-2和125枚SM-6导弹补充弹药库",
+   "美国军舰和飞机在过去六个月多次打击胡塞武装岸上目标，一晚消耗超过150枚战斧导弹和其他精确制导弹药",
+   "多次兵棋推演预测台海冲突中关键武器库存将在数日内耗尽",
+   "2023年国防部使用《国防生产法》第三条权限向爱荷华州一家公司提供4500万美元扩大导弹关键部件生产",
+   "过去两年与支持乌克兰相关的投资使炮弹产量增至三倍"
+  ],
+  "data": [
+   {
+    "metric": "标准导弹发射数量",
+    "value": "超过100枚",
+    "context": "2023年10月至2024年2月红海作战"
+   },
+   {
+    "metric": "SM-2采购数量",
+    "value": "17枚",
+    "context": "2024年度"
+   },
+   {
+    "metric": "SM-6采购数量",
+    "value": "125枚",
+    "context": "2024年度"
+   },
+   {
+    "metric": "战斧导弹等精确制导弹药消耗",
+    "value": "超过150枚",
+    "context": "单晚打击胡塞武装目标"
+   },
+   {
+    "metric": "DPA资金支持",
+    "value": "4500万美元",
+    "context": "2023年6月支持导弹部件生产扩张"
+   },
+   {
+    "metric": "炮弹产量增幅",
+    "value": "增至三倍",
+    "context": "过去两年支持乌克兰相关投资"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明具体时限，但强调「近期未来」「长期维持」",
+  "confidence": "high",
+  "extracted_on": "2026-10-22"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/hellscape-taiwan-a-porcupine-defense-in-the-drone-age/",
+  "source_title": "Hellscape Taiwan: A Porcupine Defense in the Drone Age",
+  "published_on": "2026-03-27",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "台湾「豪猪战略」中以无人机为核心的「地狱景观」防御概念",
+  "claim": "台湾若大规模部署廉价自主无人系统构建四层纵深防御，可在海滩边缘击败解放军两栖入侵",
+  "reasoning": "作者认为台湾地理已利于防御方（170公里海峡、有限登陆滩、山地丛林），廉价移动难寻的武器能更有效利用地形优势。乌克兰已证明以廉价无人机为中心的非对称战略在实践中可行，技术门槛不高且成本相对可控，使台湾有能力规模化生产。通过将无人系统整合进分层防御（80公里外的混乱打击、40-5公里的精准击沉、5公里内的视距攻击、滩头阻滞），可对中国舰队施加级联损耗，迫使登陆部队在失序、缺装备状态下抵滩并被困在雷场中，从而让北京无法承受作战混乱、伤亡与战略不确定性。",
+  "evidence": [
+   "乌克兰2025年预计生产约450万架无人机（月产20万架），证明廉价无人机战略在实践中有效",
+   "台湾与波兰签署谅解备忘录，正建立「非红色」供应链并深化非中国无人机联盟",
+   "台湾国防部年产约1万架无人机，2028年目标为18万架，显示生产规模仍有差距",
+   "赖清德政府正推动将特别国防预算从大型平台转向国内无人机采购",
+   "台湾持续采购低生存性平台，如160亿美元自制柴电潜艇与F-16机队，在冲突中易被中国导弹摧毁",
+   "美国印太司令部司令Samuel Paparo于2024年首次使用「地狱景观」一词，描述若中国入侵将在台海投放无人系统"
+  ],
+  "data": [
+   {
+    "metric": "台湾与大陆间海峡宽度",
+    "value": "170公里",
+    "context": "地理条件"
+   },
+   {
+    "metric": "防御第一层起始距离",
+    "value": "距台湾海岸80公里",
+    "context": "「地狱景观」概念设计"
+   },
+   {
+    "metric": "台湾自制潜艇成本",
+    "value": "160亿美元",
+    "context": "国防部支出"
+   },
+   {
+    "metric": "台湾当前无人机年产量",
+    "value": "约1万架",
+    "context": "现有产能"
+   },
+   {
+    "metric": "台湾2028年无人机生产目标",
+    "value": "18万架",
+    "context": "规划产能"
+   },
+   {
+    "metric": "乌克兰2025年预估无人机产量",
+    "value": "约450万架（月产20万架）",
+    "context": "对比参照"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-22"
+ }
+]
