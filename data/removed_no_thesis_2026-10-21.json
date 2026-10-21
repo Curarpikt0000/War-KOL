@@ -1,0 +1,37 @@
+[
+ {
+  "kol": "Jason Stearns",
+  "theater": "非洲",
+  "title": "She’s Been to Gaza. She Met With the Iranians. Now She Has a ...International Studies faculty Jason Stearns interviewed by ...",
+  "summary": "3 days ago · Are we in the middle of a new world war without realizing it? Mirjana Spoljaric, the head of the International Committee of the Red Cross, is deeply worried about the growing number of conflicts ... SFU International Studies associate professor Jason Stearns, who has been working on the region for over two decades, has followed the situation closely and has provided analysis and commentary to a variety of international media outlets, in addition to briefing US, Congolese, and European officials.",
+  "quote": "",
+  "source_url": "https://www.nytimes.com/video/podcasts/100000011202954/shes-been-to-gaza-she-met-with-the-iranians-now-she-has-a-warning.html",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-10-14",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jason stearns」",
+  "removed_reason": "无本人判断：正文是对 ICRC 主席 Jason Stearns 的访谈，她并非战争与国防情报分析领域的 KOL，而是人道主义组织负责人；且访谈聚焦全球多个冲突地区（加沙、乌克兰等）而非非洲战区，无法抽取针对非洲战区的方向性判断",
+  "removed_stage": "no_thesis"
+ },
+ {
+  "kol": "Bellingcat (Eliot Higgins)",
+  "theater": "俄乌",
+  "title": "Conflict and Human Rights Team - bellingcat",
+  "summary": "Our team specialises in investigating conflict and human rights abuses around the world. We use open source investigative methods to identify, document and expose human rights abuses as well as to record and explain developments in ongoing conflicts.",
+  "quote": "",
+  "source_url": "https://www.bellingcat.com/conflict-and-human-rights-team/",
+  "published_on": "2026-02-17",
+  "date_status": "verified",
+  "direction": "未表态",
+  "collected_on": "2026-10-21",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 bellingcat.com",
+  "date_source": "page_meta",
+  "removed_reason": "无本人判断：这是 Bellingcat 冲突与人权团队的机构简介页面，介绍其工作方法和职能范围，不包含该团队或其成员对俄乌战区的任何具体方向性判断",
+  "removed_stage": "no_thesis"
+ }
+]
