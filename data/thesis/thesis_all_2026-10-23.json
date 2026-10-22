@@ -1,0 +1,250 @@
+[
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://www.npr.org/2026/07/06/nx-s1-5883604/why-the-us-is-losing-the-drone-war",
+  "source_title": "Why the US is losing the drone war - NPR",
+  "published_on": "2026-07-06",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美国无人机战争落后问题",
+  "claim": "美国在廉价无人机对抗昂贵可重复使用军事装备的革命中正在落后",
+  "reasoning": "Stacie Pettyjohn指出美国国防工业在应对无人机技术革命方面存在三大根本性原因导致落后。这些原因涉及美国国防工业体系在面对廉价无人机技术快速迭代时的结构性困境，特别是传统高成本、可重复使用装备采购模式与新型低成本一次性无人机作战理念之间的不匹配。",
+  "evidence": [
+   "美国国防工业在廉价无人机对抗昂贵可重复使用军事装备的革命中遭遇困难",
+   "Stacie Pettyjohn担任新美国安全中心国防项目主任",
+   "存在三大原因导致美国在该领域落后",
+   "节目讨论了伊朗如何消耗美国资源的相关议题"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/a-body-blow-the-war-on-iran-and-u-s-military-readiness/",
+  "source_title": "A Body Blow? The War on Iran and U.S. Military Readiness",
+  "published_on": "2026-09-17",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美伊战争对美军战备状态的影响",
+  "claim": "美伊战争正在对美军战备状态造成新的压力，削弱美军应对中国危机的能力",
+  "reasoning": "Stacie Pettyjohn通过分析美伊战争对美军的多维度消耗，论证了战备状态正在恶化。他指出战争不仅消耗了弹药和导弹防御拦截弹等物资储备，还通过延长部署周期、持续作战需求以及从其他战区抽调兵力和注意力等方式，对美军整体战备造成结构性削弱，这直接影响到美军在印太地区威慑中国和应对潜在危机的能力。",
+  "evidence": [
+   "美伊战争正在消耗弹药和导弹防御拦截弹",
+   "美军出现延长部署周期和持续作战需求的情况",
+   "美军从其他战区抽调兵力和注意力投入美伊战争",
+   "战争暴露了美军在战备方面的脆弱性"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Larry C. Johnson",
+  "theater": "中东",
+  "source_url": "https://www.voanews.com/a/russian-state-media-amplify-ex-cia-analyst-s-false-claims-to-promote-pro-kremlin-narratives/7783062.html",
+  "source_title": "Russian state media amplify ex-CIA analyst's false claims to promote ...",
+  "published_on": "2024-09-13",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「larry c. johnson」",
+  "topic": "乌克兰战争走向与俄罗斯军事优势",
+  "claim": "乌克兰将在2024年夏末或更早输掉战争，俄罗斯将控制敖德萨；若西方拒绝莫斯科和平计划，基辅政权可能很快失去敖德萨甚至首都",
+  "reasoning": "Johnson 认为乌克兰防空系统几乎完全被摧毁，俄罗斯飞机可在乌克兰领空自由飞行；乌克兰空军和防空已被摧毁，在与俄罗斯的战争中毫无胜算；而俄罗斯是工业巨头，西方无法与之竞争。基于这些军事实力对比的判断，他预测乌克兰将在短期内战败并丧失关键城市控制权",
+  "evidence": [
+   "乌克兰防空系统几乎完全被摧毁",
+   "俄罗斯飞机现在可以在乌克兰全境不受阻碍或几乎不受阻碍地飞行",
+   "乌克兰在与俄罗斯的战争中没有机会",
+   "乌克兰空军和防空已被摧毁",
+   "俄罗斯是工业巨头，西方无法与之竞争",
+   "敖德萨是俄罗斯城市"
+  ],
+  "data": [],
+  "direction": "降级",
+  "horizon": "2024年夏末或更早",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.moneycontrol.com/world/pakistan-pushes-fake-images-to-claim-strikes-in-amritsar-during-op-sindoor-satellite-visuals-tell-a-different-story-article-13754959.html",
+  "source_title": "Pakistan pushes fake images to claim strikes in Amritsar during Op ...",
+  "published_on": "2026-01-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印巴2025年5月冲突中巴基斯坦对阿姆利则军事设施打击声称的真实性",
+  "claim": "巴基斯坦声称对印度阿姆利则军事设施实施打击造成破坏的说法是虚假的，卫星图像验证显示所谓目标位置没有任何破坏迹象",
+  "reasoning": "Damien Symon 通过独立核查卫星图像发现，巴基斯坦分享的所谓打击证据实际上是选择性裁剪或错误标注的卫星图像。他对比了同一地点的前后卫星图像，清楚显示屋顶完整、防爆墙未受损、天线依然矗立、车辆棚架未改变。图像中没有导弹或无人机打击通常会留下的弹坑、烧灼痕迹或结构坍塌迹象。印度官方也确认没有巴基斯坦打击在阿姆利则或旁遮普任何地方造成军事资产损坏。",
+  "evidence": [
+   "Damien Symon 通过独立验证确认所谓目标位置没有任何「破坏」迹象",
+   "对比卫星图像显示同一地点的屋顶完整、防爆墙未受损、天线矗立、车辆棚架未改变",
+   "图像中没有导弹或无人机打击通常会留下的弹坑、烧灼痕迹或结构坍塌",
+   "印度官方确认没有巴基斯坦打击在阿姆利则或旁遮普造成军事资产损坏",
+   "巴基斯坦分享的图像是选择性裁剪或错误标注的卫星图像",
+   "这不是巴基斯坦首次尝试利用篡改图像传播虚假声称，之前类似断言也被卫星数据和实地验证推翻"
+  ],
+  "data": [],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://ommcomnews.com/india-news/satellite-evidence-india-destroyed-15-terrorist-camps-including-let-headquarter/",
+  "source_title": "Satellite Evidence: India Destroyed 15 Terrorist Camps, Including LeT ...",
+  "published_on": "2025-05-12",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度「辛杜尔行动」打击巴基斯坦恐怖营地与军事设施",
+  "claim": "印度在该行动中摧毁了15个恐怖营地及多个巴基斯坦空军基地关键设施，使巴方军事基础设施严重瘫痪",
+  "reasoning": "Damien Symon通过分析LANDSAT等卫星影像，识别出巴基斯坦多个空军基地（萨尔戈达、拉瓦尔品第、博拉里、雅各布阿巴德等）的跑道、机库、雷达站遭受打击后的损毁痕迹，并揭露巴方传播的doctored损毁照片系虚假信息，从而为印方声称的打击效果提供开源情报佐证",
+  "evidence": [
+   "5月10日LANDSAT影像显示萨尔戈达空军基地14/32号跑道存在多处撞击区域并遭受重大损毁",
+   "Rahim Yar Khan Airbase空军基地被判定为无法运作，巴方发布NOTAM禁飞令至5月17日",
+   "博拉里和雅格布阿巴德空军基地的机库、作战区域及雷达站点遭到打击",
+   "巴基斯坦流传的印度查谟机场损毁照片被证实为doctored过时图像，属虚假宣传",
+   "印方摧毁目标包括Markaz Subhan Allah（JeM主要训练中心）、Markaz Taiba（LeT总部）、Mehmoona Joya（HM据点）等15个恐怖营地"
+  ],
+  "data": [
+   {
+    "metric": "摧毁恐怖营地数量",
+    "value": "15个",
+    "context": "辛杜尔行动期间"
+   },
+   {
+    "metric": "摧毁巴方空军基地数量",
+    "value": "至少5个（萨尔戈达、Rahim Yar Khan Airbase、博拉里、雅各布阿巴德及其他）",
+    "context": "卫星影像确认"
+   },
+   {
+    "metric": "NOTAM禁飞时长",
+    "value": "至5月17日",
+    "context": "Rahim Yar Khan Airbase空军基地"
+   },
+   {
+    "metric": "卫星影像采集日期",
+    "value": "5月10日",
+    "context": "LANDSAT卫星"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://idrw.org/agni-ivs-4000-km-reach-surprises-turkish-commentators-highlights-indias-expanding-strategic-strike-capability/",
+  "source_title": "Agni-IV's 4,000 km Reach Surprises Turkish Commentators, Highlights ...",
+  "published_on": "2026-08-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「damien symon」",
+  "topic": "印度Agni-IV中程弹道导弹4000公里射程覆盖能力",
+  "claim": "印度Agni-IV导弹的4000公里射程覆盖范围远超其周边地区，延伸至中亚、中国西部、俄罗斯、中东乃至土耳其，凸显印度战略打击能力的扩展正获得亚洲以外地区的关注",
+  "reasoning": "Damien Symon通过在X平台分享射程地图，直观展示了Agni-IV导弹约4000公里的打击范围覆盖欧亚大陆广大地区。该地图在土耳其社交媒体引发意外讨论，多位土耳其防务评论员对一枚数十年前设计的印度导弹能够覆盖土耳其领土表示惊讶。这种反应说明印度战略导弹能力在亚洲以外地区仍被低估，而开源情报通过易懂的视觉化形式呈现复杂军事能力，正在推动全球防务对话，使印度作为全球领先导弹大国之一的地位获得更广泛的国际认可",
+  "evidence": [
+   "Damien Symon在X平台分享的射程地图显示Agni-IV约4000公里打击范围覆盖中亚、中国西部、俄罗斯、中东及土耳其大部分地区",
+   "该地图在土耳其社交媒体迅速引发关注，多位防务爱好者和评论员对印度导弹射程能覆盖土耳其表示惊讶",
+   "印度于8月6日从奥里萨邦海岸APJ Abdul Kalam岛进行Agni-IV用户训练发射，战略部队司令部确认所有任务目标达成",
+   "Agni-IV配备先进导航系统、复合火箭发动机和基于环形激光陀螺的惯性导航系统，能在远距离提供高精度打击",
+   "土耳其的反应主要源于导弹射程的视觉化呈现，而非印度将土耳其列为战略目标的任何迹象"
+  ],
+  "data": [
+   {
+    "metric": "Agni-IV射程",
+    "value": "约4000公里",
+    "context": "中程弹道导弹标准射程"
+   },
+   {
+    "metric": "中程弹道导弹射程范围定义",
+    "value": "3500-5500公里",
+    "context": "国际通用分类标准"
+   },
+   {
+    "metric": "Agni-V射程",
+    "value": "超过5000公里",
+    "context": "印度最新型战略导弹"
+   },
+   {
+    "metric": "发射日期",
+    "value": "8月6日",
+    "context": "最新一次用户训练发射"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ },
+ {
+  "kol": "Mark F. Cancian",
+  "theater": "军工与战略",
+  "source_url": "https://www.csis.org/analysis/lights-out-wargaming-blockade-taiwan",
+  "source_title": "Report Launch: Lights Out? Wargaming a Chinese Blockade of Taiwan - CSIS",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 csis.org",
+  "topic": "中国对台湾封锁及美台联合反制能力",
+  "claim": "封锁作战对中国并非低成本低风险选项，存在升级可能并会疏远国际社会",
+  "reasoning": "Mark F. Cancian通过26次兵棋推演发现，无论何种封锁场景都会产生伤亡，且每个层级都存在升级压力。台湾无法单独对抗中国，必须依赖美国协助才能维持自主与民主。能源供应和商船队是台湾韧性的关键瓶颈，而中国若实施封锁将面临冲突升级风险和国际孤立代价，这些因素综合构成对中国的战略威慑。",
+  "evidence": [
+   "CSIS运行26次兵棋推演，涵盖从中国海警登船检查到全面战争的多种升级场景",
+   "在3×3场景（中国近海攻击+美台护航）中，美台损失超过100艘商船、数百架飞机和数十艘军舰，双方伤亡数千人",
+   "台湾零基线情景显示：第9周煤炭库存耗尽后电力降至20%，第26周石油耗尽后降至16%",
+   "若中国轰击台湾电网（类似俄罗斯对乌克兰），台湾难以维持电力生产且缺乏乌克兰式战略纵深和陆上边境补给线",
+   "液化天然气运输船是台湾电力系统的关键专用装备，需保持冷却和密集包装"
+  ],
+  "data": [
+   {
+    "metric": "兵棋推演迭代次数",
+    "value": "26次",
+    "context": "CSIS项目总计"
+   },
+   {
+    "metric": "美台商船损失",
+    "value": "超过100艘",
+    "context": "3×3场景20周推演"
+   },
+   {
+    "metric": "台湾电力产能",
+    "value": "20%",
+    "context": "零基线第9周（煤炭耗尽）"
+   },
+   {
+    "metric": "台湾电力产能",
+    "value": "16%",
+    "context": "零基线第26周（石油耗尽）"
+   },
+   {
+    "metric": "推演周期",
+    "value": "20周",
+    "context": "每次迭代游戏时长"
+   },
+   {
+    "metric": "双方伤亡",
+    "value": "数千人",
+    "context": "3×3场景美台中三方总计"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-23"
+ }
+]
