@@ -1,0 +1,136 @@
+[
+ {
+  "kol": "Stacie Pettyjohn",
+  "theater": "军工与战略",
+  "source_url": "https://warontherocks.com/the-kadena-conundrum-developing-a-resilient-indo-pacific-posture/",
+  "source_title": "The Kadena Conundrum: Developing a Resilient Indo-Pacific Posture",
+  "published_on": "2022-12-01",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「stacie pettyjohn」",
+  "topic": "美军印太地区空中力量态势调整与嘉手纳基地战略转型",
+  "claim": "美军应从嘉手纳基地撤出大量常驻战机、转向分散轮换部署，以提升印太态势的生存韧性和实战可信度",
+  "reasoning": "Stacie Pettyjohn 认为，中国火箭军已对嘉手纳基地形成压倒性打击优势（可发射252枚短中程导弹），常驻大量战机会在冲突初期被一次性摧毁，反而削弱威慑力；分散部署至日本其他基地和菲律宾，可大幅降低导弹威胁（如转移至三泽基地可减少86%导弹数量），使空军能在首轮打击后继续作战。他强调这符合2022年《国防战略》的「可生存未来部队」原则和空军「灵活作战部署」概念，需配套投资远近基地网络、定期轮换演练，而非固守冷战时代的「庇护所时代」思维",
+  "evidence": [
+   "2022年10月美空军决定撤出嘉手纳基地两个中队的老旧F-15C/D战机、改用临时分遣队",
+   "解放军火箭军拥有252个可打击嘉手纳的短中程导弹发射器，是岩国基地（126个）的两倍、三泽基地（36个）的七倍",
+   "2021年《中国军力报告》显示中国每个发射器配备约4枚短程弹道导弹和2.4枚中程弹道导弹弹药",
+   "美国在菲律宾可使用五个空军基地但尚未建设支持作战的基础设施",
+   "太平洋空军司令称「灵活作战部署」在日本美军基地已是「正常作战模式」",
+   "2023财年「太平洋威慑倡议」预算申请中空军投资最少、是唯一未增加区域兵力的军种"
+  ],
+  "data": [
+   {
+    "metric": "嘉手纳面临导弹发射器数量",
+    "value": "252个",
+    "context": "解放军火箭军短中程导弹发射器（含DF-11/16/17/21/CJ-10/DF-100）"
+   },
+   {
+    "metric": "岩国基地面临导弹发射器数量",
+    "value": "126个",
+    "context": "解放军火箭军可打击范围"
+   },
+   {
+    "metric": "三泽基地面临导弹发射器数量",
+    "value": "36个",
+    "context": "解放军火箭军可打击范围"
+   },
+   {
+    "metric": "导弹威胁降低比例",
+    "value": "86%",
+    "context": "兵力从嘉手纳转移至三泽基地可减少的导弹威胁"
+   },
+   {
+    "metric": "短程导弹弹药量",
+    "value": "4枚/发射器",
+    "context": "2021年中国军力报告数据"
+   },
+   {
+    "metric": "中程导弹弹药量",
+    "value": "2.4枚/发射器",
+    "context": "2021年中国军力报告数据"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明具体年份，但强调需立即调整态势、定期轮换演练",
+  "confidence": "high",
+  "extracted_on": "2026-10-25"
+ },
+ {
+  "kol": "Alex Karp",
+  "theater": "军工与战略",
+  "source_url": "https://finance.yahoo.com/technology/ai/articles/palantir-ceo-alex-karp-doubling-123724110.html",
+  "source_title": "Palantir CEO Alex Karp Is Doubling Down on Defense Tech",
+  "published_on": "2026-09-02",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「alex karp」",
+  "topic": "军事技术初创企业投资与乌克兰战争经验商业化",
+  "claim": "乌克兰战争经验能够为新国防科技公司提供竞争优势，使其在商业化进程上领先传统国防初创企业",
+  "reasoning": "Alex Karp通过投资Alex Karp的新国防科技公司，押注乌克兰战场已验证的无人机、人工智能和战场软件等技术能够转化为商业产品。其逻辑基于：乌克兰已成为新军事技术的实战试验场，这些技术在实战中得到检验，可跳过传统国防初创企业需要的多年测试和采购流程，直接面向全球政府和国防采购方。",
+  "evidence": [
+   "Alex Karp成为Alex Karp新国防科技公司的首位主要投资人",
+   "该公司将利用乌克兰战争中的技术和经验教训",
+   "乌克兰战场中无人机、人工智能和战场软件已变得日益关键",
+   "Palantir多年来通过其国防和情报产品在乌克兰有强大业务布局",
+   "乌克兰已成为新军事技术特别是自主系统、无人机和AI驱动战场装备的试验场"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "未指明",
+  "confidence": "medium",
+  "extracted_on": "2026-10-25"
+ },
+ {
+  "kol": "Damien Symon",
+  "theater": "南亚",
+  "source_url": "https://www.hindustantimes.com/india-news/did-pakistan-hit-adampur-bhuj-air-bases-during-operation-sindoor-satellite-images-show-otherwise-101749381271776.html",
+  "source_title": "Did Pakistan hit Adampur, Bhuj air bases during Operation ...",
+  "published_on": "2025-06-08",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 hindustantimes.com",
+  "topic": "巴基斯坦对印度 Adampur 和 Bhuj 空军基地打击声明的真实性",
+  "claim": "巴基斯坦声称在「辛杜尔行动」期间击中印度 Adampur 和 Bhuj 空军基地的说法为虚假信息，使用的是冲突前拍摄的图像",
+  "reasoning": "Damien Symon 通过开源情报（OSINT）图像分析，逐一核查了巴基斯坦提供的「证据照片」的拍摄时间和实际内容。他发现 Adampur 空军基地的照片拍摄于2025年3月（冲突发生前），图中所谓的「燃烧痕迹」实际是引擎测试场的常规烟灰，飞机型号也被误认（实为 MiG-29 而非 Su-30）；Bhuj 空军基地的照片同样拍摄于2025年2月（冲突前），所谓「被摧毁的 S-400 雷达」实际可能只是车辆维修场的油渍。通过时间戳比对和现场细节分析，证明巴方使用预先存在的维护场景图像来伪造战果",
+  "evidence": [
+   "Adampur 空军基地的「打击证据」照片实际拍摄于2025年3月，早于「辛杜尔行动」",
+   "照片中显示的是一架正在维护的 MiG-29 战机，而非巴基斯坦声称的 Su-30 MKI",
+   "引擎测试场附近的深色烟灰是常规维护产生的，并非战斗损伤",
+   "Bhuj 空军基地的「S-400 雷达被毁」照片拍摄于2025年2月，同样早于印巴冲突",
+   "该照片中的「摧毁痕迹」实际可能是军事基地车辆维修场的油渍",
+   "印度「辛杜尔行动」于5月7日发起，针对 PoK 和巴基斯坦旁遮普省的9处恐怖基础设施目标"
+  ],
+  "data": [
+   {
+    "metric": "Adampur 照片拍摄时间",
+    "value": "2025年3月",
+    "context": "早于「辛杜尔行动」"
+   },
+   {
+    "metric": "Bhuj 照片拍摄时间",
+    "value": "2025年2月",
+    "context": "早于印巴冲突"
+   },
+   {
+    "metric": "辛杜尔行动打击目标数量",
+    "value": "9处",
+    "context": "位于 PoK 和巴基斯坦旁遮普省"
+   },
+   {
+    "metric": "辛杜尔行动发起日期",
+    "value": "5月7日",
+    "context": "2025年"
+   },
+   {
+    "metric": "印巴冲突停火日期",
+    "value": "5月10日",
+    "context": "2025年"
+   }
+  ],
+  "direction": "未表态",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-25"
+ }
+]
