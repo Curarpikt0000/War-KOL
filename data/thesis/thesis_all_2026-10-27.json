@@ -1,0 +1,83 @@
+[
+ {
+  "kol": "Rocío San Miguel",
+  "theater": "拉美",
+  "source_url": "https://mundour.com/2026/10/05/rocio-san-miguel-confio-en-que-pronto-se-dara-el-camino-para-la-salida-de-todos-los-presos-politicos/",
+  "source_title": "Rocío San Miguel: Confío en que pronto se dará el camino para ...",
+  "published_on": "2026-10-05",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rocío san miguel」",
+  "topic": "委内瑞拉政治犯释放与和解进程",
+  "claim": "委内瑞拉很快将为政治犯释放开辟道路",
+  "reasoning": "Rocío San Miguel 基于自身刚刚获释的经历，结合她观察到的国内对释放政治犯的普遍呼声，表达了对当局将启动更广泛释放进程的信心。她虽未指明具体机制，但将个人获释视为积极信号，认为这是国家层面诉求即将实现的前兆。",
+  "evidence": [
+   "Rocío San Miguel 本人已被完全释放",
+   "她在 El Helicoide 监狱被关押近两年",
+   "释放政治犯已成为全国性呼声（「un clamor nacional」）",
+   "反对派代表团正期待将某政治犯纳入对话桌（文中提及「Delegación opositora espera sumar a [某人] a la mesa de diálogo」）"
+  ],
+  "data": [
+   {
+    "metric": "关押时长",
+    "value": "近2年",
+    "context": "Rocío San Miguel 在 El Helicoide 的拘禁期"
+   },
+   {
+    "metric": "禁止外出晒太阳时长",
+    "value": "4个月",
+    "context": "Rocío 在狱中某阶段的限制"
+   },
+   {
+    "metric": "每日阅读时长",
+    "value": "7-10小时",
+    "context": "Rocío 在允许阅读期间的日常"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "很快（pronto）",
+  "confidence": "medium",
+  "extracted_on": "2026-10-27"
+ },
+ {
+  "kol": "Emil Michael",
+  "theater": "军工与战略",
+  "source_url": "https://www.sourcery.vc/p/inside-dept-of-war-emil-michael-under",
+  "source_title": "Inside Dept of War: Emil Michael, Under Secretary of War for R&E, & DoW CTO",
+  "published_on": "2026-03-07",
+  "date_status": "verified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「emil michael」",
+  "topic": "美国国防部技术优先级与新兴防务企业生态",
+  "claim": "美国国防部将在未来十年内培育出五家新的「新主承包商」级别公司，以应对中国在高端能力上的投资优势并重建美国国防工业基础",
+  "reasoning": "Emil Michael 认为中国在美国反恐期间已投资建立复杂军事能力，形成代际差距。他将国防部研发重点从14个技术领域压缩至6个关键领域（应用AI、高超音速、定向能、生物制造、争夺后勤、战场信息主导），并强调这是美国的「1938时刻」——需要重建工业产能。他的策略是利用商业AI公司的数千亿美元基础设施投资，通过加速新兴公司（Planet Labs、Neros、Hadrian等）与国防部合作，复制Palantir、SpaceX、Anduril的成功路径，将突破性技术从原型快速转化为作战能力",
+  "evidence": [
+   "中国在美国对抗简易爆炸装置恐怖分子期间开始投资真正复杂的能力",
+   "乌克兰战争已演变为机器人战争——无人机对无人机，前线是机器人对抗机器人",
+   "国防部此前不知道自己的装备在哪里，多年花费数万亿美元却无法追踪坦克、弹药的位置和生命周期",
+   "商业大公司已在AI和AI基础设施上投资数千亿美元",
+   "国防部将关键技术领域从14个减少到6个，因为「如果某项技术关键了十年，意味着你没有取得多大进展」"
+  ],
+  "data": [
+   {
+    "metric": "国防部人员规模",
+    "value": "300万人",
+    "context": "全球最大官僚机构"
+   },
+   {
+    "metric": "Uber融资金额",
+    "value": "超过200亿美元",
+    "context": "Emil Michael在2013-2017年任职期间推动"
+   },
+   {
+    "metric": "Carta服务对象",
+    "value": "250万+股权持有人、65000+公司、覆盖160+国家",
+    "context": "展示私营资本平台规模"
+   }
+  ],
+  "direction": "升级",
+  "horizon": "十年内",
+  "confidence": "high",
+  "extracted_on": "2026-10-27"
+ }
+]
