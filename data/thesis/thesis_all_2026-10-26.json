@@ -1,0 +1,104 @@
+[
+ {
+  "kol": "Raz Zimmt",
+  "theater": "中东",
+  "source_url": "https://www.inss.org.il/wp-content/uploads/2024/04/Iran-and-Israel-‘closer-to-war-than-ever-as-US-predicts-missile-blitz-in-hours-Raz-Zimmt-Inews-for-site.pdf",
+  "source_title": "Dr Raz Zimmt, a security analyst specialising in the Iran ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 inss.org.il",
+  "topic": "以色列与伊朗军事冲突升级风险评估",
+  "claim": "伊朗对以色列发动攻击后，将极难降级，双方会陷入相互报复循环并可能引发全面战争",
+  "reasoning": "Raz Zimmt 认为这是以色列-伊朗对抗史上最危险阶段，因为一旦伊朗决定攻击，局势将很难降级。即使伊朗试图通过打击戈兰高地或南部偏远地区的以色列军事目标且不造成人员伤亡来控制局面，以色列也不太可能克制，因为这将是伊朗首次在以色列境内实施攻击。他预测以色列必然会对伊朗境内目标进行报复，首波打击可能针对防空系统和无人机生产设施，虽然不太可能打击核设施但以色列有应急计划。",
+  "evidence": [
+   "这是以色列-伊朗对抗有史以来最危险的阶段",
+   "这将是伊朗首次在以色列境内实施攻击",
+   "以色列会对伊朗境内目标进行报复",
+   "首波打击可能集中在防空系统和无人机生产设施",
+   "以色列不太可能打击伊朗核设施但有应急计划"
+  ],
+  "data": [],
+  "direction": "升级",
+  "horizon": "数小时至数日内",
+  "confidence": "high",
+  "extracted_on": "2026-10-26"
+ },
+ {
+  "kol": "Pavel Luzin",
+  "theater": "俄乌",
+  "source_url": "https://www.fpri.org/wp-content/uploads/2026/06/june-2026-russias-war-of-self-destruction.pdf",
+  "source_title": "FOREIGN POLICY RESEARCH INSTITUTE Russia’s War of Self ...",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 fpri.org",
+  "topic": "俄乌战争中时间因素对俄罗斯的不利影响",
+  "claim": "时间更可能对俄罗斯不利而非对乌克兰不利，过早谈判会中断俄罗斯自我侵蚀的战略轨迹并将其战场上无法取得的成果转化为政治胜利",
+  "reasoning": "Suzanne Loftus 认为尽管俄罗斯拥有更大规模资源，但其战场方式代价高昂且低效，仅以微小领土收获换来巨大人员和物资损失。俄经济已重组为战时生产模式，造成财政压力、通胀和依赖持续冲突维持增长等长期低效问题。相比之下，乌克兰采取防御姿态，伤亡率更低，且通过无人机等创新手段对俄施加不成比例的代价。俄罗斯的全球支持网络（伊朗、委内瑞拉等）正承受压力并削弱，地缘政治影响力在前苏联国家、欧洲及全球南方地区持续侵蚀，因此持续支持乌克兰并对俄及其伙伴施压将使天平向乌方倾斜",
+  "evidence": [
+   "2024年以来俄罗斯仅占领乌克兰1.5%领土，日均推进15-70米，未能将投入转化为有意义战略收获",
+   "俄军伤亡近120万人，乌军伤亡估计50-60万人，俄乌伤亡比约2:1",
+   "俄军每月新兵约3.5万人仅够替补战场损失，无法再像2022-2024年那样扩编新部队，兵力从战前90万增至2025年130万后陷入停滞",
+   "乌克兰打击使俄炼油产能减少17%，高峰时40%产能离线，削弱俄能源出口收入",
+   "乌克兰2026年初配合SpaceX封禁数千台俄军非法使用的Starlink终端，破坏俄指挥通信和无人机协调，助乌夺回约400平方公里领土",
+   "俄2025年国债增长约21%，增加超650亿欧元，总额达近3750亿欧元，显示战时经济依赖国家支出和内部借贷而非真实经济实力"
+  ],
+  "data": [
+   {
+    "metric": "俄军日均推进速度",
+    "value": "15-70米/天",
+    "context": "整体战场"
+   },
+   {
+    "metric": "2024年以来俄占领乌领土比例",
+    "value": "1.5%",
+    "context": "2024年至报告发布"
+   },
+   {
+    "metric": "俄军总伤亡",
+    "value": "近120万人",
+    "context": "2022年2月至2025年12月"
+   },
+   {
+    "metric": "乌军总伤亡估计",
+    "value": "50-60万人",
+    "context": "2022年2月至2025年12月"
+   },
+   {
+    "metric": "俄乌伤亡比",
+    "value": "约2:1",
+    "context": "2022年2月至2025年12月"
+   },
+   {
+    "metric": "俄军月均新兵",
+    "value": "约3.5万人/月",
+    "context": "当前"
+   },
+   {
+    "metric": "俄炼油产能削减",
+    "value": "17%",
+    "context": "乌打击后整体；高峰时40%离线"
+   },
+   {
+    "metric": "乌夺回领土",
+    "value": "约400平方公里",
+    "context": "2026年初封禁Starlink后"
+   },
+   {
+    "metric": "俄2025年国债增长",
+    "value": "约21%，超650亿欧元",
+    "context": "2025年"
+   },
+   {
+    "metric": "俄国债总额",
+    "value": "近3750亿欧元",
+    "context": "2025年末"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-26"
+ }
+]
