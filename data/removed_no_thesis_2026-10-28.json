@@ -1,0 +1,53 @@
+[
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "title": "Chinese nuclear weapons, 2024 - Bulletin of the Atomic Scientists",
+  "summary": "nAlthough the US Department of Defense lists only the H-6N as nuclear with an air-launched ballistic missile, we estimate a small number of gravity bombs were possibly retained in the stockpile for earlier versions.",
+  "quote": "",
+  "source_url": "https://thebulletin.org/wp-content/uploads/2024/01/rbul_a_2295206_t0001_withnotes.pdf",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-10-28",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "自有平台域名 thebulletin.org",
+  "removed_reason": "无本人判断：正文为武器装备数据表格和技术注释，未包含 Hans M. Kristensen 本人对中国核武器发展方向、时间节点或战略态势的判断性观点，仅呈现静态数据统计",
+  "removed_stage": "no_thesis"
+ },
+ {
+  "kol": "Jeffrey Lewis",
+  "theater": "中东",
+  "title": "A N N U A L R E P O R T - PathStone",
+  "summary": "DIRECT SERVICES Jeffrey Lewis Senior Vice President of Direct Services New York, Ohio, Vermont, Puerto Rico jlewis@pathstone.org Nita D’Agostino Senior Vice President of Direct Services Pennsylvania, New Jersey, Virginia Ndagostino@pathstone.org",
+  "quote": "",
+  "source_url": "https://pathstone.org/wp-content/uploads/2021/05/PathStone_2020_AnnualReport_Final.pdf",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-10-28",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeffrey lewis」",
+  "removed_reason": "无本人判断：这是 PathStone 机构的年度报告，Jeffrey Lewis 仅作为「直接服务高级副总裁」出现在领导团队名单中，正文没有该人物关于中东战区或任何战争国防议题的判断性观点。",
+  "removed_stage": "no_thesis"
+ },
+ {
+  "kol": "Jeffrey Lewis",
+  "theater": "中东",
+  "title": "2018 ANNUAL REPORT",
+  "summary": "Jeffrey Lewis, Senior Vice President of Direct Services New York, Ohio, Vermont, Puerto Rico",
+  "quote": "",
+  "source_url": "https://pathstone.org/wp-content/uploads/2020/01/PathStone_2018AnnualReport_Web_Release.pdf",
+  "published_on": null,
+  "date_status": "unverified",
+  "direction": "未表态",
+  "collected_on": "2026-10-28",
+  "status": "ok",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「jeffrey lewis」",
+  "removed_reason": "无本人判断：正文是PathStone机构2018年度报告，Jeffrey Lewis仅在「PathStone Leadership」名单中被列为Senior Vice President of Direct Services，全文未出现该人物关于中东战区或任何国防/战争问题的方向性判断或观点。",
+  "removed_stage": "no_thesis"
+ }
+]

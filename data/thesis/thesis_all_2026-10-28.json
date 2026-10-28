@@ -1,0 +1,86 @@
+[
+ {
+  "kol": "Rob Lee",
+  "theater": "俄乌",
+  "source_url": "https://static1.squarespace.com/static/5c49c04e29711455c39d42bc/t/69cafc3e41a96c6e5963546f/1774910526925/9.18.24+(Observatory+Group)+war+in+Ukraine+outlook+call+with+Rob+Lee,+summary+and+replay.pdf",
+  "source_title": "static1.squarespace.com",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「rob lee」",
+  "topic": "2024年俄乌战争走势及库尔斯克行动影响",
+  "claim": "尽管俄罗斯2024年享有「峰值优势」且推进速度加快，但其优势正在下降，战争不太可能在2026年前结束",
+  "reasoning": "Rob Lee认为虽然俄军在库尔斯克事件后加速推进，但实际占领的净领土仍然很少，基辅未受威胁。俄罗斯虽保留人力和火炮优势，但招募成本上升、再次征兵的政治空间不明，而乌克兰尽管面临军队老龄化（平均45岁以上）、人口经济问题及西方援助缓慢等困境，双方都认为继续作战可改善谈判地位，因此短期内难以停战",
+  "evidence": [
+   "俄罗斯自8月乌军库尔斯克行动后在前线推进速度加快，但净占领领土仍然很少",
+   "俄罗斯成功摧毁乌克兰89%的火力发电能力",
+   "俄罗斯招募新志愿兵的报酬增加，战争成本上升",
+   "乌克兰军队平均年龄超过45岁",
+   "乌军在库尔斯克缺乏Starlink接入，且秋冬季树木覆盖消失后难以隐蔽部队装备",
+   "双方声称准备和谈但都怀疑继续作战能改善自身地位"
+  ],
+  "data": [
+   {
+    "metric": "乌克兰火力发电能力损失",
+    "value": "89%",
+    "context": "俄军攻击能源基础设施导致"
+   },
+   {
+    "metric": "乌军平均年龄",
+    "value": "45岁以上",
+    "context": "当前乌克兰军队状况"
+   }
+  ],
+  "direction": "僵持",
+  "horizon": "2026年前",
+  "confidence": "high",
+  "extracted_on": "2026-10-28"
+ },
+ {
+  "kol": "Hans M. Kristensen",
+  "theater": "军工与战略",
+  "source_url": "https://physicistscoalition.org/wp-content/uploads/2023/05/Hans-Kristensen-May2023_SLCM-N-compressed.pdf",
+  "source_title": "2023_SLCM-N - physicistscoalition.org",
+  "published_on": null,
+  "date_status": "unverified",
+  "attribution": "verified",
+  "attribution_reason": "正文含姓名「hans m. kristensen」",
+  "topic": "美国海基核巡航导弹 SLCM-N 项目的战略必要性与挑战",
+  "claim": "SLCM-N 项目缺乏充分战略正当性，拜登政府取消该项目的决定是合理的",
+  "reasoning": "Hans M. Kristensen 认为特朗普政府《核态势评估》提出的 SLCM-N 理由站不住脚：现有核能力已足够灵活，美国已有约1000枚低当量核弹头和穿透防御的快速打击选项，没有证据表明对手认为美国会因当量自我威慑，且该项目实际上模仿了俄罗斯战术核思维、削弱了北约双重能力飞机（DCA）姿态的可信度。虽然战略司令部司令继续为其辩护，但成本、潜艇任务竞争以及违反1992年总统核倡议（承诺不生产新型核 SLCM）等实际挑战使项目难以维持。",
+  "evidence": [
+   "特朗普《核态势评估》建议增加两种核「补充物」以提供多样化威慑选择",
+   "美国核武库已包含约1000枚低当量核弹头，已有穿透防御的快速打击选项",
+   "俄罗斯开始违反《中导条约》时美国核 SLCM 仍在武器库中，SSC-8（9M279）未给俄罗斯在欧洲带来军事优势",
+   "拜登政府《核态势评估》因 W76-2 存在、对俄影响力存疑及预期成本而取消 SLCM-N 项目",
+   "战略司令部司令 Adm Richards 在2022年国会听证后继续公开主张 SLCM-N，声称需要「持久的、可生存的区域能力」",
+   "SLCM-N 面临三大挑战：生产进度与成本、潜艇任务竞争、违反1992年总统核倡议（美国承诺不生产新型核 SLCM）"
+  ],
+  "data": [
+   {
+    "metric": "历史核 SLCM 数量",
+    "value": "初始计划758枚，实际仅325枚",
+    "context": "1984年部署时，用于198艘舰艇/潜艇，实际86艘"
+   },
+   {
+    "metric": "现有低当量核弹头",
+    "value": "约1000枚",
+    "context": "Hans M. Kristensen 在正文中陈述"
+   },
+   {
+    "metric": "核 Tomahawk 射程",
+    "value": "2500 km",
+    "context": "搭载 W80-0 弹头（5-150千吨当量）"
+   },
+   {
+    "metric": "W80-0 弹头拆除时间",
+    "value": "2012年全部拆除",
+    "context": "核 Tomahawk 于2010年《核态势评估》退役"
+   }
+  ],
+  "direction": "降级",
+  "horizon": "未指明",
+  "confidence": "high",
+  "extracted_on": "2026-10-28"
+ }
+]
