@@ -69,38 +69,50 @@ if ! git diff --cached --quiet; then
     git -c commit.gpgsign=false commit -q -m "Daily update: refresh war KOL statements and dashboard $(date +%F)" || {
       echo "个人端 commit 仍失败 — 未 push"; exit 3; }
   fi
-  git push -q origin main 2>&1 | grep -vE "duplicate proto" || true
-  # 读回 remote 校验，避免假阳性
-  if [ "$(git rev-parse HEAD)" = "$(git ls-remote origin HEAD 2>/dev/null | awk '{print $1}')" ]; then
-    echo "个人端已 push"
-  else
-    echo "个人端 push 未生效 — remote HEAD 与本地不一致"; exit 4
-  fi
-else
-  echo "个人端无变更"
 fi
+# ★2026-10-30: 公网 GitHub 改为每两周推一次(提交仍每天做; 内网 / 内网 vibe / Cloudflare 不受影响)。
+#   闸在 ~/.hermes/scripts/public_push_gate.sh; 推送失败不再中断后面的内网同步与发布, 只在脚本末尾返回失败码。
+PUB_RC=0
+bash "$HOME/.hermes/scripts/public_push_gate.sh" push war-kol "$ROOT" main || PUB_RC=$?
+[ "$PUB_RC" -ne 0 ] && echo "⚠ 公网 GitHub 推送异常 rc=$PUB_RC(内网与 Cloudflare 照常发布)"
+cd "$ROOT" || exit 1
 
-# 4. 内部端同步（monorepo 子目录）
-# 内网 monorepo 路径从环境变量读，不硬编码仓库名（公网 repo 不应出现内网标识）
-# 必须由环境变量提供；未设置则跳过内网同步（公网 repo 不留任何内网标识）
-INT="${WARKOL_INTERNAL_MONOREPO:-}"
-if [ -d "$INT/.git" ]; then
-  rsync -a --delete --exclude='.git/' --exclude='.venv/' --exclude='scratch/' \
-        --exclude='__pycache__/' --exclude='.env' --exclude='.secrets/' \
-        "$ROOT/" "$INT/War-KOL/"
-  cd "$INT" || exit 1
+# 4. 内网 monorepo 同步（子目录 War-KOL/）—— 内网每天同步, 不受公网两周闸影响
+# ★2026-10-30 重写: 原先依赖环境变量 WARKOL_INTERNAL_MONOREPO, 该变量没有设置处,
+#   内网同步自 09-14 起停摆(内网副本最新文件停在 10-01)。现改为与 Science-KOL 相同的固定路径。
+# data/thesis/_body_cache_all.json(~77MB, 可再生缓存, 公网 .gitignore 也排除)不进内网;
+#   --delete 不会删除被排除的文件, 内网里已有的旧版原样保留。
+# 内网 monorepo 的本机路径只从环境变量读取，不在公网脚本里写任何字面量。
+#   WARKOL_MONO 的设置位置与默认值见内网补充文件（只在内网 repo）。
+#   两个变量任一已设置即可；都未设置则跳过内网同步（不报错）。
+# 本机路径配置（不在仓库里；换机器要自己建，见 HANDOVER 第 12.3 节）
+[ -f "$HOME/.hermes/war_kol_publish.env" ] && . "$HOME/.hermes/war_kol_publish.env"
+MONO="${WARKOL_MONO:-${WARKOL_INTERNAL_MONOREPO:-}}"
+if [ -n "$MONO" ] && [ -d "$MONO/.git" ]; then
+  mkdir -p "$MONO/War-KOL"
+  rsync -a --delete --exclude='.git/' --exclude='.venv*/' --exclude='scratch/' \
+        --exclude='__pycache__/' --exclude='.env' --exclude='.secrets/' --exclude='node_modules/' \
+        --exclude='data/thesis/_body_cache_all.json' \
+        "$ROOT/" "$MONO/War-KOL/"
+  cd "$MONO" || exit 1
+  BRANCH=$(git rev-parse --abbrev-ref HEAD)   # 不硬编码 main: 内网 monorepo 常在特性分支上
   git add War-KOL/ 2>/dev/null
   git add -f War-KOL/data/notion_ids.json 2>/dev/null
-  if ! git diff --cached --quiet War-KOL/ 2>/dev/null; then
-    git -c commit.gpgsign=false commit War-KOL/ -q -m "War-KOL daily update $(date +%F)" 2>&1 | grep -vE "duplicate proto" || true
-    if [ -f "$HOME/.certenv" ]; then
-      source "$HOME/.certenv" 2>/dev/null
-      git push origin HEAD 2>&1 | grep -vE "duplicate proto|Found cert|session_id|username" | tail -2 || true
-      echo "内部端已 push"
+  if ! git diff --cached --quiet -- War-KOL/ 2>/dev/null; then
+    # pathspec 限定 War-KOL/: 不把别的 agent 暂存在同一仓库里的东西卷进来
+    if git -c commit.gpgsign=false commit -q -m "War-KOL daily update $(date +%F)" -- War-KOL/ 2>&1 | grep -vE "duplicate proto"; [ "${PIPESTATUS[0]}" -eq 0 ]; then
+      [ -n "${WARKOL_CERT_ENV:-}" ] && [ -f "$WARKOL_CERT_ENV" ] && source "$WARKOL_CERT_ENV" 2>/dev/null
+      PUSH_OUT=$(git push -q origin "HEAD:$BRANCH" 2>&1); PRC=$?
+      if [ "$PRC" -eq 0 ]; then echo "内网 monorepo 已同步 (分支 $BRANCH)"
+      else echo "内网 monorepo push 失败 rc=$PRC (commit 已在本地): $(echo "$PUSH_OUT" | grep -vE 'duplicate proto|Found cert|session_id|username' | tail -2)"; fi
+    else
+      echo "内网 monorepo commit 失败"
     fi
   else
-    echo "内部端无变更"
+    echo "内网 monorepo 无变更"
   fi
+else
+  echo "内网 monorepo 未配置或路径不存在, 跳过内网同步"
 fi
 # 5. 内网 vibe 镜像（Chao 2026-09-19：公网打不开时的替代入口）
 #    幂等——产物没变就秒退不重传；失败也永不连累公网发布（自身恒 exit 0）。
@@ -123,3 +135,4 @@ cd "$ROOT" || exit 1
 bash "$ROOT/scripts/publish_cloudflare.sh" || echo "⚠ Cloudflare 发布未成功（详见 scratch/cloudflare.log）"
 
 echo "publish 完成"
+exit ${PUB_RC:-0}

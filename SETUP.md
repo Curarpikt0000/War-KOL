@@ -35,9 +35,11 @@ python3 scripts/sync_kol_from_notion.py          # 先 dry-run 看 diff
 python3 scripts/sync_kol_from_notion.py --apply  # 确认后落盘
 ```
 
-名册数应与 Notion 的 active 数一致（2026-10-01 为 67）。**名册只读，不手改。**
+名册数应与 Notion 的 active 数一致（2026-10-30 为 68）。**名册只读，不手改。**
 
 ## 3. 建 cron
+
+> ⚠ **换新机器先建 `~/.hermes/war_kol_publish.env`**（两行路径，见 `HANDOVER.md §12.3`），否则 `publish.sh` 会静默跳过内网同步。
 
 对照 `ops/cron-jobs.json`，每个 job 用 Hermes 的 cron 管理创建（把 `<PROJECT_ROOT>` 换成你的路径）：
 
@@ -51,18 +53,27 @@ python3 scripts/sync_kol_from_notion.py --apply  # 确认后落盘
 
 模型：用 `claude-sonnet-5-5`（**别用 opus**，贵 67% 且没必要）。创建后**必须验证**：下一次 job 启动后，查 `~/.hermes/state.db` 的 `sessions.model` 字段确认真的是 sonnet（注意日志是 JST、库是 UTC）。
 
-**系统 crontab（容灾，纯脚本）**：
+**系统 crontab（数据管线，纯脚本，零模型费用）**——**当前机器只有这 3 条，且 2026-10-30 起已被注释停用**；要恢复就取消注释：
 
 ```
 */5  * * * * cd <PROJECT_ROOT> && bash scripts/daily_chain.sh      >/dev/null 2>&1
 */5  * * * * cd <PROJECT_ROOT> && ./scripts/layers_watchdog.sh     >/dev/null 2>&1
 */10 * * * * cd <PROJECT_ROOT> && ./scripts/finalize_watchdog.sh   >/dev/null 2>&1
-30 10-22 * * * cd <PROJECT_ROOT> && bash scripts/delivery_fallback.sh >/dev/null 2>&1
 ```
+
+> `delivery_fallback.sh`（Telegram 日报直连兜底）**不在当前 crontab**，因为日报已停；恢复日报时再加：`30 10-22 * * * cd <PROJECT_ROOT> && bash scripts/delivery_fallback.sh >/dev/null 2>&1`。
+>
+> ⚠ **换新机器时先别加 `layers_watchdog.sh` 那一行**，直到 `data/thesis/_body_cache_all.json` 已从原机拷到位（见 `HANDOVER.md §8` 全新克隆陷阱，缺它会把现有译文洗空）。
+
+> **`war-kol-daily` 当前是暂停状态**（2026-10-30 Chao 要求）。重建 cron 时按 `ops/cron-jobs.json` 里的 `enabled` 字段，**不要想当然地启用它**。
 
 > ⚠ 两段式不要合并：抓取（no_agent 脚本）与分析写入（agent）必须分开，否则撞 agent 600s 空闲上限。
 
 ## 4. 验证（逐条）
+
+```bash
+python3 ops/handover_check.py     # 先跑这个：只读，8 项自检，FAIL 必须先处理
+```
 
 ```bash
 python3 scripts/build_dashboard.py            # 应生成 dashboard/index.html（约 19MB）
@@ -75,7 +86,7 @@ curl -s -A "Mozilla/5.0" -o /dev/null -w '%{http_code}\n' https://war-kol.pages.
 
 ## 5. 日常
 
-- 你**不需要每天手动跑任何东西**。看 Telegram 日报；异常时先查 `logs/chain_<日>.status` 与 `scratch/layers.log`。
+- 2026-10-30 起 agent 日报与数据管线**都已停**（Chao 批准），看板停在 10-30 的数据。要不要恢复由 Chao 决定；恢复前先读 `HANDOVER.md §12.2`。异常时先查 `logs/chain_<日>.status` 与 `scratch/layers.log`。
 - 看到 `总结0字`：先查 `no_body` 字段（原文抓不到的诚实标注，约 6%），不是故障。
 - 想加人：用四维打分 → ≥7.9 才提议 → 写 Notion（`scripts/write_roster_to_notion.py --roster <json>`，先 dry-run）→ `sync_kol_from_notion.py --apply` → `fetch_statements.py --mode backfill --days 365 --limit N`（新人在名册前列）→ 后台跑 `extract_thesis.py` 与 `build_layers.py`。**名册增删最终由 Chao 拍板。**
 - 长命令（抽取 / 四层）一律后台 + notify，前台会被 ~400s 工具超时打断。
@@ -85,3 +96,5 @@ curl -s -A "Mozilla/5.0" -o /dev/null -w '%{http_code}\n' https://war-kol.pages.
 - 任一 cron 出问题：暂停（不删），原 agent 的 job 可 resume。
 - 误发布：`git revert` 对应 commit 后重跑 `publish.sh`。
 - 名册被误改：从 Notion 重新 `sync_kol_from_notion.py --apply`，本地有 `data/kol_registry.json.bak_*` 备份。
+- 暂停/恢复日报：对 `war-kol-daily`（job_id `bebf9f3b45ba`）pause / resume；原 09:00 计划保留。
+- 停数据管线：`crontab -l > ~/crontab.war-kol.bak`，再把含 `War-KOL` 的 3 行注释；恢复 `crontab ~/crontab.war-kol.bak`。
